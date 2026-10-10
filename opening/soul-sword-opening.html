@@ -91,11 +91,11 @@ const UI = '"Zen Kaku Gothic New", "Hiragino Sans", system-ui, sans-serif';
 const RM = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const EL = [
-  { k:'fire',    kanji:'炎', name:'HOMURA',  jp:'炎竜', beast:'Dragón de fuego',        soul:'ALMA DE FUEGO',     z:4, zk:'辰', animal:'DRAGÓN',    c:'#ff4a1c', c2:'#ffd36a', dark:'#2e0802' },
-  { k:'water',   kanji:'水', name:'MIZUCHI', jp:'蛟',   beast:'Serpiente de los mares', soul:'ALMA DE AGUA',      z:5, zk:'巳', animal:'SERPIENTE', c:'#2f8bff', c2:'#c4ecff', dark:'#03153a' },
-  { k:'wind',    kanji:'風', name:'HAYATE',  jp:'疾風', beast:'Corcel de la tormenta',  soul:'ALMA DE VIENTO',    z:6, zk:'午', animal:'CABALLO',   c:'#3fe0a6', c2:'#e2fff2', dark:'#032419' },
-  { k:'thunder', kanji:'雷', name:'RAIKO',   jp:'雷虎', beast:'Tigre del trueno',       soul:'ALMA DEL TRUENO',   z:2, zk:'寅', animal:'TIGRE',     c:'#ffd52e', c2:'#fffbe0', dark:'#241c00' },
-  { k:'earth',   kanji:'土', name:'GANGYŪ',  jp:'岩牛', beast:'Buey de la montaña',     soul:'ALMA DE LA TIERRA', z:1, zk:'丑', animal:'BUEY',      c:'#c98a4b', c2:'#f6dcb4', dark:'#251404' },
+  { k:'fire',    kanji:'炎', name:'HOMURA',  jp:'炎竜', beast:'Dragón de fuego',        soul:'ALMA DE FUEGO', fk:'炎竜纏', fes:'MANTO DEL DRAGÓN ÍGNEO',     z:4, zk:'辰', animal:'DRAGÓN',    c:'#ff4a1c', c2:'#ffd36a', dark:'#2e0802' },
+  { k:'water',   kanji:'水', name:'MIZUCHI', jp:'蛟',   beast:'Serpiente de los mares', soul:'ALMA DE AGUA', fk:'蛟纏', fes:'MANTO DE LA SERPIENTE ABISAL',      z:5, zk:'巳', animal:'SERPIENTE', c:'#2f8bff', c2:'#c4ecff', dark:'#03153a' },
+  { k:'wind',    kanji:'風', name:'HAYATE',  jp:'疾風', beast:'Corcel de la tormenta',  soul:'ALMA DE VIENTO', fk:'疾風纏', fes:'MANTO DEL CORCEL CELESTE',    z:6, zk:'午', animal:'CABALLO',   c:'#3fe0a6', c2:'#e2fff2', dark:'#032419' },
+  { k:'thunder', kanji:'雷', name:'RAIKO',   jp:'雷虎', beast:'Tigre del trueno',       soul:'ALMA DEL TRUENO', fk:'雷虎纏', fes:'MANTO DEL TIGRE TRONANTE',   z:2, zk:'寅', animal:'TIGRE',     c:'#ffd52e', c2:'#fffbe0', dark:'#241c00' },
+  { k:'earth',   kanji:'土', name:'GANGYŪ',  jp:'岩牛', beast:'Buey de la montaña',     soul:'ALMA DE LA TIERRA', fk:'岩牛纏', fes:'MANTO DEL BUEY DE HIERRO', z:1, zk:'丑', animal:'BUEY',      c:'#c98a4b', c2:'#f6dcb4', dark:'#251404' },
 ];
 // Los otros siete espíritus del zodiaco siguen ocultos: solo se insinúan.
 const HIDDEN = ['子', '卯', '未', '申', '酉', '戌', '亥'].map(zk => ({ k:'hidden', kanji:zk, c:'#4a4566', c2:'#a9a4c8', dark:'#08070e' }));
@@ -500,11 +500,13 @@ function masaruParts(t, o, rim) {
 }
 function drawMasaru(x, y, s, t, o = {}) {
   ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+  if (o.form) formPre(o.form, t);
   if (o.rim) {
     ctx.save(); ctx.shadowColor = o.rim; ctx.shadowBlur = o.rimBlur ?? 24;
     ctx.translate(o.rimDx ?? .004, o.rimDy ?? -.004); ctx.fillStyle = o.rim; masaruParts(t, o, true); ctx.restore();
   }
   ctx.fillStyle = o.body || '#06070d'; masaruParts(t, o, false);
+  if (o.form) formPost(o.form, t);
   // bufanda carmesí
   const fl = o.flutter ?? 1, N = 14, top = [], bot = [];
   for (let k = 0; k <= N; k++) {
@@ -535,6 +537,193 @@ function tongue(px, py, w, h) {
   ctx.quadraticCurveTo(px + w * .6, py - h * .6, px + w, py);
   ctx.quadraticCurveTo(px, py + w * .6, px - w, py); ctx.fill();
 }
+
+/* ---------- transformaciones: armadura de cada alma ---------- */
+function formPre(el, t) {
+  ctx.save(); ctx.globalCompositeOperation = 'lighter';
+  if (el.k === 'water') {
+    for (const sd of [-1, 1]) for (let r = 0; r < 3; r++) {
+      const N = 18, top = [], bot = [];
+      for (let k = 0; k <= N; k++) {
+        const u = k / N, x = sd * (.13 + u * (.24 + r * .1)) + Math.sin(t * 4 - u * 5 + r) * .045 * u, y = -.8 + u * (.84 - r * .06), w = (.06 - r * .012) * (1 - u * .55);
+        top.push([x - sd * w / 2, y]); bot.push([x + sd * w / 2, y]);
+      }
+      ctx.beginPath(); poly(top.concat(bot.reverse())); ctx.fillStyle = hexA(r ? el.c : el.c2, .42 - r * .1); ctx.fill();
+    }
+  }
+  if (el.k === 'wind' || el.k === 'gold') {
+    const flap = Math.sin(t * 5) * .07;
+    for (const sd of [-1, 1]) for (let f = 0; f < 8; f++) {
+      const a = -Math.PI / 2 + sd * (.3 + f * .16 + flap), L = .8 - f * .055, bx = sd * .07, by = -.74;
+      const tx = bx + Math.cos(a) * L, ty = by + Math.sin(a) * L * .85, nx = -Math.sin(a) * .05 * sd, ny = Math.cos(a) * .05 * sd;
+      ctx.beginPath(); ctx.moveTo(bx, by);
+      ctx.quadraticCurveTo((bx + tx) / 2 - nx, (by + ty) / 2 - ny, tx, ty);
+      ctx.quadraticCurveTo((bx + tx) / 2 + nx * .4, (by + ty) / 2 + ny * .4, bx, by); ctx.closePath();
+      ctx.fillStyle = hexA(f % 2 ? el.c : el.c2, .62 - f * .045); ctx.fill();
+    }
+  }
+  ctx.restore();
+}
+function flameUp(x, y, w, h, el) {
+  ctx.fillStyle = hexA(el.c, .9); tongue(x, y, w, h);
+  ctx.fillStyle = hexA(el.c2, .9); tongue(x, y, w * .5, h * .6);
+}
+function formPost(el, t) {
+  ctx.save();
+  const k = el.k;
+  if (k === 'fire' || k === 'gold') {
+    ctx.globalCompositeOperation = 'lighter';
+    for (let i = 0; i < 7; i++) flameUp(-.09 + i * .03, -.93, .03, .16 + .08 * Math.sin(t * 11 + i * 1.7) + (i === 3 ? .1 : 0), el);
+    for (const sd of [-1, 1]) for (let j = 0; j < 3; j++) flameUp(sd * (.12 + j * .035), -.79 + j * .015, .022, .12 + .05 * Math.sin(t * 10 + j * 2 + sd), el);
+    if (k === 'fire') for (const sd of [-1, 1]) flameUp(sd * .21, -.56, .03, .12 + .04 * Math.sin(t * 12 + sd), el);
+    if (k === 'gold') { ctx.beginPath(); ctx.ellipse(0, -1.05, .11, .025, 0, 0, TAU); ctx.strokeStyle = hexA(el.c2, .9); ctx.lineWidth = .012; ctx.stroke(); }
+  }
+  if (k === 'water') {
+    for (const sd of [-1, 1]) {
+      ctx.beginPath(); ctx.moveTo(sd * .2, -.6); ctx.quadraticCurveTo(sd * .3, -.63, sd * .34, -.76); ctx.quadraticCurveTo(sd * .26, -.62, sd * .215, -.55); ctx.closePath();
+      ctx.fillStyle = hexA(el.c2, .9); ctx.fill();
+      ctx.beginPath(); ctx.moveTo(sd * .03, -.97); ctx.quadraticCurveTo(sd * .1, -1.02, sd * .16, -1.1); ctx.quadraticCurveTo(sd * .09, -.98, sd * .06, -.94); ctx.closePath(); ctx.fill();
+    }
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.beginPath(); ctx.ellipse(0, -1.04, .12, .03, 0, 0, TAU); ctx.strokeStyle = hexA(el.c2, .8); ctx.lineWidth = .01; ctx.stroke();
+  }
+  if (k === 'wind') {
+    for (let r = 0; r < 2; r++) {
+      ctx.beginPath(); ctx.moveTo(.05, -.95);
+      for (let i = 1; i <= 10; i++) ctx.lineTo(.05 + i * .045, -.95 + Math.sin(t * 9 - i * .8 + r) * .03 + r * .03);
+      ctx.strokeStyle = hexA(el.c2, .95); ctx.lineWidth = .014 - r * .004; ctx.lineCap = 'round'; ctx.stroke();
+    }
+  }
+  if (k === 'thunder') {
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.beginPath(); ctx.moveTo(-.07, -.9);
+    for (let i = 0; i <= 10; i++) { const a = Math.PI + i / 10 * Math.PI, r = i % 2 ? .08 : .2 + .03 * Math.sin(t * 20 + i); ctx.lineTo(Math.cos(a) * r, -.93 + Math.sin(a) * r * 1.2); }
+    ctx.lineTo(.07, -.9); ctx.closePath(); ctx.fillStyle = hexA(el.c, .85); ctx.fill();
+    ctx.shadowColor = el.c; ctx.shadowBlur = 20; ctx.strokeStyle = hexA(el.c2, 1); ctx.lineWidth = .007; ctx.lineJoin = 'round';
+    for (const sd of [-1, 1]) {
+      ctx.beginPath(); ctx.moveTo(sd * .1, -.79); ctx.lineTo(sd * .05, -.71); ctx.lineTo(sd * .11, -.64); ctx.lineTo(sd * .04, -.52); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(sd * .16, -.78); ctx.lineTo(sd * .2, -.7); ctx.lineTo(sd * .17, -.66); ctx.lineTo(sd * .21, -.6); ctx.stroke();
+      for (let c = 0; c < 3; c++) { ctx.beginPath(); ctx.moveTo(sd * (.19 + c * .015), -.56); ctx.lineTo(sd * (.2 + c * .03), -.45 + c * .01); ctx.lineTo(sd * (.205 + c * .015), -.56); ctx.closePath(); ctx.fillStyle = hexA(el.c2, 1); ctx.fill(); }
+    }
+    ctx.shadowBlur = 0;
+  }
+  if (k === 'earth') {
+    for (const sd of [-1, 1]) {
+      for (const [x, y, r] of [[.17, -.8, .075], [.22, -.73, .05]]) { rockPoly(sd * x, y, r, sd * .5, x * 40); ctx.fillStyle = el.dark; ctx.fill(); ctx.strokeStyle = el.c; ctx.lineWidth = .008; ctx.stroke(); }
+      ctx.beginPath(); ctx.moveTo(sd * .05, -.96); ctx.quadraticCurveTo(sd * .2, -.99, sd * .23, -1.14); ctx.quadraticCurveTo(sd * .15, -1.0, sd * .04, -.92); ctx.closePath();
+      ctx.fillStyle = el.c; ctx.fill(); ctx.strokeStyle = el.c2; ctx.lineWidth = .005; ctx.stroke();
+    }
+    ctx.beginPath(); poly([[-.085, -.79], [.085, -.79], [.105, -.62], [0, -.53], [-.105, -.62]]);
+    ctx.fillStyle = el.dark; ctx.fill(); ctx.strokeStyle = el.c; ctx.lineWidth = .008; ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(0, -.77); ctx.lineTo(0, -.56); ctx.moveTo(-.07, -.68); ctx.lineTo(.07, -.68); ctx.strokeStyle = hexA(el.c2, .8); ctx.lineWidth = .005; ctx.stroke();
+  }
+  ctx.restore();
+}
+function swordFx(el, x, y, ang, len, t) {
+  const dx = Math.cos(ang), dy = Math.sin(ang), P = u => [x + dx * u * len, y + dy * u * len];
+  ctx.save(); ctx.globalCompositeOperation = 'lighter';
+  if (el.k === 'fire') for (let i = 0; i < 14; i++) { const u = .12 + i * .065, [px, py] = P(u); flameUp(px, py, 16, 50 + 40 * Math.abs(Math.sin(t * 12 + i * 1.3)), el); }
+  if (el.k === 'water') for (let r = 0; r < 2; r++) {
+    ctx.beginPath();
+    for (let i = 0; i <= 40; i++) { const u = .08 + i / 40, [px, py] = P(u), o = Math.sin(u * 14 - t * 9 + r * Math.PI) * 26; ctx.lineTo(px - dy * o, py + dx * o); }
+    ctx.strokeStyle = hexA(r ? el.c : el.c2, .8); ctx.lineWidth = 7; ctx.stroke();
+  }
+  if (el.k === 'wind') for (let i = 0; i < 6; i++) {
+    const u = ((t * 1.5 + i / 6) % 1) * .95 + .1, [px, py] = P(u);
+    ctx.beginPath(); ctx.ellipse(px, py, 46, 18, ang + Math.PI / 2, t * 8 + i, t * 8 + i + 3.6); ctx.strokeStyle = hexA(el.c2, .8); ctx.lineWidth = 5; ctx.stroke();
+  }
+  if (el.k === 'thunder') { const f = Math.floor(t * 15); for (let i = 0; i < 2; i++) { const [ax, ay] = P(.08), [bx, by] = P(1.08); bolt(ax, ay, bx, by, f * 2 + i, el.c, 4); } }
+  if (el.k === 'earth') {
+    ctx.globalCompositeOperation = 'source-over';
+    for (let i = 0; i < 11; i++) { const u = .1 + i * .085, [px, py] = P(u); rockPoly(px - dy * 10, py + dx * 10, 20 + 10 * hash(i), i, i * 7); ctx.fillStyle = el.dark; ctx.fill(); ctx.strokeStyle = el.c; ctx.lineWidth = 3; ctx.stroke(); }
+  }
+  ctx.restore();
+}
+
+/* ---------- bestias espirituales gigantes ---------- */
+const symm = half => half.concat(half.slice(1, -1).reverse().map(([x, y]) => [-x, y]));
+const TIGER = symm([[0, -.7], [.25, -.68], [.45, -.98], [.62, -.55], [.82, -.22], [1.0, .12], [.78, .22], [.88, .45], [.52, .55], [.3, .78], [0, .82]]);
+const OX = symm([[0, -.45], [.3, -.45], [.45, -.56], [.75, -.62], [1.1, -.9], [1.38, -1.35], [1.18, -.78], [.82, -.4], [.46, -.3], [.4, .1], [.3, .55], [.18, .78], [0, .82]]);
+const SERPENT = symm([[0, -.62], [.35, -.52], [.62, -.12], [.48, .35], [.16, .72], [0, .78]]);
+const DRAGON = [[1, -.02], [.6, -.22], [.25, -.28], [.05, -.45], [-.35, -.9], [-.2, -.42], [-.48, -.66], [-.35, -.3], [-.6, -.2], [-.55, .1], [-.25, .2], [.25, .22], [.85, .44], [.5, .12], [.95, .08]];
+const HORSE = [[-.3, 1.0], [-.36, .4], [-.25, -.1], [-.12, -.45], [-.06, -.88], [.05, -.46], [.3, -.36], [.75, -.06], [.96, .14], [.9, .32], [.7, .37], [.45, .3], [.2, .42], [.1, 1.0]];
+function beastShape(pts, cx, cy, s, flip, el) {
+  ctx.beginPath(); poly(pts.map(([x, y]) => [cx + x * s * flip, cy + y * s]));
+  ctx.fillStyle = hexA(el.c, .3); ctx.fill();
+  ctx.strokeStyle = hexA(el.c2, .6); ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.stroke();
+}
+function beastEye(x, y, w, ang, el, roar) {
+  ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.shadowColor = el.c2; ctx.shadowBlur = 30 + 50 * roar;
+  ctx.fillStyle = hexA(el.c2, .75 + .25 * roar); ctx.beginPath(); ctx.ellipse(x, y, w, w * .35, ang, 0, TAU); ctx.fill(); ctx.restore();
+}
+function drawBeast(el, t, a) {
+  if (a <= 0) return;
+  const roar = Math.exp(-((t / (BEAT * 2)) % 1) * 4), br = 1 + .02 * Math.sin(t * 2) + .03 * roar;
+  ctx.save(); ctx.globalAlpha = a;
+  if (el.k === 'fire') {
+    const hx = W * .3, hy = H * .22, hs = 190 * br, N = 40, top = [], bot = [];
+    for (let k = 0; k <= N; k++) {
+      const u = k / N, x = hx - hs * .5 - u * W * .5, y = hy + Math.sin(u * Math.PI * 2.4 + t * 1.6) * H * .16 + u * H * .4, w = 75 * (1 - u * .75) + 8;
+      top.push([x, y - w]); bot.push([x, y + w]);
+    }
+    ctx.beginPath(); poly(top.concat(bot.slice().reverse())); ctx.fillStyle = hexA(el.c, .26); ctx.fill(); ctx.strokeStyle = hexA(el.c2, .5); ctx.lineWidth = 4; ctx.stroke();
+    ctx.fillStyle = hexA(el.c2, .45);
+    for (let k = 2; k < N; k += 3) { const [x, y] = top[k], w = 26 * (1 - k / N); ctx.beginPath(); ctx.moveTo(x - w, y + 4); ctx.lineTo(x, y - w * 1.6); ctx.lineTo(x + w, y + 4); ctx.fill(); }
+    beastShape(DRAGON, hx, hy, hs, 1, el);
+    ctx.strokeStyle = hexA(el.c2, .7); ctx.lineWidth = 4;
+    for (const sd of [-1, 1]) { ctx.beginPath(); ctx.moveTo(hx + .9 * hs, hy + .02 * hs); ctx.quadraticCurveTo(hx + .6 * hs, hy + sd * .3 * hs + Math.sin(t * 3) * 20, hx - .2 * hs, hy + sd * .55 * hs); ctx.stroke(); }
+    beastEye(hx + .12 * hs, hy - .14 * hs, .1 * hs, .3, el, roar);
+    if (roar > .3) { ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = a * roar; ctx.fillStyle = radial(hx + hs * 1.2, hy + hs * .3, 0, hs * 1.4, [[0, hexA(el.c2, .7)], [1, hexA(el.c, 0)]]); ctx.fillRect(hx, hy - hs, hs * 3, hs * 3); ctx.restore(); }
+  }
+  if (el.k === 'water') {
+    const N = 64, top = [], bot = [];
+    let last = null;
+    for (let k = 0; k <= N; k++) {
+      const u = k / N, an = u * TAU * 1.5 + t * 1.3, r = 360 - u * 80;
+      const x = W / 2 + Math.cos(an) * r, y = H * 1.02 - u * H * .82 + Math.sin(an) * 70, w = 55 * (1 - u * .35);
+      top.push([x, y - w]); bot.push([x, y + w]); last = [x, y];
+    }
+    ctx.beginPath(); poly(top.concat(bot.slice().reverse())); ctx.fillStyle = hexA(el.c, .22); ctx.fill(); ctx.strokeStyle = hexA(el.c2, .45); ctx.lineWidth = 4; ctx.stroke();
+    const hs = 150 * br;
+    beastShape(SERPENT, last[0], last[1] - 40, hs, 1, el);
+    for (const sd of [-1, 1]) beastEye(last[0] + sd * .26 * hs, last[1] - 40 - .05 * hs, .12 * hs, -sd * .35, el, roar);
+  }
+  if (el.k === 'wind') {
+    for (const sd of [-1, 1]) {
+      const hx = W / 2 - sd * 520, hy = H * .36, hs = 230 * br, flip = sd;
+      ctx.strokeStyle = hexA(el.c2, .55); ctx.lineCap = 'round';
+      for (let m = 0; m < 9; m++) {
+        const bx = hx + (-.3 + m * .02) * hs * flip, by = hy + (-.35 + m * .14) * hs;
+        ctx.beginPath(); ctx.moveTo(bx, by);
+        for (let i = 1; i <= 8; i++) ctx.lineTo(bx - flip * i * 30, by + Math.sin(t * 6 - i * .7 + m) * 18 + i * 4);
+        ctx.lineWidth = 10 - m * .6; ctx.stroke();
+      }
+      beastShape(HORSE, hx, hy, hs, flip, el);
+      beastEye(hx + .3 * hs * flip, hy - .12 * hs, .08 * hs, .4 * flip, el, roar);
+    }
+  }
+  if (el.k === 'thunder') {
+    const hx = W / 2, hy = H * .3, hs = 330 * br;
+    beastShape(TIGER, hx, hy, hs, 1, el);
+    ctx.strokeStyle = hexA(el.dark, .7); ctx.lineWidth = 12; ctx.lineCap = 'round';
+    for (const sd of [-1, 1]) for (const [x0, y0, x1, y1] of [[.55, -.25, .85, -.08], [.5, .02, .8, .14], [.1, -.62, .16, -.42], [.6, -.45, .72, -.3]]) { ctx.beginPath(); ctx.moveTo(hx + sd * x0 * hs, hy + y0 * hs); ctx.lineTo(hx + sd * x1 * hs, hy + y1 * hs); ctx.stroke(); }
+    ctx.beginPath(); ctx.moveTo(hx, hy - .66 * hs); ctx.lineTo(hx, hy - .4 * hs); ctx.stroke();
+    ctx.fillStyle = hexA(el.dark, .75); ctx.beginPath(); ctx.ellipse(hx, hy + .52 * hs, .22 * hs, .12 * hs * (1 + roar), 0, 0, TAU); ctx.fill();
+    ctx.fillStyle = hexA(el.c2, .9);
+    for (const sd of [-1, 1]) { ctx.beginPath(); ctx.moveTo(hx + sd * .16 * hs, hy + .43 * hs); ctx.lineTo(hx + sd * .1 * hs, hy + .43 * hs); ctx.lineTo(hx + sd * .13 * hs, hy + (.58 + .05 * roar) * hs); ctx.fill(); }
+    for (const sd of [-1, 1]) beastEye(hx + sd * .3 * hs, hy - .12 * hs, .13 * hs, -sd * .3, el, roar);
+  }
+  if (el.k === 'earth') {
+    const hx = W / 2, hy = H * .32, hs = 290 * br;
+    beastShape(OX, hx, hy, hs, 1, el);
+    ctx.fillStyle = hexA(el.dark, .7);
+    for (const sd of [-1, 1]) { ctx.beginPath(); ctx.ellipse(hx + sd * .1 * hs, hy + .58 * hs, .05 * hs, .03 * hs, 0, 0, TAU); ctx.fill(); }
+    ctx.beginPath(); ctx.arc(hx, hy + .72 * hs, .09 * hs, 0, TAU); ctx.strokeStyle = '#ffd36a'; ctx.lineWidth = 8; ctx.stroke();
+    for (const sd of [-1, 1]) beastEye(hx + sd * .22 * hs, hy - .08 * hs, .1 * hs, -sd * .25, el, roar);
+  }
+  ctx.restore();
+}
+
 function drawAura(x, y, s, el, t, a = 1) {
   ctx.save(); ctx.globalCompositeOperation = 'lighter';
   ctx.fillStyle = radial(x, y - s * .5, 0, s * .8, [[0, hexA(el.c, .5 * a)], [.6, hexA(el.c, .16 * a)], [1, hexA(el.c, 0)]]);
@@ -975,23 +1164,49 @@ function insertScene(el, t, u, land, slots) {
 function formScene(el, t, u, slots) {
   fillBG(el.dark);
   ctx.fillStyle = radial(W / 2, H * .55, 0, 1200, [[0, hexA(el.c, .6)], [1, hexA(el.dark, 0)]]); ctx.fillRect(0, 0, W, H);
+  const tb = eo3(inv(0, .6, u)), zoom = lerp(1.25, 1, tb);
+  ctx.save(); ctx.translate(W / 2, H * .62); ctx.rotate(lerp(-.05, 0, tb)); ctx.scale(zoom, zoom); ctx.translate(-W / 2, -H * .62);
   bgFx(el, t, .9);
   const pulse = Math.exp(-((t / BEAT) % 1) * 5);
   radialLines(W / 2, H * .55, 50, el.c2, .1 + .15 * pulse, t, 380);
-  txt(el.kanji, W * .19, H * .48, 680, KANJI, hexA(el.c2, .16));
+  txt(el.kanji, W * .17, H * .5, 680, KANJI, hexA(el.c2, .12));
+  drawBeast(el, t, .95 * inv(.2, .75, u));
   const bb = (t / BEAT) % 2;
-  if (bb < .7) {
+  if (bb < .7 && u > .5) {
     const flip = Math.floor(t / (BEAT * 2)) % 2;
     drawSlash(W / 2, H * .5, 700, flip ? -2.7 : -.45, flip ? .5 : -3.6, eo3(inv(0, .28, bb)), el.c2, 80, 1 - inv(.28, .7, bb));
   }
-  const s = 600 * (1 + .025 * pulse);
-  drawAura(W / 2, H * .97, s, el, t, 1);
-  drawMasaru(W / 2, H * .97, s, t, { pose: 'front', eyes: el.c2, hair: el.dark, rim: el.c2, rimBlur: 34, swordTint: el.c, orb: el, slots, flutter: 1.6 });
-  const tp = eo3(inv(0, .35, u));
-  ctx.save(); ctx.globalAlpha = tp;
-  txt(`MASARU × ${el.name}`, W - 90 + (1 - tp) * 200, 120, 60, DISPLAY, '#ffffff', { align: 'right', w: 900, stroke: hexA(el.dark, .8), lw: 8, ls: 4 });
-  txt(`マサル × ${el.jp}`, W - 92 + (1 - tp) * 200, 190, 40, KANJI, el.c2, { align: 'right' });
+  const s = 600 * (1 + .025 * pulse), mx = W / 2, my = H * .97;
+  const pil = 1 - inv(.12, .7, u);
+  if (pil > 0) {
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    const pw = 340 * Math.sin(Math.PI * Math.min(1, u / .7)) + 40;
+    const g = ctx.createLinearGradient(mx - pw, 0, mx + pw, 0);
+    g.addColorStop(0, hexA(el.c, 0)); g.addColorStop(.35, hexA(el.c, .7 * pil)); g.addColorStop(.5, `rgba(255,255,255,${pil})`); g.addColorStop(.65, hexA(el.c, .7 * pil)); g.addColorStop(1, hexA(el.c, 0));
+    ctx.fillStyle = g; ctx.fillRect(mx - pw, -200, pw * 2, H + 400);
+    ctx.restore();
+  }
+  for (let k = 0; k < 2; k++) {
+    const q = inv(.05 + k * .12, .75 + k * .12, u);
+    if (q <= 0 || q >= 1) continue;
+    ctx.beginPath(); ctx.ellipse(mx, my - 6, q * 1100, q * 150, 0, 0, TAU); ctx.strokeStyle = hexA(el.c2, (1 - q) * .9); ctx.lineWidth = 30 * (1 - q) + 2; ctx.stroke();
+  }
+  drawAura(mx, my, s * 1.1, el, t, 1.2);
+  const white = u < .3;
+  drawMasaru(mx, my, s, t, { pose: 'front', form: el, eyes: white ? null : el.c2, hair: white ? '#ffffff' : el.dark, body: white ? '#ffffff' : '#06070d', rim: el.c2, rimBlur: 40, swordTint: el.c, orb: el, slots, flutter: 1.8, scarf: el.k === 'fire' ? el.c : undefined });
+  if (!white) swordFx(el, mx + .19 * s, my - .56 * s, .55, .7 * s, t);
   ctx.restore();
+  const tp = eo3(inv(.25, .6, u));
+  if (tp > 0) {
+    ctx.save(); ctx.globalAlpha = tp;
+    const ks = lerp(1.8, 1, eBack(clamp(inv(.25, .55, u))));
+    ctx.save(); ctx.translate(W - 90, 130); ctx.scale(ks, ks);
+    txt(el.fk, 0, 0, 120, KANJI, el.c2, { align: 'right', stroke: hexA(el.dark, .9), lw: 12, ls: 8 });
+    ctx.restore();
+    txt(`MASARU × ${el.name}`, W - 92 + (1 - tp) * 200, 238, 48, DISPLAY, '#ffffff', { align: 'right', w: 900, stroke: hexA(el.dark, .8), lw: 8, ls: 4 });
+    txt(el.fes, W - 94 + (1 - tp) * 260, 292, 28, UI, el.c2, { align: 'right', w: 700, ls: 5, stroke: hexA(el.dark, .8), lw: 6 });
+    ctx.restore();
+  }
 }
 function ultimate(t, u) {
   fillBG('#1b1205');
@@ -1006,7 +1221,7 @@ function ultimate(t, u) {
   orbs.filter(o => o.z < 0).forEach(o => drawOrb(o.x, o.y, 52 + 14 * o.z, o.el, t));
   drawAura(W / 2, H * .97, 600, cyc, t, .8);
   drawAura(W / 2, H * .97, 640, GOLDEL, t, .9);
-  drawMasaru(W / 2, H * .97, 600, t, { pose: 'front', eyes: '#fff6dc', hair: '#3a2304', rim: '#ffe6a0', rimBlur: 45, swordTint: '#ffc34a', orb: GOLDEL, slots: [1, 1, 1, 1, 1], flutter: 2 });
+  drawMasaru(W / 2, H * .97, 600, t, { pose: 'front', form: GOLDEL, eyes: '#fff6dc', hair: '#3a2304', rim: '#ffe6a0', rimBlur: 45, swordTint: '#ffc34a', orb: GOLDEL, slots: [1, 1, 1, 1, 1], flutter: 2 });
   orbs.filter(o => o.z >= 0).forEach(o => drawOrb(o.x, o.y, 52 + 14 * o.z, o.el, t));
   const tp = eBack(inv(0, .35, u));
   ctx.save(); ctx.translate(W / 2, 140); ctx.scale(lerp(1.6, 1, clamp(tp, 0, 1.2)), lerp(1.6, 1, clamp(tp, 0, 1.2))); ctx.globalAlpha = clamp(tp);
@@ -1244,6 +1459,7 @@ for (let k = 1; k <= 4; k++) {
   FLASH.push([b + LAND_QUICK / BAR, .4, .65, EL[k].c2], [b + .5, .25, .35, '#ffffff']);
   SHAKE.push([b + LAND_QUICK / BAR, 18, 5]);
 }
+SHAKE.push([30, 20, 4]); for (let k = 1; k <= 4; k++) SHAKE.push([30 + 2 * k + .5, 20, 4]);
 function flashAt(t) {
   let best = null, ba = 0;
   for (const [b, d, a, c] of FLASH) { const t0 = b * BAR; if (t >= t0 && t < t0 + d) { const al = a * (1 - (t - t0) / d); if (al > ba) { ba = al; best = c; } } }
@@ -1436,6 +1652,13 @@ function shing(B, t) {
   chain(noise(t, .5), bp, envGain(t, .5, .04, .05, .35), B.lead);
   chain(osc('sine', 3520, t, 1), envGain(t + .1, .05, .005, .01, .8), B.lead);
 }
+function transformHit(B, t) {
+  const o = AC.createOscillator(); o.frequency.setValueAtTime(110, t); o.frequency.exponentialRampToValueAtTime(38, t + .7);
+  const g = AC.createGain(); g.gain.setValueAtTime(.9, t); g.gain.exponentialRampToValueAtTime(.001, t + .9);
+  o.connect(g); g.connect(B.drums); o.start(t); o.stop(t + 1);
+  const bp = filt('bandpass', 6000, 2); bp.frequency.setValueAtTime(6000, t); bp.frequency.exponentialRampToValueAtTime(500, t + .6);
+  chain(noise(t, .7), bp, envGain(t, .6, .005, .05, .55), B.drums);
+}
 function ting(B, t, v = 1) { for (const [f, a] of [[2637, 1], [3951, .55], [5274, .3]]) chain(osc('sine', f, t, 3), envGain(t, .09 * v * a, .002, .01, 2.6), B.lead); }
 
 function buildSong() {
@@ -1526,6 +1749,8 @@ function buildSong() {
   for (let k = 1; k <= 4; k++) add(T(30 + 2 * k) + LAND_QUICK, (t, B) => ting(B, t, .7));
   add(T(40), (t, B) => { ting(B, t, 1); riser(B, t - BAR, BAR, .6); });
   add(T(59, 1.2), (t, B) => ting(B, t, 1.2));
+  add(T(30), (t, B) => transformHit(B, t));
+  for (let k = 1; k <= 4; k++) add(T(30 + 2 * k) + QUICK, (t, B) => transformHit(B, t));
   return E.sort((a, b) => a.t - b.t);
 }
 
@@ -1608,7 +1833,7 @@ window.addEventListener('resize', resize);
 document.addEventListener('fullscreenchange', () => setTimeout(resize, 60));
 makeGrain();
 resize();
-const JP = LY.map(l => l[2]).join('') + '子丑寅卯辰巳午未申酉戌亥虎牛十二魂剣炎水風雷土竜蛟疾獣岩亀マサル闇の王城対決斬五つ解放ソウルド天津国×';
+const JP = LY.map(l => l[2]).join('') + '纏子丑寅卯辰巳午未申酉戌亥虎牛十二魂剣炎水風雷土竜蛟疾獣岩亀マサル闇の王城対決斬五つ解放ソウルド天津国×';
 if (document.fonts && document.fonts.load) {
   Promise.all([
     document.fonts.load(`900 100px "Cinzel"`), document.fonts.load(`700 100px "Cinzel"`),
