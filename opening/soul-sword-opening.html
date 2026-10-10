@@ -58,7 +58,7 @@ body{background:var(--ink);color:var(--moon);font-family:var(--f-ui);margin:0}
       <div class="ov" id="ov">
         <div class="ov-eyebrow" id="ovEyebrow">Opening · 1:31</div>
         <h1 class="sr">Soul Sword 魂剣</h1>
-        <p class="ov-desc" id="ovDesc">Masaru engarza en su katana las almas de cinco bestias elementales y se transforma para enfrentarse al Rey Oscuro.</p>
+        <p class="ov-desc" id="ovDesc">Masaru engarza en su katana las almas de las doce bestias del zodiaco y se transforma para enfrentarse al Rey Oscuro.</p>
         <div class="ov-row">
           <button class="btn-play" id="bigPlay" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12.5-7.5z"/></svg><span id="bigPlayLabel">Reproducir con sonido</span></button>
           <span class="ov-note">Música y animación generadas en directo en tu navegador.</span>
@@ -91,12 +91,14 @@ const UI = '"Zen Kaku Gothic New", "Hiragino Sans", system-ui, sans-serif';
 const RM = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const EL = [
-  { k:'fire',    kanji:'炎', name:'HOMURA',  jp:'炎竜', beast:'Dragón de fuego',        soul:'ALMA DE FUEGO',     c:'#ff4a1c', c2:'#ffd36a', dark:'#2e0802' },
-  { k:'water',   kanji:'水', name:'MIZUCHI', jp:'蛟',   beast:'Serpiente de los mares', soul:'ALMA DE AGUA',      c:'#2f8bff', c2:'#c4ecff', dark:'#03153a' },
-  { k:'wind',    kanji:'風', name:'HAYATE',  jp:'疾風', beast:'Halcón de la tormenta',  soul:'ALMA DE VIENTO',    c:'#3fe0a6', c2:'#e2fff2', dark:'#032419' },
-  { k:'thunder', kanji:'雷', name:'RAIJŪ',   jp:'雷獣', beast:'Bestia del trueno',      soul:'ALMA DEL TRUENO',   c:'#ffd52e', c2:'#fffbe0', dark:'#241c00' },
-  { k:'earth',   kanji:'土', name:'IWAGAME', jp:'岩亀', beast:'Tortuga de la montaña',  soul:'ALMA DE LA TIERRA', c:'#c98a4b', c2:'#f6dcb4', dark:'#251404' },
+  { k:'fire',    kanji:'炎', name:'HOMURA',  jp:'炎竜', beast:'Dragón de fuego',        soul:'ALMA DE FUEGO',     z:4, zk:'辰', animal:'DRAGÓN',    c:'#ff4a1c', c2:'#ffd36a', dark:'#2e0802' },
+  { k:'water',   kanji:'水', name:'MIZUCHI', jp:'蛟',   beast:'Serpiente de los mares', soul:'ALMA DE AGUA',      z:5, zk:'巳', animal:'SERPIENTE', c:'#2f8bff', c2:'#c4ecff', dark:'#03153a' },
+  { k:'wind',    kanji:'風', name:'HAYATE',  jp:'疾風', beast:'Corcel de la tormenta',  soul:'ALMA DE VIENTO',    z:6, zk:'午', animal:'CABALLO',   c:'#3fe0a6', c2:'#e2fff2', dark:'#032419' },
+  { k:'thunder', kanji:'雷', name:'RAIKO',   jp:'雷虎', beast:'Tigre del trueno',       soul:'ALMA DEL TRUENO',   z:2, zk:'寅', animal:'TIGRE',     c:'#ffd52e', c2:'#fffbe0', dark:'#241c00' },
+  { k:'earth',   kanji:'土', name:'GANGYŪ',  jp:'岩牛', beast:'Buey de la montaña',     soul:'ALMA DE LA TIERRA', z:1, zk:'丑', animal:'BUEY',      c:'#c98a4b', c2:'#f6dcb4', dark:'#251404' },
 ];
+// Los otros siete espíritus del zodiaco siguen ocultos: solo se insinúan.
+const HIDDEN = ['子', '卯', '未', '申', '酉', '戌', '亥'].map(zk => ({ k:'hidden', kanji:zk, c:'#4a4566', c2:'#a9a4c8', dark:'#08070e' }));
 const SPIRIT = { k:'spirit', kanji:'', c:'#8fd0ff', c2:'#ffffff', dark:'#14305e' };
 const GOLDEL = { k:'gold', kanji:'魂', c:'#ffc34a', c2:'#fff6dc', dark:'#3a2304' };
 
@@ -108,7 +110,7 @@ const LY = [
   [12,14,'失くした声が 呼んでいる','Nakushita koe ga yonde iru','Las voces que perdí me llaman'],
   [14,16,'「まだ 終わりじゃない」と','"Mada owari janai" to','«Esto todavía no ha terminado»'],
   [16,18,'炎 水 風 雷 大地','Honoo, mizu, kaze, ikazuchi, daichi','Fuego, agua, viento, trueno, tierra'],
-  [18,20,'五つの魂 宿して','Itsutsu no tamashii yadoshite','Cinco almas viven en mí'],
+  [18,20,'十二の魂を 求めて','Jūni no tamashii wo motomete','En busca de las doce almas'],
   [20,22,'震える指で 繋いだ','Furueru yubi de tsunaida','Las uní con dedos temblorosos'],
   [22,24,'誓いは 今も ここに','Chikai wa ima mo koko ni','y el juramento sigue aquí'],
   [24,26,'闇の王が 目を覚ます','Yami no ō ga me wo samasu','El Rey Oscuro despierta'],
@@ -436,12 +438,12 @@ function drawKatana(x, y, ang, len, o = {}) {
   tg.addColorStop(0, '#ffe7a8'); tg.addColorStop(.55, '#c98c2c'); tg.addColorStop(1, '#4a2e0c');
   ctx.beginPath(); ctx.arc(0, 0, tr, 0, TAU); ctx.fillStyle = tg; ctx.fill();
   ctx.lineWidth = Math.max(1, tr * .05); ctx.strokeStyle = '#2a1806'; ctx.stroke();
-  for (let i = 0; i < 5; i++) {
-    const a = -Math.PI / 2 + i * TAU / 5, sx = Math.cos(a) * tr * .8, sy = Math.sin(a) * tr * .8;
-    const lit = o.slots && o.slots[i];
-    ctx.beginPath(); ctx.arc(sx, sy, tr * .1, 0, TAU);
+  for (let j = 0; j < 12; j++) {
+    const a = -Math.PI / 2 + j * TAU / 12, sx = Math.cos(a) * tr * .8, sy = Math.sin(a) * tr * .8;
+    const i = EL.findIndex(e => e.z === j), lit = i >= 0 && o.slots && o.slots[i];
+    ctx.beginPath(); ctx.arc(sx, sy, tr * .075, 0, TAU);
     if (lit) { ctx.shadowColor = EL[i].c; ctx.shadowBlur = 20; ctx.fillStyle = EL[i].c2; }
-    else ctx.fillStyle = '#2b1d10';
+    else ctx.fillStyle = i >= 0 ? '#3a2814' : '#22170c';
     ctx.fill(); ctx.shadowBlur = 0;
   }
   ctx.beginPath(); ctx.arc(0, 0, tr * .6, 0, TAU); ctx.fillStyle = '#100b12'; ctx.fill();
@@ -874,7 +876,7 @@ function sOrbs(t, lt) {
   txt(el.name, 132 + off, H * .3 + 100, 128, DISPLAY, '#ffffff', { align: 'left', w: 900, stroke: hexA(el.dark, .8), lw: 10 });
   txt(el.beast, 140 + off, H * .3 + 196, 44, UI, '#ffffff', { align: 'left', w: 500 });
   vtxt(el.jp, W - 170 - off, H * .24, 150, KANJI, el.c2, { stroke: hexA(el.dark, .7), lw: 8 });
-  txt(`${idx + 1} / 5`, W - 170 - off, H * .24 + (el.jp.length) * 156 + 20, 30, DISPLAY, el.c2, { w: 700, ls: 4 });
+  txt(`${el.zk} · ${el.animal}`, W - 170 - off, H * .24 + (el.jp.length) * 156 + 20, 30, UI, el.c2, { w: 700, ls: 4 });
   ctx.restore();
 }
 
@@ -886,11 +888,17 @@ function sOrbRing(t, lt, d) {
   const spin = lt * .9 + Math.pow(lt, 3) * .07, conv = ei3(inv(3.3, d, lt));
   const orbs = EL.map((el, i) => { const a = spin + i * TAU / 5; return { el, a, z: Math.sin(a), x: cx + Math.cos(a) * 560 * (1 - conv), y: cy - 60 + Math.sin(a) * 170 * (1 - conv) - 120 * (1 - conv) }; });
   const draw = o => { const r = (62 + 20 * o.z) * (1 - conv * .6); drawOrb(o.x, o.y, r, o.el, t); };
+  const ha = .55 * inv(.2, 1.2, lt) * (1 - inv(3.4, d, lt));
+  if (ha > 0) HIDDEN.forEach((el, i) => {
+    const a = -lt * .35 + i * TAU / 7, x = cx + Math.cos(a) * 820, y = cy - 330 + Math.sin(a) * 120;
+    ctx.globalAlpha = ha * (.6 + .4 * Math.sin(a)); drawOrb(x, y, 34, el, t, { glow: .3 });
+  });
+  ctx.globalAlpha = 1;
   orbs.filter(o => o.z < 0).forEach(draw);
   drawKatana(cx, cy, -Math.PI / 2 + .02, 820, { t, slots: EL.map((e, i) => conv > .3 + i * .1), gleam: inv(1, 2.5, lt) * 1.4 - .2 });
   orbs.filter(o => o.z >= 0).forEach(draw);
   const a = Math.min(inv(.3, 1, lt), 1 - inv(3.2, 3.8, lt));
-  if (a > 0) txt('五 つ の 魂', W / 2, H * .13, 70, KANJI, `rgba(243,234,210,${a})`, { ls: 10 });
+  if (a > 0) { txt('十 二 の 魂', W / 2, H * .1, 70, KANJI, `rgba(243,234,210,${a})`, { ls: 10 }); txt('CINCO DESPIERTAS · SIETE OCULTAS', W / 2, H * .1 + 70, 28, UI, `rgba(233,180,76,${a})`, { w: 700, ls: 6 }); }
 }
 
 function sFortress(t, lt) {
@@ -1211,7 +1219,7 @@ function sLogo(t, lt) {
   txt('SOUL SWORD', W / 2, H * .44, 190, DISPLAY, g, { w: 900, stroke: '#1a0508', lw: 10, ls: 8 });
   ctx.restore();
   ctx.globalAlpha = out * a3;
-  txt('Una espada. Cinco almas. Un rey que caerá.', W / 2, H * .84, 40, UI, '#f3ead2', { w: 500, ls: 2 });
+  txt('Una espada. Doce almas. Un rey que caerá.', W / 2, H * .84, 40, UI, '#f3ead2', { w: 500, ls: 2 });
   ctx.restore();
 }
 
@@ -1600,7 +1608,7 @@ window.addEventListener('resize', resize);
 document.addEventListener('fullscreenchange', () => setTimeout(resize, 60));
 makeGrain();
 resize();
-const JP = LY.map(l => l[2]).join('') + '魂剣炎水風雷土竜蛟疾獣岩亀マサル闇の王城対決斬五つ解放ソウルド天津国×';
+const JP = LY.map(l => l[2]).join('') + '子丑寅卯辰巳午未申酉戌亥虎牛十二魂剣炎水風雷土竜蛟疾獣岩亀マサル闇の王城対決斬五つ解放ソウルド天津国×';
 if (document.fonts && document.fonts.load) {
   Promise.all([
     document.fonts.load(`900 100px "Cinzel"`), document.fonts.load(`700 100px "Cinzel"`),
