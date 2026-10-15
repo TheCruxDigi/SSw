@@ -1,0 +1,6824 @@
+{
+ "meta": {
+  "juego": "DIGIMON: LAZOS DE CÓDIGO — Juego de rol no oficial de aventuras en el Mundo Digital",
+  "version": "1.1 (ronda de corrección 3; fuente de verdad junto con biblia_reglas.md)",
+  "aviso_legal": "Obra de fans, no oficial y sin ánimo de lucro. Digimon y todos sus nombres, personajes y técnicas pertenecen a sus propietarios. Este documento no está afiliado ni respaldado por ellos. El texto de reglas es original; los perfiles oficiales (background_EN_reference_only) solo se usan para clasificar técnicas y NUNCA se copian ni se traducen.",
+  "fuente_de_datos": "src/all.json (1.317 entradas: id, name, level, type, attribute, moves, x_antibody, is_mode, modes, prev, next, background_EN_reference_only)",
+  "convenciones": "Ids en minúsculas, sin acentos, con guion bajo. Las listas 'tipos' y los nombres de Digimon/técnicas están en inglés exactamente como en all.json.",
+  "orden_de_calculo": [
+   "1. Fila de nivel: niveles[level] (o niveles[level].por_id[id] → fila de ese nivel) → rango, dado, vf, pv_base, atq, def, ini.",
+   "2. Familia: la familia cuya lista 'tipos' contiene type. Bebés: solo para afinidad, sin rasgo ni mods.",
+   "3. Técnicas, primera pasada (clasificador): firma, potencias, apoyo, alcance, elemento, área, palabras clave encontradas por raíz.",
+   "4. Rol (rol_algoritmo) — salvo Bebés; override por id si existe.",
+   "5. Técnicas, segunda pasada: estado por defecto del elemento, palabra de Firma del rol, Larga del Tirador, Ejecutar en área → Brutal.",
+   "6. Plantillas (x_antibody, supremo, modo_oscuro, modo_alterno, fusion, hibrido, armadura, bebe).",
+   "7. Estadísticas (formulas).",
+   "8. Elemento principal, debilidades y resistencias; vuelo y nado.",
+   "9. Rasgos (rol, familia, atributo, plantillas), técnica básica y maniobra de rol.",
+   "10. amenaza_sugerida por id (legendario, jefe, esbirro; resto estandar) e índice de amenaza con su modificador de PA (amenaza.indice_amenaza).",
+   "11. Overrides (overrides_iniciales + overrides.json) y validación (validacion.reglas). Si una validación falla, el generador se detiene."
+  ],
+  "lectura_de_datos": [
+   "all.json es una lista de 1.317 objetos. 'moves', 'modes', 'prev' y 'next' son listas de cadenas ('prev' y 'next' contienen NOMBRES de Digimon, no ids). 'x_antibody' e 'is_mode' son booleanos. Por robustez, si algún campo llegara como texto ('[...]', 'True'), se interpreta con ast.literal_eval.",
+   "Los nombres de Digimon NO son únicos (Argomon ×6, Eosmon ×3, Rapidmon, Burgamon y Cyberdramon ×2). Por eso TODAS las listas de Digimon de esta especificación usan el 'id': overrides de Digimon, filas por_id de niveles, clases de Híbrido, legendarios, jefes y esbirros sugeridos y vuelo. Los overrides de técnicas usan el nombre oficial exacto tal como aparece en 'moves'.",
+   "background_EN_reference_only solo se usa para extraer la cláusula de contexto del clasificador. Nunca se copia ni se traduce en el bestiario.",
+   "Salida: en los nombres de técnica que se imprimen, el carácter U+FF70 'ｰ' se sustituye por '-' (p. ej. 'CoronaｰKnuckles' → 'Corona-Knuckles'). El nombre oficial sin cambios se conserva en el campo 'nombre_dato'."
+  ],
+  "generador_de_referencia": "work_final/gen.py implementa esta especificación tal cual (lee este JSON), genera las 1.317 fichas y comprueba validacion.reglas y validacion.rangos_por_nivel; si algo falla, se detiene con error. work_final/r3_sim.py es el motor de simulación con el que se midieron las cifras de validacion.objetivos_de_diseño.",
+  "distribucion_resultante": {
+   "roles": {
+    "bruto": 300,
+    "mistico": 226,
+    "versatil": 179,
+    "agil": 153,
+    "tirador": 118,
+    "tanque": 110,
+    "None": 108,
+    "acechador": 86,
+    "apoyo": 37
+   },
+   "amenaza_sugerida": {
+    "estandar": 1146,
+    "legendario": 124,
+    "jefe": 27,
+    "esbirro": 20
+   },
+   "nota": "None = Bebés (sin rol). El jugador puede fijar el rol de su compañero (rol_algoritmo.compañeros), lo que compensa la escasez de Apoyo y Tanque entre los Digimon salvajes."
+  }
+ },
+ "niveles": {
+  "In-Training 1": {
+   "id": "bebe_1",
+   "nombre": "Bebé I",
+   "rango": 0,
+   "dado_poder": "d4",
+   "dado_caras": 4,
+   "vf": 2,
+   "pv_factor": null,
+   "pv_base": 6,
+   "pv_fijo": true,
+   "atq": 0,
+   "def": 0,
+   "arm": 0,
+   "ini": 0,
+   "peligro_tamer": 1,
+   "potencia_max": 1,
+   "umbral_ejecutar": 4,
+   "dano_medio": {
+    "P1": 2.5,
+    "P2": 5,
+    "P3": null
+   },
+   "usa_rol": false,
+   "usa_familia": false
+  },
+  "In-Training 2": {
+   "id": "bebe_2",
+   "nombre": "Bebé II",
+   "rango": 0,
+   "dado_poder": "d4",
+   "dado_caras": 4,
+   "vf": 2,
+   "pv_factor": null,
+   "pv_base": 10,
+   "pv_fijo": true,
+   "atq": 0,
+   "def": 0,
+   "arm": 0,
+   "ini": 0,
+   "peligro_tamer": 1,
+   "potencia_max": 2,
+   "umbral_ejecutar": 4,
+   "dano_medio": {
+    "P1": 2.5,
+    "P2": 5,
+    "P3": null
+   },
+   "usa_rol": false,
+   "usa_familia": false
+  },
+  "Rookie": {
+   "id": "novato",
+   "nombre": "Novato",
+   "rango": 1,
+   "dado_poder": "d6",
+   "dado_caras": 6,
+   "vf": 3,
+   "pv_factor": 7,
+   "pv_base": 21,
+   "pv_fijo": false,
+   "atq": 1,
+   "def": 1,
+   "arm": 0,
+   "ini": 1,
+   "peligro_tamer": 1,
+   "potencia_max": 3,
+   "umbral_ejecutar": 6,
+   "dano_medio": {
+    "P1": 3.5,
+    "P2": 7,
+    "P3": 10.5
+   },
+   "usa_rol": true,
+   "usa_familia": true
+  },
+  "Champion": {
+   "id": "campeon",
+   "nombre": "Campeón",
+   "rango": 2,
+   "dado_poder": "d8",
+   "dado_caras": 8,
+   "vf": 4,
+   "pv_factor": 7,
+   "pv_base": 28,
+   "pv_fijo": false,
+   "atq": 2,
+   "def": 2,
+   "arm": 0,
+   "ini": 2,
+   "peligro_tamer": 2,
+   "potencia_max": 3,
+   "umbral_ejecutar": 8,
+   "dano_medio": {
+    "P1": 4.5,
+    "P2": 9,
+    "P3": 13.5
+   },
+   "usa_rol": true,
+   "usa_familia": true
+  },
+  "Ultimate": {
+   "id": "perfecto",
+   "nombre": "Perfecto",
+   "rango": 3,
+   "dado_poder": "d10",
+   "dado_caras": 10,
+   "vf": 5,
+   "pv_factor": 7,
+   "pv_base": 35,
+   "pv_fijo": false,
+   "atq": 3,
+   "def": 3,
+   "arm": 0,
+   "ini": 3,
+   "peligro_tamer": 3,
+   "potencia_max": 3,
+   "umbral_ejecutar": 10,
+   "dano_medio": {
+    "P1": 5.5,
+    "P2": 11,
+    "P3": 16.5
+   },
+   "usa_rol": true,
+   "usa_familia": true
+  },
+  "Mega": {
+   "id": "definitivo",
+   "nombre": "Definitivo",
+   "rango": 4,
+   "dado_poder": "d12",
+   "dado_caras": 12,
+   "vf": 6,
+   "pv_factor": 7,
+   "pv_base": 42,
+   "pv_fijo": false,
+   "atq": 4,
+   "def": 4,
+   "arm": 0,
+   "ini": 4,
+   "peligro_tamer": 4,
+   "potencia_max": 3,
+   "umbral_ejecutar": 12,
+   "dano_medio": {
+    "P1": 6.5,
+    "P2": 13,
+    "P3": 19.5
+   },
+   "usa_rol": true,
+   "usa_familia": true
+  },
+  "Armor": {
+   "id": "armadura",
+   "nombre": "Armadura",
+   "rango": 2,
+   "dado_poder": "d8",
+   "dado_caras": 8,
+   "vf": 4,
+   "pv_factor": 7,
+   "pv_base": 28,
+   "pv_fijo": false,
+   "atq": 2,
+   "def": 2,
+   "arm": 0,
+   "ini": 2,
+   "peligro_tamer": 2,
+   "potencia_max": 3,
+   "umbral_ejecutar": 8,
+   "dano_medio": {
+    "P1": 4.5,
+    "P2": 9,
+    "P3": 13.5
+   },
+   "usa_rol": true,
+   "usa_familia": true,
+   "fila_de": "campeon",
+   "etiqueta": "Armadura",
+   "nota": "Formas por Digi-Huevo: fila de Campeón. Las formas doradas usan la fila indicada en por_id (Magnamon: Definitivo; Rapidmon (Armadura) y GoldVeedramon: Perfecto). Se validan con el rango de la fila que usan (fila_de o la de por_id).",
+   "por_id": {
+    "magnamon": "Mega",
+    "rapidmon_gold": "Ultimate",
+    "goldv-dramon": "Ultimate"
+   }
+  },
+  "Hybrid": {
+   "id": "hibrido",
+   "nombre": "Híbrido",
+   "rango": 2,
+   "dado_poder": "d8",
+   "dado_caras": 8,
+   "vf": 4,
+   "pv_factor": 7,
+   "pv_base": 28,
+   "pv_fijo": false,
+   "atq": 2,
+   "def": 2,
+   "arm": 0,
+   "ini": 2,
+   "peligro_tamer": 2,
+   "potencia_max": 3,
+   "umbral_ejecutar": 8,
+   "dano_medio": {
+    "P1": 4.5,
+    "P2": 9,
+    "P3": 13.5
+   },
+   "usa_rol": true,
+   "usa_familia": true,
+   "fila_de": "campeon",
+   "etiqueta": "Híbrido",
+   "nota": "Híbridos de Espíritu (los datos los marcan a veces con is_mode=true: NO son Modos). Si un nombre no aparece en por_nombre, fila de Campeón.",
+   "por_id": {
+    "flamon": "Rookie",
+    "storabimon": "Rookie",
+    "agnimon": "Champion",
+    "wolfmon": "Champion",
+    "fairimon": "Champion",
+    "blitzmon": "Champion",
+    "chackmon": "Champion",
+    "louwemon": "Champion",
+    "grottemon": "Champion",
+    "arbormon": "Champion",
+    "ranamon": "Champion",
+    "mercuremon": "Champion",
+    "duskmon": "Champion",
+    "vritramon": "Ultimate",
+    "garummon": "Ultimate",
+    "shutumon": "Ultimate",
+    "bolgmon": "Ultimate",
+    "blizzarmon": "Ultimate",
+    "kaiserleomon": "Ultimate",
+    "gigasmon": "Ultimate",
+    "petaldramon": "Ultimate",
+    "calamaramon": "Ultimate",
+    "sephirothmon": "Ultimate",
+    "velgrmon": "Ultimate",
+    "aldamon": "Ultimate",
+    "beowolfmon": "Ultimate",
+    "jetsilphymon": "Ultimate",
+    "rhinokabuterimon": "Ultimate",
+    "daipenmon": "Ultimate",
+    "raihimon": "Ultimate",
+    "kaisergreymon": "Mega",
+    "magnagarurumon": "Mega"
+   },
+   "clase_por_id": {
+    "flamon": "forma_base",
+    "storabimon": "forma_base",
+    "agnimon": "espiritu_humano",
+    "wolfmon": "espiritu_humano",
+    "fairimon": "espiritu_humano",
+    "blitzmon": "espiritu_humano",
+    "chackmon": "espiritu_humano",
+    "louwemon": "espiritu_humano",
+    "grottemon": "espiritu_humano",
+    "arbormon": "espiritu_humano",
+    "ranamon": "espiritu_humano",
+    "mercuremon": "espiritu_humano",
+    "duskmon": "espiritu_humano",
+    "vritramon": "espiritu_bestia",
+    "garummon": "espiritu_bestia",
+    "shutumon": "espiritu_bestia",
+    "bolgmon": "espiritu_bestia",
+    "blizzarmon": "espiritu_bestia",
+    "kaiserleomon": "espiritu_bestia",
+    "gigasmon": "espiritu_bestia",
+    "petaldramon": "espiritu_bestia",
+    "calamaramon": "espiritu_bestia",
+    "sephirothmon": "espiritu_bestia",
+    "velgrmon": "espiritu_bestia",
+    "aldamon": "fusion",
+    "beowolfmon": "fusion",
+    "jetsilphymon": "fusion",
+    "rhinokabuterimon": "fusion",
+    "daipenmon": "fusion",
+    "raihimon": "fusion",
+    "kaisergreymon": "unificado",
+    "magnagarurumon": "unificado"
+   }
+  },
+  "Unknown": {
+   "id": "desconocido",
+   "nombre": "Indeterminado",
+   "rango": 1,
+   "dado_poder": "d6",
+   "dado_caras": 6,
+   "vf": 3,
+   "pv_factor": 7,
+   "pv_base": 21,
+   "pv_fijo": false,
+   "atq": 1,
+   "def": 1,
+   "arm": 0,
+   "ini": 1,
+   "peligro_tamer": 1,
+   "potencia_max": 3,
+   "umbral_ejecutar": 6,
+   "dano_medio": {
+    "P1": 3.5,
+    "P2": 7,
+    "P3": 10.5
+   },
+   "usa_rol": true,
+   "usa_familia": true,
+   "fila_de": "novato",
+   "etiqueta": "Indeterminado",
+   "nota": "Nivel no catalogado en los datos (se llama «Indeterminado» para no confundirlo con el atributo Desconocido). Por defecto, fila de Novato; Calumon y Burpmon, Novato; NEO, Definitivo.",
+   "por_id": {
+    "culumon": "Rookie",
+    "burpmon": "Rookie",
+    "neo": "Mega"
+   }
+  }
+ },
+ "roles": [
+  {
+   "id": "bruto",
+   "nombre": "Bruto",
+   "descripcion": "Golpea fuerte y aguanta. Vive en el cuerpo a cuerpo.",
+   "mods": {
+    "atq": 1,
+    "def": 0,
+    "pv_mult": 1,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "arrollador",
+    "nombre": "Arrollador",
+    "regla": "Una vez por asalto, cuando deja a un enemigo a 0 PV con una técnica, puede moverse 1 zona y usar su técnica básica contra otro enemigo como acción gratuita."
+   },
+   "palabra_firma": "brutal",
+   "maniobra": {
+    "id": "arremetida",
+    "nombre": "Arremetida",
+    "potencia": "P1",
+    "alcance": "toque",
+    "area": "individual",
+    "elemento": "neutro",
+    "claves": [
+     "derribar"
+    ],
+    "uso": "a_voluntad",
+    "regla": "Antes de atacar se mueve 1 zona hacia el objetivo sin provocar ataques de retirada; ataque P1 de Toque con Derribar."
+   },
+   "especialidad": "fuerza y romper cosas"
+  },
+  {
+   "id": "tanque",
+   "nombre": "Tanque",
+   "descripcion": "Muralla del grupo: protege, provoca y resiste.",
+   "mods": {
+    "atq": 0,
+    "def": 1,
+    "pv_mult": 1,
+    "arm": 1,
+    "ini": -1
+   },
+   "rasgo": {
+    "id": "guardian",
+    "nombre": "Guardián",
+    "regla": "Una vez por asalto puede usar Proteger como reacción sobre un aliado (Digimon o Tamer) de su zona, aunque ya haya actuado."
+   },
+   "palabra_firma": "provocar",
+   "maniobra": {
+    "id": "desafio",
+    "nombre": "Desafío",
+    "potencia": null,
+    "alcance": "toque",
+    "area": "zona",
+    "elemento": "neutro",
+    "claves": [
+     "provocar"
+    ],
+    "uso": "a_voluntad",
+    "regla": "Sin daño. Afecta a los enemigos de su propia zona (alcance Toque + Zona). Una sola tirada de ataque comparada con la Def de cada uno: con 7+ queda Provocado. Si la usa un PNJ, cada PJ de su zona tira Defensa y queda Provocado con 6–."
+   },
+   "especialidad": "cargar peso, resistir y proteger"
+  },
+  {
+   "id": "agil",
+   "nombre": "Ágil",
+   "descripcion": "Rápido y escurridizo; elige dónde y cuándo pelear.",
+   "mods": {
+    "atq": 0,
+    "def": 1,
+    "pv_mult": -1,
+    "arm": 0,
+    "ini": 2
+   },
+   "rasgo": {
+    "id": "escurridizo",
+    "nombre": "Escurridizo",
+    "regla": "Tras su acción puede moverse 1 zona extra y nunca sufre ataques de retirada."
+   },
+   "palabra_firma": "rapido",
+   "maniobra": {
+    "id": "golpe_y_fuga",
+    "nombre": "Golpe y fuga",
+    "potencia": "P1",
+    "alcance": "toque",
+    "area": "individual",
+    "elemento": "neutro",
+    "claves": [],
+    "uso": "a_voluntad",
+    "regla": "Ataque P1 de Toque; después se mueve 1 zona y deja de estar trabado."
+   },
+   "especialidad": "correr, saltar y esquivar"
+  },
+  {
+   "id": "tirador",
+   "nombre": "Tirador",
+   "descripcion": "Ataca desde lejos con precisión.",
+   "mods": {
+    "atq": 1,
+    "def": -1,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 1
+   },
+   "rasgo": {
+    "id": "francotirador",
+    "nombre": "Francotirador",
+    "regla": "+1 a sus tiradas de ataque contra objetivos que no estén en su zona. Su técnica básica es de Distancia y su Firma de Distancia pasa a Larga."
+   },
+   "palabra_firma": "certero",
+   "maniobra": {
+    "id": "disparo_certero",
+    "nombre": "Disparo certero",
+    "potencia": "P1",
+    "alcance": "larga",
+    "area": "individual",
+    "elemento": "afinidad",
+    "claves": [
+     "certero"
+    ],
+    "uso": "a_voluntad",
+    "regla": "Ataque P1 de alcance Larga con Certero. El elemento es la afinidad de su familia."
+   },
+   "especialidad": "puntería y vigilancia"
+  },
+  {
+   "id": "mistico",
+   "nombre": "Místico",
+   "descripcion": "Domina los estados alterados y la energía extraña.",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": -1,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "maestro_de_estados",
+    "nombre": "Maestro de estados",
+    "regla": "Sus estados que no son de control duro también se aplican con 7–9 (su ataque de PJ con 7–9, o la Defensa del PJ con 7–9 si el Místico es PNJ). Es un rasgo del ROL Místico, no de la familia Arcano."
+   },
+   "palabra_firma": null,
+   "maniobra": {
+    "id": "interferencia",
+    "nombre": "Interferencia",
+    "potencia": null,
+    "alcance": "distancia",
+    "area": "individual",
+    "elemento": "mental",
+    "claves": [
+     "debilitar|ralentizar"
+    ],
+    "uso": "a_voluntad",
+    "regla": "Sin daño. Tirada de ataque: aplica Debilitar o Ralentizar (a elegir antes de tirar)."
+   },
+   "especialidad": "percibir datos, magia y lo extraño"
+  },
+  {
+   "id": "apoyo",
+   "nombre": "Apoyo",
+   "descripcion": "Cura, protege y potencia a sus aliados.",
+   "mods": {
+    "atq": -1,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "sanador",
+    "nombre": "Sanador",
+    "regla": "Sus técnicas de apoyo (Curar, Escudo, Mejora, Purificar) afectan a un aliado adicional dentro del alcance. El objetivo principal (solo él) suma +VF a la curación o al Escudo."
+   },
+   "palabra_firma": null,
+   "maniobra": {
+    "id": "pulso_restaurador",
+    "nombre": "Pulso restaurador",
+    "potencia": "P1",
+    "alcance": "distancia",
+    "area": "individual",
+    "elemento": "neutro",
+    "claves": [
+     "curar|purificar"
+    ],
+    "uso": "agotadora",
+    "regla": "Sin tirada. Un aliado recupera 1 dado de poder de PV o se libra de un estado. Agotadora."
+   },
+   "especialidad": "curar, consolar y reparar"
+  },
+  {
+   "id": "acechador",
+   "nombre": "Acechador",
+   "descripcion": "Cazador oportunista que remata a los debilitados.",
+   "mods": {
+    "atq": 1,
+    "def": 0,
+    "pv_mult": -1,
+    "arm": 0,
+    "ini": 2
+   },
+   "rasgo": {
+    "id": "emboscada",
+    "nombre": "Emboscada",
+    "regla": "+1 dado de daño contra objetivos que aún no han actuado en el combate, que están Derribados, Atrapados, Cegados o Marcados, o si ataca desde Oculto."
+   },
+   "palabra_firma": "perforante",
+   "maniobra": {
+    "id": "marca_de_caza",
+    "nombre": "Marca de caza",
+    "potencia": null,
+    "alcance": "larga",
+    "area": "individual",
+    "elemento": "neutro",
+    "claves": [
+     "marcar"
+    ],
+    "uso": "a_voluntad",
+    "regla": "Sin tirada. Un enemigo a la vista queda Marcado hasta el final del siguiente asalto o hasta que reciba un ataque."
+   },
+   "especialidad": "sigilo y rastreo"
+  },
+  {
+   "id": "versatil",
+   "nombre": "Versátil",
+   "descripcion": "Equilibrado y fiable; se adapta a lo que pida el combate.",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 1
+   },
+   "rasgo": {
+    "id": "adaptable",
+    "nombre": "Adaptable",
+    "regla": "Una vez por combate puede repetir una tirada propia de ataque o de Defensa (o, si es PNJ, obligar a un PJ a repetir un 10+ obtenido contra él)."
+   },
+   "palabra_firma": null,
+   "maniobra": {
+    "id": "cambio_de_guardia",
+    "nombre": "Cambio de guardia",
+    "potencia": "P1",
+    "alcance": "toque",
+    "area": "individual",
+    "elemento": "neutro",
+    "claves": [],
+    "uso": "a_voluntad",
+    "regla": "Ataque P1 de Toque con +1 a la tirada; hasta su próximo turno tiene +1 Def."
+   },
+   "especialidad": "una a elección del jugador al crear el compañero (en el bestiario: adaptarse a lo imprevisto)"
+  }
+ ],
+ "atributos": {
+  "Vaccine": {
+   "id": "vacuna",
+   "nombre": "Vacuna",
+   "vence_a": "virus",
+   "pierde_contra": "datos",
+   "neutral": false,
+   "mods": {
+    "atq": 0,
+    "def": 1,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "antivirus",
+    "nombre": "Antivirus",
+    "regla": "+1 Def (incluido)."
+   }
+  },
+  "Data": {
+   "id": "datos",
+   "nombre": "Datos",
+   "vence_a": "vacuna",
+   "pierde_contra": "virus",
+   "neutral": false,
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 1,
+    "ini": 1
+   },
+   "rasgo": {
+    "id": "procesamiento",
+    "nombre": "Procesamiento",
+    "regla": "+1 Ini y +VF PV (incluidos)."
+   }
+  },
+  "Virus": {
+   "id": "virus",
+   "nombre": "Virus",
+   "vence_a": "datos",
+   "pierde_contra": "vacuna",
+   "neutral": false,
+   "mods": {
+    "atq": 1,
+    "def": 0,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "agresion",
+    "nombre": "Agresión",
+    "regla": "+1 Atq (incluido)."
+   }
+  },
+  "Free": {
+   "id": "libre",
+   "nombre": "Libre",
+   "vence_a": null,
+   "pierde_contra": null,
+   "neutral": true,
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 1,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "libre",
+    "nombre": "Libre",
+    "regla": "Fuera del triángulo: no da ni recibe ventaja. +VF PV (incluido)."
+   }
+  },
+  "Variable": {
+   "id": "variable",
+   "nombre": "Variable",
+   "vence_a": "elige",
+   "pierde_contra": "elige",
+   "neutral": false,
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "mutable",
+    "nombre": "Mutable",
+    "regla": "Al empezar cada escena elige ser Vacuna, Datos o Virus: usa ese triángulo y ese modificador hasta el final de la escena (no incluido en la ficha)."
+   }
+  },
+  "Unknown": {
+   "id": "desconocido",
+   "nombre": "Desconocido",
+   "vence_a": null,
+   "pierde_contra": null,
+   "neutral": true,
+   "mods": {
+    "atq": 0,
+    "def": 1,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "ilegible",
+    "nombre": "Ilegible",
+    "regla": "Fuera del triángulo. +1 Def (incluido). Analizar contra él tiene −1."
+   }
+  },
+  "NO DATA": {
+   "id": "sin_datos",
+   "nombre": "SIN DATOS",
+   "vence_a": null,
+   "pierde_contra": null,
+   "neutral": true,
+   "mods": {
+    "atq": 0,
+    "def": 1,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "ilegible",
+    "nombre": "Ilegible",
+    "regla": "Fuera del triángulo. +1 Def (incluido). Analizar contra él tiene −1."
+   }
+  },
+  "None": {
+   "id": "ninguno",
+   "nombre": "Ninguno",
+   "vence_a": null,
+   "pierde_contra": null,
+   "neutral": true,
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "ini": 0
+   },
+   "rasgo": null
+  }
+ },
+ "triangulo": {
+  "vacuna": "virus",
+  "virus": "datos",
+  "datos": "vacuna",
+  "regla": "Si tu atributo vence al del rival, +1 a tus tiradas contra él (al atacar y al defenderte). Si el suyo vence al tuyo, −1. Libre, Desconocido, SIN DATOS y Ninguno son neutrales. Variable elige cada escena."
+ },
+ "familias": [
+  {
+   "id": "dragon",
+   "nombre": "Dragón",
+   "descripcion": "Dragones y hombres dragón: potencia bruta y orgullo.",
+   "afinidad": "fuego",
+   "debilidad": [
+    "hielo"
+   ],
+   "resistencia": [
+    "fuego"
+   ],
+   "rasgo": {
+    "nombre": "Corazón de dragón",
+    "regla": "Con la mitad de sus PV o menos, +1 a sus tiradas de ataque."
+   },
+   "especialidad": "fuerza, intimidar, volar si tiene alas",
+   "rol_primario": "bruto",
+   "rol_secundario": "versatil",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Garra de dragón",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Dragon Man",
+    "Dark Dragon",
+    "Mini Dragon",
+    "Dragon",
+    "Holy Dragon",
+    "Beast Dragon",
+    "Evil Dragon",
+    "Bird Dragon",
+    "Rock Dragon",
+    "Armored Dragon",
+    "Shining Dragon",
+    "Baby Dragon",
+    "Mythical Dragon",
+    "Machine Dragon",
+    "Sky Dragon",
+    "Ancient Dragon",
+    "Ancient Dragon Man",
+    "Ocean Dragon",
+    "Earth Dragon",
+    "Fire Dragon",
+    "Dragon Warrior"
+   ]
+  },
+  {
+   "id": "saurio",
+   "nombre": "Saurio",
+   "descripcion": "Reptiles y dinosaurios: piel dura y mandíbulas fuertes.",
+   "afinidad": "neutro",
+   "debilidad": [
+    "hielo"
+   ],
+   "resistencia": [
+    "tierra"
+   ],
+   "rasgo": {
+    "nombre": "Piel gruesa",
+    "regla": "+VF PV (incluido en la ficha)."
+   },
+   "especialidad": "aguante, fuerza, morder",
+   "rol_primario": "bruto",
+   "rol_secundario": "tanque",
+   "mods": {
+    "pv_mult": 1,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Mordisco",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Dinosaur",
+    "Reptile",
+    "Reptile Man",
+    "Ceratopsian",
+    "Pterosaur",
+    "Plesiosaur",
+    "Stegosaur"
+   ]
+  },
+  {
+   "id": "bestia",
+   "nombre": "Bestia",
+   "descripcion": "Mamíferos y bestias míticas: instinto de manada.",
+   "afinidad": "neutro",
+   "debilidad": [
+    "fuego"
+   ],
+   "resistencia": [
+    "hielo"
+   ],
+   "rasgo": {
+    "nombre": "Manada",
+    "regla": "+1 al atacar a un objetivo que un aliado ya ha atacado en este asalto."
+   },
+   "especialidad": "rastrear, olfato, correr",
+   "rol_primario": "agil",
+   "rol_secundario": "acechador",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Zarpazo",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Beast",
+    "Beast Man",
+    "Mammal",
+    "Ancient Beast",
+    "Mythical Beast",
+    "Mysterious Beast",
+    "Rare Animal",
+    "Ancient Mythical Beast"
+   ]
+  },
+  {
+   "id": "ave",
+   "nombre": "Ave",
+   "descripcion": "Aves y hombres ave: dominan el cielo.",
+   "afinidad": "viento",
+   "debilidad": [
+    "electrico"
+   ],
+   "resistencia": [
+    "tierra"
+   ],
+   "rasgo": {
+    "nombre": "Vuelo",
+    "regla": "Vuela: ignora el terreno y las técnicas de Toque de quien no vuela tienen −2 contra ella, salvo que esté trabada con el atacante."
+   },
+   "especialidad": "volar, otear, orientarse",
+   "rol_primario": "agil",
+   "rol_secundario": "tirador",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Picotazo",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Bird",
+    "Giant Bird",
+    "Baby Bird",
+    "Bird Man",
+    "Ancient Bird",
+    "Mysterious Bird",
+    "Mini Bird",
+    "Ancient Bird Man"
+   ],
+   "vuela": true
+  },
+  {
+   "id": "acuatico",
+   "nombre": "Acuático",
+   "descripcion": "Criaturas marinas y anfibias.",
+   "afinidad": "agua",
+   "debilidad": [
+    "electrico"
+   ],
+   "resistencia": [
+    "fuego"
+   ],
+   "rasgo": {
+    "nombre": "Anfibio",
+    "regla": "Nada. En zonas con agua o bajo la lluvia, +1 Def y se mueve sin penalización."
+   },
+   "especialidad": "nadar, bucear, corrientes",
+   "rol_primario": "tanque",
+   "rol_secundario": "tirador",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Coletazo",
+    "elemento": "agua"
+   },
+   "tipos": [
+    "Aquatic",
+    "Aquatic Beast Man",
+    "Ancient Aquatic Beast Man",
+    "Sea Beast",
+    "Sea Animal",
+    "Mollusk",
+    "Crustacean",
+    "Ancient Crustacean",
+    "Amphibian",
+    "Ancient Fish",
+    "Tropical Fish",
+    "Marine Man"
+   ],
+   "nada": true
+  },
+  {
+   "id": "naturaleza",
+   "nombre": "Naturaleza",
+   "descripcion": "Insectos y plantas: venenos, raíces y caparazones.",
+   "afinidad": "planta",
+   "debilidad": [
+    "fuego"
+   ],
+   "resistencia": [
+    "agua"
+   ],
+   "rasgo": {
+    "nombre": "Toxinas y raíces",
+    "regla": "Inmune a Veneno. +1 a la tirada con técnicas de Veneno o Atrapar. Los insectos (Insectoid, Ancient Insectoid) vuelan."
+   },
+   "especialidad": "sigilo en la naturaleza, plantas, camuflaje",
+   "rol_primario": "mistico",
+   "rol_secundario": "acechador",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Picadura",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Insectoid",
+    "Ancient Insectoid",
+    "Larva",
+    "Parasite",
+    "Vegetation",
+    "Carnivorous Vegetation",
+    "Ancient Vegetation",
+    "Seed",
+    "Bulb"
+   ]
+  },
+  {
+   "id": "maquina",
+   "nombre": "Máquina",
+   "descripcion": "Cíborgs, máquinas y armas vivientes.",
+   "afinidad": "acero",
+   "debilidad": [
+    "electrico"
+   ],
+   "resistencia": [
+    "veneno"
+   ],
+   "rasgo": {
+    "nombre": "Blindaje",
+    "regla": "+1 Arm y −1 Ini (incluidos). Inmune a Dormir y Encantar."
+   },
+   "especialidad": "fuerza, cálculo, sensores, interfaz",
+   "rol_primario": "tanque",
+   "rol_secundario": "tirador",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 1,
+    "ini": -1
+   },
+   "tecnica_basica": {
+    "nombre": "Puño mecánico",
+    "elemento": "acero"
+   },
+   "tipos": [
+    "Cyborg",
+    "Machine",
+    "Weapon",
+    "Mine",
+    "Enhancement",
+    "Armor",
+    "CRT",
+    "LCD",
+    "9000"
+   ]
+  },
+  {
+   "id": "juguete",
+   "nombre": "Juguete",
+   "descripcion": "Marionetas, juguetes y comida con vida.",
+   "afinidad": "mental",
+   "debilidad": [
+    "fuego"
+   ],
+   "resistencia": [
+    "mental"
+   ],
+   "rasgo": {
+    "nombre": "Relleno",
+    "regla": "Una vez por combate reduce a la mitad el daño de un impacto. Inmune a Asustar."
+   },
+   "especialidad": "distraer, actuar, engañar",
+   "rol_primario": "mistico",
+   "rol_secundario": "apoyo",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Golpe de juguete",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Puppet",
+    "Food",
+    "Musical Instrument"
+   ]
+  },
+  {
+   "id": "sagrado",
+   "nombre": "Sagrado",
+   "descripcion": "Ángeles, bestias sagradas y deidades.",
+   "afinidad": "luz",
+   "debilidad": [
+    "oscuridad"
+   ],
+   "resistencia": [
+    "luz"
+   ],
+   "rasgo": {
+    "nombre": "Aura sagrada",
+    "regla": "+1 dado de daño con técnicas de Luz contra la familia Oscuro (no contra el Modo Oscuro de otra familia). Los ángeles y las aves sagradas vuelan."
+   },
+   "especialidad": "detectar el mal, consolar, saber antiguo",
+   "rol_primario": "mistico",
+   "rol_secundario": "apoyo",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Golpe sagrado",
+    "elemento": "luz"
+   },
+   "tipos": [
+    "Angel",
+    "Mini Angel",
+    "High Angel",
+    "Super Angel",
+    "Great Angel",
+    "Seraph",
+    "Cherub",
+    "Dominion",
+    "Principality",
+    "Virtue",
+    "Holy Beast",
+    "Holy Bird",
+    "Deity",
+    "God Beast",
+    "Tathāgata",
+    "Monk"
+   ]
+  },
+  {
+   "id": "caballero",
+   "nombre": "Caballero",
+   "descripcion": "Caballeros y guerreros de código y honor.",
+   "afinidad": "acero",
+   "debilidad": [
+    "oscuridad"
+   ],
+   "resistencia": [
+    "acero"
+   ],
+   "rasgo": {
+    "nombre": "Honor",
+    "regla": "Inmune a Asustar y Encantar. +1 Def mientras usa Proteger. (Tipo Dark Knight: debilidad Luz y resistencia Oscuridad.)"
+   },
+   "especialidad": "proteger, etiqueta, juramentos",
+   "rol_primario": "versatil",
+   "rol_secundario": "tanque",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Tajo",
+    "elemento": "acero"
+   },
+   "tipos": [
+    "Holy Knight",
+    "Dark Knight",
+    "Beast Knight",
+    "Magic Knight",
+    "Ancient Holy Knight",
+    "Holy Sword",
+    "Warrior",
+    "Magic Warrior"
+   ],
+   "excepciones_tipo": {
+    "Dark Knight": {
+     "debilidad": [
+      "luz"
+     ],
+     "resistencia": [
+      "oscuridad"
+     ]
+    }
+   }
+  },
+  {
+   "id": "oscuro",
+   "nombre": "Oscuro",
+   "descripcion": "Demonios, no muertos, fantasmas y bestias oscuras.",
+   "afinidad": "oscuridad",
+   "debilidad": [
+    "luz"
+   ],
+   "resistencia": [
+    "oscuridad"
+   ],
+   "rasgo": {
+    "nombre": "Hambre oscura",
+    "regla": "Cuando su ataque saca 10+ (o el defensor saca 6–), recupera VF PV."
+   },
+   "especialidad": "intimidar, ver en la oscuridad, ocultarse",
+   "rol_primario": "acechador",
+   "rol_secundario": "mistico",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Zarpa sombría",
+    "elemento": "oscuridad"
+   },
+   "tipos": [
+    "Demon",
+    "Dark Angel",
+    "Evil King",
+    "Little Devil",
+    "Demon God",
+    "Wicked God",
+    "Avatar",
+    "Undead",
+    "Ghost",
+    "Dark Beast"
+   ]
+  },
+  {
+   "id": "arcano",
+   "nombre": "Arcano",
+   "descripcion": "Magos, hadas y espíritus (antes llamada «Místico»; se renombra para no confundirla con el rol Místico).",
+   "afinidad": "mental",
+   "debilidad": [
+    "acero"
+   ],
+   "resistencia": [
+    "mental"
+   ],
+   "rasgo": {
+    "nombre": "Hechicería",
+    "regla": "Sus técnicas de alcance Distancia pueden usarse con alcance Larga. Inmune a Confundir."
+   },
+   "especialidad": "magia, saber arcano, ilusiones",
+   "rol_primario": "mistico",
+   "rol_secundario": "apoyo",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Proyectil arcano",
+    "elemento": "mental"
+   },
+   "tipos": [
+    "Wizard",
+    "Pixie",
+    "Ancient Pixie",
+    "Ancient",
+    "Spirit",
+    "Smoke"
+   ],
+   "basica_alcance": "distancia"
+  },
+  {
+   "id": "elemental",
+   "nombre": "Elemental",
+   "descripcion": "Cuerpos hechos de fuego, hielo, roca o luz estelar.",
+   "afinidad": "segun_tipo",
+   "debilidad": [
+    "segun_tipo"
+   ],
+   "resistencia": [
+    "segun_tipo"
+   ],
+   "rasgo": {
+    "nombre": "Cuerpo elemental",
+    "regla": "Resistencia al daño de su propio elemento (incluida en la ficha) e inmune al estado por defecto de ese elemento. No es inmune al daño: así un grupo con técnicas de ese elemento no queda sin opciones."
+   },
+   "especialidad": "su elemento",
+   "rol_primario": "bruto",
+   "rol_secundario": "mistico",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Golpe elemental",
+    "elemento": "afinidad"
+   },
+   "tipos": [
+    "Fire",
+    "Ice-Snow",
+    "Mineral",
+    "Ore",
+    "Ancient Mineral",
+    "Galaxy",
+    "Minor",
+    "Major",
+    "Super Major"
+   ],
+   "elemento_por_tipo": {
+    "Fire": {
+     "afinidad": "fuego",
+     "debilidad": [
+      "agua"
+     ],
+     "resistencia": [
+      "fuego"
+     ]
+    },
+    "Ice-Snow": {
+     "afinidad": "hielo",
+     "debilidad": [
+      "fuego"
+     ],
+     "resistencia": [
+      "hielo"
+     ]
+    },
+    "Mineral": {
+     "afinidad": "tierra",
+     "debilidad": [
+      "planta"
+     ],
+     "resistencia": [
+      "tierra"
+     ]
+    },
+    "Ore": {
+     "afinidad": "tierra",
+     "debilidad": [
+      "planta"
+     ],
+     "resistencia": [
+      "tierra"
+     ]
+    },
+    "Ancient Mineral": {
+     "afinidad": "tierra",
+     "debilidad": [
+      "planta"
+     ],
+     "resistencia": [
+      "tierra"
+     ]
+    },
+    "Galaxy": {
+     "afinidad": "cosmico",
+     "debilidad": [
+      "oscuridad"
+     ],
+     "resistencia": [
+      "cosmico"
+     ]
+    },
+    "Minor": {
+     "afinidad": "cosmico",
+     "debilidad": [
+      "oscuridad"
+     ],
+     "resistencia": [
+      "cosmico"
+     ]
+    },
+    "Major": {
+     "afinidad": "cosmico",
+     "debilidad": [
+      "oscuridad"
+     ],
+     "resistencia": [
+      "cosmico"
+     ]
+    },
+    "Super Major": {
+     "afinidad": "cosmico",
+     "debilidad": [
+      "oscuridad"
+     ],
+     "resistencia": [
+      "cosmico"
+     ]
+    }
+   }
+  },
+  {
+   "id": "anomalia",
+   "nombre": "Anomalía",
+   "descripcion": "Mutantes, compuestos, invasores y lo inclasificable (incluye las crías Slime y Lesser).",
+   "afinidad": "neutro",
+   "debilidad": [],
+   "resistencia": [],
+   "rasgo": {
+    "nombre": "Adaptación",
+    "regla": "Tras recibir daño de un elemento, gana Resistencia a ese elemento hasta el final del combate (solo a uno a la vez)."
+   },
+   "especialidad": "adaptarse, infiltrarse en sistemas, imitar",
+   "rol_primario": "versatil",
+   "rol_secundario": "bruto",
+   "mods": {
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "tecnica_basica": {
+    "nombre": "Embestida",
+    "elemento": "neutro"
+   },
+   "tipos": [
+    "Mutant",
+    "Unidentified",
+    "Composite",
+    "Alien",
+    "Alien Humanoid",
+    "Invader",
+    "Unanalyzable",
+    "Abnormal",
+    "Unique",
+    "NO DATA",
+    "Ancient Mutant",
+    "Slime",
+    "Lesser",
+    "Perfect"
+   ]
+  }
+ ],
+ "traduccion_tipos": {
+  "Cyborg": "Cíborg",
+  "Mutant": "Mutante",
+  "Puppet": "Marioneta",
+  "Beast": "Bestia",
+  "Deity": "Deidad",
+  "Machine": "Máquina",
+  "Beast Man": "Hombre Bestia",
+  "Insectoid": "Insectoide",
+  "Wizard": "Mago",
+  "Holy Knight": "Caballero Sagrado",
+  "Slime": "Limo",
+  "Holy Beast": "Bestia Sagrada",
+  "Lesser": "Menor",
+  "Unidentified": "No Identificado",
+  "Dragon Man": "Hombre Dragón",
+  "Dark Beast": "Bestia Oscura",
+  "Dinosaur": "Dinosaurio",
+  "Vegetation": "Vegetal",
+  "Undead": "No Muerto",
+  "Pixie": "Hada",
+  "Evil King": "Rey Maligno",
+  "Mammal": "Mamífero",
+  "Aquatic": "Acuático",
+  "Composite": "Compuesto",
+  "Reptile": "Reptil",
+  "Mollusk": "Molusco",
+  "Bird": "Ave",
+  "Demon": "Demonio",
+  "Dark Angel": "Ángel Caído",
+  "Enhancement": "Potenciado",
+  "Warrior": "Guerrero",
+  "Dark Dragon": "Dragón Oscuro",
+  "Giant Bird": "Ave Gigante",
+  "Ghost": "Fantasma",
+  "Amphibian": "Anfibio",
+  "Weapon": "Arma",
+  "Holy Dragon": "Dragón Sagrado",
+  "Mineral": "Mineral",
+  "Aquatic Beast Man": "Hombre Bestia Acuático",
+  "Mini Dragon": "Minidragón",
+  "Dragon": "Dragón",
+  "Mythical Beast": "Bestia Mítica",
+  "Bird Man": "Hombre Ave",
+  "Beast Dragon": "Dragón Bestia",
+  "Ancient Beast": "Bestia Ancestral",
+  "Unique": "Único",
+  "Evil Dragon": "Dragón Maligno",
+  "Angel": "Ángel",
+  "Food": "Comida",
+  "Crustacean": "Crustáceo",
+  "Fire": "Fuego",
+  "Armor": "Armadura",
+  "Bird Dragon": "Dragón Ave",
+  "Pterosaur": "Pterosaurio",
+  "Baby Bird": "Polluelo",
+  "Ice-Snow": "Hielo y Nieve",
+  "Larva": "Larva",
+  "Mysterious Beast": "Bestia Misteriosa",
+  "Ore": "Mena",
+  "Sea Beast": "Bestia Marina",
+  "Sea Animal": "Animal Marino",
+  "Rock Dragon": "Dragón de Roca",
+  "Dark Knight": "Caballero Oscuro",
+  "Beast Knight": "Caballero Bestia",
+  "Shining Dragon": "Dragón Resplandeciente",
+  "Holy Bird": "Ave Sagrada",
+  "Ceratopsian": "Ceratopsio",
+  "Armored Dragon": "Dragón Acorazado",
+  "Cherub": "Querubín",
+  "Little Devil": "Diablillo",
+  "Smoke": "Humo",
+  "God Beast": "Bestia Divina",
+  "Sky Dragon": "Dragón Celeste",
+  "Plesiosaur": "Plesiosaurio",
+  "Ancient Dragon": "Dragón Ancestral",
+  "Baby Dragon": "Dragón Bebé",
+  "Machine Dragon": "Dragón Máquina",
+  "Super Angel": "Superángel",
+  "High Angel": "Arcángel",
+  "Mythical Dragon": "Dragón Mítico",
+  "Ancient Bird": "Ave Ancestral",
+  "Tathāgata": "Tathāgata",
+  "Magic Knight": "Caballero Mágico",
+  "Mini Bird": "Minipájaro",
+  "Ancient Pixie": "Hada Ancestral",
+  "Carnivorous Vegetation": "Planta Carnívora",
+  "Ancient Dragon Man": "Hombre Dragón Ancestral",
+  "Invader": "Invasor",
+  "Seraph": "Serafín",
+  "Avatar": "Avatar",
+  "Ocean Dragon": "Dragón Oceánico",
+  "Mysterious Bird": "Ave Misteriosa",
+  "Earth Dragon": "Dragón de Tierra",
+  "CRT": "Pantalla CRT",
+  "Mine": "Mina",
+  "Demon God": "Dios Demonio",
+  "Wicked God": "Dios Perverso",
+  "Ancient": "Ancestral",
+  "Alien": "Alienígena",
+  "Ancient Crustacean": "Crustáceo Ancestral",
+  "Rare Animal": "Animal Raro",
+  "Bulb": "Bulbo",
+  "Mini Angel": "Miniángel",
+  "Seed": "Semilla",
+  "Dominion": "Dominación",
+  "Principality": "Principado",
+  "Super Major": "Supermayor",
+  "Minor": "Menor (estelar)",
+  "LCD": "Pantalla LCD",
+  "Musical Instrument": "Instrumento Musical",
+  "Major": "Mayor (estelar)",
+  "Alien Humanoid": "Humanoide Alienígena",
+  "Reptile Man": "Hombre Reptil",
+  "Dragon Warrior": "Guerrero Dragón",
+  "Stegosaur": "Estegosaurio",
+  "Parasite": "Parásito",
+  "Holy Sword": "Espada Sagrada",
+  "Unanalyzable": "Inanalizable",
+  "Great Angel": "Gran Ángel",
+  "Galaxy": "Galaxia",
+  "Virtue": "Virtud",
+  "Ancient Mutant": "Mutante Ancestral",
+  "Ancient Aquatic Beast Man": "Hombre Bestia Acuático Ancestral",
+  "Ancient Mineral": "Mineral Ancestral",
+  "Ancient Insectoid": "Insectoide Ancestral",
+  "Ancient Vegetation": "Vegetal Ancestral",
+  "Ancient Mythical Beast": "Bestia Mítica Ancestral",
+  "Ancient Bird Man": "Hombre Ave Ancestral",
+  "Ancient Holy Knight": "Caballero Sagrado Ancestral",
+  "9000": "9000",
+  "NO DATA": "SIN DATOS",
+  "Magic Warrior": "Guerrero Mágico",
+  "Perfect": "Perfección",
+  "Monk": "Monje",
+  "Marine Man": "Hombre Marino",
+  "Fire Dragon": "Dragón de Fuego",
+  "Abnormal": "Anómalo",
+  "Ancient Fish": "Pez Ancestral",
+  "Tropical Fish": "Pez Tropical",
+  "Spirit": "Espíritu"
+ },
+ "elementos": [
+  {
+   "id": "neutro",
+   "nombre": "Neutro",
+   "descripcion": "Golpes, garras, embestidas y energía sin naturaleza definida.",
+   "estado_por_defecto": null,
+   "vence_a": [],
+   "raices": [],
+   "raices_contexto": []
+  },
+  {
+   "id": "veneno",
+   "nombre": "Veneno",
+   "descripcion": "Ácidos, toxinas, gases, basura y, sí, caca.",
+   "estado_por_defecto": "veneno",
+   "vence_a": [
+    "planta"
+   ],
+   "raices": [
+    "poison*",
+    "venom*",
+    "toxic*",
+    "toxin*",
+    "acid*",
+    "sludge",
+    "poop",
+    "excrement*",
+    "dung",
+    "stink*",
+    "smog",
+    "miasma",
+    "germ",
+    "bacteri*",
+    "corros*",
+    "pollut*",
+    "garbage*",
+    "filth*",
+    "mucus",
+    "rot",
+    "gas"
+   ],
+   "raices_contexto": [
+    "poison*",
+    "venom*",
+    "toxic*",
+    "toxin*",
+    "acid*",
+    "sludge",
+    "corros*",
+    "pollut*",
+    "miasma",
+    "bacteri*",
+    "excrement*",
+    "poop",
+    "stench",
+    "stink*"
+   ]
+  },
+  {
+   "id": "hielo",
+   "nombre": "Hielo",
+   "descripcion": "Escarcha, nieve, ventisca y frío absoluto.",
+   "estado_por_defecto": "congelar",
+   "vence_a": [
+    "planta",
+    "viento"
+   ],
+   "raices": [
+    "ice",
+    "icy",
+    "frozen",
+    "freez*",
+    "frost*",
+    "snow*",
+    "blizzard*",
+    "hail",
+    "glacier*",
+    "glacial*",
+    "avalanche*",
+    "tundra",
+    "cold",
+    "polar",
+    "arctic",
+    "diamond dust",
+    "absolute zero",
+    "icicle*",
+    "chill*",
+    "subzero"
+   ],
+   "raices_contexto": [
+    "ice",
+    "icy",
+    "frozen",
+    "freez*",
+    "frost*",
+    "snow*",
+    "blizzard*",
+    "glacier*",
+    "glacial*",
+    "icicle*",
+    "absolute zero",
+    "subzero",
+    "hail"
+   ]
+  },
+  {
+   "id": "electrico",
+   "nombre": "Eléctrico",
+   "descripcion": "Rayos, plasma, magnetismo y descargas.",
+   "estado_por_defecto": "paralizar",
+   "vence_a": [
+    "agua",
+    "viento"
+   ],
+   "raices": [
+    "thunder*",
+    "lightning*",
+    "electr*",
+    "elec",
+    "spark*",
+    "plasma*",
+    "volt*",
+    "shock*",
+    "bolt*",
+    "static*",
+    "condenser*",
+    "tesla*",
+    "magnet*",
+    "donner*",
+    "raiden*",
+    "mjolnir",
+    "zap",
+    "zapper",
+    "denryu"
+   ],
+   "raices_contexto": [
+    "thunder*",
+    "lightning*",
+    "electr*",
+    "plasma*",
+    "volt*",
+    "tesla*",
+    "magnet*",
+    "electric shock*",
+    "static electricity"
+   ]
+  },
+  {
+   "id": "fuego",
+   "nombre": "Fuego",
+   "descripcion": "Llamas, calor, magma y explosiones solares.",
+   "estado_por_defecto": "quemar",
+   "vence_a": [
+    "planta",
+    "hielo",
+    "acero"
+   ],
+   "raices": [
+    "fire",
+    "fires",
+    "fireball*",
+    "flame*",
+    "flaming",
+    "flare*",
+    "blaze*",
+    "blazing",
+    "burn*",
+    "heat*",
+    "inferno*",
+    "pyro*",
+    "magma*",
+    "lava",
+    "volcan*",
+    "prominence*",
+    "corona*",
+    "ignit*",
+    "burner*",
+    "pepper*",
+    "scorch*",
+    "ember*",
+    "phoenix*",
+    "sun",
+    "solar*",
+    "sunshine",
+    "atomic*",
+    "salamander*",
+    "torrid*",
+    "meramon",
+    "incinerat*",
+    "searing",
+    "hellfire*",
+    "bonfire*",
+    "temperature*",
+    "superheat*"
+   ],
+   "raices_contexto": [
+    "flame*",
+    "flaming",
+    "blaze*",
+    "blazing",
+    "burn*",
+    "inferno*",
+    "pyro*",
+    "magma*",
+    "lava",
+    "volcan*",
+    "ignit*",
+    "scorch*",
+    "ember*",
+    "incinerat*",
+    "searing",
+    "hellfire*",
+    "bonfire*",
+    "fireball*",
+    "superheat*",
+    "on fire",
+    "set * ablaze",
+    "sets * ablaze",
+    "set * on fire",
+    "sets * on fire",
+    "ball of fire",
+    "breathes fire",
+    "breath of fire"
+   ]
+  },
+  {
+   "id": "agua",
+   "nombre": "Agua",
+   "descripcion": "Burbujas, olas, presión y corrientes.",
+   "estado_por_defecto": "ralentizar",
+   "vence_a": [
+    "fuego",
+    "tierra"
+   ],
+   "raices": [
+    "water*",
+    "aqua*",
+    "hydro*",
+    "bubble*",
+    "wave",
+    "waves",
+    "ocean*",
+    "sea",
+    "tide",
+    "tidal",
+    "splash*",
+    "rain",
+    "torrent*",
+    "tsunami*",
+    "stream",
+    "marine*",
+    "depth*",
+    "whirlpool*",
+    "fish",
+    "fishes",
+    "foam",
+    "geyser*",
+    "surf",
+    "river*",
+    "submarine*",
+    "seawater",
+    "harpoon*",
+    "blue hawaii"
+   ],
+   "raices_contexto": [
+    "water*",
+    "aqua*",
+    "hydro*",
+    "bubble*",
+    "ocean*",
+    "tidal",
+    "splash*",
+    "torrent*",
+    "tsunami*",
+    "whirlpool*",
+    "geyser*",
+    "seawater",
+    "jet of water",
+    "high pressure water"
+   ]
+  },
+  {
+   "id": "planta",
+   "nombre": "Planta",
+   "descripcion": "Enredaderas, pétalos, semillas y esporas.",
+   "estado_por_defecto": "atrapar",
+   "vence_a": [
+    "agua",
+    "tierra"
+   ],
+   "raices": [
+    "leaf",
+    "leaves",
+    "flower*",
+    "ivy",
+    "seed*",
+    "vine*",
+    "thorn*",
+    "rose",
+    "roses",
+    "petal*",
+    "blossom*",
+    "pollen*",
+    "spore*",
+    "root",
+    "roots",
+    "forest*",
+    "wood",
+    "wooden",
+    "bloom*",
+    "cherry*",
+    "lotus*",
+    "plant*",
+    "tree",
+    "trees",
+    "fruit*",
+    "flechette*",
+    "lampranthus",
+    "nature*",
+    "cactus",
+    "pinecone*"
+   ],
+   "raices_contexto": [
+    "leaf",
+    "leaves",
+    "flower*",
+    "ivy",
+    "seed*",
+    "vine*",
+    "thorn*",
+    "petal*",
+    "blossom*",
+    "pollen*",
+    "spore*",
+    "bloom*",
+    "pinecone*",
+    "cactus"
+   ]
+  },
+  {
+   "id": "luz",
+   "nombre": "Luz",
+   "descripcion": "Lo sagrado, láseres, estrellas y fotones.",
+   "estado_por_defecto": "cegar",
+   "vence_a": [
+    "oscuridad"
+   ],
+   "raices": [
+    "holy",
+    "heaven*",
+    "light",
+    "lights",
+    "licht",
+    "shining",
+    "shine",
+    "divine*",
+    "saint*",
+    "angel*",
+    "judg*",
+    "justice*",
+    "glori*",
+    "glory",
+    "ray",
+    "rays",
+    "prism*",
+    "rainbow*",
+    "aurora*",
+    "golden*",
+    "gold",
+    "sacred*",
+    "celestial*",
+    "excalibur*",
+    "positron*",
+    "radiant*",
+    "halo",
+    "gospel*",
+    "testament*",
+    "eden",
+    "sefirot*",
+    "photon*",
+    "lumin*",
+    "bright*",
+    "dawn",
+    "purif*",
+    "miracle*",
+    "bless*",
+    "pray*",
+    "seraph*",
+    "cruz",
+    "cross",
+    "grace",
+    "laser*",
+    "beam",
+    "beams"
+   ],
+   "raices_contexto": [
+    "holy",
+    "heaven*",
+    "divine*",
+    "saint*",
+    "sacred*",
+    "celestial*",
+    "radiant*",
+    "halo",
+    "photon*",
+    "lumin*",
+    "purif*",
+    "bless*",
+    "seraph*",
+    "prism*",
+    "rainbow*",
+    "aurora*",
+    "holy light",
+    "sacred light",
+    "light of justice"
+   ]
+  },
+  {
+   "id": "oscuridad",
+   "nombre": "Oscuridad",
+   "descripcion": "Sombras, maldiciones, muerte y el lado oscuro de los datos.",
+   "estado_por_defecto": "asustar",
+   "vence_a": [
+    "luz",
+    "mental"
+   ],
+   "raices": [
+    "dark*",
+    "death*",
+    "hell",
+    "evil",
+    "shadow*",
+    "night*",
+    "black*",
+    "nightmare*",
+    "demon*",
+    "doom",
+    "abyss*",
+    "chaos*",
+    "curse*",
+    "dead",
+    "deadly",
+    "undead*",
+    "ghost*",
+    "phantom*",
+    "blood*",
+    "skull*",
+    "bone",
+    "bones",
+    "grave",
+    "lost",
+    "ruin",
+    "despair*",
+    "dread*",
+    "devil*",
+    "vampir*",
+    "midnight*",
+    "shade",
+    "gloom*",
+    "oblivion*",
+    "geist",
+    "schwarz*",
+    "nero",
+    "noir",
+    "kill",
+    "grim",
+    "reaper*",
+    "zombie*",
+    "hades",
+    "necro*",
+    "void",
+    "vile",
+    "wicked*",
+    "sin",
+    "sins",
+    "armagedd*",
+    "pandemon*",
+    "underworld*",
+    "lust",
+    "soul",
+    "souls"
+   ],
+   "raices_contexto": [
+    "dark*",
+    "death*",
+    "hell",
+    "evil",
+    "shadow*",
+    "nightmare*",
+    "demon*",
+    "abyss*",
+    "chaos*",
+    "curse*",
+    "undead*",
+    "ghost*",
+    "phantom*",
+    "despair*",
+    "dread*",
+    "devil*",
+    "vampir*",
+    "gloom*",
+    "necro*",
+    "underworld*",
+    "wicked*",
+    "zombie*",
+    "reaper*",
+    "hades",
+    "oblivion*",
+    "pandemon*"
+   ]
+  },
+  {
+   "id": "cosmico",
+   "nombre": "Cósmico",
+   "descripcion": "Meteoros, gravedad, tiempo, estrellas y el espacio profundo.",
+   "estado_por_defecto": "ralentizar",
+   "vence_a": [
+    "tierra",
+    "acero"
+   ],
+   "raices": [
+    "meteor*",
+    "galaxy*",
+    "galactic*",
+    "cosmic*",
+    "cosmo*",
+    "space",
+    "planet*",
+    "black hole",
+    "big bang",
+    "universe*",
+    "nebula*",
+    "comet*",
+    "astral*",
+    "orbit*",
+    "gravit*",
+    "dimension*",
+    "quantum*",
+    "time",
+    "star",
+    "stars",
+    "nova",
+    "supernova*",
+    "moon",
+    "lunar",
+    "eclipse*",
+    "infinity",
+    "zero"
+   ],
+   "raices_contexto": [
+    "meteor*",
+    "galaxy*",
+    "galactic*",
+    "cosmic*",
+    "cosmo*",
+    "planet*",
+    "black hole",
+    "big bang",
+    "universe*",
+    "nebula*",
+    "comet*",
+    "astral*",
+    "gravit*",
+    "supernova*",
+    "lunar",
+    "eclipse*",
+    "outer space",
+    "starlight",
+    "time stop*",
+    "stops time",
+    "space time"
+   ]
+  },
+  {
+   "id": "mental",
+   "nombre": "Mental",
+   "descripcion": "Mente, sonido, música, ilusiones, magia y emociones.",
+   "estado_por_defecto": "confundir",
+   "vence_a": [
+    "veneno",
+    "cosmico"
+   ],
+   "raices": [
+    "love*",
+    "charm*",
+    "dream*",
+    "lullaby*",
+    "song",
+    "songs",
+    "symphony*",
+    "sonic",
+    "sound*",
+    "echo*",
+    "scream*",
+    "music*",
+    "sing",
+    "singing",
+    "illusion*",
+    "mirror*",
+    "mind",
+    "psych*",
+    "hypno*",
+    "sweet*",
+    "smile*",
+    "heart*",
+    "kiss",
+    "giggle*",
+    "crazy",
+    "madness*",
+    "fantasia*",
+    "jamming*",
+    "voice*",
+    "melody*",
+    "serenade*",
+    "rhythm*",
+    "party",
+    "wink",
+    "perfume*",
+    "pheromone*",
+    "fascinat*",
+    "tempt*",
+    "mystic*",
+    "magic*",
+    "card",
+    "cards",
+    "trump*",
+    "joker*",
+    "dance*",
+    "merry*",
+    "confus*",
+    "hertz",
+    "bell",
+    "bells",
+    "whisper*",
+    "spell*",
+    "curtain*",
+    "howl*",
+    "roar*",
+    "shout*",
+    "noise*"
+   ],
+   "raices_contexto": [
+    "sonic",
+    "ultrasonic",
+    "sound wave*",
+    "music*",
+    "melody*",
+    "song",
+    "songs",
+    "sing",
+    "singing",
+    "lullaby*",
+    "illusion*",
+    "hypno*",
+    "psych*",
+    "telepath*",
+    "dream*",
+    "magic*",
+    "spell*",
+    "hallucinat*",
+    "mind control*",
+    "the mind"
+   ]
+  },
+  {
+   "id": "viento",
+   "nombre": "Viento",
+   "descripcion": "Tornados, alas, vendavales y presión de aire.",
+   "estado_por_defecto": "empujar",
+   "vence_a": [
+    "planta",
+    "veneno"
+   ],
+   "raices": [
+    "wind*",
+    "tornado*",
+    "storm*",
+    "gale",
+    "hurricane*",
+    "typhoon*",
+    "cyclone*",
+    "whirlwind*",
+    "twister*",
+    "air",
+    "gust*",
+    "tempest*",
+    "turbulen*",
+    "sky",
+    "wing",
+    "wings",
+    "feather*",
+    "jet",
+    "aero*",
+    "zephyr*",
+    "breeze*",
+    "vortex*"
+   ],
+   "raices_contexto": [
+    "wind",
+    "winds",
+    "tornado*",
+    "gale",
+    "hurricane*",
+    "typhoon*",
+    "cyclone*",
+    "whirlwind*",
+    "twister*",
+    "gust*",
+    "tempest*",
+    "turbulen*",
+    "zephyr*",
+    "breeze*",
+    "vortex*",
+    "vacuum"
+   ]
+  },
+  {
+   "id": "tierra",
+   "nombre": "Tierra",
+   "descripcion": "Rocas, terremotos, arena y cristal.",
+   "estado_por_defecto": "derribar",
+   "vence_a": [
+    "electrico",
+    "veneno",
+    "fuego"
+   ],
+   "raices": [
+    "rock",
+    "rocks",
+    "stone*",
+    "earth*",
+    "quake*",
+    "gaia*",
+    "terra*",
+    "sand*",
+    "desert*",
+    "mountain*",
+    "crack*",
+    "ground*",
+    "boulder*",
+    "mineral*",
+    "gold rush",
+    "land",
+    "mud",
+    "clay",
+    "crystal*",
+    "diamond*",
+    "island*",
+    "continent*",
+    "golem*",
+    "iron press",
+    "tremor*",
+    "fissure*",
+    "haniwa*"
+   ],
+   "raices_contexto": [
+    "rock",
+    "rocks",
+    "stone*",
+    "earth*",
+    "quake*",
+    "gaia*",
+    "terra*",
+    "sand*",
+    "boulder*",
+    "tremor*",
+    "fissure*",
+    "landslide*",
+    "mud",
+    "clay",
+    "crystal*",
+    "diamond*"
+   ]
+  },
+  {
+   "id": "acero",
+   "nombre": "Acero",
+   "descripcion": "Espadas, misiles, cañones y metal.",
+   "estado_por_defecto": null,
+   "vence_a": [
+    "hielo",
+    "mental"
+   ],
+   "raices": [
+    "metal*",
+    "iron",
+    "steel*",
+    "blade*",
+    "sword*",
+    "saber*",
+    "sabre*",
+    "slash*",
+    "cutter*",
+    "knife",
+    "knives",
+    "scissor*",
+    "axe",
+    "lance",
+    "spear*",
+    "trident*",
+    "drill*",
+    "hammer*",
+    "chain",
+    "chains",
+    "missile*",
+    "bullet*",
+    "gun",
+    "guns",
+    "gatling*",
+    "vulcan*",
+    "cannon*",
+    "rocket*",
+    "torpedo*",
+    "launcher*",
+    "grenade*",
+    "mine",
+    "mines",
+    "bomb",
+    "bombs",
+    "buster*",
+    "machine*",
+    "mecha*",
+    "arm",
+    "arms",
+    "sickle*",
+    "scythe*",
+    "shuriken*",
+    "katana*",
+    "edge",
+    "razor*",
+    "weapon*",
+    "turbine*",
+    "gear",
+    "gears",
+    "arrow*",
+    "javelin*",
+    "shot",
+    "pistol*",
+    "rifle*",
+    "saw",
+    "dagger*"
+   ],
+   "raices_contexto": [
+    "metal*",
+    "iron",
+    "steel*",
+    "blade*",
+    "sword*",
+    "saber*",
+    "sabre*",
+    "knife",
+    "knives",
+    "missile*",
+    "bullet*",
+    "gun",
+    "guns",
+    "cannon*",
+    "rocket*",
+    "torpedo*",
+    "grenade*",
+    "bomb",
+    "bombs",
+    "spear*",
+    "lance",
+    "axe",
+    "drill*",
+    "scissor*",
+    "sickle*",
+    "scythe*",
+    "katana*",
+    "dagger*",
+    "rifle*",
+    "pistol*",
+    "gatling*",
+    "shuriken*",
+    "javelin*"
+   ]
+  }
+ ],
+ "orden_debilidad": [
+  "agua",
+  "fuego",
+  "planta",
+  "electrico",
+  "veneno",
+  "viento",
+  "tierra",
+  "hielo",
+  "acero",
+  "mental",
+  "luz",
+  "oscuridad",
+  "cosmico"
+ ],
+ "potencias": {
+  "niveles": [
+   {
+    "id": "p1",
+    "nombre": "P1 Ligera",
+    "dados": 1,
+    "uso": "a_voluntad",
+    "descripcion": "Ataque básico y técnicas menores."
+   },
+   {
+    "id": "p2",
+    "nombre": "P2 Fuerte",
+    "dados": 2,
+    "uso": "a_voluntad",
+    "descripcion": "La técnica de diario."
+   },
+   {
+    "id": "p3",
+    "nombre": "P3 Firma",
+    "dados": 3,
+    "uso": "agotadora",
+    "descripcion": "La técnica emblemática. Agotadora: tras usar una técnica Agotadora, el Digimon no puede usar ninguna técnica Agotadora en su siguiente turno (un Jefe: en el asalto siguiente)."
+   }
+  ],
+  "dado_por_rango": {
+   "0": "d4",
+   "1": "d6",
+   "2": "d8",
+   "3": "d10",
+   "4": "d12"
+  },
+  "formula_dano": "Daño = suma de los dados de poder del atacante. Nº de dados = potencia (P1 = 1, P2 = 2, P3 = 3) + extras (+1 por cada uno: debilidad del objetivo al elemento, Brutal con 10+, crítico, Potenciado+ o programa Potencia, atacante de rango superior al objetivo, plantilla Legendario, Cargado, Retroceso, Furia del Jefe) − 1 solo si la técnica alcanza de verdad a 2 o más objetivos (contra uno solo, una técnica de área cuenta como Individual); mínimo 1 dado. Después: − Arm del objetivo (salvo Perforante). Después, mitad (redondeo abajo) por cada uno: el defensor PJ sacó 7–9; el objetivo resiste el elemento (salvo Perforante); cada rango que el objetivo esté por encima del atacante. Mínimo 1 si hubo impacto. Golpe aguantado: un solo impacto de un PNJ no quita a un compañero más de la mitad de sus PV máximos (redondeo arriba). Los Escudos absorben antes que los PV.",
+  "dano_medio_por_rango": {
+   "0": {
+    "P1": 2.5,
+    "P2": 5.0,
+    "P3": null
+   },
+   "1": {
+    "P1": 3.5,
+    "P2": 7.0,
+    "P3": 10.5
+   },
+   "2": {
+    "P1": 4.5,
+    "P2": 9.0,
+    "P3": 13.5
+   },
+   "3": {
+    "P1": 5.5,
+    "P2": 11.0,
+    "P3": 16.5
+   },
+   "4": {
+    "P1": 6.5,
+    "P2": 13.0,
+    "P3": 19.5
+   }
+  },
+  "dano_fijo_opcional": "Cada dado vale VF (la mitad de sus caras); con 10+ del atacante o 6– del defensor, VF+1 por dado.",
+  "asignacion": {
+   "bebe_1": "todas P1",
+   "bebe_2": "la primera P2; el resto P1",
+   "una_tecnica": "Firma versátil: se puede lanzar como P2 o como P3 (la P3 es Agotadora)",
+   "varias_tecnicas": "Firma P3; segunda P2; tercera P2 si rango >= 3, si no P1; resto P1",
+   "sin_tecnicas": "Firma genérica 'Descarga de datos' (P2/P3 versátil, Distancia, afinidad de la familia)",
+   "palabras_menores": "Una técnica que no es la Firma y contiene una palabra menor baja 1 potencia (mínimo P1).",
+   "maximo_p3": 1,
+   "p1_sin_area": "Una técnica de daño P1 es siempre Individual (el clasificador descarta el área).",
+   "heredadas_y_tarjetas": "Una técnica heredada que era Firma (P3 o P2/P3) se hereda como P2, salvo que sustituya a la Firma de la forma actual. El programa Tarjeta Digimon usa la técnica como P2 como máximo. Así ninguna ficha tiene dos P3."
+  }
+ },
+ "alcances": [
+  {
+   "id": "toque",
+   "nombre": "Toque",
+   "regla": "Un objetivo en tu zona. Al usarla quedas trabado con él. Con área, el área está en tu zona: Toque + Ráfaga = 2 objetivos de tu zona; Toque + Zona o Total = todos los enemigos de tu zona (quedas trabado con todos)."
+  },
+  {
+   "id": "distancia",
+   "nombre": "Distancia",
+   "regla": "Un objetivo (o el área) en tu zona o en una adyacente. Estando trabado: −1 a la tirada."
+  },
+  {
+   "id": "larga",
+   "nombre": "Larga",
+   "regla": "Hasta 2 zonas de distancia. Estando trabado: −1 a la tirada."
+  },
+  {
+   "id": "personal",
+   "nombre": "Personal",
+   "regla": "Solo el usuario (técnicas de apoyo sobre sí mismo). Personal + Zona = centrada en el usuario: afecta a su zona."
+  }
+ ],
+ "areas": [
+  {
+   "id": "individual",
+   "nombre": "Individual",
+   "dados": 0,
+   "regla": "Un objetivo."
+  },
+  {
+   "id": "rafaga",
+   "nombre": "Ráfaga",
+   "dados": "-1 si alcanza a 2+ objetivos",
+   "regla": "Hasta 2 objetivos distintos dentro del alcance. Una sola tirada, comparada con la Def de cada objetivo. −1 dado solo si alcanza de verdad a 2 objetivos."
+  },
+  {
+   "id": "zona",
+   "nombre": "Zona",
+   "dados": "-1 si alcanza a 2+ objetivos",
+   "regla": "Todos los enemigos de una zona dentro del alcance y, a elección del atacante, cualquier Tamer de esa zona (como mucho 1 ataque contra cada Tamer por asalto). Una sola tirada. −1 dado solo si alcanza a 2 o más objetivos."
+  },
+  {
+   "id": "total",
+   "nombre": "Total",
+   "dados": "-1 si alcanza a 2+ objetivos",
+   "regla": "Todos los enemigos dentro del alcance. En el bestiario solo aparece en la Firma de rango 4; un Jefe o un Legendario puede usar su Firma de Zona como Total (plantilla). No admite control duro. −1 dado solo si alcanza a 2 o más objetivos.",
+   "solo": "firma_rango_4"
+  }
+ ],
+ "efectos": [
+  {
+   "id": "perforante",
+   "nombre": "Perforante",
+   "grupo": "dano",
+   "activacion": "con_impacto",
+   "regla": "Ignora la Armadura y la Resistencia elemental del objetivo.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "pierc*",
+    "penetrat*",
+    "lance",
+    "spear*",
+    "javelin*",
+    "drill*",
+    "needle*",
+    "sting*",
+    "arrow*",
+    "snipe*",
+    "horn",
+    "horns",
+    "spike*",
+    "trident*",
+    "positron*",
+    "railgun*",
+    "impale*",
+    "puncture*",
+    "fang",
+    "fangs",
+    "tusk*",
+    "stab*"
+   ],
+   "raices_contexto": [
+    "pierc*",
+    "penetrat*",
+    "impale*",
+    "skewer*",
+    "run through"
+   ]
+  },
+  {
+   "id": "brutal",
+   "nombre": "Brutal",
+   "grupo": "dano",
+   "activacion": "con_10",
+   "regla": "Con 10+ del atacante (o 6– del defensor): +1 dado de daño.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "destroy*",
+    "destruct*",
+    "crusher*",
+    "buster*",
+    "giga*",
+    "ultimate*",
+    "final",
+    "mighty*",
+    "megaton*",
+    "ruthless*",
+    "brutal*",
+    "deadly",
+    "berserk*",
+    "supreme*",
+    "hyper*",
+    "ultra*",
+    "titanic*",
+    "transcend*",
+    "infinit*",
+    "atomic*",
+    "smash*",
+    "mega"
+   ],
+   "raices_contexto": [
+    "massive*",
+    "devastat*",
+    "tremendous*",
+    "overwhelm*",
+    "full force",
+    "full power"
+   ]
+  },
+  {
+   "id": "certero",
+   "nombre": "Certero",
+   "grupo": "dano",
+   "activacion": "al_usar",
+   "regla": "Al usarla: +1 a la tirada de ataque del PJ; si la usa un PNJ, −1 a la tirada de Defensa del PJ. Ignora Cobertura y Oculto.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "snipe*",
+    "sniper*",
+    "homing*",
+    "lock on",
+    "aim*",
+    "pinpoint*",
+    "target*",
+    "precision*",
+    "seeker*",
+    "tracking*",
+    "radar*",
+    "scope*",
+    "eye"
+   ],
+   "raices_contexto": [
+    "never miss*",
+    "homing",
+    "lock on",
+    "inescapable",
+    "unavoidable",
+    "cannot be dodged",
+    "can t be dodged",
+    "precise*",
+    "accurate*",
+    "guided"
+   ]
+  },
+  {
+   "id": "drenar",
+   "nombre": "Drenar",
+   "grupo": "dano",
+   "activacion": "con_impacto",
+   "regla": "El usuario recupera PV iguales a la mitad del daño infligido (tras reducciones).",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "drain*",
+    "absorb*",
+    "vampir*",
+    "blood*",
+    "suck*",
+    "leech*",
+    "devour*",
+    "eat",
+    "glutton*",
+    "digitaliz*",
+    "raid",
+    "soul"
+   ],
+   "raices_contexto": [
+    "drain*",
+    "absorb*",
+    "suck*",
+    "leech*",
+    "life force",
+    "steals",
+    "devour*"
+   ]
+  },
+  {
+   "id": "retroceso",
+   "nombre": "Retroceso",
+   "grupo": "dano",
+   "activacion": "al_usar",
+   "regla": "Al usarla: +1 dado de daño; el usuario sufre VF de daño (ignora Armadura) tras resolverla, impacte o no.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "kamikaze*",
+    "self destruct*",
+    "suicid*",
+    "sacrific*",
+    "reckless*",
+    "desperat*",
+    "all out"
+   ],
+   "raices_contexto": [
+    "self destruct*",
+    "sacrific*",
+    "at the cost of",
+    "kamikaze*",
+    "reckless*"
+   ]
+  },
+  {
+   "id": "ejecutar",
+   "nombre": "Ejecutar",
+   "grupo": "dano",
+   "activacion": "con_10",
+   "regla": "Solo en técnicas Individuales (en una técnica de área el clasificador la cambia por Brutal). Con 10+ (o 6– del defensor): si tras el daño el objetivo queda con PV ≤ 2 × VF del usuario, cae a 0. Jefes y Legendarios son inmunes (en su lugar, +1 dado).",
+   "duracion": "inmediata",
+   "admite_valor": true,
+   "valor": "2*vf",
+   "control_duro": false,
+   "raices": [
+    "delete*",
+    "execut*",
+    "judg*",
+    "doom",
+    "annihilat*",
+    "extinct*",
+    "kill",
+    "the end",
+    "finish*",
+    "guillotin*",
+    "punish*",
+    "sentence",
+    "erase*",
+    "obliterat*",
+    "deleter*"
+   ],
+   "raices_contexto": [
+    "delete*",
+    "deletion",
+    "erase*",
+    "annihilat*",
+    "obliterat*",
+    "turns to dust",
+    "eliminat*",
+    "nullif*",
+    "wipes out"
+   ]
+  },
+  {
+   "id": "cargado",
+   "nombre": "Cargado",
+   "grupo": "dano",
+   "activacion": "preparacion",
+   "regla": "Requiere preparación: el usuario gasta una acción en Cargar (−1 Def hasta su próximo turno). En su siguiente turno la lanza con +1 a la tirada y +1 dado. Si queda Aturdido, Dormido o Sellado, pierde la carga. Los Jefes la telegrafían (Guardia de carga).",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "charged*",
+    "accumul*",
+    "concentrat*",
+    "full power",
+    "maximum*",
+    "gather*",
+    "charge shot"
+   ],
+   "raices_contexto": [
+    "gathers*",
+    "accumulat*",
+    "concentrat*",
+    "charges up",
+    "charging",
+    "builds up"
+   ]
+  },
+  {
+   "id": "quemar",
+   "nombre": "Quemar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Quemado: al inicio de cada uno de sus turnos (un Jefe: una vez por asalto) pierde VF PV (VF del causante, a la mitad por cada rango que el afectado supere al causante; mínimo 1). Una técnica de Agua o Hielo que le alcance lo apaga.",
+   "duracion": "2 turnos",
+   "admite_valor": true,
+   "valor": "vf",
+   "control_duro": false,
+   "raices": [
+    "burn*",
+    "blaze*",
+    "scorch*",
+    "inferno*",
+    "ignit*",
+    "magma*",
+    "lava",
+    "incinerat*"
+   ],
+   "raices_contexto": [
+    "burn*",
+    "scorch*",
+    "incinerat*",
+    "reduces to ash*",
+    "searing",
+    "melts"
+   ]
+  },
+  {
+   "id": "congelar",
+   "nombre": "Congelar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Congelado: no puede moverse ni usar técnicas de Toque; −2 Def. El daño de Fuego lo descongela.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "freez*",
+    "frozen",
+    "frost*",
+    "glacier*",
+    "blizzard*",
+    "absolute*",
+    "cold",
+    "icicle*"
+   ],
+   "raices_contexto": [
+    "freez*",
+    "frozen",
+    "absolute zero",
+    "ice age",
+    "turn to ice",
+    "turns to ice",
+    "encase* in ice",
+    "petrif*"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Congelado: +2 al ataque del PJ contra él. PJ Congelado: −2 a su Defensa."
+  },
+  {
+   "id": "paralizar",
+   "nombre": "Paralizar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Paralizado: en su turno solo puede moverse o actuar (no ambas); −1 a sus ataques; sin reacciones.",
+   "duracion": "2 turnos",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "paraly*",
+    "stun gun",
+    "numb*",
+    "static*",
+    "jolt*",
+    "shock*"
+   ],
+   "raices_contexto": [
+    "paraly*",
+    "numb*",
+    "electromagnetic",
+    "seize up",
+    "unable to move"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Paralizado: +1 a la Defensa del PJ contra sus ataques; no tiene reacciones."
+  },
+  {
+   "id": "veneno",
+   "nombre": "Veneno",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Envenenado: al final de cada uno de sus turnos (un Jefe: una vez por asalto) pierde VF PV (VF del causante, a la mitad por cada rango que el afectado supere al causante; mínimo 1); no puede recuperar PV con Curar ni con objetos.",
+   "duracion": "3 turnos",
+   "admite_valor": true,
+   "valor": "vf",
+   "control_duro": false,
+   "raices": [
+    "poison*",
+    "venom*",
+    "toxic*",
+    "toxin*",
+    "acid*",
+    "sting*",
+    "germ",
+    "bacteri*",
+    "rot",
+    "sludge"
+   ],
+   "raices_contexto": [
+    "poison*",
+    "toxic*",
+    "venom*",
+    "toxin*",
+    "acid",
+    "corros*"
+   ]
+  },
+  {
+   "id": "aturdir",
+   "nombre": "Aturdir",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Aturdido: pierde su próxima acción (puede moverse). Control duro: nunca con 7–9; a un Jefe solo le quita una acción del asalto.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": true,
+   "raices": [
+    "impact*",
+    "headbutt*",
+    "uppercut*",
+    "hammer*",
+    "bash*",
+    "slam*",
+    "bonk*",
+    "concuss*",
+    "knuckle*",
+    "stun*"
+   ],
+   "raices_contexto": [
+    "stun*",
+    "daze*",
+    "concuss*",
+    "knock out",
+    "knocks out",
+    "faint*",
+    "unconscious",
+    "reeling",
+    "senseless"
+   ]
+  },
+  {
+   "id": "dormir",
+   "nombre": "Dormir",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Dormido: pierde sus turnos; los ataques contra él tienen +2; despierta al recibir daño o si un aliado gasta su acción. Control duro.",
+   "duracion": "hasta 2 turnos",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": true,
+   "raices": [
+    "lullaby*",
+    "sleep*",
+    "dream*",
+    "good night",
+    "slumber*",
+    "hypno*",
+    "doze*",
+    "yawn*"
+   ],
+   "raices_contexto": [
+    "sleep*",
+    "slumber*",
+    "lullaby",
+    "drows*",
+    "doze*",
+    "puts * to sleep"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Dormido: +2 al ataque del PJ contra él. PJ Dormido: −2 a su Defensa."
+  },
+  {
+   "id": "cegar",
+   "nombre": "Cegar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Cegado: −2 a sus ataques; no puede usar técnicas de alcance Larga.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "flash*",
+    "dazzl*",
+    "smoke*",
+    "ink",
+    "sand",
+    "mist",
+    "fog*",
+    "dust",
+    "poop",
+    "excrement*",
+    "blind*",
+    "glare*"
+   ],
+   "raices_contexto": [
+    "blind*",
+    "dazzl*",
+    "smokescreen",
+    "blinding",
+    "flash of light"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Cegado: +2 a la Defensa del PJ contra sus ataques."
+  },
+  {
+   "id": "confundir",
+   "nombre": "Confundir",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Confundido: al empezar su turno tira 1d6; con 1–2 usa su técnica P1 contra la criatura más cercana (la elige el DJ, puede ser aliada) y pierde la acción; con 3–6, −1 a sus tiradas.",
+   "duracion": "2 turnos",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "crazy",
+    "madness*",
+    "mad",
+    "confus*",
+    "illusion*",
+    "merry*",
+    "joker*",
+    "trick*",
+    "trump*",
+    "prank*",
+    "giggle*",
+    "fantasia*",
+    "psych*",
+    "warp",
+    "mystic*",
+    "magic*",
+    "jester*",
+    "dizz*",
+    "puppet*",
+    "mirage*"
+   ],
+   "raices_contexto": [
+    "confus*",
+    "illusion*",
+    "hypnot*",
+    "bewilder*",
+    "disorient*",
+    "attack each other",
+    "attacking themselves",
+    "madness",
+    "go mad",
+    "dizz*",
+    "manipulat* foes",
+    "manipulat* enemies",
+    "manipulat* the enemy",
+    "manipulat* opponents",
+    "manipulat* minds",
+    "manipulat* * minds",
+    "manipulat* the minds",
+    "manipulat* others"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Confundido: con 3–6, +1 a la Defensa del PJ contra sus ataques."
+  },
+  {
+   "id": "asustar",
+   "nombre": "Asustar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Asustado: no puede acercarse a la fuente ni usar técnicas de Toque contra ella; −1 a cualquier ataque contra ella.",
+   "duracion": "2 turnos",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "scream*",
+    "roar*",
+    "howl*",
+    "terror*",
+    "fear*",
+    "horror*",
+    "menace*",
+    "glare*",
+    "gaze*",
+    "intimidat*",
+    "grudge*",
+    "nightmare*",
+    "evil eye",
+    "haunt*",
+    "shriek*"
+   ],
+   "raices_contexto": [
+    "fear",
+    "terrif*",
+    "scare*",
+    "horror",
+    "nightmare*",
+    "dread",
+    "panic*",
+    "shriek*",
+    "intimidat*"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Asustado: +1 a la Defensa del PJ que es la fuente contra sus ataques."
+  },
+  {
+   "id": "encantar",
+   "nombre": "Encantar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Encantado: no puede atacar a la fuente; si no hay otro objetivo, usa Defender.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "love*",
+    "charm*",
+    "kiss*",
+    "heart*",
+    "sweet*",
+    "wink*",
+    "pheromone*",
+    "fascinat*",
+    "seduc*",
+    "tempt*",
+    "beauty*",
+    "cute*",
+    "serenade*",
+    "lovely"
+   ],
+   "raices_contexto": [
+    "charm*",
+    "seduc*",
+    "fascinat*",
+    "captivat*",
+    "enchant*",
+    "infatuat*",
+    "falls in love"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Encantado: no puede atacar a la fuente; si no hay otro objetivo, usa Defender (−2 a los ataques de los PJ contra él hasta su próximo turno)."
+  },
+  {
+   "id": "sellar",
+   "nombre": "Sellar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Sellado: no puede usar técnicas P3, digievolucionar ni cambiar de modo; su Tamer no puede usarle programas.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "seal*",
+    "jamming*",
+    "jam",
+    "hack*",
+    "bug",
+    "bugs",
+    "program*",
+    "code",
+    "error*",
+    "silence*",
+    "mute",
+    "hertz",
+    "disrupt*",
+    "virus",
+    "freeze program",
+    "forbid*"
+   ],
+   "raices_contexto": [
+    "seal*",
+    "prevent* from",
+    "forbid*",
+    "imprison*",
+    "lock* away",
+    "cannot use",
+    "disable*",
+    "shuts down"
+   ],
+   "si_lo_sufre_un_pnj": "No modifica tiradas."
+  },
+  {
+   "id": "regresion",
+   "nombre": "Regresión",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Control duro (solo con 10+ del atacante o 6– del defensor; nunca con 7–9). Contra un compañero en forma temporal: esa forma termina y vuelve a su forma de partida con los PV guardados (sin quedar Agotado); si estaba en una forma estable, queda Sellado 2 turnos. Contra un PNJ: queda Sellado y Debilitado 1 turno (el DJ puede narrar que pierde su forma un instante). Jefes y Legendarios: solo Sellado 1 turno.",
+   "duracion": "inmediata (o Sellado)",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": true,
+   "raices": [
+    "rewind*",
+    "regress*",
+    "devolv*",
+    "de digivolv*",
+    "degenerat*",
+    "revert*"
+   ],
+   "raices_contexto": [
+    "de digivolv*",
+    "devolv*",
+    "regress*",
+    "revert* * to * baby",
+    "reverts * to its",
+    "turn* * into a baby",
+    "back to an egg",
+    "into a digi egg"
+   ]
+  },
+  {
+   "id": "ralentizar",
+   "nombre": "Ralentizar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Ralentizado: pasa a la fase lenta (un PNJ actúa el último); no puede Correr; −1 Def.",
+   "duracion": "2 turnos",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "slow*",
+    "sticky*",
+    "adhesive*",
+    "glue*",
+    "mud",
+    "tar",
+    "gravity*",
+    "time",
+    "clock*",
+    "molass*",
+    "heavy"
+   ],
+   "raices_contexto": [
+    "slow*",
+    "gravity",
+    "heavy",
+    "weigh* down",
+    "sticky",
+    "glue*",
+    "time stop*",
+    "stops time"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Ralentizado: +1 al ataque del PJ contra él. PJ Ralentizado: −1 a su Defensa."
+  },
+  {
+   "id": "atrapar",
+   "nombre": "Atrapar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Atrapado: no puede moverse; −1 a sus ataques. Liberarse cuesta su acción (PJ: 2d6 + Atq − Atq del captor, 7+; PNJ: automático). Se libera si el captor cae, queda Aturdido o se aleja.",
+   "duracion": "hasta liberarse",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "bind*",
+    "chain",
+    "chains",
+    "net",
+    "nets",
+    "web",
+    "webs",
+    "thread*",
+    "ivy",
+    "vine*",
+    "hold",
+    "grip*",
+    "grab*",
+    "capture*",
+    "prison*",
+    "imprison*",
+    "cage*",
+    "clutch*",
+    "coil*",
+    "wrap*",
+    "tongue*",
+    "whip*",
+    "rope*",
+    "string*",
+    "lasso*",
+    "hug",
+    "squeeze*",
+    "tentacle*",
+    "tangle*",
+    "snare*",
+    "silk*",
+    "hand"
+   ],
+   "raices_contexto": [
+    "bind*",
+    "wrap*",
+    "trap*",
+    "restrain*",
+    "entangl*",
+    "ensnare*",
+    "capture*",
+    "squeeze*",
+    "coil*",
+    "constrict*"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Atrapado: +1 a la Defensa del PJ contra sus ataques; se libera automáticamente gastando su acción."
+  },
+  {
+   "id": "debilitar",
+   "nombre": "Debilitar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Debilitado: −1 a sus ataques y su daño total se reduce en VF del causante (mínimo 1).",
+   "duracion": "2 turnos",
+   "admite_valor": true,
+   "valor": "vf",
+   "control_duro": false,
+   "raices": [
+    "curse*",
+    "hex",
+    "weaken*",
+    "decay*",
+    "wither*",
+    "corro*",
+    "rust*",
+    "melt*",
+    "sap",
+    "despair*",
+    "malice*",
+    "lost",
+    "filth*",
+    "dirty"
+   ],
+   "raices_contexto": [
+    "weaken*",
+    "saps",
+    "exhaust*",
+    "drains * strength",
+    "rust*",
+    "decay*",
+    "curse*"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Debilitado: +1 a la Defensa del PJ contra sus ataques y su daño total se reduce en VF del causante."
+  },
+  {
+   "id": "romper",
+   "nombre": "Romper",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Roto: −2 Armadura (mínimo 0); si ya tenía 0, −1 Def. Dura toda la escena. No se acumula.",
+   "duracion": "escena",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "break*",
+    "crack*",
+    "shatter*",
+    "rend*",
+    "tear",
+    "sunder*",
+    "cleav*",
+    "breaker*",
+    "crush*",
+    "armor break"
+   ],
+   "raices_contexto": [
+    "shatter*",
+    "break through",
+    "breaks through",
+    "pulveriz*",
+    "armor piercing",
+    "smash* * armor"
+   ],
+   "si_lo_sufre_un_pnj": "Objetivo Roto: −2 Arm; si ya tenía 0, −1 Def (PNJ: +1 al ataque del PJ; PJ: −1 a su Defensa)."
+  },
+  {
+   "id": "marcar",
+   "nombre": "Marcar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Marcado: el siguiente ataque contra él, de cualquiera, tiene +2.",
+   "duracion": "hasta el próximo ataque",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "mark*",
+    "scan*",
+    "spot*",
+    "udjat*",
+    "beacon*"
+   ],
+   "raices_contexto": [
+    "marks",
+    "tags",
+    "paint* the target",
+    "beacon"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Marcado: +2 al próximo ataque de un PJ contra él. PJ Marcado: −2 a su próxima Defensa."
+  },
+  {
+   "id": "derribar",
+   "nombre": "Derribar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Derribado: debe gastar su movimiento en levantarse; las técnicas de Toque contra él tienen +1. Si volaba, cae a tierra.",
+   "duracion": "hasta levantarse",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "quake*",
+    "stomp*",
+    "press*",
+    "trip*",
+    "sweep*",
+    "rodeo*",
+    "tackle*",
+    "charge*",
+    "dash*",
+    "body*",
+    "tail",
+    "crash*",
+    "fall*",
+    "drop*",
+    "dive*",
+    "landslide*",
+    "avalanche*",
+    "gallop*",
+    "rush*",
+    "slam*"
+   ],
+   "raices_contexto": [
+    "knock* down",
+    "trip*",
+    "topple*",
+    "earthquake*",
+    "tackle*",
+    "stomp*",
+    "sweep*",
+    "slam* * into the ground"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Derribado: +1 a las técnicas de Toque de los PJ contra él. PJ Derribado: −1 a su Defensa contra Toque."
+  },
+  {
+   "id": "empujar",
+   "nombre": "Empujar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Lo desplaza 1 zona (a elección del atacante) y deja de estar trabado; si choca contra algo sólido o cae en una zona de Peligro, +VF de daño.",
+   "duracion": "inmediata",
+   "admite_valor": true,
+   "valor": "vf",
+   "control_duro": false,
+   "raices": [
+    "blow",
+    "push*",
+    "repel*",
+    "cannonball*",
+    "typhoon*",
+    "gust*",
+    "tornado*",
+    "hurricane*",
+    "impulse*",
+    "knock*",
+    "shockwave*",
+    "cyclone*",
+    "twister*",
+    "wind*",
+    "wave"
+   ],
+   "raices_contexto": [
+    "blow* away",
+    "knock* back",
+    "repel*",
+    "push*",
+    "send* flying",
+    "into the air",
+    "blasts away"
+   ]
+  },
+  {
+   "id": "provocar",
+   "nombre": "Provocar",
+   "grupo": "estado",
+   "activacion": "estado",
+   "regla": "Provocado: en su próximo turno debe atacar al usuario; si ataca a otro, −2 a esa tirada.",
+   "duracion": "1 turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "taunt*",
+    "provok*",
+    "challenge*",
+    "matador*",
+    "performance*",
+    "bait*",
+    "come on",
+    "duel*",
+    "show off",
+    "showtime",
+    "show time"
+   ],
+   "raices_contexto": [
+    "taunt*",
+    "provok*",
+    "draws * attention",
+    "lure*",
+    "challenge*"
+   ],
+   "si_lo_sufre_un_pnj": "PNJ Provocado: si ataca a otro que no sea el usuario, ese PJ tiene +2 a su Defensa."
+  },
+  {
+   "id": "curar",
+   "nombre": "Curar",
+   "grupo": "apoyo",
+   "activacion": "sin_tirada",
+   "regla": "Un aliado (o el usuario) recupera PV iguales a los dados de poder de la técnica (P1: 1 dado; P2: 2; P3: 3). Si es de área, todos los aliados de una zona con −1 dado. Una técnica de apoyo con Curar es Agotadora. En una técnica de daño, el usuario recupera 1 dado al impactar.",
+   "duracion": "inmediata",
+   "admite_valor": true,
+   "valor": "dados",
+   "control_duro": false,
+   "raices": [
+    "heal*",
+    "cure*",
+    "recover*",
+    "therap*",
+    "reviv*",
+    "medic*",
+    "nurse*",
+    "rebirth*",
+    "restor*",
+    "regenerat*",
+    "sanctuar*",
+    "aid",
+    "remedy*",
+    "life",
+    "rejuvenat*",
+    "mend*"
+   ],
+   "raices_contexto": [
+    "heal* * allies",
+    "heal* allies",
+    "heal* its allies",
+    "heal* * comrades",
+    "heal* comrades",
+    "heal* * friends",
+    "heal* friends",
+    "heal* itself",
+    "heals wounds",
+    "heal* * wounds",
+    "cure* * allies",
+    "cure* allies",
+    "restor* * allies",
+    "restor* allies",
+    "restor* * health",
+    "restor* its health",
+    "recover* * health",
+    "revive* * allies",
+    "revive* allies",
+    "revive* an ally",
+    "mend* * wounds",
+    "regenerat* itself",
+    "regenerat* its body",
+    "rejuvenat* * allies",
+    "heal* them",
+    "heal* injur*",
+    "heal* others"
+   ]
+  },
+  {
+   "id": "escudo",
+   "nombre": "Escudo",
+   "grupo": "apoyo",
+   "activacion": "sin_tirada",
+   "regla": "Un aliado (o el usuario) gana Escudo = VF × potencia (P1 = VF, P2 = 2 VF, P3 = 3 VF) hasta el final de la escena. Los Escudos no se acumulan: se queda el mayor. Una técnica de apoyo con Escudo es Agotadora.",
+   "duracion": "escena",
+   "admite_valor": true,
+   "valor": "vf*potencia",
+   "control_duro": false,
+   "raices": [
+    "shield*",
+    "guard*",
+    "wall",
+    "walls",
+    "barrier*",
+    "defen*",
+    "protect*",
+    "aegis*",
+    "fortress*",
+    "dome",
+    "bulwark*",
+    "cover",
+    "armor"
+   ],
+   "raices_contexto": [
+    "shield*",
+    "barrier*",
+    "protect*",
+    "guard*",
+    "fortress",
+    "cocoon",
+    "sanctuary",
+    "defense",
+    "defence"
+   ]
+  },
+  {
+   "id": "mejora",
+   "nombre": "Mejora",
+   "grupo": "apoyo",
+   "activacion": "sin_tirada",
+   "regla": "P1: el aliado queda Potenciado (+1 a la tirada de su próximo ataque). P2: queda Potenciado+ (+1 a la tirada y +1 dado). P3: Potenciado+ para todos los aliados de una zona.",
+   "duracion": "hasta su próximo ataque",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "cheer*",
+    "rally*",
+    "boost*",
+    "power up",
+    "powerup",
+    "encourag*",
+    "inspir*",
+    "anthem*",
+    "hymn*",
+    "blessing*",
+    "fight song",
+    "resonan*",
+    "brave aura",
+    "enchantment",
+    "river of power",
+    "empower*"
+   ],
+   "raices_contexto": [
+    "boost*",
+    "power up",
+    "powers up",
+    "empower*",
+    "strengthen*",
+    "rally*",
+    "inspir*",
+    "cheer*",
+    "encourag*",
+    "pump* up"
+   ]
+  },
+  {
+   "id": "purificar",
+   "nombre": "Purificar",
+   "grupo": "apoyo",
+   "activacion": "sin_tirada",
+   "regla": "Elimina estados negativos: uno (P1), todos los de un aliado (P2) o todos los de los aliados de una zona (P3). En una técnica de daño, además elimina Escudo y Potenciado del objetivo y da +1 dado contra la familia Oscuro.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "purif*",
+    "cleans*",
+    "exorc*",
+    "banish*",
+    "sanctif*",
+    "dispel*",
+    "antivirus",
+    "anti virus",
+    "vaccine",
+    "pure"
+   ],
+   "raices_contexto": [
+    "purif*",
+    "cleans*",
+    "exorcis*",
+    "dispel*",
+    "banish*",
+    "removes the darkness",
+    "to their senses",
+    "restor* * to * senses"
+   ]
+  },
+  {
+   "id": "rapido",
+   "nombre": "Rápido",
+   "grupo": "tactica",
+   "activacion": "al_usar",
+   "regla": "Antes de usarla, el usuario puede moverse 1 zona extra sin provocar ataques de retirada.",
+   "duracion": "inmediata",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "speed*",
+    "quick*",
+    "mach",
+    "sonic",
+    "jet",
+    "rapid*",
+    "swift*",
+    "instant*",
+    "velocity*",
+    "blitz*",
+    "accel*",
+    "haste*",
+    "lightspeed*",
+    "shooting",
+    "dash"
+   ],
+   "raices_contexto": [
+    "high speed",
+    "supersonic",
+    "speed of sound",
+    "speed of light",
+    "accelerat*",
+    "lightning speed",
+    "mach"
+   ]
+  },
+  {
+   "id": "contraataque",
+   "nombre": "Contraataque",
+   "grupo": "tactica",
+   "activacion": "preparacion",
+   "regla": "Se prepara (gasta la acción). Hasta su próximo turno, la primera vez que un enemigo le ataque y falle (Defensa del PJ 10+ / ataque del PJ 6– contra un PNJ que la tenga preparada), el atacante recibe el daño de la técnica sin tirada.",
+   "duracion": "hasta su próximo turno",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "counter*",
+    "reflect*",
+    "mirror*",
+    "revenge*",
+    "offset*",
+    "return",
+    "parry*",
+    "riposte*",
+    "retaliat*"
+   ],
+   "raices_contexto": [
+    "counter*",
+    "reflect*",
+    "bounce* back",
+    "returns the attack",
+    "parr*",
+    "deflect*"
+   ]
+  },
+  {
+   "id": "invocar",
+   "nombre": "Invocar",
+   "grupo": "tactica",
+   "activacion": "con_impacto",
+   "regla": "Si la técnica impacta (7+), crea una invocación (enjambre, banco de peces, piezas…) en una zona a su alcance durante 2 asaltos: al inicio de cada turno del usuario inflige VF de daño (menos Arm) a un enemigo de esa zona; ese daño se divide a la mitad por cada rango que el objetivo supere al usuario. Cada usuario mantiene como mucho UNA invocación activa: crear otra disipa la anterior. Una técnica de área enemiga sobre esa zona la disipa.",
+   "duracion": "2 asaltos",
+   "admite_valor": true,
+   "valor": "vf",
+   "control_duro": false,
+   "raices": [
+    "summon*",
+    "call",
+    "army*",
+    "armies",
+    "march*",
+    "legion*",
+    "swarm*",
+    "troop*",
+    "fishes",
+    "bees",
+    "parade*",
+    "squad*",
+    "brigade*",
+    "horde*",
+    "pawn*",
+    "minion*",
+    "familiar*"
+   ],
+   "raices_contexto": [
+    "summon*",
+    "calls forth",
+    "swarm*",
+    "army of",
+    "school of"
+   ]
+  },
+  {
+   "id": "ocultar",
+   "nombre": "Ocultar",
+   "grupo": "tactica",
+   "activacion": "al_usar",
+   "regla": "Al usarla (impacte o no; en una técnica de apoyo, sin tirada), el usuario queda Oculto hasta que ataque: no puede ser objetivo de técnicas de Distancia ni Larga, y su primer ataque tiene +2.",
+   "duracion": "hasta que ataque",
+   "admite_valor": false,
+   "valor": null,
+   "control_duro": false,
+   "raices": [
+    "invisib*",
+    "stealth*",
+    "hide*",
+    "cloak*",
+    "camoufl*",
+    "ninja*",
+    "mirage*",
+    "vanish*",
+    "fade*",
+    "disappear*",
+    "kohenkyo"
+   ],
+   "raices_contexto": [
+    "invisib*",
+    "camoufl*",
+    "hides",
+    "cloak*",
+    "stealth*",
+    "disguise*",
+    "vanishes"
+   ]
+  }
+ ],
+ "orden_efectos": {
+  "apoyo": [
+   "curar",
+   "escudo",
+   "mejora",
+   "purificar"
+  ],
+  "dano": [
+   "ejecutar",
+   "drenar",
+   "perforante",
+   "certero",
+   "retroceso",
+   "cargado",
+   "brutal"
+  ],
+  "estado": [
+   "provocar",
+   "dormir",
+   "encantar",
+   "confundir",
+   "asustar",
+   "sellar",
+   "regresion",
+   "atrapar",
+   "paralizar",
+   "congelar",
+   "quemar",
+   "veneno",
+   "cegar",
+   "ralentizar",
+   "debilitar",
+   "romper",
+   "aturdir",
+   "derribar",
+   "empujar",
+   "marcar"
+  ],
+  "tactica": [
+   "contraataque",
+   "invocar",
+   "ocultar",
+   "rapido"
+  ]
+ },
+ "reglas_efectos": {
+  "aplicacion_estados": "Un estado se aplica con 10+ en el ataque del PJ o con 6– en la Defensa del PJ (si lo aplica un PNJ). Si el atacante tiene el rol Místico (rasgo Maestro de estados), también con 7–9, salvo control duro.",
+  "con_7_9_atacante": "Daño completo sin estados; el atacante puede cambiar todo el daño por aplicar el estado (salvo control duro).",
+  "duracion_turno": "'1 turno' = hasta el final del siguiente turno del afectado. El turno de un Jefe o Legendario es el asalto completo: sus estados avanzan y su daño por turno se aplica una vez por asalto (al inicio de su 1.ª acción) y sus duraciones se cuentan en asaltos.",
+  "acumulacion": "El mismo estado no se acumula: se renueva la duración. Invocaciones: como mucho una activa por usuario (crear otra disipa la anterior).",
+  "digievolucion": "Digievolucionar elimina todos los estados del compañero (salvo Hambriento).",
+  "control_duro": [
+   "aturdir",
+   "dormir",
+   "regresion"
+  ],
+  "apoyo_en_tecnica_de_dano": "Si una técnica de daño lleva una palabra de Apoyo, hace su daño y el efecto de apoyo recae sobre el usuario al impactar (Curar: 1 dado; Escudo: VF; Mejora: Potenciado P1; Purificar: un estado propio y +1 dado contra Oscuro).",
+  "espejo": "Regla de espejo: el DJ no tira para impactar, así que todo modificador a una tirada de un PNJ se aplica con el signo cambiado a la tirada del PJ que se le opone. −X a los ataques de un PNJ = +X a la Defensa del PJ; +X al ataque de un PNJ = −X a la Defensa del PJ; «los ataques contra él tienen +X» con un PNJ de objetivo = +X al ataque del PJ, y con un PJ de objetivo = −X a su Defensa; Ventaja de un PNJ = Desventaja del PJ y al revés. Cada estado lleva su traducción en si_lo_sufre_un_pnj.",
+  "dano_por_turno": "Quemar, Veneno e Invocar usan el VF del causante y se dividen a la mitad por cada rango que el afectado supere al causante (mínimo 1).",
+  "tecnicas_de_apoyo": "Una técnica de apoyo no lleva estados ni tácticas (salvo override documentado, como Kohenkyo con Ocultar). Si lleva Curar o Escudo, es Agotadora.",
+  "agotadora": "Agotadora afecta al Digimon: tras usar una técnica Agotadora (P3, P2/P3 usada como P3, apoyo con Curar o Escudo, maniobra Pulso restaurador), en su siguiente turno no puede usar ninguna técnica Agotadora.",
+  "estados_en_tamers": {
+   "quemar_veneno_invocar": "1 Aguante al inicio de su turno (en lugar de VF PV)",
+   "congelar_atrapar_paralizar": "no puede moverse",
+   "dormir_aturdir": "pierde su acción de Tamer y no puede usar el Dado de Vínculo",
+   "cegar": "−2 a su Defensa y no puede Analizar",
+   "asustar_confundir_encantar": "no puede dar Órdenes",
+   "resto": "no afecta a los Tamers"
+  }
+ },
+ "clasificador": {
+  "normalizacion": [
+   "Unicode NFKD y eliminar diacríticos (Mjölnir → mjolnir); el carácter 'ｰ' (U+FF70) cuenta como guion.",
+   "minúsculas",
+   "eliminar el texto entre paréntesis del nombre: '(Awakened)', '(1-10)'",
+   "todo carácter que no sea letra ASCII (a-z) o dígito → espacio (guiones, apóstrofos, barras, signos); espacios múltiples → uno",
+   "Las raíces y frases de esta especificación se escriben YA normalizadas con la misma función (conservando el comodín *): 'self destruct*', 'all out', 'can t be dodged'. validacion.reglas comprueba que ninguna raíz contiene caracteres que la normalización elimina."
+  ],
+  "coincidencia": {
+   "raiz_con_asterisco": "una raíz terminada en * coincide como prefijo al inicio de palabra (burn* → burn, burning, burner)",
+   "palabra_larga": "una raíz sin * de 6 letras o más también coincide como prefijo al inicio de palabra",
+   "palabra_corta": "una raíz sin * de menos de 6 letras solo coincide como palabra completa, admitiendo solo los sufijos -s, -es, -ed, -ing (así 'sin' no coincide con 'single', 'show' con 'shower', 'arm' con 'army' ni 'rock' con 'rocker')",
+   "frase": "una raíz con espacios coincide como frase; el * dentro de una frase de contexto equivale a una palabra cualquiera",
+   "regex_python": "\\bRAIZ  si termina en * (sin el *) o len>=6 ;  \\bRAIZ(?:s|es|ed|ing)?\\b  si es corta; frase: palabras unidas por \\s+ y '*' suelto = \\w+",
+   "prioridad_frases": "Para el elemento, las raíces de varias palabras (frases) de TODOS los elementos se comprueban antes que las de una palabra: 'gold rush' (Tierra) gana a 'gold' (Luz)."
+  },
+  "fuentes": {
+   "nombre": "el nombre oficial del ataque (moves[i]); manda siempre",
+   "contexto": "cláusula de contexto extraída de background_EN_reference_only (solo para clasificar; NUNCA se copia ni se traduce). Para el elemento se usan las raíces de contexto del elemento (elementos[*].raices_contexto), no las del nombre.",
+   "extraccion_contexto": [
+    "Partir el perfil en frases por [.!?] seguidos de espacio.",
+    "En cada frase que contiene el nombre del ataque (sin distinguir mayúsculas; primera aparición), tomar el tramo que EMPIEZA justo después del nombre del ataque y termina en el comienzo del siguiente ataque de la lista nombrado en esa frase (o en el final de la frase). Lo que la frase dice antes del nombre (que suele describir el ataque anterior: «usa A para X, o B para Y») se descarta.",
+    "Si la frase siguiente empieza por 'This ', 'The attack', 'The technique', 'The move' o 'Those (who|hit|struck)' y no nombra otro ataque de la lista, se añade entera.",
+    "Se concatenan todos los tramos y se normalizan. Si el ataque no aparece en el perfil, el contexto es vacío."
+   ]
+  },
+  "firma": {
+   "regla": "La Firma es la primera técnica de la lista, salvo que otra contenga una palabra de potencia máxima: entonces la primera que la contenga. Una técnica de apoyo nunca es la Firma si hay alguna técnica de daño (se toma la primera de daño, aplicando la misma regla de palabras de potencia máxima entre las de daño). La Firma se coloca la primera. Por eso la detección de apoyo (y los overrides de 'apoyo') se calcula antes de elegir la Firma.",
+   "palabras_potencia_maxima": [
+    "giga*",
+    "final",
+    "ultimate*",
+    "supreme*",
+    "destroyer*",
+    "destruction*",
+    "apocalyp*",
+    "nova",
+    "infinit*",
+    "omega",
+    "seventh",
+    "genesis",
+    "armagedd*",
+    "extinction*",
+    "big bang",
+    "all delete",
+    "oblivion*",
+    "catastroph*",
+    "cataclysm*",
+    "judgment*",
+    "judgement*"
+   ]
+  },
+  "palabras_menores": [
+   "petit*",
+   "mini",
+   "baby",
+   "little",
+   "tiny",
+   "small",
+   "puppy",
+   "poop",
+   "bubbles",
+   "slap",
+   "kiss",
+   "lick",
+   "pacifier*",
+   "foam",
+   "toss",
+   "hop",
+   "noise",
+   "tickle*",
+   "giggle*",
+   "sneeze*",
+   "pyon"
+  ],
+  "apoyo": {
+   "regla": "Una técnica es DE APOYO (no hace daño, no hay tirada) si: (a) su nombre contiene una raíz de un efecto de grupo 'apoyo' y ninguna palabra de daño; o (b) su nombre no tiene ninguna raíz de efecto, de elemento ni palabra de daño y su contexto solo contiene raíces de apoyo; o (c) aunque el nombre tenga raíces de elemento, el contexto contiene un patrón de ayuda a aliados (contexto_aliado) y ninguna palabra de daño (palabras_dano) y el nombre no tiene palabras de daño.",
+   "palabras_dano": [
+    "blast*",
+    "beam*",
+    "attack*",
+    "strike*",
+    "punch*",
+    "claw*",
+    "slash*",
+    "cannon*",
+    "fire",
+    "flame*",
+    "thunder*",
+    "kick*",
+    "bite*",
+    "shot",
+    "bomb*",
+    "crush*",
+    "destroy*",
+    "damage*",
+    "rush*",
+    "sword*",
+    "blade*",
+    "lance",
+    "laser*",
+    "impact*",
+    "break*",
+    "fang*",
+    "arrow*",
+    "missile*",
+    "breath*"
+   ],
+   "contexto_aliado": {
+    "verbos": [
+     "heal*",
+     "cure*",
+     "restor*",
+     "protect*",
+     "shield*",
+     "reviv*",
+     "recover*",
+     "strengthen*",
+     "empower*",
+     "bless*"
+    ],
+    "destinatarios": [
+     "ally",
+     "allies",
+     "comrade*",
+     "friend*",
+     "companion*",
+     "partner*",
+     "teammate*"
+    ],
+    "distancia_max_palabras": 4,
+    "regla": "Un verbo de la lista seguido, a 4 palabras o menos, de un destinatario aliado (p. ej. 'heals its allies', 'protects nearby comrades')."
+   }
+  },
+  "alcance": {
+   "larga": [
+    "snipe*",
+    "sniper*",
+    "railgun*",
+    "satellite*",
+    "long",
+    "orbit*",
+    "homing*",
+    "javelin*",
+    "arrow*",
+    "positron*",
+    "long range"
+   ],
+   "distancia_fuerte": [
+    "breath*",
+    "blast*",
+    "blaster*",
+    "beam*",
+    "ray",
+    "rays",
+    "laser*",
+    "cannon*",
+    "shot",
+    "shots",
+    "shoot*",
+    "missile*",
+    "bullet*",
+    "gun",
+    "guns",
+    "gatling*",
+    "rocket*",
+    "torpedo*",
+    "bomb",
+    "bombs",
+    "buster*",
+    "launcher*",
+    "grenade*",
+    "javelin*",
+    "boomerang*",
+    "dart",
+    "darts",
+    "shooter*",
+    "pistol*",
+    "rifle*",
+    "spit*",
+    "spray*",
+    "projectile*",
+    "vulcan*"
+   ],
+   "toque": [
+    "punch*",
+    "kick*",
+    "claw*",
+    "fang",
+    "fangs",
+    "bite",
+    "biting",
+    "tackle*",
+    "horn",
+    "horns",
+    "tail",
+    "fist*",
+    "knuckle*",
+    "slap*",
+    "crush*",
+    "rush",
+    "smash*",
+    "stomp*",
+    "press",
+    "head",
+    "headbutt*",
+    "scratch*",
+    "paw",
+    "blade*",
+    "sword*",
+    "saber*",
+    "sabre*",
+    "slash*",
+    "slicer*",
+    "slice*",
+    "cutter*",
+    "axe",
+    "lance",
+    "hammer*",
+    "drill*",
+    "edge",
+    "lariat*",
+    "uppercut*",
+    "pummel*",
+    "grip*",
+    "hug",
+    "body",
+    "knee*",
+    "elbow*",
+    "chop*",
+    "strike",
+    "strikes",
+    "impact*",
+    "break*",
+    "whack*",
+    "hit",
+    "jab*",
+    "combo*",
+    "spin*",
+    "wheel*",
+    "roll",
+    "rolling",
+    "dive",
+    "charge",
+    "dash",
+    "crunch*",
+    "nail",
+    "nails",
+    "chomp*",
+    "swing*",
+    "tornado*",
+    "sickle*",
+    "scythe*",
+    "katana*",
+    "spear*",
+    "trident*",
+    "scissor*",
+    "sting*",
+    "blow",
+    "hold",
+    "squeeze*",
+    "tongue*",
+    "whip*",
+    "butt",
+    "ram",
+    "gallop*",
+    "jump*",
+    "seiken*",
+    "joust*",
+    "knight*",
+    "stab*",
+    "peck*",
+    "beak*",
+    "rake*",
+    "suplex*",
+    "throw*",
+    "club",
+    "dagger*",
+    "knife",
+    "tusk*",
+    "teeth"
+   ],
+   "distancia_debil": [
+    "wave",
+    "waves",
+    "storm*",
+    "rain",
+    "shower*",
+    "ball",
+    "balls",
+    "bubble*",
+    "needle*",
+    "spark*",
+    "flash*",
+    "meteor*",
+    "burst*",
+    "fire",
+    "flame*",
+    "thunder*",
+    "lightning*",
+    "ice",
+    "blizzard*",
+    "hurricane*",
+    "typhoon*",
+    "cyclone*",
+    "quake*",
+    "flare*",
+    "nova",
+    "song",
+    "scream*",
+    "howl*",
+    "roar*",
+    "gaze*",
+    "eye",
+    "eyes",
+    "cloud*",
+    "mist",
+    "powder*",
+    "spore*",
+    "pollen*",
+    "web",
+    "net",
+    "thread*",
+    "string*",
+    "sphere*",
+    "orb",
+    "stream",
+    "arrow*",
+    "zapper*"
+   ],
+   "verbos_contexto_toque": [
+    "punch*",
+    "slash*",
+    "bite*",
+    "bites",
+    "charge*",
+    "rams",
+    "tackle*",
+    "kick*",
+    "strikes with",
+    "claws",
+    "cleave*",
+    "swing*",
+    "cuts",
+    "rakes",
+    "headbutt*",
+    "body slam",
+    "stab*",
+    "pierces",
+    "smash*",
+    "crush*",
+    "squeeze*",
+    "skewer*",
+    "spin kick",
+    "hits",
+    "rushes",
+    "slams",
+    "grabs",
+    "tears"
+   ],
+   "verbos_contexto_distancia": [
+    "fires",
+    "fire a",
+    "shoots",
+    "shoot",
+    "launch*",
+    "spits",
+    "breathes",
+    "breath",
+    "beam",
+    "emits",
+    "unleash*",
+    "hurl*",
+    "throws",
+    "blast*",
+    "releases",
+    "sends",
+    "rain",
+    "projectile*",
+    "laser",
+    "cannon",
+    "missile*",
+    "bullets",
+    "exhale*",
+    "from its mouth",
+    "from a distance"
+   ],
+   "orden": [
+    "1. Si es de apoyo → Distancia (Personal si solo se aplica a sí mismo: nombre con 'self' o 'body').",
+    "2. Nombre con raíz de Larga → Larga.",
+    "3. Nombre con raíz de Distancia fuerte y sin raíz de Toque → Distancia.",
+    "4. Nombre con raíz de Toque y sin raíz de Distancia fuerte → Toque.",
+    "5. Nombre con ambas (Distancia fuerte y Toque) → Distancia si la raíz de distancia aparece después en el nombre (p. ej. 'Sword Cannon'), Toque si no.",
+    "6. Contexto: se cuentan verbos de Toque y de Distancia; gana el mayor.",
+    "7. Nombre con raíz de Distancia débil → Distancia.",
+    "8. Por defecto: la Firma → Distancia; otras técnicas → Toque si el rol primario de la familia es Bruto, Tanque, Ágil, Acechador o Versátil; Distancia en otro caso.",
+    "9. Tras elegir el rol: si el rol es Tirador y la Firma es de Distancia → Larga. Familia Arcano: las técnicas de Distancia pueden usarse a Larga (rasgo, no cambia la ficha)."
+   ]
+  },
+  "elemento_orden": [
+   "1. Primero las FRASES (raíces de varias palabras) de todos los elementos en el NOMBRE, en el orden de prioridad; después las raíces de una palabra en el NOMBRE, en el orden de prioridad.",
+   "2. Si no hay: lo mismo con elementos[*].raices_contexto en el CONTEXTO (lista propia y sin palabras ambiguas como fire, arm, time, nature, light o air).",
+   "3. Si no hay: si la técnica no es de Toque y la afinidad de la familia no es Neutro → afinidad de la familia (Elemental: la de su tipo); si no, Neutro.",
+   "Oscuridad va antes que Luz en la prioridad: si un nombre tiene raíces de ambas ('Seven Hells', 'Ruin Laser', 'Chaos Lights'), es de Oscuridad. Acero va el último."
+  ],
+  "orden_prioridad_elementos": [
+   "veneno",
+   "hielo",
+   "electrico",
+   "fuego",
+   "agua",
+   "planta",
+   "oscuridad",
+   "luz",
+   "cosmico",
+   "mental",
+   "viento",
+   "tierra",
+   "acero"
+  ],
+  "area": {
+   "total": [
+    "apocalyp*",
+    "armagedd*",
+    "genesis",
+    "universe*",
+    "galaxy*",
+    "cosmos",
+    "all delete",
+    "darkness zone",
+    "eden",
+    "world*",
+    "catastroph*",
+    "end",
+    "oblivion*",
+    "big bang",
+    "extinction*"
+   ],
+   "zona": [
+    "storm*",
+    "rain",
+    "shower*",
+    "quake*",
+    "hurricane*",
+    "typhoon*",
+    "cyclone*",
+    "blizzard*",
+    "explosion*",
+    "nova",
+    "field*",
+    "zone*",
+    "eruption*",
+    "inferno*",
+    "apocalyp*",
+    "armagedd*",
+    "cataclysm*",
+    "catastroph*",
+    "pandemon*",
+    "symphony*",
+    "fantasia*",
+    "mist",
+    "fog",
+    "cloud*",
+    "swarm*",
+    "army*",
+    "march*",
+    "parade*",
+    "tsunami*",
+    "avalanche*",
+    "meteor shower",
+    "wave",
+    "powder*",
+    "pollen*",
+    "spore*",
+    "all",
+    "prominence*",
+    "whirlwind*",
+    "shockwave*",
+    "galaxy*",
+    "universe*",
+    "rampage*",
+    "flood*"
+   ],
+   "zona_contexto": [
+    "surround*",
+    "every direction",
+    "everything around",
+    "entire area",
+    "whole area",
+    "all foes",
+    "all enemies",
+    "all around",
+    "everyone",
+    "wide area",
+    "wide range",
+    "area around"
+   ],
+   "rafaga": [
+    "double",
+    "twin",
+    "dual",
+    "two",
+    "triple",
+    "three",
+    "tri",
+    "trinity",
+    "multi*",
+    "rapid*",
+    "gatling*",
+    "machine gun",
+    "barrage*",
+    "volley*",
+    "combo*",
+    "scatter*",
+    "spread*",
+    "thousand*",
+    "hundred*",
+    "shuriken*",
+    "stars",
+    "darts",
+    "needles",
+    "missiles",
+    "bullets",
+    "arrows",
+    "feathers",
+    "flurry*"
+   ],
+   "orden": [
+    "1. Total: solo si es la Firma de un Digimon de rango 4 y el nombre tiene raíz de Total.",
+    "2. Zona: raíz de Zona en el nombre, o (si el nombre no decide Ráfaga) raíz de zona_contexto en el contexto, solo para técnicas P2 o P3.",
+    "3. Ráfaga: raíz de Ráfaga en el nombre.",
+    "4. Si no: Individual. Una técnica de DAÑO P1 es siempre Individual (se descarta el área). Una técnica de apoyo es Individual salvo raíz de Zona.",
+    "5. Plantillas de amenaza: un Jefe o un Legendario puede usar su Firma de Zona como Total."
+   ]
+  },
+  "palabras_clave_orden": [
+   "Máximo 2 palabras clave por técnica.",
+   "1. Técnica de apoyo: su palabra de apoyo (la primera por prioridad en el nombre, si no en el contexto, si no Escudo) y, si se encuentra, una segunda palabra de APOYO distinta. Nunca estados ni tácticas (salvo override). No hace daño.",
+   "2. Técnica de daño: se reúnen candidatas recorriendo primero el NOMBRE por categorías —(a) primera palabra de apoyo (efecto sobre el usuario), (b) primera de daño, (c) primera de estado, (d) primera de táctica, cada una según orden_efectos— y después el CONTEXTO con las mismas categorías (raices_contexto). Sin repetir, se toman las primeras hasta llenar 2.",
+   "3. (Segunda pasada, solo técnicas de daño) Si no tiene ninguna palabra de estado y cabe, se añade el estado por defecto de su elemento (si lo tiene).",
+   "4. Si es la Firma y aún cabe, se añade la palabra de Firma del rol (Bruto: Brutal; Tanque: Provocar; Ágil: Rápido; Tirador: Certero; Acechador: Perforante).",
+   "5. Bebé I/II: sin palabras de daño ni control duro (se descartan Ejecutar, Aturdir, Dormir y Regresión).",
+   "6. Total solo admite estados que no sean de control duro.",
+   "7. Ejecutar solo en técnicas Individuales: en una técnica de área se sustituye por Brutal (o se descarta si ya tiene Brutal).",
+   "8. Si un override fija 'claves', son definitivas: la segunda pasada no añade nada."
+  ],
+  "sin_tecnicas": {
+   "nombre": "Descarga de datos",
+   "potencia": "P2/P3",
+   "alcance": "distancia",
+   "area": "individual",
+   "elemento": "afinidad",
+   "claves": []
+  },
+  "overrides": "Fichero overrides.json opcional: {\"tecnicas\": {\"Nombre oficial exacto\": {campos}}, \"digimon\": {\"id\": {campos}}}. Se aplica al final del cálculo y siempre gana. Toda clave de overrides.tecnicas debe existir en algún 'moves' y toda clave de overrides.digimon debe ser un 'id' existente; si no, el generador falla. La especificación incluye overrides_iniciales."
+ },
+ "rol_algoritmo": {
+  "descripcion": "Puntuación por rol; gana la más alta. Los Bebés (In-Training 1 y 2) no tienen rol.",
+  "pesos": {
+   "familia_primario": 3,
+   "familia_secundario": 1,
+   "excepcion_tipo": 4,
+   "peso_firma": 2,
+   "peso_otra": 1
+  },
+  "excepciones_tipo": {
+   "acechador": [
+    "Insectoid",
+    "Ancient Insectoid",
+    "Larva",
+    "Parasite",
+    "Dark Beast",
+    "Little Devil"
+   ],
+   "tirador": [
+    "Cyborg",
+    "Machine Dragon",
+    "Weapon",
+    "Mine"
+   ],
+   "agil": [
+    "Holy Beast",
+    "Holy Bird",
+    "God Beast",
+    "Angel",
+    "Beast Knight",
+    "Mythical Beast",
+    "Mini Dragon"
+   ],
+   "bruto": [
+    "Undead",
+    "Evil King",
+    "Demon",
+    "Mollusk",
+    "Aquatic Beast Man",
+    "Sea Beast",
+    "Fire",
+    "Dinosaur"
+   ],
+   "mistico": [
+    "Ghost",
+    "Dark Angel",
+    "Magic Knight",
+    "Ice-Snow",
+    "Galaxy",
+    "Unidentified",
+    "Deity",
+    "Wizard"
+   ],
+   "apoyo": [
+    "Pixie",
+    "Ancient Pixie",
+    "Food",
+    "Mini Angel",
+    "Virtue",
+    "Dominion",
+    "Principality",
+    "Monk",
+    "Cherub",
+    "Ancient",
+    "Musical Instrument"
+   ],
+   "versatil": [
+    "Holy Knight",
+    "Ancient Holy Knight",
+    "Dragon Man",
+    "Ancient Dragon Man",
+    "Dragon Warrior",
+    "Warrior",
+    "Super Angel",
+    "Great Angel",
+    "Seraph",
+    "Holy Sword",
+    "Tathāgata"
+   ],
+   "tanque": [
+    "Ceratopsian",
+    "Stegosaur",
+    "Plesiosaur",
+    "Crustacean",
+    "Ancient Crustacean",
+    "Armored Dragon",
+    "Rock Dragon",
+    "Earth Dragon",
+    "Mineral",
+    "Ore",
+    "Machine",
+    "Armor",
+    "Ancient Beast"
+   ]
+  },
+  "evidencia_tecnicas": [
+   {
+    "si": "tecnica de apoyo",
+    "suma": {
+     "apoyo": 3
+    }
+   },
+   {
+    "si": "tecnica de daño de alcance toque (detectado por palabra, no por defecto)",
+    "suma": {
+     "bruto": 1
+    }
+   },
+   {
+    "si": "tecnica de daño de alcance distancia o larga (detectado por palabra, no por defecto)",
+    "suma": {
+     "tirador": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz (no por defecto de elemento) en: dormir, encantar, confundir, sellar, regresion, atrapar, ralentizar, debilitar, asustar, cegar",
+    "suma": {
+     "mistico": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz en: perforante, certero, ejecutar, ocultar",
+    "suma": {
+     "acechador": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz en: rapido",
+    "suma": {
+     "agil": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz en: escudo (en técnica de daño), contraataque, provocar",
+    "suma": {
+     "tanque": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz en: brutal, romper, derribar, aturdir",
+    "suma": {
+     "bruto": 1
+    }
+   },
+   {
+    "si": "palabra clave encontrada por raíz en: invocar, mejora (en técnica de daño), curar (en técnica de daño), drenar",
+    "suma": {
+     "mistico": 1
+    }
+   }
+  ],
+  "nota_pesos": "Cada suma de evidencia se multiplica por el peso de la técnica (Firma 2, otras 1).",
+  "extras": [
+   {
+    "si": "rango 4 y tiene al menos una técnica de Toque y otra de Distancia/Larga",
+    "suma": {
+     "versatil": 2
+    }
+   },
+   {
+    "si": "más de la mitad de sus técnicas oficiales son de apoyo",
+    "suma": {
+     "apoyo": 4
+    }
+   },
+   {
+    "si": "familia elemental y tipo Fire",
+    "suma": {
+     "bruto": 1
+    }
+   }
+  ],
+  "desempate": [
+   "rol primario de la familia",
+   "excepción de tipo",
+   "orden fijo: bruto, versatil, tirador, mistico, agil, acechador, tanque, apoyo"
+  ],
+  "hibridos": "Los Híbridos no usan la puntuación de familia ni las excepciones de tipo: solo 'versatil' +3 (como rol primario a efectos de desempate) y la evidencia de sus técnicas.",
+  "compañeros": "El jugador puede fijar el rol de su compañero al crearlo; se aplica a todas sus formas y sustituye los modificadores, el rasgo, la maniobra y la palabra de Firma del rol del bestiario (la palabra de Firma se recalcula en la segunda pasada del clasificador). Familia, atributo, plantillas y técnicas no cambian."
+ },
+ "plantillas": [
+  {
+   "id": "x_antibody",
+   "nombre": "X-Antibody",
+   "si": "x_antibody == true",
+   "mods": {
+    "atq": 1,
+    "def": 0,
+    "pv_mult": 1,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "anticuerpo_x",
+    "nombre": "Anticuerpo X",
+    "regla": "Inmune a Sellar y a Ejecutar. Una vez por combate: si es PJ, repite una tirada de Defensa; si es PNJ, obliga a un PJ a repetir un 10+ obtenido contra él."
+   }
+  },
+  {
+   "id": "supremo",
+   "nombre": "Modo Supremo",
+   "si": "is_mode == true, nivel != Hybrid y el nombre contiene una marca de modo supremo",
+   "marcas": [
+    "Burst Mode",
+    "Crimson Mode",
+    "Paladin Mode",
+    "Merciful Mode",
+    "Superior Mode",
+    "Blast Mode",
+    "Itto Mode",
+    "Awakened",
+    "Promote",
+    "GX",
+    "Takemikazuchi",
+    "Holy Mode",
+    "Alter-S"
+   ],
+   "mods": {
+    "atq": 1,
+    "def": 1,
+    "pv_mult": 1,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "poder_desatado",
+    "nombre": "Poder desatado",
+    "regla": "Al entrar en este modo su Firma queda lista aunque la hubiera usado el turno anterior."
+   }
+  },
+  {
+   "id": "modo_oscuro",
+   "nombre": "Modo Oscuro",
+   "si": "is_mode == true, nivel != Hybrid y el nombre contiene una marca de modo oscuro",
+   "marcas": [
+    "Ruin Mode",
+    "Rage Mode",
+    "Wrath Mode",
+    "Hysteric Mode",
+    "Fury Mode",
+    "Satan Mode",
+    "Destroy Mode",
+    "Chaos Mode",
+    "Falldown Mode",
+    "Vicious Mode",
+    "Zwart Defeat",
+    "Alter-B",
+    "Whispered"
+   ],
+   "mods": {
+    "atq": 1,
+    "def": 1,
+    "pv_mult": 1,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "descontrol",
+    "nombre": "Descontrol",
+    "regla": "+1 dado de daño en todas sus técnicas y −1 Def contra técnicas de Luz. Un compañero en esta forma actúa como en la digievolución oscura (lo controla el DJ)."
+   }
+  },
+  {
+   "id": "modo_alterno",
+   "nombre": "Modo alterno",
+   "si": "is_mode == true, nivel != Hybrid, sin marca de supremo ni oscuro",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "cambio_de_modo",
+    "nombre": "Cambio de modo",
+    "regla": "Cambiar a otro modo de la misma especie gasta el movimiento; conserva el daño recibido (PV = PV máximos de la nueva ficha − daño acumulado)."
+   }
+  },
+  {
+   "id": "fusion",
+   "nombre": "Fusión de Espíritus",
+   "si": "Híbrido de clase fusion",
+   "mods": {
+    "atq": 1,
+    "def": 1,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "fusion_espiritus",
+    "nombre": "Fusión de Espíritus",
+    "regla": "Combina los Espíritus Humano y Bestia (incluido)."
+   }
+  },
+  {
+   "id": "hibrido",
+   "nombre": "Híbrido",
+   "si": "nivel == Hybrid",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "espiritu",
+    "nombre": "Espíritu legendario",
+    "regla": "Es la transformación de un Tamer (módulo de Espíritus). Atributo Variable."
+   }
+  },
+  {
+   "id": "armadura",
+   "nombre": "Armadura",
+   "si": "nivel == Armor",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "poder_del_huevo",
+    "nombre": "Poder del Digi-Huevo",
+    "regla": "Resistencia al elemento de su Firma (incluida). Funciona aunque la digievolución normal esté bloqueada. No puede digievolucionar a otro nivel desde esta forma. Como compañero: 2 Chispa (20.1)."
+   }
+  },
+  {
+   "id": "bebe",
+   "nombre": "Bebé",
+   "si": "nivel In-Training 1 o In-Training 2",
+   "mods": {
+    "atq": 0,
+    "def": 0,
+    "pv_mult": 0,
+    "arm": 0,
+    "ini": 0
+   },
+   "rasgo": {
+    "id": "bebe",
+    "nombre": "Bebé",
+    "regla": "Sin rol ni rasgo de familia; no puede usar P3; +2 a las tiradas para esconderse o huir. Sus técnicas no aplican control duro ni Ejecutar."
+   }
+  }
+ ],
+ "amenaza": {
+  "nota": "Las plantillas de amenaza NO se guardan en el bestiario (salvo el campo amenaza_sugerida). El DJ las aplica al usar la ficha. Los compañeros de los jugadores nunca usan la plantilla Legendario.",
+  "esbirro": {
+   "pv": "ceil(pv / 4)",
+   "atq": -1,
+   "def": -1,
+   "arm": 0,
+   "ini": 0,
+   "acciones": 1,
+   "reglas": [
+    "No usa P3: su Firma se usa como P2.",
+    "Daño fijo: VF por dado (VF + 1 por dado si el PJ saca 6– al defenderse).",
+    "Huye si cae su líder.",
+    "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno; ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble."
+   ],
+   "pa": 0.25
+  },
+  "estandar": {
+   "pv": "pv",
+   "atq": 0,
+   "def": 0,
+   "arm": 0,
+   "ini": 0,
+   "acciones": 1,
+   "pa": 1
+  },
+  "elite": {
+   "pv": "floor(pv * 1.5)",
+   "atq": 1,
+   "def": 1,
+   "arm": 0,
+   "ini": 1,
+   "acciones": 1,
+   "reglas": [
+    "1 reacción por asalto: Contraataque con su técnica básica cuando un PJ saca 6– atacándole, o Proteger a un aliado."
+   ],
+   "pa": 2
+  },
+  "jefe": {
+   "pv": "floor(pv * (N + 2) / 2)",
+   "atq": 1,
+   "def": 1,
+   "arm": 1,
+   "ini": 2,
+   "acciones": "ceil(N / 2)",
+   "reglas": [
+    "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª, si la hay, al principio del asalto.",
+    "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 turno; inmune a Ejecutar (en su lugar +1 dado).",
+    "Fases: 2 fases con umbral en la mitad de sus PV. Escudo de fase: el daño que sobrepasa el umbral se pierde. Al cruzar el umbral entra en Furia: elimina sus estados, su Firma queda lista, +1 dado en todas sus técnicas el resto del combate y cada Tamer gana 1 Chispa. Si tiene Modos, cambia de Modo.",
+    "Firma telegrafiada: su Firma P3 tiene siempre Cargado. El turno que carga, el DJ anuncia qué hará y a qué zona. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta su próximo turno) y no puede volver a cargarla en esta fase.",
+    "Punto débil: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
+    "Objetivos de escena: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
+   ],
+   "pa": "N"
+  },
+  "legendario": {
+   "pv": "floor(pv * (N + 3) / 2)",
+   "atq": 1,
+   "def": 1,
+   "arm": 1,
+   "ini": 2,
+   "acciones": "ceil(N / 2)",
+   "dados_extra": 1,
+   "reglas": [
+    "Todas las reglas de Jefe.",
+    "+1 dado de daño en todas sus técnicas.",
+    "3 fases (umbrales al 2/3 y al 1/3 de sus PV), cada una con escudo de fase y Furia.",
+    "Dominio de su grupo (lista dominios)."
+   ],
+   "pa": "2 * N"
+  },
+  "pa_por_diferencia_de_nivel": {
+   "-2": 0.25,
+   "-1": 0.5,
+   "0": 1,
+   "1": 2,
+   "2": 5,
+   "3": 15
+  },
+  "nivel_de_referencia": "El nivel estable del grupo (el que tiene la mayoría de compañeros sin gastar Chispa).",
+  "presupuesto": {
+   "facil": "N / 2",
+   "normal": "N",
+   "dificil": "1.5 * N",
+   "epico": "2 * N",
+   "nota": "N = número de parejas Tamer-Digimon. Un encuentro Normal al nivel estable que incluya un enemigo de un nivel por encima es la receta del 'episodio de digievolución'. El Jefe de una aventura suele ser del nivel temporal máximo del grupo (estable + 1): vale 2N PA (Épico)."
+  },
+  "legendarios": {
+   "caballeros_reales": [
+    "alphamon",
+    "alphamon:ouryuken",
+    "craniummon",
+    "craniummon_x",
+    "dynasmon",
+    "dynasmon_x",
+    "examon",
+    "examon_x",
+    "dukemon",
+    "dukemon_x",
+    "dukemoncrimsonmode",
+    "gankoomon",
+    "gankoomon_x",
+    "jesmon",
+    "jesmon_x",
+    "jesmongx",
+    "sleipmon",
+    "sleipmon_x",
+    "duftmon",
+    "duftmon_x",
+    "duftmonleopardmode",
+    "lordknightmon",
+    "lordknightmon_x",
+    "magnamon_x",
+    "omegamon",
+    "omegamon-x",
+    "omegamon_alter-b",
+    "omegamon-alter-s",
+    "omegamon_zwart",
+    "omegamonzwart_d",
+    "omegamon_merciful",
+    "ulforcevdramon",
+    "ulforcevdramon_x",
+    "magnamon"
+   ],
+   "senores_demonio": [
+    "rucemonfalldownmode",
+    "lucemonsatanmode",
+    "lucemonlarva",
+    "lucemon_x",
+    "leviamon",
+    "leviamon_x",
+    "demon",
+    "demon_x",
+    "lilithmon",
+    "lilithmon_x",
+    "belphemonsleepmode",
+    "belphemonragemode",
+    "belphemon_x",
+    "barbamon",
+    "barbamon_x",
+    "beelzebumon",
+    "beelzebumon-xwars",
+    "beelzebumonblastmode",
+    "beelzebumon_x",
+    "ogudomon",
+    "ogudomon_x"
+   ],
+   "olimpo_xii": [
+    "jupitermon",
+    "jupitermmon_wrath",
+    "junomon",
+    "junomon_hysteric",
+    "neptunemon",
+    "apollomon",
+    "apollomon_whispered",
+    "dianamon",
+    "marsmon",
+    "minervamon",
+    "minervamon_x",
+    "venusmon",
+    "vulcanusmon",
+    "ceresmon",
+    "bacchusmon",
+    "plutomon",
+    "zombieplutomon",
+    "mercurymon",
+    "mervamon"
+   ],
+   "bestias_sagradas": [
+    "qinglongmon",
+    "zhuqiaomon",
+    "baihumon",
+    "xuanwumon",
+    "huanglongmon",
+    "huanglongmon_ruin"
+   ],
+   "grandes_angeles": [
+    "seraphimon",
+    "ofanimon",
+    "ofanimon_x",
+    "ofanimonfalldownmode",
+    "ofanimonfdm_x",
+    "cherubimon",
+    "cherubimon_x",
+    "cherubimon-vice",
+    "cherubimondark_x"
+   ],
+   "guerreros_antiguos": [
+    "ancientgreymon",
+    "ancientgarurumon",
+    "ancientirismon",
+    "ancientbeatmon",
+    "ancientmegatheriumon",
+    "ancienttroiamon",
+    "ancientsphinkmon",
+    "ancientmermaimon",
+    "ancientvolcamon",
+    "ancientwisetmon"
+   ],
+   "amenazas_finales": [
+    "apoclymon",
+    "armagemon",
+    "diablomon",
+    "diablomon_x",
+    "millenniumon",
+    "zeedmillenniumon",
+    "moonmillenniumon",
+    "quartzmon",
+    "yggdrasill7d6",
+    "chaosmon",
+    "ultimatechaosmon",
+    "belialvamdemon",
+    "neo",
+    "death-x-mon",
+    "susanoomon",
+    "gracenovamon",
+    "imperialdramonpaladinmode",
+    "bagramon",
+    "darknessbagramon",
+    "abbadomon",
+    "abbadomoncore",
+    "ordinemon",
+    "ragnamon",
+    "mastemon",
+    "raguelmon",
+    "chaosmonvaldurarm",
+    "eosmon_lv6"
+   ]
+  },
+  "dominios": {
+   "caballeros_reales": {
+    "nombre": "Código caballeresco",
+    "regla": "Inmunes a Asustar, Encantar, Confundir y Dormir. Una vez por asalto, cuando un PJ falla (6–) un ataque contra ellos, contraatacan con su técnica básica sin tirada."
+   },
+   "senores_demonio": {
+    "nombre": "Pecado capital",
+    "regla": "Según el demonio: Orgullo (Lucemon) — los PJ no pueden darse Ayuda; Ira (Creepymon) — todas las técnicas de la escena, las suyas incluidas, +1 dado; Envidia (Leviamon) — cada vez que un compañero digievoluciona, recupera 2 × VF PV; Lujuria (Lilithmon) — al empezar cada asalto, un compañero a su elección queda Encantado; Pereza (Belphemon) — todos los PJ empiezan el combate en la fase lenta; Avaricia (Barbamon) — cada vez que un Tamer gasta Chispa, el DJ gana 1 punto de Codicia que puede gastar para dar +1 dado a una técnica; Gula (Beelzemon, Ogudomon) — todas sus técnicas tienen Drenar."
+   },
+   "olimpo_xii": {
+    "nombre": "Dominio divino",
+    "regla": "En la zona que ocupa, +1 a todas sus tiradas y Resistencia al elemento de su Firma; cada fase cambia el terreno según su dios."
+   },
+   "bestias_sagradas": {
+    "nombre": "Guardián cardinal",
+    "regla": "Regenera VF PV al empezar cada asalto e ignora la debilidad de su familia."
+   },
+   "grandes_angeles": {
+    "nombre": "Coro celestial",
+    "regla": "Sus aliados tienen +1 Def; todas sus técnicas tienen además Purificar."
+   },
+   "guerreros_antiguos": {
+    "nombre": "Legado ancestral",
+    "regla": "Al empezar cada asalto elige un elemento: es inmune a él hasta el siguiente asalto. Sus técnicas ignoran Resistencias."
+   },
+   "amenazas_finales": {
+    "nombre": "Catástrofe",
+    "regla": "Al empezar cada asalto, los PJ de una zona a su elección reciben VF de daño sin tirada (menos Arm) o sufren el estado por defecto de su elemento (sin control duro)."
+   }
+  },
+  "jefes_sugeridos": {
+   "amos_oscuros": [
+    "metalseadramon",
+    "pinochimon",
+    "mugendramon",
+    "piemon"
+   ],
+   "doce_devas": [
+    "kumbhiramon",
+    "vajramon",
+    "mihiramon",
+    "andiramon",
+    "majiramon",
+    "sandiramon",
+    "indaramon",
+    "pajiramon",
+    "makuramon",
+    "sinduramon",
+    "caturamon",
+    "vikaralamon"
+   ],
+   "villanos_clasicos": [
+    "devimon",
+    "etemon",
+    "kingetemon",
+    "vamdemon",
+    "venomvamdemon",
+    "chimairamon",
+    "diablomon",
+    "archnemon",
+    "mummymon",
+    "blackwargreymon",
+    "parasimon",
+    "deathmon",
+    "beelzebumon"
+   ]
+  },
+  "esbirros_sugeridos": [
+   "goburimon",
+   "bakemon",
+   "gizamon",
+   "paunchessmon",
+   "paunchessmon-white",
+   "numemon",
+   "gottsumon",
+   "tankmon",
+   "otamamon",
+   "kokuwamon",
+   "troopmon",
+   "commandramon",
+   "snimon",
+   "flymon",
+   "darklizamon",
+   "mushmon",
+   "floramon",
+   "shakomon",
+   "hagurumon",
+   "scumon"
+  ],
+  "legendarios_nota": "Listas de ids. Las variantes X y los Modos de estos Digimon están escritos uno a uno (no se deducen): Eosmon solo como Definitivo (eosmon_lv6); Magnamon (Armadura) se incluye por ser Caballero Real (un compañero que la alcanza usa la ficha base).",
+  "indice_amenaza": {
+   "para_que": "Dos fichas del mismo nivel y la misma plantilla pueden ser muy distintas (VenomMyotismon frente a Piedmon). El generador calcula un índice por ficha y lo convierte en un modificador del PA.",
+   "formula": [
+    "m = (dado_caras + 1) / 2;  R = rango",
+    "dados_rutina = (dados de la Firma (3; 2 si no tiene Firma de daño) + dados de su mejor otra técnica de daño oficial (P1 = 1, P2 = 2; 1 si no tiene)) / 2",
+    "f_dano = P(6–) + 0,5 × P(7–9) de una tirada de Defensa 2d6 + (R + 1) − atq   (pareja media: Def = R + 1; doble 6 y doble 1 cuentan como 10+ y 6–)",
+    "f_area = 1 si la Firma es Individual; 1,4 si es Ráfaga; 1,6 si es Zona; 2 si es Total",
+    "ofensiva = m × dados_rutina × f_dano × f_area",
+    "p_impacto = P(7+) de una tirada de ataque 2d6 + (R + 1) − def",
+    "f_cura = 1,2 si su Firma tiene Drenar o es de la familia Oscuro (Hambre oscura); si no, 1",
+    "pv_efectivos = pv × (2m / (2m − arm)) × (1 + 0,15 × nº de resistencias) × f_cura / p_impacto",
+    "indice_amenaza = ofensiva² × pv_efectivos (redondeado a 1 decimal). La ofensiva va al cuadrado porque, en la simulación, el riesgo de derrota depende más del daño que de la resistencia (Machinedramon > Piedmon > VenomMyotismon > MetalSeadramon > Puppetmon, tanto en el índice como en el motor)."
+   ],
+   "terciles": "Se ordenan las fichas con rol de la misma fila de validación (novato, campeon, perfecto, definitivo; Armadura e Híbrido con la fila que usan) y se cortan en terciles: por debajo del 1.er corte, amenaza baja; desde el 2.º corte, alta; en medio, media. Los Bebés: media.",
+   "factor_area": {
+    "individual": 1,
+    "rafaga": 1.4,
+    "zona": 1.6,
+    "total": 2
+   },
+   "mod_pa": {
+    "baja": 0.75,
+    "media": 1,
+    "alta": 1.5
+   },
+   "impresion": "La ficha imprime 'Amenaza: baja (PA ×¾) / media / alta (PA ×1½)'."
+  }
+ },
+ "jefe": {
+  "pv": "floor(pv * (N + 2) / 2)",
+  "atq": 1,
+  "def": 1,
+  "arm": 1,
+  "ini": 2,
+  "acciones": "ceil(N / 2)",
+  "reglas": [
+   "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª, si la hay, al principio del asalto.",
+   "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 turno; inmune a Ejecutar (en su lugar +1 dado).",
+   "Fases: 2 fases con umbral en la mitad de sus PV. Escudo de fase: el daño que sobrepasa el umbral se pierde. Al cruzar el umbral entra en Furia: elimina sus estados, su Firma queda lista, +1 dado en todas sus técnicas el resto del combate y cada Tamer gana 1 Chispa. Si tiene Modos, cambia de Modo.",
+   "Firma telegrafiada: su Firma P3 tiene siempre Cargado. El turno que carga, el DJ anuncia qué hará y a qué zona. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta su próximo turno) y no puede volver a cargarla en esta fase.",
+   "Punto débil: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
+   "Objetivos de escena: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
+  ],
+  "pa": "N"
+ },
+ "esbirro": {
+  "pv": "ceil(pv / 4)",
+  "atq": -1,
+  "def": -1,
+  "arm": 0,
+  "ini": 0,
+  "acciones": 1,
+  "reglas": [
+   "No usa P3: su Firma se usa como P2.",
+   "Daño fijo: VF por dado (VF + 1 por dado si el PJ saca 6– al defenderse).",
+   "Huye si cae su líder.",
+   "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno; ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble."
+  ],
+  "pa": 0.25
+ },
+ "vuelo": {
+  "familias": [
+   "ave"
+  ],
+  "tipos": [
+   "Insectoid",
+   "Ancient Insectoid",
+   "Sky Dragon",
+   "Holy Dragon",
+   "Bird Dragon",
+   "Pterosaur",
+   "Angel",
+   "Mini Angel",
+   "High Angel",
+   "Super Angel",
+   "Great Angel",
+   "Cherub",
+   "Seraph",
+   "Virtue",
+   "Dominion",
+   "Principality",
+   "Dark Angel",
+   "Pixie",
+   "Ancient Pixie",
+   "Ghost",
+   "Holy Bird",
+   "Smoke",
+   "Spirit"
+  ],
+  "ids": [
+   "patamon",
+   "wargreymon",
+   "wargreymon_x",
+   "blackwargreymon",
+   "metalgarurumon",
+   "omegamon",
+   "imperialdramondragonmode",
+   "imperialdramonfightermode",
+   "imperialdramonpaladinmode",
+   "metalgreymon-v",
+   "vamdemon",
+   "belialvamdemon",
+   "beelzebumonblastmode",
+   "magnamon",
+   "ulforcevdramon",
+   "dukemoncrimsonmode",
+   "pegasmon",
+   "nefertimon",
+   "airdramon",
+   "megadramon",
+   "gigadramon",
+   "piemon",
+   "rucemonfalldownmode",
+   "seraphimon",
+   "rosemon",
+   "kabuterimon",
+   "flymon",
+   "etemon",
+   "tentomon",
+   "piyomon",
+   "hawkmon",
+   "falcomon",
+   "lunamon",
+   "kudamon",
+   "sakuyamon",
+   "taomon",
+   "ravmonburstmode",
+   "ravmon",
+   "lilamon",
+   "atlurkabuterimon",
+   "atlurkabuterimon-blue"
+  ]
+ },
+ "nado": {
+  "familias": [
+   "acuatico"
+  ],
+  "tipos": [
+   "Amphibian",
+   "Plesiosaur",
+   "Ocean Dragon",
+   "Sea Beast",
+   "Sea Animal"
+  ]
+ },
+ "formulas": {
+  "rango": "niveles[level].rango (o niveles[level].por_nombre[name] → fila de ese nivel)",
+  "dado": "d4 si rango 0; si no d(4 + 2*rango)",
+  "vf": "dado_caras / 2",
+  "pv": "Bebé I: 6; Bebé II: 10; resto: vf * (7 + rol.pv_mult + familia.pv_mult + atributo.pv_mult + Σ plantillas.pv_mult)",
+  "atq": "rango + rol.atq + atributo.atq + Σ plantillas.atq",
+  "def": "rango + rol.def + atributo.def + Σ plantillas.def",
+  "arm": "min(2, rol.arm + familia.arm + Σ plantillas.arm)  (Bebés: 0)",
+  "ini": "rango + rol.ini + atributo.ini + familia.ini + Σ plantillas.ini",
+  "peligro_tamer": "max(1, rango); +1 si la técnica es P3",
+  "umbral_ejecutar": "2 * vf",
+  "dados_tecnica": "potencia (1/2/3) − 1 si el área no es individual (mínimo 1)",
+  "dano_tecnica_impreso": "'Nd(dado)' con N = dados_tecnica; la ficha imprime también la media: N * (dado_caras + 1) / 2",
+  "escala": "Atacante de nivel inferior al objetivo: el daño se divide a la mitad por cada nivel de diferencia (redondeo abajo, mínimo 1). Atacante de nivel superior: +1 dado de daño (no acumulable por más niveles).",
+  "triangulo": "+1 a las tiradas del PJ contra un PNJ cuyo atributo vence el suyo; −1 si el del PNJ vence al suyo (en ataque y en defensa)",
+  "tirada_pj_ataque": "2d6 + atq_propio − def_objetivo + situacionales (máx. ±3)",
+  "tirada_pj_defensa": "2d6 + def_propia − atq_atacante + situacionales (máx. ±3)",
+  "tirada_fuera_de_combate_digimon": "2d6 + rango (+1 si es su especialidad de familia o rol)",
+  "guardia_de_carga": "pv_base del nivel / 2 (redondeo abajo)",
+  "jefe_pv": "floor(pv * (N + 2) / 2)",
+  "legendario_pv": "floor(pv * (N + 3) / 2)",
+  "esbirro_pv": "ceil(pv / 4)",
+  "elite_pv": "floor(pv * 1.5)",
+  "debilidades": "Bebés: ninguna. Resto: familia.debilidad (Elemental: la de su tipo; excepciones_tipo de la familia si existen) ∪ {primer elemento de orden_debilidad cuyo 'vence_a' contiene el elemento principal}; resistencias: familia.resistencia ∪ {elemento principal si no es neutro ni cosmico}; se quita de ambas listas lo que aparezca en las dos; máximo 2 de cada (primero las de familia). Plantilla Armadura: se añade a resistencias el elemento de la Firma (si no es neutro), manteniendo el máximo de 2, y se quita de debilidades.",
+  "elemento_principal": "el elemento más repetido entre sus técnicas oficiales sin contar neutro; empate → el de la técnica que va antes (la Firma primero); Elemental: el de su tipo; sin técnicas con elemento: ninguno"
+ },
+ "validacion": {
+  "rangos_por_nivel": {
+   "bebe_1": {
+    "pv": [
+     6,
+     6
+    ],
+    "atq": [
+     0,
+     2
+    ],
+    "def": [
+     0,
+     2
+    ],
+    "arm": [
+     0,
+     0
+    ]
+   },
+   "bebe_2": {
+    "pv": [
+     10,
+     10
+    ],
+    "atq": [
+     0,
+     2
+    ],
+    "def": [
+     0,
+     2
+    ],
+    "arm": [
+     0,
+     0
+    ]
+   },
+   "novato": {
+    "pv": [
+     15,
+     36
+    ],
+    "atq": [
+     0,
+     5
+    ],
+    "def": [
+     0,
+     4
+    ],
+    "arm": [
+     0,
+     2
+    ]
+   },
+   "campeon": {
+    "pv": [
+     20,
+     48
+    ],
+    "atq": [
+     1,
+     6
+    ],
+    "def": [
+     1,
+     5
+    ],
+    "arm": [
+     0,
+     2
+    ]
+   },
+   "perfecto": {
+    "pv": [
+     25,
+     60
+    ],
+    "atq": [
+     2,
+     7
+    ],
+    "def": [
+     2,
+     6
+    ],
+    "arm": [
+     0,
+     2
+    ]
+   },
+   "definitivo": {
+    "pv": [
+     30,
+     72
+    ],
+    "atq": [
+     3,
+     8
+    ],
+    "def": [
+     3,
+     7
+    ],
+    "arm": [
+     0,
+     2
+    ]
+   }
+  },
+  "reglas": [
+   "Como mucho una técnica P3 por ficha.",
+   "Máximo 2 palabras clave por técnica.",
+   "Ningún Bebé con P3, Ejecutar, Aturdir ni Dormir.",
+   "Área Total solo en la Firma de rango 4.",
+   "Toda ficha tiene técnica básica y maniobra de rol (salvo Bebés: solo básica).",
+   "Cada uno de los 140 tipos pertenece a exactamente una familia.",
+   "Las técnicas de apoyo no hacen daño ni tienen palabras de daño."
+  ],
+  "objetivos_de_diseño": {
+   "turnos_1v1_mismo_nivel": "PJ con Dado de Vínculo y Orden: 2,6-3,5 turnos contra un PNJ estándar; ningún emparejamiento de roles por encima de 6",
+   "nivel_superior_+1": "un PJ necesita ~7-8 ataques contra un PNJ estándar un nivel por encima",
+   "nivel_superior_+2": "~22-24 ataques",
+   "nivel_superior_+3": "~60 ataques (imposible en la práctica)",
+   "primera_digievolucion": "asalto 2 de media (simulación de grupo de 4)"
+  }
+ },
+ "salida": {
+  "json_ficha": {
+   "id": "str (id de all.json)",
+   "nombre": "str",
+   "nivel": "str (Bebé I…Definitivo)",
+   "etiqueta": "str|null (Armadura, Híbrido, Desconocido)",
+   "rango": "int",
+   "familia": "id",
+   "tipo": "str (inglés)",
+   "tipo_es": "str",
+   "rol": "id|null",
+   "atributo": "id",
+   "plantillas": [
+    "id"
+   ],
+   "amenaza_sugerida": "estandar|esbirro|elite|jefe|legendario",
+   "grupo_legendario": "id|null",
+   "dado": "str",
+   "vf": "int",
+   "pv": "int",
+   "atq": "int",
+   "def": "int",
+   "arm": "int",
+   "ini": "int",
+   "vuela": "bool",
+   "nada": "bool",
+   "debilidades": [
+    "id"
+   ],
+   "resistencias": [
+    "id"
+   ],
+   "rasgos": [
+    {
+     "id": "str",
+     "nombre": "str",
+     "origen": "rol|familia|atributo|plantilla|dominio",
+     "regla": "str"
+    }
+   ],
+   "tecnicas": [
+    {
+     "nombre": "str",
+     "tipo": "basica|maniobra|oficial|generica",
+     "firma": "bool",
+     "potencia": "P1|P2|P3|P2/P3|null",
+     "dados": "str (p. ej. '3d10')",
+     "dano_medio": "float|null",
+     "alcance": "id",
+     "area": "id",
+     "elemento": "id",
+     "claves": [
+      "id"
+     ],
+     "apoyo": "bool",
+     "agotadora": "bool"
+    }
+   ],
+   "prev": [
+    "str"
+   ],
+   "next": [
+    "str"
+   ],
+   "modos": [
+    "str"
+   ],
+   "notas": [
+    "str"
+   ]
+  },
+  "bloque_texto": [
+   "NOMBRE — Nivel [etiqueta] · Familia (Tipo) · Rol · Atributo [· plantillas] [· Amenaza sugerida]",
+   "PV __ · Atq +_ · Def +_ · Arm _ · Ini +_ · Dado d_ (VF _) [· Vuela] [· Nada]",
+   "Debilidad: __ · Resistencia: __ · Triángulo: vence a __",
+   "Rasgos: <rol>; <familia>; <atributo>; <plantillas>",
+   "Técnicas:",
+   "· <Básica> — P1 · Toque · Individual · <elemento>  [1d_]",
+   "· <Maniobra de rol> — ...",
+   "· <Firma> — P3 (Agotadora) [o P2/P3] · <alcance> · <área> · <elemento> · <claves>  [3d_ ≈ media]",
+   "· …",
+   "Evoluciona de: … · Evoluciona a: … · Modos: …"
+  ]
+ },
+ "overrides_iniciales": {
+  "tecnicas": {
+   "Blue Blaster": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "nota": "Llamarada azul."
+   },
+   "Terra Force": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "area": "individual",
+    "nota": "Esfera de energía solar concentrada."
+   },
+   "Great Tornado": {
+    "elemento": "viento",
+    "alcance": "toque",
+    "claves": [
+     "perforante",
+     "rapido"
+    ],
+    "nota": "Giro de taladro con las garras."
+   },
+   "Pepper Breath": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Mega Flame": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Giga Destroyer": {
+    "elemento": "acero",
+    "alcance": "distancia",
+    "nota": "Misiles orgánicos del pecho."
+   },
+   "Trident Arm": {
+    "elemento": "acero",
+    "alcance": "toque",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Giga Storm": {
+    "elemento": "acero",
+    "alcance": "distancia",
+    "area": "zona"
+   },
+   "Fox Fire": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Ice Wolf Claw": {
+    "elemento": "hielo",
+    "alcance": "distancia"
+   },
+   "Garuru Tomahawk": {
+    "elemento": "acero",
+    "alcance": "distancia"
+   },
+   "Spiral Twister": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "nota": "Remolino de llamas verdes."
+   },
+   "Meteor Wing": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "area": "rafaga"
+   },
+   "Super Shocker": {
+    "elemento": "electrico",
+    "alcance": "distancia"
+   },
+   "Electro Shocker": {
+    "elemento": "electrico",
+    "alcance": "distancia"
+   },
+   "Poison Ivy": {
+    "elemento": "planta",
+    "alcance": "distancia",
+    "claves": [
+     "atrapar",
+     "veneno"
+    ]
+   },
+   "Marching Fishes": {
+    "elemento": "agua",
+    "alcance": "distancia",
+    "claves": [
+     "invocar"
+    ]
+   },
+   "Harpoon Torpedo": {
+    "elemento": "agua",
+    "alcance": "distancia",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Air Shot": {
+    "elemento": "viento",
+    "alcance": "distancia",
+    "claves": [
+     "empujar"
+    ]
+   },
+   "Wing Slap": {
+    "elemento": "viento",
+    "alcance": "toque"
+   },
+   "Heaven's Knuckle": {
+    "elemento": "luz",
+    "alcance": "toque",
+    "claves": [
+     "purificar"
+    ]
+   },
+   "Lightning Paw": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "rapido"
+    ]
+   },
+   "Cat's Eye": {
+    "elemento": "mental",
+    "alcance": "distancia",
+    "claves": [
+     "confundir"
+    ],
+    "apoyo": false
+   },
+   "Celestial Arrow": {
+    "elemento": "luz",
+    "alcance": "larga",
+    "claves": [
+     "certero",
+     "purificar"
+    ]
+   },
+   "Death Claw": {
+    "elemento": "oscuridad",
+    "alcance": "distancia",
+    "claves": [
+     "asustar",
+     "drenar"
+    ]
+   },
+   "Pummel Whack": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "brutal"
+    ]
+   },
+   "Fist of the Beast King": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Scissor Claw": {
+    "elemento": "acero",
+    "alcance": "toque",
+    "claves": [
+     "romper"
+    ]
+   },
+   "Boom Boom Punch": {
+    "elemento": "neutro",
+    "alcance": "toque"
+   },
+   "Veemon Headbutt": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "aturdir"
+    ]
+   },
+   "Rock Breaker": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "romper"
+    ]
+   },
+   "Fire Ball": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Kohenkyo": {
+    "elemento": "mental",
+    "alcance": "personal",
+    "apoyo": true,
+    "claves": [
+     "ocultar"
+    ],
+    "nota": "Técnica de ilusión: se oculta."
+   },
+   "Diamond Storm": {
+    "elemento": "tierra",
+    "alcance": "distancia",
+    "area": "rafaga",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Terrier Tornado": {
+    "elemento": "viento",
+    "alcance": "distancia",
+    "claves": [
+     "empujar"
+    ],
+    "nota": "Tornado lanzado: así la Firma del Tirador Terriermon pasa a Larga."
+   },
+   "Blazing Fire": {
+    "elemento": "neutro",
+    "alcance": "distancia",
+    "nota": "Ráfaga de energía, no de fuego."
+   },
+   "Summon": {
+    "elemento": "oscuridad",
+    "alcance": "distancia",
+    "claves": [
+     "invocar"
+    ]
+   },
+   "Night of Fire": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "area": "rafaga"
+   },
+   "Foam": {
+    "elemento": "neutro",
+    "alcance": "distancia",
+    "claves": [
+     "cegar"
+    ],
+    "nota": "Burbujas que molestan la vista."
+   },
+   "Acid Bubbles": {
+    "elemento": "veneno",
+    "alcance": "distancia"
+   },
+   "Shield of the Just": {
+    "elemento": "luz",
+    "alcance": "personal",
+    "apoyo": true,
+    "claves": [
+     "escudo"
+    ]
+   },
+   "Lightning Joust": {
+    "elemento": "luz",
+    "alcance": "toque",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Transcendent Sword": {
+    "elemento": "acero",
+    "alcance": "toque",
+    "claves": [
+     "ejecutar"
+    ]
+   },
+   "Supreme Cannon": {
+    "elemento": "hielo",
+    "alcance": "distancia",
+    "claves": [
+     "congelar"
+    ]
+   },
+   "Positron Laser": {
+    "elemento": "luz",
+    "alcance": "larga",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Final Excalibur": {
+    "elemento": "luz",
+    "alcance": "toque",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Darkness Wave": {
+    "elemento": "oscuridad",
+    "alcance": "distancia",
+    "area": "zona",
+    "claves": [
+     "asustar"
+    ]
+   },
+   "Night Raid": {
+    "elemento": "oscuridad",
+    "alcance": "distancia",
+    "area": "zona",
+    "claves": [
+     "drenar"
+    ],
+    "nota": "Enjambre de murciélagos."
+   },
+   "Trump Sword": {
+    "elemento": "acero",
+    "alcance": "distancia",
+    "area": "rafaga",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Ultimate Flare": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "claves": [
+     "quemar",
+     "brutal"
+    ]
+   },
+   "Marble Impact": {
+    "elemento": "tierra",
+    "alcance": "toque",
+    "area": "individual",
+    "claves": [
+     "aturdir"
+    ]
+   },
+   "Corona Blaster": {
+    "elemento": "fuego",
+    "alcance": "distancia"
+   },
+   "Spinning Needle": {
+    "elemento": "planta",
+    "alcance": "distancia",
+    "area": "rafaga",
+    "claves": [
+     "perforante"
+    ]
+   },
+   "Flower Cannon": {
+    "elemento": "planta",
+    "alcance": "distancia"
+   },
+   "Thorn Whip": {
+    "elemento": "planta",
+    "alcance": "toque",
+    "claves": [
+     "atrapar"
+    ]
+   },
+   "Luna Claw": {
+    "elemento": "cosmico",
+    "alcance": "toque"
+   },
+   "Heaven's Gate": {
+    "elemento": "luz",
+    "alcance": "distancia",
+    "claves": [
+     "ejecutar",
+     "sellar"
+    ]
+   },
+   "Strike of the Seven Stars": {
+    "elemento": "luz",
+    "alcance": "distancia",
+    "area": "rafaga",
+    "claves": [
+     "purificar",
+     "cegar"
+    ],
+    "nota": "Siete esferas de luz."
+   },
+   "Infinity Cannon": {
+    "elemento": "acero",
+    "alcance": "distancia",
+    "claves": [
+     "brutal",
+     "romper"
+    ]
+   },
+   "Fox Tail Inferno": {
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "area": "zona",
+    "claves": [
+     "quemar"
+    ]
+   },
+   "Double Impact": {
+    "elemento": "acero",
+    "alcance": "distancia",
+    "area": "rafaga",
+    "claves": [
+     "certero"
+    ],
+    "nota": "Dos pistolas."
+   },
+   "Brahmashira": {
+    "apoyo": false,
+    "elemento": "fuego",
+    "alcance": "distancia",
+    "claves": [
+     "brutal",
+     "quemar"
+    ]
+   },
+   "River of Power": {
+    "apoyo": false,
+    "elemento": "agua",
+    "alcance": "distancia",
+    "claves": [
+     "brutal"
+    ]
+   },
+   "Dumdum Uppercut": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "aturdir"
+    ]
+   },
+   "Howling Cannon": {
+    "elemento": "mental",
+    "alcance": "distancia",
+    "claves": [
+     "asustar"
+    ]
+   },
+   "Sing a Song": {
+    "apoyo": false,
+    "elemento": "mental",
+    "alcance": "distancia",
+    "claves": [
+     "dormir"
+    ],
+    "nota": "Canción que adormece a los rivales."
+   },
+   "Fairy Powder": {
+    "elemento": "mental",
+    "alcance": "distancia",
+    "claves": [
+     "debilitar"
+    ],
+    "nota": "Polvo que encoge y debilita."
+   },
+   "Rewind Abyss 13": {
+    "elemento": "oscuridad",
+    "alcance": "distancia",
+    "claves": [
+     "regresion"
+    ],
+    "nota": "Fuerza la regresión."
+   },
+   "Anja Serenade": {
+    "apoyo": true,
+    "elemento": "mental",
+    "alcance": "personal",
+    "claves": [
+     "curar"
+    ],
+    "nota": "Se recompone una y otra vez: curación propia (el DJ puede tratarla como rasgo de PNJ)."
+   },
+   "Kill Me": {
+    "elemento": "mental",
+    "alcance": "distancia",
+    "area": "zona",
+    "claves": [
+     "confundir"
+    ],
+    "nota": "Manipula a los rivales para que se ataquen entre sí."
+   },
+   "Glowing Moon": {
+    "apoyo": true,
+    "elemento": "luz",
+    "alcance": "distancia",
+    "area": "zona",
+    "claves": [
+     "curar"
+    ],
+    "nota": "Luz que cura a los aliados."
+   },
+   "Finger Bomb": {
+    "claves": [
+     "brutal"
+    ],
+    "nota": "Técnica de daño: no cura."
+   },
+   "Snipe Steal": {
+    "elemento": "neutro",
+    "alcance": "toque",
+    "claves": [
+     "debilitar"
+    ],
+    "nota": "Robo: en lugar de Debilitar, el DJ puede quitar un objeto al Tamer."
+   },
+   "Octogravity": {
+    "elemento": "cosmico",
+    "claves": [
+     "ralentizar"
+    ]
+   }
+  },
+  "digimon": {
+   "culumon": {
+    "rol": "apoyo",
+    "nota": "Calumon: PNJ de trama; no combate."
+   },
+   "agumon": {
+    "rol": "bruto"
+   },
+   "gabumon": {
+    "rol": "bruto"
+   },
+   "angemon": {
+    "rol": "versatil"
+   },
+   "kabuterimon": {
+    "rol": "tirador"
+   },
+   "gomamon": {
+    "rol": "tanque"
+   },
+   "patamon": {
+    "rol": "agil",
+    "vuela": true
+   },
+   "dukemon": {
+    "rol": "versatil",
+    "nota": "Gallantmon"
+   },
+   "omegamon": {
+    "rol": "versatil",
+    "nota": "Omnimon"
+   },
+   "wargreymon": {
+    "rol": "versatil"
+   },
+   "metalgarurumon": {
+    "rol": "tirador"
+   },
+   "leomon": {
+    "rol": "bruto"
+   },
+   "garurumon": {
+    "rol": "agil"
+   },
+   "palmon": {
+    "rol": "mistico"
+   },
+   "piyomon": {
+    "rol": "tirador"
+   },
+   "tentomon": {
+    "rol": "tirador"
+   },
+   "lalamon": {
+    "rol": "apoyo"
+   },
+   "angewomon": {
+    "rol": "apoyo"
+   },
+   "holyangemon": {
+    "rol": "versatil",
+    "nota": "MagnaAngemon"
+   },
+   "renamon": {
+    "rol": "agil"
+   },
+   "kyubimon": {
+    "rol": "mistico"
+   },
+   "v-mon": {
+    "rol": "bruto",
+    "nota": "Veemon"
+   },
+   "guilmon": {
+    "rol": "bruto"
+   },
+   "terriermon": {
+    "rol": "tirador"
+   }
+  }
+ },
+ "notas_ids": {
+  "ejemplos_ids": {
+   "Agumon": "agumon",
+   "Greymon": "greymon-first",
+   "MetalGreymon": "metalgreymon-v",
+   "WarGreymon": "wargreymon"
+  },
+  "aviso": "Los nombres de Digimon no son únicos en all.json (Argomon, Eosmon, Rapidmon, Burgamon, Cyberdramon): todas las listas de Digimon de la especificación usan el id. Las claves de overrides de técnicas deben existir tal cual en algún 'moves'."
+ },
+ "ejemplos": {
+  "Agumon": {
+   "id": "agumon",
+   "entrada": {
+    "name": "Agumon",
+    "level": "Rookie",
+    "type": "Reptile",
+    "attribute": "Vaccine",
+    "moves": [
+     "Pepper Breath"
+    ]
+   },
+   "pasos": [
+    "1. Nivel Rookie → fila Novato: rango 1, dado d6, VF 3, Atq/Def/Ini base 1.",
+    "2. Tipo Reptile → familia Saurio (afinidad neutro; rasgo Piel gruesa; mods pv_mult +1, arm +0, ini +0).",
+    "3. Técnica Pepper Breath [Firma]: P2/P3 (Agotadora) · distancia · individual · fuego · claves quemar, brutal. (override)",
+    "4. Puntuación de rol {\"bruto\": 3, \"tanque\": 1, \"tirador\": 2} → bruto → override por id: bruto.",
+    "5. Plantillas: ninguna.",
+    "6. PV = VF 3 × (7 +1 rol +1 familia +0 atributo +0 plantillas) = 27.",
+    "7. Atq = 1 +1 rol +0 atributo +0 plantillas = 2; Def = 1 +0 rol +1 atributo +0 plantillas = 2.",
+    "8. Arm = min(2, 0 rol +0 familia +0 plantillas) = 0; Ini = 1 +0 rol +0 atributo +0 familia +0 plantillas = 1.",
+    "9. Elemento principal Fuego → debilidades: Hielo, Agua; resistencias: Tierra, Fuego."
+   ],
+   "ficha": {
+    "id": "agumon",
+    "nombre": "Agumon",
+    "nivel": "Novato",
+    "fila": "novato",
+    "rango": 1,
+    "familia": "saurio",
+    "tipo": "Reptile",
+    "tipo_es": "Reptil",
+    "rol": "bruto",
+    "atributo": "vacuna",
+    "plantillas": [],
+    "amenaza_sugerida": "estandar",
+    "grupo_legendario": null,
+    "dado": "d6",
+    "vf": 3,
+    "pv": 27,
+    "atq": 2,
+    "def": 2,
+    "arm": 0,
+    "ini": 1,
+    "vuela": false,
+    "nada": false,
+    "elemento_principal": "fuego",
+    "debilidades": [
+     "hielo",
+     "agua"
+    ],
+    "resistencias": [
+     "tierra",
+     "fuego"
+    ],
+    "rasgos": [
+     {
+      "id": "arrollador",
+      "nombre": "Arrollador",
+      "regla": "Una vez por asalto, cuando deja a un enemigo a 0 PV con una técnica, puede moverse 1 zona y usar su técnica básica contra otro enemigo como acción gratuita.",
+      "origen": "rol"
+     },
+     {
+      "id": "saurio",
+      "nombre": "Piel gruesa",
+      "origen": "familia",
+      "regla": "+VF PV (incluido en la ficha)."
+     },
+     {
+      "id": "antivirus",
+      "nombre": "Antivirus",
+      "regla": "+1 Def (incluido).",
+      "origen": "atributo"
+     }
+    ],
+    "tecnicas": [
+     {
+      "nombre": "Mordisco",
+      "tipo": "basica",
+      "firma": false,
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [],
+      "apoyo": false
+     },
+     {
+      "id": "arremetida",
+      "nombre": "Arremetida",
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [
+       "derribar"
+      ],
+      "uso": "a_voluntad",
+      "regla": "Antes de atacar se mueve 1 zona hacia el objetivo sin provocar ataques de retirada; ataque P1 de Toque con Derribar.",
+      "tipo": "maniobra"
+     },
+     {
+      "nombre": "Pepper Breath",
+      "tipo": "oficial",
+      "firma": true,
+      "potencia": "P2/P3",
+      "dados": "2d6 / 3d6",
+      "dano_medio": [
+       7.0,
+       10.5
+      ],
+      "alcance": "distancia",
+      "area": "individual",
+      "elemento": "fuego",
+      "claves": [
+       "quemar",
+       "brutal"
+      ],
+      "apoyo": false,
+      "agotadora": true
+     }
+    ],
+    "prev": [
+     "Koromon"
+    ],
+    "next": [
+     "Greymon (2010 Anime Version)",
+     "Greymon",
+     "GeoGreymon",
+     "Coredramon (Green)",
+     "Raptordramon",
+     "Numemon",
+     "Agumon (Bond of Bravery)",
+     "Tyrannomon"
+    ],
+    "modos": []
+   },
+   "bloque_texto": [
+    "Agumon — Novato · Saurio (Reptil) · Bruto · Vacuna",
+    "PV 27 · Atq +2 · Def +2 · Arm 0 · Ini +1 · Dado d6 (VF 3)",
+    "Debilidad: Hielo, Agua · Resistencia: Tierra, Fuego · Triángulo: vence a Virus",
+    "Rasgos: Arrollador (rol); Piel gruesa (familia); Antivirus (atributo)",
+    "Técnicas:",
+    "· Mordisco — P1 · Toque · Individual · Neutro",
+    "· Arremetida — P1 · Toque · Individual · Neutro · Derribar",
+    "· Pepper Breath — P2/P3 (Agotadora) · Distancia · Individual · Fuego · Quemar, Brutal  [2d6 / 3d6]",
+    "Evoluciona de: Koromon · Evoluciona a: Greymon (2010 Anime Version), Greymon, GeoGreymon, Coredramon (Green), Raptordramon, Numemon"
+   ]
+  },
+  "Greymon": {
+   "id": "greymon-first",
+   "entrada": {
+    "name": "Greymon",
+    "level": "Champion",
+    "type": "Dinosaur",
+    "attribute": "Vaccine",
+    "moves": [
+     "Mega Flame"
+    ]
+   },
+   "pasos": [
+    "1. Nivel Champion → fila Campeón: rango 2, dado d8, VF 4, Atq/Def/Ini base 2.",
+    "2. Tipo Dinosaur → familia Saurio (afinidad neutro; rasgo Piel gruesa; mods pv_mult +1, arm +0, ini +0).",
+    "3. Técnica Mega Flame [Firma]: P2/P3 (Agotadora) · distancia · individual · fuego · claves brutal, quemar. (override)",
+    "4. Puntuación de rol {\"bruto\": 9, \"tanque\": 1, \"tirador\": 2} → bruto.",
+    "5. Plantillas: ninguna.",
+    "6. PV = VF 4 × (7 +1 rol +1 familia +0 atributo +0 plantillas) = 36.",
+    "7. Atq = 2 +1 rol +0 atributo +0 plantillas = 3; Def = 2 +0 rol +1 atributo +0 plantillas = 3.",
+    "8. Arm = min(2, 0 rol +0 familia +0 plantillas) = 0; Ini = 2 +0 rol +0 atributo +0 familia +0 plantillas = 2.",
+    "9. Elemento principal Fuego → debilidades: Hielo, Agua; resistencias: Tierra, Fuego."
+   ],
+   "ficha": {
+    "id": "greymon-first",
+    "nombre": "Greymon",
+    "nivel": "Campeón",
+    "fila": "campeon",
+    "rango": 2,
+    "familia": "saurio",
+    "tipo": "Dinosaur",
+    "tipo_es": "Dinosaurio",
+    "rol": "bruto",
+    "atributo": "vacuna",
+    "plantillas": [],
+    "amenaza_sugerida": "estandar",
+    "grupo_legendario": null,
+    "dado": "d8",
+    "vf": 4,
+    "pv": 36,
+    "atq": 3,
+    "def": 3,
+    "arm": 0,
+    "ini": 2,
+    "vuela": false,
+    "nada": false,
+    "elemento_principal": "fuego",
+    "debilidades": [
+     "hielo",
+     "agua"
+    ],
+    "resistencias": [
+     "tierra",
+     "fuego"
+    ],
+    "rasgos": [
+     {
+      "id": "arrollador",
+      "nombre": "Arrollador",
+      "regla": "Una vez por asalto, cuando deja a un enemigo a 0 PV con una técnica, puede moverse 1 zona y usar su técnica básica contra otro enemigo como acción gratuita.",
+      "origen": "rol"
+     },
+     {
+      "id": "saurio",
+      "nombre": "Piel gruesa",
+      "origen": "familia",
+      "regla": "+VF PV (incluido en la ficha)."
+     },
+     {
+      "id": "antivirus",
+      "nombre": "Antivirus",
+      "regla": "+1 Def (incluido).",
+      "origen": "atributo"
+     }
+    ],
+    "tecnicas": [
+     {
+      "nombre": "Mordisco",
+      "tipo": "basica",
+      "firma": false,
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [],
+      "apoyo": false
+     },
+     {
+      "id": "arremetida",
+      "nombre": "Arremetida",
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [
+       "derribar"
+      ],
+      "uso": "a_voluntad",
+      "regla": "Antes de atacar se mueve 1 zona hacia el objetivo sin provocar ataques de retirada; ataque P1 de Toque con Derribar.",
+      "tipo": "maniobra"
+     },
+     {
+      "nombre": "Mega Flame",
+      "tipo": "oficial",
+      "firma": true,
+      "potencia": "P2/P3",
+      "dados": "2d8 / 3d8",
+      "dano_medio": [
+       9.0,
+       13.5
+      ],
+      "alcance": "distancia",
+      "area": "individual",
+      "elemento": "fuego",
+      "claves": [
+       "brutal",
+       "quemar"
+      ],
+      "apoyo": false,
+      "agotadora": true
+     }
+    ],
+    "prev": [
+     "Agumon",
+     "SnowAgumon",
+     "Huckmon",
+     "Shoutmon",
+     "Agumon (2006 Anime Version)",
+     "Ryudamon",
+     "ToyAgumon",
+     "Agumon Expert"
+    ],
+    "next": [
+     "MetalGreymon (Vaccine)",
+     "SkullGreymon",
+     "Megadramon",
+     "Kimeramon",
+     "WarGrowlmon (Orange)",
+     "MetalGreymon (Virus)",
+     "Greymon (X Antibody)"
+    ],
+    "modos": []
+   },
+   "bloque_texto": [
+    "Greymon — Campeón · Saurio (Dinosaurio) · Bruto · Vacuna",
+    "PV 36 · Atq +3 · Def +3 · Arm 0 · Ini +2 · Dado d8 (VF 4)",
+    "Debilidad: Hielo, Agua · Resistencia: Tierra, Fuego · Triángulo: vence a Virus",
+    "Rasgos: Arrollador (rol); Piel gruesa (familia); Antivirus (atributo)",
+    "Técnicas:",
+    "· Mordisco — P1 · Toque · Individual · Neutro",
+    "· Arremetida — P1 · Toque · Individual · Neutro · Derribar",
+    "· Mega Flame — P2/P3 (Agotadora) · Distancia · Individual · Fuego · Brutal, Quemar  [2d8 / 3d8]",
+    "Evoluciona de: Agumon, SnowAgumon, Huckmon, Shoutmon, Agumon (2006 Anime Version), Ryudamon · Evoluciona a: MetalGreymon (Vaccine), SkullGreymon, Megadramon, Kimeramon, WarGrowlmon (Orange), MetalGreymon (Virus)"
+   ]
+  },
+  "MetalGreymon": {
+   "id": "metalgreymon-v",
+   "entrada": {
+    "name": "MetalGreymon (Vaccine)",
+    "level": "Ultimate",
+    "type": "Cyborg",
+    "attribute": "Vaccine",
+    "moves": [
+     "Trident Arm",
+     "Giga Destroyer",
+     "Giga Storm"
+    ]
+   },
+   "pasos": [
+    "1. Nivel Ultimate → fila Perfecto: rango 3, dado d10, VF 5, Atq/Def/Ini base 3.",
+    "2. Tipo Cyborg → familia Máquina (afinidad acero; rasgo Blindaje; mods pv_mult +0, arm +1, ini -1).",
+    "3. Técnica Giga Destroyer [Firma]: P3 (Agotadora) · larga · individual · acero · claves brutal, certero. (override)",
+    "3. Técnica Trident Arm: P2 · toque · individual · acero · claves perforante. (override)",
+    "3. Técnica Giga Storm: P2 · distancia · zona · acero · claves brutal, quemar. (override)",
+    "4. Puntuación de rol {\"tanque\": 3, \"tirador\": 8, \"bruto\": 4, \"acechador\": 1} → tirador.",
+    "5. Plantillas: ninguna.",
+    "6. PV = VF 5 × (7 +0 rol +0 familia +0 atributo +0 plantillas) = 35.",
+    "7. Atq = 3 +1 rol +0 atributo +0 plantillas = 4; Def = 3 -1 rol +1 atributo +0 plantillas = 3.",
+    "8. Arm = min(2, 0 rol +1 familia +0 plantillas) = 1; Ini = 3 +1 rol +0 atributo -1 familia +0 plantillas = 3.",
+    "9. Elemento principal Acero → debilidades: Eléctrico, Fuego; resistencias: Veneno, Acero."
+   ],
+   "ficha": {
+    "id": "metalgreymon-v",
+    "nombre": "MetalGreymon (Vaccine)",
+    "nivel": "Perfecto",
+    "fila": "perfecto",
+    "rango": 3,
+    "familia": "maquina",
+    "tipo": "Cyborg",
+    "tipo_es": "Cíborg",
+    "rol": "tirador",
+    "atributo": "vacuna",
+    "plantillas": [],
+    "amenaza_sugerida": "estandar",
+    "grupo_legendario": null,
+    "dado": "d10",
+    "vf": 5,
+    "pv": 35,
+    "atq": 4,
+    "def": 3,
+    "arm": 1,
+    "ini": 3,
+    "vuela": true,
+    "nada": false,
+    "elemento_principal": "acero",
+    "debilidades": [
+     "electrico",
+     "fuego"
+    ],
+    "resistencias": [
+     "veneno",
+     "acero"
+    ],
+    "rasgos": [
+     {
+      "id": "francotirador",
+      "nombre": "Francotirador",
+      "regla": "+1 a sus tiradas de ataque contra objetivos que no estén en su zona. Su técnica básica es de Distancia y su Firma de Distancia pasa a Larga.",
+      "origen": "rol"
+     },
+     {
+      "id": "maquina",
+      "nombre": "Blindaje",
+      "origen": "familia",
+      "regla": "+1 Arm y −1 Ini (incluidos). Inmune a Dormir y Encantar."
+     },
+     {
+      "id": "antivirus",
+      "nombre": "Antivirus",
+      "regla": "+1 Def (incluido).",
+      "origen": "atributo"
+     }
+    ],
+    "tecnicas": [
+     {
+      "nombre": "Disparo",
+      "tipo": "basica",
+      "firma": false,
+      "potencia": "P1",
+      "alcance": "distancia",
+      "area": "individual",
+      "elemento": "acero",
+      "claves": [],
+      "apoyo": false
+     },
+     {
+      "id": "disparo_certero",
+      "nombre": "Disparo certero",
+      "potencia": "P1",
+      "alcance": "larga",
+      "area": "individual",
+      "elemento": "acero",
+      "claves": [
+       "certero"
+      ],
+      "uso": "a_voluntad",
+      "regla": "Ataque P1 de alcance Larga con Certero. El elemento es la afinidad de su familia.",
+      "tipo": "maniobra"
+     },
+     {
+      "nombre": "Giga Destroyer",
+      "tipo": "oficial",
+      "firma": true,
+      "potencia": "P3",
+      "dados": "3d10",
+      "dano_medio": 16.5,
+      "alcance": "larga",
+      "area": "individual",
+      "elemento": "acero",
+      "claves": [
+       "brutal",
+       "certero"
+      ],
+      "apoyo": false,
+      "agotadora": true
+     },
+     {
+      "nombre": "Trident Arm",
+      "tipo": "oficial",
+      "firma": false,
+      "potencia": "P2",
+      "dados": "2d10",
+      "dano_medio": 11.0,
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "acero",
+      "claves": [
+       "perforante"
+      ],
+      "apoyo": false,
+      "agotadora": false
+     },
+     {
+      "nombre": "Giga Storm",
+      "tipo": "oficial",
+      "firma": false,
+      "potencia": "P2",
+      "dados": "1d10",
+      "dano_medio": 5.5,
+      "alcance": "distancia",
+      "area": "zona",
+      "elemento": "acero",
+      "claves": [
+       "brutal",
+       "quemar"
+      ],
+      "apoyo": false,
+      "agotadora": false
+     }
+    ],
+    "prev": [
+     "Growlmon",
+     "DarkTyrannomon",
+     "Leomon",
+     "Airdramon",
+     "Tyrannomon",
+     "GoldVeedramon",
+     "Greymon (2010 Anime Version)",
+     "Greymon (X Antibody)"
+    ],
+    "next": [
+     "WarGreymon",
+     "BlitzGreymon",
+     "VictoryGreymon",
+     "Gaiomon",
+     "ShineGreymon",
+     "Alphamon",
+     "RustTyrannomon",
+     "Siriusmon"
+    ],
+    "modos": [
+     "MetalGreymon: Alterous Mode"
+    ]
+   },
+   "bloque_texto": [
+    "MetalGreymon (Vaccine) — Perfecto · Máquina (Cíborg) · Tirador · Vacuna",
+    "PV 35 · Atq +4 · Def +3 · Arm 1 · Ini +3 · Dado d10 (VF 5) · Vuela",
+    "Debilidad: Eléctrico, Fuego · Resistencia: Veneno, Acero · Triángulo: vence a Virus",
+    "Rasgos: Francotirador (rol); Blindaje (familia); Antivirus (atributo)",
+    "Técnicas:",
+    "· Disparo — P1 · Distancia · Individual · Acero",
+    "· Disparo certero — P1 · Larga · Individual · Acero · Certero",
+    "· Giga Destroyer — P3 (Agotadora) · Larga · Individual · Acero · Brutal, Certero  [3d10]",
+    "· Trident Arm — P2 · Toque · Individual · Acero · Perforante  [2d10]",
+    "· Giga Storm — P2 · Distancia · Zona · Acero · Brutal, Quemar  [1d10]",
+    "Evoluciona de: Growlmon, DarkTyrannomon, Leomon, Airdramon, Tyrannomon, GoldVeedramon · Evoluciona a: WarGreymon, BlitzGreymon, VictoryGreymon, Gaiomon, ShineGreymon, Alphamon"
+   ]
+  },
+  "WarGreymon": {
+   "id": "wargreymon",
+   "entrada": {
+    "name": "WarGreymon",
+    "level": "Mega",
+    "type": "Dragon Man",
+    "attribute": "Vaccine",
+    "moves": [
+     "Terra Force",
+     "Great Tornado"
+    ]
+   },
+   "pasos": [
+    "1. Nivel Mega → fila Definitivo: rango 4, dado d12, VF 6, Atq/Def/Ini base 4.",
+    "2. Tipo Dragon Man → familia Dragón (afinidad fuego; rasgo Corazón de dragón; mods pv_mult +0, arm +0, ini +0).",
+    "3. Técnica Terra Force [Firma]: P3 (Agotadora) · distancia · individual · fuego · claves cargado, quemar. (override)",
+    "3. Técnica Great Tornado: P2 · toque · individual · viento · claves perforante, rapido. (override)",
+    "4. Puntuación de rol {\"bruto\": 4, \"versatil\": 7, \"tirador\": 2, \"acechador\": 1, \"agil\": 1} → versatil → override por id: versatil.",
+    "5. Plantillas: ninguna.",
+    "6. PV = VF 6 × (7 +0 rol +0 familia +0 atributo +0 plantillas) = 42.",
+    "7. Atq = 4 +0 rol +0 atributo +0 plantillas = 4; Def = 4 +0 rol +1 atributo +0 plantillas = 5.",
+    "8. Arm = min(2, 0 rol +0 familia +0 plantillas) = 0; Ini = 4 +1 rol +0 atributo +0 familia +0 plantillas = 5.",
+    "9. Elemento principal Fuego → debilidades: Hielo, Agua; resistencias: Fuego."
+   ],
+   "ficha": {
+    "id": "wargreymon",
+    "nombre": "WarGreymon",
+    "nivel": "Definitivo",
+    "fila": "definitivo",
+    "rango": 4,
+    "familia": "dragon",
+    "tipo": "Dragon Man",
+    "tipo_es": "Hombre Dragón",
+    "rol": "versatil",
+    "atributo": "vacuna",
+    "plantillas": [],
+    "amenaza_sugerida": "estandar",
+    "grupo_legendario": null,
+    "dado": "d12",
+    "vf": 6,
+    "pv": 42,
+    "atq": 4,
+    "def": 5,
+    "arm": 0,
+    "ini": 5,
+    "vuela": true,
+    "nada": false,
+    "elemento_principal": "fuego",
+    "debilidades": [
+     "hielo",
+     "agua"
+    ],
+    "resistencias": [
+     "fuego"
+    ],
+    "rasgos": [
+     {
+      "id": "adaptable",
+      "nombre": "Adaptable",
+      "regla": "Una vez por combate puede repetir una tirada propia de ataque o de Defensa (o, si es PNJ, obligar a un PJ a repetir un 10+ obtenido contra él).",
+      "origen": "rol"
+     },
+     {
+      "id": "dragon",
+      "nombre": "Corazón de dragón",
+      "origen": "familia",
+      "regla": "Con la mitad de sus PV o menos, +1 a sus tiradas de ataque."
+     },
+     {
+      "id": "antivirus",
+      "nombre": "Antivirus",
+      "regla": "+1 Def (incluido).",
+      "origen": "atributo"
+     }
+    ],
+    "tecnicas": [
+     {
+      "nombre": "Garra de dragón",
+      "tipo": "basica",
+      "firma": false,
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [],
+      "apoyo": false
+     },
+     {
+      "id": "cambio_de_guardia",
+      "nombre": "Cambio de guardia",
+      "potencia": "P1",
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "neutro",
+      "claves": [],
+      "uso": "a_voluntad",
+      "regla": "Ataque P1 de Toque con +1 a la tirada; hasta su próximo turno tiene +1 Def.",
+      "tipo": "maniobra"
+     },
+     {
+      "nombre": "Terra Force",
+      "tipo": "oficial",
+      "firma": true,
+      "potencia": "P3",
+      "dados": "3d12",
+      "dano_medio": 19.5,
+      "alcance": "distancia",
+      "area": "individual",
+      "elemento": "fuego",
+      "claves": [
+       "cargado",
+       "quemar"
+      ],
+      "apoyo": false,
+      "agotadora": true
+     },
+     {
+      "nombre": "Great Tornado",
+      "tipo": "oficial",
+      "firma": false,
+      "potencia": "P2",
+      "dados": "2d12",
+      "dano_medio": 13.0,
+      "alcance": "toque",
+      "area": "individual",
+      "elemento": "viento",
+      "claves": [
+       "perforante",
+       "rapido"
+      ],
+      "apoyo": false,
+      "agotadora": false
+     }
+    ],
+    "prev": [
+     "Megadramon",
+     "Mamemon",
+     "WarGrowlmon (Orange)",
+     "RizeGreymon (X Antibody)",
+     "MetalGreymon: Alterous Mode",
+     "Scorpiomon",
+     "MetalGreymon (Vaccine)",
+     "Duramon"
+    ],
+    "next": [
+     "Omnimon",
+     "Omnimon (X Antibody)",
+     "WarGreymon (X Antibody)"
+    ],
+    "modos": []
+   },
+   "bloque_texto": [
+    "WarGreymon — Definitivo · Dragón (Hombre Dragón) · Versátil · Vacuna",
+    "PV 42 · Atq +4 · Def +5 · Arm 0 · Ini +5 · Dado d12 (VF 6) · Vuela",
+    "Debilidad: Hielo, Agua · Resistencia: Fuego · Triángulo: vence a Virus",
+    "Rasgos: Adaptable (rol); Corazón de dragón (familia); Antivirus (atributo)",
+    "Técnicas:",
+    "· Garra de dragón — P1 · Toque · Individual · Neutro",
+    "· Cambio de guardia — P1 · Toque · Individual · Neutro",
+    "· Terra Force — P3 (Agotadora) · Distancia · Individual · Fuego · Cargado, Quemar  [3d12]",
+    "· Great Tornado — P2 · Toque · Individual · Viento · Perforante, Rápido  [2d12]",
+    "Evoluciona de: Megadramon, Mamemon, WarGrowlmon (Orange), RizeGreymon (X Antibody), MetalGreymon: Alterous Mode, Scorpiomon · Evoluciona a: Omnimon, Omnimon (X Antibody), WarGreymon (X Antibody)"
+   ]
+  },
+  "_linea_companero_bruto": {
+   "regla": "El jugador fijó el rol Bruto para su Agumon: todas sus formas usan los modificadores de Bruto en lugar del rol del bestiario (familia, atributo y técnicas no cambian; el rasgo y la maniobra pasan a ser los de Bruto). Con un rol fijo los PV crecen siempre al subir de nivel.",
+   "formas": [
+    {
+     "forma": "Koromon",
+     "pv": 10,
+     "atq": 0,
+     "def": 0,
+     "dado": "d4",
+     "nota": "Bebé II: sin rol"
+    },
+    {
+     "forma": "Agumon",
+     "dado": "d6",
+     "pv": 27,
+     "atq": 2,
+     "def": 2,
+     "arm": 0
+    },
+    {
+     "forma": "Greymon",
+     "dado": "d8",
+     "pv": 36,
+     "atq": 3,
+     "def": 3,
+     "arm": 0
+    },
+    {
+     "forma": "MetalGreymon (Vaccine)",
+     "dado": "d10",
+     "pv": 40,
+     "atq": 4,
+     "def": 4,
+     "arm": 1
+    },
+    {
+     "forma": "WarGreymon",
+     "dado": "d12",
+     "pv": 48,
+     "atq": 5,
+     "def": 5,
+     "arm": 0
+    }
+   ]
+  }
+ }
+}

@@ -60,7 +60,7 @@ strip = lambda lst, keys: [{k: v for k, v in o.items() if k not in keys} for o i
 juego = spec["meta"]["juego"]
 titulo, _, subtitulo = juego.partition(" — ")
 reglas = {
-    "meta": {"titulo": "Digimon: Lazos de Código" if "LAZOS DE C" in titulo.upper() else titulo.strip().title(), "subtitulo": subtitulo.strip() or "Juego de rol no oficial", "aviso_legal": spec["meta"]["aviso_legal"], "version": spec["meta"].get("version", "")},
+    "meta": {"titulo": "Digimon: Lazos de Código" if "LAZOS DE C" in titulo.upper() else titulo.strip().title(), "subtitulo": subtitulo.strip() or "Juego de rol no oficial", "aviso_legal": "Obra de fans, no oficial y sin ánimo de lucro. Digimon y todos sus nombres, personajes y técnicas pertenecen a sus propietarios; este proyecto no está afiliado ni respaldado por ellos. Las reglas, las descripciones y las aventuras son texto original.", "version": spec["meta"].get("version", "")},
     "roles": spec["roles"],
     "familias": strip(spec["familias"], {"tipos"}),
     "atributos": spec["atributos"],
