@@ -1,186 +1,58 @@
 [
  {
-  "id": "c00",
-  "n": "00",
-  "titulo": "Decisiones de diseño",
-  "grupo": "Fundamentos",
-  "archivo": "00.md",
-  "resumen": ""
- },
- {
   "id": "c01",
   "n": "01",
-  "titulo": "El sistema en una página",
+  "titulo": "¿Qué es un juego de rol?",
   "grupo": "Fundamentos",
-  "archivo": "01.md",
-  "resumen": ""
+  "archivo": "01-que-es-el-rol.md",
+  "resumen": "Qué es el rol de mesa, qué hacen jugadores y DJ, el material, una sesión típica, el tono del juego y herramientas de seguridad."
  },
  {
   "id": "c02",
   "n": "02",
-  "titulo": "Resolución",
+  "titulo": "Cómo se juega",
   "grupo": "Fundamentos",
-  "archivo": "02.md",
-  "resumen": ""
+  "archivo": "02-como-se-juega.md",
+  "resumen": "La tirada 2d6, las tres franjas, dificultad, Ventaja, Ayuda, críticos, costes, jugadas del DJ, relojes y un ejemplo de juego narrado."
  },
  {
   "id": "c03",
   "n": "03",
-  "titulo": "El Tamer",
-  "grupo": "Personajes",
-  "archivo": "03.md",
-  "resumen": ""
+  "titulo": "El Mundo Digital",
+  "grupo": "Fundamentos",
+  "archivo": "03-mundo-digital.md",
+  "resumen": "Qué es el Mundo Digital, cómo llegan los Tamers, ocho regiones, facciones, aldeas, Bits, exploración, viajes y tres estilos de campaña."
  },
  {
   "id": "c04",
   "n": "04",
-  "titulo": "El compañero Digimon",
+  "titulo": "Crear tu Tamer",
   "grupo": "Personajes",
-  "archivo": "04.md",
-  "resumen": ""
+  "archivo": "04-el-tamer.md",
+  "resumen": "Crea tu Tamer en 9 pasos: atributos, habilidades, trasfondos, Sendas, rasgos, Emblema, Digivice y equipo, con un ejemplo completo."
  },
  {
   "id": "c05",
   "n": "05",
-  "titulo": "Chispa, Vínculo y digievolución",
+  "titulo": "Tu compañero Digimon",
   "grupo": "Personajes",
-  "archivo": "05.md",
-  "resumen": ""
+  "archivo": "05-el-companero.md",
+  "resumen": "Elige tu Novato, su Bebé II y su línea evolutiva; personalidad, comida, crecimiento, los ocho roles y las técnicas aprendibles."
  },
  {
   "id": "c06",
   "n": "06",
-  "titulo": "Combate",
-  "grupo": "Reglas",
-  "archivo": "06.md",
-  "resumen": ""
- },
- {
-  "id": "c07",
-  "n": "07",
-  "titulo": "Estados alterados",
-  "grupo": "Reglas",
-  "archivo": "07.md",
-  "resumen": ""
- },
- {
-  "id": "c08",
-  "n": "08",
-  "titulo": "Triángulo de atributos",
-  "grupo": "Reglas",
-  "archivo": "08.md",
-  "resumen": ""
- },
- {
-  "id": "c09",
-  "n": "09",
-  "titulo": "Familias de tipos",
-  "grupo": "Reglas",
-  "archivo": "09.md",
-  "resumen": ""
- },
- {
-  "id": "c10",
-  "n": "10",
-  "titulo": "Elementos",
-  "grupo": "Reglas",
-  "archivo": "10.md",
-  "resumen": ""
- },
- {
-  "id": "c11",
-  "n": "11",
-  "titulo": "Vocabulario de técnicas",
-  "grupo": "Reglas",
-  "archivo": "11.md",
-  "resumen": ""
- },
- {
-  "id": "c12",
-  "n": "12",
-  "titulo": "Roles de combate y técnicas aprendibles",
-  "grupo": "Reglas",
-  "archivo": "12.md",
-  "resumen": ""
- },
- {
-  "id": "c13",
-  "n": "13",
-  "titulo": "Programas (Tarjetas de modificación)",
-  "grupo": "Equipo",
-  "archivo": "13.md",
-  "resumen": ""
- },
- {
-  "id": "c14",
-  "n": "14",
-  "titulo": "Objetos, equipo y Bits",
-  "grupo": "Equipo",
-  "archivo": "14.md",
-  "resumen": ""
- },
- {
-  "id": "c15",
-  "n": "15",
-  "titulo": "Digivices",
-  "grupo": "Equipo",
-  "archivo": "15.md",
-  "resumen": ""
- },
- {
-  "id": "c16",
-  "n": "16",
-  "titulo": "Emblemas (Crests)",
-  "grupo": "Equipo",
-  "archivo": "16.md",
-  "resumen": ""
- },
- {
-  "id": "c17",
-  "n": "17",
-  "titulo": "Progresión",
+  "titulo": "Chispa, Vínculo y digievolución",
   "grupo": "Personajes",
-  "archivo": "17.md",
-  "resumen": ""
+  "archivo": "06-digievolucion.md",
+  "resumen": "Cómo se gana y se gasta la Chispa, el Vínculo, el Dado de Vínculo y todas las formas de digievolucionar, con un ejemplo completo."
  },
  {
-  "id": "c18",
-  "n": "18",
-  "titulo": "Exploración, relaciones y Mundo Digital",
-  "grupo": "Director de juego",
-  "archivo": "18.md",
-  "resumen": ""
- },
- {
-  "id": "c19",
-  "n": "19",
-  "titulo": "Amenazas: esbirros, élites, jefes, legendarios y hordas",
-  "grupo": "Director de juego",
-  "archivo": "19.md",
-  "resumen": ""
- },
- {
-  "id": "c20",
-  "n": "20",
-  "titulo": "Reglas opcionales avanzadas",
-  "grupo": "Reglas opcionales",
-  "archivo": "20.md",
-  "resumen": ""
- },
- {
-  "id": "c21",
-  "n": "21",
-  "titulo": "Especificación de fichas (resumen de `spec_fichas.json`)",
-  "grupo": "Bestiario",
-  "archivo": "21.md",
-  "resumen": ""
- },
- {
-  "id": "c22",
-  "n": "22",
-  "titulo": "Hoja de referencia rápida y notas para redactores",
+  "id": "apendice",
+  "n": "A",
+  "titulo": "Apéndice: biblia de reglas",
   "grupo": "Referencia",
-  "archivo": "22.md",
-  "resumen": ""
+  "archivo": "apendice-biblia.md",
+  "resumen": "La referencia técnica completa del sistema, con todas las reglas y la especificación de las fichas."
  }
 ]
