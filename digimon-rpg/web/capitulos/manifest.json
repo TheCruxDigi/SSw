@@ -48,6 +48,46 @@
   "resumen": "Cómo se gana y se gasta la Chispa, el Vínculo, el Dado de Vínculo y todas las formas de digievolucionar, con un ejemplo completo."
  },
  {
+  "id": "c11",
+  "n": "11",
+  "titulo": "Progresión y experiencia",
+  "grupo": "Personajes",
+  "archivo": "11-progresion.md",
+  "resumen": "XP, niveles del Tamer del 1 al 10, talentos por Senda, avances del compañero, Vínculo y formas estables, con un ejemplo de progresión."
+ },
+ {
+  "id": "c07",
+  "n": "07",
+  "titulo": "Combate",
+  "grupo": "Reglas",
+  "archivo": "07-combate.md",
+  "resumen": "Las reglas de combate en orden de juego, de las zonas a la rutina de PNJ, con un ejemplo de 3 asaltos en el que Biyomon digievoluciona."
+ },
+ {
+  "id": "c08",
+  "n": "08",
+  "titulo": "Técnicas, elementos y estados",
+  "grupo": "Reglas",
+  "archivo": "08-tecnicas-y-estados.md",
+  "resumen": "Cómo leer una técnica, las 35 palabras clave, los estados alterados, el triángulo de atributos, las 14 familias y los 14 elementos."
+ },
+ {
+  "id": "c09",
+  "n": "09",
+  "titulo": "Programas: las tarjetas del Tamer",
+  "grupo": "Reglas",
+  "archivo": "09-programas.md",
+  "resumen": "Los programas del Digivice: uso, Carga, niveles y aprendizaje, los 35 programas con coste y efecto, y combinaciones por Senda."
+ },
+ {
+  "id": "c10",
+  "n": "10",
+  "titulo": "Equipo, Digivices y Emblemas",
+  "grupo": "Reglas",
+  "archivo": "10-equipo-digivices-emblemas.md",
+  "resumen": "Bits, consumibles, equipo del Tamer y objetos de trama con precios, los siete Digivices y los Emblemas con su arco."
+ },
+ {
   "id": "apendice",
   "n": "A",
   "titulo": "Apéndice: biblia de reglas",
