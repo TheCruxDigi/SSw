@@ -1,0 +1,227 @@
+{
+  "beelzebumon_x": {
+    "descripcion": "Señor demonio solitario que valora su libertad por encima de cualquier trono, aunque podría mandar sobre media legión oscura. Recorre el Mundo Digital en su moto Behemoth, con las escopetas siempre a mano, y jamás se ensaña con los débiles. Domina la llama viva El Evangelio, que juzga a los pecadores y a él no lo quema.",
+    "tacticas": "Abre a distancia con Gluttony Flare para drenar y quemar, y reserva Seventh Full Cluster, que exige carga y asusta, para cuando los héroes se crean a salvo. Si lo rodean, responde con Darkness Claw y los aparta de un empujón.",
+    "gancho": "Beelzemon corta el paso a los héroes en un camino de datos y propone un duelo limpio: quien gane cruza, y quien huya no volverá a merecer su respeto."
+  },
+  "beelzebumonblastmode": {
+    "descripcion": "Forma llevada al límite en la que Beelzemon no se hundió más en la maldad, sino que encontró claridad: sus tres ojos rojos se volvieron verdes y le brotaron cuatro alas negras. Su brazo derecho se funde con el Blaster, y su velocidad y su fuerza superan con mucho lo normal. Se dice que nadie resiste a este Beelzemon.",
+    "tacticas": "Vuela y castiga desde el aire: Death Slinger asusta y golpea con brutalidad, así que resérvalo como golpe estelar de la ronda. Entre medias, Chaos Flare quema a todo el que se agrupe. Es un rival que hay que acorralar poco a poco.",
+    "gancho": "Un Beelzemon de ojos verdes aterriza en pleno campamento sin atacar y pide ayuda: algo del Área Oscura persigue su poder, y solo los héroes pueden cubrirle la espalda."
+  },
+  "belphemon_x": {
+    "descripcion": "Rey Demonio del pecado de la pereza que despierta una vez por milenio hecho puro deseo de destruir. Con la X Antibody se ha vuelto más calculador: antes de arrasar el campo, aplasta a los Digimon que dan esperanza al bando contrario, y solo cuando nadie conserva ánimo se entrega a la aniquilación.",
+    "tacticas": "Elige primero al héroe que levanta la moral del grupo y lo inmoviliza con Lampranthus o Gift of Darkness. Después dispara Seventh Penetration, que perfora y deja ciego, para sembrar el desánimo. Golpea desde las sombras y sin prisa.",
+    "gancho": "Los héroes llegan a aldeas donde todos duermen desanimados y sin esperanza: es la sombra de Belphemon, que ya ha empezado a eliminar a quienes alentaban a los demás."
+  },
+  "belphemonragemode": {
+    "descripcion": "Avatar de furia de un rey demonio dormido, que despierta una vez cada mil años. Todo lo que cae bajo su mirada está condenado, y su rugido basta para despedazar los datos de cualquier Digimon de nivel Definitivo o menor. Cadenas enroscadas en su cuerpo escupen llamas negras, y sus garras arden con fuego infernal.",
+    "tacticas": "Es un muro de furia: usa Lampranthus, que atrapa y golpea con brutalidad, para inmovilizar al más peligroso, y remata en contacto con Gift of Darkness. Plántalo como una amenaza que los jugadores no pueden ignorar ni rodear.",
+    "gancho": "Un temblor cada vez más fuerte anuncia que Belphemon despierta antes de tiempo, y los héroes deben evacuar a todo un pueblo antes de que su rugido llegue hasta él."
+  },
+  "belphemonsleepmode": {
+    "descripcion": "Rey Demonio sellado en lo más hondo del Área Oscura. El sistema del Mundo Digital lo mantiene en un sueño profundo porque su poder es excesivo. No puede atacar de forma directa, pero sus ronquidos hacen daño, y por eso resulta tan difícil plantarle cara. Una pesadilla colosal que respira.",
+    "tacticas": "No persigue a nadie: duerme y deja que el sueño trabaje. Eternal Nightmare asusta y duerme a los héroes que se acerquen, y Lampranthus lanza cadenas de fuego oscuro contra quien intente moverlo. Úsalo como obstáculo ambiental más que como combate.",
+    "gancho": "Una grieta conduce hasta el Rey Demonio dormido, y un tesoro valioso reposa junto a sus cadenas. Cada paso arriesga un ronquido mortal, así que el grupo debe avanzar sin hacer ruido."
+  },
+  "bigukkomon": {
+    "descripcion": "Criatura de la era antigua del Mundo Digital, que habría surgido en el instante exacto de su destrucción. Se cuenta que dio su vida para invocar un Digihuevo a partir de la tristeza de los Digimon desaparecidos, aunque ningún registro confirma que lo lograra. Su caudal de datos rivalizaría con el de los guerreros legendarios de aquella época.",
+    "tacticas": "Apoya sin prisa y golpea en seco: cuando decide pelear, Violent Punisher agita tentáculos enormes que ejecutan y paralizan a quien esté al alcance. Úsalo con parsimonia y presenta cada uso como un acontecimiento.",
+    "gancho": "BigUkkomon flota sobre unas ruinas milenarias y entrega a los héroes un Digihuevo cuyo origen ni él mismo recuerda: ¿quién lo cuidará y quién lo quiere?"
+  },
+  "blacksaintgalgomon": {
+    "descripcion": "Variante de MegaGargomon cargada con tanto armamento que parece una fortaleza andante. Le falta velocidad, pero apenas la necesita: sus cañones y lanzadores, que desprenden un calor sofocante, cubren todos sus flancos y repelen ataques sin que mueva un pie. Está pensado para asaltar territorio enemigo.",
+    "tacticas": "Plántalo en el centro del campo y haz que Giant Missile provoque a los héroes para que le disparen a él. Cuando lo rodeen, descarga Burst Shot y ralentiza a quien se acerque. Es un baluarte, no un perseguidor.",
+    "gancho": "BlackSaintGargomon avanza hacia una aldea sin pronunciar palabra, lanzando misiles a modo de aviso. Los héroes deben distraerlo lejos de las casas o desarmarlo antes de que llegue."
+  },
+  "blackseraphimon": {
+    "descripcion": "El supremo Serafín que dejó que el rencor escondido en su interior creciera hasta engullirlo. Sus alas y su armadura, antes doradas, adquirieron un aspecto siniestro, y si mantiene esta forma demasiado tiempo caerá hasta convertirse en un Rey Demonio. Es una tragedia con alas.",
+    "tacticas": "Ataca desde el aire: Seven Hells ciega al grupo con siete esferas de oscuridad ardiente, y Testament quema a un solo objetivo. Si los héroes le hablan con compasión, déjalo dudar un momento antes de su siguiente ataque.",
+    "gancho": "Los héroes hallan plumas negras sobre un santuario abandonado. BlackSeraphimon aguarda dentro, luchando contra su propia caída, y quizá aún pueda ser reconducido."
+  },
+  "blackwargreymon": {
+    "descripcion": "Temido como el Guerrero Dragón de Ébano, es la versión Virus de WarGreymon. Detesta la crueldad y el engaño, y desprecia incluso a otros Virus que juzga deshonrosos, pues sigue su propia idea de justicia. Nadie sabe cómo acabó siendo Virus, y el escudo de su espalda no lleva el Emblema del Valor.",
+    "tacticas": "Como jefe, déjalo reunir oscuridad una ronda y suelta Dark Terra Force sobre el grupo: asusta y duele. Es un guerrero de honor, así que si un héroe lo desafía cara a cara, puede centrarse solo en él.",
+    "gancho": "BlackWarGreymon reta a un único héroe a un duelo de honor en una meseta y exige que nadie intervenga. Los demás deben decidir si respetan el pacto cuando algo más acecha."
+  },
+  "blackwargreymon_x": {
+    "descripcion": "Guerrero oscuro que ha condensado su poder negativo y ha cambiado el cielo por la tierra: los propulsores de su espalda le dan una aceleración explosiva para cerrar distancias de golpe. Es el Héroe de Guerra Terrestre. Sus garras son tan duras como su escudo, y su astucia busca la victoria sin importar el método.",
+    "tacticas": "Se lanza al cuerpo a cuerpo con After Burst, rápido y aterrador, y encadena Hades Force sobre el mismo objetivo. Guarda Dark Terra Force para cuando el grupo se disperse. No vuela, así que los héroes que trepan o vuelan ganan tiempo.",
+    "gancho": "En un valle polvoriento, BlackWarGreymon aparece de la nada ante el grupo antes de que pueda reaccionar. Quiere probar a su líder y solo respetará a quien resista su primera embestida."
+  },
+  "blastmon": {
+    "descripcion": "Gigante de minerales cuya coraza de cristal vuelve a crecer más dura cada vez que se rompe. Se mueve despacio, pero es una fortaleza que camina. Se tiene por criatura hermosa y sublime, y desde luego brilla. Puede enrollarse y rodar sobre sus enemigos, y lo que toca queda irreconocible.",
+    "tacticas": "Aguanta el castigo y responde con Diamond Machine Gun, que lo refuerza y derriba. Con luz solar puede sumar Crystal Breath, y usa Prism Flash para cegar a quien vaya a por su coraza. Rodar con Diamond Hedgehog es su remate.",
+    "gancho": "Blastmon exige que los héroes admiren su belleza antes de dejarlos cruzar su cañón de cristal. Halagarlo lo ablanda, pero cualquier burla desata una lluvia de esquirlas."
+  },
+  "blitzgreymon": {
+    "descripcion": "Forma final de la línea Greymon, pariente de WarGreymon armado con cañones eléctricos. Carga sus puños de electricidad y la hace circular por el rival con las estacas de sus brazos, destruyéndolo por dentro. Los propulsores de su espalda giran para disparar rayos o para acelerar, y puede envolverse en una barrera de plasma.",
+    "tacticas": "Comienza con Elec Guard para protegerse y dispara Thunder Vernier para paralizar desde lejos. Cuando un héroe se acerque, carga Plasma Stake, que paraliza y duele mucho. Castiga sobre todo el contacto.",
+    "gancho": "Una tormenta eléctrica antinatural cubre una central de energía digital. BlitzGreymon la custodia y atacará a cualquiera que intente apagarla antes de entender qué ha ocurrido."
+  },
+  "bloomlordmon": {
+    "descripcion": "Caballero hada de armadura vegetal y corazón bondadoso, que combate para proteger la naturaleza. Las flores de sus hombros beben luz solar y la almacenan; con la reserva llena, se dice que su poder iguala al de los Caballeros Reales. Donde él está, el sol se abre paso incluso entre tormentas.",
+    "tacticas": "Cubre a los suyos y controla el campo con Seed Belt, que ata con una lluvia de semillas. Si alguien llega a su lado, lo sorprende con Sprout Rush y lo derriba. Es más fuerte al aire libre y a pleno sol.",
+    "gancho": "Un bosque se marchita sin razón aparente, y Bloomlordmon pide a los héroes que le ayuden a descubrir quién bloquea la luz del sol antes de que sus flores se apaguen."
+  },
+  "voltobautamon": {
+    "descripcion": "Quizá el Digimon más cruel y retorcido que existe: un demonio surgido cuando el Puño Maligno, nacido de datos rencorosos del Área Oscura, obligó a Piedmon a absorber a Myotismon. Ya no conserva rastro de ninguno de los dos y solo obedece a ese puño, cuyo deseo es extinguir toda la luz.",
+    "tacticas": "Prolonga la tortura: Pernicious Waltz lanza copias de su espada desde todos los ángulos y paraliza, y Quarzione quema desde dentro a quien reciba sus balas. Juega con los héroes antes de rematarlos.",
+    "gancho": "Un teatro vacío en el Área Oscura anuncia una función final. Boltboutamon espera tras el telón, y la única forma de interrumpirla es encontrar al Puño Maligno que lo mueve."
+  },
+  "boltmon": {
+    "descripcion": "Prototipo de androide construido a la vez que Andromon, pero de carne en lugar de máquina, y por eso con emociones. Era muy poderoso y difícil de controlar; se desbocó y acabó borrado de los registros. Hoy vaga entre la oscuridad de su pena, blandiendo con soltura un hacha de batalla gigantesca.",
+    "tacticas": "Su golpe es Tomahawk Stinger, que perfora y envenena en cuerpo a cuerpo. Es una amenaza de contacto que castiga a quien se acerque, y puede detenerse si alguien le habla con compasión.",
+    "gancho": "Los héroes oyen un lamento en una cueva vacía. Boltmon, olvidado por todos, ataca a quien entra, pero un gesto amable podría ser lo primero que recibe en años."
+  },
+  "breakdramon": {
+    "descripcion": "Dragón mecánico colosal que existe, según dicen, para destruir todo lo que hay sobre la tierra. Cada vez que evoluciona, hackea diseños de maquinaria de obra y los incorpora, lo que le da una potencia sin rival entre las máquinas. A cambio, casi no queda nada orgánico en él, así que no siente ni le importa el daño.",
+    "tacticas": "Avanza en línea recta sin esquivar: Destroyed Rush derriba con sus palas giratorias, e Infinity Bowling lanza todos sus taladros, brutales y ralentizadores. No se amilana ante nada, así que no cede por miedo.",
+    "gancho": "Una cordillera desaparece día tras día, aplastada por Breakdramon. Los héroes deben desviar su ruta antes de que alcance un valle poblado."
+  },
+  "brigadramon": {
+    "descripcion": "Máquina de mando diseñada por la organización D-Brigade tras el fracaso de un arma suprema que se les escapó. Su misión es dirigir con eficacia a las unidades de ataque: localiza amenazas, abre camino y da órdenes a las tropas que se despliegan después. Gracias a él, la organización va recuperando su prestigio.",
+    "tacticas": "Acompáñalo de tropas ayudantes si quieres. Exa Destroyer castiga desde muy lejos con misiles brutales, y Genocidal Rain barre una zona entera con proyectiles que derriban. Mantenlo siempre a distancia.",
+    "gancho": "Un convoy de la D-Brigade desciende sobre una aldea y Brigadramon da órdenes por radio. Los héroes pueden sabotear las comunicaciones para dejar a las tropas sin rumbo."
+  },
+  "bryweludramon": {
+    "descripcion": "Dragón hecho casi por completo de escudos, forma final de los Legend-Arms. Absorbió escudos legendarios de cuentos y videojuegos hasta convertirse en el baluarte definitivo, que ningún ataque marca. Dos IA gemelas vigilan en todas direcciones y despliegan barreras de fuego. Se rumorea que su enemigo jurado, Durandamon, logró quebrarlo.",
+    "tacticas": "Provoca con Crimson Storm, que empuja y atrae la atención con un vendaval de fuego, y se lanza con Blast Smash, que golpea con brutalidad mientras mantiene su barrera. Es difícil de herir y mejor aliado que enemigo.",
+    "gancho": "Los héroes encuentran un escudo gigante clavado en un páramo. BryweLudramon despierta y les ofrece protección, pero a cambio espera ayuda para localizar a su viejo rival."
+  },
+  "callismon": {
+    "descripcion": "Bestia oscura con forma de oso, aunque no es un Grizzlymon corriente: cada Callismon es un mutante surgido de datos anómalos, y nadie sabe si fue azar o diseño. Quedan pocos, y las condiciones de su evolución son un misterio. Sus brazos y su arma son gigantescos, y pelea con ferocidad hasta que el rival cae.",
+    "tacticas": "Acecha entre la maleza y sorprende con Deep Forest, que atrapa y perfora. Si el grupo huye, dispara Rodeo Bullet desde el cañón de su brazo derecho para derribar a los rezagados.",
+    "gancho": "Un oso de datos extraños persigue a los héroes por un bosque. Si lo observan con calma, notarán que huye de algo, y no de ellos."
+  },
+  "cannondramon": {
+    "descripcion": "Androide de cañones de largo alcance y blindaje resistente. Quien se acerca demasiado recibe un rápido latigazo de su cola, de modo que ni el cuerpo a cuerpo es seguro. Su especialidad es disparar a enemigos que aún están fuera de su alcance, sin darles ocasión de responder.",
+    "tacticas": "Mantiene la distancia: Dyna Cannon es certero y llega muy lejos, y Grenade Storm empuja a todo un grupo para ganar espacio. Si alguien logra alcanzarlo, aún dispone del coletazo.",
+    "gancho": "Cannondramon bombardea un puente desde una colina lejana e impide el paso a una caravana. Los héroes deben cruzar bajo el fuego o rodear la colina para sorprenderlo."
+  },
+  "cendrillmon": {
+    "descripcion": "Nacida del cuento de Cenicienta, habita en regiones volcánicas, en un castillo de ceniza donde vive en soledad. Cuando alguien llega, organiza torneos a los que llama Bailes, en busca de quien logre vencerla y merezca ser su Príncipe. Sus sirvientes reparten zapatos de cristal que transportan a la fuerza a los más fuertes.",
+    "tacticas": "Pelea como anfitriona: Matrimonial Strike traspasa y derriba con zapatos de cristal, y Noble Family Arts empuja con una calabaza explosiva. Guarda Prism Date Break para el aspirante que más destaque.",
+    "gancho": "Un zapato de cristal aparece en la mochila de un héroe y lo transporta al Castillo de Ceniza, donde Cendrillmon abre el Baile mientras los demás corren a rescatarlo."
+  },
+  "ceresmon": {
+    "descripcion": "Una de las doce deidades del Olimpo, ave gigantesca de roca y tierra fértil que lleva a la espalda el bosque Karpos Hule, donde crecen los frutos más dulces del Mundo Digital. Es tranquila y generosa: da fruta a los hambrientos y cura a los heridos. Pero si se daña un árbol sin motivo, se vuelve un terrible demonio del bosque.",
+    "tacticas": "Mientras nadie la provoque, no pelea. Si se enfurece, aplasta con Island Freefall, que derriba, y lanza Burning Blood Shell para drenar y quemar. Con Fruits Flechette siembra frutas venenosas que atrapan a toda una zona.",
+    "gancho": "Unos Digimon leñadores talan árboles de Karpos Hule por codicia. Los héroes deben detenerlos antes de que Ceresmon, hasta ahora amable, despierte su furia."
+  },
+  "cerunumon": {
+    "descripcion": "Bestia sagrada de los bosques, avistada desde tiempos antiguos, con cuernos de los que brotan instrumentos tubulares con los que toca melodías. Su música hace brotar plantas en tierras estériles y, mediante canciones, devuelve a los Digimon del bosque que mueren en forma de Digihuevos. De carácter pacífico, toca acompañado de aves posadas en su cornamenta.",
+    "tacticas": "Evita el combate hasta que invaden su bosque. Entonces Celtic Bind lanza un bramido agudo que paraliza la voluntad, y Scatter Gorm Glas agita las hojas con su cola para ralentizar con cortes.",
+    "gancho": "Un bosque callado ha perdido su música. Cernumon pide a los héroes que averigüen qué silencia sus cuernos antes de que los Digimon del bosque dejen de renacer."
+  },
+  "chaosdramon": {
+    "descripcion": "Versión más avanzada de Machinedramon, forjada con Digizoide Rojo, un metal rarísimo que repele casi cualquier ataque. Su programa se actualiza solo para ser cada vez más destructivo. Sirve sobre todo como agente del líder del Equipo Crack. Cuerpo carmesí, un arsenal imparable y muy poca compasión.",
+    "tacticas": "Fija un blanco y carga: Hyper Infinity Cannon dispara desde ambos cañones una energía brutal que ralentiza. Es muy resistente, así que hay que ganar tiempo para que los jugadores busquen puntos débiles.",
+    "gancho": "Chaosdramon aterriza como agente de un villano para recuperar una pieza robada. Los héroes la tienen sin saberlo, y deben decidir si devolverla o esconderla."
+  },
+  "chaosdramon-x": {
+    "descripcion": "Con la X Antibody, este Chaosdramon tiene varias veces la fuerza y la potencia de fuego de Machinedramon. Independiente y destructivo, solo sirve a quien él elige. Su nuevo Digizoide Rojo pesa tanto que lo ha vuelto algo más lento, pero lo hace capaz de disparos a quemarropa que de otro modo lo destruirían.",
+    "tacticas": "Agarra con Chaos Crusher, que rompe defensas, y luego dispara Super Eradication Attack a corta distancia. Hyper Infinity Cannon queda para cuando los héroes estén lejos. Es pesado, así que no persigue.",
+    "gancho": "Un Chaosdramon sin amo busca un señor digno de él y sigue al grupo a distancia para ver si merece su lealtad o su destrucción."
+  },
+  "chaosdukemon": {
+    "descripcion": "Reverso oscuro de Gallantmon, en el que ha ganado su naturaleza de Virus. Su mente y su espíritu están corrompidos hasta ser un peligro digital que solo quiere destruir. Viste armadura negra de Crondigizoide casi puro, empuña la lanza demoníaca Balmung y se cubre con el escudo demoníaco Gorgon.",
+    "tacticas": "Embiste con Demonic Disaster, una serie de lanzazos que asustan, y protege su posición con Judecca Prison, que atrapa con energía corrosiva y le da cobertura. Es un rival ideal para el duelo contra un héroe caballero.",
+    "gancho": "Un caballero negro, reflejo del noble Gallantmon, siembra el terror por la región, y los aldeanos, confundidos, empiezan a culpar a cualquier armadura brillante que vean pasar."
+  },
+  "chaosmon": {
+    "descripcion": "Un fallo imposible del Mundo Digital: dos Digimon fusionados que conservan dos DigiCores en vez de uno, por lo que su forma es inestable y su vida breve. El sistema de mantenimiento probablemente lo borre pronto. Nacido de BanchoLeomon y Darkdramon, lleva el brazo de cada uno.",
+    "tacticas": "Como su vida es corta, lucha con urgencia: Bancho Blade es un tajo imparable a corta distancia, y Dark Prominence quema en zona con sus propias células digitales. Presenta sus ataques como arrebatos desesperados.",
+    "gancho": "Un contador invisible le resta vida a Chaosmon. Los héroes pueden ayudarlo a cumplir su último deseo antes de que el sistema de mantenimiento lo borre."
+  },
+  "chaosmonvaldurarm": {
+    "descripcion": "Variante inestable fusionada de BanchoLeomon y Varodurumon, con huellas de ambos en sus brazos. Como todo Chaosmon, es un error que no debería existir: conserva dos DigiCores y su vida será breve. Su brazo Valdur proyecta luz, mientras que el de Bancho empuña una espada imparable.",
+    "tacticas": "Combina el tajo imparable de Bancho Blade con Aurora Blaster, que purifica y ciega a la vez: lo mismo sirve para limpiar efectos dañinos de sus aliados que para frenar a un enemigo.",
+    "gancho": "Chaosmon: Valdur Arm aparece en medio de un pueblo oscurecido y lo baña de luz. Los héroes saben que pronto se apagará y deben decidir cómo ayudarlo."
+  },
+  "cherubimon-vice": {
+    "descripcion": "Querubín con forma de bestia, uno de los Tres Celestiales y guardián del Kernel, el dominio sagrado del Mundo Digital. Los ángeles son tan fanáticamente buenos que caen con facilidad en la corrupción, y esta versión oscura es la prueba. Cada rayo suyo es un castigo divino.",
+    "tacticas": "Vuela y presiona con Lightning Spear, que perfora y paraliza a quien esté al alcance, y reserva Heaven's Judgment, una tormenta de rayos que ejecuta y golpea con brutalidad, para cuando un héroe herido quede aislado.",
+    "gancho": "Las nubes sobre un santuario se cargan de truenos. Cherubimon, guardián caído de una puerta sagrada, juzga a los intrusos, y los héroes deben convencerlo de su inocencia."
+  },
+  "cherubimondark_x": {
+    "descripcion": "Con la X Antibody guarda en el pecho una reserva interminable de energía oscura y domina su manejo. Cayó del puesto de Tres Celestiales y vive consumido por la envidia: odia al mundo por haberle hecho renunciar a la bondad suprema. Su esfera de oscuridad encierra para siempre la mente de quien la toca.",
+    "tacticas": "Atrapa a un héroe con Darkness Prison para aislarlo del combate y castiga al resto con Lightning Spear. Reserva Heaven's Judgment para cuando ya haya presionado. Vuela, así que ataca desde lo alto.",
+    "gancho": "Un héroe toca una esfera de oscuridad flotante y su mente queda atrapada. Para despertarlo, el grupo debe enfrentarse a Cherubimon y a su envidia amarga."
+  },
+  "cherubimon": {
+    "descripcion": "Querubín con forma de bestia, parte de los Tres Celestiales, que custodia el Kernel, el dominio sagrado del Mundo Digital. Sus ataques son rayos que se consideran castigo divino. Su bondad es tan absoluta que lo hace vulnerable a la corrupción, y de hecho existe una versión oscura de sí mismo.",
+    "tacticas": "Es un guardián que castiga a los intrusos: Lightning Spear paraliza a quien se acerca, y Heaven's Judgment descarga una tormenta desde lo alto contra los más peligrosos. Puede apoyar a quienes lo respeten.",
+    "gancho": "Los héroes obtienen una audiencia con Cherubimon, pero antes deben demostrar con una prueba de buen corazón que no pretenden profanar el Kernel."
+  },
+  "cherubimon_x": {
+    "descripcion": "Con la X Antibody guarda una reserva de luz inagotable. Al abrazar a Digimon de corazón puro, despierta sus capacidades ocultas; si el abrazo recae en uno malvado, le reemplaza la maldad por luz y lo devuelve a Digihuevo para nacer bueno. Pero si lo cree irredimible, el abrazo se convierte en descarga.",
+    "tacticas": "Primero intenta atrapar al enemigo con Shocking Hug, tierno o letal según la intención. Lightning Spear paraliza desde cerca y Heaven's Judgment cae sobre quien considera sin remedio. Es árbitro tanto como combatiente.",
+    "gancho": "Cherubimon ofrece abrazar a un villano capturado por los héroes para devolverlo a Digihuevo. Algunos dudan de que merezca otra oportunidad, y otros temen ese abrazo."
+  },
+  "chronomon_destroy": {
+    "descripcion": "Forma desbocada de una deidad del tiempo, que perdió el control cuando la maldad del Mundo Digital la infectó mientras reparaba el espacio-tiempo. Usa su dominio del tiempo para piratear los recuerdos grabados en el mundo y descargar técnicas variadas con las que sembrar el caos.",
+    "tacticas": "Es impredecible: señala con Finger Bomb para forzar el pasado de un héroe y hacerlo estallar, quema con Holy Flare y envejece al grupo con Chrono Devolution, que ciega. Varía de ataque cada ronda para desconcertar.",
+    "gancho": "Los relojes del Mundo Digital se atrasan y se adelantan. Los héroes rastrean la distorsión hasta Chronomon descontrolado, que repite escenas del pasado mientras destruye lo presente."
+  },
+  "chronomon_holy": {
+    "descripcion": "Deidad que encarna los sistemas que rigen el tiempo. Cuando choques o catástrofes desordenan su flujo, repara el espacio-tiempo y, al terminar, borra incluso el recuerdo de su aparición. Por eso nadie ha visto su forma y las leyendas apenas lo mencionan.",
+    "tacticas": "Solo interviene si alguien corrompe el tiempo. Holy Flare quema hasta la existencia del culpable y Chronos Crop corta con sus alas, un ataque muy difícil de detener. Preséntalo como un acontecimiento más que como un combate.",
+    "gancho": "Un mismo instante se repite sin cesar sobre un pueblo. Chronomon aparece fugazmente para pedir ayuda a los héroes, y nadie recordará haberlo visto."
+  },
+  "clavisangemon": {
+    "descripcion": "Virtud que protege la Puerta del Cenit, la que une el Mundo Digital con el exterior. Esa puerta está cerrada por 360 portones y solo él guarda La Llave que los abre todos. Algunos creen que forma parte de la llave misma. Su poder podría hundir el mundo, pero solo se emplea contra quienes quieran destruir las puertas.",
+    "tacticas": "Se defiende más de lo que ataca: The Key sella a un objetivo y le impide actuar con normalidad. Vuela, y no se aleja mucho de las puertas que custodia.",
+    "gancho": "Alguien ha forzado uno de los 360 portones del Cenit. ClavisAngemon pide a los héroes encontrar al intruso, y advierte de que no dudará en usar La Llave."
+  },
+  "craniummon": {
+    "descripcion": "Caballero Real con el mejor sentido del decoro, perfeccionista que compite por tener la mayor tasa de misiones cumplidas del Rey Drasil. Prefiere los duelos individuales y se alegra cuanto más fuerte es el rival. Su armadura, convertida en Digizoide Negro, le permite fabricar armas y escudos.",
+    "tacticas": "Reta a un único oponente y le impone Waltz's End, un vals de lanza que ralentiza y hace bailar a su víctima hasta quebrarla. Con Breath of the Gods se cubre con su escudo y ejecuta al que baje la guardia.",
+    "gancho": "Craniamon desafía al líder del grupo a un duelo formal y exige que nadie interfiera. Si el héroe lo acepta con honor, la misión del caballero podría cambiar."
+  },
+  "craniummon_x": {
+    "descripcion": "La armadura de Digizoide Negro de este Caballero Real es ahora tan resistente que quien lo golpea suele hacerse daño a sí mismo. Con su escudo Avalon guardado a la espalda, muestra la confianza de quien no cree necesitarlo. Sigue siendo un perfeccionista que anhela el duelo con rivales formidables.",
+    "tacticas": "Lanza las hojas de sus brazos como hachas con Grand Gríðr, a distancia, y en el cuerpo a cuerpo gira su lanza con Hjaðningar Waltz, que envenena. Guarda este último para el héroe que pise su alcance.",
+    "gancho": "Al amanecer, Craniamon espera en un puente estrecho y declara que nadie pasará sin batirse con él. El coraje del grupo, y no su número, decide el resultado."
+  },
+  "craniummon_enbarrmon": {
+    "descripcion": "Forma montada de Craniamon, que en misión derrota a Enbarrmon y lo toma como montura, seducido por su gran movilidad. Tras muchas batallas se respetan y confían el uno en el otro, y juntos alcanzan una velocidad y una potencia ofensiva asombrosas. Con esta unión, su escudo Avalon deja de tener límite de tiempo.",
+    "tacticas": "Carga a toda velocidad con Ruthless Charge, brutal y capaz de derribar, y repite en la siguiente ronda. Tiene una sola técnica, pero se compensa con movilidad: hazlo aparecer y desaparecer del campo.",
+    "gancho": "Los héroes ven a Craniamon cabalgar sobre Enbarrmon, ahora su compañero, y descubren que busca a otro Digimon fuerte para reclutarlo. El grupo es candidato."
+  },
+  "demon": {
+    "descripcion": "Rey Demonio que manda sobre muchos Digimon malignos y ángeles caídos. Fue un ángel de rango elevado como Devimon, hasta que se rebeló contra la encarnación de la bondad del Mundo Digital y fue borrado al Área Oscura. Jura venganza y trama en secreto resucitar al comandante de aquella rebelión.",
+    "tacticas": "Es un jefe de zona: Flame Inferno quema y golpea con brutalidad en un área, y deja a los héroes sin dónde agruparse. Rodéalo de subordinados oscuros y haz que hable de su venganza mientras ataca.",
+    "gancho": "Un mensajero de Creepymon ofrece a los héroes un trato tentador a cambio de una pista sobre el Ultra olvidado. Rechazarlo significa que el demonio vendrá a cobrar en persona."
+  },
+  "demon_x": {
+    "descripcion": "Con la X Antibody recibió sobre la cabeza la Corona de la Ira: cuanto más se enfurece, más poder gana, y si su rabia desborda, supera incluso a un Ultra. Sigue siendo el Rey Demonio vengativo, antiguo ángel desterrado al Área Oscura, y en su forma ardiente ni los Caballeros Reales lo tendrían fácil.",
+    "tacticas": "Cuanto más lo golpean, más se enfurece: empieza con Flame Inferno e Inferno Burst en zona y, cuando su ira rebose, dispara Seventh Graviton, que ralentiza y golpea brutal. Haz crecer la amenaza a medida que avanza el combate.",
+    "gancho": "Una corona de fuego aparece sobre una montaña y el cielo se enrojece. Los héroes deben calmar la ira de Creepymon antes de que su poder lo desborde todo."
+  },
+  "cresgarurumon": {
+    "descripcion": "Forma final de Garurumon con aspecto humanoide, a diferencia de ZeedGarurumon, y pariente de MetalGarurumon. Su armadura de Crondigizoide dorado refleja los ataques, y maneja con maestría una espada en forma de media luna, y la moldea en mil formas con hielo para lanzarlas contra el enemigo.",
+    "tacticas": "Espera la embestida y responde con Yellow Beast Crescent Blade, un contraataque certero. Cuando lo rodean, gira con Beast Cyclone para apartarlos, y congela a un solo enemigo con Fury: Ice Moon Fang.",
+    "gancho": "CresGarurumon vigila un puerto helado y exige a los héroes una prueba de esgrima antes de dejarles continuar. Quien pelea con honor recibe su ayuda."
+  },
+  "cthyllamon": {
+    "descripcion": "Habita en las profundidades del Mar de la Red, donde solo se ve el cráneo de su pecho flotando en la oscuridad: el fantasma del mar. Astuto, no lucha por voluntad propia; lava el cerebro de Digimon acuáticos más débiles y los manda a pelear por él. Es muy raro y recuerda a MarineAngemon.",
+    "tacticas": "Mantiene a sus esclavos delante y apoya desde atrás: Ocean Hell y Aqua Grinder ralentizan con terror y remolinos, y Buccal Rush derriba con sus tres lenguas si alguien llega hasta él.",
+    "gancho": "Los peces de la costa atacan a los héroes con ojos vacíos. Siguiendo el rastro hasta una luz fantasmal en el fondo, descubren a Cthyllamon controlándolos."
+  },
+  "dalphomon": {
+    "descripcion": "Gran bestia de pelaje dorado y alas hermosas que contrastan con su aspecto horroroso, y que se comporta más como un ángel que como una bestia. Venera la belleza de los cuerpos naturales y cree que puede ascender absorbiendo los datos puros de ángeles y bestias sagradas. Por eso detesta a máquinas y cíborgs, que alteran su cuerpo sin dudar.",
+    "tacticas": "Veloz y selectivo: Prophet elijah dispara rayos rápidos que persiguen a la presa, Jail maon la captura con la cola, y Brutal halo quema con su aliento. Concentra su furia en máquinas y cíborgs.",
+    "gancho": "Dalphomon persigue a un Digimon máquina que se refugió entre los héroes y exige que se lo entreguen. El grupo debe decidir entre protegerlo o negociar."
+  },
+  "darkdramon": {
+    "descripcion": "Androide que se cree el arma definitiva de la D-Brigade, creado al hacer evolucionar a un Tankdramon rescatado tras una operación contra un objetivo de nombre clave BAN-TYO. Se usó tanta materia oscura que se volvió loco y huyó, y ni sus creadores saben dónde está. Se rumorea que sigue buscando a BAN-TYO, aunque nada de esto es fiable.",
+    "tacticas": "Dispara Dark Roar, una bomba de materia oscura que asusta y sella, desde lejos; si lo alcanzan, perfora con Gigastick Lance, certera. Es errático y ataca a quien se cruce en su búsqueda.",
+    "gancho": "La D-Brigade contrata a los héroes para localizar a Darkdramon, pero oculta que fue ella quien lo creó. Cuando lo encuentran, solo pregunta por BAN-TYO."
+  },
+  "darkknightmon_x": {
+    "descripcion": "Fusión de los hermanos jurados SkullKnightmon y DeadlyAxemon, guerrero supremo con una lanza doble que usa para clavar, cortar, barrer y arrojar. Con la X Antibody se ha convertido en Definitivo y su afinidad con el mal ha crecido: ya no le basta con dominar el mundo, quiere ser uno de los Siete Grandes Reyes Demonio. No duda en traicionar a sus aliados.",
+    "tacticas": "Pelea de frente y cambia de golpe según convenga: Cruel Tornado empuja y aplasta, Deadly Break Lost debilita con un tajo en cruz, y Undead Soldier asusta. Puede traicionar a un aliado del bando en plena pelea.",
+    "gancho": "DarkKnightmon ofrece una alianza temporal al grupo contra un enemigo común, pero esconde que su verdadero objetivo es ascender entre los Reyes Demonio, y traicionará cuando le convenga."
+  }
+}

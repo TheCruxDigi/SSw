@@ -1,0 +1,227 @@
+{
+  "terriermon_assistant": {
+    "descripcion": "Pequeño erudito de largas orejas que se pasa los días tomando notas sobre cómo viven los demás Digimon. Ayuda a Agumon Expert en sus estudios y nada le gusta más que compartir lo aprendido con quien quiera escucharlo. Detrás de su aire simpático hay un conocimiento sorprendente del Mundo Digital.",
+    "tacticas": "Ágil y rápido de reflejos: abre con Dai-Badgy-Gu, el broche del pecho agrandado que sale disparado a distancia, y usa Terrier Tornado para empujar a quien se acerque y ganar espacio. Mejor en escaramuzas que en peleas largas.",
+    "gancho": "Terriermon Assistant necesita escoltas para completar su guía de ecosistemas digitales, pero sus preguntas incesantes despiertan a más de un Digimon gruñón del camino."
+  },
+  "tinkermon": {
+    "descripcion": "Hada celosa que no se separa de Petermon y trabaja sin descanso para levantar Never-Ever Land, un mundo hecho para niños. Salta de alegría cuando le hacen caso y se marcha enfurruñada si la ignoran; el brillo de sus alas delata su ánimo. Su lanza envenenada hace pagar caro cualquier burla a su tamaño.",
+    "tacticas": "Voladora de pesadillas: arranca con Speed Nightmare, que asusta y golpea primero, y si el grupo se agolpa suelta Fairy Powder para empujar y sembrar el caos. Si se siente ignorada, se retira de mal humor y regresa con más ganas de guerra.",
+    "gancho": "Tinkermon invita a un pequeño Digimon a Never-Ever Land, el reino de Petermon, y los PJ deben rescatarlo sin ofender al hada celosa que lo vigila."
+  },
+  "toyagumon": {
+    "descripcion": "Réplica de Agumon hecha con bloques de plástico especial, nacida, según cuentan, de los juegos infantiles en la red. Es tímido, y si algo lo asusta sus piezas salen volando en todas direcciones. Aun así tiene un sentido de la justicia inquebrantable y adora la compañía de los niños.",
+    "tacticas": "Místico de fuego a distancia: dispara Plastic Blaze, un misil de juguete con forma de llama que quema y pega más fuerte de lo que aparenta. Ante un buen susto puede desmontarse y salir del combate.",
+    "gancho": "Un ToyAgumon ha visto a unos matones destrozar un parque de juegos digital y pide ayuda a los PJ, temblando de miedo pero decidido a no dejar pasar la injusticia."
+  },
+  "toyagumon_black": {
+    "descripcion": "Versión corrompida de ToyAgumon, infectada por un virus informático en la red hasta convertirse en un juguete abusón que se ríe de los niños. Sus bloques de plástico lucen oscurecidos y su sonrisa ya no es amable. Bajo el barniz de maldad sigue siendo un muñeco pequeño, y quizá alguien pueda repararlo.",
+    "tacticas": "Hostigador de fuego: dispara Plastic Blaze, un diminuto misil en forma de llama que quema, desde la segunda fila y se oculta tras sus compañeros. Más molesto que letal, resulta ideal como acompañante de esbirros más duros.",
+    "gancho": "Los niños de una aldea digital dejan de jugar porque un ToyAgumon negro les roba los juguetes; los PJ pueden derrotarlo o descubrir y limpiar el virus que lo infecta."
+  },
+  "tukaimon": {
+    "descripcion": "Se parece a Patamon, pero su carácter es justo el contrario: contestatario por naturaleza y de mecha corta, prefiere zanjar cualquier discusión a golpes. Suele servir de familiar a Devimon y otros señores oscuros, a los que sigue con gruñidos y mala cara. Sus palabras envenenadas hacen llorar hasta al más valiente.",
+    "tacticas": "Ágil e impaciente, ataca el primero. Con Bad Message susurra insultos cargados de energía negativa al oído del rival: lo confunde y lo golpea con rapidez antes de que reaccione. Más peligroso si lo acompaña un amo oscuro.",
+    "gancho": "Un Tsukaimon bocazas se une a los PJ jurando que el Devimon al que servía lo trató mal, pero sus insultos amenazan con meterlos en una pelea tras otra."
+  },
+  "ukkomon": {
+    "descripcion": "Fantasma de la era antigua del Mundo Digital cuyos registros apenas sobreviven, por lo que casi todos lo dan por extinguido. Se rumorea que concedía deseos, y por eso otros Digimon se reunieron a su alrededor hasta fundar aldeas enteras. Flota ligero y misterioso, y su mirada resulta peligrosamente hipnótica.",
+    "tacticas": "Apoyo que controla la pelea: con Liar Dream cruza la mirada con un enemigo y lo duerme, y con Whirlpool Spin gira como una peonza para ralentizar a quien se interponga. Quita de en medio a los rivales más peligrosos.",
+    "gancho": "En unas ruinas antiguas se reúnen Digimon convencidos de que Ukkomon les concederá un deseo; los PJ descubren que el fantasma sigue vivo, pero no recuerda su propio poder."
+  },
+  "v-mon": {
+    "descripcion": "Pequeño dragón azul, bromista y travieso, pero con un fuerte sentido de la justicia. Pertenece a una especie casi extinguida que prosperó en los albores del Mundo Digital, y por eso puede usar Digihuevos para vestirse con armaduras que liberan su poder oculto. Entre los de su estirpe, es de los mejores luchadores.",
+    "tacticas": "Bruto directo: abre con Boom Boom Punch, girando los brazos para un golpe brutal, y remata con Veemon Headbutt para aturdir al rival. Si los PJ le aportan un Digihuevo, el Director puede insinuar su poder oculto.",
+    "gancho": "Un Veemon bromista gasta una broma pesada a un Digimon temible y pide protección a los PJ; a cambio, les promete mostrarles dónde duerme un antiguo Digihuevo."
+  },
+  "bemmon": {
+    "descripcion": "Digimon artificial salido de algún experimento cuyo creador sigue sin conocerse. Solo tiene una orden grabada en su programa: comer y hacerse más fuerte. Sus garras afiladas rasgan casi cualquier cosa, y no siente curiosidad, miedo ni lealtad, solo un apetito que nunca se sacia.",
+    "tacticas": "Cazador implacable: se lanza con Messer Claw, un zarpazo de acero, y cuando derrota a un rival usa Fusionize para devorarlo y ganar fuerza. El Director puede presentarlo como una amenaza que crece con cada víctima.",
+    "gancho": "Digimon desaparecidos rodean un laboratorio abandonado; dentro, un Vemmon sigue devorando datos mientras los PJ buscan quién lo programó y por qué."
+  },
+  "vorvomon": {
+    "descripcion": "Pequeño dragón forjado en mineral duro y ardiente. Es apasionado y muy emocional: cuanto más se entusiasma, más calientes se ponen sus cuernos y sus garras. Sus alas solo le sirven para aleteos y saltos cortos, porque se cansa casi enseguida, así que prefiere mantener los pies en el suelo.",
+    "tacticas": "Tanque de roca caliente: planta cara y escupe Petit Flame, una llamarada pequeña pero abrasadora que quema y provoca, obligando a los enemigos a atacarlo a él mientras los aliados se colocan.",
+    "gancho": "Vorvomon se ha emocionado tanto que su cuerno ha fundido sin querer el puente de una aldea, y los PJ deben calmarlo y ayudar a repararlo antes del anochecer."
+  },
+  "wankomon": {
+    "descripcion": "Bestia canina trabajadora y amistosa, de lealtad feroz hacia el Digimon o Domador al que considera su amo. Se tumba al sol sin bajar la guardia, pues su olfato le informa de todo lo que ocurre alrededor. Lleva siempre consigo una pelota, y se le ilumina la cara cuando alguien quiere jugar.",
+    "tacticas": "Bruto leal: lanza Crushing Ball, una pelota cargada que crece sobre la cabeza del enemigo y lo rompe, y cuando se ve en apuros se endurece con Stone Body para derribar a quien lo toque.",
+    "gancho": "Un Wankomon ha perdido su pelota en una cueva llena de trampas y ofrece lealtad eterna a quien se la devuelva; los PJ ganan un compañero fiel."
+  },
+  "wormmon": {
+    "descripcion": "Larva tímida y asustadiza que, sola, tiene pocas opciones contra los Digimon grandes. Desciende del mismo linaje antiguo que Veemon, por lo que los Digihuevos pueden vestirlo de armadura y desatar un poder sorprendente. Es la imagen viva del potencial: lo que hoy es un gusanito, mañana será un campeón.",
+    "tacticas": "Místico de control: teje Sticky Net para atrapar y cegar a los enemigos y los mantiene a raya con Silk Thread. Es frágil, así que el Director debe hacerlo huir si lo atacan de cerca.",
+    "gancho": "Un Wormmon miedoso pide a los PJ que lo acompañen a buscar un Digihuevo antiguo, convencido de que, si lo encuentra, por fin dejará de huir."
+  },
+  "zenimon": {
+    "descripcion": "Criatura mecánica con forma de moneda de cinco yenes que vive en la maleta de Ganemon. Cumple en silencio sus encargos de recaudar dinero, ayudada por un pulso especial que atrae las monedas. Ese mismo don la convierte en objetivo de quienes querrían aprovecharlo para sí.",
+    "tacticas": "Versátil a distancia: dispara Comet Launcher, balas de arroz cósmicas que ralentizan, y si lo acorralan arroja a otros Zenimon con Zeninage para quemar a los rivales.",
+    "gancho": "Los PJ encuentran un Zenimon extraviado cuyo pulso atrae oro y bandidos; para devolverlo a la maleta de Ganemon deberán cruzar un valle plagado de cazadores de monedas."
+  },
+  "zubamon": {
+    "descripcion": "Una de las Legend-Arms, armas legendarias capaces de salvar el mundo en manos de un ángel o de destruirlo en las de un demonio. Zubamon grita que es el Twentiest sin saber qué significa, odia todo lo torcido y vive obsesionado con parecer afilado; los días que lo consigue, está de buen humor.",
+    "tacticas": "Tirador impetuoso: carga de frente con Twenty Dive, una embestida de acero que derriba y casi nunca falla. Su verdadero poder está en su forma de arma, así que un PJ que lo empuñe puede sacarle más partido.",
+    "gancho": "Un Zubamon grita que es el Twentiest en pleno mercado y atrae a quienes buscan una Legend-Arms; los PJ deben decidir en qué manos puede caer."
+  },
+  "aegiomon": {
+    "descripcion": "Deidad con torso humano y patas de cabra montés que viaja con la misma compañía musical que Sirenmon. Toca la flauta Syrinx que lleva al cinto, ama la paz y detesta pelear, pero cuando debe proteger algo despierta una fuerza de combate excepcional.",
+    "tacticas": "Místico defensivo: toca Attract Echo en su flauta para confundir al enemigo y fijar su atención en él, dando tiempo a los aliados. Si lo acorralan, patea con Iron Trust o inmoviliza con Stun Beat Blow.",
+    "gancho": "Una troupe de músicos digitales pide protección para su gira; Aegiomon solo toca la flauta hasta que una banda de bandidos acecha al grupo, y entonces los PJ descubren su verdadera fuerza."
+  },
+  "airdramon": {
+    "descripcion": "Bestia mítica de alas inmensas, tan valiosa que se la considera casi una divinidad. Reina en el combate aéreo: sus aullidos convocan tormentas y el batir de sus alas levanta tornados. Es brutal y, a la vez, muy inteligente, de modo que ningún Domador corriente consigue someterla.",
+    "tacticas": "Ágil y aérea: golpea desde el cielo con Spinning Needle, una ráfaga de cuchillas de vacío que perfora defensas, y cambia de blanco cada ronda. Si el grupo no puede alcanzarla, se refugia entre las nubes.",
+    "gancho": "Una tormenta imposible cubre una aldea; los PJ descubren que un Airdramon la ha provocado al sentirse acorralado y deben calmarlo sin intentar dominarlo."
+  },
+  "akatorimon": {
+    "descripcion": "Pariente de Kokatorimon, de cuerpo voluminoso y patas muy desarrolladas. Mover semejante corpachón gasta más energía de la que se imagina, por eso se cansa pronto y evita las peleas largas. Sus ojos rojos, sin embargo, son temibles: una sola mirada puede petrificar a su presa.",
+    "tacticas": "Ágil de golpe certero: apunta con Chicken Red Eyes, una mirada que congela al objetivo. Es mejor en combates cortos, porque se agota rápido; el Director puede hacerlo retirarse cuando baje su energía.",
+    "gancho": "Un Akatorimon hambriento ronda un corral digital y se ha convertido en el terror de la aldea; los PJ pueden espantarlo, alimentarlo o descubrir qué lo tiene tan agotado."
+  },
+  "allomon_x": {
+    "descripcion": "Dinosaurio acorazado nacido de la armadura del Digihuevo del Valor, muy feroz incluso entre los de su especie y enemistado con Tyrannomon. Gracias a su X Antibody, sus patas son aún más poderosas: corre con la cabeza gacha y salta sobre sus presas con una agilidad inesperada para su tamaño.",
+    "tacticas": "Bruto de fuego: abre con Dino Burst, un chorro de viento ardiente y brutal que quema, o con Dino Flash para cegar y abrirse paso. Si aparece un Tyrannomon cerca, la pelea se vuelve personal.",
+    "gancho": "Dos dinosaurios rivales, un Allomon (X Antibody) y un Tyrannomon, se disputan una meseta; los PJ pueden mediar o aprovechar el caos para cruzar su territorio."
+  },
+  "angemon": {
+    "descripcion": "Ángel de seis alas resplandecientes y túnica blanca, símbolo de la bondad absoluta que trae felicidad a quien lo encuentra. Mantiene la calma ante el mal y no cesa hasta vencerlo. Cuentan que, en las crisis del Mundo Digital, desciende al frente de una legión de los suyos; dicen también que Devimon fue en origen de su misma especie.",
+    "tacticas": "Versátil y aéreo: su golpe estrella es Heaven's Knuckle, un puñetazo luminoso que purifica a los Digimon corruptos. Ideal para enfrentarlo a enemigos oscuros mientras protege a los aliados desde el aire.",
+    "gancho": "Un Angemon pide a los PJ que lo acompañen a un santuario donde algo oscuro, pariente lejano de su especie, comienza a despertar."
+  },
+  "ankylomon": {
+    "descripcion": "Dragón acorazado cubierto de piel endurecida y protuberancias, que convierten su embestida en una fuerza demoledora. Es herbívoro y poco feroz, pero valiente cuando hace falta. Al final de su cola lleva una bola de hierro con la que machaca lo que se le ponga delante.",
+    "tacticas": "Bruto lento pero devastador: salta y cae con Megaton Press, un aplastamiento brutal que derriba, y remata con Tail Hammer para aturdir. Su armadura aguanta bien los golpes.",
+    "gancho": "Un Ankylomon pacífico bloquea un desfiladero porque unos Digimon abusones quieren arrasar su pasto; los PJ deben resolver el conflicto antes de que pierda la paciencia."
+  },
+  "hanumon": {
+    "descripcion": "Hombre bestia legendario de pelaje dorado. Se le ha visto en rincones lejanos de la red, pero nunca se ha podido demostrar que exista, y esa rareza lo ha vuelto casi mítico. Se dice que destruye virus malignos con facilidad y que recorre las rutas digitales sobre una nube de humo.",
+    "tacticas": "Ágil y escurridizo: cruza el campo montado en su nube y dispara Angry Spike, mechones metálicos ardientes que perforan y queman. Golpea y desaparece, como un fantasma de leyenda.",
+    "gancho": "Rumores aseguran que Apemon ha vuelto para cazar un virus gigante; los PJ pueden seguir la estela de humo dorado y convertirse en testigos de un mito."
+  },
+  "aquilamon": {
+    "descripcion": "Águila gigante con dos enormes cuernos en la cabeza, conocida como la Gran Águila del Desierto. Surca el cielo a velocidad vertiginosa y su vista aguda localiza enemigos lejanísimos. A diferencia de otras aves brutales, respeta las normas y cumple sin fallar las órdenes del amo al que ha jurado lealtad.",
+    "tacticas": "Ágil y aéreo: se lanza en picado con Glide Horn, una embestida de luz que perfora y ciega, y apoya desde lejos con Blast Laser. Su lealtad permite al Director usarlo como guardián de un amo.",
+    "gancho": "Un Aquilamon vigila un oasis en nombre de su amo ausente y no deja pasar a nadie sin permiso; los PJ deberán demostrar buenos modales o encontrar a ese amo."
+  },
+  "algomon_lv4": {
+    "descripcion": "Argomon en su fase de Campeón, con una capacidad de procesamiento que ha crecido de forma anormal. Sus manos se han convertido en manipuladores industriales capaces de levantar incluso a enemigos enormes. Más que una criatura, parece una máquina de cálculo que ha cobrado vida y no se detiene.",
+    "tacticas": "Místico de control: aprisiona con Imprisonment, tentáculos que salen de su boca para atrapar y sellar, y lanza Volt Line, una descarga eléctrica que recorre a quien tiene sujeto. Se centra en un enemigo cada vez.",
+    "gancho": "Un Argomon anómalo ha tomado el control de una fábrica de datos y manipula a sus obreros Digimon; los PJ deben apagarlo antes de que su procesador siga creciendo."
+  },
+  "armalizamon": {
+    "descripcion": "Reptil de escamas durísimas que se alimenta de minerales densos y vive junto a los yacimientos, de los que parte cuando los agota. En su interior, un horno y un acelerador de partículas convierten la roca en energía. Es agresivo cuando come bien y evasivo cuando anda hambriento en busca de una nueva veta.",
+    "tacticas": "Bruto cargado de energía: dispara Neutron Laser, un rayo que perfora casi todo, y barre una zona con Neutron Diffuser. Si lo encuentras bien alimentado en su yacimiento pelea con todo; hambriento, tiende a evitar el combate.",
+    "gancho": "Los mineros de una aldea digital sufren los ataques de un Armalizamon que protege su yacimiento; los PJ pueden negociar un reparto de minerales o buscarle una nueva veta."
+  },
+  "arresterdramon": {
+    "descripcion": "Dragón que evolucionó de Gumdramon al liberarse de su atadura de Kinkoji. Viste una armadura hecha de un tipo especial de goma que aumenta su flexibilidad y su defensa. Del final de su cola cuelga un ancla, el Tail Anchor, con la que corta, golpea y puede enrollar a sus presas si le apetece.",
+    "tacticas": "Bruto veloz: estira sus miembros en Mach Flicker para golpear antes que nadie, y si el enemigo se aleja usa Flog Shot para hacer girar el ancla y alcanzarlo. Buen cazador de objetivos escurridizos.",
+    "gancho": "Un Arresterdramon persigue a un fugitivo hasta la aldea de los PJ y les exige ayuda; ellos deben decidir si el perseguido merece ser detenido o ha sido acusado en falso."
+  },
+  "atamadekachimon": {
+    "descripcion": "Dinosaurio de cabeza enorme y cuerpo desproporcionado que apenas camina sin tropezar y romper todo a su paso, siempre sin querer. Odia pelear y rebosa instintos maternales: lleva a Minidekachimon en la boca para protegerlo. Habla tan alto que su pequeño debe taparse las orejas, y más aún cuando termina las frases con un dekaa.",
+    "tacticas": "Bruto reacio: solo combate si Minidekachimon corre peligro. Entonces ruge con Drum Blast para confundir y bloquear al rival, y lo aplasta con Head Crush; Minideka Flame llega a veces como ayuda, pero nadie sabe de qué tamaño será.",
+    "gancho": "Atamadekachimon ha perdido a Minidekachimon en una ciudad digital y su voz retumba por todas partes; los PJ deben encontrar al pequeño antes de que el escándalo derrumbe los edificios."
+  },
+  "baboongamon": {
+    "descripcion": "Bestia territorial que habita acantilados y montañas rocosas. La roca que cubre partes de su piel se rompe y vuelve a crecer cada vez más dura, y quien lleva la capa más resistente manda en la región. No tolera intrusos en sus riscos.",
+    "tacticas": "Ágil y combativo: lanza Mount Stone, rocas de sus brazos que derriban a distancia, y se acerca como un rayo con Glide Rocks para golpear con su cola pétrea. Pelea mejor en terreno escarpado.",
+    "gancho": "Para cruzar la sierra, los PJ deben atravesar el territorio de un Baboongamon jefe; podrán retarlo, sobornarlo o rodear sus riscos sin que se dé cuenta."
+  },
+  "bakemon": {
+    "descripcion": "Fantasma envuelto en una sábana que nació de la oscuridad. Nadie sabe qué hay debajo: algunos creen que su sombra es un agujero negro. Se dice que los ordenadores que posee fallan en un instante. Como carece de fuerza bruta, evita el combate directo y prefiere maldecir a distancia.",
+    "tacticas": "Esbirro místico: flota detrás de sus aliados y atrapa con Hell's Hand, una mano de oscuridad, o hechiza con Death Charm a quien tenga poca voluntad. Es frágil y cae rápido si lo alcanzan.",
+    "gancho": "Un enjambre de Bakemon se cuela en una biblioteca digital y deja los datos en blanco; los PJ deben descubrir quién los invoca antes de que se pierdan todos los registros."
+  },
+  "baristamon": {
+    "descripcion": "Gigante metálico de coraza gruesa y fuerza abrumadora que, pese a su aspecto, prefiere la paz y jamás ataca por iniciativa propia. Si estalla una pelea, sin embargo, se convierte en un campeón imparable. Está orgulloso del cuerno de su cabeza y no soporta que se lo toquen; su lentitud es su punto flaco.",
+    "tacticas": "Tanque que castiga a quien se acerca: sujeta al enemigo y lo lanza con Horn Breaker, que perfora y rompe, o ralentiza al grupo con Heavy Speaker. Los rivales ágiles lo ponen en aprietos.",
+    "gancho": "Un Ballistamon custodia un puente y solo se enfada si alguien toca su cuerno; los PJ deben cruzar sin que el bromista del grupo arruine la paz."
+  },
+  "baluchimon": {
+    "descripcion": "Bestia sagrada que vive en manadas dentro de unas ruinas bajo el Folder Continent, una antigua fortaleza de ángeles de la que parecen guardianes. Es serena y amable, pero su lado feroz despierta cuando percibe hostilidad. Su inteligencia le permite distinguir en un instante a un invasor de un visitante perdido.",
+    "tacticas": "Místico guardián: ata al intruso con Psychic Chain, cadenas telequinéticas que confunden y atrapan, y llena la zona con Cloud Vision para sacarlo de las ruinas entre ilusiones. Prefiere expulsar a destruir.",
+    "gancho": "Los PJ se pierden en unas ruinas bajo el Folder Continent y despiertan fuera, mareados por una nube de ilusiones; una manada de Baluchimon los ha escoltado con suavidad."
+  },
+  "baohuckmon": {
+    "descripcion": "Fruto de un duro entrenamiento como Huckmon, ha alcanzado una destreza y una fuerza de cuerpo y mente poco comunes. Sigue peleando contra rivales fuertes para mejorar, porque cuanto más combate, más crece. Sueña con unirse a los Royal Knights y no deja que nadie le diga qué camino seguir: observa y decide por sí mismo.",
+    "tacticas": "Bruto técnico: abre con Fif Cross, un zarpazo cruzado de luz que ciega y golpea brutalmente, y se prepara con Blazing Flame para mejorar y cargar su siguiente ataque. Lo ideal es un duelo directo.",
+    "gancho": "BaoHuckmon desafía a los PJ a un combate de entrenamiento para medir su fuerza; si lo impresionan, les pedirá ayuda para demostrar su valía ante los Royal Knights."
+  },
+  "betelgammamon": {
+    "descripcion": "Forma madura de Gammamon, con el cuerpo teñido de rojo por las llamas de su alma ardiente. Es más ágil que antes, y más rápido y fuerte en el cuerpo a cuerpo. Sus ataques crecen al ritmo de sus emociones: cuanto más se exalta, más fuego acumula en los puños.",
+    "tacticas": "Versátil de fuego: se acerca y golpea con Sorblow, un puñetazo de llamas, o lanza Sorshot para quemar a distancia con menos potencia. El Director puede subir su intensidad cuando se enfada o se emociona.",
+    "gancho": "Un BetelGammamon se une al grupo y su ánimo cambia con cada giro de la historia; los PJ deben mantenerlo contento, porque un enfado podría incendiar el bosque."
+  },
+  "birdramon": {
+    "descripcion": "Ave gigante envuelta en llamas, nacida del cortafuegos defensivo de la red igual que Meramon. Surca el cielo con sus alas enormes. No tiene espíritu guerrero, pero si la atacan responde con un contraataque frenético y feroz.",
+    "tacticas": "Ágil y aérea: llueve fuego con Meteor Wing, una ráfaga de plumas ardientes que quema y llega rápido. Mejor presentarla como defensora: no empieza la pelea, pero la termina.",
+    "gancho": "Un Birdramon sobrevuela un cortafuegos asediado por virus; los PJ pueden ayudarle a repeler el ataque o descubrir que fue su propio nido lo que lo atrajo."
+  },
+  "blackgaogamon": {
+    "descripcion": "Bestia más corpulenta que Gaomon, con las garras protegidas por guantes. Probablemente absorbió Black Digitron durante su desarrollo, y eso ennegreció su cuerpo y lo volvió más resistente a los golpes, aunque algo más lento. Se acerca sin que el rival pueda seguirlo y no suelta a su presa.",
+    "tacticas": "Bruto oscuro: se lanza con Dash Double Claw, un doble zarpazo de oscuridad que derriba y llega rápido, y muerde con Gaoga Hound hasta que el rival cae. Aguanta bien el castigo.",
+    "gancho": "Un BlackGaogamon guarda una mina de Black Digitron y ataca a cualquiera que se acerque; los PJ podrían descubrir qué mineral lo oscureció y qué más puede hacer."
+  },
+  "blackgalgomon": {
+    "descripcion": "Gargomon de pelaje oscuro que se esconde en las sombras para emboscar a sus rivales. Es mejor luchador cuerpo a cuerpo que su pariente, con una técnica superior y un carácter extraordinariamente frío. Partes de su cuerpo están recubiertas de Black Digitron, lo que refuerza su defensa.",
+    "tacticas": "Ágil emboscador: sale de las sombras y descarga Gatling Arm, ráfagas de los vulcanos de sus muñecas, y si el rival se acerca lo aturde con Dumdum Uppercut. Perfecto para una emboscada sorpresa.",
+    "gancho": "Alguien está eliminando uno a uno a los vigilantes de un camino nocturno; el culpable es un BlackGargomon que actúa desde las sombras, y los PJ deben averiguar a quién obedece."
+  },
+  "blacktailmon": {
+    "descripcion": "Gatomon de pelaje negro como la noche, auténtico hijo del mal que vaga por la oscuridad inquietante. Su mutación es rarísima: apenas se conocen unos pocos ejemplares. Es maliciosa, orgullosa y disfruta humillando a los débiles. Con el tiempo suele evolucionar hacia formas de ángel oscuro.",
+    "tacticas": "Acechador veloz: se esconde en la oscuridad y ataca primero con Lightning Paw, una ráfaga de zarpazos rápidos. Elige siempre al más débil del grupo para burlarse de él antes de golpearlo.",
+    "gancho": "Un BlackGatomon se divierte atormentando a un pequeño Digimon en una posada; los PJ pueden humillarlo, hacerle un trato o descubrir qué quiere de verdad."
+  },
+  "blacktailmon_uver": {
+    "descripcion": "Versión de BlackGatomon que absorbió datos de servicios de reparto a domicilio. Su antigua malicia ha desaparecido: entrega con dedicación cada paquete que se le encomienda, sea el día que sea. A menudo se le ve agarrado a la espalda de su amigo Pistmon. Su mochila de reparto está siempre impecable, y solo él puede abrirla o cerrarla.",
+    "tacticas": "Acechador veloz y profesional: pega con Lightning Paw a quien estorbe una entrega y, si el rival no se aparta, lo remata con Bag Tag, un golpe con la esquina de la mochila. Los paquetes siempre salen intactos.",
+    "gancho": "Un BlackGatomon Uver. debe entregar un paquete urgente antes del anochecer y ofrece una recompensa a los PJ si lo escoltan; todos intentarán interponerse y nadie sabe qué hay dentro."
+  },
+  "blackgrowmon": {
+    "descripcion": "Dragón oscuro conocido como el Dragón Oscuro de Azabache. Es de la misma especie que Growlmon, aunque con una tendencia más marcada al tipo Virus, y se dice que es su forma original. Sin un Domador, es casi del todo salvaje: su rugido hace temblar el suelo y lo usa para intimidar antes de pelear.",
+    "tacticas": "Bruto salvaje: empieza con un rugido intimidatorio y ataca con Plasma Blade, cuchillas de plasma que paralizan con brutalidad, o con Exhaust Flame, una llamarada que debilita. Muy peligroso a corta distancia.",
+    "gancho": "Un BlackGrowlmon bloquea el único paso de montaña y su rugido hace caer rocas; los PJ deben ingeniárselas para pasar sin despertar su furia ni derrumbar el camino."
+  },
+  "bladekuwagamon": {
+    "descripcion": "Digimon insecto con todo el cuerpo convertido en arma, algo rarísimo entre los Campeones, porque está recubierto de Chrondigizoid. Reacciona sin pensar a cualquier cosa que se mueva. En grupo, es capaz de acorralar incluso a un Digimon de nivel Mega.",
+    "tacticas": "Tanque punzante: mantiene la línea con su coraza y ataca con Spark Blade, una cuchilla de luz que perfora y paraliza, o con Air Knife para empujar. Si hay varios, el Director puede lanzar una oleada.",
+    "gancho": "Un enjambre de BladeKuwagamon patrulla una fábrica abandonada y ataca todo lo que se mueve; los PJ necesitan cruzar quietos como estatuas o crear una buena distracción."
+  },
+  "blimpmon": {
+    "descripcion": "Digimon vehículo con forma de dirigible, de cuerpo blando protegido por un recubrimiento metálico. Parece un diseño aún inacabado, ya que su costado izquierdo sigue al descubierto. Llena sus bombas de helio, lleva dos cañones sobre el lomo y se desplaza con una calma casi bonachona.",
+    "tacticas": "Tanque de artillería: lanza Helium Bomb, bombas de helio que provocan al enemigo para que lo ataque a él, y bombardea una zona con Zeppelin Explosion. Su costado izquierdo sin blindar es la clave para vencerlo.",
+    "gancho": "Un Blimpmon sufre una avería en mitad de un valle y pide a los PJ que le parcheen el flanco izquierdo antes de que unos bandidos descubran su debilidad."
+  },
+  "bombernanimon": {
+    "descripcion": "Parece una subespecie de Nanimon llegada de otro Mundo Digital, aunque nadie conoce la verdad. Tras tantos combates, su cuerpo entero se ha vuelto una bomba, y el mechón que le sale de la cabeza es ahora una mecha. Es impredecible y peligroso de tener cerca.",
+    "tacticas": "Versátil explosivo: lanza Free-Throw Bomb, una granada que nunca falla, desde lejos, y se acerca para soltar K.O. Punch, un puñetazo explosivo. Su mecha da pie a escenas tensas en espacios cerrados.",
+    "gancho": "Una mecha chisporrotea en el callejón de un mercado digital: un BomberNanimon de otra dimensión busca un hogar, y los PJ deben evitar que explote por accidente."
+  },
+  "boogiemon": {
+    "descripcion": "Mago misterioso con el cuerpo cubierto de tatuajes de hechizos malignos: tiene tantos conjuros como tatuajes. Es cobarde y jamás pelea de frente, pues prefiere esperar en la oscuridad y atacar sin avisar. Lleva un tridente en la mano derecha.",
+    "tacticas": "Emboscador místico: golpea primero desde las sombras con Death Clash, un tridentazo de oscuridad que asusta, y se retira si lo localizan. Ideal para abrir el combate con sorpresa y desaparecer.",
+    "gancho": "Los PJ encuentran un símbolo mágico extraño marcado en una pared y, al tocarlo, Boogiemon sale de la oscuridad reclamando uno de sus conjuros."
+  },
+  "bulkmon": {
+    "descripcion": "Digimon surgido de los datos de un aparato que mide la masa muscular. Es extremadamente agresivo y tiene los músculos de la parte superior del cuerpo muy desarrollados, lo que lo sitúa entre los Campeones más fuertes. Entrena sin parar y solo se detiene para comer y dormir.",
+    "tacticas": "Bruto eléctrico: lanza Electrical Fist, un puñetazo de rayo que paraliza y envía lejos al enemigo, y si este se aleja lo castiga con Thunder Dread desde el cuerno. Se mueve con fuerza explosiva a pesar de su volumen.",
+    "gancho": "Bulkmon reta a cada aldeano a un pulso y nadie le gana; los PJ deben encontrar la manera de derrotarlo o de convencerlo de que descanse."
+  },
+  "buraimon": {
+    "descripcion": "Hombre ave que evolucionó a base de entrenamiento con la espada y maneja dos hojas con gran destreza. Vaga por el Mundo Digital como espada de alquiler y se rumorea que acepta cualquier trabajo, lo que le da fama de rufián. En realidad es amable, ayuda a quien lo necesita y rechaza cualquier encargo que dañe a los débiles.",
+    "tacticas": "Ágil espadachín: corta en cruz con Dual Swallow Reversal, una ráfaga de tajos de luz que ciega, y responde con Secret Sword: Raptor Felling, un contraataque giratorio que sube a golpear incluso a los voladores.",
+    "gancho": "Un Buraimon con mala fama ofrece su espada a los PJ por un pago, pero rechazará la misión si descubre que el cliente quiere dañar a los más débiles."
+  },
+  "burgamon_lv4": {
+    "descripcion": "Hamburguesa de corazón puro, formada con datos de ingredientes cuidadosamente seleccionados. Vive para cocinar y reparte sus platos entre otros Digimon sin cobrar nada. Aunque es amable, quien intenta estropear su cocina descubre que sabe defenderse con cebolla picante.",
+    "tacticas": "Apoyo cocinero: lanza Spicy Onion, rodajas de cebolla con pimienta que queman y quitan las ganas de pelear, y aplasta con Delicious Patty, una gigantesca hamburguesa. Ideal para darle un toque cómico al combate.",
+    "gancho": "Burgamon abre un restaurante improvisado en mitad de la ruta, y los PJ deberán proteger a sus clientes y encontrar ingredientes raros para su menú."
+  },
+  "centalmon": {
+    "descripcion": "Mitad hombre, mitad bestia, con la forma de un centauro. Un material resistente que emite su propio cuerpo lo protege, y su brazo derecho está fundido con el arma. Expulsa gas concentrado por los conductos de su espalda para moverse a velocidad casi sónica. Es muy orgulloso y detesta que le den órdenes o lo aten a algo.",
+    "tacticas": "Ágil francotirador: dispara Hunting Cannon, un cañonazo casi imposible de esquivar que le cuesta muchísima energía, así que lo usa pocas veces y evita pelear. Actúa como cazador que elige muy bien su momento.",
+    "gancho": "Un Centarumon orgulloso rechaza escoltar una caravana porque no soporta recibir órdenes; los PJ deberán pedírselo como un favor y no como un encargo."
+  }
+}

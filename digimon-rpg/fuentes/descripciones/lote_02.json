@@ -1,0 +1,227 @@
+{
+  "puroromon": {
+    "descripcion": "Larva de aleteo imprevisible: mueve sus tres pares de alas cada una por su cuenta y cambia de dirección cuando le da la gana, así que nadie logra atraparla. Apenas tiene fuerza, pero sus zigzags desconciertan tanto a los perseguidores que terminan burlados. En la cola esconde un aguijoncito con una pizca de veneno.",
+    "tacticas": "Puroromon no quiere pelear: esquiva, zigzaguea y se esconde. Si la acorralan, suelta Chikkuritto, un pinchazo de Veneno a distancia que hace poco daño pero fastidia. Úsala como blanco imposible de agarrar que desespera a los PJ.",
+    "gancho": "Un Puroromon se cuela en el campamento de los PJ y juega al escondite entre las provisiones; atraparlo sin asustarlo será una prueba de paciencia e ingenio."
+  },
+  "pusurimon": {
+    "descripcion": "Cuadrúpedo diminuto con púas amarillas en el lomo que corre de aquí para allá sin descanso. De pronto se detiene en seco, pero no por haber visto algo: simplemente se ha quedado dormido a mitad de camino. Cuando se asusta, eriza todo su pelaje y se hace una bola.",
+    "tacticas": "Pusurimon prefiere esconderse o salir corriendo antes que luchar. Si no puede escapar, se enrosca y rueda con Prickly Roll, un golpe Neutro al toque. Si la escena decae, puedes hacer que se quede dormido de repente.",
+    "gancho": "Los PJ siguen un rastro de púas amarillas hasta un claro donde un Pusurimon se ha quedado dormido a mitad de carrera; despertarlo sin que se enrosque en una bola será todo un reto."
+  },
+  "puyoyomon": {
+    "descripcion": "Nació de Puyomon tras absorber datos de medusa y luce varios tentáculos copiados de ese animal. Ya empieza a tener opiniones propias: se aferra sin soltar a lo que le gusta y espanta con descargas lo que le disgusta. Es caprichoso, y en cuanto se aburre de algo lo suelta y sigue su camino en busca de otra novedad.",
+    "tacticas": "Puyoyomon rehúye los combates serios, pero si algo le molesta suelta Static Zone, una descarga Eléctrica de zona que puede Paralizar. Después se desentiende y se marcha, ideal para incidentes breves y caprichosos.",
+    "gancho": "Un Puyoyomon se ha encaprichado de la mochila de un PJ y no la suelta; deberán ofrecerle algo mejor antes de que su mal humor eléctrico paralice a medio campamento."
+  },
+  "sakuttomon": {
+    "descripcion": "Evolución de Sakumon que ha ganado dos cuchillas, una a cada costado, y unas patitas nuevas que le dan mucha más estabilidad. Ya no rueda sin rumbo y se muestra más activo, aunque a veces se queda pegado al techo o a las paredes y no hay manera de que se mueva.",
+    "tacticas": "Sakuttomon intenta apartarse antes que pelear, pero si lo apuran dispara Sakusaku, un tajo de Acero a distancia con sus cuchillas. Como puede quedarse inmóvil en una pared, úsalo como obstáculo curioso en un pasillo.",
+    "gancho": "Un Sakuttomon se ha quedado pegado al techo de una vieja fábrica digital y sus cuchillas bloquean el único paso; los PJ tendrán que bajarlo sin que se asuste y empiece a cortar."
+  },
+  "sunmon": {
+    "descripcion": "Pequeño sol con una llama encendida sobre la cabeza y unos bultos blandos que mueve como si fueran extremidades. Solo se deja ver de día, con el cielo despejado. De carácter apacible, se desplaza con suavidad en las jornadas cálidas y no quiere problemas con nadie.",
+    "tacticas": "Sunmon evita la pelea y se retira al menor rastro de nubes. Si no le queda opción, suelta Sunlight Bubble, burbujas luminosas de Agua a distancia que Ralentizan. Su presencia marca una escena soleada y tranquila.",
+    "gancho": "Tras días de nubes, los PJ descubren por fin a un Sunmon que solo sale con sol; deben ayudarlo a cruzar un valle sombrío hasta un claro luminoso."
+  },
+  "tanemon": {
+    "descripcion": "Un brote asoma en su cabeza y cuatro patitas le sirven para cavar. Es sumamente asustadizo: ante la menor amenaza excava un hoyo, se entierra y deja fuera el brote, que lo hace pasar por una planta cualquiera. El truco falla del todo con los Digimon herbívoros, que lo ven como un tentempié.",
+    "tacticas": "Tanemon se entierra y finge ser una planta en lugar de pelear. Si lo descubren, usa Adhesive Bubble Blow, una burbuja pegajosa de Agua al toque que Ralentiza al atacante, y aprovecha para huir.",
+    "gancho": "Los PJ pasan junto a un brote muy raro en medio del sendero: es un Tanemon escondido, y una manada de herbívoros hambrientos se acerca. ¿Lo salvarán?"
+  },
+  "tokomon": {
+    "descripcion": "Su cuerpo pequeño y redondo tiene cuatro extremidades que le salen por debajo, algo rarísimo en un Bebé, y ese aspecto lo vuelve adorable. Pero ojo con acariciarlo sin cuidado: abre la boca de repente y clava sus hileras de dientes. Aun así es inocente y nunca pretende hacer daño de verdad.",
+    "tacticas": "Tokomon no busca pelea, pero muerde por instinto a quien lo toca. Su Bite, Neutro y al toque, es su único recurso; después se esconde o sale corriendo. Sirve como encuentro cómico y tierno.",
+    "gancho": "Un Tokomon se aferra al brazo de un PJ tras morderlo sin querer; el grupo debe averiguar de dónde viene y devolverlo con los suyos."
+  },
+  "tokomon_x": {
+    "descripcion": "Es raro que un Bebé acoja el X Antibody, así que muchos Digimon lo persiguen. Pero esta variante de Tokomon es osada y ha sabido salir de todos los apuros gracias a su tamaño y a su agilidad. Se lanza a toda velocidad contra los rivales y puede derribar incluso a Digimon enormes.",
+    "tacticas": "Aunque prefiere escabullirse, Tokotoko Dive lo convierte en un proyectil que Derriba y Atrapa a rivales mucho mayores. Si falla, muerde con Bite y se escurre entre las piernas del enemigo.",
+    "gancho": "Una banda de Digimon cazadores persigue a un Tokomon (X Antibody) por su rareza; los PJ pueden esconderlo, o enseñarle a defenderse, antes de que lo acorralen."
+  },
+  "torikaraballmon": {
+    "descripcion": "Nace de datos de recetas de fritura, y allí por donde pasa deja un aroma delicioso que hace rugir las tripas de los demás Digimon. Se agita de un lado a otro con aire presumido, pero cuando lo persiguen los hambrientos sopla burbujas escurridizas y se escabulle, dejando atrás solo su olor.",
+    "tacticas": "TorikaraBallmon solo piensa en escapar de los hambrientos: sopla Vegetable Bubbles, burbujas de Agua a distancia que Ralentizan y dejan resbaladizo al rival, y huye. Su olor delata su rastro en una persecución.",
+    "gancho": "Un olor irresistible a fritura recorre el mercado digital y todos los Digimon corren tras él; los PJ deben hallar a TorikaraBallmon antes de que lo atrapen los más glotones."
+  },
+  "tsumemon": {
+    "descripcion": "Evolución de Kuramon cuyas antenas terminan en garras afiladas que le dan un aire más fiero. Corroe datos a una velocidad pavorosa y deja redes enteras averiadas. Además se mueve tan deprisa que, una vez digievolucionado, resulta muy difícil de atrapar.",
+    "tacticas": "Tsumemon es sobre todo un incordio que roe datos y escapa a la carrera. Si lo acorralan, araña con Nail Scratch al toque. Úsalo para sabotear una terminal mientras los PJ lo persiguen.",
+    "gancho": "Los sistemas de un pueblo digital fallan uno tras otro y el culpable es un Tsumemon veloz; los PJ deben seguir el rastro de datos corroídos y atraparlo."
+  },
+  "tunomon": {
+    "descripcion": "Pequeño y cubierto de suave pelaje, luce un único cuerno que nace de una antena de Punimon endurecida. Es más animal que su forma anterior y rebosa espíritu juguetón: adora gastar bromas y todavía no ha desarrollado el instinto del conflicto.",
+    "tacticas": "Tsunomon prefiere bromear antes que pelear. Si el juego se complica, escupe Acid Bubbles, burbujas de Veneno a distancia, y se esconde. Perfecto para travesuras que molestan sin ser un combate de verdad.",
+    "gancho": "Un Tsunomon bromista ha llenado de burbujas el camino de los PJ y se ríe escondido tras una roca; deberán convencerlo de que la broma ha ido demasiado lejos."
+  },
+  "goromon": {
+    "descripcion": "Come rocas para crecer. Como su aparato digestivo aún no está maduro, guarda en su cuerpecito una cantidad sorprendente de mineral que va transformando poco a poco en nutrientes. Y como su único ojo está en el mismo sitio que la boca, mientras come no ve nada de lo que ocurre a su alrededor.",
+    "tacticas": "Tumblemon huye o se esconde cuando se siente amenazado. Si no tiene opción, escupe piedras con Rock Breath, un ataque de Tierra a distancia que puede Derribar. Sus comidas dejan a los PJ sorprenderlo.",
+    "gancho": "Una cantera digital pierde piedras a diario y los PJ descubren al culpable: un Tumblemon tan ocupado comiendo que ni los ve. ¿Cómo lo convencen de parar?"
+  },
+  "upamon": {
+    "descripcion": "Anfibio con branquias en forma de orejas a los lados del cuerpo. Vive tanto bajo el agua como en tierra, aunque parece más a gusto fuera. Es tan despreocupado que se deja burlar por otros Digimon sin enterarse: confunde las burlas con juegos y sigue tan contento.",
+    "tacticas": "Upamon no se entera de que lo molestan y rara vez planta cara. Si se asusta, lanza Shock Shout, un grito ultrasónico Eléctrico a distancia que puede Paralizar, y luego huye hacia el agua.",
+    "gancho": "Unos Digimon se burlan de un Upamon que cree que juegan con él; los PJ pueden defenderlo, o jugar con él, antes de que su grito ultrasónico cause un buen lío."
+  },
+  "pokomon": {
+    "descripcion": "Digimon nocturno que solo se mueve en noches de luna, por lo que su existencia casi se considera una ilusión; muchos Tamers lo tienen como símbolo de estatus. Se desplaza siempre sin ser visto y pocos pueden seguir su rapidez, pero un plato de tofu frito basta para que aparezca de la nada.",
+    "tacticas": "Viximon se oculta y huye antes que pelear, sobre todo de día. Si se defiende, usa Killing Stone, un ataque de Oscuridad a distancia en el que se endurece como piedra y emana gas con efecto Veneno.",
+    "gancho": "Una leyenda habla de un zorrito de luna que nadie ha visto; con tofu frito y paciencia bajo la luna, los PJ pueden lograr que un Viximon se acerque."
+  },
+  "wanyamon": {
+    "descripcion": "Mezcla de datos de mascotas pequeñas, como gatos y perros. Es sorprendentemente veloz, así que conviene vigilarlo para que no se escape, aunque se encariña enseguida si lo mimas como a una mascota. Tras su carita inocente se esconde una dentellada de sorpresa.",
+    "tacticas": "Wanyamon pone cara tierna para bajar la guardia del rival y entonces muerde con Smile Fang, un ataque Mental al toque que Perfora y Confunde. Después sale corriendo: escapar le gusta más que pelear.",
+    "gancho": "Un Wanyamon se cuela en el campamento pidiendo caricias; los PJ deben averiguar si es solo un mimoso o un ladrón de comida con muy buena cara."
+  },
+  "xiaomon": {
+    "descripcion": "Procede de Paomon y se encariña con cualquiera que le haga un poco de caso, por lo que es el Digimon más fácil de adiestrar. Se cuenta que los Digimon fabricados de forma artificial rara vez pasan del nivel Novato, y Xiaomon es el ejemplo que más se ve.",
+    "tacticas": "Xiaomon busca compañía, no pelea. Su Tummo es una onda aguda de Agua a distancia que Encanta y calma a quien tenga malas intenciones. Úsalo como compañero que sigue a los PJ y alivia tensiones.",
+    "gancho": "Un Xiaomon solitario sigue a los PJ durante todo el camino sin pedir nada; descubrir de dónde viene y quién lo creó puede abrir una nueva línea de investigación."
+  },
+  "yarmon": {
+    "descripcion": "Procede de Keemon y se ha vuelto un auténtico aguafiestas. Cuando ve a otros Digimon jugando contentos, les escupe tinta por sorpresa y los cubre de pintura de pies a cabeza. Disfruta mucho viendo cómo se quedan pasmados ante la travesura.",
+    "tacticas": "Yaamon es un bromista, no un guerrero: lanza Paint Splash, un chorro de tinta de Agua a distancia que Ralentiza, y se esconde riendo. Úsalo para manchar al grupo y estropear su sigilo o una ceremonia.",
+    "gancho": "Una fiesta de Digimon termina cubierta de pintura de arriba abajo; los PJ deben hallar al travieso Yaamon que la lanzó y ayudar a limpiar el desastre."
+  },
+  "pyocomon": {
+    "descripcion": "Lleva una gran flor sobre la cabeza y maneja con soltura sus tentáculos como raíces, con los que se desliza suavemente a corta distancia. Es muy curioso y sus movimientos inquietos resultan encantadores. Suele vivir en grupos que van de decenas a cientos de ejemplares.",
+    "tacticas": "Un grupo de Yokomon es más escenario que amenaza: lanzan Soap Flower, espuma de Planta a distancia que puede Atrapar, y se dispersan. Brillan como una bandada colorida y molesta que entorpece a los PJ.",
+    "gancho": "Un prado entero florece con cientos de Yokomon curiosos que rodean a los PJ; para atravesarlo deben evitar quedar atrapados por su espuma y no pisar a ninguno."
+  },
+  "agumon": {
+    "descripcion": "Pequeño reptil que anda sobre dos patas y recuerda a un dinosaurio de bolsillo. Aún no es muy fuerte, pero su temperamento fiero lo vuelve temerario y sus garras duras y afiladas hacen el resto. Lo más valioso de él es lo que promete llegar a ser.",
+    "tacticas": "Agumon es un Bruto que se lanza de cabeza. Abre con Pepper Breath, aliento de Fuego a distancia que Quema y puede golpear de forma Brutal, y luego se acerca a arañar. Valiente hasta la imprudencia.",
+    "gancho": "Un Agumon hambriento y temerario reta a un Digimon mucho mayor que él; los PJ deben decidir si lo detienen o le echan una mano en el peor momento."
+  },
+  "agumon-2006": {
+    "descripcion": "Agumon especial que lleva dos cintas rojas enrolladas en los brazos; se sospecha que su desarrollo no sigue el camino habitual de la digievolución. Todavía es joven y frágil, pero sus garras duras lo hacen peligroso, y sabe concentrar el aliento de fuego en la boca antes de soltarlo.",
+    "tacticas": "Su arma principal es Pepper Breath, aliento de Fuego a distancia que Quema y golpea de forma Brutal. De cerca recurre a Baby Burner, que también Quema, al toque. Un Bruto sin miedo a mancharse las garras.",
+    "gancho": "Un Agumon con cintas rojas en los brazos se une a los PJ; nadie sabe de dónde ha salido, y alguien parece muy interesado en recuperarlo."
+  },
+  "agumon-black": {
+    "descripcion": "Agumon que digievolucionó hacia el tipo Virus y despertó sus instintos salvajes. Es una criatura feroz y sin miedo, y cuando acecha a una presa muestra una agudeza comparable a la de un Agumon de tipo Vacuna. Es el lado indómito de su especie.",
+    "tacticas": "Agumon (Black) combate como un cazador sin miedo: arranca con Pepper Breath, aliento de Fuego a distancia que Quema y puede ser Brutal, y no se arredra aunque el combate se complique.",
+    "gancho": "Un Agumon (Black) ronda las lindes de un pueblo atraído por el olor de la comida; los PJ deben decidir si lo ahuyentan, lo doman o lo reclutan."
+  },
+  "agumon_b_x": {
+    "descripcion": "El X Antibody ha vuelto aún más fiero a este Agumon de tipo Virus. Caza con un estilo brutal que se apoya en su gran poder de ataque y en sus instintos salvajes, y que se parece más a un arrebato que a una táctica. Verlo en plena cacería resulta temible.",
+    "tacticas": "Acumula fuego en la boca y lo suelta de golpe con BB Burner, aliento de Fuego a distancia que Quema y pega de forma Brutal. Es un Bruto sin finura: ataca siempre de frente y con rabia.",
+    "gancho": "Un rumor habla de un Agumon (Black) (X Antibody) que arrasa por donde pasa; los PJ descubren que solo defiende su territorio de otros cazadores."
+  },
+  "agumon_x": {
+    "descripcion": "Con el X Antibody, este Agumon tiene más posibilidades de convertirse en una especie de Greymon. Las líneas azules de su cuerpo son la señal: ya cuenta como Dinosaurio y no como Reptil. Sus garras son más afiladas que nunca y su carácter es todavía más fiero.",
+    "tacticas": "Sus técnicas, Pepper Breath a distancia y Baby Burner al toque, son de Fuego, Queman y llevan el efecto Cargado: narra cómo acumula llamas en la boca para que los PJ puedan reaccionar antes del golpe.",
+    "gancho": "Un Agumon (X Antibody) de marcas azules entrena sin descanso para llegar a ser un Greymon; los PJ lo encuentran justo cuando su práctica está a punto de incendiar el bosque."
+  },
+  "agumonhakase": {
+    "descripcion": "Agumon superdotado que presume de doctorado en estudios de Digimon por la Academia del Mundo Digital; la insignia de su pecho lo demuestra. El título se lo concedió él mismo, pero sus conocimientos sobre especies y ecologías son auténticos. Habla de forma peculiar, como si viniera de tierras lejanas.",
+    "tacticas": "Más erudito que guerrero, arroja su birrete con Mortarboard, un golpe Neutro a distancia y Brutal, y remata al toque con Professor's Rod. Entre golpe y golpe suelta lecciones que pueden darles pistas a los PJ.",
+    "gancho": "Agumon Expert ofrece a los PJ una clase magistral sobre un Digimon desconocido que los acecha; su información es valiosa, aunque hay que aguantar la lección entera."
+  },
+  "angoramon": {
+    "descripcion": "Bestia de orejas largas y pelaje espeso, de alma pacífica a la que no le gusta pelear. Con las orejas detecta a los enemigos desde lejos para evitarlos. Su gran apetito mantiene su corpulencia, y a veces los rugidos de su estómago vacío le tapan el oído y lo dejan sin ventaja.",
+    "tacticas": "Intenta evitar la pelea, pero si lo obligan gira los brazos con Double Lariat, un golpe de Acero al toque y en ráfaga que barre a quienes lo rodean, o salta sobre su presa con Pyon Dump, de Viento.",
+    "gancho": "Un Angoramon de tripas rugientes ha dejado sin comida el huerto de un pueblo; los PJ deben encontrarle sustento antes de que el hambre lo vuelva torpe y destructivo."
+  },
+  "arkadimon": {
+    "descripcion": "Criatura creada artificialmente con retazos de datos de muchos Digimon, a los que suma los de sus víctimas para crecer. Nadie sabe si tiene conciencia propia y los pocos informes que existen son incompletos: sigue siendo un enigma que preocupa a los sabios.",
+    "tacticas": "Arcadiamon desgasta a los PJ con Soul Absorption, ataque de Oscuridad a distancia que Drena y puede Asustar, y se acerca a segar con Desolation Sickle, que también Drena. Como Ágil, se mantiene siempre en movimiento.",
+    "gancho": "Varios Digimon han desaparecido sin dejar rastro y sus datos parecen absorbidos; los PJ siguen la pista hasta un Arcadiamon que quizá ni siquiera actúa por voluntad propia."
+  },
+  "algomon_lv3": {
+    "descripcion": "Forma Novato de Argomon que hace de guardián de los Argomon jóvenes mientras devoran datos, interceptando a cualquier intruso que se acerque. Sus manos terminan en tentáculos que enrolla como puños para golpear, y con otros más sueltos retiene a sus víctimas.",
+    "tacticas": "Guardián que bloquea el paso: golpea con Brute Knuckles, que Aturde con fuerza Brutal, y sujeta con Imprisonment, que Atrapa y Sella. Úsalo como obstáculo ante los Argomon más jóvenes que protege.",
+    "gancho": "Los PJ deben acercarse a una cámara llena de Argomon jóvenes devorando datos, pero un Argomon guardián intercepta a todo el que se aproxima: hay que burlarlo o convencerlo."
+  },
+  "armadimon": {
+    "descripcion": "Mamífero cubierto de pies a cabeza por un caparazón resistente. Es de trato afable y educado, aunque a veces abusa de la confianza. Desciende de la misma antigua especie que Veemon, por lo que puede realizar una Digievolución de Armadura muy especial.",
+    "tacticas": "Ágil pese a su coraza: ataca con Scratch Beat, zarpazos veloces al toque, y se enrosca en una bola para lanzarse con Diamond Shell, un ataque de Tierra a distancia que Derriba.",
+    "gancho": "Armadillomon se ofrece como guía de los PJ por un cañón peligroso, aunque exagera lo que sabe del camino y pone a prueba la paciencia del grupo."
+  },
+  "alraumon": {
+    "descripcion": "Vegetal con una evolución parecida a la de Palmon. De día abre los brazos y la flor de la cabeza para hacer la fotosíntesis. El aroma de esa flor es herencia de Palmon y sigue siendo tan nauseabundo como siempre.",
+    "tacticas": "Lanza Nemesis Ivy desde lejos, lianas de Planta que Atrapan y Confunden, y deja que su mal olor haga el resto en la narración. Es un Místico que domina el terreno, sobre todo en bosques soleados.",
+    "gancho": "Un Aruraumon abre su flor al sol en medio del único camino de los PJ; su olor es tan terrible que nadie se acerca, y habrá que ingeniárselas para pasar."
+  },
+  "bacomon": {
+    "descripcion": "Se esconde por completo dentro de cajas de cartón. Es tan tímido que podría haberse recluido para siempre, pero las cajas le dan el valor para salir a pasear. Quien intenta mirar dentro acaba atrapado en una de ellas. No le gusta luchar, porque el cartón es blando.",
+    "tacticas": "Todo gira en torno a Atrapar: con Gum Roll lanza un rollo de cinta a quien se acerca, y con Transdelivery mete al enemigo en una caja desde lejos para quitárselo de encima. Evita los combates largos.",
+    "gancho": "Una caja de cartón con ojos asoma por el camino de los PJ; si alguien se asoma, termina empaquetado. ¿Quién se esconde dentro y qué paquete debe entregar?"
+  },
+  "bearmon": {
+    "descripcion": "Pequeño oso con una gorra puesta del revés. Algo tímido a ratos, pero se lleva bien con los demás Digimon y tiene un aguante fuera de lo común. Una vez empezada la lucha, sigue peleando aunque reciba muchos golpes, y se envuelve los puños en cinturones de cuero para no hacerse daño con su propia fuerza.",
+    "tacticas": "Aguanta y no retrocede: se lanza al pecho del rival con Bear Fist, un golpe Neutro al toque que pega de forma Brutal. Como Bruto, sirve de aliado fiable o de rival terco que nunca se rinde.",
+    "gancho": "Un Bearmon tímido se une a los PJ para defender a sus amigos de una banda de matones, aunque no deja de temblar hasta que empieza la pelea."
+  },
+  "betamon": {
+    "descripcion": "Anfibio dócil y tranquilo que anda a cuatro patas y rara vez busca bronca. Pero cuando lo hacen enfadar, descarga una corriente de más de un millón de voltios. Muchos lo subestiman, y se llevan un buen susto.",
+    "tacticas": "Como Tanque, atrae los golpes con Electric Shock, un ataque Eléctrico a distancia que Paraliza y Provoca a los enemigos para que lo miren a él. Es paciente, y su enfado hace la descarga más impactante.",
+    "gancho": "Un Betamon dócil vive en un estanque que otros Digimon quieren desecar; los PJ pueden calmar los ánimos antes de que se enfade y electrifique todo el agua."
+  },
+  "betamon_x": {
+    "descripcion": "Su carácter manso y su cuerpo verde esmeralda han hecho que algunos aficionados cacen a los de su especie por pura exhibición, y ahora está en peligro. Aun así se acostumbra poco a poco a pelear: su cresta y las garras de sus patas han crecido, y su descarga ya alcanza 1,85 megavoltios.",
+    "tacticas": "Tanque que protege a los suyos. Cuando agota su paciencia suelta Electric Shock 185V, una descarga Eléctrica a distancia que Paraliza y Provoca; antes de eso, el Electric Shock normal solo Paraliza.",
+    "gancho": "Unos coleccionistas rastrean a Betamon (X Antibody) por su brillante color esmeralda; los PJ pueden proteger su estanque o descubrir quién financia la caza."
+  },
+  "piyomon": {
+    "descripcion": "Polluelo con alas que parecen brazos, con las que agarra objetos con soltura, aunque eso le resta capacidad de vuelo. Pasa casi todo el tiempo en el suelo y despega cuando hay peligro. Curioso, le encanta picotear el brote de Tanemon. Sueña con evolucionar en Birdramon y teme acabar siendo Kokatorimon, que no vuela.",
+    "tacticas": "Tirador que aprovecha su vuelo: ataca desde lo alto con Spiral Twister, llamas espectrales de Fuego a larga distancia con efectos Empujar y Certero. Si el combate se pone feo, escapa por el aire.",
+    "gancho": "Un Biyomon se empeña en picotear un brote que asoma del suelo, sin saber que es un Tanemon escondido; los PJ deben mediar antes de que la broma acabe en pelea."
+  },
+  "bokomon": {
+    "descripcion": "Mutante con aspecto de anciano y una faja en el vientre. Es un sabio erudito que lleva el Monoshiri Book con todos los secretos del Mundo Digital, aunque no le gusta enseñarlo. Odia pelear y suele sonreír con energía; si la situación se pone seria, adopta un gesto grave y se vuelve un aliado inesperadamente fiable.",
+    "tacticas": "Bokomon odia pelear y solo embiste con Wild Escape Dash, un golpe Neutro al toque que Derriba y es Rápido, para abrirse paso y huir. Úsalo como PNJ que aconseja y, si todo se tuerce, sale corriendo.",
+    "gancho": "Bokomon conoce la respuesta al enigma que bloquea el camino de los PJ, pero no quiere enseñar su libro; hay que ganarse su confianza o ayudarle a salir de un lío."
+  },
+  "bulucomon": {
+    "descripcion": "Minidragón de una tierra aislada y rodeada de hielo, cuyo duro entorno ha curtido sus músculos hasta poder levantar cosas más grandes que él. Como casi todo su cuerpo es hielo, se derrite con el calor y queda delgado y débil. Se encariña con cualquier Digimon que conoce, sobre todo con Penmon.",
+    "tacticas": "Baby Hail lanza trocitos de hielo a distancia que Congelan y golpean de forma Brutal, e Ice-Smash hace lo mismo al toque. En zonas cálidas, narra cómo se derrite y se debilita.",
+    "gancho": "Un Bulucomon perdido lejos de su tierra helada se derrite poco a poco bajo el sol; los PJ deben encontrarle un lugar fresco antes de que quede débil y delgado."
+  },
+  "burgamon": {
+    "descripcion": "Digimon de comida que absorbió datos de infinidad de hamburguesas. Su mayor alegría es servir hamburguesas hechas con cariño a quien tiene el estómago vacío, y sueña con abrir una hamburguesería de primera junto a EbiBurgamon. Pero es implacable con quien interrumpe una comida.",
+    "tacticas": "Apoyo cómico: lanza Delicious Patty, que Confunde a distancia dejando al rival envuelto en una hamburguesa, y Green Pickles, discos de pepinillo que también Confunden. Aliado de los PJ si traen hambre, rival si interrumpen.",
+    "gancho": "Burgamon prepara su hamburguesería en plena zona peligrosa y pide ayuda a los PJ para conseguir ingredientes; quien interrumpa su servicio se las verá con él."
+  },
+  "bushiagumon": {
+    "descripcion": "Espadachín errante que se presenta con grandilocuencia como súper espadachín y lleva en el pecho una insignia que, según él, demuestra su gran destreza. Es cierto que maneja la espada de primera, aunque nadie sabe qué significa eso de súper. Parece dominar a la perfección la velocidad de sus ataques.",
+    "tacticas": "Alterna velocidades: Chouteisoku Ichimonjigiri, un tajo Brutal a distancia, y Choukousoku Ichimonjigiri, más rápido, al toque. Dale pose de héroe y conversación pomposa antes de atacar.",
+    "gancho": "BushiAgumon reta a duelo al PJ más fuerte para demostrar que merece su nombre de súper espadachín; si lo vencen con honor, puede convertirse en un aliado orgulloso."
+  },
+  "candmon": {
+    "descripcion": "Digimon de fuego cuya llama, que arde sobre su cabeza, es su DigiCore: si se apaga, no puede mantener sus funciones vitales. Hay quien piensa que esa llama es su verdadera forma y que el cuerpo es un señuelo. A pesar de su fuego, es amable y no hace daño a quienes lo rodean.",
+    "tacticas": "Candlemon expulsa Bonfire, una bolita de Fuego a distancia que Quema y puede ser Brutal. Su punto débil es la llama de la cabeza: cualquier cosa que la amenace lo hace huir.",
+    "gancho": "Una ráfaga de viento amenaza con apagar la llama de un Candlemon en plena noche; los PJ deben protegerlo hasta que amanezca o ayudarlo a llegar a un refugio."
+  },
+  "chikurimon": {
+    "descripcion": "Acecha bajo el agua o a la sombra de grandes rocas y casi nunca se mueve de su sitio. Ataca a quien se acerca por instinto, pero no es agresivo y se queda quieto si nadie lo molesta. Eso sí, con el calor del verano su número se dispara y puede invadir lagos y roquedales.",
+    "tacticas": "Plaga de verano: varios Chikurimon vigilan una charca y, si alguien se acerca, golpean con Kompeitō Hammer o se sacrifican con Final Chikurimon, una explosión de Acero de larga distancia, Brutal y con Retroceso que también los destruye.",
+    "gancho": "Un lago se ha llenado de Chikurimon con el calor del verano y los Digimon sedientos no se atreven a beber; los PJ deben hallar cómo dispersarlos sin hacerlos estallar."
+  },
+  "chiropmon": {
+    "descripcion": "Mamífero que parece un murciélago con capucha, experto en recopilar y analizar información. Se rumorea que nació de un programa de una agencia de inteligencia. Se mueve casi sin ruido y espía sin ser visto, aunque solo se interesa por lo que le atrae, así que lo que reúne suele ser poco más que curiosidades.",
+    "tacticas": "Es un explorador, no un guerrero: con Paralyze Echo deja Paralizados a varios enemigos a la vez y, con Curious Eyes, Ciega y percibe lo invisible. Úsalo para espiar a los PJ antes de que sepan que está ahí.",
+    "gancho": "Un Chiropmon lleva semanas siguiendo a los PJ y anotando todo lo que hacen; cuando lo descubren, ofrece vender datos útiles, aunque casi todos son simples curiosidades."
+  },
+  "tyutyumon": {
+    "descripcion": "Estratega de cuerpo diminuto y mente brillante. Sus planes son tan precisos que incluso consigue que el torpe Damemon sea temible en combate. Para él solo importa la victoria y que todo salga como lo ha previsto: pactará o traicionará a quien haga falta, y palabras como confianza o amistad no figuran en su vocabulario.",
+    "tacticas": "Mejor como cerebro que como luchador: con Tyutyu Twitter susurra al oído y Confunde a un PJ para que cometa errores, y se retira. Úsalo como villano manipulador que siempre tiene un plan B.",
+    "gancho": "Los PJ notan que sus aliados actúan de forma extraña: un ChuuChuumon les susurra al oído desde las sombras mientras prepara una trampa a medida."
+  },
+  "tyumon": {
+    "descripcion": "Se parece a un ratón y siempre llena la cabeza de Sukamon de ideas turbias. Considera a Sukamon su gran amigo desde que este lo salvó de una trampa de la red, aunque quizá solo Chuumon lo vea así. En el fondo es tímido y miedoso, el más astuto de todos, y escapa a la primera señal de peligro.",
+    "tacticas": "Lanza Cheese Bomb, un explosivo con forma de queso, de Acero a distancia y Rápido, y huye en cuanto huele el peligro. Úsalo como instigador que nunca pelea hasta el final pero deja trampas y problemas.",
+    "gancho": "Chuumon propone a los PJ un plan perfecto que, casualmente, requiere que otro haga el trabajo sucio; ¿descubrirán el truco antes de que explote el queso?"
+  },
+  "clearagumon": {
+    "descripcion": "Variante rara de ToyAgumon hecha de bloques de plástico transparente. Se cuenta que un niño la creó, igual que a ToyAgumon, y que solo uno de cada mil resulta así. Es tan cobarde como ToyAgumon, pero tiene un fuerte sentido de la justicia que no tolera ninguna maldad.",
+    "tacticas": "Místico de juguete: Precious Flare lanza una llamarada de juguete de Fuego a distancia que Quema, y Dream Missile un misil Mental que hace Dormir. Cobarde, ataca de lejos y se esconde tras sus aliados.",
+    "gancho": "Un ClearAgumon, casi invisible entre cristales y juguetes rotos, pide ayuda a los PJ para detener a un Digimon que hace trampas a los más pequeños."
+  },
+  "commandramon": {
+    "descripcion": "Soldado de infantería de la D-Brigade, una unidad mecanizada de élite formada por Cíborgs Dragón que cumple misiones secretas. Su piel detecta los colores del entorno en tiempo real y se camufla de mil maneras, por lo que la mayoría de sus objetivos caen sin saber que estaba ahí.",
+    "tacticas": "Francotirador camuflado: dispara M16 Assassin, fuego de larga distancia que Quema y es Certero, y lanza DCD Bomb si se le acercan. Narra su camuflaje y revela su posición solo cuando dispara.",
+    "gancho": "Los PJ notan que alguien los sigue y nadie lo ve: es un Commandramon de la D-Brigade, con una misión secreta que quizá coincida con la suya."
+  }
+}

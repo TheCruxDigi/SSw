@@ -1,0 +1,227 @@
+{
+ "tyranomon_x": {
+  "descripcion": "Un dinosaurio de escamas carmesí al que el Anticuerpo X ha vuelto más grande, veloz y salvaje que el Tyrannomon corriente. Las púas de su lomo se han endurecido hasta brillar como gemas, y ya no se deja domar con facilidad. Aún conserva algo de la inteligencia de su estirpe, pero conviene no fiarse.",
+  "tacticas": "Bruto que abre con Crimson Breath, un aliento de fuego a distancia que quema y golpea con saña, y se lanza luego con Crash Rolling, hecho una bola de púas que derriba y perfora a quien lo espere cuerpo a cuerpo.",
+  "gancho": "Un Tyrannomon de púas cristalinas arrasa unos cultivos y los aldeanos temen por el pueblo; los Tamers deben calmarlo antes de que el malentendido se convierta en una batalla de verdad."
+ },
+ "yunimon": {
+  "descripcion": "Caballo mítico con cuerno de unicornio y grandes alas de pegaso, capaz de cruzar la Red en un parpadeo. Mientras no tiene dueño es tan fogoso como cualquier potro salvaje, pero cuando acepta a un jinete aprende a moverse como si ambos fueran una sola criatura. Su cuerno embiste y su boca dispara energía.",
+  "tacticas": "Ágil que no se queda quieto y dispara Holy Shot, una bola de luz a distancia que ciega y llega antes de que nadie reaccione. Mientras el objetivo tantea a ciegas, Unimon ya ha cambiado de posición.",
+  "gancho": "Un Unimon salvaje galopa en círculos cerca del campamento y solo permitirá que alguien se acerque a montarlo si el grupo demuestra con hechos que merece su confianza."
+ },
+ "v-dramon": {
+  "descripcion": "Dragón antiquísimo del que se dice que solo habitó el Continente Folder, y que incluso allí se deja ver muy pocas veces. Lleva en el pecho la marca en forma de V que le da nombre. Hay quien lo confunde con un perro, pero cuando la situación se complica muestra una fuerza propia de un Digimon superior.",
+  "tacticas": "Bruto de poder fuera de lo común para un Campeón. Su V-Nova Blast, un rayo cósmico que ralentiza y golpea con brutalidad, puede barrer una zona entera; guárdalo para el momento en que el combate se ponga feo.",
+  "gancho": "Corre el rumor de que un Veedramon vigila una ruta olvidada del Continente Folder; encontrarlo ya es una hazaña, y ganarse su respeto, una misión para todo el grupo."
+ },
+ "vegimon": {
+  "descripcion": "Planta carnívora de largas lianas y bocaza enorme. Exhala un aroma dulce para atraer a los Digimon pequeños y, cuando están cerca, los enreda con sus tentáculos. Es más tramposo que fuerte: frente a rivales grandes pierde toda su ventaja. Si crece lo suficiente, acaba echando flores y frutos.",
+  "tacticas": "Evita el combate abierto y prefiere hostigar desde lejos con Poop Toss, un proyectil envenenado y asqueroso que ciega al objetivo mientras sus lianas preparan el siguiente zarpazo. Es frágil si lo acorralan.",
+  "gancho": "Un perfume dulce flota sobre el sendero y varios Digimon pequeños han desaparecido; el rastro lleva hasta un Vegiemon que aguarda tranquilamente con la boca abierta."
+ },
+ "evilmon": {
+  "descripcion": "Diablillo de voluntad férrea y pésimo perdedor, que rehúye el combate directo y prefiere atormentar a quienes son más débiles que él. Se le atribuye el origen de los Digimon oscuros del Área Oscura, aunque sobre su pasado sigue habiendo muchos misterios. Lo que más le irrita es que le ganen.",
+  "tacticas": "Acechador cobarde que acosa a los más débiles y evita el cuerpo a cuerpo. Con Nightmare Shock lanza ondas supersónicas que asustan y atrapan en pesadillas; huye en cuanto el grupo le planta cara.",
+  "gancho": "Un Vilemon acosa a los Digimon pequeños de una aldea y se esfuma cada vez que llegan refuerzos; para detenerlo hay que provocar su orgullo herido y obligarlo a dar la cara."
+ },
+ "waspmon": {
+  "descripcion": "Cíborg avispa que custodia la Base Real, una colmena secreta flotante. Las antenas de su cabeza detectan a cualquiera que se acerque, y patrulla sin descanso atacando incluso a los simples curiosos. Con las hélices de los hombros y el estabilizador de su espalda cambia de dirección a gran velocidad.",
+  "tacticas": "Tirador territorial que castiga a quien invade su zona. Bear Buster es un disparo de acero potente y a distancia; reserva Turbo Stinger para el choque cercano, donde perfora y envenena a su presa.",
+  "gancho": "Los Tamers descubren una colmena flotante rodeada de patrullas de Waspmon; la miel que guardan podría sanar a los heridos, pero antes deben demostrar que no son intrusos."
+ },
+ "zassoumon": {
+  "descripcion": "Pariente verde de Vegiemon que nunca madura ni se pone rojo, pero que a cambio ha heredado la terquedad de la mala hierba: aunque lo corten o lo golpeen, sigue en pie. Sus tentáculos de liana estrujan todo lo que atrapan, y cada derrota parece alimentar aún más su tenacidad.",
+  "tacticas": "Resistente y tenaz, pelea de cerca con Squeeze Vine para atrapar a un objetivo e inmovilizarlo mientras sus aliados actúan. No se rinde aunque lo hieran, así que conviene buscar la forma de zafarse de sus lianas.",
+  "gancho": "Un Weedmon brota una y otra vez en medio del camino que los Tamers quieren abrir; arrancarlo de raíz exige descubrir primero por qué insiste tanto en quedarse allí."
+ },
+ "wendimon": {
+  "descripcion": "Brutal hombre bestia nacido cuando un Lopmon sufrió una digievolución oscura por culpa de la ira y el odio. No es del todo malvado: la bondad de antaño sigue enterrada en lo hondo de su corazón, aunque la rabia la sofoca. Además, manipula el espacio y el tiempo para atravesar dimensiones.",
+  "tacticas": "Bruto que abre con Howling Destroyer, una onda de choque que asusta y golpea con fuerza, y remata con Club Arm para romper armas o armaduras. Una palabra amable en el momento justo puede hacerlo dudar.",
+  "gancho": "Un Wendigomon arrasa un bosque entre aullidos de dolor; los Tamers descubren que fue un Lopmon amable, y quizá todavía sea posible que lo recuerde."
+ },
+ "wezengammamon": {
+  "descripcion": "Cuadrúpedo blindado de gran corazón y carácter imponente, forma Campeón de Gammamon. Su cuerpo está plagado de armas de fuego: dispara sus dos cuernos como artillería, el de la nariz como cañón antiaéreo y cuatro pequeños cañones de las patas. Suele moverse despacio, pero no necesita correr.",
+  "tacticas": "Tanque que planta las patas y atrae el fuego enemigo con Sedna, proyectiles incendiarios que queman y provocan. Albion también quema, pero necesita enfriarse tras cada disparo, así que úsala con moderación.",
+  "gancho": "Un WezenGammamon se ha plantado en mitad de un puente y no deja cruzar a nadie; ¿defiende algo valioso o simplemente espera a alguien que no llega?"
+ },
+ "whamon_2": {
+  "descripcion": "Gran ballena Digimon que vive en las profundidades del Océano de la Red, el mar donde nacieron los Digimon. Pasa tanto tiempo en la oscuridad que sus órganos de visión se han ido atrofiando, y encontrarla es muy raro. Es feroz y a veces levanta olas gigantes para defenderse.",
+  "tacticas": "Tanque oceánico que aguanta golpes y responde de lejos. Con Jet Arrow expulsa por su espiráculo un chorro de agua a presión, rápido y perforante, que castiga a quien se acerque demasiado.",
+  "gancho": "Una sombra enorme se desliza bajo la barca del grupo; si los Tamers consiguen no asustarla, la ballena podría guiarlos hasta el fondo del Océano de la Red."
+ },
+ "witchmon": {
+  "descripcion": "Hechicera llegada de Witchelny, un Mundo Digital de otra dimensión, siguiendo los pasos de su rival Wizardmon. Domina la magia del viento y del agua y entrena sin descanso para no quedarse atrás. Es orgullosa, algo cruel y siente un profundo rechazo por las rutinas y las convenciones.",
+  "tacticas": "Hechicera a distancia que rompe la formación enemiga con Baluluna Gale, un vendaval mágico que empuja, y derriba y perfora con Aquary Pressure, un chorro de agua capaz de atravesar acero. Se burla de quien no esté a su altura.",
+  "gancho": "Witchmon reta a los Tamers a un duelo de hechizos para demostrar que supera a Wizardmon; ganar o perder importa menos que lo que revele sobre esa rivalidad."
+ },
+ "wizarmon": {
+  "descripcion": "Mago de alto nivel llegado de Witchelny, un Mundo Digital de otra dimensión, donde dominó la magia del fuego y de la tierra. Ha venido a entrenar para convertirse en un gran hechicero. Es algo travieso y bastante tímido, y mantiene siempre el rostro oculto.",
+  "tacticas": "Místico que controla el terreno: invoca Thunder Cloud, nubes oscuras que descargan rayos sobre una zona y pueden paralizar. Se queda atrás y deja que sus tormentas hagan el trabajo sucio.",
+  "gancho": "Un encapuchado gasta bromas a los Tamers por todo un pueblo; es Wizardmon, que necesita ayuda con un hechizo pero le da demasiada vergüenza pedirla."
+ },
+ "wizarmon_x": {
+  "descripcion": "Variante de Wizardmon en la que el Anticuerpo X ha reforzado la influencia del clan Eneruge de Witchelny y ha ampliado su capacidad mágica. Tras entrenar en otros mundos, ahora canaliza con ambas manos un rayo capaz de deshacer la materia en sus partículas más pequeñas.",
+  "tacticas": "Místico más agresivo que su forma original. Se acerca para soltar Bolt Break y romper defensas, y desde lejos invoca Thunder Cloud para paralizar a varios enemigos a la vez.",
+  "gancho": "Un clan de Witchelny reclama a Wizardmon (X Antibody) como uno de los suyos; el grupo debe decidir si lo protege o lo ayuda a volver a casa."
+ },
+ "wolvermon": {
+  "descripcion": "Androide con armas distintas en ambos brazos, hechas de varios metales y con piezas móviles de Chrome Digizoid. Suele ser tranquilo y callado, pero la concentración del combate lo lleva a un frenesí sanguinario. Cuando una pelea a distancia se tuerce, cierra la brecha con gracia y rapidez.",
+  "tacticas": "Tirador versátil: dispara Rapid Burst o Scatter Rocket desde lejos y, si lo presionan, se acerca para inmovilizar con Tomboy Blaze y rematar con Badger Slash.",
+  "gancho": "Wolvermon, siempre sereno, entra en frenesí en plena batalla y empieza a disparar sin distinguir amigos de enemigos; los Tamers deben calmarlo antes de que haya daños."
+ },
+ "woodmon": {
+  "descripcion": "Árbol seco y gigantesco que usa sus raíces como piernas. Atrapa a los Digimon que pasan para absorber su energía y sobrevivir, y de carácter brutal, ataca sin descanso cuando se enfurece. Su tronco aguanta muchísimo, pero el fuego lo castiga con dureza.",
+  "tacticas": "Místico lento y resistente. Branch Drain extiende sus ramas desde lejos para atrapar y chupar energía. Es muy vulnerable al fuego, así que premia a los jugadores que piensen en llamas.",
+  "gancho": "Un bosque se marchita Digimon a Digimon porque un viejo Woodmon bloquea el sendero; quemarlo sería fácil, pero quizá exista otra forma de liberar a los atrapados."
+ },
+ "xiquemon": {
+  "descripcion": "Ave migratoria con gafas de buceo que se mueve igual por el aire que por el agua, porque su DigiCore guarda datos de pez. Habita lagos y ríos fríos y viaja en busca de nuevos hogares cuando las corrientes se templan. Se dice que verlo buscar nido trae buena suerte.",
+  "tacticas": "Ágil que ataca desde el aire o desde el agua. Splash Thrash es una embestida veloz que ralentiza, y Mortar Morsel lanza un proyectil en forma de pez para rematar. Ice Vice congela a quien atrapa.",
+  "gancho": "Un Xiquemon sobrevuela la aldea buscando nido y todos creen que traerá fortuna; pero alguien quiere espantarlo, y los Tamers deben proteger su elección."
+ },
+ "yakiimon": {
+  "descripcion": "Batata asada con ansias de ser campeón. Entrena con una pasión ardiente, y cuanto más se calienta su cuerpo, mejores resultan sus puñetazos y su juego de pies. Lo curioso es que ni él mismo sabe qué significa ser campeón, así que sigue entrenando sin parar.",
+  "tacticas": "Bruto de puños: Beniazuma Straight es un directo demoledor y Beniazuma Uppercut, más lento por ir cargado, aturde y lanza al rival por los aires. Cuanto más dura el combate, más caliente y peligroso se pone.",
+  "gancho": "Yakiimon desafía a los Tamers a un entrenamiento improvisado en una pradera; si alguien logra explicarle qué es ser campeón, ganará un amigo leal."
+ },
+ "yammamon": {
+  "descripcion": "Digimon que absorbió los datos de una libélula gigante, criatura primitiva donde las haya. Su caparazón es tan duro como la cabeza de un Greymon y a la vez muy ligero, de modo que cruza el aire a toda velocidad. Con sus alas genera ondas electromagnéticas temibles.",
+  "tacticas": "Acechador volador de golpe y retirada: Thunder Ray perfora y paraliza con un láser eléctrico, e Insect Ohm paraliza con las ondas de sus alas. Aprovecha el vuelo para quedar fuera del alcance de los cuerpo a cuerpo.",
+  "gancho": "Una libélula enorme zumba sobre la ciénaga y los aparatos del grupo se apagan; Yanmamon no ataca, solo sigue una señal eléctrica que nadie más oye."
+ },
+ "youkomon": {
+  "descripcion": "Zorro azul gigante de nueve colas, temido como una bestia extraña que solo trae destrucción y ruina, a diferencia de Kyubimon. Tiene poca fuerza física, pero posee una energía espiritual enorme y un talento especial para los conjuros. Llamas rojas arden en sus extremidades.",
+  "tacticas": "Ágil hechicero: dispara Blazing Spheres, esferas de fuego rápidas que dirige a voluntad. Si lo rodean, usa Jaenryū, un dragón de llamas surgido de su cola, para quemar a quien tenga al lado.",
+  "gancho": "Dicen que donde pasa Youkomon la tierra se marchita; los Tamers deben averiguar si es una maldición verdadera o un miedo heredado de otros Digimon."
+ },
+ "yoxtuyoxtumon": {
+  "descripcion": "Marioneta hecha enteramente de yoyós de plástico especial, nacida de los datos de vídeo de un torneo de yoyó. De carácter impaciente, lo mira todo con ceño fruncido. Con el yoyó de pinchos de la mano derecha corta, y con el liso de la izquierda golpea, según lo pida la situación.",
+  "tacticas": "Místico de ritmo endiablado: Rapper Coaster confunde con su compás y One-Handed Swing atrapa con un golpe enorme de su brazo izquierdo. Torpedo Crossing es flojo y lo deja vulnerable, pues necesita ayuda para enrollar su cuerda.",
+  "gancho": "En una plaza digital un corro de Digimon baila al ritmo de unos yoyós que no paran; es Yoxtu!Yoxtu!mon, furioso porque nadie le ayuda a enrollar su cuerda."
+ },
+ "zubaeagermon": {
+  "descripcion": "Zubamon digievolucionado, vive entregado a un lema: avanzar siempre, aunque sea a rastras, sin importar si el camino es llano o escabroso. Su forma encarna ese espíritu incansable. Se siente muy orgulloso de su modo espada, con el que corta todo lo que se le ponga delante.",
+  "tacticas": "Tirador atípico que ataca de cerca: Road T(w)o Decade lo lanza en una carga certera que confunde, y Vantheon lo convierte en una rueda con filo. Nunca retrocede, y su orgullo lo empuja siempre hacia delante.",
+  "gancho": "ZubaEagermon recorre un camino lleno de barro y piedras sin detenerse; tropieza con los Tamers y los invita a seguirlo hasta su próxima meta."
+ },
+ "allomon": {
+  "descripcion": "Dinosaurio acorazado nacido del Digihuevo del Valor, especialmente feroz y enemistado con Tyrannomon. Sus potentes patas le permiten correr a velocidad de vértigo con la cabeza gacha y el cuerpo en horizontal. Su aliento es un viento de temperatura extrema.",
+  "tacticas": "Bruto que arremete de cabeza. Dino Burst, su aliento ardiente a distancia, quema y golpea con fuerza. Si hay un Tyrannomon en el encuentro, olvida todo lo demás para ir a por él.",
+  "gancho": "Allomon y un Tyrannomon se disputan un valle; los Tamers deben impedir que arrasen un poblado mientras se persiguen, o convencerlos de pelear en otro lugar."
+ },
+ "archelomon": {
+  "descripcion": "Gran tortuga marina de aletas delanteras afiladas como cuchillos, nacida del Digihuevo de la Fiabilidad. De carácter tranquilo, se mueve despacio incluso en el agua, pero su caparazón duro y sus aletas cortantes mantienen a raya a casi cualquier atacante.",
+  "tacticas": "Bruto lento pero imponente. Ocean Strom crea un remolino enorme que golpea con brutalidad y ralentiza a los enemigos; ideal para dominar el combate sobre agua.",
+  "gancho": "Un Archelomon dormita al sol en un islote y los Tamers necesitan cruzar el mar; despertarlo a gritos es mala idea, pero con paciencia quizá los lleve."
+ },
+ "owlmon": {
+  "descripcion": "Ave de armadura nacida del Digihuevo del Amor, experta en reconocimiento y en la actividad nocturna. Sus ojos de visor nocturno distinguen a un rival a un kilómetro incluso en plena oscuridad. Es más espía que guerrero y prefiere los golpes sigilosos, al estilo ninja.",
+  "tacticas": "Ágil nocturno que ataca desde las sombras y por la espalda. Con Midnight Clutch cae sobre su objetivo y lo atrapa con las garras antes de que reaccione. Rinde mejor si el combate transcurre de noche.",
+  "gancho": "Un espía nocturno vigila el campamento: es Aurumon, que informa de todo lo que ve a alguien desconocido, y los Tamers deben descubrir a quién."
+ },
+ "baromon": {
+  "descripcion": "Espíritu guardián de las ruinas de un templo perdido en una selva olvidada, superviviente de una generación anterior de Digimon. Posee habilidades de tecnología perdida, como el tercer ojo de su frente, que según la leyenda le permite ver el futuro y le salvó de la caída del Mundo Digital Antiguo.",
+  "tacticas": "Místico paciente: tarda en sintonizar con el cosmos, pero Meteor Dance invoca una lluvia de meteoritos capaz de rematar a quien ya esté herido. Atácalo antes de que termine de prepararla.",
+  "gancho": "En las ruinas de un templo selvático, un Baronmon dormido guarda secretos de una era perdida; solo hablará con quien muestre respeto por los Digimon antiguos."
+ },
+ "boarmon": {
+  "descripcion": "Jabalí acorazado nacido del Digihuevo del Valor, encarnación de la idea de lanzarse sin pensar. Llamas rodean sus patas, su cola y su melena, y nadie lo detiene una vez que echa a correr. Una teoría sostiene que en su programa no existe siquiera el concepto de girar.",
+  "tacticas": "Ágil que carga en línea recta, rápido pero predecible. Con Nose Blaster aspira una gran bocanada de aire y la suelta por el hocico como una llamarada que quema y drena energía.",
+  "gancho": "Boarmon no sabe girar y su carrera ciega apunta hacia un campo de cristales de datos; los Tamers deben improvisar un desvío antes de que lo arrase."
+ },
+ "pucchiemon": {
+  "descripcion": "Hada de armadura nacida del Digihuevo de la Bondad, de carácter caprichoso. Le encanta que le acaricien la cabeza y los chismorreos, y canta cuando está de buen humor. Detesta que le toquen la cola: si lo intentan, se enfada y no escucha nada más.",
+  "tacticas": "Místico poco fuerte pero desarmante. Heartner Beam es una luz suave que encanta a sus rivales y les quita las ganas de luchar. Úsalo para convertir un combate en una negociación.",
+  "gancho": "Un Bucchiemon cotillea sobre todos los Digimon del bosque y sus chismes resultan útiles; para ganarse su favor hay que rascarle la cabeza y no acercarse nunca a su cola."
+ },
+ "pucchiemon-green": {
+  "descripcion": "Variante verde de Bucchiemon, mucho más escasa y por eso muy codiciada. Como las demás, es un hada de armadura de carácter caprichoso, aficionada a los chismes y a los mimos en la cabeza, y se pone de mal humor si le tocan la cola. Su luz amansa hasta a los rivales más enfadados.",
+  "tacticas": "Místico débil en ataque pero eficaz en el trato: Heartner Beam encanta a sus enemigos y les hace perder las ganas de pelear. Si sospecha que quieren capturarlo, se marcha volando.",
+  "gancho": "Unos cazadores de tesoros persiguen a un Bucchiemon (Green) por lo raro que es; el grupo debe protegerlo sin tratarlo como una joya y, sobre todo, sin tocarle la cola."
+ },
+ "bullmon": {
+  "descripcion": "Toro de combate nacido del Digihuevo de la Esperanza, con una fuerza de embestida y un poder destructor enormes. A máxima velocidad solo sabe correr hacia delante, sin poder girar ni dar marcha atrás. Tiene muy mal genio y se agita en cuanto ve algo de color rojo.",
+  "tacticas": "Ágil que embiste con Matador Dash, cuernos por delante, provocando y golpeando a gran velocidad. Una capa o un trapo rojo puede desviar su carga, y premia la creatividad del grupo.",
+  "gancho": "En pleno desfile de banderines rojos, un Bullmon pierde los nervios; los Tamers deben retirar los colores o desviar su carrera antes de que arrase la fiesta."
+ },
+ "butterflamon": {
+  "descripcion": "Mariposa de armadura nacida del Digihuevo del Conocimiento, que habita regiones cálidas y campos de flores. Detesta los conflictos y tiene un carácter amable. Como Flybeemon y Honeybeemon, surge del poder de los Digihuevos cuando aparecen muchos Kunemon a la vez.",
+  "tacticas": "Místico pacífico que prefiere no pelear. Sweet Pheromone esparce esporas que encantan y protegen: úsalo cuando se vea acorralado, para que el enemigo baje la guardia y el combate termine sin heridas.",
+  "gancho": "Un campo de flores se llena de esporas brillantes y los Digimon cercanos dejan de pelear; Butterflymon solo quiere paz, pero alguien está aprovechando el hechizo."
+ },
+ "chamelemon": {
+  "descripcion": "Camaleón de armadura nacido del Digihuevo de la Bondad, que cambia la textura de su piel para fundirse con el entorno. Perfecto para el espionaje, se cuela en bases de datos y algunas empresas lo han usado para robar información. Sus ojos con escáner giran para ver en todas direcciones.",
+  "tacticas": "Bruto sigiloso que se camufla y ataca por sorpresa. Con Tongue Whip fustiga con la lengua, atrapa y golpea con fuerza. Una vez descubierto, pierde su principal ventaja.",
+  "gancho": "Alguien ha robado datos de una biblioteca sin dejar rastro, pero los Tamers notan una pared de textura extraña que respira: el ladrón es Chameleonmon."
+ },
+ "depthmon": {
+  "descripcion": "Hombre bestia acuático de armadura nacido del Digihuevo de la Fiabilidad. Gracias al poder del huevo, se mueve por el agua tan veloz como un pez, y su armadura soporta tanta presión que desciende más hondo que Divermon. Solo Whamon le disputa el récord de profundidad.",
+  "tacticas": "Bruto submarino. Bubble Bomb crea burbujas que estallan al tocarlas, ralentizan y golpean fuerte; son una buena trampa en zonas inundadas o bajo la lluvia.",
+  "gancho": "Unas burbujas misteriosas bloquean un canal, y Depthmon se ofrece a guiar a los Tamers hasta el fondo, donde nadie más puede bajar, para descubrir de dónde vienen."
+ },
+ "digmon": {
+  "descripcion": "Digimon de armadura nacido del Digihuevo del Conocimiento, cuyo atributo de tierra le da dominio sobre el suelo. Con los taladros giratorios de la nariz y las manos, jamás pierde un combate bajo tierra. Su forma tan peculiar lo vuelve experto en abrirse paso entre rocas.",
+  "tacticas": "Acechador que se mueve por túneles y emerge para atacar. Big Crack parte el suelo y perfora; Gold Rush concentra los taladros en un golpe cargado que derriba. Es más peligroso cuanto más cerca esté del subsuelo.",
+  "gancho": "Los túneles bajo una aldea se agrietan y un Digmon asoma pidiendo ayuda: alguien cava donde no debe, y solo él conoce de verdad el subsuelo."
+ },
+ "elephamon": {
+  "descripcion": "Androide de armadura nacido del Digihuevo de los Milagros, que abruma con su corpulencia y su poder. Las gigantescas turbinas de sus orejas lo hacen más veloz de lo que aparenta: no lo hacen volar, pero lo mantienen flotando sobre el suelo e incluso sobre el agua. Es gentil, aunque con un fuerte sentido de la justicia.",
+  "tacticas": "Tirador pesado que domina el espacio: Nitro Turbine Wave levanta una onda de choque como un tifón, de largo alcance y en zona, que empuja y golpea. Se ensaña sobre todo con los Digimon malvados.",
+  "gancho": "Un enorme Elephantmon flota sobre un río, protegiendo a unos Digimon pequeños de unos bandidos; no ataca primero, pero su sentido de la justicia no perdona."
+ },
+ "fladramon": {
+  "descripcion": "Guerrero dragón con armadura, nacido del Digihuevo del Valor, cuyo atributo de fuego avivó sus puños hasta convertirlos en llamas rugientes. Se lanza al cuerpo a cuerpo con una fuerza abrumadora. Su valentía no conoce freno y su ardor se contagia a quienes lo rodean.",
+  "tacticas": "Bruto de fuego que lucha de cerca con Flaming Fist, puñetazos ardientes que queman y hieren con crudeza. Con Fire Rocket se transforma en un cohete de llamas para rematar a distancia.",
+  "gancho": "Un fuego que no se apaga devora un puente de madera y los Tamers necesitan a Flamedramon para rescatar a los atrapados, aunque su propia llama podría alimentar el incendio."
+ },
+ "flawizarmon": {
+  "descripcion": "Mago de armadura nacido del Digihuevo del Valor que, a diferencia del tímido Wizardmon, muestra su verdadero rostro con total seguridad. Porta dos bastones en forma de cerilla que potencian su magia de fuego, un lenguaje de programación de alto nivel. Su carácter es tan encendido como sus hechizos.",
+  "tacticas": "Místico de fuego: Magic Ignition enciende y confunde a un objetivo, y Fire Cloud invoca una tormenta de llamas en una zona cercana. Protégelo con aliados, pues es poco resistente.",
+  "gancho": "Dos magos de fuego se disputan una plaza, uno tímido de rostro oculto y FlameWizardmon, que lo desafía a la luz del día; el grupo debe evitar que se queme el mercado."
+ },
+ "flybeemon": {
+  "descripcion": "Insecto de armadura nacido del Digihuevo del Conocimiento, mutación que surge cuando muchos Kunemon aparecen a la vez. Es muy territorial y repele a todo el que entre en sus dominios, aunque tenga fuerza de nivel Mega. Honeybeemon y Butterflymon son variantes suyas, muy raras de ver.",
+  "tacticas": "Acechador volador que defiende su territorio: con Fly Spark hace vibrar sus alas y paraliza con descargas rápidas, y con Needle Stinger perfora y envenena desde el aguijón de su cola.",
+  "gancho": "Los Tamers cruzan sin saberlo el territorio de un Flybeemon; deben retirarse con cuidado o demostrar que no son una amenaza antes de que el enjambre responda."
+ },
+ "frogmon": {
+  "descripcion": "Mutante de armadura nacido del Digihuevo de la Sinceridad, con multitud de aparatos extraños por todo el cuerpo. Fue descubierto hace poco, pero sus datos delatan una especie de generaciones antiguas. Su máscara semitransparente es muy blanda y amortigua casi cualquier ataque.",
+  "tacticas": "Versátil y desconcertante: se acerca y usa Leaf Wheel Cutter, láminas giratorias que cortan y atrapan. Su máscara blanda absorbe golpes, así que conviene sorprenderlo con ataques inesperados.",
+  "gancho": "Un Frogmon recién descubierto lleva grabados que parecen venir de una generación antigua de Digimon; los sabios del pueblo piden a los Tamers que lo escolten hasta la biblioteca."
+ },
+ "gargomon": {
+  "descripcion": "Bestia oscura de armadura nacida del Digihuevo de la Luz, antaño un Digimon maligno cuyos poderes se mantienen contenidos con ataduras. A veces sirve de familiar a los Digimon ángel. Se dice que, si alguna vez se liberara, mostraría un poder inmenso.",
+  "tacticas": "Acechador intimidante: White Statue invoca la estatua de un demonio gigante que asusta y golpea desde lejos. Sus ataduras pueden servir de recurso narrativo para dar tensión a la escena.",
+  "gancho": "Un ángel pide a los Tamers que vigilen a su Gargoylemon durante un viaje; algo intenta romper las ataduras que lo contienen, y nadie sabe qué ocurrirá si lo consigue."
+ },
+ "goatmon": {
+  "descripcion": "Gran cabra montesa negra nacida del Digihuevo de la Esperanza, encargada de proteger tesoros y ruinas de tiempos antiguos. Levanta barreras para resguardar datos esenciales. Eso sí, su afición cabruna a comer documentos ha dado más de un problema, y Harpymon es su enemigo natural.",
+  "tacticas": "Ágil guardián de un lugar. Con Mystic Bell, la campana de su cuello emite ultrasonidos que confunden y desorientan a los intrusos; si hay ladrones cerca, se centra en ellos.",
+  "gancho": "El archivo que protege un Goatmon ha perdido un documento clave y todos sospechan de un ladrón; los Tamers descubren que quizá el culpable tiene pezuñas y mucha hambre."
+ },
+ "goldv-dramon": {
+  "descripcion": "Dragón mítico dorado, resultado de la digievolución de armadura de Veemon con el Digihuevo del Destino. Es un Digimon valiosísimo, con un poder de ataque extraordinario para su nivel que se acerca al de un Mega cuando la situación lo exige. Su cuerpo de oro ilumina la oscuridad de la Red.",
+  "tacticas": "Bruto muy peligroso para su nivel. V-Nova Blast, un rayo cósmico dorado que ralentiza y golpea con brutalidad, puede alcanzar una zona. Resérvalo como golpe de gracia contra enemigos más duros.",
+  "gancho": "Un resplandor dorado atraviesa una cueva oscura de la Red; los Tamers siguen la luz de GoldVeedramon y descubren que alguien intenta robarle su brillo."
+ },
+ "holsmon": {
+  "descripcion": "Bestia alada de armadura nacida del Digihuevo del Amor, cuyo atributo de viento la hace rápida como un vendaval. Sus alas disparan ondas de choque y su mirada afilada es capaz de hipnotizar. Tiene el porte de un guardián del cielo, aunque lo suyo es la velocidad y la fuerza.",
+  "tacticas": "Ágil muy veloz: Mach Impulse dispara ondas de choque desde sus alas que empujan, y Tempest Wing crea un tornado al girar sobre sí mismo. Con Udjat Gaze asusta y confunde con la mirada.",
+  "gancho": "Un remolino levanta el campamento en plena noche; al calmarse, un Halsemon aguarda con una advertencia sobre algo que se aproxima desde el desierto."
+ },
+ "harpymon": {
+  "descripcion": "Ladrona con alas por brazos y torso femenino, apodada la Arrebatadora por los datos valiosos que roba de las bases de datos como si fueran tesoros de ruinas. Aparece como un viento feroz y ataca con afiladas garras. No es muy fuerte, pero su velocidad vuelve temibles sus combos.",
+  "tacticas": "Ágil de golpes rápidos. Wind Seeker convierte el viento en cuchillas certeras que empujan. Puede intentar robar un objeto del grupo y huir; Goatmon es su enemigo natural.",
+  "gancho": "Los objetos de valor del campamento desaparecen entre ráfagas de viento; la culpable es Harpymon, y su próximo objetivo es el tesoro que vigila un Goatmon."
+ },
+ "honeybeemon": {
+  "descripcion": "Abeja diminuta de armadura nacida del Digihuevo del Conocimiento, que se mueve a una velocidad endiablada. Parece ir derecha hacia su rival y, de pronto, lo rodea para picarle por detrás. Es pequeña y poco potente, pero lo compensa con rapidez y destreza; su debilidad son los dulces.",
+  "tacticas": "Acechador volador que embosca por la espalda: Poison Powder esparce polen venenoso en una zona y Paralyze Sting pica y paraliza. Un dulce a la vista puede distraerlo por completo.",
+  "gancho": "Un aroma a caramelo atrae a Honeybeemon hasta el puesto de un pastelero del pueblo; los Tamers deben recuperar el cargamento sin hacerle daño al Digimon ni al pastelero."
+ },
+ "kabukimon": {
+  "descripcion": "Mutante de armadura nacido del Digihuevo de la Sinceridad, con grandes flores brotando de la cabeza y de las manos. Pasa mucho tiempo agachado, absorbiendo nutrientes; detesta la luz del sol, algo raro en una planta, pero adora los lugares iluminados con focos. Sus gestos son extraños y a la vez hermosos.",
+  "tacticas": "Versátil de estilo teatral: Cherry Blossom Storm hipnotiza con una lluvia de pétalos y ciega, y Wedge Attack lanza pétalos afilados que perforan y atrapan. Descríbelo como un espectáculo.",
+  "gancho": "Un escenario abandonado se ilumina de pronto y Kabukimon sale a escena; los Tamers son el público, y el desenlace de la función depende de cómo reaccionen."
+ }
+}

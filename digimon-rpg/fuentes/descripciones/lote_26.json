@@ -1,0 +1,227 @@
+{
+  "metalgarurumon_x": {
+    "descripcion": "Un lobo de acero que ha aprendido a erguirse sobre dos patas, con el cuerpo erizado de armas desde el hocico hasta la cola. Sus sensores ven en la oscuridad total y nada se le escapa. El Anticuerpo X le dio más puntería y más munición: es una pieza de artillería que corre a toda velocidad.",
+    "tacticas": "Mantenlo a distancia y deja que dispare: Metal Storm barre una zona entera con ráfagas rápidas y brutales. Cuando un héroe quede aislado, Freezing Breath lo congela y lo remata. Si le cierran el paso, pierde buena parte de su ventaja.",
+    "gancho": "Una torre de vigilancia helada ha dejado de responder y solo MetalGarurumon (X Antibody) patrulla sus alrededores, disparando a todo lo que se mueve. Los héroes deben demostrarle que no son intrusos."
+  },
+  "metallicdramon": {
+    "descripcion": "Dragón metálico de las grandes alturas, tan veloz que su silueta se confunde con un destello. Los eruditos discuten si el batir de sus alas reparte partículas que mantienen el orden del Mundo Digital. Verlo cerca del suelo es señal de que algo importante se está gestando. Su cola es un cañón de luz cegadora.",
+    "tacticas": "Ataca desde el aire con Laser Cannon, que ciega y puede rematar a un héroe herido, y baja en picado con Laser Saber, rápida pero con una preparación visible. Anuncia esa carga para que los jugadores reaccionen.",
+    "gancho": "Un dragón de metal desciende por debajo de las nubes y todo el valle guarda silencio. ¿Qué presagio trae, y quién se atreverá a seguirlo hasta las alturas?"
+  },
+  "metalpiranimon": {
+    "descripcion": "Pez blindado de dientes afilados cuya cabeza metálica pesa tanto que necesita un contrapeso en la aleta de la cola para no hundirse de morro. Vive en cardúmenes por los Ríos de la Red y muerde sin piedad a quien se acerca de más. Si la cabeza se estropea, un botón rojo la suelta y otra ocupa su lugar.",
+    "tacticas": "Es un tanque de primera línea: 3D Razor muerde desde todos lados y provoca a los héroes para que se lancen contra él. Cuando alguien queda atrapado, Max-Power Vise aprieta con sus mandíbulas de acero.",
+    "gancho": "Un cardumen de MetalPiranimon bloquea el único vado de un río de datos. Los héroes deben cruzarlo sin ser mordidos, o ingeniárselas para que los peces se aparten."
+  },
+  "metalseadramon": {
+    "descripcion": "Serpiente marina recubierta de Chrondigizoid, un súper metal que repele casi cualquier golpe. Fue rediseñada como interceptor acuático y es la más veloz de todos los Digimon de agua. Corta las olas como una lanza plateada, y el cañón de su morro basta para silenciar a un enemigo antes de que la vea llegar.",
+    "tacticas": "Como jefe, mantiene la distancia y dispara River of Power, un chorro brutal de agua a presión. Alterna la versión débil para desgastar y la fuerte cuando quiera abatir a alguien, y se recoloca veloz entre las olas.",
+    "gancho": "Cada noche un puerto digital pierde un barco más. El culpable es MetalSeadramon, guardián tan estricto que dispara a cualquier nave sin permiso, y los héroes necesitan cruzar su bahía."
+  },
+  "metatromon": {
+    "descripcion": "Gigante de hierro con aires de ángel vengador, aunque no posee ni una chispa de poder sagrado: es máquina de pies a cabeza. Se cree el más refinado de su especie y mira a todos por encima del hombro. Sus alas son armas autónomas y los ojos que cubren su coraza le dan visión en todas direcciones.",
+    "tacticas": "Sostiene el frente con su armadura y obliga a mirarlo: Iron Halo inmoviliza y provoca. Luego Eyes of Enoch busca blancos con puntería certera y Metatronios quema en zona. Se mueve poco, así que conviene rodearlo.",
+    "gancho": "Un orgulloso gigante de hierro exige que los héroes reconozcan su superioridad antes de dejarles cruzar su santuario de engranajes. Su vanidad es la única grieta en su coraza."
+  },
+  "millenniumon": {
+    "descripcion": "Monstruo nacido de fundir a Machinedramon, con su fuerza descomunal, y a Kimeramon, con los datos de muchos Digimon poderosos. Se dice que es invencible, aunque tal vez descubrir por qué se fusionaron esas dos criaturas revele cómo vencerlo. Su sola presencia hace que los relojes cercanos parezcan dudar.",
+    "tacticas": "Es un enemigo final: Time Unlimited ralentiza a los héroes y los encierra en un pliegue del tiempo. Plantea el combate como un enigma, donde descubrir el motivo de su fusión pesa tanto como los golpes.",
+    "gancho": "Los relojes digitales se detienen uno tras otro. Las pistas apuntan a Millenniummon, y para vencerlo los héroes deben averiguar por qué Machinedramon y Kimeramon se fusionaron."
+  },
+  "minervamon": {
+    "descripcion": "Miembro de los Olympos XII con aspecto de niña, que maneja un espadón tan grande como ella llamado Olympia. Es alegre e inocente, pero su humor cambia como el viento: si se enfada, se vuelve caprichosa y nada la detiene. Con ella nunca se sabe si recibirás un abrazo, una rabieta o una tormenta.",
+    "tacticas": "Se acerca y golpea con Strike Roll, un tajo rodante que parte el suelo y derriba, y revuelve la mesa con Madness Merry-go-round, que confunde y golpea fuerte. Cuanto peor sea su humor, más brutal se vuelve.",
+    "gancho": "Minervamon ha perdido su espada Olympia y está de un humor terrible. Los héroes deben encontrarla antes de que su rabieta convierta el valle en un remolino."
+  },
+  "minervamon_x": {
+    "descripcion": "Más pequeña que su propia espada, Minervamon (X Antibody) ha ganado a cambio dos trenzas con voluntad propia, Ulula y Serpens, que se creen sabias y la aconsejan en combate. A ella le encanta tener dos nuevas amigas con quienes jugar. Sigue siendo igual de fuerte y ahora maneja a Olympia aún más rápido.",
+    "tacticas": "Lanza a sus trenzas con Haunted Hair para asustar desde lejos y se cuela a corta distancia con Crazy-Go-Round. Cuando necesita respirar, Sanctus Tormentum dispara desde su escudo y la protege.",
+    "gancho": "Las trenzas Ulula y Serpens discuten sobre qué camino tomar y Minervamon obedece a la que gane. Los héroes pueden ganarse a una de ellas con un buen argumento."
+  },
+  "miragegaogamon": {
+    "descripcion": "Caballero lobo cubierto de armadura de Chrondigizoid que se mueve tan deprisa que sus enemigos creen ver un espejismo, de ahí su nombre. Combina garras veloces, ondas con forma de luna creciente y un cañón en el pecho que reserva para el momento decisivo.",
+    "tacticas": "Es escurridizo y versátil: Double Crescent Mirage confunde y oculta su posición, y Gale Claw lo trae al cuerpo a cuerpo empujando. Reserva Full Moon Blaster, que necesita carga, para cuando los héroes se confíen.",
+    "gancho": "Los héroes persiguen a un jinete plateado que parece estar en tres lugares a la vez. Descubrir cuál es el verdadero MirageGaogamon es el primer paso para ganarse su alianza."
+  },
+  "miragegaogamon:burstmode": {
+    "descripcion": "Forma temporal que lleva al límite las capacidades de MirageGaogamon mediante la Burst Digivolution. Se equipa con armas y un aura de energía de escala planetaria. No puede mantenerse mucho tiempo, así que cada instante cuenta, tanto para él como para quienes lo enfrentan.",
+    "tacticas": "Es un golpe de duración breve: abre con Final Mirage Burst, brutal y desconcertante, y se acerca con Luna Hook Slasher o Full Moon Meteor Impact para aturdir. Piensa en una cuenta atrás de pocos asaltos.",
+    "gancho": "Un aliado de los héroes se transforma en MirageGaogamon: Burst Mode para proteger la aldea y debe ganar antes de que la forma se desvanezca. ¿Podrán darle el tiempo necesario?"
+  },
+  "mitamamon": {
+    "descripcion": "Espíritu sagrado hecho de fuego, agua, rayo y viento, sin más cuerpo que su DigiCore. Se deja ver, pero no tocar: solo los Digimon al borde de la muerte reciben su permiso. Es amable y rehúye las peleas, aunque si algo despierta su ira se vuelve una bestia sin piedad.",
+    "tacticas": "Pelea desde lejos y con agilidad: Gouenrin quema y golpea primero, y Kaijinraidou paraliza con rayos que no fallan. Si sus aliados se hieren, Kyouka Suigetsu los cura. Solo se vuelve feroz si lo provocan.",
+    "gancho": "Un Digimon moribundo susurra que Mitamamon puede salvarlo. Los héroes deben encontrar al espíritu sin molestarlo ni despertar su furia, y mostrarle que ese Digimon merece un lugar en el cielo."
+  },
+  "moonmillenniumon": {
+    "descripcion": "La oscuridad del corazón de Millenniummon convertida en alma, sin forma fija. Suele verse como un cristal que cambia según su odio. Al no tener cuerpo, los golpes físicos no le hacen nada: para destruirlo hay que vencer antes a Millenniummon, y aun así puede separarse y renacer a través del tiempo y el espacio.",
+    "tacticas": "La fuerza bruta no sirve: trátalo como un enemigo de trama. Su Death Crystal asusta y atraviesa defensas, dañando el alma más que el cuerpo. Los héroes deben centrarse en vencer al cuerpo de Millenniummon.",
+    "gancho": "Un cristal negro flota sobre un campo de batalla abandonado y susurra a los héroes sus peores miedos. Solo derrotando a su origen, Millenniummon, podrán silenciarlo."
+  },
+  "murmukusmon": {
+    "descripcion": "Antiguo ángel de alto rango caído en desgracia, hoy ostenta el título de Conde entre los Soldados de la Pesadilla y manda treinta legiones demoníacas. Lo acompaña Gryphonmon, al que trata como a un miembro más de su cuerpo. Conserva un porte noble, pero su corazón es de brasas.",
+    "tacticas": "Bruto de mando, avanza con sus legiones y escupe Gehenna Flame, un fuego infernal que quema y golpea brutal. Usa la versión débil para hostigar y la fuerte para rematar.",
+    "gancho": "Un conde caído con treinta legiones exige un tributo a un pueblo digital. Los héroes pueden reunir a los vecinos para defenderse o intentar negociar con él."
+  },
+  "necromon": {
+    "descripcion": "Fantasma de primer orden que ha absorbido los datos de muchos espectros de la Red. Porta la GreyBlade, una espada con forma de lápida, roma pero mortal, y una linterna donde guarda las almas que captura. Su libro, el Necronomicon, se invoca como otro fantasma. Teme la luz sagrada y nunca se acerca a quien la domina.",
+    "tacticas": "Flota en silencio y golpea con Soul Striker, que drena vida y le da un escudo, y convoca a sus espectros con Apparition Legion para rematar. Es débil ante la luz: un héroe sagrado puede forzarlo a retirarse.",
+    "gancho": "Los vecinos del pueblo desaparecen cada noche y alguien oyó el tintineo de una linterna. Los héroes tendrán que llevar luz propia para enfrentarse a Necromon."
+  },
+  "neovamdemon": {
+    "descripcion": "General del Ejército de la Luna de los Big Death-Stars. Pasó tanto tiempo en la oscuridad que perdió toda emoción: ni odia ni disfruta las masacres, salvo al ver cómo los Digimon se apagan bajo la luna. Invoca sanguijuelas de pesadilla que se alimentan de la energía vital de sus víctimas.",
+    "tacticas": "Debilita primero con Nightmare Raid, un enjambre de sanguijuelas que drena y asusta, atrapa con Blue Obliteration y, si le dan tiempo, carga Doom Cannon con la luna de su pecho. Interrumpir esa carga es la clave.",
+    "gancho": "La luna llena se acerca y con ella el ataque de NeoMyotismon. Los héroes tienen una noche para evacuar el pueblo o encontrar la forma de ocultar la luz que lo alimenta."
+  },
+  "neptunemon": {
+    "descripcion": "Dios del mar entre los Olympos XII, gobierna a todos los Digimon acuáticos. Su armadura de escamas de Blue Digizoid le da velocidad y agilidad bajo el agua. Reina desde Abyss Sanctuary, un castillo en una fosa tan profunda que solo entran quienes soportan la presión de las profundidades.",
+    "tacticas": "Combátelo en el agua, donde se mueve como un pez: Vortex Penetration es una estocada de su lanza viva que perfora y empuja, y Wave of Depth arrasa a todo un grupo con una ola brutal.",
+    "gancho": "Para pedir ayuda a Neptunemon los héroes deben descender hasta Abyss Sanctuary soportando la presión. ¿Qué ofrecerán a cambio al rey del mar?"
+  },
+  "nezhamon": {
+    "descripcion": "Androide con dominio del fuego, nacido de los datos de un joven dios de leyenda china. Es pequeño, fanfarrón y pendenciero, pero no esconde malicia, y esa franqueza lo hace entrañable. Maneja con soltura tres armas divinas. Cuando arma jaleo, solo queda aguantar hasta que se canse.",
+    "tacticas": "Dispara Kankonken desde lejos con aros de energía ardientes y certeros, y se lanza con Bakujin Engekiha para atravesar al rival. Ataca por impulso, sin plan: los héroes pueden aprovecharlo.",
+    "gancho": "Nezhamon se aburre y reta a los héroes a una carrera por el bosque digital, sembrando fuego a su paso. Hay que ganarle sin herirlo ni que el bosque arda."
+  },
+  "nazhamon_crimson": {
+    "descripcion": "Forma despierta de Nezhamon: crece de tamaño, monta una moto de ruedas llameantes y gana dos pares de brazos cibernéticos. Con seis extremidades maneja a la vez espadas, cuerda, mazo y bolas de fuego. Sigue siendo bullicioso: su único defecto es resolverlo todo armando ruido, incluso cuando tiene razón.",
+    "tacticas": "Abre con Zankan Sojingeki, cortes veloces y certeros que ciegan desde lejos, y se echa encima con Fushin Rokurenge, una lluvia de golpes de sus seis brazos. Es ruidoso y directo, sin sutilezas.",
+    "gancho": "Un justiciero de seis brazos ha decidido castigar a unos bandidos digitales, pero sus métodos destrozan media ciudad. Los héroes deben calmarlo antes de que la justicia haga más daño."
+  },
+  "nidhoggmon": {
+    "descripcion": "Dragón colosal en perpetuo sobrecalentamiento por la enorme energía que absorbe sin descanso. La luz de sus alas se vuelve más roja cuanto más cerca está del límite. Por donde pasa no queda nada en pie, así que los Digimon sensatos huyen en cuanto ven un resplandor rojizo en el horizonte.",
+    "tacticas": "Bruto que avanza sin parar: Rudiment lanza una onda de fuego por la boca y Annihilention dispara rayos ardientes y brutales con los ojos. Cuanto más dura el combate, más enrojecen sus alas.",
+    "gancho": "Un horizonte rojo se acerca al valle. Los héroes deben detener o desviar a Nidhoggmon antes de que no quede nada, y quizá exista algún modo de enfriarlo."
+  },
+  "noblepumpmon": {
+    "descripcion": "Pumpkinmon con atuendo de caballero, fiel a su papel de mediador entre la justicia y el mal. Solo quiere arrancar una sonrisa a cada Digimon, y su carácter alegre y juguetón hace que todos se abran a él. Con su báculo, el Assam Ring Jack, prepara platos de calabaza que satisfacen a cualquiera.",
+    "tacticas": "No busca destruir sino desconcertar: Assam Ring Jack confunde la mente y Trick or Treat Wallace lanza una enorme calabaza explosiva que empuja y marea. Atlantic Dam arrolla con una oleada de sopa de calabaza.",
+    "gancho": "NoblePumpkinmon organiza un banquete donde deben sentarse a la misma mesa Digimon enemistados. Los héroes tienen que evitar que alguien eche a perder la fiesta."
+  },
+  "nyabootmon": {
+    "descripcion": "Gato con ropa de caballero medieval y capa al viento que recorre el Mundo Digital caminando erguido. Habla con pompa y gesticula mucho, pero tiene un firme sentido de la justicia y no tolera el mal. Sus botas controlan la gravedad, y su espada, la Catnip Rapier, resuelve problemas con florituras.",
+    "tacticas": "Ágil y amigo de lucirse: Gravity Paw salta alto y cae con una patada que ralentiza y desorienta, y Carabas Special acorta distancias para confundir. Secret Sword: Nine Lives es su remate teatral.",
+    "gancho": "Nyabootmon se presenta como paladín y reta al grupo a un duelo de honor a cambio de su ayuda. Perder con elegancia puede ser mejor que ganar."
+  },
+  "ogudomon": {
+    "descripcion": "Súper Señor Demonio de forma extraña: siete patas, siete ojos y un octavo ojo distinto a los demás. Encarna todos los pecados del Mundo Digital y también el poder de expiarlos. Quien lleva dentro un atisbo de maldad ve su fuerza anulada ante él, de modo que no puede derrotarlo.",
+    "tacticas": "Golpea sin prisa y desde lejos: Oratio Grandioloqua asusta y atraviesa defensas, Catedral paraliza con una onda como un canto y Gradus aplasta con una pata. Los personajes de intenciones turbias lo tienen peor.",
+    "gancho": "Los héroes encuentran a una criatura de siete patas que recorre un viejo templo en ruinas. Para pasar deberán demostrar que no llevan maldad en el corazón. ¿Quién la lleva?"
+  },
+  "ogudomon_x": {
+    "descripcion": "Con el Anticuerpo X, los impulsos destructivos y las malas intenciones de Ogudomon se han multiplicado. Su mera existencia podría arruinar el Mundo Digital. Sus seis brazos y su cabeza son ahora tentáculos-cuchilla, cada uno con el poder de uno de los Siete Grandes Señores Demonio, y ataca a quien se acerque, sea amigo o enemigo.",
+    "tacticas": "Amenaza final que ataca a todos por igual: Destiny Death Destruction (Death 3) es brutal y asusta. Usa la versión débil para cercar y la fuerte para devastar, y describe cada tentáculo-cuchilla como un peligro distinto.",
+    "gancho": "Las siete luces que marcan el sello de los Señores Demonio parpadean todas a la vez. Los héroes deben alcanzar a Ogudomon (X Antibody) y decidir si lo detienen o huyen."
+  },
+  "olegmon": {
+    "descripcion": "Peso superpesado cubierto de armadura de acero, jefe de la Tripulación del Oro Pirata de los Big Death-Stars. Su apetito de oro, plata y tesoros es infinito, y cuanto más come, más dura se hace su armadura. En sus hombros lleva dos sombras enjauladas, Jormungandr y Surtr, que se vuelven malignas ante los enemigos.",
+    "tacticas": "Lanza sus hachas con Dual Tomahawk Boomerang para asustar y golpear, y remata de cerca con Viking Vuffet. Sus sombras actúan por separado: Age of Discovery arrastra y Dream Comes True duerme con una falsa promesa.",
+    "gancho": "Un barco de acero fondea en la costa y la tripulación de Olegmon exige todo el oro del pueblo. Los héroes pueden intentar convencerlos de que lo que más brilla no es el oro."
+  },
+  "omegamon": {
+    "descripcion": "Caballero Real nacido de la fusión de WarGreymon y MetalGarurumon por la voluntad de quienes desean el bien. Su brazo izquierdo es el de WarGreymon, con espada y escudo, y el derecho el de MetalGarurumon, con cañón y misiles. Una capa en la espalda se despliega sola para esquivar ataques o echar a volar.",
+    "tacticas": "Alterna distancia y cuerpo a cuerpo: Supreme Cannon congela desde el aire con un soplo de cero absoluto y Transcendent Sword remata de cerca con tajos casi imparables. Su capa le da libertad para elegir dónde pelear.",
+    "gancho": "WarGreymon y MetalGarurumon discuten en plena batalla. Solo si los héroes logran reconciliarlos podrán fusionarse en Omnimon y frenar al enemigo que los acorrala."
+  },
+  "omegamon-x": {
+    "descripcion": "Con el Anticuerpo X, este Caballero Real adquirió Omni inForce, un poder que le permite ver al instante lo que va a ocurrir y reaccionar antes de que suceda. En teoría, ningún otro Digimon puede vencerlo. Cuando la seguridad de la Red está en juego, su espada puede activar una técnica que borra lo que toca.",
+    "tacticas": "Anticipa los golpes, así que premia a los héroes que se coordinan. Supreme Cannon congela a distancia, Transcendent Sword remata de cerca y All Delete borra en zona: reserva esta última para una crisis de verdad.",
+    "gancho": "Un virus amenaza con extenderse por todo un servidor digital. Los héroes llaman a Omnimon (X Antibody) para borrarlo, pero deben decidir qué datos queridos quedan en peligro."
+  },
+  "omegamon_alter-b": {
+    "descripcion": "Forma temporal de Omnimon Alter-S que aparece cuando alguien le introduce a propósito Black Digitron, un limo extraño que ennegrece a los Digimon. Es más poderosa en este estado, pero pierde el control y entra en una furia ciega que dura hasta que recupera su forma anterior.",
+    "tacticas": "Se lanza con Supreme Sword, un tajo brutal de cerca, y dispara Transcendent Cannon cuando los héroes retroceden. No negocia ni planea: es furia pura. Su arma más peligrosa es su fuerza, no su estrategia.",
+    "gancho": "Un limo negro gotea de una vasija rota y ha contaminado a un guerrero legendario. Los héroes deben descubrir quién lo vertió antes de que Omnimon Alter-B destruya la aldea."
+  },
+  "omegamon-alter-s": {
+    "descripcion": "Nueva versión de Omnimon surgida de la fusión de BlitzGreymon y CresGarurumon. No es el Omnimon de los Caballeros Reales, aunque comparte su versatilidad y su fuerza. Nadie sabe por qué se fusionaron: ¿fue la voluntad de alguien, o un simple deseo?",
+    "tacticas": "Dispara Transcendent Cannon, plasma brutal, para mantener a distancia a los héroes mientras acumula energía en la hoja de Supreme Sword. Cuando termina de cargarla, corta casi cualquier cosa: avisa a los jugadores del peligro.",
+    "gancho": "BlitzGreymon y CresGarurumon desaparecen en una grieta y de ella emerge un guerrero híbrido. Los héroes han de averiguar quién o qué deseó esa fusión."
+  },
+  "omegamon_zwart": {
+    "descripcion": "Variante de Omnimon cuyo cuerpo se ha vuelto negro, quizá por haber estado expuesto a Black Digitron, un limo raro que ennegrece a los Digimon. En este estado es más poderoso. Conserva el brazo de WarGreymon con espada y escudo, el de MetalGarurumon con cañón, y una capa que se despliega sola.",
+    "tacticas": "Combate como Omnimon pero con más fuerza: Supreme Cannon hiela desde lejos y Transcendent Sword ejecuta de cerca. Cambia de distancia según la amenaza y conserva la cabeza fría: no es un monstruo.",
+    "gancho": "Un caballero negro como la noche se presenta ante los héroes y asegura ser aliado. Para probarlo, deberán acompañarlo a limpiar el limo que lo oscureció."
+  },
+  "omegamonzwart_d": {
+    "descripcion": "Omnimon Zwart convertido en berserker tras ser infectado con un programa virus. Ve como enemigo a todo el que se acerca y lo ataca sin piedad. El virus furioso y el programa vacuna que le queda pelean dentro de él, y lo hacen oscilar entre el agotamiento y el arrebato sin que sus heridas sanen.",
+    "tacticas": "Alterna ráfagas de furia, con Supreme Cannon y Transcendent Sword, con momentos de agotamiento en que casi no actúa. En un instante de lucidez puede contenerse: un buen argumento de los héroes basta.",
+    "gancho": "Los héroes se topan con un guerrero que lleva atadas sus propias armas y suplica que lo detengan antes de que el virus tome otra vez el control."
+  },
+  "omegamon_merciful": {
+    "descripcion": "Forma angelical de Omnimon con alas blancas que ondean como una bufanda. Sabe que a algunos solo se les puede salvar venciéndolos, y su tristeza y su decisión lo transformaron. Líneas azul pálido recorren su cuerpo como lágrimas y le dan un gran poder breve. Ataca únicamente a quienes antes tuvieron un corazón virtuoso.",
+    "tacticas": "Es un juez triste: abre con Graceful Cannon, un láser helado, y se acerca con Fearsome Blade, una katana que asusta. Pelea con reticencia; los héroes pueden frenarlo si le demuestran que aún hay salvación.",
+    "gancho": "Un Digimon extraviado del buen camino pide a los héroes que lo salven antes de que llegue Omnimon: Merciful Mode. Quizá aún pueda redimirse de otro modo."
+  },
+  "ofanimon": {
+    "descripcion": "Superángel y culminación de todos los Digimon ángel femeninos. Junto a Seraphimon y Cherubimon forma las Tres Celestiales, guardianas del Kernel, el corazón del Mundo Digital. Encarna el lado misericordioso y compasivo de lo divino y es la madre sagrada de ese mundo, mientras Seraphimon es el mariscal inflexible y Cherubimon el defensor sabio.",
+    "tacticas": "Vuela fuera del alcance y abre con EDEN's Javelin, una lanza de luz de largo alcance que perfora y ciega, y completa con Sefirot Crystal para seguir cegando. Es más protectora que agresiva.",
+    "gancho": "Ophanimon pide a los héroes que lleven un mensaje al Kernel. Su compasión los guiará, pero hay Digimon que querrían impedir que el mensaje llegue a su destino."
+  },
+  "ofanimon_x": {
+    "descripcion": "Sus alas brillan como cristales, y se dice que basta verla para sentir una calma profunda y un corazón lleno de compasión. Se equilibra con elegancia sobre una rueda. Las armaduras de sus hombros se separan y se unen para formar EDEN's Lance, una lanza con la que dibuja círculos mágicos.",
+    "tacticas": "Vuela y controla el campo: Holy Material llena la zona de círculos de luz que paralizan, y EDEN's Lance perfora y ciega a quien se acerque. Premia a los héroes que protegen a los más débiles.",
+    "gancho": "Un grupo de Digimon asustados se refugia junto a una columna de luz. Ophanimon (X Antibody) se cierne sobre ellos y solo acepta a los héroes si prometen proteger a todos."
+  },
+  "ofanimonfalldownmode": {
+    "descripcion": "Forma que adopta Ophanimon cuando la rabia ahoga todo lo demás. Furiosa porque la crueldad no cesaba pese a las purgas, su corazón se endureció como piedra. Ahora quiere levantar un mundo a su medida y eliminar a cualquiera que estorbe su ideal de justicia. Cree actuar con razón, y eso la hace más peligrosa.",
+    "tacticas": "Vuela y caza a los héroes con Flame Hellscythe, una guadaña de fuego que quema, y de cerca usa Demonic Crystal para invocar aliados y sembrar el miedo. Cree luchar por la justicia, así que las palabras pueden inquietarla.",
+    "gancho": "Ophanimon: Falldown Mode purga una aldea entera por considerarla corrupta. Los héroes deben demostrar que no todos allí merecen castigo y ganar tiempo hasta que su ira se apague."
+  },
+  "ofanimonfdm_x": {
+    "descripcion": "Mejor armada que nunca: su guadaña Flame Hellscythe arde por ambos filos y le permite enfrentar a varios enemigos a la vez. Tres Behead Slasher flotan a su alrededor, bloquean ataques, persiguen a los rivales y pueden envolverse en llamas. Está decidida a eliminar ella sola todas las amenazas a la justicia.",
+    "tacticas": "Rival temible: sus Behead Slasher actúan como escoltas flotantes que bloquean y cortan. Invoca refuerzos con Demonic Crystal, que además asusta, y quema a varios con Flame Hellscythe. Quienes se ocupen de las cuchillas ganarán un respiro.",
+    "gancho": "Una guerrera alada afirma que puede acabar con todas las amenazas ella sola. Los héroes deben convencerla de que aceptar ayuda no es una derrota."
+  },
+  "ordinemon": {
+    "descripcion": "Ser de inmensas alas negras que, según algunos sabios, aparece cuando el Mundo Digital se acerca a su fin. Nace cuando un ángel defensor del orden, vencido por la ira y el dolor, cae en la oscuridad y se fusiona con otros. Sus alas esparcen miasma, pero en su corazón es compasivo y quiere salvar el mundo devolviéndolo a la nada.",
+    "tacticas": "Aleja a los héroes con Summon Apocalypse, que invoca Digimon hechos de plumas y empuja a todos; End of the World y Magna Visibility queman a distancia. Haz que su miasma se note en toda la escena.",
+    "gancho": "Plumas negras caen del cielo y cada una se convierte en un Digimon. Los héroes deben seguirlas hasta Ordinemon y comprender qué dolor lo trajo hasta aquí."
+  },
+  "ornismon": {
+    "descripcion": "Digimon ancestral extinguido hace mucho, de tamaño inimaginable y conocido como el Soberano de los Cielos. Era feroz y atacaba incluso a otros Digimon enormes. Su especialidad era disparar un rayo de luz brillante y destructor. Toparse con uno vivo sería un hecho increíble.",
+    "tacticas": "Domina el cielo y ataca rápido: Cosmic Ray ciega y llega antes de que los héroes reaccionen. Usa la versión débil para hostigar y la fuerte para el golpe final. Hazlo aparecer cuando los jugadores miren hacia arriba.",
+    "gancho": "Una sombra gigantesca cruza el sol y los pájaros callan: un antiguo Soberano de los Cielos ha despertado. Los héroes han de averiguar cómo volvió una criatura que se creía extinta."
+  },
+  "ouryumon": {
+    "descripcion": "Digimon imaginario nacido del ensueño de un DigiCore. La interfaz de su frente liberó la creatividad de su propio núcleo, que ya guardaba mitos japoneses de dragones feroces y generales. El resultado fue un dragón guerrero con armadura de estilo japonés y una espada en cada mano, más una tercera hoja en sus alas.",
+    "tacticas": "Bruto con espadas: Eiseiryuojin lanza un golpe brutal desde sus dos hojas, y Golden Armor lo cubre con un escudo de luz. Úsalo para sostener la pelea cuando se vea apurado.",
+    "gancho": "Un guerrero dragón con armadura antigua sale de un sueño ajeno y pide a los héroes que le ayuden a descubrir quién es y qué mito encarna."
+  },
+  "parallelmon": {
+    "descripcion": "Mutante capaz de viajar libremente entre Mundos Digitales de otras dimensiones y devorar los datos de sus habitantes. Aparece de la nada como un fantasma y causa tal caos que los equipos de investigación lo clasifican como un desastre natural. Su objetivo sigue siendo un misterio.",
+    "tacticas": "Abre con Absorbent Bang, un rayo que drena y ciega, y usa Endless Trance para atacar desde portales por todos lados. Todo lo que cruce el rayo acaba en otra dimensión: úsalo para separar al grupo.",
+    "gancho": "Aparece un portal en mitad de la plaza y los Digimon corren a esconderse. Los héroes tendrán que seguir a Parallelmon hasta su dimensión para recuperar lo que ha devorado."
+  },
+  "parasimon": {
+    "descripcion": "Digimon de nivel Definitivo que no puede vivir solo: necesita un anfitrión. Por sí mismos son débiles, pero en grupo derrotan a un Campeón con facilidad, y exprimen hasta el límite el poder de su huésped. Además amplifican sus deseos y aprovechan sus debilidades.",
+    "tacticas": "Úsalo como jefe junto a un anfitrión: Electric Bind atrapa con tentáculos y descarga, y se ceba en los puntos débiles. Si los héroes separan al parásito de su huésped, queda mucho más vulnerable.",
+    "gancho": "Un amable Digimon del pueblo se comporta con una ambición extraña, y la sombra de un Parasimon late en su espalda. Los héroes deben liberarlo sin hacerle daño."
+  },
+  "pharaohmon": {
+    "descripcion": "Mago de brillo dorado y siniestro, se dice que digievolucionó de un Digimon momia. Gobernó con autoridad absoluta amplias zonas del Mundo Digital antiguo, y las misteriosas ruinas que quedan son prueba de su dominio. Sus víctimas acaban muertas o a su servicio, convertidas en no muertos.",
+    "tacticas": "Se mantiene a distancia y emplea Necromist, un gas de miedo que roba la voluntad y reseca la carne. Hazlo sentir como una amenaza lenta e implacable: la versión débil desgasta y la fuerte aterra.",
+    "gancho": "Al abrir una antigua tumba, los héroes despiertan a Pharaohmon y su niebla empieza a extenderse. Deben sellar la entrada antes de que sus servidores no muertos salgan."
+  },
+  "hououmon": {
+    "descripcion": "Digimon sagrado de cuatro alas doradas resplandecientes, líder de todas las aves y soberano de los Digimon de especie sagrada. Es el equivalente en ave de Magnadramon. Posee dos Anillos Sagrados que extraen el poder divino, señal de una fuerza inmensa.",
+    "tacticas": "Se mueve con rapidez y hace llover Starlight Explosion sobre una zona entera: la versión débil presiona y la fuerte la limpia. Se dice que purifica de maldad a quien alcanza, ideal contra enemigos oscuros.",
+    "gancho": "Una lluvia de partículas doradas cae sobre una aldea oscurecida y los habitantes despiertan de un mal sueño. Los héroes buscan a Phoenixmon para pedirle ayuda."
+  },
+  "hououmon_x": {
+    "descripcion": "Con el Anticuerpo X, Phoenixmon posee 12 Anillos Sagrados, un poder superior al de muchos ángeles. Su aura, Firewall, es una barrera defensiva definitiva que no deja pasar ningún virus. Se dice que cualquier Digimon tocado por una de sus plumas al caer queda protegido del mal.",
+    "tacticas": "Su Firewall lo protege de efectos virales, y Starlight Explosion cubre una zona con fuego dorado y veloz. Es más aliado que enemigo: si los héroes lo enfrentan, que sea por un malentendido.",
+    "gancho": "Una pluma dorada cae sobre el hombro de un héroe herido y lo protege de una infección digital. ¿De dónde procede, y qué quiere Phoenixmon (X Antibody) a cambio?"
+  },
+  "piemon": {
+    "descripcion": "Mago extravagante y huidizo, envuelto en misterio. Los Digimon mago son tan distintos de los malignos y los no muertos que parecen de otra dimensión. Su verdadera identidad y su razón de aparecer se desconocen. Lo único cierto es su poder incomparable: quien lo encuentra solo puede maldecir su suerte.",
+    "tacticas": "Teletransporta cuatro espadas desde su caja mágica con Trump Sword, un ataque que perfora y llega en ráfaga sin escapatoria. Como jefe, haz que cada ronda parezca un número de circo ominoso.",
+    "gancho": "Un circo fantasma llega al pueblo con una carpa de colores. Piedmon invita a todos a la función, pero los héroes saben que ninguna entrada sale gratis."
+  },
+  "pilevolcamon": {
+    "descripcion": "Una de las siete digievoluciones que se rumorean de Volcanomon. Dotado de inmensa fuerza, domina todo tipo de combate cuerpo a cuerpo, incluidas las llaves de lucha libre. Adelgazó su enorme cuerpo para pelear mejor y lleva volcanes en erupción sobre los hombros.",
+    "tacticas": "Pese a su rol de Tirador, su estilo es de lucha libre: Volcanic Driver estampa al rival contra el suelo con certeza y quemaduras, y Diamond Fist perfora y derriba.",
+    "gancho": "Un luchador con volcanes en los hombros reta a los héroes a un combate a las puertas de la arena de la ciudad. El ganador se queda con el título."
+  }
+}

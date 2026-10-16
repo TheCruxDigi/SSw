@@ -1,0 +1,227 @@
+{
+  "omegashoutmon": {
+    "descripcion": "Nació cuando la pasión ardiente de Shoutmon despertó y heredó la Omega inForce de Omnimon. Su cuerpo dorado brilla tanto que los rivales solo alcanzan a ver una estela luminosa, nunca su figura real. Convierte la amistad, la justicia y el coraje en ataques distintos.",
+    "tacticas": "Versátil: cambia entre combate cercano y distancia según convenga. Abre con Flame Cannon, que quema y además puede levantar un escudo para sus aliados, y reserva Hard Rock Soul para drenar a quien se le acerque.",
+    "gancho": "Un eco dorado cruza el cielo de un campo de batalla en ruinas. Los Digimon del lugar aseguran que un guerrero brillante los protege, pero nadie ha logrado verle la cara."
+  },
+  "omegashoutmon_x": {
+    "descripcion": "Las líneas rojas que recorren su cuerpo afloraron cuando su pasión se fundió con el anticuerpo X. Conserva el resplandor dorado de la Omega inForce y ahora canaliza el fuego a través de garras de cristal. Es un combatiente fogoso, directo y fiel a sus ideales.",
+    "tacticas": "Tirador de fuego que domina el campo desde lejos. Su firma Flare Rock Soul quema y drena vida; con Heavy Heat Vulcan frena a los rápidos y con Zeal Magnum sorprende a quien se creía a salvo del frío.",
+    "gancho": "Un viajero de líneas rojas pide ayuda para encender un faro en una región de niebla eterna antes de que los Digimon salvajes que lo acechan consigan apagarlo para siempre."
+  },
+  "orochimon": {
+    "descripcion": "Dragón oscuro colosal con ocho cabezas, aunque siete son simples señuelos: solo la negra del centro pertenece a su cuerpo. Antaño asoló una región entera del Mundo Digital primitivo, hasta que un servidor del equilibrio logró sellarlo. Su aliento alcohólico es tan temible como su cola afilada.",
+    "tacticas": "Bruto que castiga a todas las distancias. Sake Breath, su firma, quema y golpea con brutalidad desde lejos; Ame no Murakumo es el tajo de su cola contra quien se atreva a acercarse.",
+    "gancho": "El sello que mantenía dormido a Orochimon se ha agrietado en una cueva que huele a licor. Los héroes deben reforzarlo antes de que las ocho cabezas vuelvan a asomar."
+  },
+  "paildramon": {
+    "descripcion": "Nacido de la fusión de ExVeemon y Stingmon, une la potencia de un dragón con la coraza de un insecto. Es rápido, ágil y de una lealtad absoluta: daría la vida por su compañero sin pestañear. Esconde pinchos en los brazos y dos cañones vivos en la cintura.",
+    "tacticas": "Bruto veloz que embiste con Sting Strike, perforante y venenoso, para abrir las defensas del objetivo. Con Death Parade Blaster sacude una zona entera, invocando refuerzos y sembrando el miedo entre los enemigos.",
+    "gancho": "Paildramon custodia, fiel e inmóvil, la casa de un amo que ya no está. Los personajes deben convencerlo de que su lealtad no exige combatir contra ellos."
+  },
+  "pajiramon": {
+    "descripcion": "Una de los Doce Devas, con aspecto de oveja y señora del mundo de los sueños. Fría, rígida en sus creencias y sin una pizca de compasión, no se lleva bien con ningún otro Deva. Prefiere ocultarse tras apodos como la Deva de la Oscuridad, y su arco dispara flechas de luz que adormecen.",
+    "tacticas": "Jefe místico que domina el combate desde lejos. Su firma Vahnijvala, de Oscuridad, hunde a los héroes en pesadillas y los asusta; úsala para romper la cohesión del grupo y obligarlo a cooperar.",
+    "gancho": "Todo un pueblo duerme y sueña el mismo sueño sin poder despertar. Pajiramon vigila desde un arco de luz, y el grupo deberá adentrarse en la pesadilla compartida para liberarlos."
+  },
+  "pandamon": {
+    "descripcion": "Marioneta con forma de panda, mirada vacía y trato seco. Se cree un lobo solitario, aunque envidia en secreto la fama de Monzaemon. Es escaso y rara vez se deja ver. No conviene fiarse de su aspecto torpe: guarda garras ocultas y no perdona que lo molesten.",
+    "tacticas": "Espera inmóvil hasta que alguien invade su espacio y entonces responde con Animal Nail, el zarpazo de sus garras escondidas. Sin efectos añadidos, su peligro está en la potencia del golpe y en su rencor.",
+    "gancho": "Un Pandamon solitario bloquea un puente de madera. Solo dejará pasar a quien lo trate con respeto y deje de compararlo con Monzaemon, y se enfurecerá ante cualquier burla."
+  },
+  "parrotmon": {
+    "descripcion": "Ave gigante parecida a un loro que llegó de otro Mundo Digital a través de una grieta del espacio-tiempo. Inteligente y sereno, detesta pelear, pero cuando se enfurece vuela sin control. Sus garras son potentísimas y de su cabeza brotan alas capaces de llamar al rayo.",
+    "tacticas": "Ágil y volador, elige cuándo y dónde golpear. Sonic Destroyer es su embestida supersónica, brutal y rápida; Mjölnir Thunder descarga un rayo que puede paralizar a un objetivo.",
+    "gancho": "Un ave enorme sobrevuela el pueblo, confundida y asustada, mientras la grieta por la que llegó sigue abierta. Si alguien la provoca, su furia arrasará todo lo que encuentre."
+  },
+  "fantomon": {
+    "descripcion": "Espectro con aspecto de segador, armado con una guadaña gigante y una cadena. Cuando posa su mirada en alguien, el destino de esa víctima queda casi sellado. El cristal con forma de ojo que le cuelga del cuello le concede una segunda vista para localizar a quienes están cerca del final.",
+    "tacticas": "Flota sin hacer ruido y golpea de cerca con Soul Chopper: su guadaña con cadena drena vitalidad y asusta. Aprovecha que vuela para aparecer por donde nadie lo espera.",
+    "gancho": "Cada noche, una figura encapuchada flota sobre el campamento del grupo y señala a un compañero con su cristal en forma de ojo. ¿Descubrirán por qué lo eligió antes del amanecer?"
+  },
+  "piranimon": {
+    "descripcion": "Pez acuático feroz que caza en bancos numerosos. La coraza de su cabeza refuerza unas mandíbulas cuyo mordisco rivaliza con la pisada de Mammothmon. Solo ataca a Digimon aislados, y lo hace en grupo, de modo que no deja ni rastro de los datos de su presa.",
+    "tacticas": "Tanque que arrastra a su presa al agua: Cruel Invitation ensarta con su cola de anzuelo, perfora y ralentiza; después remata con Calamity Vise en cuerpo a cuerpo. Es más peligroso cuantos más sean.",
+    "gancho": "Los pescadores digitales de una laguna desaparecen sin dejar ni sus redes. Un banco de Piranimon espera bajo la superficie a quien camine solo por la orilla."
+  },
+  "pistmon": {
+    "descripcion": "Surgió de un programa de entrenamiento de ciclismo en ruta. Sus ruedas de zarzas están fusionadas con su cuerpo y le dan un equilibrio asombroso incluso parado. Las lianas que hacen de neumáticos cambian de forma para recorrer cualquier camino sin pinchar nunca.",
+    "tacticas": "Místico rápido y espinoso. Bramble Shot lanza espinas desde el manillar; Crimson Spores envenena en zona y Killer Cadence, con sus ruedas agrandadas, ejecuta y asusta a grupos enteros.",
+    "gancho": "Una carrera por un sendero salvaje enfrenta al grupo con Pistmon, que reta a todos a seguirle el ritmo. El perdedor se queda atrás, entre sus esporas venenosas."
+  },
+  "picklemon": {
+    "descripcion": "Hada diminuta que domina un lenguaje de programación de otra dimensión y con él crea prodigios casi mágicos. Aparece en cualquier momento y lugar. Adora las bromas, y vuelve locos a los ordenadores con su lanza Fairy Tale, sin mala intención. En combate resulta aterrador pese a su tamaño.",
+    "tacticas": "Pequeño, volador y traicionero. Su firma Pit Bomb comprime un virus y estalla con la fuerza de una bomba de acero a distancia; úsalo para sorprender a los héroes que lo subestimen.",
+    "gancho": "Los dispositivos de la aldea enloquecen: puertas que se abren solas, mensajes absurdos, luces parpadeantes. El culpable es un hada traviesa que solo quiere jugar, pero que explota si se enfada."
+  },
+  "polarbearmon": {
+    "descripcion": "Oso polar que evolucionó absorbiendo datos de deportes de invierno. Fabrica con hielo esquís, bastones e incluso madrigueras, y recorre los campos nevados invadiendo, sin querer, el territorio de Mojyamon y Hyogamon. En la pequeña región nevada de Thrymheim se dedica a construir refugios para otros Digimon.",
+    "tacticas": "Bruto veloz sobre la nieve. Corkscrew Kick usa sus cañones como propulsores para empujar con brutalidad; con Winter Gunnery congela a quien tenga cerca con una lluvia de bolas de nieve.",
+    "gancho": "Una ventisca ha sepultado un refugio de Thrymheim. PolarBearmon pide ayuda para reconstruirlo antes de la noche, mientras Mojyamon y Hyogamon vigilan los alrededores."
+  },
+  "proganomon": {
+    "descripcion": "Digimon mineral con aspecto de tortuga que habita sobre todo en los desiertos. Perfora la roca con sus taladros y, al avanzar, provoca temblores que hunden el suelo. Su caparazón ocupa más de la mitad de su cuerpo, así que al caer solo deja un fósil que otros Digimon usan como hogar.",
+    "tacticas": "Bruto lento pero demoledor, ideal como obstáculo del desierto. Tricone Bit Demolisher tritura la armadura con un golpe brutal, y Drill Emission perfora las defensas con sus taladros.",
+    "gancho": "El suelo del desierto tiembla y se hunde bajo la caravana del grupo. Un Proganomon excava debajo sin saberlo, y su caparazón vacío podría ser el refugio que necesitan."
+  },
+  "pumpmon": {
+    "descripcion": "Muñeco de peluche con una calabaza por cabeza. Cuenta la leyenda que nació cuando un virus de Halloween mutó de repente. Como no era malicioso, nunca daña a la gente, aunque es sorprendentemente fuerte. Su rostro inexpresivo apenas deja adivinar qué siente.",
+    "tacticas": "Místico bromista que desorienta más que destruye. Con Trick or Treat hace aparecer una calabaza gigante en el aire para aplastar y confundir al objetivo.",
+    "gancho": "En vísperas de una fiesta digital, un Pumpkinmon pide «truco o trato» a cada viajero. La respuesta equivocada hará caer sobre el grupo una enorme calabaza, aunque sin mala intención."
+  },
+  "raijiludomon": {
+    "descripcion": "Armadura mecánica evolucionada de TiaLudomon. Perdió velocidad, pero ganó una resistencia que le permite encajar de frente ataques de nivel Mega. Los escudos de brazos y hombros despliegan barreras eléctricas invisibles que dejan perplejos a los atacantes, y puede ampliarlas para proteger una zona si se queda quieto.",
+    "tacticas": "Tanque eléctrico que resiste mientras responde. Lightning Buster descarga un golpe brutal que paraliza; combínalo con Rocket Messer para castigar a distancia a quien intente rodearlo.",
+    "gancho": "Un guardián acorazado protege una aldea con una cúpula eléctrica invisible. Los héroes deben demostrar buenas intenciones sin lanzarse a atacar una barrera que no ven."
+  },
+  "rapidmon": {
+    "descripcion": "Androide apodado el Sabueso Veloz, que derriba rivales con movimientos precisos a casi la velocidad de la luz. Sus enormes orejas-radar le permiten orientarse en plena oscuridad y detectar enemigos lejanos. Su silueta recuerda a un caniche esquilado, y su protector del cuello se cierra al combatir.",
+    "tacticas": "Tirador que castiga desde lejos. Rapid Fire lanza ráfagas rápidas y certeras de misiles; Golden Triangle ciega con un haz de luz. Ideal contra objetivos esquivos.",
+    "gancho": "Un cazador luminoso persigue a un ladrón de datos entre las ruinas. Los héroes deben decidir si lo ayudan a atraparlo o esconden al fugitivo."
+  },
+  "rareraremon": {
+    "descripcion": "Forma superior de Raremon, mecanizada para sobrevivir a la descomposición de su propio cuerpo. Se deshace y se rehace sin parar, y cada vez le brotan ojos y bocas que empiezan a pudrirse nada más aparecer. Su hedor es tan terrible que ni los Mega se atreven a acercarse.",
+    "tacticas": "Acechador repugnante que emerge de la bruma. Digestion engulle con la boca de su cabeza, asusta y perfora; Decayson, venenosa, debilita y ejecuta a quien respire su gas.",
+    "gancho": "Un hedor insoportable avanza por el pantano y todos los Digimon huyen. Alguien debe averiguar qué busca RareRaremon antes de que termine de pudrirse sobre la aldea."
+  },
+  "rebellimon": {
+    "descripcion": "Androide de motor potentísimo, nacido de un Digimon moribundo que absorbió datos basura para evolucionar. Se reconstruye con piezas robadas a otros Digimon mecánicos y vive como un forajido ruidoso. Se le ve a menudo corriendo a toda velocidad, con un enjambre de Machmon tras él.",
+    "tacticas": "Tirador de larga distancia. Vanquish Missile suelta una lluvia certera de misiles desde su brazo izquierdo; Maximum Demolisher, que requiere carga, ralentiza al enemigo con la maquinaria de su brazo derecho.",
+    "gancho": "Un rugido de motores levanta polvo en la carretera digital: Rebellimon y su banda de Machmon asaltan un convoy y desmontan cuanto Digimon mecánico encuentran."
+  },
+  "regulusmon": {
+    "descripcion": "Dragón maligno que aspira a gobernar mediante la ira y el miedo. Su sola llegada anuncia desgracia, y se dice que su cuerpo origina el contagio GRB, que trastorna la personalidad de los infectados y los vuelve violentos. Su poder recuerda al de Megidramon.",
+    "tacticas": "Bruto con escudo de mandíbulas. Kalypso Bite agarra, protege y perfora a la vez; Iphigenia Pierce dispara láseres desde ese mismo escudo, y Gran TrES escupe fuego infernal que quema.",
+    "gancho": "Una extraña enfermedad vuelve violentos a los Digimon de todo un valle. Las pistas llevan hasta Regulusmon, cuya sombra gotea una secreción negra."
+  },
+  "rizegreymon": {
+    "descripcion": "Androide de torso mecanizado y corpulencia enorme. El revólver gigante de su brazo izquierdo tiene una potencia comparable a la de una cabeza nuclear, pero el retroceso le impide disparar más de una vez seguida. El cañón está fabricado con Chrondigizoid para soportarlo.",
+    "tacticas": "Tirador pesado cuyo gran disparo marca el ritmo del combate. Rising Destroyer lanza una andanada de luz brutal que empuja; de cerca recurre a Trident Revolver o a Solid Strike, usando el revólver como maza.",
+    "gancho": "Un fortín en ruinas guarda armas de Chrondigizoid. RizeGreymon lo defiende y solo dejará pasar a quienes demuestren que no las usarán para destruir."
+  },
+  "rizegreymon_x": {
+    "descripcion": "Rebosa tanta energía que su emblema solar brilla sin cesar y las garras de manos y pies se han vuelto cuchillas de luz. Su Trident Revolver es ahora una pistola-espada de filo afilado, y en el cuerpo a cuerpo resulta muy rápido. Sigue siendo un androide de torso mecanizado.",
+    "tacticas": "Tirador que no teme al cuerpo a cuerpo. Slash Thrust corta de cerca con su pistola-espada, y Sunrise Buster, cargado al máximo, es un disparo brutal que conviene anunciar para que el grupo reaccione.",
+    "gancho": "Un amanecer que no termina baña un valle, porque RizeGreymon (X Antibody) no puede dejar de brillar. El grupo debe ayudarle a liberar el exceso de energía sin arrasar el lugar."
+  },
+  "rookchessmon": {
+    "descripcion": "Fortaleza andante de defensa impenetrable. Pese a su enorme tamaño es sorprendentemente rápido, y lo mismo bloquea ataques que lanza los suyos. Su frase favorita es «el rival no es nada tras mi paso». Un guardián sólido, orgulloso y difícil de mover.",
+    "tacticas": "Apoyo que protege a sus aliados: Castle Wall levanta un escudo mental, Rook Gatling dispara ráfagas de acero y Stronghold quema a distancia mientras él permanece firme en su sitio.",
+    "gancho": "Una fortaleza con patas bloquea el único paso entre dos valles y se niega a moverse. Los héroes deben encontrar la forma de convencerla de abrirles camino."
+  },
+  "sagomon": {
+    "descripcion": "Mago expulsado de los cielos del Mundo Digital que acabó en los bosques remotos de North Bridge Island. Alegre y charlatán, estalla de ira si alguien toca las nueve calaveras de su cintura. Viaja buscando respuesta a una duda que lo atormenta: «¿qué soy?».",
+    "tacticas": "Mago de agua con un bastón enorme. Kouyouhoujou: Hydro Tornado empuja con un torbellino a quien tiene cerca; Kouyouhoujou: Hydro Descent rompe defensas con una oleada. Cuidado si le tocan las calaveras.",
+    "gancho": "Un mago parlanchín invita al grupo a acompañarlo en su búsqueda de respuestas. Todo va bien hasta que un ladrón le roba una calavera del cinturón."
+  },
+  "sandiramon": {
+    "descripcion": "Uno de los Doce Devas, con aspecto de serpiente y el más astuto de todos. Detesta resolver un combate de golpe y prefiere torturar a su víctima poco a poco. Vive en lo profundo de la tierra y de su boca saca una lanza de luz que maneja ayudándose con la cola.",
+    "tacticas": "Jefe ágil que emerge del subsuelo. Krishńa lanza su lanza de luz, que perfora y ciega; juega con el miedo del grupo castigando poco a poco en lugar de acabar rápido.",
+    "gancho": "Temblores de tierra delatan que algo se desliza bajo la aldea. Sandiramon sale a jugar con los aldeanos, y los héroes deben sacarlos del subsuelo antes de que sea tarde."
+  },
+  "sanzomon": {
+    "descripcion": "Monje que recorre el Mundo Digital en busca de la iluminación. No lleva armas: sus recursos son los sutras que recita. En su DigiCore acumula una energía pura que muchos codician, pero también atrae a Digimon con problemas, y algunos lo admiran tanto que acaban siguiéndolo.",
+    "tacticas": "Apoyo con sutras. Dù Zichūn Sutra cura a sus aliados, Butterfly's Dream Sutra duerme a los rivales con sus pruebas hechas pesadilla, y Endless Barraging Heart Sutra encanta y confunde.",
+    "gancho": "Un monje peregrino se ofrece a guiar al grupo, pero el rumor de que su DigiCore da vida eterna atrae a ladrones y mercenarios en cada paso del camino."
+  },
+  "saviorhuckmon": {
+    "descripcion": "Viajero curtido que ha sobrevivido a incontables escenas de destrucción. Cada lágrima que derrama ante la devastación solo refuerza su deseo de ayudar. Camina sobre dos piernas que son cuchillas, y también luce hojas carmesí en brazos y cola. El cristal de su pecho prueba su esfuerzo.",
+    "tacticas": "Bruto de cuchillas. Ledge Stride es una patada en salto, perforante y brutal; Trident Saber corta con sus hojas carmesí, incluso a enemigos acorazados. Meteor Flame cubre la distancia con fuego.",
+    "gancho": "Un guerrero errante llega a una aldea arrasada y promete protegerla. Necesita aliados para frenar a la banda de saqueadores que regresará esta misma noche."
+  },
+  "anomalocarimon": {
+    "descripcion": "Surgió cuando un virus infectó un banco de datos sobre vida antigua y se apropió de esa información. Es un depredador voraz, digno de lo alto de una cadena alimentaria prehistórica. Captura con las antenas de su cabeza y remata con la cuchilla de su cola; su Radar Eye le permite ver en la penumbra.",
+    "tacticas": "Tanque de emboscada. Stinger Surprise perfora y envenena desde sus pinzas cruzadas; si el combate se tuerce, remueve el lecho marino para esconderse y reaparecer más tarde.",
+    "gancho": "Barcazas y buzos digitales desaparecen en un arrecife turbio. Un Scorpiomon acecha entre el lodo removido, esperando a que alguien se acerque a mirar."
+  },
+  "anomalocarimon-x": {
+    "descripcion": "Variante con anticuerpo X que ha incorporado sustancias marinas a su caparazón, logrando un camuflaje casi perfecto bajo el agua. Sus víctimas sienten que las ataca un enemigo invisible. Conserva el instinto de depredador que se forjó en la lucha por sobrevivir del antiguo océano de la Red.",
+    "tacticas": "Emboscador casi invisible en el agua: Stinger Surprise perfora y envenena cuando el grupo menos lo espera. En tierra pierde ese camuflaje, así que consérvalo para ríos, lagos y mares.",
+    "gancho": "Un guía asegura que un río sagrado está embrujado: algo invisible tira de las barcas hacia el fondo. El grupo debe desenmascarar al depredador antes de cruzar."
+  },
+  "scourgechiropmon": {
+    "descripcion": "Máquina con cuerpo de aeronave, probablemente nacida de absorber datos de un bombardero furtivo. Su color oscuro y su fuselaje, diseñado para burlar sensores, lo hacen casi indetectable. Solo se le ha visto tres veces, y en su cabeza hay una cabina vacía del tamaño de un Digimon pequeño.",
+    "tacticas": "Tanque furtivo y artillero. Triangulation Scan marca y provoca al objetivo; luego Despair Blast castiga con misiles guiados, mientras Silent Scream asusta con ultrasonidos.",
+    "gancho": "Los sensores del grupo detectan algo sin forma ni luces que se desplaza en plena noche. Es ScourgeChiropmon, y su cabina vacía plantea más preguntas que respuestas."
+  },
+  "shakkoumon": {
+    "descripcion": "Mutante de cuerpo plateado y alas blancas, nacido de la unión de Ankylomon y Angemon. Puede girar cabeza y torso 360 grados, así que ataca en cualquier dirección. Su rostro inexpresivo asusta a muchos, pero tiene un carácter cálido y amable; incluso se dice que es un ángel venido de lo alto.",
+    "tacticas": "Versátil y sin puntos ciegos. Kachina Bombs lanza bombas de acero desde la cintura, y Disaster Blaster ciega con los rayos rojos de sus ojos; úsalo para que el grupo pierda visibilidad.",
+    "gancho": "Un coloso plateado de rostro vacío aparece junto a una aldea y la aterra, aunque solo busca un lugar tranquilo. Los héroes deben calmar a los vecinos y entender qué quiere."
+  },
+  "sharkmon": {
+    "descripcion": "Tiburón enorme que evolucionó por la voracidad de un Digimon acuático. Al absorber datos de un acorazado, más de la mitad de su cuerpo es ahora mecánica. Pesca con su ancla a los Digimon que viven en el Net Ocean o pasan cerca, y se los come sin piedad.",
+    "tacticas": "Tirador naval. All-Out Bombardment machaca una zona con cañones, quemando y sin fallar; si el grupo se acerca, usa Fang Charge: engancha con el ancla y embiste, derribando a la víctima.",
+    "gancho": "En el Net Ocean desaparecen barcazas enteras. Un ancla gigantesca asoma entre las olas, y el grupo debe cortar la cadena antes de que Sharkmon remolque otro barco."
+  },
+  "shawujinmon": {
+    "descripcion": "Mago expulsado de los cielos del Mundo Digital, sereno y de ánimo tranquilo. En las nueve cuentas de su collar hay sellado un DigiCore; si pierde una sola, se transformará otra vez en un Digimon terrible. Maneja un bastón superpesado y una espada de hoja lunar.",
+    "tacticas": "Místico acuático. Kouyoujou: Hydro Tornado crea una tromba que empuja a quien tiene cerca, y Kouyoujou: Hydro Descent rompe defensas. Una cuenta perdida puede desatar su otra forma.",
+    "gancho": "Un bandolero tira del collar de un viajero tranquilo y una cuenta rueda por el suelo. El grupo debe recuperarla antes de que Shaujinmon cambie."
+  },
+  "shishimamon": {
+    "descripcion": "Bestia sagrada capaz de absorber la oscuridad y devolverla convertida en luz. En una ocasión llegó a iluminar todo el Mundo Digital y convirtió la noche en día, por lo que lo llaman el Devorador de la Noche. Algunos temen que tanta sombra tragada lo vuelva malvado algún día.",
+    "tacticas": "Místico de luz. Kagura Flash desgarra de cerca con garras luminosas y ciega al rival; Evil-Quelling Effulgence dispara la oscuridad absorbida, drena y asusta a lo maligno.",
+    "gancho": "Una noche eterna cae sobre un valle y solo Shishimamon puede absorberla. Los héroes deben cuidar de él, porque cada sombra que traga lo acerca un poco más a quebrarse."
+  },
+  "tonosamagekomon": {
+    "descripcion": "Evolución de Gekomon con un cuerno que parece el moño de un samurái. Se dice que nació en el sistema de puntuación de una máquina de karaoke. Dos cuernos en sus hombros tocan melodías, y su voz es mucho más grave que la de Gekomon, lo que le da aire de dignatario.",
+    "tacticas": "Tanque ruidoso que atrae la atención. Musical Fist lanza una onda ultragrave que confunde y provoca; úsalo para fijar al enemigo mientras sus aliados golpean.",
+    "gancho": "ShogunGekomon organiza un concurso de canto en la laguna y sentencia que nadie se marcha hasta superar su puntuación. ¿Quién logra vencerlo sin ofender al jurado?"
+  },
+  "shootmon": {
+    "descripcion": "Máquina nacida de datos de juegos de pelota de todo el mundo. Sueña con popularizar los deportes de balón por cada rincón del Mundo Digital y lleva un cañón que dispara cualquier tipo de pelota. Sonríe siempre, y esa sonrisa intimida tanto que lo apodan el Entrenador Demonio Sonriente.",
+    "tacticas": "Tanque artillero. Cannonball Shooter lanza una bala que empuja y provoca; Wild Pitch y Round Jail queman a distancia, convirtiendo en proyectil lo que toca.",
+    "gancho": "Shootmon invita al grupo a un partido amistoso donde la pelota es un proyectil de cañón. Quien pierde queda a las órdenes del Entrenador Demonio Sonriente."
+  },
+  "shoutmonx3gm": {
+    "descripcion": "Resultado de fusionar a Shoutmon X3 con Greymon y MailBirdramon. Con su forma de pterosaurio, sus alas emiten una energía tan intensa que su calor se nota incluso a distancia. Se envuelve en fuego antes de fijar su objetivo y lanzarse sobre él.",
+    "tacticas": "Bruto volador. Wild burning cubre su cuerpo de llamas, quema y le permite ocultarse mientras ataca; Breath of Perun, un rayo de calor con relámpagos, atrapa a un blanco.",
+    "gancho": "Dos tormentas chocan sobre un cañón y, entre ambas, aparece un jinete alado envuelto en llamas. Pide ayuda para apagar un incendio que provocó sin querer."
+  },
+  "shoutmonx3sd": {
+    "descripcion": "Fruto de fusionar a Shoutmon X3 con SkullKnightmon y DeadlyAxemon. Es su forma de Dios Demonio, que blande la enorme lanza Victory Spear. En su brazo izquierdo porta un arma con forma de cabeza de monstruo rojo, que escupe un viento cargado de ácido.",
+    "tacticas": "Versátil de lanza y ácido. Acid typhoon rocía veneno sobre una zona y Billion stab acribilla con la lanza, perforante; cambia de estilo según el rival.",
+    "gancho": "Un caballero demoníaco impone silencio en una plaza y exige un duelo justo. Si el grupo acepta, gana un aliado poderoso; si se niega, se enfrentará a su ácido."
+  },
+  "shoutmonx4b": {
+    "descripcion": "Modo Caballo Divino que reúne a cuatro Digimon y suma el poder de Beelzemon al Modo Victoria. Es tan veloz que, cuando crees haberlo dejado atrás, ya ha cruzado el horizonte. Todas sus técnicas son mucho más potentes que antes, hasta el punto de parecer una deidad feroz.",
+    "tacticas": "Bruto veloz. Abre con Chaos Flare, que potencia y perfora a distancia, y cierra con Star's Blade Celestrike, un tajo cósmico que ralentiza al blanco. Ideal para un combate épico.",
+    "gancho": "Una leyenda habla de un caballo dorado hecho de cuatro corazones que cruza montañas en un suspiro. Quien logre alcanzarlo recibirá una prueba."
+  },
+  "shoutmonx4k": {
+    "descripcion": "Modo Caballero que suma la fuerza ofensiva y defensiva de Knightmon y PawnChessmon al Modo Victoria. Un emblema de esperanza adorna su capa, y porta una gran espada que une la Star Sword con la Berserk Sword de Knightmon, además de un escudo con el símbolo del ejército Xros Heart.",
+    "tacticas": "Bruto de combate cercano. Burning Star Crusher, su firma, quema y golpea con brutalidad; Three Impact encadena golpes en ráfaga y aturde. Su único ataque a distancia es débil.",
+    "gancho": "Un ejército ha perdido su bandera y, de pronto, un caballero de capa roja y escudo con emblema le tiende la mano, aunque exige defender el paso hasta el final."
+  },
+  "shoutmonx4s": {
+    "descripcion": "Luchador armado nacido de la fusión de Shoutmon X4 y Spadamon. Al equiparse con el Spadamon transformado, domina técnicas de espada muy variadas. Mantiene a raya a sus rivales con balas disparadas desde su cabeza y corta con las armas que sostiene en ambas manos.",
+    "tacticas": "Versátil de espadas. Blaze fire dispara a distancia y quema; Victory brave envuelve la espada en aura y oculta al atacante para el tajo. Cross Red & Blue ciega al rival antes de cortar.",
+    "gancho": "Una espada de aspecto vivo descansa sobre un altar. Su portador reta al grupo a un torneo de esgrima donde el premio es la propia arma."
+  },
+  "shoutmonx5": {
+    "descripcion": "El Modo Finalista nace de la unión de cinco corazones de Digimon y es la cima del Modo Victoria. Sus golpes caen con la fuerza de un meteorito y dejan cráteres de cientos de metros. Es un combatiente de poder inmenso y temple heroico.",
+    "tacticas": "Bruto cósmico. Meteor Buster Attack cae como un meteoro, brutal y ralentizante; Meteor Impact concentra energía en el brazo y aturde tras cargar un turno, ideal para el golpe final.",
+    "gancho": "Un cometa abre un cráter enorme y, en su centro, cinco corazones brillan unidos. El grupo debe decidir qué hacer con un poder que podría salvar o arrasar el valle."
+  },
+  "silphymon": {
+    "descripcion": "Fusión de Aquilamon y Gatomon, con unas piernas tan poderosas que lo catapultan hacia lo alto. Desde allí extiende los brazos y planea con elegancia. Los radares de sus orejas y la pantalla de su cabeza le permiten localizar enemigos de día o de noche.",
+    "tacticas": "Ágil que golpea primero. Top Gun dispara una bomba de energía a distancia, rápida; Dual Sonic confunde en ráfaga con una onda de choque al descender de su salto.",
+    "gancho": "Un mensajero planea sobre los tejados de un pueblo con un aviso urgente, pero los guardias lo toman por intruso. El grupo debe interceder antes de que sea tarde."
+  },
+  "sinduramon": {
+    "descripcion": "Uno de los Doce Devas, con aspecto de gallo y servidor de Baihumon. Ama las disputas y los chismes, y siempre busca pelea; pero cuando lo atacan esconde cabeza y alas en su armadura esférica, la más resistente de los Devas. Rueda como una bola para abrir brechas en las filas enemigas.",
+    "tacticas": "Jefe ágil que provoca la pelea y se encierra en su coraza si lo atacan. Púyaváha descarga un mazazo eléctrico con su mortero, paraliza y se resuelve rápido.",
+    "gancho": "Un rumor falso corre de aldea en aldea y todos acaban discutiendo. Detrás está Sinduramon, que disfruta con el caos y se esconderá en su coraza cuando lo descubran."
+  },
+  "sirenmon": {
+    "descripcion": "Deidad mitad ave y mitad pez, siempre alegre y cantando en el aire o en el mar. Su voz abarca ocho octavas y es capaz de calmar hasta el campo de batalla más enloquecido. Se dice que le espera una resplandeciente evolución gracias a la bondad con que cura a quien la escucha.",
+    "tacticas": "Místico de zona: Symphony No. 1 y Symphony No. 2 confunden con su voz aguda o grave. Cada sinfonía gana fuerza si otros cantan con ella, así que un coro puede inclinar el combate.",
+    "gancho": "Una batalla furiosa en la costa se apaga cuando una voz de ocho octavas empieza a cantar. Sirenmon pide a los héroes que se unan al coro para detener la guerra."
+  },
+  "skullbaluchimon": {
+    "descripcion": "Gigantesco no muerto creado al falsificar datos fósiles del mayor mamífero terrestre. Carece de inteligencia y emociones: se mueve por simples reflejos y ataca sin razón ni piedad hasta detenerse solo. Una bruma negra y fría brota de su DigiCore e infunde a todos el miedo a la muerte.",
+    "tacticas": "Bruto sin cálculo: va a por el más cercano. Grave Bone aplasta con sus pies gigantes, asusta y golpea con brutalidad; Deadly Fear lo envuelve en bruma negra para acosar a sus víctimas.",
+    "gancho": "Un gigante óseo despierta en un cementerio de fósiles y avanza sin rumbo hacia la aldea. Detenerlo exige alejarlo de los hogares, porque no entiende de palabras."
+  }
+}

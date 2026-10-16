@@ -1,0 +1,227 @@
+{
+  "achillesmon": {
+    "descripcion": "Un guerrero sin puntos débiles que ha estudiado todos los estilos de combate conocidos, tanto de la lucha como del deporte. Entrena sin descanso y jamás presume de su fuerza, porque para él la maestría es una costumbre y no un trofeo. Los escudos de sus pies funcionan como impulsores y le dan una velocidad asombrosa.",
+    "tacticas": "Ágil que no deja huecos: con Anemodarmenos se mueve tan rápido que deja imágenes residuales y confunde a sus rivales. Cierra el combate con Lónkhē Adistakto, una lanza de luz que ciega a quien la recibe.",
+    "gancho": "Un torneo de todas las disciplinas se celebra en un estadio flotante y Achillesmon acepta cualquier reto. Para vencerle, el grupo tendrá que descubrir una ventaja que no dependa de la fuerza."
+  },
+  "ageisdramon": {
+    "descripcion": "Su armadura dorada de Gold Digizoid brilla tanto que, según dicen, aparta la maldad de quien la viste. Nació cuando Plesiomon se fusionó con datos de la especie Seadramon. Es el estratega del Crack Team: analiza a los enemigos, comparte lo descubierto con sus compañeros y, si hace falta, tiene potencia de fuego para detener a un batallón entero.",
+    "tacticas": "Tirador de largo alcance y mente fría. Abre con Power Water, que ralentiza y no falla, y remata con Blaze Power para quemar al objetivo que ha fijado. Hazlo elegir blancos con cuidado.",
+    "gancho": "El Crack Team pide ayuda: Aegisdramon ha analizado una amenaza que se acerca a la costa y necesita que alguien distraiga al enemigo mientras termina de calcular su punto débil."
+  },
+  "agumon_kizuna": {
+    "descripcion": "La última y legendaria evolución de un Agumon, fruto de un vínculo tan profundo con su compañero humano que el valor de ambos se hizo llama. Tras tanto tiempo junto a las personas, su aspecto se ha vuelto casi humanoide. Es la prueba viva de que la confianza mutua abre caminos que ninguna evolución corriente alcanza.",
+    "tacticas": "Versátil a cualquier distancia: Red Reamer quema con láseres rojos desde las garras y Striking Salamander Slash perfora con su cola en forma de lanza. Reserva Gaia Brave, una bomba de energía ardiente, para cuando su vínculo con su compañero esté en juego.",
+    "gancho": "Un joven Tamer pierde la fe en su Agumon tras una derrota amarga. Los héroes deben ayudarles a recuperar su vínculo antes de que llegue una amenaza que solo ellos dos pueden afrontar."
+  },
+  "albatusmon": {
+    "descripcion": "Un Digimon Mutante envuelto de pies a cabeza en una túnica blanca. Nadie sabe con certeza qué puede hacer ni de dónde saca su poder, y los centros de investigación corren para obtener respuestas. Procede de la evolución de HeliosBoamon, y su silencio solo aumenta la inquietud de quienes lo observan.",
+    "tacticas": "No tiene técnicas oficiales conocidas, así que el Director de Juego puede improvisar. Preséntalo como un enigma: se mueve poco, no revela sus recursos y obliga al grupo a probar, descubrir y adaptarse antes de decidir si luchar.",
+    "gancho": "Los investigadores del Mundo Digital contratan al grupo para vigilar a una figura de blanco que merodea unas ruinas. Hay que averiguar qué quiere antes de que alguien la ataque."
+  },
+  "alphamon": {
+    "descripcion": "Es el caballero real más esquivo: el Eremita Distante, reconocible por la capa azul que ondea a su alrededor. Ocupa el Asiento Vacío de los Caballeros Reales y prefiere permanecer oculto, vigilando incluso a los de su propia orden. Cuando actúa, todo termina en un parpadeo y nadie sabe si dio un golpe o muchos.",
+    "tacticas": "Aparece, golpea y desaparece: Blade of the Dragon King perfora con la luz concentrada en un círculo mágico de su mano, y Soul Digitalization drena fuerzas e invoca a un monstruo de otra dimensión. Úsalo como juez imprevisible, no como enemigo de rutina.",
+    "gancho": "Un Caballero Real desaparecido deja una capa azul como única pista. El grupo debe seguir su rastro hasta Alphamon y convencerlo de que, por una vez, deje de esconderse."
+  },
+  "alphamon:ouryuken": {
+    "descripcion": "Alphamon alcanza esta forma cuando transforma a Ouryumon en la espada Ouryuken mediante un círculo mágico de DigiCode. Al convertirse en arma, todo el poder de combate de Ouryumon se vuelca en el ataque. Blandirla equivale a empuñar la fuerza de un Digimon Definitivo entero, y casi nadie podría usarla ni sobrevivir a su filo.",
+    "tacticas": "Un solo ataque, pero devastador: Ultimate Ouryuken es Brutal y alcanza a distancia. Conviene dar al grupo señales claras del golpe que se prepara, para que puedan esquivar, resguardarse o interponer algo.",
+    "gancho": "Una espada colosal vibra en el centro de unas ruinas. Quien la toque llamará a Alphamon, y el grupo deberá demostrarle que no busca su poder para hacer daño."
+  },
+  "amaterasumon": {
+    "descripcion": "Es la deidad que gobierna el sol en el este del Mundo Digital y reside en el Reino Divino, más allá de las nubes. Cuando llega un desastre o se enfada, cambia los adornos de sus brazos y se encierra en sí misma, y mientras dure su retiro el sistema solar sufre problemas. Sus adornos hacen pensar que está emparentada con Susanomon.",
+    "tacticas": "Místico que domina el campo: All-Encompassing Sunbeams quema a todo el grupo sin dejar refugio, e Izu no Mitama lanza el tajo de una espada carmesí nacida de sus brazaletes. Su encierro puede ser un giro dramático de la escena.",
+    "gancho": "El sol se apaga a medias porque Amaterasumon se ha encerrado en el Reino Divino. El grupo debe averiguar qué la ha molestado y convencerla de que vuelva a brillar."
+  },
+  "amphimon": {
+    "descripcion": "Recorre el inmenso Net Ocean uniendo a los Digimon acuáticos entre sí. Su traje presurizado le permite bajar hasta el Santuario del Abismo, en lo más hondo del mar. Suele ser alegre, pero ante una pelea su humor cambia tan rápido como el oleaje, y castiga a los malvados de un solo golpe, pues tiene permiso para impartir justicia en el océano.",
+    "tacticas": "Tirador que además protege: Frozen Crystal congela a distancia sin fallar, y Umbrella Defender levanta un escudo electromagnético que cubre a sus aliados y paraliza a quien lo toque. Es ideal para escoltar a un grupo de acuáticos.",
+    "gancho": "Unos Digimon acuáticos han dejado de hablarse y Amphimon quiere saber por qué antes de aplicar justicia. Los héroes pueden evitar una pelea si descubren el malentendido a tiempo."
+  },
+  "ancientbeatmon": {
+    "descripcion": "Uno de los Diez Guerreros Legendarios que salvaron el Mundo Digital Antiguo, portador del trueno. Su cuerpo parece la unión de muchos insectos, con rasgos de escarabajo rinoceronte y de ciervo volante, y su caparazón rivaliza con el Chrondigizoid. Corta cualquier cosa con las hoces de sus brazos y levanta objetos cientos de veces más pesados que él.",
+    "tacticas": "Acechador volador que ataca desde el aire: Calamity Thunder deja caer rayos que perforan y paralizan, y Tera Blaster es una descarga eléctrica de enorme potencia. Golpea, cambia de posición y vuelve a golpear.",
+    "gancho": "Una tormenta eléctrica sin nubes cae sobre un valle. Los héroes siguen los relámpagos hasta un guerrero antiguo que quiere comprobar si son dignos herederos de su fuerza."
+  },
+  "ancientgarurumon": {
+    "descripcion": "Conocido como la Bestia Luminosa Suprema, es uno de los Diez Guerreros Legendarios de la era antigua y portador de la luz. Junto a AncientGreymon sobrevivió hasta el final de la guerra santa y, según se cuenta, selló a Lucemon. Sus habilidades pasaron más tarde a los Digimon bestia.",
+    "tacticas": "Tanque que atrae todos los golpes: Sharp Claymore corta con dos espadas en un destello que ciega y provoca, obligando a los enemigos a mirarlo. Absolute Zero congela en el cuerpo a cuerpo y detiene a quien se acerque demasiado.",
+    "gancho": "Un sello milenario empieza a agrietarse y solo un destello de luz lo contiene. El grupo encuentra a AncientGarurumon montando guardia y debe ayudarle a reforzarlo antes de que ceda."
+  },
+  "ancientgreymon": {
+    "descripcion": "Uno de los Diez Guerreros Legendarios, portador del fuego. Se dice que fue un Definitivo en todos los sentidos, más fuerte incluso que los de hoy, y de él heredaron su poder la familia de los Greymon y otros dragones. Junto a AncientGarurumon sobrevivió hasta el final de la guerra santa y selló a Lucemon.",
+    "tacticas": "Bruto de golpes devastadores: Gaia Tornado empuja a cuantos rodean a su torbellino, y Omega Burst, que necesita carga, ciega con un destello y una explosión de kilómetros. Avisa la carga con un resplandor para dar tiempo al grupo.",
+    "gancho": "Un cráter humeante muestra la huella de un dragón gigantesco. Los héroes deben decidir si lo siguen para pedirle ayuda o evitan despertar una fuerza capaz de arrasar kilómetros enteros."
+  },
+  "ancientirismon": {
+    "descripcion": "Guerrero Legendario del viento, de cuerpo multicolor y alas doradas. Surca veloz los cielos del Mundo Digital Antiguo y, según cuentan, puede atravesar tierra y agua tendiendo puentes de arcoíris. Su belleza y sus dones pasaron después a los Digimon hombre ave, a las hadas y a otros.",
+    "tacticas": "Tirador aéreo de largo alcance: Storm Gazer descarga una tormenta que asusta y no falla, y Rainbow Symphony cubre una zona con láseres de colores que ciegan. Mantenlo en el aire, lejos del cuerpo a cuerpo.",
+    "gancho": "Tras una lluvia interminable aparece un arcoíris que une dos islas separadas. Quien cruce el puente encontrará a AncientKazemon, que pide un favor a cambio del paso."
+  },
+  "ancientmegatheriumon": {
+    "descripcion": "Guerrero Legendario del hielo y uno de los más resistentes del Mundo Digital Antiguo. Soporta el suelo helado del pleno invierno con valentía y es capaz de detener la actividad de los átomos con ataques de cero absoluto. Destruye con facilidad icebergs eternamente congelados, y sus dones pasaron a los Digimon mamífero y de nieve.",
+    "tacticas": "Tanque imparable: Freezing Blizzard congela una zona entera y provoca a todos para que lo ataquen a él, mientras Great Snowplow embiste con fuerza brutal y deja helado al objetivo. Hazlo avanzar como una muralla de hielo.",
+    "gancho": "Una ventisca eterna cubre un poblado costero y un iceberg avanza hacia él. Los héroes deben averiguar si AncientMegatheriummon lo empuja para destruirlo o para protegerlos."
+  },
+  "ancientmermaimon": {
+    "descripcion": "Diosa guardiana del Net Ocean, la cuna de todos los Digimon, y Guerrera Legendaria del agua. Gobierna corrientes y olas como si fueran sus propios miembros, y se dice que su furia ha hecho desaparecer continentes e islas enteros. Sus dones pasaron después a los Digimon acuáticos.",
+    "tacticas": "Tanque que domina el terreno con agua: Great Maelstrom crea un remolino que ralentiza y drena a sus enemigos, y Crystal Billow dispara agua endurecida como cristal para derribar. Deja que el oleaje cambie el campo de batalla.",
+    "gancho": "El mar se agita sin motivo y varias islas pequeñas empiezan a hundirse. Los héroes deben alcanzar a AncientMermaimon antes de que su enfado borre otro rincón del océano."
+  },
+  "ancientsphinkmon": {
+    "descripcion": "Guerrero Legendario de la oscuridad y el reverso exacto de AncientGarurumon. Los antiguos lo temían como el heraldo oscuro de la muerte, pues dominaba la destrucción de todo lo que tiene vida y forma. Sus dones pasaron más tarde a los Digimon bestia mítica y a las bestias oscuras.",
+    "tacticas": "Ágil y aterrador: Dark Blast, un rayo que lanza con un rugido, asusta y llega primero. Guarda Necro Eclipse, que envuelve al enemigo en la oscuridad de la muerte, para rematar a quien ya esté malherido.",
+    "gancho": "Un eclipse sin sol cubre las ruinas y los Digimon de la zona susurran su nombre. Para detener el miedo, el grupo debe descubrir qué lo ha despertado antes de la noche."
+  },
+  "ancienttroiamon": {
+    "descripcion": "El más grande de todos los Digimon ancestrales y Guerrero Legendario de la madera. Su cuerpo esconde multitud de mecanismos que le permiten ataques y movimientos llenos de trampas, como un caballo de madera con demasiadas sorpresas. Sus dones pasaron después a los Digimon vegetales.",
+    "tacticas": "Místico lleno de trucos: Surprise Cannon dispara proyectiles enormes desde la boca y el pecho con fuerza brutal, y Epeius Gimmick activa todos sus mecanismos en un ataque total. Revela cada artilugio de uno en uno para sorprender.",
+    "gancho": "Una enorme figura de madera aguarda inmóvil a las puertas de una ciudad. Nadie sabe qué esconde por dentro; el grupo debe decidir si abrirla o rodearla."
+  },
+  "ancientvolcamon": {
+    "descripcion": "Guerrero Legendario de la tierra y el más poderoso de todos los ancestrales. En su cuerpo hierve siempre magma al rojo vivo, que funciona como generador de su fuerza descomunal. De él heredaron sus rasgos los Digimon de mineral, mena y roca.",
+    "tacticas": "Bruto que domina el terreno: Atomic Bomber estalla desde el volcán de su espalda con fuerza brutal y deja quemaduras, y Supernova ralentiza con una explosión cercana de antimateria. Su cuerpo ardiente castiga a quien se atreva a acercarse.",
+    "gancho": "Un volcán que llevaba milenios dormido empieza a latir como un corazón. Algo enorme y ardiente despierta debajo: AncientVolcanomon, que aún no sabe si los héroes son amigos o intrusos."
+  },
+  "ancientwisetmon": {
+    "descripcion": "Guerrero Legendario del acero y el ser más sabio del Mundo Digital. Gracias a los Registros Akáshicos, que guardan la sabiduría antigua, nada escapa a su comprensión, y puede predecir sucesos lejanos como un sabio. El espejo que forma su cuerpo se dice que comunica con el inframundo.",
+    "tacticas": "Versátil, parece conocer los planes del grupo antes de que los pongan en marcha: Laplace's Demon asusta a quien intenta apresar, y Elder Sign sella y convoca a un demonio del inframundo. Haz que anticipe las jugadas de los PJ.",
+    "gancho": "Un espejo enorme aparece en mitad del desierto con respuesta para cualquier pregunta. Pero AncientWisemon cobra cada respuesta, y el grupo debe decidir cuánto está dispuesto a saber."
+  },
+  "anubimon": {
+    "descripcion": "Deidad que vigila el Área Oscura, el último lugar al que van los Digimon que han caído o llegado al final de sus días. Tiene poder sobre todos ellos: sella en oscuridad eterna a los de datos malvados y permite que los de datos buenos renazcan como Digihuevos. Es, además, el juez del Mundo Digital.",
+    "tacticas": "Místico que impone su veredicto: Pyramid Power traza una pirámide de luz que atrapa al objetivo, y Amemit invoca a una bestia infernal que drena y asusta. Haz que sus acciones dependan de cómo se comporte el grupo.",
+    "gancho": "Un Digihuevo brilla en el límite del Área Oscura y Anubismon debe decidir su destino. Los héroes tienen una noche para convencerlo de que el pequeño merece renacer."
+  },
+  "apoclymon": {
+    "descripcion": "Surgió de la acumulación de pensamientos negativos amplificados por el poder de la oscuridad. Nadie conoce su verdadera forma ni sabe siquiera si es realmente un Digimon. Parece desear que el caótico Mundo Digital vuelva a la nada, y hay quien afirma que su llegada ya estaba anunciada en una antigua profecía.",
+    "tacticas": "Amenaza final pensada para una gran escena: Darkness-Zone expande una oscuridad que alcanza a todos, asusta y desorienta. Dale un combate épico en varias fases, con el grupo luchando por no perder el rumbo.",
+    "gancho": "Las voces negativas del Mundo Digital se agrupan y una oscuridad avanza sin dejar rastro. Los héroes deben reunir esperanza suficiente para plantar cara a Apocalymon antes de que todo desaparezca."
+  },
+  "apollomon": {
+    "descripcion": "Deidad de los Olympos XII que guarda en su interior una energía de fuego equivalente a la del sol, capaz de fundir y purificar cualquier sustancia. Su fervor y su orgullo son tan intensos que apenas logra contenerlos. Una esfera de llamas en la espalda y las gemas brillantes de sus manos son su arsenal.",
+    "tacticas": "Místico de fuego a todas las distancias: Sol Blaster lanza una esfera incandescente que quema, y Arrow of Apollo traspasa objetivos lejanos con flechas ardientes. Si se le acercan, responde con Phoebus Blow, un puñetazo que empuja.",
+    "gancho": "Una aldea de forjadores pide ayuda: Apollomon quiere probar su fuego en un duelo de honor. Los héroes deben aceptar o negociar sin herir su orgullo."
+  },
+  "apollomon_whispered": {
+    "descripcion": "General del Ejército del Sol de las Big Death Stars, al mando de Digimon bestia y hombre bestia adaptados a distintos entornos. Surgió de un fallo que dividió la belicosidad y el orgullo reprimidos de Apollomon. Sus llamas azules arden con más furia que las originales, aunque con menos puntería. Sus motivos siguen sin conocerse.",
+    "tacticas": "Místico furioso y algo impreciso: Arrow of whispered lanza flechas de llamas azules que perforan y confunden desde lejos, y Sun of sorrows arroja una bola de fuego negra y azul que quema. Juega con su rabia, no con su puntería.",
+    "gancho": "Tropas del Ejército del Sol aparecen en la frontera, dirigidas por un general de llamas azules. El grupo debe averiguar qué buscan antes de que su rabia desborde la zona."
+  },
+  "arcturusmon": {
+    "descripcion": "Digimon misterioso que, según las simulaciones, nacería de energía oscura concentrada al extremo. Los investigadores lo reprodujeron cientos de veces, así que creen que podría manifestarse de verdad. Nadie conoce su carácter, pero la energía oscura medida supera la de cualquier Digimon conocido, y su aparición podría transformar el Mundo Digital. Sus brazos terminan en taladros.",
+    "tacticas": "Bruto de contagio: con Black Death clava un taladro e inyecta veneno brutal, y con Dark Confession carga ambos taladros de contagio concentrado antes de soltarlo. Haz que la amenaza crezca con el veneno acumulado.",
+    "gancho": "Un laboratorio abandonado ejecuta aún una simulación que no debería existir. Los héroes deben apagarla antes de que lo que muestra su pantalla se vuelva real."
+  },
+  "algomon": {
+    "descripcion": "Un coloso de aspecto inquietante, especializado en el combate cuerpo a cuerpo gracias a su tamaño descomunal. Tiene ojos repartidos por las extremidades, y de ellos y de su boca surgen rayos de poder destructivo. Quien se interpone en su camino acaba arrollado por su mole.",
+    "tacticas": "Versátil y enorme: Terabyte Disaster dispara innumerables rayos de fuego por la boca, mientras Distortion Line, desde los ojos de sus extremidades, quema a distancia. Si lo rodean, recurre a Brute Force y arrasa en el cuerpo a cuerpo.",
+    "gancho": "Un temblor sacude una llanura y aparecen ojos brillantes en el horizonte. Los héroes deben guiar a una caravana lejos de Argomon antes de que la alcance."
+  },
+  "ariemon": {
+    "descripcion": "Benévolo Digimon acuático con cuerpo de sirena que, según dicen, cura toda enfermedad y herida. Anuncia calamidades y plagas antes de que lleguen al Mundo Digital. Cuida a los acuáticos jóvenes, conjura grandes conchas donde refugiarse y prefiere atrapar a sus enemigos antes que herirlos. Si se aleja demasiado del agua, poco a poco se reseca.",
+    "tacticas": "Tanque amable que busca inmovilizar: Entangling Algae atrapa y provoca con una cinta de algas, y Cleansing Waters purifica y limpia los males de sus aliados. Úsalo cuando proteger a otros importe más que ganar.",
+    "gancho": "Ariemon anuncia que una plaga se acerca a un estanque con crías acuáticas. Los héroes deben escoltar a los pequeños a un lugar seguro antes de que el agua se corrompa."
+  },
+  "armagemon": {
+    "descripcion": "Gigante nacido de una mutación al fusionarse una multitud de versiones diminutas de Diaboromon. Diaboromon podía copiarse a sí mismo, pero cada copia era peor que el original; aquí, en cambio, todas esas habilidades se condensaron en un único cuerpo de poder mayor. No se alía ni con la luz ni con la oscuridad.",
+    "tacticas": "Amenaza final de ataques masivos: Black Rain hace llover proyectiles de energía en todas direcciones y empuja al grupo, y Ultimate Flare abre las fauces y descarga un rayo brutal que quema. Dale varias fases.",
+    "gancho": "Una nube de copias diminutas de Diaboromon invade la red y se fusiona sin parar. Los héroes deben impedir que se junten del todo antes de que despierte Armageddemon."
+  },
+  "armamon": {
+    "descripcion": "Digimon arma considerado una de las Legend-Arms, capaz de convertir su propio cuerpo en un arma. Con su enorme espada puede tajar a otros Digimon y arrebatarles la forma para transformarlos también, lo que sugiere un lazo con el origen de las Legend-Arms. Es muy exigente: no confía su cuerpo a quien no iguale a un Caballero Real.",
+    "tacticas": "Tirador cristalino: Malkut crystal llueve cristales afilados que derriban sin fallar desde lejos, y Rainbow hand atrapa y aturde con un aura de colores. Úsalo para poner a prueba a un portador.",
+    "gancho": "Un aspirante a portador reta a Armamon, que juzga con dureza a todos. Los héroes deben ayudarle a superar la prueba sin que Armamon convierta a nadie en arma."
+  },
+  "armamon_burstmode": {
+    "descripcion": "Es la forma en la que Armamon asciende y se convierte en espadachín, con acceso a su colección secreta de espadas poderosas. Ha perdido la capacidad de transformarse en arma, pero cuatro grandes brazos en su espalda se extienden para empuñar distintas armas y cambiar de técnica según la situación. Un registro cuenta que ganó un poder increíble al fusionarse con un sistema especial.",
+    "tacticas": "Duelista de zona: Sword of meteor desata un tajo cósmico con seis espadas que ralentiza, e Infinity sword rain hace caer sobre el objetivo las espadas que flotan a su alrededor con fuerza brutal. Cambia de arma de un turno a otro.",
+    "gancho": "Una armería flotante guarda cientos de espadas que nadie ha logrado coger. El grupo descubre que un espadachín de cuatro brazos las vigila y exige un duelo limpio."
+  },
+  "avengekidmon": {
+    "descripcion": "Nació de un Digimon derrotado por MagnaKidmon que se llenó tanto de deseo de venganza que sus pensamientos negativos desbordaron su DigiCore. Al parecerse al enemigo que odia, se enfureció aún más y ahora arrasa sin pensar, hasta olvidar a quién quería vencer. Es una tragedia con forma de dragón armado.",
+    "tacticas": "Bruto sin estrategia que ignora su propio dolor: Destruction Trigger inmoviliza al objetivo bajo su pie y dispara a quemarropa con fuerza brutal, aunque se hiera, y Misery Bullet Rain ralentiza con ráfagas a distancia. Su descuido es la ventaja del grupo.",
+    "gancho": "Una voz débil entre los escombros recuerda aún un nombre y una venganza. Los héroes tienen una oportunidad de calmar a AvengeKidmon si logran que recuerde a quién buscaba."
+  },
+  "qinglongmon": {
+    "descripcion": "Uno de los Cuatro Soberanos que defienden el Mundo Digital, protector del Este y señor del rayo. Está contado entre los Cuatro Grandes Dragones y es el más venerado de ellos. Pese a su rango divino no presta su poder a humanos ni a débiles con facilidad, y solo se alía con otros cuando la situación es desesperada.",
+    "tacticas": "Bruto volador que ataca desde las nubes: Sourai, la ira de los dioses, hace caer relámpagos del cielo que paralizan y golpean con brutalidad. Preséntalo como un acontecimiento, no como una pelea normal.",
+    "gancho": "Una tormenta eterna cubre el Este y Azulongmon observa a los héroes desde las nubes. Solo aceptará ayudarles si demuestran que no son débiles ni egoístas."
+  },
+  "babamon": {
+    "descripcion": "Un Digimon Ancestral con aspecto de anciana. Corre el rumor de que es en realidad una Rosemon bajo una maldición. Lleva una escoba mágica en la mano derecha y, con un solo barrido, borra los virus dañinos. Parece una abuela inofensiva, pero conviene no subestimarla.",
+    "tacticas": "Apoyo con una escoba temible: Empress Haze barre a distancia, derriba y puede ejecutar a quien ya esté malherido. Úsala contra enemigos que dependan de virus y efectos dañinos, y deja que parezca inofensiva hasta ese momento.",
+    "gancho": "Una anciana barre el camino de un pueblo asolado por un virus. Si los héroes la ayudan con un favor, ella les contará la verdadera historia de su maldición."
+  },
+  "bacchusmon": {
+    "descripcion": "Divinidad de los Olympos XII que se proclama el mayor anfitrión de banquetes del Mundo Digital. De carácter alegre y generoso, reúne a Digimon jóvenes en grandes fiestas y prepara las bebidas que cada invitado pide, sobre todo con las frutas del bosque que crece en el lomo de Ceresmon. Su cocina, eso sí, tiene un lado oscuro.",
+    "tacticas": "Místico que convierte la fiesta en trampa: Party of the Heavens duerme con un brebaje de luz, y Cook of the Abyss atrapa a su presa para devorar sus datos. Si hay muchos enemigos, Reversal of the Dead lo hace crecer.",
+    "gancho": "Llega una invitación a un banquete con el aroma más irresistible del Mundo Digital. Bacchusmon espera a los héroes con una mesa llena, pero sus brebajes esconden algo que el Crack Team quiere investigar."
+  },
+  "bagramon": {
+    "descripcion": "Antiguo ángel de alto rango que gobernaba la muerte y que, desesperado ante las leyes implacables de la creación, se rebeló contra Dios. Como castigo perdió la mitad del cuerpo y un ojo, que sustituyó por un cuerpo falso del Server Tree y un rubí que espía todo el Mundo Digital. Es el Sabio de la Muerte y busca un nuevo orden para el mundo.",
+    "tacticas": "Bruto con un brazo letal: Astral Snatcher aferra el espíritu del objetivo desde lejos con su largo brazo artificial, lo ralentiza y golpea con brutalidad. Muestra su ojo de rubí como señal de que ya los vigilaba.",
+    "gancho": "Los héroes descubren que Bagramon los ha seguido a través de su ojo de rubí durante todo el viaje y que les propone un pacto: un nuevo orden a cambio de ayuda."
+  },
+  "baihumon": {
+    "descripcion": "Protector del Oeste y uno de los Cuatro Soberanos, de atributo acero. Reina desde la era del mito y, aunque es el más joven, es el más poderoso. Se cree que su inmortalidad nace de sus doce DigiCores. Como Azulongmon, no tiene aliados por naturaleza, y quien sufre su aliento queda inmóvil como una estatua metálica.",
+    "tacticas": "Místico solitario que no busca pelea: Kongou lanza una onda desde su boca que debilita y deja al objetivo rígido como el metal. Úsalo como prueba de paciencia y de ingenio, no solo de fuerza.",
+    "gancho": "Varios Digimon quedan inmóviles como estatuas de metal en un camino, y el óxido ya los cubre. El grupo debe liberarlos antes de que se deshagan y dar con Baihumon."
+  },
+  "banchogolemon": {
+    "descripcion": "A diferencia de un Golemon común, actúa por voluntad propia y lleva el título de Bancho, que pocos Digimon ostentan. Es hosco e inquebrantable, igual de duro con todos, y entrena sin pausa en las profundidades de la Infinity Mountain. Rara vez ayuda a quien se lo pide, pero aparece de golpe para salvar a quien ya ha cruzado golpes con él.",
+    "tacticas": "Tanque terco: Tenbagaeshi agarra a un enemigo y lo lanza lejos provocando a los demás, y Kanshaku Dust ciega y devuelve el golpe. Con Yobori Claw Drill perfora cualquier armadura.",
+    "gancho": "Un aprendiz sube a la Infinity Mountain para pedir entrenamiento a BanchoGolemon. Solo lo aceptará si el grupo aguanta un duelo de práctica sin retroceder."
+  },
+  "bancholeomon": {
+    "descripcion": "Hombre bestia que responde solo a su propio sentido de la justicia. El título de Bancho lo ganan quienes vencen a rivales terribles sin que se les quiebre el ánimo, y en toda la historia del Mundo Digital solo cinco Digimon lo han llevado. No duda en declarar enemigo a un Caballero Real o a un celestial. Su gakuran absorbe casi todo el daño físico.",
+    "tacticas": "Ágil duelista: Lion Slash es un tajo veloz con su espada corta Otokodama, y Flashy Boss Punch concentra toda su energía en un puñetazo que ciega. Su gakuran lo hace difícil de dañar con ataques físicos.",
+    "gancho": "BanchoLeomon declara culpable a un guardián respetado de la zona. Los héroes deben decidir si lo apoyan, lo detienen o descubren la verdad antes de que su justicia caiga."
+  },
+  "bancholilimon": {
+    "descripcion": "Hada que viste un chaquetón carmesí de tokko-fuku. Los pétalos alegres de su etapa como Lillymon se han teñido de un color oscuro y ya no transmiten dulzura. Convencida de que debe defender a los débiles en un Mundo Digital donde mandan los fuertes, ha salvado a muchos Digimon de agresores. Su título de Bancho demuestra esa convicción.",
+    "tacticas": "Hada voladora que usa yoyós como armas: Absolute Territory corta y congela con el aire que rodea al enemigo, y Nightmare Assemble asusta y absorbe. Con Twin Petal encadena patadas veloces que drenan y atrapan.",
+    "gancho": "Unos bandidos acosan a una aldea de Digimon pequeños hasta que aparece un hada de chaqueta roja. Los héroes pueden unirse a BanchoLillymon o pelear sin estorbarla."
+  },
+  "banchomamemon": {
+    "descripcion": "Pequeño de tamaño pero grande en una pelea, es un Bancho caballeroso y compasivo que vive sin atender las leyes del Mundo Digital. Fundó la Mamemon Alliance, donde conviven los Digimon aislados como él. Ganó su título repeliendo enemigos sin perder a un solo compañero, y su gakuran protege sobre todo a sus camaradas.",
+    "tacticas": "Bruto leal que protege al grupo: Golden Rush golpea con porras doradas y derriba con brutalidad, y Senbon Dokkan lanza sus bates dorados para cegar. Es más peligroso cuando un aliado corre peligro.",
+    "gancho": "Un Digimon sin hogar pide refugio en la Mamemon Alliance, pero unos patrulleros quieren llevárselo. Los héroes deben decidir de qué lado estar junto a BanchoMamemon."
+  },
+  "banchostingmon": {
+    "descripcion": "Insectoide engreído que vive imponiéndose a los demás. Antepone su orgullo a todo y se dice que es el más arrogante de los Digimon: cualquier ofensa, venga de quien venga, recibe una respuesta implacable. Su gakuran, tejido con caparazones de insectos diversos, es sólido, y ese orgullo le valió el título de Bancho.",
+    "tacticas": "Acechador volador que ataca en picado: Bloody Finish perfora con los taladros de sus brazos y Depth Charge Sky suelta insectos-mina que explotan sobre el enemigo y derriban. Provócalo con un insulto y se lanzará de cabeza.",
+    "gancho": "Alguien se ha burlado de BanchoStingmon en un mercado del pantano, y ahora vuela furioso en su busca. Los héroes deben evitar un desastre antes de que ocurra."
+  },
+  "barbamon": {
+    "descripcion": "Uno de los Siete Grandes Señores Demonio, con forma de anciano de larga barba. Reina en el corazón del Área Oscura, donde manda a los Digimon ángel oscuro y los empuja a toda clase de maldades. Es codicioso hasta la obsesión por cualquier tesoro de la red y el estratega más astuto de los Siete, capaz de controlar incluso al poderoso Ghoulmon.",
+    "tacticas": "Acechador astuto que juega con la avaricia: Death Lure atrae al objetivo con su bastón demoníaco y lo provoca sin fallar, y Pandemonium Lost libera el mal del Área Oscura con una explosión que quema y debilita. Ofrece un tesoro como cebo.",
+    "gancho": "Un cofre misterioso aparece en el camino del grupo, lleno de joyas que parecen llamarlos por su nombre. Detrás del cebo, Barbamon observa cuál de ellos cederá primero."
+  },
+  "barbamon_x": {
+    "descripcion": "Versión de Barbamon con el bastón Death Lure fundido al brazo derecho, lo que le da una conexión directa con el poder demoníaco. Sigue siendo el avaricioso Señor Demonio de aspecto anciano y barbudo que manda en el Área Oscura, pero con técnicas más refinadas. Valora a sus rivales como piezas de colección, y la Corona de la Codicia de su mano es su mejor tesoro.",
+    "tacticas": "Acechador coleccionista: Seventh Jewelrize convierte el DigiCore del objetivo en una gema, asusta y perfora, y Death Lure provoca sin fallar. Estudia primero a los PJ más poderosos y los elige como objetivo.",
+    "gancho": "Una joya inédita brilla entre las gemas de una vitrina vacía. Los héroes descubren que Barbamon la reserva para el Digimon más poderoso que encuentre, y quizá ya lo tiene señalado entre ellos."
+  },
+  "beelstarmon": {
+    "descripcion": "Pistolera de maneras elegantes que maneja con maestría dos pistolas gemelas, las Rizoma de Loto, y a la que por su parecido se llama Beelzemon Lady. Es abierta y se lleva bien con otros tiradores como MagnaKidmon, que la apoda Beelko, aunque mantiene las distancias con Beelzemon. Un traje de cuero negro y una bufanda que se convierte en armas o armadura completan su estilo.",
+    "tacticas": "Místico pistolero: Fly Bullet busca los puntos vitales con disparos precisos, Hurricane Screw Shot empuja a los grupos con una patada giratoria cargada de balas, y Double Claw rasga con sus cuchillas en el cuerpo a cuerpo.",
+    "gancho": "Un duelo de tiradores se celebra en un cañón y BeelStarmon invita a los héroes a participar. Le encanta la compañía; la verdadera amenaza es el rival que ha traído a escondidas."
+  },
+  "beelstarmon_x": {
+    "descripcion": "Pistolera de belleza sin igual, caracterizada por sus grandes alas negras. Además de las Rizoma de Loto, ahora convertidas en escopeta, maneja la pistola Pepino. Dispara con movimientos de baile, y su puntería es tal que sus balas aciertan desde cualquier posición. Se rumorea que su manera de disparar es una forma de arte.",
+    "tacticas": "Místico de engaño: Fly Bullet: Segundo vuela libre por el campo y distrae mientras suelta plumas negras que ciegan; después Distancia Cero remata a quemarropa con fuego. Double Claw empuja en el cuerpo a cuerpo.",
+    "gancho": "Plumas negras caen sobre un salón de baile abandonado y suena una música lejana. BeelStarmon propone a los héroes un trato: sobrevivir a su baile de disparos hasta que cese la melodía."
+  },
+  "beelzebumon": {
+    "descripcion": "Señor Demonio solitario, uno de los Siete Grandes, que valora su independencia por encima de todo aunque podría gobernar a muchos Digimon malignos. Siempre lleva consigo sus escopetas Berejena y recorre el Mundo Digital sobre su gigantesca moto Behemoth. Es cruel y despiadado, pero su orgullo le impide atacar a los débiles o aparecer en grupo.",
+    "tacticas": "Bruto veloz y certero: Darkness Claw desgarra con sus garras y empuja con brutalidad, y Double Impact dispara dos ráfagas gemelas de sus escopetas que no fallan. No ataca a los débiles: úsalo para poner a prueba solo a los PJ más fuertes.",
+    "gancho": "Una moto negra ruge en la noche y Beelzemon reta a los héroes a una carrera. Si ganan, obtendrán una información valiosa; si pierden, tendrán que luchar."
+  },
+  "beelzebumon-xwars": {
+    "descripcion": "Guerrero legendario y lobo solitario con un poder destructivo inmenso. Callado e indiferente, parece frío y calculador, pero en el fondo siente una sed de combate inigualable y jamás rechaza un desafío. Su cañón Berejena SDX, en el brazo derecho, dispara con una rapidez casi divina, y quien lo reta a la ligera pocas veces vuelve a contarlo.",
+    "tacticas": "Bruto veloz: Death the Cannon descarga un disparo brutal que asusta antes de que el enemigo reaccione, y Darkness Claw paraliza a cambio de conceder un deseo al rival. Luego lo bombardea sin piedad mientras no puede moverse.",
+    "gancho": "Beelzemon acepta cualquier desafío, incluso el de los héroes, y ofrece un deseo a quien lo mire a los ojos. Pero el precio de ese deseo es más caro de lo que parece."
+  }
+}

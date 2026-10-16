@@ -1,0 +1,227 @@
+{
+  "namakemon": {
+    "descripcion": "Comer y dormir: esa es toda la filosofía de Namakemon. La pereza ha apagado su instinto de lucha, así que se instala en lo alto de los árboles, lejos de cualquier visita. Como casi siempre usa los dos brazos para agarrarse a las ramas, su larga lengua trabaja como una tercera mano.",
+    "tacticas": "Se queda en su rama y suelta Poop Toss para cegar y envenenar a quien se acerque. Paralyze Lick es su recurso de emergencia, flojo pero molesto; casi nunca llega a usarlo, porque prefiere que lo dejen en paz.",
+    "gancho": "Un fruto rarísimo cuelga de la copa de un árbol gigantesco y solo Namakemon sabe llegar hasta él. Convencer a este perezoso de que baje a ayudar exigirá comida, paciencia y mucho ingenio."
+  },
+  "nanimon": {
+    "descripcion": "Nadie sabe de qué rincón del multiverso digital llegó Nanimon. En su mundo era una mascota virtual a la que apodaban «Oyaji», aficionada al alcohol y a las peleas; al invadir este lugar despertó y abrazó la ley del más fuerte. Su verdadero poder sigue siendo un misterio, pero ha sobrevivido a incontables combates.",
+    "tacticas": "Alterna Poop a distancia, para cegar y envenenar, con Poop Dunk cuando alguien se le pone al alcance. Es versátil y cambia de objetivo sin avisar; su aspecto cutre hace que muchos subestimen su aguante.",
+    "gancho": "En una taberna digital, un forastero tambaleante afirma venir de otro mundo y desafía a todos a pelear. ¿Es solo un pendenciero o la primera pista de algo mucho mayor?"
+  },
+  "nefertimon_x": {
+    "descripcion": "Esta Bestia Sagrada de armadura dorada y aire de faraón despierta su poder gracias al Digihuevo de la Luz, capaz de purificar la oscuridad. Con el X Antibody se ha vuelto más ágil y mortífera en el cuerpo a cuerpo, y su fuerza se multiplica ante los Digimon malignos, a quienes castiga con su luz sagrada.",
+    "tacticas": "Es una Mística que controla el campo: Curse of the Queen debilita desde lejos al enemigo más peligroso y Rosetta Stone invoca una enorme losa grabada que derriba. Ante rivales oscuros, descríbela brillando con más fuerza.",
+    "gancho": "Unas ruinas cubiertas de DigiCódigo antiguo despiertan al paso del grupo. Nefertimon (X Antibody) se ofrece a descifrarlas, pero antes exige que los héroes expulsen de allí a los Digimon oscuros."
+  },
+  "nightchiropmon": {
+    "descripcion": "Su traje sigiloso apaga el brillo, el sonido y el calor, de modo que este explorador nocturno resulta casi imposible de detectar. Un casco con eco y sensores le permite percibir todo a su alrededor. Pelea con artes marciales ágiles y su equipo parece sacado de una unidad militar.",
+    "tacticas": "Abre con Providence Scan para marcar a su víctima y después golpea con Shadow Arts, que castiga con dureza y asusta. Es letal cuando los héroes no lo ven venir: úsalo siempre desde las sombras.",
+    "gancho": "Alguien vigila al grupo cada noche sin dejar una sola huella. Es Nightchiropmon, y los héroes tendrán que averiguar para quién trabaja y qué información ha enviado ya."
+  },
+  "igamon": {
+    "descripcion": "Tras su máscara roja, Ninjamon recorre el Mundo Digital entrenando sin descanso. Domina el sigilo y se esconde en bosques e incluso bajo el agua, por lo que cuesta descubrirlo antes de que actúe. Mantiene una vieja rivalidad amistosa con Deputymon, aunque sus escuelas sean distintas.",
+    "tacticas": "Emboscada desde la maleza o desde el agua y remate con Iga-Style Shuriken Throw, que puede ser un golpe único y brutal o una ráfaga de estrellas gigantes. Si falla, desaparece y vuelve a acechar.",
+    "gancho": "Entre los arbustos, una shuriken gigante se clava a un palmo de los pies del grupo. Ninjamon los somete a una prueba de sigilo antes de contarles lo que sabe del bosque."
+  },
+  "nisedrimogemon": {
+    "descripcion": "Idéntico a Drimogemon salvo por un bigote sospechoso que le da nombre, NiseDrimogemon es el «falso» que quizá habría sido el original de haberlo descubierto antes. Su enorme nariz en forma de taladro es su orgullo, y la usa como herramienta y como arma.",
+    "tacticas": "Se lanza sobre su blanco con Bogus Iron Drill Spin, un ataque rápido que atraviesa defensas. Gracias a su agilidad cambia de posición antes de que el grupo pueda responder.",
+    "gancho": "Un minero Digimon jura que su mejor amigo, un Drimogemon, ha sido sustituido por un impostor con bigote. Los héroes deben averiguar quién es el verdadero y quién el falso."
+  },
+  "numemon": {
+    "descripcion": "Baboso, lento y amante de los lugares húmedos y oscuros, Numemon carece de fuerza y de inteligencia. Cualquier Digimon puede acabar convertido en uno si no se le cría bien, así que quizá esconda más de lo que parece. Su único método de defensa es arrojar sus propios desechos.",
+    "tacticas": "Es un esbirro: aparece en grupo y lanza Poop Toss desde lejos para cegar y envenenar. Sus ataques son humildes, pero varios a la vez entorpecen a los héroes mientras un enemigo mayor actúa.",
+    "gancho": "Una cueva húmeda está llena de Numemon que bloquean el único paso. ¿Los héroes los espantan, los esquivan o descubren por qué ese lugar atrae a tantos?"
+  },
+  "numemon_x": {
+    "descripcion": "Lo que cae de Numemon (X Antibody) se transforma en pequeñas copias suyas que flotan a su alrededor. Presume del X Antibody que lleva en la boca, tan empapado de baba que nadie querría robárselo. Pese a su aspecto, quiere mucho a sus amigos y planta cara a rivales poderosos para protegerlos.",
+    "tacticas": "Es un bruto de primera línea: carga con Poop Rush junto a sus mini copias, envenenando y cegando al contacto. Resiste más de lo esperado cuando tiene aliados a los que defender.",
+    "gancho": "Un Numemon diminuto con una esfera brillante en la boca se planta entre el grupo y un Digimon enorme y furioso. Nadie entiende de dónde saca el valor, pero sus mini copias no se mueven."
+  },
+  "octmon": {
+    "descripcion": "Octomon nació dentro de un virus que un hacker lanzó contra el ordenador de un rival. Coleccionista obsesivo, se cubre de tesoros digitales rescatados del fondo del Net Ocean y lleva en la cabeza una vasija donde viven los Fujitsumon, pequeños moluscos de sentidos agudos que le avisan del peligro.",
+    "tacticas": "Dispara Spurting Ink desde el agua o la orilla para cegar y envenenar, y aguanta como un bruto. Los Fujitsumon de su vasija hacen que sea muy difícil sorprenderlo.",
+    "gancho": "Octomon guarda un tesoro hundido y propone compartirlo con quien le traiga la pieza que falta en su colección, un objeto que, por casualidad, el grupo lleva encima."
+  },
+  "orgemon": {
+    "descripcion": "Con aspecto de oni de las leyendas japonesas, Ogremon es puro músculo, inteligencia aguda y mal genio. Lo llaman el Digimon Hunter porque desafía incluso a rivales mucho más fuertes que él. El garrote de hueso que empuña es un trofeo que ganó a SkullGreymon.",
+    "tacticas": "Se planta frente al héroe más fuerte y lo machaca con Pummel Whack, balanceando sus enormes brazos. Su orgullo lo empuja a elegir al rival más temible, así que puedes hacer que ignore a los demás.",
+    "gancho": "Ogremon recorre la región retando a los Digimon más fuertes y anuncia que el siguiente será alguien del grupo. A los héroes les toca decidir si lo enfrentan o le buscan un rival digno."
+  },
+  "orgemon_x": {
+    "descripcion": "Con el X Antibody, la ferocidad de Ogremon estalló y lo convirtió en un berserker que disfruta de cada pelea. Su arma es un hacha que fusiona guitarra eléctrica y sierra, y con ella toca el ritmo de su propio DigiCore a golpe de rock. Sigue siendo el temible cazador de rivales poderosos.",
+    "tacticas": "Es un bruto escandaloso: empieza con Pummel Whack y, cuando está en racha, remata con WEEK END, un tajo de guitarra y sierra. Descríbelo tocando riffs para que la mesa note cómo sube su furia.",
+    "gancho": "Un concierto improvisado en una cueva atrae a cientos de Digimon, hasta que Ogremon (X Antibody) sube al escenario con su hacha-guitarra y decide que el público también tiene que pelear."
+  },
+  "omekamon": {
+    "descripcion": "Nació de los planos de diseño de un ordenador y todavía no sabe quién es, así que intenta parecerse a los famosos Caballeros Reales. Los demás Digimon se burlan de él. Lleva a la espalda un rotulador que, según dicen, encontró en un programa de dibujo.",
+    "tacticas": "Dispara Graffiti Rocket a distancia, un cohete-rotulador que mancha y humilla. Si lo acorralan, sorprende con Omeka Kick, un golpe mucho más potente de lo que parece.",
+    "gancho": "Un Digimon con disfraz de caballero se presenta como un Caballero Real y pide escolta hasta el castillo. Los héroes deben decidir si lo desenmascaran o le dejan creérselo."
+  },
+  "paledramon": {
+    "descripcion": "Dragón de grandes alas heladas que ya no sufre los cambios de temperatura del entorno, salvo ante enemigos ardientes como Meramon, que lo derriten y debilitan igual que cuando era Novato. Piensa siempre en sus amigos y, si uno está en apuros, hace lo que sea por ayudarlo, sin medir el riesgo.",
+    "tacticas": "Congela a los héroes con Ice Age, un golpe brutal, y cae desde las alturas con Meteor Hail como un bloque de hielo gigante. Su punto débil es el fuego: ante un rival ardiente, descríbelo flaqueando.",
+    "gancho": "Un Paledramon herido pide ayuda: su mejor amigo ha quedado atrapado en un volcán, y él, que se derrite con el calor, insiste en ir a rescatarlo aunque no aguante."
+  },
+  "parasaurmon": {
+    "descripcion": "Dinosaurio apacible de climas cálidos, lleva alrededor del cuello unos órganos como frutas que desprenden un aroma dulce. Cada miembro de la manada huele distinto, así se localizan entre sí. Rara vez lo atacan, pero si alguien se acerca con malas intenciones, defiende a los suyos.",
+    "tacticas": "Exhala Stunning Sweetness para encantar y paralizar a los atacantes, y ralentiza el avance de todos con el rugido grave de Wavy Octavist. Es un defensor de la manada, no un cazador.",
+    "gancho": "Un aroma dulce flota por el valle y atrae a todos los Digimon hambrientos. Siguiéndolo, los héroes hallan a una manada de Parasaurmon que necesita protección durante la noche."
+  },
+  "peckmon": {
+    "descripcion": "Ave de patas poderosas que corre más rápido de lo que vuela. Esconde plumas de acero bajo las alas y su pico repica como el de un pájaro carpintero. Cuando despega, se convierte en un proyectil: sube, gira el cuerpo entero y cae con las garras por delante.",
+    "tacticas": "Lanza Kunai Wing desde el aire para romper la guardia y baja girando con Spiral Claw, un golpe brutal con las garras. Pelea más como un bruto que como un acróbata.",
+    "gancho": "Plumas de acero caen sobre un camino de montaña. Peckmon cree que los viajeros invaden su nido y no atenderá a razones hasta que alguien le demuestre lo contrario."
+  },
+  "pegasmon_x": {
+    "descripcion": "Esta Bestia Sagrada de armadura reforzada nació del Digihuevo de la Esperanza y muestra un poder sagrado implacable ante el mal. Con el X Antibody levanta Sacred Wall, una barrera que repele a los malvados y cuyo interior se rige por leyes físicas propias, y puede acelerar hasta la velocidad de la luz.",
+    "tacticas": "Empieza con Sacred Wall para proteger a sus aliados y se lanza contra el enemigo más malvado con Meteorizer, ágil y veloz. Descríbelo como un rayo de luz que apenas se deja ver.",
+    "gancho": "Un Digimon oscuro acorrala una aldea y sus habitantes se refugian tras un muro de luz. Al otro lado, Pegasusmon (X Antibody) espera una señal del grupo para cargar."
+  },
+  "petermon": {
+    "descripcion": "Parece un chico que baila libre por el cielo y seduce a jóvenes Digimon que se niegan a evolucionar con la promesa de una tierra solo para niños, Never-Ever Land, un mundo que él mismo creó. Parece inocente, pero bajo esa pureza hay crueldad, sobre todo con quienes rompen promesas.",
+    "tacticas": "Vuela fuera de alcance y castiga con Snipe Sting, un disparo largo y venenoso a puntos vitales. Con Midnight Fantasia duerme y confunde a todos los que oigan su silbido, sobre todo a los más jóvenes.",
+    "gancho": "Los Digimon jóvenes de una aldea desaparecen cada noche tras un silbido. Petermon les ha prometido un país sin adultos, y los héroes deben convencerlos de volver antes del amanecer."
+  },
+  "pidmon": {
+    "descripcion": "Ángel de dos alas, envuelto en una tela blanca y brillante, Piddomon encarna la virtud pura aunque esté un rango por debajo de Angemon. Su poder es comparable al de este y lo canaliza con el Holy Rod que empuña para destruir el mal.",
+    "tacticas": "Ataca desde el aire: Fire Phaser hace llover plumas de fuego sagrado que queman, y Pid Speed es una carga luminosa que ciega. Golpea y se aleja antes de que lo alcancen.",
+    "gancho": "Un Piddomon vigila el templo de una aldea y exige que los visitantes demuestren la pureza de su corazón antes de pasar. Tras su prueba se esconde un secreto que le preocupa."
+  },
+  "platinasukamon": {
+    "descripcion": "Un Sukamon de reluciente platino con forma de excremento: ha absorbido datos de metales raros, lo que le da una apariencia lujosa sin mejorar en nada sus habilidades. Se pavonea como un tesoro andante, pero sigue siendo el mismo Sukamon de siempre.",
+    "tacticas": "Lanza Rare Metal Poop desde lejos para cegar a su víctima. No es un gran luchador, pero su brillo es una distracción: los codiciosos lo persiguen en lugar de atender a sus aliados.",
+    "gancho": "Un buscador de tesoros jura haber visto una estatua de platino rodando por las alcantarillas digitales. Resulta ser PlatinumSukamon, que no piensa dejarse capturar."
+  },
+  "porcupamon": {
+    "descripcion": "Rareza amenazada que figura en la lista roja de Digimon, Porcupamon no vivía en el Área Oscura, pero otras especies lo expulsaron y acabó allí. Su cuerpo está cubierto de un cuero especial: un disfraz de aspecto siniestro con el que sobrevive entre depredadores.",
+    "tacticas": "Se acerca como un enemigo temible, pero busca desorientar: Madness Broach clava sus pinchos y confunde, y Slap and Rip es su zarpazo final. Si el combate se tuerce, prefiere huir.",
+    "gancho": "Un cazador furtivo busca el cuero de un Porcupamon, uno de los pocos que quedan en la zona. Los héroes deben decidir si lo protegen o miran hacia otro lado."
+  },
+  "potamon": {
+    "descripcion": "Gourmet que escaneó datos de toda clase de patatas fritas, Potamon pasea comiendo y repartiendo bocados selectos para que todos descubran lo ricos que están. No soporta a los quejicas y compite con Burgamon por el trono de la comida rápida.",
+    "tacticas": "Desde lo alto lanza Shubashuba Potato, patatas cortantes, y Bashed Potato, grandes fritas planas y calientes que aturden. Es más fastidio que peligro: se calma si alguien se disculpa y prueba su comida.",
+    "gancho": "Un concurso de comida rápida enfrenta a Potamon con Burgamon y ambos buscan un juez imparcial. El grupo tendrá que probar las patatas y opinar con muchísimo cuidado."
+  },
+  "pteranomon_x": {
+    "descripcion": "Con alas de acero y la armadura del Digihuevo del Amor, este Digimon vuela más alto que ningún otro y detecta enemigos desde enorme distancia. Con el X Antibody, como nadie llega a su altura, aprendió a pelear contra los de su especie y también a volar muy bajo y a gran velocidad.",
+    "tacticas": "Cae en picado con Beak Pierce, un pico que atraviesa armaduras, o roza el suelo con Nail Comb para desgarrar con las garras. Golpea y vuelve a elevarse antes de que contraataquen.",
+    "gancho": "Una sombra azul cruza el cielo a una altura imposible y deja caer un mensaje. Pteramon (X Antibody) ha visto al grupo desde muy lejos y quiere contratarlo."
+  },
+  "publimon": {
+    "descripcion": "Con una capucha de concha, Publimon observa a otros Digimon y convierte lo que ve en noticias que difunde por todo el Mundo Digital, desde lo trivial hasta lo peligroso. Tiene tantos seguidores como detractores, y quien dañe a sus lectores acaba convertido en objeto de una de sus investigaciones.",
+    "tacticas": "Aplasta al rival entre dos ventanas gigantes con Dual Presser, derribándolo con fuerza, o lanza Playful Crash, una ventana plegada como avión de papel que atraviesa al objetivo. Es un bruto de oficina.",
+    "gancho": "Publimon publica un reportaje que acusa al grupo de algo que no hicieron. Para limpiar su nombre, deberán convencerlo con pruebas o dejar que investigue a su lado."
+  },
+  "punkmon": {
+    "descripcion": "Surgió al absorber datos de la música y la moda punk, y es la anarquía hecha Digimon. Odia que le den órdenes, escucha poco y pelea con estilo: incluso recibe golpes a propósito para lucirse ante el público. Sin espectadores se aburre y pierde la paciencia.",
+    "tacticas": "Con público, se luce: Blitzkreig Bop prende fuego desde sus puños y marca al enemigo, y Anarchist Flame escupe bolas azules. Sin audiencia pierde la chispa y se vuelve más impulsivo.",
+    "gancho": "Punkmon monta un concierto ilegal en plena ciudad y reta a los héroes a guardar silencio o a subir al escenario. Si nadie lo aplaude, la fiesta acabará en pelea."
+  },
+  "raptordramon": {
+    "descripcion": "Androide moldeado sobre un Digimon salvaje de instinto cazador, Raptordramon tiene un cuerpo durísimo y una ferocidad incontrolable. Lo reconstruyeron con un Chrondigizoid tan pesado que limita su movilidad, pero conserva una gran explosividad. Si libera su potencial, derribará a un gigante de un solo golpe.",
+    "tacticas": "Embiste con Crash Charge para derribar con precisión y salta sobre el objetivo debilitado con Ambush Crunch, que desgarra puntos vitales. Es un cazador que espera el momento de rematar.",
+    "gancho": "Un Raptordramon escapó de un laboratorio y vaga por unas ruinas atacando todo lo que se mueve. Los héroes pueden capturarlo, calmarlo o descubrir quién lo reconstruyó."
+  },
+  "raptorsparrowmon": {
+    "descripcion": "Evolución de Sparrowmon, recubierta por completo de Chrondigizoid: una armadura que compensa su antigua fragilidad y le permite girar con rapidez sobre sus elegantes alas. Es caprichoso e inconstante, y por eso comete muchos errores, a pesar de sus dotes para el golpe y huida.",
+    "tacticas": "Pelea al estilo golpea y huye: Raptor Grapple agarra a un héroe y lo estampa contra el suelo, y Crash Charge sirve para embestir. Su carácter caprichoso puede traicionarlo; hazlo fallar de vez en cuando.",
+    "gancho": "Un RaptorSparrowmon aparece en mitad de una batalla ajena, ayuda a cada bando por turnos y cambia de opinión cada pocos minutos. Los héroes deberán ganarse su lealtad."
+  },
+  "raremon": {
+    "descripcion": "Muerto viviente al que se le pudrieron los músculos. Raremon quiso prolongar su vida con piezas mecánicas, pero el proceso no se estabilizó y sus datos se deshacen; aun así, esas piezas lo mantienen en pie. Actúa por puro instinto y su hedor basta para que los Digimon más jóvenes salgan corriendo.",
+    "tacticas": "Escupe Sludge, un lodo venenoso y brutal, desde lejos y avanza torpe pero imparable. Solo se digna a pelear contra rivales de nivel Campeón o superior.",
+    "gancho": "Un hedor insoportable cubre un pantano y los Digimon jóvenes huyen aterrados. Los héroes deben guiar a Raremon hasta un lugar donde no moleste a nadie, o enfrentarse a él."
+  },
+  "redvegimon": {
+    "descripcion": "Es el Vegiemon ya maduro: su cuerpo entero se ha vuelto rojo, su forma original, probablemente por los duros ambientes del Folder Continent. Más listo y más astuto que su versión sin madurar, quien se acerque creyendo que es un Vegiemon cualquiera se llevará un buen disgusto.",
+    "tacticas": "Disimula su peligro para que los héroes bajen la guardia y luego suelta Hazard Breath, un aliento envenenado a distancia. Como Místico, aprovecha cada turno para parecer un simple fruto inofensivo.",
+    "gancho": "Un campesino ofrece pagar a los héroes por cosechar una hortaliza gigante y roja que, al acercarse, resulta ser un RedVegiemon de muy mal humor."
+  },
+  "reppamon": {
+    "descripcion": "Lleva una cuchilla en la cola, como el kamaitachi, un mítico animal parecido a una comadreja. La cola actúa por su cuenta y no siempre coincide con la voluntad de su dueño: Reppamon incluso ha llegado a pelearse con ella. Le encanta luchar entre los árboles, donde trepa con soltura.",
+    "tacticas": "Embiste con Rolling Tackle para derribar y desgarra con Lion Claw; su cola, por libre, suelta cuchilladas de aire invisible. En un bosque, hazlo saltar de rama en rama para sorprender al grupo.",
+    "gancho": "En un bosque cercano cae un árbol sin motivo y una cuchilla invisible corta el aire. Reppamon discute con su propia cola y necesita ayuda para entenderse con ella."
+  },
+  "rhamphomon": {
+    "descripcion": "Pterosaurio de grandes alas membranosas que pasa casi todo el día planeando sobre las corrientes de aire. Puede cargar con las dos patas a Digimon más grandes que él. Cuando divisa una presa, pliega las alas y cae sobre ella en picado.",
+    "tacticas": "Abre con Crystal Cannon desde el aire y remata con Hammer Strike, que aturde. Si atrapa a un héroe, puede soltarlo desde lo alto como colofón; recuerda que vuela.",
+    "gancho": "Un Digimon desaparece al amanecer y su rastro se pierde entre las nubes. Rhamphomon lo ha llevado a su nido en un risco: hay que subir y negociar antes de que lo deje caer."
+  },
+  "rhinomon_x": {
+    "descripcion": "Mamífero acorazado que evolucionó gracias al Digihuevo de los Milagros. Su armadura de Chrondigizoid resiste los golpes y refleja los láseres, y pese a su corpulencia se mueve con una rapidez anormal. Con el X Antibody, su cuerno se ha convertido en espada y su carácter es más agresivo.",
+    "tacticas": "Embiste con Atomic Blade, que atraviesa y quema, y protege a los suyos con Ain Soph Aur, una barrera brillante. Elige al héroe que parezca más fuerte y lo reta a duelo.",
+    "gancho": "Un Rhinomon (X Antibody) reta a duelo al miembro más fuerte del grupo para decidir quién cruza el puente. Quien lo derrote ganará un aliado muy leal."
+  },
+  "gokimon": {
+    "descripcion": "Con el brillante cuerpo negro de la plaga más odiada, Roachmon procura no dejarse ver y se mueve con agilidad, y aún más deprisa cuando huye. Ataca y defiende con poca fuerza, pero sus enormes ganas de vivir lo hacen brillar en los combates de resistencia.",
+    "tacticas": "Esparce basura con Dream Dust para dormir a los héroes y luego espera o huye. Es un enemigo de desgaste: difícil de atrapar, fácil de subestimar y empeñado en no rendirse nunca.",
+    "gancho": "Alguien vacía la despensa de la base del grupo cada noche. El culpable, Roachmon, jura que solo quiere sobrevivir y se escabulle entre las piernas de todos."
+  },
+  "runnermon": {
+    "descripcion": "Nació de los datos de una cinta de correr y cruza colinas, pantanos y cualquier terreno hostil sin perder velocidad. Lo que de verdad lo distingue no es su rapidez sino un aguante casi infinito: mantiene su ritmo máximo durante larguísimos trayectos sin apenas detenerse.",
+    "tacticas": "Ataca por la espalda con Lightning Rush, tan veloz que derriba y desorienta, y agota al grupo con Heartbeat Impulse a distancia. Si lo persiguen, nunca se cansa antes que ellos.",
+    "gancho": "Una carrera por las colinas ofrece un objeto raro como premio, y el favorito es Runnermon, que lleva días corriendo sin parar. ¿Quién será capaz de seguirle el ritmo?"
+  },
+  "saberdramon": {
+    "descripcion": "Envuelto en llamas oscuras, Saberdramon tiene un carácter violento y responde a cada agresión con una avalancha de contraataques, de modo que nadie se le acerca con facilidad. Aunque su atributo es Vacuna, su aspecto resulta amenazador.",
+    "tacticas": "Se lanza desde el cielo con Black Saber, un picado de garras rápido que asusta, y vuelve a elevarse. Si lo atacan, responde con furia: castiga a quien lo golpee.",
+    "gancho": "Llamas negras cruzan el cielo sobre el camino que los héroes necesitan. Saberdramon custodia el paso y ataca a cualquiera que se acerque, salvo a quien sepa calmarlo."
+  },
+  "sandyammamon": {
+    "descripcion": "Subespecie de Yanmamon que habita en los desiertos. A diferencia de su pariente, tiene un carácter tranquilo, aunque no tiene piedad con los Digimon que invaden su territorio. Con unos poderosos aleteos levanta pequeñas tormentas de arena.",
+    "tacticas": "Acecha desde el aire envuelto en una nube de arena y golpea con Desert Wind, que empuja y perfora. Aprovecha el terreno para esconderse y repetir el ataque.",
+    "gancho": "Una caravana cruza el desierto y se pregunta por qué el viento sopla siempre desde el mismo lado. SandYanmamon vigila sus dominios y sabe exactamente quién ha entrado."
+  },
+  "sangloupmon": {
+    "descripcion": "Lobo chupasangre de porte noble, tan antiguo que se dice que existe desde el inicio del Mundo Digital. Quien sufre su mordisco pierde toda la información de su DigiCore. Puede deshacerse en paquetes de datos y reaparecer en otro lugar, por eso es tan difícil atraparlo.",
+    "tacticas": "Se disuelve y reaparece junto al héroe más herido. Remata con Sticker Blade, miles de cuchillas diminutas, o con Black Mind, fundiéndose con la sombra del enemigo. Ejecuta a objetivos debilitados.",
+    "gancho": "Los habitantes de un pueblo amanecen sin memoria, uno tras otro, y por la noche solo se oye un aullido. El grupo debe atrapar al lobo vampiro antes de la próxima luna."
+  },
+  "seadramon": {
+    "descripcion": "Serpiente marina de cuerpo larguísimo que, al ser atacada, se enrosca sobre su enemigo y aprieta hasta asfixiarlo. Le falta inteligencia y nada por el Net Ocean allí donde lo llevan sus instintos, de modo que resulta imprevisible y peligroso para cualquier barco.",
+    "tacticas": "Ocupa el frente del agua como tanque y congela con Ice Blast, un aliento a cero absoluto. Si alguien queda debilitado, lo remata. Descríbelo enroscándose alrededor de un héroe para estrangular.",
+    "gancho": "Un barco digital queda atrapado de golpe en una bahía helada. Debajo, una larga sombra serpentea en círculos; el grupo debe descubrir cómo cruzar sin molestar a Seadramon."
+  },
+  "seadramon_x": {
+    "descripcion": "Se cree que sobrevivió desde tiempos antiguos gracias a incontables batallas en el duro Net Ocean. Con el X Antibody, solo piensa en nadar más deprisa y huele a Digimon heridos desde muy lejos. Evita a los mayores que él, pero acosa a los débiles.",
+    "tacticas": "Evita a los grandes y persigue al héroe más herido, congelándolo con Ice Blast o atravesándolo con Ice Spear. Es oportunista: si el grupo muestra debilidad, se abalanza sobre él.",
+    "gancho": "Tras una batalla, un compañero herido deja un rastro de datos dañados en el agua. Seadramon (X Antibody) lo huele desde lejos, y el grupo debe protegerlo antes de que llegue."
+  },
+  "sealsdramon": {
+    "descripcion": "Solo un Commandramon que supere la prueba Selection-D, que descarta a 99 de cada 100 aspirantes, puede evolucionar a Sealsdramon. Se mueve a velocidades que el ojo no sigue, casi nunca usa armas de fuego ni camuflaje, y sus misiones consisten en eliminar objetivos concretos.",
+    "tacticas": "Localiza puntos débiles con Scouter Monoeye y ataca con Death Behind, un tajo certero que asusta incluso desde lejos. Es un tirador de élite: elige un solo blanco y no lo suelta.",
+    "gancho": "Un contrato misterioso señala a un aliado del grupo como objetivo. Sealsdramon lo vigila desde las sombras y solo se detendrá si los héroes descubren quién lo contrató."
+  },
+  "siesamon": {
+    "descripcion": "Se parece a la legendaria bestia sagrada shisa y posee el poder de alejar las desgracias. Amable y dócil, protege a los Tamers de cualquier calamidad aun a costa de sí mismo. Su feroz aspecto contrasta con su calma, y suele tumbarse al sol, que le recarga la vida.",
+    "tacticas": "Protege al grupo con Ancient Firewall, un escudo contra virus, y contraataca con Tiida Iya, flechas de luz solar que queman con rapidez. Descríbelo recargándose al sol entre turnos.",
+    "gancho": "Un Seasarmon dormita al sol a la entrada de un pueblo y nadie se atreve a pasar por su aspecto fiero. Solo los héroes se dan cuenta de que, en realidad, espera a su Tamer."
+  },
+  "siesamon_x": {
+    "descripcion": "Viste una armadura dorada que brilla más cuanto más tiempo pasa al sol y que repele los ataques de los Digimon malignos. El rojo de su cola indica cuánta luz ha acumulado. Sigue siendo el amable protector de siempre y descansa al sol esperando a su próximo enemigo.",
+    "tacticas": "Se convierte en una bola de luz con Koryūkyū para embestir al mal, cegando y golpeando con rapidez; Ancient Firewall protege a los aliados. Mira su cola: cuanto más roja, más preparado está.",
+    "gancho": "Al amanecer, una armadura dorada brilla en lo alto de un tejado. Seasarmon (X Antibody) pide a los héroes que lo ayuden a recargarse al sol hasta el mediodía, cuando llegará un Digimon maligno."
+  },
+  "shademon": {
+    "descripcion": "Sin cuerpo propio, Shademon ronda las sombras de humanos y Digimon y se alimenta de la desesperación de aquellos a quienes posee. Según cuánta desesperación consuma, evolucionará hacia una forma u otra, y siempre será terrible.",
+    "tacticas": "Se esconde tras otros: Free Death Fall muestra ilusiones de caídas sin fin que derriban y confunden, y Kill Me lanza a los demás Digimon contra el poseído. Hazlo misterioso, nunca cruel.",
+    "gancho": "Un Digimon amable se vuelve más sombrío cada noche y sus amigos empiezan a atacarse. Un Shademon se oculta en su sombra, y el grupo debe expulsarlo con paciencia y cariño."
+  },
+  "shonitamon": {
+    "descripcion": "Modo de reconocimiento armado nacido de la curiosidad desbordante de dos Digimon. Podría infiltrarse en territorio enemigo con técnicas ninja y transmitir lo visto a sus aliados, pero siempre se desvía. Gran parte de sus informes viene de aguas termales y piscinas, y él jura que eso es explorar.",
+    "tacticas": "Cubre el campo con Fog Concealment para cegar y provocar, y atrapa con Leaf Concealment a quien se le acerque. Es un tanque distraído: puede abandonar su misión para investigar cualquier otra cosa.",
+    "gancho": "Una niebla densa cae sobre unas termas y los héroes se pierden. Shanitamon jura que es una misión de reconocimiento, y su informe, aunque inútil, deja una pista involuntaria."
+  },
+  "shellmon": {
+    "descripcion": "Con forma de cangrejo ermitaño de las profundidades del Net Ocean, parece una tortuga dentro de su concha, pero su cuerpo es blando como el de un molusco. Crece y cambia de concha hasta alcanzar el tamaño de una montaña, y se instala en cualquier hueco donde le quepa el cuerpo.",
+    "tacticas": "Es un bruto de poco cerebro: dispara Hydro Blaster, un chorro a presión que ralentiza y golpea con fuerza, y no cambia de plan aunque le salga mal. Si lo provocan, insiste en lo mismo.",
+    "gancho": "Una enorme concha ha encallado en el puerto y bloquea los barcos. Shellmon no entiende de razones, pero cambiará de casa si le ofrecen una más grande y cómoda."
+  },
+  "karatukinumemon": {
+    "descripcion": "Nace cuando un Numemon es lo bastante listo para buscar una concha que lo proteja. Así es algo más inteligente que él, pero muy asustadizo: se esconde ante la menor provocación. Dentro de su concha su defensa es altísima y aguanta que lo pateen o lo pisen.",
+    "tacticas": "Es un tanque que provoca con Shell's Attack, embistiendo con la concha y ralentizando a quien se le acerque. Desespera a los héroes con su resistencia más que con su fuerza.",
+    "gancho": "Un ShellNumemon se ha encerrado en su concha en medio del único camino y no sale por nada. Los héroes deben convencerlo de que ya no hay peligro."
+  }
+}

@@ -1,0 +1,227 @@
+{
+"platinumnumemon": {
+"descripcion": "Un Numemon rarísimo que descubrió la mina Platina del Mundo Digital y, al absorber sus componentes, cambió por completo de carácter. Desde entonces recoge todas las joyas que encuentra y se adorna con alas doradas y collares como un nuevo rico. Su armadura reluciente lo protege bien, aunque golpea con poca fuerza.",
+"tacticas": "Versátil y resistente, pero de ataque modesto. Haz que lance Excrement para Cegar a distancia y que remate con Platinum Burp al toque para Debilitar, mientras presume de joyas y deja que los héroes se desesperen.",
+"gancho": "PlatinumNumemon ha robado las joyas de una aldea digital para colgárselas de las alas, y los héroes deben recuperarlas antes de que presuma de ellas ante todo el valle."
+},
+"plesiomon": {
+"descripcion": "Criatura de leyenda nacida de los rumores de unos criptozoólogos, Plesiomon casi nunca se deja ver y solo aparece envuelto en niebla. Su cuerpo brilla con una luz blanca tan elegante que deja sin palabras a quien la contempla. Su canto agudo y claro llena de tristeza a cuantos lo escuchan.",
+"tacticas": "Tanque que domina desde lejos. Con Sorrow Blue Debilita a los atacantes y los Provoca para que ignoren a sus aliados, así que funciona como un muro que desgasta la moral del grupo desde la bruma.",
+"gancho": "Una niebla espesa cubre el lago y una melodía triste atrae a los héroes. Seguir ese canto hasta su origen puede revelarles al esquivo Plesiomon."
+},
+"plesiomon_x": {
+"descripcion": "En esta versión renovada, Plesiomon parece hecho de poesía más que de carne, y su belleza recuerda al bardo trágico de un cuento que se convirtió en dragón. Rara vez sale a la luz. Con sus largos bigotes toca melodías que arrastran a quien las oye hacia un mundo de fantasía.",
+"tacticas": "Tanque de control. Abre con Fantasy Mist para Cegar a todo un grupo en la zona y después castiga con Sorrow Blue, que Debilita y Provoca, concentrando sobre sí los ataques enemigos.",
+"gancho": "Los héroes oyen una melodía que parece tocada con hilos de niebla. Quien la siga entrará en un mundo de fantasía donde Plesiomon guarda un secreto."
+},
+"plutomon": {
+"descripcion": "Señor del reino de los muertos, Plutomon recorre las tierras envuelto en sombras buscando a malhechores que merezcan ser enviados al más allá. Sus numerosas bocas llenas de colmillos castañetean de forma siniestra y asustan incluso a los Digimon buenos. Comparte con Jupitermon el deseo de castigar el mal, pero su crueldad le ha granjeado la enemistad de este.",
+"tacticas": "Místico de rango legendario. Haggard Cluster Drena y Asusta desde la distancia, mientras Hell's Gate sume a los villanos en el miedo. Resérvalo para una escena mayor, no para grupos novatos.",
+"gancho": "Un tirano local huye de los héroes, pero Plutomon ya ha olido su rastro. Deben decidir si lo defienden o dejan que el señor de los muertos haga justicia."
+},
+"princemamemon": {
+"descripcion": "Príncipe del mundo de los Mamemon, luce una capa y una corona hechas con datos de familias reales de la Red. Junto a KingEtemon finge ser de la realeza del Mundo Digital y hasta cree que los Royal Knights son sus súbditos. Su sonrisa jamás se borra, ni siquiera cuando golpea con una fuerza enorme.",
+"tacticas": "Versátil y presuntuoso. Su Smile Warhead es un cabezazo que Confunde a distancia. Hazlo hablar como un noble y atacar con descaro, dando tiempo a los héroes para aprovechar su vanidad.",
+"gancho": "PrinceMamemon exige que los héroes se arrodillen ante su falso trono y les ofrece títulos absurdos. Pueden seguirle la corriente para sacarle información o desenmascarar la farsa de KingEtemon."
+},
+"princemamemon_x": {
+"descripcion": "Este Mamemon mutó tras leer registros de la realeza, y sus piernas se han alargado, según los rumores gracias a unas plataformas en los zapatos. Su capa y su corona, rehechas con esos archivos, resultan magníficas, y su porte elegante convence hasta a los enemigos de apartarse de su camino. Siempre sonríe.",
+"tacticas": "Versátil de estilo teatral. Con Delmo Walking, al toque, Aturde a sus víctimas, y a distancia lanza Smile Warhead para Confundir. Alterna desfiles y cabezazos para descolocar a los héroes.",
+"gancho": "Un desfile real en pleno desierto digital bloquea el camino: PrinceMamemon avanza con paso elegante y nadie se atreve a pasar. Los héroes necesitan un plan para cruzar sin ofender a Su Alteza."
+},
+"proximamon": {
+"descripcion": "Ser misterioso que domina las fuerzas de la creación y la destrucción. Nadie sabe con certeza si existe de verdad, pues solo las simulaciones predicen su aparición. Con solo estar presente podría desgarrar y reconstruir a todo Digimon cercano, e incluso el paisaje. Su gran hacha brilla con una luz sagrada que reordena lo roto.",
+"tacticas": "Versátil y devastador. Extinction Cloud cubre toda la zona con Ejecutar y Cegar, y Light of Re-creation golpea al toque con Brutal. Úsalo como amenaza casi imposible, presente en muy pocas escenas.",
+"gancho": "Los datos para evolucionar a Proximamon son un secreto muy bien guardado. Alguien intenta robarlos, y los héroes deben impedir que el Mundo Digital se reescriba en un instante."
+},
+"pukumon": {
+"descripcion": "Un Digimon punk británico nacido cuando un hacker legendario volcó todo su saber en un virus y lo hizo mutar. Es pequeño, pero su carácter rebelde no tiene igual y busca pelea con cualquiera, sea más fuerte o más débil. Su cabeza de Chrondigizoid está cubierta de espinas durísimas.",
+"tacticas": "Versátil y provocador, siempre con ganas de pelea. Reserva su Needle Squall, que lanza todas las púas a la vez para Perforar y Atrapar, como carta final de un combate lleno de insultos.",
+"gancho": "Pukumon desafía a un duelo a los héroes en plena plaza, sin motivo alguno. Pueden ganarse su respeto aguantando la pelea o convencerlo de que su rebeldía sirva para algo mejor."
+},
+"pinochimon": {
+"descripcion": "Marioneta enorme creada con los datos del temido Cherrymon, probablemente obra de un hacker malicioso. Aunque parece un simple títere, actúa por voluntad propia, miente con retorcida gracia y suele andar detrás de las informaciones erróneas de las computadoras. Porta un martillo con forma de revólver cargado de pólvora.",
+"tacticas": "Jefe místico y tramposo. Puppet Pummel golpea al toque, con Acero y Confundir, y la explosión de pólvora del martillo da pie a escenas dramáticas. Haz que mienta y manipule antes de pelear.",
+"gancho": "Un rumor falso arrastra a los héroes a una trampa. Todos los datos erróneos de la zona conducen hasta Puppetmon, que se ríe de los caminos que ha torcido."
+},
+"pyramidimon": {
+"descripcion": "Gigantesco Digimon nacido de los datos de las antiguas ruinas del Mundo Digital. Su cuerpo de arena está rodeado de una tormenta perpetua que aleja a los Digimon corrientes. Duerme casi todo el tiempo disfrazado de pirámide y, si sufre daños, se regenera al instante absorbiendo arena. Posee una inteligencia asombrosa.",
+"tacticas": "Bruto casi imposible de agotar. Pega con Zofr Kabus para Romper con Brutal, o barre la zona con Laena Khamsin para Derribar. Para vencerlo hay que apuntar a su Digicore; el desgaste simple se le regenera.",
+"gancho": "Una pirámide que no estaba ayer aparece en el desierto y una tormenta de arena se acerca. Es Pyramidimon despertando, y los héroes deben averiguar qué lo ha sacado del sueño."
+},
+"quantumon": {
+"descripcion": "Hada sabia que habita Larc, la ciudad aérea oculta entre nubes sobre el Océano de la Red. Absorbe cantidades inmensas de datos y simula billones de futuros posibles para evitar los desastres que amenazan el Mundo Digital, junto a sus seguidores. Usa la física cuántica para torcer el espacio y el tiempo.",
+"tacticas": "Místico volador que controla el ritmo del combate. Unlimited Journey y Hazy Time Ralentizan a los enemigos, y Hazy Time además los Confunde, de modo que los héroes se muevan como en un sueño.",
+"gancho": "Quantumon envía un aviso: ha simulado un desastre futuro y solo los héroes pueden evitarlo. Deben llegar a Larc, la ciudad flotante, antes de que ese futuro se haga presente."
+},
+"quartzmon": {
+"descripcion": "Colosal devorador de datos que no deja de crecer. El Great Evil Globe que forma casi todo su cuerpo es un reactor de fusión que produce las partículas Gypt, y su verdadero cuerpo, sentado encima, puede separarse y actuar por su cuenta. Anhela todos los datos del mundo y se traga a otros Digimon enteros.",
+"tacticas": "Amenaza final. Gypt Particle Cannon barre una zona amplia con partículas que borran datos, y Ruin Blast agarra a una víctima con un tentáculo para Asustar. Preséntalo como jefe de campaña, con aliados que buscan frenar su reactor.",
+"gancho": "Los héroes hallan aldeas enteras borradas, sin rastro de datos. Siguiendo la estela hasta un enorme globo que flota en el cielo, comprenden que Quartzmon sigue hambriento."
+},
+"queenbeemon": {
+"descripcion": "Reina cíborg del Royal Base, una soberana ambiciosa que quiere ampliar sin descanso sus dominios. Es una gran científica e ingeniera, diseñó la base ella misma y gestiona sola las defensas. Le encanta presumir de realeza y escuchar el cariño de sus súbditos desde su trono, agitando su abanico de miel.",
+"tacticas": "Tirador de trono armado. Con Accel Stinger envenena a un objetivo al toque y lo Perfora, y con Hornet Eraser dispara un rayo de luz que Ejecuta y Ciega. Es más peligrosa cuanto más cerca esté de su base.",
+"gancho": "QueenBeemon invita a los héroes a su Royal Base, pero la audiencia es una prueba: quien no se muestre digno ante su trono acabará expulsado de la colmena."
+},
+"queenchessmon": {
+"descripcion": "La más poderosa de la línea Chessmon y fiel protectora del cobarde KingChessmon. Ataca desde distancias enormes con tanta fuerza que parece cruel, por lo que no deja de pedir perdón a los dioses del ajedrez. Las espadas que forman parte de su armadura le sirven para atravesar los puntos vitales del rival.",
+"tacticas": "Místico de control. Queen Stamp y Queen Stick Confunden a distancia, y Heart Breaker, al toque, Encanta y Perfora. Úsala para romper formaciones y obligar a los héroes a defender a un aliado.",
+"gancho": "KingChessmon, aterrado, pide a los héroes que lo acompañen hasta su tablero, pero para llegar deben pasar ante QueenChessmon, que se disculpa antes de cada golpe."
+},
+"rafflesimon": {
+"descripcion": "Se dice que es la criatura más bella del Mundo Digital, aunque su hermosura viene acompañada de un hedor terrible. Su vida dura apenas unos días y verla exige un milagro, de ahí su apodo de Flor Milagrosa. No se lamenta por ello y se comporta con elegancia hasta el final.",
+"tacticas": "Apoyo volador y escurridizo. Ballet Gun dispara desde las mangas con Acero y rebota en sus pétalos, y Wisselen suelta escamas que Confunden. Haz que sus aliados lo protejan mientras el tiempo corre.",
+"gancho": "Corre el rumor de que Rafflesimon florecerá esta semana. Entre curiosos y oportunistas, los héroes deben proteger su breve vida y evitar que su último baile se convierta en una pelea."
+},
+"ragnaloardmon": {
+"descripcion": "Digimon nacido de la fusión de dos Legend-Arms: Durandamon, la espada definitiva, y BryweLudramon, el escudo definitivo. Ambos conservan su propia voluntad, lo que lo hace rarísimo. Su espada y su escudo flotan libres a su alrededor y los tres cooperan para atacar, defender y dominar al rival.",
+"tacticas": "Versátil con tres frentes. Direct Smasher cae al toque con Brutal desde gran altura, e Ignition Prominence inunda la zona de fuego, Quema y da Escudo. Narra su espada y su escudo como si actuaran por separado.",
+"gancho": "Un mal que despierta en el Área Oscura ha unido dos armas legendarias en un guerrero nuevo. Los héroes deben averiguar si RagnaLoardmon será su aliado o su adversario."
+},
+"raguelmon": {
+"descripcion": "Vigilante de todos los Digimon ángel, los observa con recelo y destruye a los que empiezan a caer antes de que lo hagan del todo. Ese trabajo solitario puede llenarlo de un vacío que lo hace rechazar todo, y entonces no distingue amigo de enemigo. Las garras de sus manos y su cola dañan por dentro.",
+"tacticas": "Amenaza final versátil. Form Taranis traspasa al toque e infecta con datos destructivos, mientras Pahorus Quema desde la distancia con rayos de sus gemas. Si pierde el control, puede atacar a cualquiera.",
+"gancho": "Un ángel aliado de los héroes muestra señales de caída y Raguelmon aparece para juzgarlo. Deben demostrar que aún queda luz en él antes de que caiga el golpe."
+},
+"raidenmon": {
+"descripcion": "Pesado Digimon máquina armado con armas electromagnéticas, construido para pelear a distancia, a diferencia de Raijinmon. Se protege con una coraza gruesa y, aunque no domina el combate cercano, contraataca con el arma de su brazo izquierdo. Sus cañones de hombro lanzan esferas al rojo vivo.",
+"tacticas": "Tanque artillero. Kirlian Brunt, una descarga de 45.000 voltios, Paraliza y Provoca a distancia, y Rising Sun Quema desde los cañones. Déjalo tras su coraza, castigando con contraataques a quien se acerque.",
+"gancho": "Una fábrica abandonada se enciende sola y Raidenmon patrulla sus pasillos sin descanso. Los héroes deben cortar su energía antes de que la tormenta de voltios alcance el pueblo."
+},
+"raijinmon": {
+"descripcion": "Androide cuyo nombre procede de un dios del trueno del folclore japonés. Sobresale en el combate cuerpo a cuerpo, con unos brazos cargados de relámpagos como los de Justimon. Recarga su energía conectando el enchufe de su cola y puede descargarla sobre todo el entorno.",
+"tacticas": "Tirador rápido. Blitz Arm lanza una lluvia de puñetazos al toque con Rápido, y Electro Ball Paraliza con precisión en zona a larga distancia. Rodéalo de cables y enchufes para que recargue.",
+"gancho": "Una tormenta eléctrica se concentra sobre una torre de la red y Raijinmon espera en lo alto. Los héroes deben trepar y desconectarlo antes de que las descargas arrasen la ciudad."
+},
+"rapidmon_x": {
+"descripcion": "Caballero Sagrado nacido de la Digievolución de Armadura de Terriermon con el Digihuevo del Destino, que le da un poder dorado propio de un rango superior. La X Antibody lo mantiene siempre en su máximo y convierte sus armas en Armed Arms. Dispara proyectiles, usa una gatling y se lanza a cortar con sus garras.",
+"tacticas": "Versátil de fuego rápido. Rapid Blaster dispara en ráfaga con Rápido y Quemar, y Laser Gatling Arm Ciega en ráfaga a media distancia. Cambia de arma según donde se coloquen los héroes.",
+"gancho": "Un convoy de Digimon débiles es acosado por bandidos y Rapidmon (X Antibody) llega para escoltarlo. Los héroes pueden unirse a la caravana y compartir el fuego cruzado."
+},
+"rasenmon": {
+"descripcion": "Es la forma verdadera de Rasenmon, lograda al aceptar sus emociones negativas sin miedo y creer de nuevo en sí mismo. Con su poder bajo control, su carácter brutal se volvió amable y calmado. Absorbe como energía los sentimientos de sus aliados, pero solo la usa en causas que considera justas.",
+"tacticas": "Bruto con sentido de la justicia. Gyro Smash es un puñetazo giratorio al toque con Brutal, y Spiral Vanish lo Oculta y Perfora con una espiral de púas. Hazlo más fuerte cuando los héroes muestren valor.",
+"gancho": "Rasenmon ofrece su ayuda a los héroes en una causa, pero primero quiere comprobar que es justa. Si descubre una mentira, su rabia antigua puede volver a asomar."
+},
+"rasenmon_f": {
+"descripcion": "Bestia de nueve colas que absorbió demasiada emoción negativa al evolucionar y perdió el control de su poder oscuro. Se entrega a la furia y arrasa todo a su alrededor por impulso, porque teme y rechaza lo que se agita dentro de sí. Sus colas espirales y las cuchillas de sus muñecas son armas terribles.",
+"tacticas": "Ágil y brutal. Desperate Vortex ensarta con las colas espirales, Perfora y echa atrás al objetivo, y Spiral Hell, Rápido, siembra Asustar con un torbellino de cuchillas. No negocia: ataca por impulso.",
+"gancho": "Una zona entera aparece devastada y en el centro ruge Rasenmon: Fury Mode. Los héroes buscan calmarlo o escapar, y quizá alguien que lo conoce pueda recordarle quién es."
+},
+"rasielmon": {
+"descripcion": "Superángel que en otro tiempo tuvo el mismo rango que Ophanimon. Desde el Kernel puede contemplar el mundo entero, así que conoce todo lo que ocurre en el Mundo Digital y se dice que guarda el saber de un dios. Los círculos mágicos de sus brazos combinan los cinco elementos.",
+"tacticas": "Versátil y volador. Knowledge Stream Ralentiza con una ola de energía Brutal, y Sefer Raziel Ciega con un milagro certero que ni él mismo puede predecir. Describe efectos caprichosos en cada uso.",
+"gancho": "Rasielmon conoce la respuesta a la pregunta que desvela a los héroes, pero solo la revelará si superan una prueba de conocimiento. El premio es sabiduría, no poder."
+},
+"ravmon": {
+"descripcion": "Androide con alas de Chrondigizoid que sirvió a las Deidades como el Cuervo de Plata durante la creación del Mundo Digital. Tras la ira de Dios, una de sus alas quedó teñida de negro. Se oculta con el ala oscura, corta con la blanca y aparece de la nada para acabar de un solo tajo.",
+"tacticas": "Tirador sigiloso y volador. Spiral Raven Claw carga al toque con Certero y Blast Wing empuja con el viento a distancia. Haz que surja de la sombra de forma repentina, golpee una vez y desaparezca.",
+"gancho": "Un cuervo plateado vigila desde las nubes. Cuando los héroes se acercan a una reliquia antigua, Ravemon cae sobre ellos para comprobar si merecen cruzar."
+},
+"ravmonburstmode": {
+"descripcion": "Forma especial de Ravemon lograda con la Digievolución Burst, que lo cubre con un aura que contiene toda la energía de la atmósfera. Sus alas se agrandan y cada movimiento parece un baile salvaje nacido de la ira. Es un estado temporal en el que roza el límite de sus capacidades.",
+"tacticas": "Tirador volador de alto riesgo. Crimson Formation Asusta con un disparo Certero a larga distancia, y Lightning Thrust, al toque, Ejecuta y Paraliza. Limita su aparición a unos pocos asaltos.",
+"gancho": "En plena batalla desesperada, el aura de Ravemon estalla y todo el aire parece vibrar. Los héroes tienen poco tiempo para aprovechar su ventaja antes de que se agote."
+},
+"gokumon": {
+"descripcion": "Fugitivo nacido de los datos de una lista de criminales buscados. Es un malhechor extraño, porque está convencido de ser un cazarrecompensas, aunque su propia cabeza tenga precio, y por eso persigue a otros infractores. Lleva una cadena en el brazo izquierdo y una hoz de juicio en el derecho.",
+"tacticas": "Tirador que se acerca para rematar. Con Grim Slasher atrapa con la Guilty Chain y corta con la Judgment Sickle, al toque, Asustando con un golpe Certero. Hazlo pedir cuentas a los héroes.",
+"gancho": "Reapermon reclama una recompensa por un ladrón y exige que los héroes se lo entreguen. Nadie le ha dicho que también hay un cartel con su rostro en la plaza."
+},
+"regalecusmon": {
+"descripcion": "Digimon acuático huraño que detesta los grupos. Es un pirata que asalta territorios ajenos y saquea sus zonas de alimento. Su fuerza abrumadora lo convierte en el conquistador de las profundidades. Su espada, hecha con el cuerno que arrancó a un Zudomon, y su gran pinza son símbolos de terror.",
+"tacticas": "Tanque eléctrico y brutal. Briona Strike traspasa con la espada al toque y Paraliza, y Reactor Discharge descarga plasma en zona y Empuja. Hazlo avanzar sin prisa, imponiendo miedo antes del primer golpe.",
+"gancho": "Una comunidad pesquera de Digimon pide ayuda porque un pirata de las profundidades les roba el alimento. Los héroes bajan al fondo y se topan con el solitario Regalecusmon."
+},
+"rosemon": {
+"descripcion": "Reina de las flores, un hada de aspecto de mujer hermosa que anhela la belleza eterna. Aunque algo presumida, sus habilidades están a la altura de las más elevadas. En el pecho lleva el Tifaret, una joya con símbolos de amor y belleza. Su látigo de espinas cargado de electricidad cautiva a quien lo sufre.",
+"tacticas": "Místico volador de control. Thorn Whip Atrapa al toque, y Forbidden Temptation, en zona, Encanta y Sella a quienes caen rendidos a su belleza. Es ideal para aislar a un héroe mientras presume.",
+"gancho": "Rosemon organiza un banquete en su jardín y todos los Digimon del valle están invitados. Los héroes deben descubrir si es una fiesta de agradecimiento o una trampa floral."
+},
+"rosemon_x": {
+"descripcion": "La reina de las flores, teñida de un carmesí tan intenso que todo lo demás rojo parece pálido a su lado. Quien la mira siente un complejo de inferioridad abrumador. Las gotas Aphroditears que brillan en sus pétalos aparecen cuando se enfada y son señal de su amor.",
+"tacticas": "Místico volador y sangriento. Thorn Whip Atrapa a quien se acerque, y Rosen Blood, a distancia, Drena y Ejecuta a los rivales que se rinden a sus espinas. Haz que parezca elegante y despiadada a la vez.",
+"gancho": "Un valle entero se ha vuelto rojo y los Digimon hablan con tristeza de una dama carmesí. Los héroes buscan a Rosemon (X Antibody) para saber si sus gotas son de ira o de pena."
+},
+"rosemonburstmode": {
+"descripcion": "Estado temporal en el que Rosemon alcanza el límite de su poder mediante la Digievolución Burst, envuelta en un aura de amor y belleza. Su manto se amplifica y rodea con suavidad a sus rivales, y de sus labios surgen rayos de besos. También lanza joyas preciosas grabadas con símbolos de amor.",
+"tacticas": "Apoyo volador que embruja desde lejos. Charité Confunde envolviendo al rival en su aura, y Aguichant Lèvres lo Ciega con un rayo de besos. Dura poco, así que úsalo como golpe de efecto.",
+"gancho": "Cuando todo parece perdido, un aura rosada ilumina el campo de batalla y aparece Rosemon: Burst Mode. Los héroes deben aprovechar su breve poder para salvar a los suyos."
+},
+"rusttyranomon": {
+"descripcion": "Evolución de Tyrannomon forjada en una larga sucesión de batallas desde los orígenes del Mundo Digital. Tras años como MetalTyrannomon, su cuerpo cíborg se cubrió de óxido rojo. Es un depredador natural capaz de devorar cientos de Digimon en poco tiempo y puede arrasar una base él solo.",
+"tacticas": "Tirador pesado. Terrors Cluster baja el cañón de la espalda y dispara una enorme descarga que Asusta y Paraliza, y Rust Breath Debilita y Paraliza con su aliento oxidante. También es temible en el cuerpo a cuerpo.",
+"gancho": "Una base de bandidos digitales cae a pedazos en una sola noche. Los héroes siguen el rastro de óxido rojo hasta el responsable, RustTyrannomon, que aún tiene hambre."
+},
+"ryugumon": {
+"descripcion": "Elegante guardián del Palacio de Cristal del Dragón, Ryushogu, una zona acuática del este del Mundo Digital. Su cuerpo translúcido emite un brillo suave que hechiza. De carácter pacífico e inteligente, odia el conflicto, pero si el palacio corre peligro libera todo su poder. También se encarga de purificarlo.",
+"tacticas": "Bruto sorprendente que prefiere cuidar. Ceremonial Sea Summon rodea y aplasta con presión del agua, Invoca y Ralentiza, y Wadatsumi Purification Purifica y apoya a los aliados. Solo pelea para proteger su hogar.",
+"gancho": "Las aguas de Ryushogu se enturbian y Ryugumon pide ayuda para purificar el palacio. Los héroes deben encontrar la causa antes de que el guardián pacífico se vea obligado a pelear."
+},
+"saberleomon": {
+"descripcion": "Bestia ancestral que, según se dice, se mueve a velocidad Mach. Se sabe poco de él, y hay quien piensa que es un Leomon que se volvió salvaje. Sus colmillos desarrollados y sus garras afiladas le dan una enorme fuerza destructiva, y su rapidez le permite esquivar hasta los golpes más veloces.",
+"tacticas": "Tanque feroz. Howling Crusher destroza al toque con garras gigantes, con Brutal y Asustar. Para reflejar su velocidad, descríbelo esquivando incluso los ataques más rápidos de los héroes.",
+"gancho": "Unos aldeanos hablan de un felino enorme que apareció en el bosque y desapareció tan rápido que nadie lo vio. Los héroes siguen sus huellas hasta SaberLeomon."
+},
+"sakuyamon": {
+"descripcion": "Sacerdotisa que ejecuta la voluntad de los dioses y usa magia chamánica, como Taomon. Puede dar órdenes a otros Digimon de la especie Bestia Divina. Lleva cuatro tubos en el cinturón con zorros de pipa que atacan o recogen información, y cada uno encarna fuego, agua, viento o rayo. Con su báculo purifica el mal.",
+"tacticas": "Místico volador. Izuna lanza a sus zorros de pipa para Cegar a distancia, y Amethyst Mandala crea un campo que Purifica y Ciega. Haz que los zorros espíen antes de entrar en combate.",
+"gancho": "Sakuyamon pide a los héroes que la acompañen a un santuario donde algo maligno turba los rituales. Sus zorros de pipa ya exploran el camino y regresan con noticias inquietantes."
+},
+"sakuyamon_x": {
+"descripcion": "Sacerdotisa que domina todas las artes esotéricas del este del Mundo Digital, desde la adivinación hasta el onmyodo. Transforma rocas y plantas en espíritus shikigami con forma de zorros y flores. Gracias a sus zorros de pipa y sus shikigami es una gran espía que golpea desde la oscuridad.",
+"tacticas": "Místico de control. Konohanasenki Banshou Atrapa a los rivales en una tormenta de flores, y Uka no Mitama Invoca un zorro divino mientras Atrapa. Prepara el terreno con plantas y espíritus.",
+"gancho": "Las flores del jardín empiezan a moverse y susurrar: Sakuyamon (X Antibody) ha convertido el paisaje en sus ojos y oídos. Los héroes deben decidir si confían en su vigilancia."
+},
+"sakuyamon:mikomode": {
+"descripcion": "Forma que adopta Sakuyamon para celebrar rituales sintoístas según la voluntad de los dioses. En ella rara vez combate, pero resulta todavía más hábil para ahuyentar el mal. Su presencia trae calma y solemnidad a cualquier santuario o ceremonia que presida.",
+"tacticas": "Rara vez combate y no tiene técnicas de ataque propias, así que úsala como figura de ritual. Su fuerza está en ahuyentar el mal con una ceremonia protectora, mejor resuelta con interpretación que con golpes.",
+"gancho": "Se acerca una gran ceremonia y Sakuyamon: Maid Mode necesita escolta hasta el santuario. Los héroes protegen el ritual mientras fuerzas oscuras intentan interrumpirlo."
+},
+"seitengokuwmon": {
+"descripcion": "Tras un largo viaje en busca de la verdad, alcanzó un poder nacido de la unión con sus compañeros Cho-Hakkaimon y Sagomon. Sigue siendo bondadoso, pero dejó atrás su temeridad y pelea por instinto con serenidad. Su bastón Nyoitenjinbou domina el rayo, el fuego y el agua, y sus nubes Kintoun se vuelven tormentas.",
+"tacticas": "Versátil con tres elementos. Supreme Lightning Canon Paraliza con un disparo Brutal a distancia, y Gojo Water Tomb Ralentiza con un remolino. Cambia de elemento para sorprender a los héroes.",
+"gancho": "Erlangmon, cansado, pide a los héroes que convenzan a SeitenGokuumon de asumir sus obligaciones, pero el travieso guerrero prefiere ofrecerles un duelo amistoso."
+},
+"seraphimon": {
+"descripcion": "El mayor de los Digimon ángel, con diez alas doradas y armadura sagrada de plata, reina sobre toda su estirpe. Esconde su rostro tras una máscara y es lo más cercano a lo que se llama un dios del bien. Se dice que descenderá en una batalla final para purificar a los malvados.",
+"tacticas": "Místico legendario y volador. Strike of the Seven Stars lanza siete orbes de luz en ráfaga que Purifican y Ciegan. Reserva Testament, su recurso final a costa de su vida, para un clímax épico.",
+"gancho": "Los héroes reciben la visita del legendario Seraphimon, que anuncia una batalla final contra el mal. Antes debe saber quién de ellos está dispuesto a luchar a su lado."
+},
+"shagaramon": {
+"descripcion": "Dragón sagrado que vive en Ryushogu, el Palacio de Cristal del Dragón. Envuelto en telas, controla el océano y crea puertas de corriente que conectan el mar; sin ellas es imposible llegar al palacio. Ryugumon lo eligió guardián de la entrada, y a veces se le ve volar sobre el palacio.",
+"tacticas": "Bruto volador del mar. Wave Fan Blast lanza una enorme ola en abanico que Empuja con Brutal, y Azure Dragon Fang devora con un dragón de agua que Ralentiza. Rodea a los héroes de corrientes.",
+"gancho": "Para llegar a Ryushogu hay que superar al guardián. Shagaramon prueba a los héroes con una corriente que cambia de rumbo, y solo quien sepa leerla hallará la entrada."
+},
+"shakamon": {
+"descripcion": "Se rumorea que es el Digimon más cercano al Ordenador Anfitrión y que protege el este del Mundo Digital desde la antigüedad. Es un ser lleno de afecto que a veces impone pruebas para impulsar el progreso. Sabe todo lo que hay entre el cielo y la tierra, así que desafiarlo es inútil.",
+"tacticas": "Apoyo que desanima el combate. Satori Henro Shou Ciega y encierra a los héroes en una ilusión sobre la palma de su mano, y Taijou Shingon Purifica y quita la hostilidad. Úsalo como prueba, no como pelea normal.",
+"gancho": "Shakamon propone a los héroes una prueba de afecto en lugar de un combate. Para superarla deben resolver un conflicto sin levantar un arma, porque luchar contra él solo agota la mente."
+},
+"shinegreymon": {
+"descripcion": "Dragón resplandeciente que pelea con la energía recogida del calor abrasador del sol. Despliega sus enormes alas para concentrar la luz y soltarla de golpe, y puede invocar la GeoGrey Sword, un arma que contiene todo el poder de Gaia. Sus alas brillantes arrasan a los enemigos.",
+"tacticas": "Bruto de luz. Glorious Burst Ciega, pero exige cargarse antes de soltarse, así que avisa su carga con una escena dramática. GeoGrey Sword golpea al toque e Invoca. Premia a los héroes que se cubran.",
+"gancho": "Un amanecer demasiado intenso quema el desierto y los héroes ven a ShineGreymon cargar su luz en el cielo. Deben averiguar si es un aliado que pide ayuda o una amenaza."
+},
+"shinegreymonburstmode": {
+"descripcion": "Forma especial en la que ShineGreymon roza el límite de su poder gracias a la Digievolución Burst, cubierto por un aura de llamas de energía solar. Funde su espada y su escudo de fuego en una gran espada explosiva. Es un estado temporal y espectacular, pensado para el clímax de una batalla.",
+"tacticas": "Bruto de fuego y luz. Corona Blaze Sword Quema y da Escudo al toque, y Torrid Weiss Quema a distancia con una lluvia de balas de llama. Final Shining Burst queda como explosión final para rematar.",
+"gancho": "Con los aliados al límite, el cielo se tiñe de oro y ruge ShineGreymon: Burst Mode. Los héroes saben que ese poder no durará y deben decidir cómo aprovecharlo."
+},
+"shinegreymon_ruin": {
+"descripcion": "Con los aliados caídos y el orgullo herido, ShineGreymon desbloquea un nuevo poder lleno de resentimiento. Su hambre sin fin convierte la energía positiva del sol en energía oscura que multiplica sus técnicas. Si se excede, corre el riesgo de volver a ser un DigiHuevo.",
+"tacticas": "Bruto trágico. Final Shining Burst Ciega y golpea Brutal a distancia, y Corona Blaze Sword Quema al toque. Cuanto más se alarga la lucha, más cerca está de deshacerse, y los héroes pueden intentar salvarlo.",
+"gancho": "ShineGreymon: Ruin Mode arrasa un valle consumido por el rencor. Los héroes saben que, si lo empujan al límite, volverá a ser un huevo, así que deben buscar otra salida."
+},
+"shinmonzaemon": {
+"descripcion": "Marioneta nacida de los datos de pesadillas que absorbió Monzaemon. Parece un osito de peluche, pero está hecho de una sustancia blanda y amorfa, entre limo y nube. Es caprichoso y pueril, ama lo simple y adorable y persigue a los Digimon pequeños e inmaduros, mientras desprecia a quienes han crecido más.",
+"tacticas": "Místico de pesadilla. Nightmare Rain lanza partes de su cuerpo para Asustar en zona, y Fantastic Smash convierte su brazo en martillo para golpear Brutal. Busca presas jóvenes y se enfurece con los mayores.",
+"gancho": "Los Digimon pequeños de una aldea desaparecen entre sueños de peluche. Los héroes deben proteger a los jóvenes de ShinMonzaemon sin ofender a esta caprichosa marioneta."
+},
+"shivamon": {
+"descripcion": "Digimon que evolucionó al alcanzar la iluminación mediante el yoga. Busca el equilibrio entre un corazón sereno y una disciplina severa, con la que guía a otros. Con los irrespetuosos y alborotadores se muestra implacable. Su cuerpo guarda tanta energía como el combustible nuclear: es un dios de la destrucción en potencia.",
+"tacticas": "Acechador volador. Kūṭastha Kiraṇa Quema y Perfora a distancia con una esfera de luz, y Samādhi Śānti levanta una barrera arcoíris con Escudo. Solo quien domine el yoga puede atravesarla.",
+"gancho": "Shivamon medita en una montaña y exige silencio absoluto. Los héroes deben cruzarla sin hacer ruido ni faltar al respeto, o enfrentarse a la furia de un dios de la destrucción."
+}
+}

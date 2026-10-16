@@ -1,0 +1,227 @@
+{
+  "archnemon": {
+    "descripcion": "Reina de las arañas del Mundo Digital, Arukenimon gobierna a todos los Dokugumon con una inteligencia fría y una astucia temible. Le gusta adoptar forma humanoide para acercarse a sus presas cuando bajan la guardia. De carácter irascible y feroz, inspira un miedo profundo en buena parte de los demás Digimon.",
+    "tacticas": "Como jefe Acechador, abre con Spider Thread para atrapar y perforar a un héroe desde lejos, y lo remata de cerca con Predation Spider. Haz que su forma humanoide engañe a los jugadores hasta que sea demasiado tarde.",
+    "gancho": "Una amable desconocida se ofrece a guiar a los héroes por un bosque sombrío; en realidad es Arukenimon, y los conduce hacia las telarañas donde aguardan sus Dokugumon."
+  },
+  "assaultmon": {
+    "descripcion": "Soldado móvil de torso humanoide y patas de cuadrúpedo, Assaultmon potencia su capacidad de combate con ropajes blindados y armas integradas en brazos y vientre. Corre el rumor de que pertenece a las fuerzas especiales de Centarumon, aunque nadie lo ha confirmado, y siempre actúa convencido de que lucha en nombre de la justicia.",
+    "tacticas": "Tirador de largo alcance: castiga desde lejos con Justice Massacre, una lluvia de disparos certeros que ciega. Si algún héroe se descuida, aparece a su espalda con Surprise Attack para cegarlo y rematarlo.",
+    "gancho": "Un pelotón de Assaultmon patrulla un paso de montaña en nombre de la justicia y declara sospechoso a todo viajero; los héroes deben demostrar su inocencia o negociar un salvoconducto."
+  },
+  "astamon": {
+    "descripcion": "Noble de la Dark Area, Astamon es un Perfecto cuyo poder supera al de muchos Megas, y dirige un ejército de Digimon demoníacos que le siguen por su carisma. Cruel con sus enemigos y amable con sus aliados, dispara con su querida ametralladora Oro Salmón balas con voluntad propia que persiguen a su objetivo.",
+    "tacticas": "Místico de fuego a distancia: Mad Dog Fire descarga una ráfaga que confunde, y Maverick quema con energía oscura concentrada. Sus balas persiguen, así que cubrirse no basta; hay que cortarle la línea de tiro.",
+    "gancho": "Astamon ofrece a los héroes un puesto en su ejército demoníaco; rechazarlo con buenos modales podría evitar la pelea, pero sus lugartenientes no aceptan negativas con tanta elegancia."
+  },
+  "asuramon": {
+    "descripcion": "Digimon legendario de cuatro brazos y tres rostros: uno de ira, otro de misericordia y otro de bendición. Pese a su aspecto aterrador, venera la justicia y su carácter recuerda al de un dios de la luz. Ante una injusticia, planta cara sin piedad y sin pensárselo dos veces.",
+    "tacticas": "Místico de combate cercano que, mostrando su rostro de ira, desata Fire Fist of Shiva, una lluvia de puñetazos de sus cuatro brazos que quema y remata. Si los héroes actúan con justicia, permite un diálogo antes del combate.",
+    "gancho": "Un tirano oprime una aldea digital y sus habitantes ruegan ayuda al enigmático Asuramon; para ganarse su apoyo, los héroes tendrán que probar con hechos que su causa es justa."
+  },
+  "atlurballistamon": {
+    "descripcion": "Evolución de Ballistamon, esta mole metálica luce un blindaje electromagnético que reduce el daño mediante un campo magnético y le permite soltar descargas eléctricas. Con su carácter cariñoso, se planta ante el enemigo como un muro defensivo para proteger a sus amigos en plena batalla.",
+    "tacticas": "Tanque protector: Plasma Crack, hecho juntando ambas manos, lanza una descarga eléctrica que rompe defensas y provoca al enemigo, atrayendo su atención hacia él. Úsalo para resguardar a los aliados más frágiles de su bando.",
+    "gancho": "Un AtlurBallistamon custodia a unos refugiados en un puente y toma a los héroes por una amenaza; antes de que su campo magnético los repela, deben ganarse su confianza."
+  },
+  "azhdarmon": {
+    "descripcion": "Pterosaurio con tres enormes cuchillas que le brotan del cuerpo, es el gran depredador de las regiones montañosas y frías. Su vista excelente le permite localizar presas desde gran altura y caer en picado sobre ellas. Casi nadie lo ataca, salvo otros Azhdarmon en disputas de territorio.",
+    "tacticas": "Bruto volador: se lanza en picado con Tomahawk Strike, un tajo que asusta y puede abatir a un héroe de un solo golpe. Para defender su territorio añade Trinity Lightning, que descarga rayos y paraliza.",
+    "gancho": "En lo alto de un pico helado, dos Azhdarmon se disputan el territorio mientras una tormenta de rayos amenaza a una caravana; los héroes deben apartarla o separar a las fieras."
+  },
+  "baalmon": {
+    "descripcion": "Conocido como el Señor Sublime, Baalmon guarda un saber sobre todas las materias en su Red Book of Appin y está dispuesto a cambiar una página por el alma del lector. Responde cualquier pregunta, pero antes impone una prueba; quien falla pierde el alma. Su capa, hecha de talismanes de todas las épocas, parece tener respuesta para cada técnica.",
+    "tacticas": "Místico de juicio: Kamiuchi lanza un rayo que paraliza, especialmente temible contra Digimon sagrados, y Guiltish confunde con talismanes transformados. Plantea el combate como una prueba con condiciones de victoria claras.",
+    "gancho": "Los héroes necesitan una respuesta que solo Baalmon posee; para obtenerla deben superar su prueba, sabiendo que perder significa entregarle el alma."
+  },
+  "baalmon_x": {
+    "descripcion": "Variante de Baalmon, el Señor Sublime, en la que el anticuerpo X libera parte del poder que sellaban sus amuletos. Su Red Book of Appin deja ver ahora su voluntad: quien busca saber y responde mal a la pregunta recibe el juicio de su dueño, sin apelación posible.",
+    "tacticas": "Místico castigador: Tribunal Blast dispara su escopeta del brazo derecho, y Absorption Mark marca al objetivo y le drena energía. Persigue sin descanso a quien intente huir del juicio.",
+    "gancho": "Un viajero desesperado suplica a los héroes que lo acompañen ante Baalmon: ha fallado una pregunta y teme que el libro lo reclame. ¿Podrán salvarlo antes del veredicto?"
+  },
+  "bastemon": {
+    "descripcion": "Apodado la diosa de los gatos, Bastemon es presumido y astuto, adornado con gemas cuyo destello, unido al brillo de sus ojos, hechiza a sus presas. Se mueve con enorme agilidad y, aunque es esbelto, sus garras parten rocas enormes. Se rumorea que no soporta a Nefertimon.",
+    "tacticas": "Místico seductor: baila con Helter Skelter para confundir y manipular a los héroes, y después se acerca con Vampire Dance para drenarles la vida. Castiga sin piedad a quien cae bajo su hechizo.",
+    "gancho": "Los héroes hallan un salón lleno de joyas custodiado por Bastemon, que promete un tesoro a quien lo supere en elegancia; el truco es que su danza confunde a todo participante."
+  },
+  "bearcatmon": {
+    "descripcion": "Hombre bestia de puños enormes y patines, pequeño de talla pero con fuerza y velocidad de primera entre los Perfectos. Vaga por el Mundo Digital buscando rivales: ataca sin dudar a quien le iguala o supera, y se marcha en silencio si cree que el otro es inferior, lo que a algunos humilla más que el propio combate.",
+    "tacticas": "Bruto veloz: abre con Penetrate Blow, un golpe perforante que empuja, y encadena Murderize Rush para derribar a golpes rápidos. Le encanta presumir, así que alarga sus acrobacias ante un buen público.",
+    "gancho": "Bearcatmon recorre la zona retando a todo el que parece fuerte, y los héroes son los siguientes: si lo ignoran se ofenderá, y si aceptan deberán superar su velocidad."
+  },
+  "betsumon": {
+    "descripcion": "Excéntrico Digimon que se disfraza de otros Digimon para burlarse de sus rivales. Su traje de marioneta le permite imitar a muchos, y su humor es más travesura que amenaza, aunque sus chistes helados dejan a cualquiera descolocado. Nunca sabrás con certeza quién hay dentro.",
+    "tacticas": "Místico bromista: lanza Cold Gag, un chiste malísimo que congela de pura vergüenza, y remata de cerca con Tsukkomi Punch. Disfrázalo de otro Digimon para sembrar dudas antes de revelar quién es.",
+    "gancho": "En plena aldea, alguien se hace pasar por el mejor amigo de un héroe y mete a todos en líos; es Betsumon, y su broma se ha ido de las manos."
+  },
+  "bigmamemon": {
+    "descripcion": "Jefe de los Mamemon, BigMamemon es decenas de veces mayor que sus diminutos seguidores, hasta el punto de que algunos creen que es un cúmulo de ellos. De carácter cálido y bondadoso, detesta el conflicto y prefiere pasar el día jugando con su séquito de sonrientes Mamemon.",
+    "tacticas": "Versátil y reacio a pelear: si no hay otra salida, ordena Big Smiley Bomber y usa a sus Mamemon como proyectiles que confunden, encogiéndose después. Ofrece siempre una vía pacífica a los héroes.",
+    "gancho": "BigMamemon organiza una fiesta gigante y exige que todos jueguen con sus Mamemon; quien se niegue o los trate mal descubrirá que el jefe, aun siendo amable, tiene un límite."
+  },
+  "bishopchessmon": {
+    "descripcion": "Marioneta de ajedrez maestra de los ataques a larga distancia, con un alcance asombroso que le permite golpear desde muy lejos. Su frase de batalla es «¡Oh, Señor, dame fuerzas!», y la pronuncia con toda solemnidad antes de que su báculo empiece a brillar sobre el tablero.",
+    "tacticas": "Místico de largo alcance: Bishop Laser dispara un rayo brutal que ciega, y Bishop Cross traza un círculo mágico que remata a los heridos. Si le alcanzan cuerpo a cuerpo, confunde con su báculo.",
+    "gancho": "En un tablero gigante del Mundo Digital, BishopChessmon vigila las diagonales y solo deja pasar a quien avance por casillas permitidas; cualquier trampa atrae su rayo."
+  },
+  "blackkingnumemon": {
+    "descripcion": "Numemon negro como el carbón que se proclamó rey del mundo de los datos basura y evolucionó hasta Perfecto. Luce una corona hallada, que lleva como un caparazón, y un bigote que le da porte digno; esa dignidad le frena a veces de usar sus ataques más sucios, pero no siempre.",
+    "tacticas": "Bruto repugnante: dispara Dark Pupil desde sus ojos redondos, un rayo oscuro que asusta y golpea fuerte, y escupe Poison Mucus a corta distancia para envenenar. Dosifica el humor asqueroso para no restar peligro.",
+    "gancho": "El rey de los datos basura cita a los héroes en su corte de desperdicios para juzgarlos por pisar su reino; deben comportarse con modales exquisitos o sufrir su ira."
+  },
+  "blackmachgaogamon": {
+    "descripcion": "Androide con un potente motor cohete en la espalda, adoptó su forma negra tras ingerir de golpe Black Digitron. La mejora le dio más autonomía de propulsión, aunque su velocidad máxima ha bajado. Es una máquina de combate rápida, siempre lista para pelear con puños y rugidos.",
+    "tacticas": "Tirador veloz: rodea al objetivo con Gaoga Tornado, una tormenta de golpes que empuja y no falla, y de cerca remata con Winning Knuckle para aturdir. Reserva Howling Cannon para asustar a distancia.",
+    "gancho": "Una carrera por los cañones del desierto termina cuando BlackMachGaogamon, con el motor rugiendo, reta a los héroes: quien llegue primero a la meta se llevará una pieza de Black Digitron."
+  },
+  "blackrapidmon": {
+    "descripcion": "Versión negra de Rapidmon, capaz de luchar de noche tras ingerir Black Digitron. Aunque ha perdido algo de velocidad, se mueve sin hacer ruido, y sus orejas-radar le permiten seguir a los enemigos en la oscuridad. Esto lo vuelve casi imposible de derrotar en un combate nocturno.",
+    "tacticas": "Tirador nocturno: Rapid Fire lanza misiles teledirigidos, rápidos y certeros, a larga distancia, y Golden Triangle ciega y descompone datos. Dale ventaja en la oscuridad y castiga a quien lo persiga sin luz.",
+    "gancho": "Durante una guardia nocturna, los héroes oyen zumbar misiles pero no ven nada: BlackRapidmon los sigue sin ruido y decide si son amigos o enemigos antes de apretar el gatillo."
+  },
+  "blackmegalogrowmon": {
+    "descripcion": "Androide de rango Perfecto, evolución de BlackGrowlmon y conocido como el Dragón Destructor Negro. La mitad superior de su cuerpo es de Chrondigizoid, una superaleación, y de su espalda surge un cable extensible que usa como arma para perforar. Encarna con fiereza su naturaleza de Virus.",
+    "tacticas": "Tirador blindado: en cuerpo a cuerpo y en ráfaga usa Double Edge con sus dos Pendulum Blades, y a distancia dispara Atomic Blaster, brutal y capaz de quemar. Ataca primero al héroe más peligroso.",
+    "gancho": "Alguien destruye torres de comunicación y deja un rastro de metal fundido; el rastro lleva hasta BlackWarGrowlmon, que podría ser un enemigo o un dragón manipulado por otro."
+  },
+  "blossomon": {
+    "descripcion": "Gigantesca flor con innumerables tentáculos, Blossomon es un Digimon vegetal de carácter tímido que rara vez se deja ver. Vive sorprendentemente mucho para ser una planta y renueva sus pétalos con el cambio de estación. Detesta los lugares áridos y siempre habita cerca del agua.",
+    "tacticas": "Místico de control: lanza Spiral Flower, flores de las puntas de sus tentáculos que vuelan como estrellas cortantes y atrapan al objetivo. Mantén a los héroes inmovilizados y lejos del agua que protege.",
+    "gancho": "Una sequía amenaza el lago de Blossomon, que se ha vuelto huraño; los héroes deben traerle agua antes de que pierda sus pétalos y el miedo lo vuelva agresivo."
+  },
+  "bluemeramon": {
+    "descripcion": "Digimon de fuego que arde con más fuerza que un Meramon Campeón. Sus llamas azules guardan una paradoja: están por debajo de cero y producen congelación en vez de quemaduras. Quien se acerca a su resplandor siente primero un escalofrío en lugar de calor, y para entonces ya es tarde.",
+    "tacticas": "Bruto elemental: su Ice Phantom lanza llamas gélidas brutales que congelan, y Cold Flame congela también desde lejos. Sorprende a los héroes que preparen defensas solo contra el fuego.",
+    "gancho": "Un manantial termal se ha convertido en una laguna helada por culpa de unas llamas azules; los héroes deben averiguar quién enciende ese fuego frío antes de que se extienda por todo el valle."
+  },
+  "bombermon": {
+    "descripcion": "Autoproclamado artista de las explosiones, solo piensa en detonar sus bombas de la forma más bella, sin importarle quién resulte herido. Al chasquear los dedos de su mano izquierda crea las BB, bombas que se adhieren a su objetivo y estallan con una potencia que depende de su buen humor.",
+    "tacticas": "Versátil explosivo: Combo Blast encadena varias bombas en una ráfaga casi instantánea, y Limit Explosion necesita tiempo para detonar pero ralentiza toda la zona. Avisa a los jugadores del temporizador.",
+    "gancho": "Bombermon prepara su obra maestra en el centro de una aldea y pide público; los héroes deben desactivar las BB sin molestar al artista antes de que todo estalle."
+  },
+  "boutmon": {
+    "descripcion": "Nacido de datos de deportes de combate como el kárate, conoce las reglas de todos los estilos y, cortés, pelea con el que elija su rival. Domina una enorme variedad de técnicas y de vez en cuando sorprende con un ataque sacado de un videojuego de lucha o de la ficción.",
+    "tacticas": "Ágil de combate: Lightning Heel es una patada eléctrica rápida que paraliza, y Storm of Blows empuja a toda una zona sin dejar respirar. Permite que los héroes elijan las reglas del duelo.",
+    "gancho": "Boutmon desafía a un héroe a un duelo de honor con las reglas que escoja el retado; el combate será limpio, pero un espectador astuto intenta sabotearlo."
+  },
+  "brachiomon": {
+    "descripcion": "Plesiosaurio parecido a los braquiosaurios de antaño, uno de los pesos pesados entre los Digimon dinosaurio. Quien queda bajo su cuerpo paga caro, pero es un herbívoro apacible que no ataca sin motivo. Cuando por fin se enfada, escupe burbujas por todas partes.",
+    "tacticas": "Tanque pacífico: no busca pelea, pero si lo provocan, Brachio Bubble lanza burbujas que ralentizan y atraen la atención de todos sobre él. Úsalo para bloquear caminos con su enorme cuerpo.",
+    "gancho": "Un Brachiomon dormita en medio de un camino estrecho y bloquea el paso a una caravana; los héroes deben moverlo sin enfadarlo ni pisotear las pertenencias de nadie."
+  },
+  "valvemon": {
+    "descripcion": "Una de las máquinas más grandes entre los Digimon vehículo, Bulbmon puede llevar hasta cuarenta Digimon en su interior y trasladarlos a puntos estratégicos. Si lo atacan por el camino, tiene fuerza más que suficiente para derrotar a sus agresores.",
+    "tacticas": "Tanque de transporte: con Mud Pump hace salir un torrente de soldados desde su interior, que ralentiza y provoca a los héroes. De cerca golpea con Octagon Attack. Es una fortaleza móvil con refuerzos.",
+    "gancho": "Para cruzar el desierto, un Bulbmon ofrece llevar a los héroes dentro junto a otros cuarenta pasajeros extraños; durante el viaje, alguien del interior no es quien dice ser."
+  },
+  "butenmon": {
+    "descripcion": "Deidad de armadura carmesí y enorme espada, evolución de un Digimon que afinó su arte en incontables batallas. Aunque es un Perfecto, su maestría roza los límites de la esgrima: maneja el arma con elegancia y con fuerza para romper montañas. Cuando carga en combate, parece un guerrero de leyenda.",
+    "tacticas": "Místico guerrero: Sunburst Dance traza un círculo veloz con la espada que confunde y golpea rápido, y Daybreak Flash es un tajo de luz que ciega. Úsalo como duelista honorable, no como bestia.",
+    "gancho": "Butenmon busca un rival digno de su espada y cruza el mundo desafiando a los más fuertes; los héroes podrían ser sus oponentes o sus aliados contra un mal mayor."
+  },
+  "cannonbeemon": {
+    "descripcion": "Enorme Digimon que custodia Royal Base, la misteriosa base flotante de miel envuelta en secreto. Como su hogar está rodeado de peligros, sus ataques abarcan mucho terreno, con descargas simultáneas desde los contenedores de munición de su torso, y su arsenal es tan vasto que puede mantener el fuego hasta que no quede ninguna amenaza.",
+    "tacticas": "Tirador de asedio: abre con Nitro Stinger, un cañón láser que perfora blindajes y envenena, y cubre el campo con Sky Rocket ∞, que remata y empuja. Funciona mejor defendiendo un objetivo fijo.",
+    "gancho": "Para llegar a Royal Base, los héroes deben pasar ante CannonBeemon, que dispara contra todo lo que se acerca; necesitarán una contraseña, un disfraz o mucho ingenio."
+  },
+  "canoweissmon": {
+    "descripcion": "Dragón celeste de majestuosas alas blancas, teñidas por la furia de las llamas de su corazón. Ama los duelos honorables, sean de fuerza o de velocidad, y disfruta más cuanto más duro es el combate. No tolera el engaño y lo combate imponiendo su sentido de la justicia.",
+    "tacticas": "Bruto volador: Gran Nova cubre una zona con una bola de fuego cósmica que ralentiza y golpea fuerte, y Gallia Fissure derriba con sus garras. Premia a los héroes que luchen con honor.",
+    "gancho": "Canoweissmon propone un duelo honorable a los héroes, pero un tramposo lo ha engañado; deben demostrar la verdad antes de que su justicia caiga sobre el culpable equivocado."
+  },
+  "captainhookmon": {
+    "descripcion": "Heroico y firme capitán de un barco pirata que surca el Mundo Digital. Se siente responsable de que su tripulación crezca y sabe lo difícil que es. Se comporta como un caballero incluso con quienes le caen mal; no empieza peleas, pero responde a la fuerza con más fuerza.",
+    "tacticas": "Tanque caballeroso: alza la Rage Giga Anchor para golpear con agua brutal y ralentizar, y Pirate's Punisher remata a los heridos. Antes de disparar por sorpresa desde la pierna, avisa a su rival.",
+    "gancho": "CaptainHookmon ofrece pasaje en su barco a los héroes a cambio de ayudar a su tripulación novata a sobrevivir a una tormenta digital y a un barco rival."
+  },
+  "cargodramon": {
+    "descripcion": "Digimon encargado del transporte de tropas de la D-Brigade, que al parecer evolucionó al incorporar diseños de aeronaves con rotores basculantes obtenidos hackeando el mundo real. Maniobra con soltura ajustando la inclinación de las hélices de sus alas, y su bodega suele llevar a cinco Commandramon y un Hi-Commandramon.",
+    "tacticas": "Tanque de apoyo: Suppression Strike lanza ráfagas de ametralladora que queman y provocan mientras despliega tropas. Si lo acorralan, Slaughter Blade corta con las hélices, aunque solo en emergencias.",
+    "gancho": "Cargodramon aterriza en pleno claro y descarga un escuadrón de Commandramon con órdenes de capturar a los héroes por error; deben aclarar el malentendido antes de que suenen los disparos."
+  },
+  "catchmamemon": {
+    "descripcion": "Mutante surgido de Mamemon al fusionarse con datos de un software de gestión de archivos. Decidido y a veces terco, su tarea principal es cuidar los DigiHuevos. Si no puede flotar, camina apoyándose en sus brazos gigantes, y luce una máquina tragaperras en el pecho.",
+    "tacticas": "Versátil tramposo: Magic Arm atrapa con su mano y confunde, convirtiendo al rival en peluche; si la tragaperras saca tres sietes, Miracle Bomb lo transforma en bomba y lo derriba. La explosión iguala la fuerza del capturado.",
+    "gancho": "Alguien ha robado un DigiHuevo y CatchMamemon, convencido de que lo tienen los héroes, los persigue; para no acabar convertidos en peluches, deben ayudarle a encontrar al verdadero culpable."
+  },
+  "caturamon": {
+    "descripcion": "Digimon con aspecto de perro, uno de los Doce Devas y servidor de Baihumon. Vigila como hermano mayor a Makuramon y Sinduramon, aunque ellos no se lo agradecen. Con un fuerte sentido de la justicia, no descansa hasta aclarar el bien y el mal, y juzga las disputas de los suyos.",
+    "tacticas": "Jefe ágil: se transforma en el Bǎo Chuí, un gran martillo, y estrella Śwabhojana contra el suelo para provocar un terremoto brutal que derriba. Combate como un juez: exige a los héroes decidir quién tiene la culpa.",
+    "gancho": "Makuramon y Sinduramon discuten ante Caturamon por una disputa y los héroes son testigos; deben contar la verdad o su juicio caerá como un martillo sobre todos."
+  },
+  "cerberumon": {
+    "descripcion": "Conocido como el Perro Guardián del Infierno, tiene garras capaces de cortar con facilidad Chrondigizoid de baja pureza, un caparazón orgánico rígido y la capacidad de curar cualquier daño al instante. Las piezas de armadura de sus hombros tienen voluntad propia y le avisan de ataques desde cualquier dirección.",
+    "tacticas": "Acechador de zona: abre Inferno Gate, una puerta de fuego que quema y perfora a todos los que pillen dentro, y recurre a Mad Dog Fire para confundir. Rodea a los héroes antes de abrir la puerta.",
+    "gancho": "Los héroes deben cruzar la entrada de la Dark Area que Cerberusmon custodia; sus armaduras vigilantes avisan de todo, así que la única opción es pactar o distraerlo."
+  },
+  "cerberumon_x": {
+    "descripcion": "Más hábil que antes, esta versión afina sus técnicas para eliminar con eficacia. Sus garras, las Styx Killers, desgarran, atraviesan, barren y desvían ataques, y las usa a cuatro patas o a dos según la situación. Merodea por la entrada del infierno cumpliendo encargos, pero si no le pagan, se vuelve contra su propio cliente.",
+    "tacticas": "Acechador astuto: Inferno Gate abre una puerta de fuego en la zona y Mad Dog Fire confunde. Alterna cuatro patas y dos patas al describir sus movimientos, y usa un trato roto como excusa para atacar al cliente.",
+    "gancho": "Un cliente misterioso ha contratado a Cerberusmon para vigilar a los héroes, pero no le ha pagado todavía; quizá puedan sobornarlo, aunque un perro viejo siempre pide su parte."
+  },
+  "cerberumon_werewolfmode": {
+    "descripcion": "Forma mutante de Cerberusmon que se transformó para frenar la propagación de datos nacidos de la malicia humana en Internet, porque teme que dañen el Mundo Digital. Su cuerpo se cubrió de caparazón orgánico, camina sobre dos patas y sus brazos terminan en mandíbulas capaces de triturar los datos corruptos.",
+    "tacticas": "Místico implacable: Inferno Divide sujeta al objetivo con las mandíbulas de sus brazos y detona bombas de fuego a quemarropa, y Cerberus Erase ejecuta a los heridos con las garras de sus pies.",
+    "gancho": "Cerberusmon: Werewolf Mode persigue una oleada de datos corruptos que se esparce por un pueblo; los héroes deben ayudarlo o interponerse sin ser confundidos con la corrupción."
+  },
+  "chaperomon": {
+    "descripcion": "Muñeca ornamental formada con datos de cuentos de hadas. Aunque parece humanoide, sus articulaciones se doblan en sentidos imposibles y asustan a quien lo ve. Tras su aire recatado es hostil y caza por deporte, sobre todo lobos, y con los datos de sus presas diseña zapatos nuevos.",
+    "tacticas": "Místico cazador: lanza Apple For You, una botella de sidra convertida en cóctel molotov que confunde, y descarga Mercy Basket, una ráfaga desde su cesta. Si hay un Digimon lobo en el grupo, se obsesiona con él.",
+    "gancho": "Una elegante muñeca ofrece una cesta de manzanas a los héroes en un sendero del bosque; es Chaperomon, que busca lobos y confunde a cualquiera que huela a lobo."
+  },
+  "jyureimon": {
+    "descripcion": "Señor del Bosque Profundo, evolución de Woodmon con gran inteligencia y poder. Atrae a quienes se adentran en la espesura con una niebla alucinógena, los atrapa con ramas y lianas y se nutre de ellos. Su fruta prohibida huele dulce y tentadora, pero un solo bocado es mortal.",
+    "tacticas": "Místico de control: desde la distancia, Cherry Bomb lanza su fruta prohibida para sellar las habilidades de un héroe. Combínalo con niebla que despista y separa al grupo para aislar a sus presas.",
+    "gancho": "Un sendero del bosque lleva hasta una fruta de olor delicioso; los héroes deben resistir la niebla de Cherrymon y evitar que un compañero muerda lo prohibido."
+  },
+  "tyilinmon": {
+    "descripcion": "Bestia sagrada que, según se dice, nació con el propio Mundo Digital; aunque es un Perfecto, su fuerza se acerca a la de un Mega. Detesta el conflicto, nunca es cruel y trata con cariño a todos los seres vivos, pero castiga sin contenerse a quien practica la crueldad gratuita.",
+    "tacticas": "Ágil protector: desciende de golpe con Wind Cutter Sword, un cuerno que perfora y empuja, y desconcierta con Knowledge of Swiftness, clones velocísimos que ciegan. Solo lucha contra los crueles; con el resto, dialoga.",
+    "gancho": "Un bandido maltrata a unos Digimon indefensos y Chirinmon baja del cielo furioso; los héroes deben contener su ira para que no destruya también a los inocentes."
+  },
+  "chohakkaimon": {
+    "descripcion": "Digimon de espíritu femenino con disfraz de cerdo, que fue un ángel hasta que sus fechorías enfurecieron a Ophanimon y la desterró de los cielos. Es optimista y no guarda rencor por su forma actual, pero cuanto más hambre tiene más se enfada, hasta perder el control. Viaja buscando reformarse.",
+    "tacticas": "Místico de hambre y furia: Home Run Blast golpea rápido con su arma propulsada y confunde, mandando al rival a volar; Pig Roast quema con las llamas de su rabia. Cuanto más tarde la comida, más peligrosa se vuelve.",
+    "gancho": "Los héroes se topan con Cho-Hakkaimon justo antes de la hora de comer; si le ofrecen un banquete ganarán una aliada, y si no, una enemiga furiosa."
+  },
+  "climbmon": {
+    "descripcion": "Insectoide nacido de datos de un curso de escalada. Los piolets de sus brazos le sirven para trepar y para clavar en la roca los pitones ocultos bajo sus alas, así que se sostiene en los lugares más inestables y se mueve con la gracia de un ninja.",
+    "tacticas": "Acechador volador: se oculta con Giton Isolation, fundiéndose con el entorno y atrapando a sus presas, y después ataca; de cerca usa Dynamic Scyther. Los héroes no deberían verlo hasta que sea tarde.",
+    "gancho": "Una pared de roca vertical es la única ruta al refugio, pero Climbmon acecha en ella camuflado, emboscando a quien intente trepar; los héroes deben detectarlo antes de subir."
+  },
+  "crescemon": {
+    "descripcion": "Mago de cuerpo flexible que ataca con movimientos elegantes y fluidos; se dice que duplica su fuerza bajo la luz de la luna. Con las Nova Luna, las armas de ambas manos, se acerca bailando, y puede unirlas en una especie de ballesta para disparar flechas de hielo o de energía oscura.",
+    "tacticas": "Místico lunar: Lunatic Dance, unos pasos de baile que confunden antes de golpear de cerca, y con la ballesta, Ice Archery congela desde la distancia. Hazlo más peligroso de noche y con luna.",
+    "gancho": "Bajo la luna llena, Crescemon baila en un claro del bosque y propone un duelo de gracia; quien lo acepte caerá en su embrujo si no mantiene el paso."
+  },
+  "yatagaramon_axcel": {
+    "descripcion": "Extraña ave negra de tres patas. Su aspecto oscuro parece malvado, pero la leyenda dice que es quien guía a unos pocos elegidos hacia El Dorado, en el este del Mundo Digital. Quien supera las tres pruebas que impone llega a su destino; quien falla acaba en la Dark Area.",
+    "tacticas": "Ágil volador: Savage Emperor concentra la energía de los vajras de sus alas en las patas para quemar a gran velocidad, y Haguro cubre de oscuridad una zona enorme y ciega. Prefiere acosar a chocar.",
+    "gancho": "Los héroes persiguen la leyenda de El Dorado y Crowmon les plantea tres pruebas; superarlas disipa barreras sagradas, pero fallar conduce directo al Dark Area."
+  },
+  "yatagaramon": {
+    "descripcion": "Variante del anime de 2006 del enigmático Crowmon, ave negra con tres patas cuya apariencia siniestra engaña. Cuentan que es la guía hacia El Dorado, tierra protegida por barreras sagradas. Solo quien supere sus tres pruebas verá disolverse los muros; los demás terminan en la Dark Area.",
+    "tacticas": "Ágil de las alturas: Savage Emperor lanza energía de fuego con rapidez y quema; Haguro llena de sombra un gran terreno y deja ciegos a todos. Es un combate de acoso y huida, no de choque frontal.",
+    "gancho": "Una silueta de tres patas sobrevuela el campamento de noche y deja caer una pluma negra: Crowmon invita a los héroes a un viaje que acaba en El Dorado o en la Dark Area."
+  },
+  "cryspaledramon": {
+    "descripcion": "Hombre dragón en el que solo unos pocos Paledramon logran convertirse. Su exterior helado se ha vuelto una armadura que le cubre todo el cuerpo y mejora su ataque y su defensa. Los pilares de hielo de sus alas le permiten mantener la forma incluso frente a un calor extremo.",
+    "tacticas": "Bruto glacial: Frozen Claw desgarra con sus garras de hielo y congela las heridas, y Callous Dimension provoca una ventisca localizada que congela al grupo entero. Su hielo resiste mejor el calor que el de otros.",
+    "gancho": "Una ventisca imposible cae sobre un valle volcánico y sepulta aldeas; los héroes siguen el rastro de hielo hasta CrysPaledramon, que ni siquiera parece saber que lo está causando."
+  },
+  "cyberdramon-xwars": {
+    "descripcion": "Misterioso Digimon que, según se rumorea, llegó de otro mundo. Su lenguaje y su forma de pensar son tan distintos que comunicarse con él es casi imposible, y es tan peligroso y belicoso como sugiere su aspecto. Caza a cualquier Digimon para obtener energía, y se camufla para sorprender.",
+    "tacticas": "Bruto cazador: tras acechar camuflado, Erase Claw ejecuta con un zarpazo brutal, y Cyber Blader corta con la lanza sobre la cola giratoria. Juega con sus presas con movimientos impredecibles antes de rematar.",
+    "gancho": "Algo extraño caza Digimon en la espesura: los héroes hallan huellas desconocidas y ni un solo testigo; el cazador es Cyberdramon, que no habla ni razona como los demás."
+  },
+  "cyberdramon": {
+    "descripcion": "Androide de tipo dragón protegido por una armadura especial de goma que resiste cualquier ataque y multiplica su ofensiva. Si un Virus aparece en una red, acude al instante para erradicarlo, pero trabaja solo y nunca se une a los Virus Busters. Su identidad sigue envuelta en misterio.",
+    "tacticas": "Tirador solitario que prioriza a los Digimon de atributo Virus. Su Desolation Claw, una vibración de alta frecuencia que ralentiza y no falla, borra hasta el espacio que rodea al objetivo. Su armadura de goma resiste bien.",
+    "gancho": "Un Digimon Virus inofensivo se oculta en la ciudad y Cyberdramon, implacable, aparece de la nada para borrarlo; los héroes deben convencerlo de que no todo lo que molesta es una amenaza."
+  },
+  "cyberdramon_x": {
+    "descripcion": "De la cabeza a las garras, esta versión con anticuerpo X está cubierta por una sustancia única formada al endurecerse la goma de su armadura, que reluce como pulida. Se mueve en silencio y con eficiencia al eliminar Digimon Virus, y su Desolation Claw es más afilada que nunca.",
+    "tacticas": "Tirador implacable: Extreme Tailer concentra la energía Vacuna de sus alas y la dispara con la cola, derribando al objetivo tras una carga previa; avísala para que los jugadores puedan reaccionar. Desolation Claw lo ralentiza.",
+    "gancho": "Los Digimon Virus de la región huyen aterrados de una sombra silenciosa; los héroes encuentran a Cyberdramon (X Antibody) y deben decidir si es su aliado o su próximo objetivo."
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "shimaunimon": {
+    "descripcion": "Primo rayado de Unimon, este unicornio lleva en el cuerpo más datos de caballo que de pegaso, así que no tiene alas y no vuela. Lo compensa galopando por el suelo con unas patas formidables. Su cuerno es más afilado que el de su pariente y su pelaje de cebra lo delata a leguas en cualquier llanura.",
+    "tacticas": "Mantenlo siempre en movimiento: carga, se aparta y vuelve a cargar por otro flanco. Su Raster Shot, una onda de choque lanzada desde la boca, aprovecha el efecto Rápido para actuar antes que los héroes y castigar al que se quede atrás.",
+    "gancho": "Una manada de ShimaUnimon recorre cada noche la misma ruta por la llanura, y los héroes descubren que no galopan por capricho: custodian algo enterrado bajo ese camino."
+  },
+  "shoeshoemon": {
+    "descripcion": "Marioneta inquieta que patina sobre las copas de los árboles como si llevara ruedas en los pies, incapaz de quedarse quieta ni un segundo. Guarda comida y tesoros en las mejillas, entre los huecos de la cola y en un bolsillo con cremallera de la barriga. Es una urraca digital: a veces roba bocados a otros Digimon.",
+    "tacticas": "Entra rodando y revienta la formación con Rolling Stomper, que derriba y golpea con brutalidad. Si los héroes se alejan, vacía su bolsillo y lanza Acorn Bomb, bellotas explosivas que estallan en una lluvia de frutos. Es un bruto escurridizo.",
+    "gancho": "Alguien ha vaciado la despensa de la aldea en una sola noche y las marcas de ruedas suben por los troncos: hay que alcanzar a un ladrón que nunca se detiene."
+  },
+  "shootingstarmon": {
+    "descripcion": "Nace cuando varios Pickmon se juntan alrededor de un Starmon y, con la fuerza de su voluntad compartida, lo impulsan hasta un nivel superior. El resultado es un guerrero estelar ardiente que se lanza desde el cielo convertido en meteoro y que grita palabras de ánimo a quienes están a punto de rendirse.",
+    "tacticas": "Abre con Astro Bomber, un meteoro en llamas que golpea con brutalidad y quema. Después se pega a un héroe con Dynamite Soul, que drena vida y refuerza a ShootingStarmon mientras sus gritos de ánimo inflaman a los suyos.",
+    "gancho": "Un cráter humeante aparece de la noche a la mañana en el camino, y de él salen varios Pickmon pidiendo ayuda para devolver a su estrella caída al cielo."
+  },
+  "shortmon": {
+    "descripcion": "Un pastelito con forma de tarta de nata que sueña con ser el mejor pastelero del Mundo Digital. Cada día estudia los datos de postres que llegan a la red, practica la cortesía con la clientela y fantasea con abrir su propia pastelería. Es dulce de carácter, pero se enfurece si alguien estropea una merienda.",
+    "tacticas": "Es un apoyo que prefiere ahuyentar a quien arruina la fiesta. Lanza Sweet Berry, la fresa de su cabeza, para encantar a distancia, y si lo acorralan clava un tenedor gigante con Tastone, que perfora y ralentiza.",
+    "gancho": "Shortmon promete una tarta gratis a los héroes si le ayudan a conseguir un ingrediente muy raro, pero un Digimon gruñón ya ha arruinado tres de sus fiestas."
+  },
+  "shoutmon_king": {
+    "descripcion": "Versión gallarda del pequeño dragón rockero, con una bufanda amarilla que ondea al viento y un micrófono de la marca McField que es a la vez instrumento y arma. Gracias al entrenamiento ha crecido en fuerza y destaca aún más sobre el escenario: para él cada actuación es un combate y cada combate, un concierto.",
+    "tacticas": "Domina la escena como un cantante: Rock Soul asusta y drena desde lejos, y Soul Crusher, gritado a pleno pulmón en el micro, rompe defensas de cerca. Con Rowdy Rocker usa el micro como bastón para empujar a los héroes.",
+    "gancho": "Shoutmon (King Version) anuncia un concierto en plena plaza y pide a los héroes que protejan el escenario de saboteadores mientras termina su canción más larga."
+  },
+  "shoutmonx2": {
+    "descripcion": "Armadura viviente nacida del modo potenciado de Ballistamon: al alojar a otro Digimon en su interior, ambos obtienen un poder y una defensa varias veces superiores. Fusionar el potencial de los dos le da un arsenal muy variado, con golpes, rayos y munición real, útil tanto contra un rival como contra una multitud.",
+    "tacticas": "Dispara desde lejos con Mac Arrow, perforante y certero, y cuando los héroes se acercan abre un hueco con Horn Breaker DX, que perfora y rompe defensas. Es un tirador versátil que cambia de ataque cada ronda.",
+    "gancho": "Un Ballistamon busca desesperado al compañero que debe llevar dentro; solo si ambos confían de verdad el uno en el otro lograrán despertar su forma potenciada."
+  },
+  "shoutmonx3": {
+    "descripcion": "Este guerrero, llamado Modo Físico, surge cuando el instinto de combate de tres Digimon se funde en uno solo. Es ágil, acróbata y desconcierta al rival con sus movimientos; a pesar de su aspecto delicado, sus articulaciones flexibles absorben las ondas de choque. La V de su pecho es un arma versátil: espada o boomerang.",
+    "tacticas": "Muévelo sin parar para desorientar a los héroes. Three Victorize barre a un grupo entero en ráfaga, y Three Impact aturde a quien tenga cerca. Cuando necesite golpear desde lejos, desprende su V con Varooma Boomerang.",
+    "gancho": "Tres Digimon que jamás se pusieron de acuerdo deben fusionarse ante una amenaza, y los héroes han de convencerlos de olvidar sus rencillas el tiempo justo."
+  },
+  "shoutmonx4": {
+    "descripcion": "El Modo Victoria nace del deseo de cuatro Digimon por alcanzar el triunfo absoluto, y existe solo para cumplirlo. Su fuerza es descomunal, está entre los Digimon más poderosos que se conocen y es un especialista del combate en tierra. Con su espada estelar lanza ondas de fuego y nunca se rinde.",
+    "tacticas": "Es un coloso terrestre: Burning Star Crusher parte en dos al más veloz, con golpe brutal y quemadura. Reserva Three Impact, un puñetazo de remontada que aturde, para el momento en que los héroes crean tenerlo contra las cuerdas.",
+    "gancho": "Cuatro Digimon con un único sueño de victoria buscan a quien pueda acompañarlos hasta el final de un torneo en el que nadie ha llegado al último combate."
+  },
+  "sistermon_ciel": {
+    "descripcion": "Hermana mayor de Sistermon Blanc y gemela de Noir, lleva un velo con forma de ratón. Recorre el Mundo Digital investigando problemas y enviando informes a Gankoomon. De día es discreta y querida por los vecinos; de noche se convierte en una asesina silenciosa que caza a los indeseables que ha localizado.",
+    "tacticas": "Hazla parecer inofensiva hasta que sea tarde. Abre con Shirotsume Ichimonji-giri, un tajo silencioso a distancia, y remata con Byakusai, cuchillos ocultos en las mangas que lanza antes de que nadie la vea moverse.",
+    "gancho": "En una aldea todos adoran a la amable monja recién llegada, pero los héroes notan que cada noche desaparece, sin dejar rastro, algún vecino de mala fama."
+  },
+  "sistermon_ciel_Awake": {
+    "descripcion": "Al ponerse la toca, a Sistermon Ciel le aparece una marca sagrada en el vientre. Cada vez que blande su espada predilecta, Shirotsume Ichimonji, la hoja se afila y se llena de luz. Pelea con una elegancia casi de baile, y quien ve brillar la hoja queda hechizado por el espectáculo.",
+    "tacticas": "Ataca desde lejos con Shirotsume Ichimonji-giri (Awakened) y Byakusai (Awakened), cuyo resplandor confunde a quien lo mira. Narra cada golpe como un paso de danza: los héroes que se queden embobados perderán el ritmo del combate.",
+    "gancho": "Una danza de espadas ilumina el bosque en las noches de luna llena, y quien la contempla olvida a qué había ido. Los héroes deben averiguar quién baila y qué protege."
+  },
+  "sistermonnoir": {
+    "descripcion": "Monja con un klobuk en forma de cabeza de gato negro, alegre por naturaleza y capaz de tranquilizar a cualquiera con su aire inocente. Gankoomon le encargó cuidar y entrenar a Huckmon, y ella lo acompaña bromeando mientras le apunta con su arma. Las hermanas fueron rescatadas por Gankoomon al borde del hambre.",
+    "tacticas": "Dispara desde la retaguardia sus dos pistolas gemelas con Mickey Bullet, certero incluso a gran distancia, y añade Bless Fire para quemar a quien se acerque. Bromea durante todo el combate y nunca parece tomárselo en serio.",
+    "gancho": "Una monja risueña con dos pistolas pide ayuda a los héroes para vigilar a su pupilo, un Huckmon torpe que no deja de meterse en líos."
+  },
+  "sistermon_noir_Awake": {
+    "descripcion": "Al colocarse la toca en la cabeza, a Sistermon Noir le aparece una marca sagrada que despierta su verdadero poder. La fuerza salvaje que emerge le da agilidad extra, y ahora abate a sus rivales agachada, casi a ras de suelo, con movimientos que recuerdan más a una fiera que a una monja.",
+    "tacticas": "Más fiera que en su forma normal: lanza Mickey Bullet (Awakened) desde lejos y cambia de ángulo sin enderezarse, lo que la hace difícil de seguir. Con Bless Fire (Awakened) quema a quien intente flanquearla.",
+    "gancho": "Una sombra con orejas de gato salta entre las ruinas: es una monja transformada en fiera, y los héroes deben averiguar qué la ha despertado y cómo devolverle la calma."
+  },
+  "skullknightmon": {
+    "descripcion": "Caballero astuto y de pocos escrúpulos que ha jurado hermandad con DeadlyAxemon. Su filosofía es simple: un caballero debe pelear y, sobre todo, ganar. Por eso no duda en ensuciarse las manos, cayendo sobre el enemigo con su lanza y comportándose de forma poco digna de su título. Es el líder de los suyos.",
+    "tacticas": "Pelea sin honor: usa Chest-Eye Wink para encantar a un héroe desde lejos y después abre una brecha con Spear Needle, que perfora armaduras. Si ve que pierde, cambia de plan sin remordimientos, porque solo importa la victoria.",
+    "gancho": "Un caballero no muerto reta a los héroes a un duelo muy honorable, pero su hermano de armas aguarda oculto tras las líneas, listo para ganar a cualquier precio."
+  },
+  "skullknightmoncavaliermode": {
+    "descripcion": "Modo de asalto en el que SkullKnightmon monta a DeadlyAxemon y se lanza como una bala contra el enemigo sin importarle los obstáculos. Si el combate se tuerce, su montura cambia de forma y huye del campo. DeadlyAxemon no se cansa nunca, así que el jinete repite el plan cuantas veces quiere; por eso la montura impone más que el amo.",
+    "tacticas": "Embiste con Cavalier Braver para perforar y romper defensas, y luego retrocede para volver a cargar. Aguanta mucho y no se agota, así que castiga a los héroes que se queden quietos en su camino.",
+    "gancho": "Un jinete oscuro arrasa caravanas a toda velocidad y desaparece antes de que lleguen refuerzos. Los héroes deben preparar una trampa capaz de detener a una montura que jamás se cansa."
+  },
+  "skullknightmonbigaxemode": {
+    "descripcion": "En este modo DeadlyAxemon se transforma en un hacha gigantesca, mayor que la mayoría de los Digimon, y SkullKnightmon la maneja sin esfuerzo, aplastando cuanto se le cruza con su peso y su dureza. Como es un arma viva, el hacha puede atacar por su cuenta y coordina cada golpe con su dueño.",
+    "tacticas": "Haz que provoque a los héroes con Axe Rider, cargando con el hacha por delante para que lo ataquen a él. Luego barre la zona con Storm Axe, un hachazo más rápido que la vista que empuja a todos hacia atrás.",
+    "gancho": "Un hacha enorme está clavada en mitad del camino, aparentemente abandonada, pero al acercarse los héroes empieza a moverse sola como si buscara a quién empuñar."
+  },
+  "snatchmon": {
+    "descripcion": "Surge cuando varios Vemmon se devoran entre sí y solo queda uno en pie. Obedece una orden maestra grabada en su código, pero se dice que algunos cobran conciencia y desean más poder para sí mismos, dispuestos a cazar a cualquier rival para ser los más fuertes. Es un superviviente despiadado.",
+    "tacticas": "Ciega al grupo con Ruin Laser, disparado desde el dorso de sus brazos, y se lanza con Tooth Spear, un tajo perforante con la punta de la cola. Un Snatchmon consciente actúa con ambición propia, no por orden de nadie.",
+    "gancho": "Los Vemmon de una cueva desaparecen uno tras otro, y el único que sale tiene una mirada que ya no obedece a nadie. Los héroes deben decidir si lo detienen o lo entienden."
+  },
+  "snimon": {
+    "descripcion": "Insectoide con forma de mantis, construido en un laboratorio como cazador de virus. Persigue su objetivo con precisión de máquina y su carácter frío lo hace temible. Sus guadañas afiladas cortan limpiamente cualquier cosa. No tiene ojos: las antenas rojas de su cabeza funcionan como sensores que siguen cada movimiento.",
+    "tacticas": "Vuela y se acerca sin ser visto: Shadow Sickle es un tajo supersónico que combina Ocultar con Asustar, de modo que golpea desde las sombras y deja al objetivo helado de miedo. Como esbirro, úsalo en grupo.",
+    "gancho": "Alguien ha activado a un Snimon de laboratorio con una única orden: encontrar a cierto Digimon Virus. Los héroes deben llegar al objetivo antes que el cazador sin ojos."
+  },
+  "sorcerimon": {
+    "descripcion": "Compañero de Wizardmon procedente de Witchelny, un Mundo Digital de otra dimensión. Domina una magia de luz y hielo, que en realidad es programación avanzada, y además cura heridas con el poder de la oración. Su báculo, coronado por un cristal helado, le permite convocar nubes de tormenta.",
+    "tacticas": "Mantenlo lejos de la primera línea y haz que invoque Crystal Cloud, una tormenta de cristales y nieve que cae sobre una zona y golpea con brutalidad. Es frágil, pero cada nube nueva es peligrosa para el grupo.",
+    "gancho": "Una ventisca imposible cae sobre un valle soleado: es un Sorcermon de otra dimensión que busca a su compañero Wizardmon y no sabe cómo volver a su mundo."
+  },
+  "soulmon": {
+    "descripcion": "Fantasma formado por programas malditos. Es una variante de Bakemon que ha incorporado los datos de los magos de los cuentos de fantasía, y su sombrero negro potencia su magia. Por eso sus maldiciones y hechizos resultan devastadores. Flota sobre el suelo con aire de mago de ultratumba.",
+    "tacticas": "Flota fuera del alcance de los golpes y lanza Necro Magic, almas de difuntos que confunden a quien impactan. Es un hechicero de maldiciones: castiga desde lejos y se desliza hacia atrás si le plantan cara.",
+    "gancho": "Un sombrero negro flota sobre un cementerio de datos y un coro de almas susurra a su paso. Quien las escucha demasiado olvida a qué había ido."
+  },
+  "starmon": {
+    "descripcion": "Guerrero espacial con forma de estrella, descubierto por casualidad en un programa de análisis planetario de un centro espacial. Lleva botas y guantes con el emblema estelar y una bufanda amarilla raída, señal de muchas batallas. Aunque no habla, sus ojos, en el centro del cuerpo, transmiten su ardor e incluso hipnotizan. Admira a Leomon.",
+    "tacticas": "Provoca al héroe más fuerte y llama su atención con Meteor Shower, que hace llover pequeños meteoros sobre un área. Es versátil: puede machacar de cerca o bombardear desde lejos, según convenga.",
+    "gancho": "Un joven Starmon ha oído que Leomon pasa por la región y quiere demostrarle su valor, aunque sus meteoros ya han dejado cráteres por todo el camino."
+  },
+  "starmon_x": {
+    "descripcion": "Un Starmon aún más ardiente, con la armadura estelar reforzada. Ha dominado técnicas que multiplican su control sobre las estrellas y deja caer los meteoros más destructivos con precisión milimétrica. En el pecho lleva una estrella semitransparente que usa como gafas de sol: sabe que es toda una estrella y le encanta lucirlo.",
+    "tacticas": "Entra con Meteor Shower para provocar y repartir golpes en zona, y desde lejos remata con Meteor Champion, que ralentiza a su víctima. Si el combate se pone serio, descríbelo quitándose las gafas.",
+    "gancho": "Una estrella del espacio de aire presumido llega a una ciudad digital y exige público, pero ha perdido sus gafas de sol y sin ellas no se atreve a salir a escena."
+  },
+  "stingmon": {
+    "descripcion": "Insectoide poco común con forma humanoide, que combina el exoesqueleto duro de su especie con movimientos sencillos. Destaca como asesino: golpea los puntos vitales con agilidad y juicio preciso para acabar con un solo ataque. Es sereno, frío e inteligente, y las espinas de sus brazos ensartan a sus presas.",
+    "tacticas": "Vuela y cae desde el aire con Spiking Strike, una estocada perforante con las espinas de sus brazos dirigida a puntos vitales. Es un asesino de un solo golpe: si falla, se retira y busca otro ángulo.",
+    "gancho": "Un asesino sereno y de pocas palabras propone un trato a los héroes: acabar juntos con los virus que acechan una ciudad, a condición de que él elija a quién perseguir primero."
+  },
+  "strikedramon": {
+    "descripcion": "Dragón comando que aspira a ser cazador de virus. Es de tipo Vacuna, como Angemon, y de buen corazón, pero cuando ve a un Digimon Virus lo invade un instinto exterminador y no para hasta triturar sus datos. En esos combates el pelo rojo de su nuca se enciende en una llama pálida.",
+    "tacticas": "Ante un Digimon Virus se vuelve implacable. Calienta sus placas de metal al rojo y se lanza con Fang Strike, un placaje de fuego que perfora y quema. Fuera de esas peleas es un aliado fiable.",
+    "gancho": "Strikedramon acompaña a los héroes de buen grado hasta que aparece un Virus; entonces deben calmar su furia o dejarlo actuar antes de que arrase media aldea."
+  },
+  "scumon": {
+    "descripcion": "Un montoncito dorado y reluciente, nacido de los restos de datos tirados a la papelera de un ordenador. Adora los lugares oscuros y cae mal a casi todos los Digimon por su origen. Ni su inteligencia ni su fuerza impresionan, pero su socio Chuumon, un roedor diminuto y astuto, siempre le empuja a hacer travesuras.",
+    "tacticas": "Es un esbirro más molesto que peligroso: arroja su Poop desde lejos para cegar y ensuciar el campo. Si Chuumon anda cerca, haz que le sople malas ideas mientras Sukamon cumple sin entender nada.",
+    "gancho": "Los vecinos de una aldea juran que alguien ha manchado de dorado sus fuentes. El culpable es un Sukamon engañado por su amigo Chuumon, y quizá merezca una segunda oportunidad."
+  },
+  "sunflowmon": {
+    "descripcion": "Digimon con forma de girasol que se llena de energía bajo el sol, lo que potencia sus ataques. Su enorme sonrisa resulta tan inquietante que intimida a los rivales. Cuando se enfada, agita su tallo con forma de cola y lanza una lluvia de espinas de cactus sobre sus enemigos.",
+    "tacticas": "Mejor combatirlo a pleno sol: Sunshine Beam, un rayo de luz solar disparado desde los pétalos, quema a distancia. De cerca, Smiley Slap confunde al rival con una sonrisa espeluznante antes de golpear.",
+    "gancho": "Un campo de girasoles sonríe de forma extraña a quien pasa. Su Sunflowmon solo se calmará si los héroes despejan las nubes que llevan semanas ocultando el sol."
+  },
+  "symbareangoramon": {
+    "descripcion": "Forma campeona de Angoramon, que se desenredó el largo pelo suave que lo envolvía para ganar rapidez. Perdió la protección del pelaje, pero a cambio se mueve con agilidad. Persigue la belleza en cada gesto: esquiva los golpes como si bailara y responde con ataques elegantes.",
+    "tacticas": "Es un bailarín escurridizo: esquiva y contraataca con Jive, patadas veloces sobre una sola pierna que actúan primero. Si lo rodean, gira con Render y corta con las puntas de sus orejas para romper defensas.",
+    "gancho": "Un bailarín de largas orejas organiza una exhibición en la plaza del pueblo y pide a los héroes que impidan que nada estropee la belleza de su espectáculo."
+  },
+  "tankmon": {
+    "descripcion": "Androide con forma de tanque, conocido como el Digimon mercenario, que apoya lo mismo a Vacunas que a Virus si hay beneficio. Aplasta a sus enemigos con su peso y con el armamento que cubre su cuerpo. Es un lobo solitario y amante de las disputas: va allí donde hay conflicto, y donde llega, la pelea continúa.",
+    "tacticas": "Como esbirro hace de artillería: se planta a larga distancia y dispara Hyper Cannon, un misil brutal y certero desde el cañón de su cabeza. Es mercenario, así que puede cambiar de bando si le pagan más.",
+    "gancho": "Los héroes descubren que dos bandos enemigos han contratado al mismo Tankmon; ¿podrán convencerlo de que cobre por no disparar?"
+  },
+  "targetmon": {
+    "descripcion": "Marioneta terca equipada con unas gafas de sol de altísima resolución que fijan a la presa para que no escape. Humilla a sus rivales con las zapatillas que seguramente se puso en las manos por error. Es resistente y se levanta una y otra vez, por muy derrotado que esté, mientras conserve la Anja Serenade en el corazón.",
+    "tacticas": "Se cura mientras ataca: Pointy Head es una embestida que se prepara y descontrola, y Dengeki Haguhagu Sneaker zurra al rival con sus manos-zapatilla. Es difícil mantenerlo en el suelo, así que no lo des por vencido.",
+    "gancho": "Targetmon ha fijado a los héroes como objetivo con sus gafas de sol y los sigue por toda la ciudad, convencido de que le han robado el protagonismo."
+  },
+  "teslajellymon": {
+    "descripcion": "Forma campeona de Jellymon, madurada al absorber datos de deportes de combate, como los duelos en jaula de acero, buscando emoción y diversión. Sus técnicas eléctricas son más fuertes, y muchas de sus llaves cuerpo a cuerpo se inspiran en el kárate y la lucha libre. Su cuerpo ligero le permite esquivar con soltura.",
+    "tacticas": "Es un luchador eléctrico: Physalist golpea puntos vitales con las palmas cargadas y paraliza, y Punishment Nettle castiga con sus bandas de alto voltaje. Narra sus ataques como un campeón de ring saltando entre las cuerdas.",
+    "gancho": "Un torneo clandestino de lucha en jaula de acero reta a los héroes a subir al ring; el campeón es una medusa eléctrica que adora a su público."
+  },
+  "thunderballmon": {
+    "descripcion": "Mutante que se supone variante de Mamemon, apodado el dínamo digital. Su cuerpo pequeño está cargado magnéticamente y descarga electricidad sin descanso. Contra quien lo ataca dispara esferas de mil millones de voltios, de modo que conviene no tocarlo sin protección.",
+    "tacticas": "Es una batería con patas: dispara Thunder Ball a distancia para paralizar al héroe más cercano. Describe cómo los objetos metálicos de la escena se erizan a su alrededor mientras sigue soltando chispas.",
+    "gancho": "Las máquinas del pueblo se encienden y apagan sin control desde que llegó un pequeño Thundermon; los héroes deben encontrar un lugar donde descargue su energía sin hacer daño."
+  },
+  "thunderballmon_x": {
+    "descripcion": "Variante potenciada del dínamo digital. Genera una electricidad enorme con simples puñetazos y patadas, y se ha vuelto una amenaza capaz de quitar las ganas de pelear incluso a Digimon grandes. Si combina ambos golpes, produce una explosión eléctrica como una bomba, a la que llama Thunder Bomber.",
+    "tacticas": "Se pega al rival: abre con Anode Punch, un puñetazo brutal, y cierra con Cathode Kick, una patada que además paraliza. No necesita distancia para ser un peligro, solo que alguien se le ponga delante.",
+    "gancho": "Un Digimon pequeño y chisporroteante desafía a monstruos mucho más grandes en la plaza y, para asombro de todos, los vence a puñetazos. Los héroes querrán saber de dónde saca tanta confianza."
+  },
+  "tialudomon": {
+    "descripcion": "Evolución de Ludomon, aún más resistente y muy veloz. Corre a gran velocidad para rescatar a los Digimon que quedan en primera línea sin poder pelear. Se convierte en escudo para proteger a quien lo empuña mientras huye, y sus escudos mágicos levantan barreras de hielo que congelan y anulan los ataques enemigos.",
+    "tacticas": "Es el guardián del grupo: con Frisbicker lanza los escudos de sus brazos para proteger a un aliado, y con Assault Claw ataca a toda velocidad con sus garras. Haz que se interponga ante los golpes dirigidos a otros.",
+    "gancho": "Un Digimon herido ha quedado atrapado en pleno campo de batalla. TiaLudomon pide a los héroes que cubran su carrera de rescate mientras él lo carga hasta un lugar seguro."
+  },
+  "tobiumon": {
+    "descripcion": "Digimon acuático que persigue a sus presas a gran velocidad. Sus aletas, extrañamente desarrolladas, y sus grandes brazos para moverse por tierra le permiten cazar tanto en el agua como en suelo firme, por lo que lo llaman el Pez Cazador. Es resistente y no suelta lo que ha marcado.",
+    "tacticas": "Primero ralentiza con Suckerfish Darts, misiles orgánicos que drenan y entorpecen a distancia, y después remata con Flying Finish, un tajo veloz de aletas afiladas que busca terminar con el herido.",
+    "gancho": "Un pez cazador acecha a los pescadores del lago y solo ataca a quienes se separan del grupo; los héroes deben servir de cebo para atraerlo y hablar con él."
+  },
+  "tobucatmon": {
+    "descripcion": "Marioneta con forma de gato que recorre el Océano de la Red. De carácter salvaje y amante del mar, lleva grabada la marca F-14, que lo delata como luchador pese a su aspecto. Solo uno de cada cien de su especie llega a ser un Cat Gun, respetado como gran guerrero. Al girar, enseña las garras del lado al que va.",
+    "tacticas": "Clava una mirada extraña en un blanco lejano y lanza Tobutobu Phoenix, una llamarada, y después rodea al enemigo mordiendo con Spinning Fight. Un héroe atento puede leer sus giros: enseña las garras del lado hacia el que gira.",
+    "gancho": "Un gato presumido afirma ser uno de los pocos Cat Gun y reta a los héroes a una carrera por la costa del Océano de la Red para demostrarlo."
+  },
+  "togemon": {
+    "descripcion": "Un cactus gigante que almacena nutrientes en su cuerpo y puede sobrevivir mucho tiempo en desiertos áridos. Su expresión vacía no revela nada: pasa los días mirando al infinito. Pero si lo provocan lo bastante se vuelve violento y descontrolado, y sus puños, cubiertos de agujas endurecidas, golpean sin descanso.",
+    "tacticas": "Empieza apático y sin actuar, y estalla cuando lo provocan. Needle Spray es una ráfaga de puñetazos con agujas que perfora y atrapa al objetivo. Descríbelo ausente al principio para sorprender a los héroes.",
+    "gancho": "Un cactus gigante lleva días inmóvil en mitad del camino al oasis y nadie se atreve a pedirle que se aparte. ¿Quién arriesgará su piel para provocarlo?"
+  },
+  "togemon_x": {
+    "descripcion": "Cactus gigante que ha descubierto algo oculto en su corazón y ahora vaga de un lugar a otro. Se comunica mal con los demás, quizá por haberse criado casi sin trato en el desierto, y se ha vuelto de mal genio. Una teoría afirma que es un arma vegetal de Vademon que inspecciona objetivos militares.",
+    "tacticas": "Viajero huraño: Needle Spray, su ráfaga de agujas, perfora y atrapa, y Prickly Bam Bam, una serie de golpes que van de jabs a ganchos, ciega al rival. Cambia de ritmo en cada asalto.",
+    "gancho": "Se dice que un cactus errante visita bases militares una por una y nadie sabe por qué. Los héroes pueden descubrir la verdad si logran hablar con alguien tan hosco."
+  },
+  "tortamon": {
+    "descripcion": "Tortuga con un caparazón cubierto de cuchillas afiladas. Su cuerpo es tan denso que pesa mucho más de lo que aparenta y su paso provoca terremotos. Su chillido metálico le ha valido el apodo de Digimon ruidoso. Camina despacio, pero si encoge las patas y gira como un disco se desplaza diez veces más rápido.",
+    "tacticas": "Pesado y lento: deja que los héroes se acerquen mientras lanza Shell Phalanx, las cuchillas de su caparazón disparadas como misiles de varias cabezas. Cuando le convenga, hazlo rodar como un disco para cargar contra ellos.",
+    "gancho": "Cada paso de un Tortomon sacude el valle y hace caer rocas. Los aldeanos piden a los héroes que lo guíen lejos del pueblo sin asustarlo."
+  },
+  "trailmon": {
+    "descripcion": "Gran Digimon que funciona como el transporte del Mundo Digital, un tren vivo que va de terminal en terminal por todas las zonas llevando mercancías y a otros Digimon. Hay muchos tipos distintos en servicio. Es el vínculo entre territorios lejanos y el último lugar donde nadie esperaría una pelea.",
+    "tacticas": "Cool Running le hace embestir a toda velocidad y provoca a los héroes para que lo sigan. Después clava los frenos de emergencia con Emergency Brake Spark y reparte chispas calientes que paralizan.",
+    "gancho": "La línea del tren digital se ha detenido en mitad del desierto con los pasajeros esperando. Los héroes deben averiguar qué ha parado al Trailmon y qué carga lleva dentro."
+  },
+  "troopmon": {
+    "descripcion": "Soldado artificial hecho con un cuerpo de goma especial relleno de energía robada a otros Digimon. Cumple órdenes sin iniciativa propia, no se cansa, no siente dolor, no teme a la muerte ni duerme. Actúa en grupo: solo, es débil, pero su oleada es temible. A los heridos les vacían la energía y la pasan a otro cuerpo.",
+    "tacticas": "Preséntalos en grupos numerosos. Death March invoca más soldados y asusta en zona, mientras que Хорошо Attack golpea con brutalidad a distancia. Cada Troopmon caído puede ser sustituido por otro.",
+    "gancho": "Una marcha silenciosa de soldados de goma avanza hacia la aldea sin detenerse. Los héroes deben hallar a quien los dirige y cortar la fuente de energía robada que los reanima."
+  },
+  "turbomon": {
+    "descripcion": "Bestia cuadrúpeda con caparazones en forma de rueda en las patas. Gira tumbado y se desplaza como un vehículo, una imagen que nadie olvida, y gana una movilidad imposible para otras criaturas: retrocede a toda prisa, salta y gira en curvas cerradas. Puede levantarse sobre dos patas, pero casi nunca lo hace.",
+    "tacticas": "Muévelo como un coche de carreras: Brutal Wheel muele al enemigo con las ruedas de las patas delanteras, y Crush Gear Spin lo lanza por los aires al girar entero. También puede levantar polvo para cegar.",
+    "gancho": "Los héroes organizan una carrera contra Turbomon para cruzar un cañón; solo ganarán si aprenden a leer sus giros y derrapes."
+  },
+  "turuiemon": {
+    "descripcion": "Artista marcial hallado en el interior montañoso de una provincia china. Recorre el mundo persiguiendo a los virus que se valen del correo electrónico para hacer daño. Tiene un potencial excepcional, pero aún no ha pulido su técnica. Practica el Togaken, un estilo de su invención, y aprovecha sus saltos para golpear.",
+    "tacticas": "Saltarín veloz: cae desde lo alto y encadena golpes con Gauntlet Claw, sus garras de hierro con cuernos de conejo. Como actúa rápido, déjale golpear primero y cambiar de posición con saltos.",
+    "gancho": "Un joven maestro de artes marciales busca a un virus escondido en la bandeja de entrada del Mundo Digital y pide ayuda a los héroes para seguirle el rastro."
+  },
+  "tuskmon": {
+    "descripcion": "Dinosaurio superpesado con enormes cuernos en los hombros y carácter temerario: arrasa todo obstáculo y por eso lo llaman el Digimon Panzer. Las estrellas de sus brazos cuentan sus victorias, una por cada cien rivales derrotados. Si se le rompen los cuernos, los cambia como un tiburón sus dientes, pasando los nuevos de atrás hacia delante.",
+    "tacticas": "Avanza en línea recta y embiste con Slamming Tusk, un golpe de cuerno perforante que aturde. Romperle los cuernos no sirve de nada: describe cómo salen otros desde atrás, así que mejor esquivarlo.",
+    "gancho": "Un Tuskmon ha abierto un camino nuevo a través del bosque sin detenerse ante nada, y los héroes deben convencerlo de parar antes de que llegue al pueblo."
+  },
+  "tuwarmon": {
+    "descripcion": "Ninja que ha recuperado su verdadera forma tras desprenderse del pesado Punpun Armor, que frenaba sus habilidades. Su especialidad es hacerse pasar por tonto para acercarse y asesinar con sigilo. Sin la armadura, convertida en impulsores, se mueve como el viento. Sus Mantis Arms pueden ser nunchakus, lanza o boomerang.",
+    "tacticas": "Empieza fingiendo torpeza para que los héroes se confíen. Después baila con Mantis Dance, transformando sus guadañas para confundir, y se oculta tras las nubes de humo de colores de Smokin' Boogie.",
+    "gancho": "Un ninja de aspecto bobalicón tropieza entre los mercaderes de la feria; los héroes deben adivinar quién es su verdadero objetivo antes de que actúe."
+  },
+  "tylomon_x": {
+    "descripcion": "Dragón oceánico apodado el Jet de las Profundidades, cuya velocidad bajo el agua rivaliza con la de MetalSeadramon. Es muy feroz: quien entra en su territorio sufre su embestida aunque el rival sea mayor. Su cuerpo, erizado de aletas-cuchilla como un caza mejorado, gira en tres dimensiones tan rápido como avanza, y olfatea a más de un kilómetro.",
+    "tacticas": "Es una amenaza submarina: Torpedo Attack es una embestida teledirigida que casi nunca falla, y Sickle Stream corta con sus aletas al pasar y ralentiza. Dale ventaja cuando el combate sea en el agua.",
+    "gancho": "Un cardumen enloquecido huye de una gruta marina. Dentro, un Tylomon custodia su territorio, y los héroes deben cruzarlo sin parecer una amenaza."
+  },
+  "tyranomon": {
+    "descripcion": "Dinosaurio ancestral que ya existía en el mundo prehistórico. Arrasa con sus dos poderosos brazos y su enorme cola, pero es inteligente, dócil y fácil de domesticar, por lo que los Tamers novatos lo valoran mucho. Podría decirse que representa la esencia de los Digimon. Exhala llamas del mismo carmesí profundo de su cuerpo.",
+    "tacticas": "Es un bruto clásico: carga con brazos y cola, y escupe Fire Breath, una llamarada brutal que quema a distancia. Si los héroes lo han tratado con amabilidad, puede resultar un aliado inesperado.",
+    "gancho": "Un joven Tamer pide ayuda para criar a su Tyrannomon, que lo sigue a todas partes y quema sin querer los muebles cada vez que estornuda."
+  }
+}

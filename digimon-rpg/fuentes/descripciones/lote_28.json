@@ -1,0 +1,227 @@
+{
+ "shoutmondx": {
+  "descripcion": "Nace de unir la agilidad de OmniShoutmon con la fuerza bruta de ZeigGreymon, y luce un cuerpo dorado que protege sin restarle velocidad. Fuera de combate es amable y sociable, pero al empezar la pelea se convierte en un guerrero ardiente que, cuanto más se enciende el choque, más sereno y audaz se muestra.",
+  "tacticas": "Versátil: abre con Electric Buster Xros a distancia para paralizar y se pega al objetivo con Trident Just Fang, que perfora y le sirve de escudo. Guarda Hyper Rock Magnum para derribar a quien intente rodearlo.",
+  "gancho": "Dos bandas de Digimon cansadas de la guerra piden a Shoutmon DX que medie, pero el líder rival solo hablará con quien resista una exhibición de fuerza sin perder la calma."
+ },
+ "shoutmon_ex6": {
+  "descripcion": "Surge de la fusión de varios Digimon evolucionados con OmniShoutmon, y se piensa que supera a Shoutmon X7 en defensa gracias a un cuerpo y unas alas que brillan en oro y plata. Lleva un cuerno demoledor en un brazo, una espada en el otro y suele combatir al lado de ShootingStarmon.",
+  "tacticas": "Usa Demolition Horn para perforar y romper las armaduras de los enemigos más acorazados, y Sol Calibur para confundir a distancia. Si ShootingStarmon anda cerca, Meteor Rock Soul drena y ralentiza a quien intente huir.",
+  "gancho": "Una estrella fugaz se estrella en un valle y deja un cráter humeante. Shoutmon EX6 llega el primero y reta a los héroes a decidir juntos si el fragmento es un tesoro o una amenaza."
+ },
+ "shoutmonx5b": {
+  "descripcion": "Es un guerrero Pegaso que reúne a cinco Digimon: al poder de Shoutmon X5 en tierra y aire se suma la potencia de fuego de Beelzemon. Galopa por el cielo convertido en cometa y juega con sus rivales gracias a su enorme velocidad. Su fuerza recuerda a la de un dios de la guerra enviado a destruir el mal.",
+  "tacticas": "Bruto veloz que cae sobre su presa: Burst Dash Stream derriba y golpea antes de que el grupo reaccione. Remata con Burning Star Crusher para quemar y usa Meteor Buster Attack para frenar a quien huya a distancia.",
+  "gancho": "Un cometa dorado cruza el cielo cada noche y los vecinos de una aldea lo toman por mal presagio. Shoutmon X5B pide a los héroes ayuda para demostrarles que viene a protegerlos."
+ },
+ "shoutmonx5s": {
+  "descripcion": "La forma Space Fighter nace de la fusión de Shoutmon X5 con un Spadamon convertido en arma. Combina el pulso de un espadachín con la energía de las estrellas: lanza discos de luz cósmica o envuelve su hoja en un velo ardiente, como si llevara un pequeño sol en la mano.",
+  "tacticas": "Hostiga de lejos con Space chakram, que ralentiza, y se pega al objetivo con Helioslasher, que quema y le permite ocultarse tras su velo. Reserva Cosmo victory, un golpe cargado, para cuando el enemigo ya esté frenado.",
+  "gancho": "En un observatorio abandonado, un espejo estelar muestra caminos que no existen. Shoutmon X5S los recorre en busca de un Digimon perdido y necesita escoltas que no se dejen deslumbrar."
+ },
+ "shoutmonx7": {
+  "descripcion": "Conocido como Modo Ardor-Estallido, surge cuando Shoutmon DX se fusiona con otros cuatro Digimon. Cuatro corazones encendidos laten dentro de su cuerpo de Gold Digizoid, que desprende un aura divina. Pelea por un mundo en paz, y ese deseo lo mantiene en pie ante los golpes más duros y lo empuja siempre hacia delante.",
+  "tacticas": "Domina todas las distancias: Xros Burning Rocker en el cuerpo a cuerpo y Double Flare Buster en ráfaga cuando el grupo se dispersa. Guarda Seven Victorize, su rayo de luz, para cuando se vea acorralado.",
+  "gancho": "Un festival de música en una ciudad en ruinas reúne a bandas de Digimon enfrentadas. Shoutmon X7 quiere que todas canten juntas, pero alguien sabotea el escenario para que acabe en pelea."
+ },
+ "shoutmonx7_superior": {
+  "descripcion": "Es el despertar de Shoutmon X7, que convierte un anhelo de paz absoluto en poder. El resplandor de su Gold Digizoid brilla aún más y de su espalda brotan alas de luz sagrada. Lleva la esperanza de muchos sobre los hombros y concentra su pasión en el micrófono que empuña como arma.",
+  "tacticas": "Bruto de gran impacto: anuncia que se concentra y descarga Final Xros Blade, un mandoble cargado y brutal. Mientras tanto, quema a distancia con Double Flare Buster y ciega a quien se acerque con Seven Victorize.",
+  "gancho": "Los héroes hallan un Digi-Huevo recién nacido entre los restos de una banda de saqueadores. Shoutmon X7: Superior Mode pide que lo custodien, pues su espada solo castiga la maldad."
+ },
+ "shroudmon": {
+  "descripcion": "Este mago evolucionó cuando cierto Digimon rebasó sus límites en un entrenamiento extremo. Tras lanzarse a combate tras combate como un dios de la matanza, se le conoce como El Señor Demonio. Ya no recuerda por qué buscaba la fuerza y, apasionado de los puños, obliga a los caídos a levantarse para seguir peleando.",
+  "tacticas": "Abre con Kinshugouken, un aluvión de golpes cargados que asusta, y barre a los grupos con Hellfire Kick, que quema en zona. Thunderflame Crusher es brutal y rompe defensas: úsalo contra quien se crea a salvo.",
+  "gancho": "Una arena de duelos abandonada se llena de combatientes derrotados que no pueden dejar de levantarse. Shroudmon los observa desde el centro y solo detendrá la pelea ante alguien que le recuerde por qué luchar."
+ },
+ "siriusmon": {
+  "descripcion": "Dragón guerrero de la orden justiciera de los Virus Busters. Cuando oye una llamada de auxilio desde muy lejos o presiente el mal, cae como una estrella fugaz con los cañones gemelos Sylvia en los brazos. Tiene tan buen corazón que, si ve posibilidad de redimir a un rival, baja las armas en plena batalla.",
+  "tacticas": "Bruto que combina distancia y cuerpo a cuerpo: Photon Blaster ciega y pega fuerte, y Quasar Break rompe defensas. Si destruyen sus cañones, aún le queda Planet Punch, que drena y ralentiza al contacto.",
+  "gancho": "Siriusmon acude a un grito de auxilio y se encuentra con un Digimon corrompido que pide ayuda con la mirada. Los héroes deben decidir entre derrotarlo o darle una oportunidad de cambiar."
+ },
+ "skadimon": {
+  "descripcion": "Gobierna Thrymheim, un pequeño país nevado entre montañas. Parece un enorme muñeco de nieve, pero su cuerpo es una armadura de hielo: el verdadero Skadimon es el hada diminuta de la bola de cristal que corona su cabeza. Dentro cae una nieve tranquila que, en plena batalla, se vuelve ventisca.",
+  "tacticas": "Místico de hielo: con Snow Swatter invoca una mano de nieve gigante que congela, y con Snowman's Dance lanza muñecos a distancia. Cuando se enfurece, Raging Avalanche derriba a todo el que esté cerca.",
+  "gancho": "La muralla de hielo de Thrymheim se agrieta y sus habitantes piden ayuda a los viajeros. Skadimon desconfía de cualquier forastero, pero necesita manos extra para reparar el cristal antes de la tormenta."
+ },
+ "skullmammon": {
+  "descripcion": "Un Mammothmon resucitado de épocas remotas que luchó tanto contra Digimon Virus que su cuerpo quedó consumido y reducido a puro hueso. Solo conserva el instinto de exterminar virus, sin emociones ni más inteligencia. Mientras el DigiCore de su pecho siga intacto, el esqueleto sigue vivo, pero un golpe ahí sería su fin.",
+  "tacticas": "Bruto sin miedo ni piedad: lanza Spiral Bone, vértebras giratorias, rápido y desde lejos, para asustar al grupo. Recuerda a los jugadores que su DigiCore del pecho es el punto débil si lo dejan al descubierto.",
+  "gancho": "Un viejo osario tiembla y despierta un coloso de huesos decidido a limpiar la zona de virus. Los héroes deben convencerlo de que ya no queda ninguno o hallar la forma de apagarlo."
+ },
+ "skullmammon_x": {
+  "descripcion": "Gracias al X Antibody, este mamut esquelético ha empezado a crecer: camina erguido sobre dos patas y sus antiguas extremidades delanteras son garras desgarradoras. Su cráneo se ha transformado en unos cuernos enormes que usa como armas al cargar. Sigue siendo una criatura sin emociones, movida solo por exterminar virus.",
+  "tacticas": "Empieza con Spiral Bone a distancia, rápido y capaz de asustar, y al llegar a los jugadores gira sus cuernos con Giant Crush Bone para romper armaduras. Su DigiCore sigue siendo vulnerable si queda expuesto.",
+  "gancho": "Una manada de Digimon huye atropelladamente de un estruendo de huesos que cruza la llanura. Los héroes deben cubrir la retirada y detener al monstruo sin destruir su DigiCore."
+ },
+ "slashangemon": {
+  "descripcion": "Gran Ángel que comanda al Ejército Angelical para abrir brecha en la primera línea de la batalla. No teme a la muerte cuando se trata de hacer justicia. Todo su cuerpo es una cuchilla, desde las hojas de los brazos hasta las alas metálicas: un guerrero celestial nacido para combatir a los perversos.",
+  "tacticas": "Versátil y volador: se lanza en picado con Golden Ripper, que ciega al cortar, y reserva Blade of the True, su técnica de firma, para el tajo que decide el combate. Castiga rápido a la vanguardia enemiga.",
+  "gancho": "El Ejército Angelical busca voluntarios para infiltrarse en una fortaleza maligna. SlashAngemon liderará el asalto, pero exige que los héroes distingan a los culpables de los inocentes antes del primer tajo."
+ },
+ "slayerdramon": {
+  "descripcion": "Hombre Dragón con una armadura de escamas de Chrondigizoid, una forma que solo alcanzan los dragones que superan la Prueba de los Cuatro Grandes Dragones. Empuña la espada telescópica Fragarach y domina el Ryuzanken, un estilo de esgrima de su invención dividido en tres formas, cada una más letal que la anterior.",
+  "tacticas": "Bruto rápido: abre con Tenryu Slash, veloz y brutal, y usa Koryu Slash para atrapar al enemigo que quiera huir. Shoryu Slash sirve para rechazar a quien se acerque por sorpresa.",
+  "gancho": "Slayerdramon invita a los héroes a presenciar un duelo ritual con su Ryuzanken, pues busca a un joven dragón digno de afrontar algún día la Prueba de los Cuatro Grandes Dragones."
+ },
+ "spinomon": {
+  "descripcion": "Habita en las junglas más profundas y se le tiene por el más poderoso de los dinosaurios, a la altura de Dinorexmon. Es belicoso y brutal, aunque se ha comprobado que posee una inteligencia asombrosa. Las cuchillas de su espalda no dejan de crecer y le sirven a la vez de arma y de coraza.",
+  "tacticas": "Bruto de zona: Sonic Slash Rain dispara cuchillas con rapidez y ralentiza a todo el grupo, y Blue Prominence abrasa a distancia para obligar a dispersarse. Advierte que golpearlo de frente puede salir muy caro.",
+  "gancho": "Una expedición se adentra en la jungla para estudiar a Spinomon y descubre que es mucho más listo de lo que se cree. Ahora debe elegir entre engañarlo, negociar o escapar de sus cuchillas."
+ },
+ "styracomon": {
+  "descripcion": "Luchador de gran envergadura, comparable a UltimateBrachiomon. Su armadura, sus músculos y el campo de energía que generan los cuernos de su cuerpo hacen inútiles los ataques físicos. Presume de aguantar cualquier golpe y devuelve cada uno con contraataques mortales, lo que atrae a retadores deseosos de medir su propia fuerza.",
+  "tacticas": "Versátil: aguanta y devuelve. Carga Crimson Crest para cegar con un rayo devastador y, cuando el grupo flaquea, embiste con Dreadnought Stampede, que remata a los heridos y asusta al resto.",
+  "gancho": "Alrededor de Styracomon se organiza un torneo de fuerza: quien logre hacerlo retroceder un paso gana un premio. Los héroes deben ayudar a un joven participante a idear un plan sin trampas."
+ },
+ "suijinmon": {
+  "descripcion": "Este Digimon máquina monta piezas de Justimon y de Machinedramon, sin que se sepa por qué se adoptaron, aunque nadie discute la potencia que aportan. Su brazo de fuerza aplasta al enemigo y, además, es capaz de reproducir la misma técnica de cañón con la que Machinedramon se hizo temer.",
+  "tacticas": "Tanque pesado: se planta y dispara Infinity Cannon, brutal y capaz de romper escudos o corazas. Si le presionan de cerca, Accel Arm golpea con rapidez. Los jugadores pueden anticipar la descarga.",
+  "gancho": "En un desguace del Mundo Digital, Suijinmon ha reunido las piezas de dos Digimon legendarios y busca a alguien que le explique por qué las lleva. Los héroes pueden ayudarlo a averiguar su origen."
+ },
+ "surfimon": {
+  "descripcion": "Fue modificado a partir de un Digimon acuático para moverse con rapidez dentro y fuera del agua. Es un lobo solitario y arrogante que detesta formar grupo, como los bancos de peces. Mueve las púas de su cuerpo como una sierra mecánica y proyecta una tabla deslizante desde el tercer ojo.",
+  "tacticas": "Tanque provocador: Barrier Blade lo protege mientras obliga a los enemigos a atacarlo a él, y Lightning Cutter, veloz, paraliza al chocar. Cubre así a sus compañeros aunque jamás lo admitirá.",
+  "gancho": "Un surfista solitario recorre a toda velocidad un río digital y rechaza a quien intente acompañarlo. Los héroes necesitan cruzarlo con su ayuda, pero antes deberán impresionarlo."
+ },
+ "susanoomon": {
+  "descripcion": "En el folclore oriental es el dios supremo de la destrucción y el soberano de la regeneración. Se dice que aparece cuando un sistema de red enloquece: reduce lo existente a la nada y levanta uno nuevo en su lugar. Su espada de luz, surgida de ZERO-ARMS: Orochi, parte todo lo que hay bajo el cielo.",
+  "tacticas": "Preséntalo como un acontecimiento, no como un combate cualquiera. Ama no Habakiri ciega con un tajo de luz; Yakusa no Ikazuchi apunta su espada al cielo y hace llover rayos que paralizan.",
+  "gancho": "Los sistemas del Mundo Digital fallan uno tras otro y los sabios aseguran que Susanomon está a punto de manifestarse. Los héroes deben decidir si evitan el colapso o se preparan para lo que venga."
+ },
+ "tactimon": {
+  "descripcion": "Guerrero que porta la Sword of Storms, una hoja capaz de partir una estrella en dos, por lo que jamás la desenvaina. Aun así, un golpe suyo al suelo provoca un terremoto, dos invocan a cien guerreros muertos y tres derrumban el terreno. Su verdadera arma es el ingenio: con él al mando, la batalla está decidida antes de empezar.",
+  "tacticas": "Comienza desorientando al grupo con Primary Tactic y Penetrating Blast, y luego aprovecha la confusión con Earth Shaker, que derriba a distancia. Cambia de plan cuando los jugadores se adaptan.",
+  "gancho": "Tactimon invita a los héroes a su campamento a una partida de estrategia: si ganan, les entrega una información crucial; si pierden, deberán luchar bajo sus órdenes."
+ },
+ "takutoumon": {
+  "descripcion": "Deidad noble nacida de los datos de un guerrero de la leyenda china. Odia el engaño y corrige con su espada a quien se aparta del camino recto. Es tan callado que su mascota mecánica, Paishu, habla por él. En su guantelete guarda la pagoda Baota, capaz de sellar la voluntad de lucha de un rival.",
+  "tacticas": "Místico solitario y silencioso: dispara Tenseizan, un haz de luz que ciega, contra la amenaza mayor, y remata de cerca con Tettensaisai, que aplasta como una pagoda gigante. Casi no se explica.",
+  "gancho": "Takutoumon acusa a un aldeano de mentir y quiere castigarlo sin dar explicaciones. Paishu pide a los héroes que demuestren la verdad antes de que caiga la pagoda."
+ },
+ "takutoumon_wrath": {
+  "descripcion": "Es la forma que adopta Takutoumon cuando se lanza a las grandes batallas con resolución de acero. La pagoda Baota se convierte en armadura y su mascota mecánica en un tridente. Al liberar los innumerables espíritus guerreros sellados en ella, su poder se dispara, pero también entra en un estado de furia muy peligroso.",
+  "tacticas": "Místico furioso: Ryusen Rangeki ciega con haces de luz que reverberan por las piezas de Baota, y Bishamon Hakkyoku Senjin levanta una barrera brutal mientras dispara. Los jugadores deben decidir si rompen la barrera o huyen.",
+  "gancho": "Una gran batalla se acerca a la montaña y Takutoumon, ya en su forma de furia, ha dejado de escuchar a Paishu. Los héroes deben calmarlo antes de que arrase con aliados y enemigos."
+ },
+ "taotiemon": {
+  "descripcion": "Demonio cubierto de pelaje de oveja y con un adorno de bronce a modo de casco. Su cara inocente esconde a un niño travieso al que le encantan las bromas crueles. Flota como una nube sobre Jakeizan, sellado en la montaña, y siempre está hambriento: al comer, el adorno de su cabeza se abre en una boca terrible.",
+  "tacticas": "Bruto glotón: Gorge Horns traga, perfora y drena a su presa; Vile Vomit escupe ácido que envenena y Voracious Blast asusta con una explosión a distancia. Cada exceso le abre más el apetito.",
+  "gancho": "En las laderas de Jakeizan desaparecen provisiones, herramientas y hasta un puente. Una nube con cara de cordero ríe en lo alto, y los héroes deberán dar con ella sin ser devorados."
+ },
+ "taowumon": {
+  "descripcion": "Bestia oscura con aspecto de jabalí envuelto en aire gélido y colmillos hechos de troncos; es el mayor y más cerrado de mollera de los temidos Shikyoju. Duerme enterrado como un bloque de hielo y, al despertar, embiste una y otra vez la barrera que lo ata a Jakeizan.",
+  "tacticas": "Acechador que surge del subsuelo: abre con Skull Iceshards para asustar y perforar, congela con Freezing Tusk al cargar y paraliza al grupo con Thunderous Upheaval. Rara vez cambia de plan.",
+  "gancho": "Un temblor sacude Jakeizan y la nieve cubre los campos en pleno verano. Taowumon se ha despertado y arremete contra su prisión; alguien debe averiguar qué ha debilitado el sello."
+ },
+ "tengumon": {
+  "descripcion": "Gran tengu que reina en lo más oscuro de las montañas al frente de una banda de Karatenmon. Estos entrenan a diario bajo su mando y su prueba final consiste en derrotar al maestro: quien lo logra evoluciona y lo sucede. Los demás Digimon de la sierra le temen por el tornado de fuego de su abanico de guerra.",
+  "tacticas": "Ágil y volador: hostiga con Apostate's Stiletto, una patada con cuchillas que golpea antes que nadie, y alterna con Sonten Firestorm para impedir que lo acorralen. Cambia de posición en cada ronda.",
+  "gancho": "Un joven Karatenmon pide a los héroes que lo ayuden a superar la prueba final contra Tengumon, mientras el maestro observa desde lo alto esperando un rival digno."
+ },
+ "tigervespamon": {
+  "descripcion": "Androide que vigila la misteriosa Royal Base, una base de miel flotante y secreta. Pese a su figura esbelta tiene una resistencia asombrosa y nunca deja de moverse en combate. Su nombre en clave, Tiger, alude a su gran destreza en solitario, y maneja dos hojas, las Royal Meister, como si fueran colmillos de tigre.",
+  "tacticas": "Tirador veloz y escurridizo: se lanza con Mach Stinger V, que perfora y envenena, y se retira antes de que le respondan. Cambia de blanco a cada oportunidad para que ninguno recupere el aliento.",
+  "gancho": "Una base de miel flota entre las nubes custodiada por un comando de élite. TigerVespamon exige a los héroes superar una prueba de resistencia antes de dejarlos subir."
+ },
+ "titamon": {
+  "descripcion": "El Titán del contraataque nació del rencor de un Digimon abatido por los Olympos XII. Lo llaman la División de un Solo Hombre, porque hay que tratarlo como a un ejército. Sus enormes brazos están cubiertos de cráneos hechos de fuerza robada a los vencidos, y blande la Zanjintou, una espada tallada con huesos de SkullGreymon.",
+  "tacticas": "Místico que juega a ser un ejército: Dark Army Pact invoca soldados fantasma que asustan en zona, y Soul Core Attack atraviesa las defensas y drena. El Director puede decidir que sus heridas cuesten curar.",
+  "gancho": "Titamon recorre los campos de batalla en busca de la cabeza de un Olympos XII y los héroes se cruzan en su camino. Pueden desviar su rencor o convertirse en su siguiente obstáculo."
+ },
+ "titamon_skullbaluchimon": {
+  "descripcion": "Titamon ha sometido a SkullBaluchimon, al que se creía sin emociones, y ha absorbido su poder por pura voluntad, corrigiendo así su única debilidad: la falta de movilidad. Ahora puede recorrer a su antojo los campos de batalla con una naginata de doble filo que deja heridas que nunca cierran.",
+  "tacticas": "Su única técnica es Senjin Kishinzan: gira la naginata gigante y ciega mientras muele el DigiCore. Usa el aura fría de SkullBaluchimon para que los jugadores sientan miedo a la muerte antes de que llegue el golpe.",
+  "gancho": "Un campo de batalla se hiela cuando Titamon llega con SkullBaluchimon a su servicio. Los héroes deben hallar cómo romper su alianza o proteger al menos a quienes ya tiemblan de pánico."
+ },
+ "tlalocmon": {
+  "descripcion": "Digimon mineral que se considera avatar de la naturaleza y señor de la lluvia y el trueno. Bendice con agua las tierras secas y castiga con rayos a quienes destruyen lo natural. Tiene aspecto infantil y carácter soleado, aunque a veces muestra una severidad brutal. Su cuerpo duro está cubierto de hierba y enredaderas que controla a voluntad.",
+  "tacticas": "Bruto eléctrico a distancia: Netotiliztli invoca la tormenta y paraliza, y Nahui Quiahuitl concentra la lluvia y el rayo en un haz brutal. Su trato depende de cómo traten los jugadores a la naturaleza.",
+  "gancho": "Una sequía azota un valle y sus habitantes ruegan lluvia a Tlalocmon. Él la concederá si los héroes demuestran respeto por la tierra, y los pondrá a prueba con su otra cara."
+ },
+ "tonosamamamemon": {
+  "descripcion": "Un Mamemon que mutó tras leer datos de películas de época. Siempre alegre y despreocupado, arrastra su hakama y tropieza una y otra vez con ella, para regocijo de quienes lo ven. Recibe con los brazos abiertos a quien llegue a su castillo, pero castiga sin piedad a quien altere la paz de su ciudad.",
+  "tacticas": "Versátil con mucho humor: Appare Zakura lanza pétalos desde su abanico para atrapar al enemigo, aunque el viento puede desviarlos. Con Sensugaeshi empuja y desvía a quien ataque de cerca.",
+  "gancho": "Alguien ha estropeado la fiesta de los cerezos en el castillo de TonosamaMamemon. Los héroes deben dar con el culpable antes de que el señor, entre tropezones, imparta su justicia."
+ },
+ "tyrantkabuterimon": {
+  "descripcion": "El Rey de los Insectos gobierna a todos los Digimon insectoides. Solo actúa de noche y tiene su fortaleza en el Under Forest, bajo un bosque oscuro. Controla a su antojo a cualquier insecto y casi nunca pelea solo. Su caparazón de Chrondigizoid denso resiste a casi cualquier Digimon corriente.",
+  "tacticas": "Acechador volador: Bee Cyclone empuja al grupo e invoca un muro de insectos, y Shine of Bee ciega con una explosión de luz que ejecuta a los ya debilitados. De noche es aún más peligroso.",
+  "gancho": "Cada noche, los insectos de un bosque se agrupan y marchan en silencio. Los héroes deben seguirlos hasta el Under Forest antes de que su rey decida a quién le toca ser el siguiente."
+ },
+ "ulforcevdramon": {
+  "descripcion": "Legendario Caballero Sagrado que solo aparece en una profecía del Mundo Digital antiguo, según la cual los Royal Knights se reunirán cuando llegue la mayor crisis. Incluso entre ellos su velocidad es extraordinaria, imposible de seguir. Su armadura de Blue Digizoid es el metal más ligero que existe y le permite surcar cielo y tierra.",
+  "tacticas": "Versátil y volador: elige objetivo a toda velocidad y dispara The Ray of Victory, un rayo de luz que ciega. Si necesita defenderse, extiende un arma o un escudo de sus V-Bracelets.",
+  "gancho": "Un antiguo mural profetiza la reunión de los Royal Knights y UlforceVeedramon aparece ante los héroes para pedirles que protejan a los demás caballeros mientras se congregan."
+ },
+ "ulforcevdramon_x": {
+  "descripcion": "Caballero Sagrado de la profecía, de velocidad imposible de seguir y armadura de Blue Digizoid. La influencia del X Antibody ha despertado aún más su poder Ulforce, que le concede una capacidad de curación asombrosa: se recupera enseguida de cualquier daño. Puede extender una espada y un escudo desde sus V-Bracelets.",
+  "tacticas": "Dispara The Ray of Victory para cegar desde lejos y aprovecha su regeneración para aguantar el combate. Si lo atrapan y lo golpean, puede devolver el ataque con el cien por cien de su fuerza.",
+  "gancho": "Los Royal Knights se reúnen en un santuario y UlforceVeedramon (X Antibody) llega con una herida que se cierra sola. Alguien intenta atacarlos en plena asamblea y los héroes deben descubrirlo."
+ },
+ "ultimatebrakimon": {
+  "descripcion": "Es el Digimon androide terrestre más grande y pesado. Rediseñado como un peso pesado extremo, está lejos de ser veloz, pero su blindaje es tan grueso que no necesita esquivar. Los propulsores de su espalda disparan hacia abajo para sostener su masa, y solo un Digimon igual de pesado soportaría el retroceso del cañón de su pecho.",
+  "tacticas": "Tirador de artillería: Ultimate Blast es una descarga eléctrica de larga distancia, brutal, que paraliza, y Ultimate Quake derriba en zona con un coletazo. Es lento, así que castiga a quien se le acerque.",
+  "gancho": "Un puente derrumbado impide el paso y UltimateBrachiomon, inmenso, bloquea el único camino alternativo. Los héroes tendrán que persuadirlo o ingeniar cómo moverlo sin provocar su cañón."
+ },
+ "ultimatechaosmon": {
+  "descripcion": "Nació de la fusión de BanchoLeomon, Darkdramon, Varodurumon y Kentaurosmon, y su cuerpo no logra equilibrar tanta energía. La mayor parte del poder se concentra en sus brazos, ahora gigantescos, y dos DigiCores quedan expuestos en sus hombros. Su poder descontrolado impide acercarse a los Digimon más pequeños.",
+  "tacticas": "Amenaza final que arrasa: Broken Destruction aplasta con todo su peso y Ultima Burst quema a distancia con energía desde los DigiCores. Hazlo intimidante: solo con su presencia ahuyenta a los débiles.",
+  "gancho": "Un vacío extraño se abre en una llanura y los Digimon pequeños huyen sin saber por qué. Los héroes descubren que UltimateChaosmon camina por allí y deben decidir si lo detienen o lo guían lejos."
+ },
+ "valkyrimon": {
+  "descripcion": "Guerrero que también aparece en la mitología nórdica y viaja con el ave dorada Freyja, que le avisa de los peligros. Dicen que su armadura brillante emana un aura capaz de regenerar los datos de los valientes caídos en forma de Digi-Huevos. Aparece de la nada como una ráfaga de viento y corta a sus enemigos más rápido de lo que se ve.",
+  "tacticas": "Versátil y fugaz: cae sobre el enemigo con Fenrir Sword, que congela de un tajo, y desde lejos dispara Aurvandil's Arrow, una flecha perforante que también congela. Elige primero a quien esté más dañado.",
+  "gancho": "Tras una batalla perdida, un Digi-Huevo reluciente aparece junto a un guerrero caído. Valkyrimon pide a los héroes que lo escolten a un lugar seguro mientras Freyja avisa de enemigos que se acercan."
+ },
+ "valdurmon": {
+  "descripcion": "Ave sagrada mítica que vive en la estratosfera, a casi cuarenta kilómetros de altura. Tiene seis alas enormes y se la considera guardiana del cielo, una especie antigua tan vieja como el Mundo Digital. Sus plumas emiten una luz sagrada que forma una barrera capaz de anular cualquier ataque con malas intenciones.",
+  "tacticas": "Ágil y volador: Purge Shine lo cubre con un escudo de luz y ejecuta a los debilitados, y Aurora Undulation purifica y llega con rapidez desde lejos. Dificulta los ataques de los jugadores con malas intenciones.",
+  "gancho": "Los héroes ven descender una pluma luminosa desde el cielo. Varodurumon solo baja a la tierra ante una amenaza que no puede ignorar, y quiere saber en quién puede confiar."
+ },
+ "venomvamdemon": {
+  "descripcion": "Es la verdadera forma de Myotismon, el rey de la oscuridad: un demonio con cuerpo de bestia y un caparazón de insecto en la parte superior. Al soltar todo su poder oculto solo ansía muerte y destrucción. Myotismon, que conserva la razón y los modales de un caballero, detesta mostrar este aspecto repugnante.",
+  "tacticas": "Acechador de jefe: Venom Infusion perfora y envenena a distancia, inyectando un virus que destroza los datos del objetivo. Úsalo para marcar a un solo héroe y deja que el veneno haga el resto.",
+  "gancho": "Una noche sin luna, un virus devora los datos de varios Digimon sin dejar rastro. Los héroes siguen la pista hasta una mansión donde un anfitrión demasiado educado oculta algo terrible."
+ },
+ "venusmon": {
+  "descripcion": "Compasiva deidad que gobierna el poder del amor y pertenece a los Olympos XII. Allí donde va, hasta el yermo más desolado florece. Con la venda puesta ve el mundo tal como es y detecta cualquier engaño; a la vez, así reduce su aura de encanto. Viaja siempre con el ave Olive y la vieira Hotan.",
+  "tacticas": "Mística de apoyo: LOVE YOU encanta y aturde, Peace Fantasia confunde en zona y Healing Therapy cura mientras deja aturdido al enemigo. Cada acción suya busca calmar, no destruir: premia el diálogo.",
+  "gancho": "Un desierto florece de pronto alrededor de una viajera con los ojos vendados. Venusmon pide a los héroes que la ayuden a encontrar a un Digimon que lleva mucho tiempo ocultando su verdad."
+ },
+ "victorygreymon": {
+  "descripcion": "Subespecie de WarGreymon con armadura de Chrondigizoid, conocida como el Guerrero Dragón de los Héroes. Maneja con soltura una espada colosal y un estilo propio de esgrima. Curiosamente, su código de evolución es distinto al de los Digimon nativos, por lo que se cree que nació de un DigiEgg creado con datos artificiales.",
+  "tacticas": "Bruto heroico: Dramon Breaker es un mandoble cargado que pulveriza lo que golpea, y Trident Gaia perfora y derriba de cerca. Con Victory Charge empuja a quien se acerque. Deja que los jugadores vean cómo se carga.",
+  "gancho": "En un laboratorio abandonado quedan registros de un DigiEgg artificial. VictoryGreymon quiere averiguar de dónde viene realmente y necesita escoltas que lo ayuden a seguir el rastro."
+ },
+ "vikemon": {
+  "descripcion": "Gobierna las gélidas regiones árticas de permafrost eterno. Su pelaje se parece a cristales de hielo y es duro como el Chrondigizoid. Lleva a la espalda la maza Mjölnir, capaz de pulverizar montañas. Dirige a los cuerpos de Ikkakumon y Zudomon: feroz en combate, pero atento y compasivo con sus subordinados.",
+  "tacticas": "Ágil del hielo: Arctic Blizzard congela en zona con rapidez y Mjölnir golpea en zona con un trueno que deja helados a los enemigos. Si sus soldados andan cerca, los protege con mayor ferocidad.",
+  "gancho": "Un grupo de Ikkakumon y Zudomon pide a los héroes que los guíen a través de una ventisca hasta Vikemon, su comandante, que necesita noticias del exterior."
+ },
+ "volcanicdramon": {
+  "descripcion": "Dragón de tierra que nada en magma y vive tan hondo que ni los mejores excavadores lo alcanzan. Algunos investigadores creen que es el ser que sostiene el Mundo Digital desde su creación: si sube a la superficie, habrá una gran crisis. Cualquier tierra que queme se convierte para siempre en un yermo.",
+  "tacticas": "Tanque de fuego: Volcanic Flare quema a distancia y provoca a los enemigos para que lo ataquen a él, y Glide Blaze embiste con llamas por todo el cuerpo. Describe cómo deja arrasado el terreno que pisa.",
+  "gancho": "La tierra tiembla y la lava asoma por las grietas de una aldea. Volcanicdramon ha subido, y los héroes deben averiguar qué crisis lo obligó antes de que todo quede convertido en yermo."
+ },
+ "vortexdramon": {
+  "descripcion": "Dragón ave que se cuenta entre los héroes de los Vortex Warriors. Su torso está hecho con la energía de vientos turbulentos. Surca el cielo como un vendaval y se le ha visto sobrevolar campos de batalla con el antiguo Comandante Vortex a la espalda. Parece una fiera, pero maneja la magia de viento como un gran mago.",
+  "tacticas": "Bruto volador que cambia de elemento: Frozen Gust congela con fuerza a distancia, Blazing Gust empuja y congela de cerca, y Laevateinn convierte sus brazos en espada de torbellino. Sorprende variando cada ronda.",
+  "gancho": "Vortexdramon sobrevuela un campo de batalla con un jinete a cuestas y necesita apoyo en tierra. Los héroes pueden unirse a los Vortex Warriors si demuestran su valía."
+ },
+ "vulcanusmon": {
+  "descripcion": "Dios herrero de los Olympos XII y creador de la mayoría de las armas famosas del Mundo Digital, entre ellas la Berejena de Beelzemon. Terco y con alma de artesano, rechaza a quien crea que no sabrá valorar su obra. Prefiere trabajar en paz con sus ocho brazos y evita pelear siempre que puede.",
+  "tacticas": "Místico forjador, más artesano que luchador: Pinpoint Weapon Works fabrica el arma perfecta para cada situación y no falla, mientras Appropriate Works ciega con una tanda de armas y Bomber Art ejecuta. Evita el combate si puede.",
+  "gancho": "Vulcanusmon acepta forjar un arma para los héroes solo si superan su examen y demuestran que sabrán empuñarla y cuidarla. Mientras tanto, alguien intenta robarle sus planos."
+ },
+ "wargreymon": {
+  "descripcion": "Es el guerrero dragón más fuerte, con armadura de Chrondigizoid, y la forma definitiva de la especie Greymon. Más humanoide que sus parientes, es mucho más rápido y poderoso. Sus Dramon Killer hacen un daño enorme a los Dramon, aunque son armas de doble filo, y con las piezas de su espalda forma el Brave Shield, su escudo.",
+  "tacticas": "Versátil y volador: carga Terra Force para reunir la energía del ambiente y quemar a distancia, y lanza Great Tornado, una carga giratoria que perfora con rapidez. Es especialmente temible para los Dramon.",
+  "gancho": "Un joven Digimon sueña con ser algún día WarGreymon y le pide una prueba. Este acepta, pero exige que los héroes presencien el desafío y juzguen si de verdad hay valor."
+ },
+ "wargreymon_x": {
+  "descripcion": "Para cumplir su destino de guerrero supremo debe vencer siempre. Sus Dramon Killer han alcanzado una dureza suprema y le sirven para atacar y defender. Cambió el vuelo prolongado por unos propulsores en la espalda con una aceleración explosiva: es el Héroe Terrestre, la forma definitiva del combate en tierra.",
+  "tacticas": "Combatiente terrestre versátil: cierra la distancia al instante y suelta Terra Force Zero, que ralentiza, o remata con After Burst, rápido y capaz de asustar. Los jugadores no podrán huir con facilidad.",
+  "gancho": "Una colina cubierta de cráteres sirve de campo de entrenamiento: WarGreymon (X Antibody) invita a los héroes a medirse con él para ver si aguantan en pie ante su velocidad."
+ }
+}

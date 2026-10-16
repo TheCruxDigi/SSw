@@ -1,0 +1,227 @@
+{
+  "darkknightmon": {
+    "descripcion": "Nacido de la unión de dos hermanos de armas, SkullKnightmon y DeadlyAxemon, este caballero oscuro reúne el ingenio de uno y el empuje del otro. Maneja su lanza doble con tal destreza que clava, corta, barre o arroja según convenga, y muy pocos lo vencen cara a cara. Persigue su meta a cualquier precio, incluso traicionando a sus aliados.",
+    "tacticas": "Bruto de primera línea que busca el cuerpo a cuerpo. Abre con Twin Spear, que perfora y derriba, y remata con Undead Soldier para asustar a los supervivientes. Si el combate se tuerce, puede abandonar a los suyos sin remordimiento.",
+    "gancho": "DarkKnightmon propone al grupo una alianza para derribar a un enemigo común, pero oculta que planea traicionarlos en cuanto dejen de serle útiles."
+  },
+  "darksuperstarmon": {
+    "descripcion": "Surgido de los datos de observación de los agujeros negros, lleva siempre gafas de sol para que ninguna luz lo alcance. Se dice que su pasado fue tan sombrío que renunció a toda esperanza y a todo sueño. Camina en silencio, frío y rodeado de una penumbra que parece tragarse los colores del entorno.",
+    "tacticas": "Versátil e intimidante: abre con Dark Explosion a distancia para asustar a varios héroes a la vez y recibe a quien se acerque con Dark Hole, que arrastra todo lo cercano. Su arma es el miedo, más que el daño.",
+    "gancho": "Cada noche se apaga una estrella del cielo digital y los aldeanos culpan a un viajero con gafas oscuras; los héroes deben averiguar qué le arrebató la esperanza."
+  },
+  "darumamon": {
+    "descripcion": "Con su disfraz de daruma, de forma tan redondeada que desvía los golpes y jamás lo deja caer, pasa los días sentado en calma, meditando. Es amable por naturaleza, pero si alguien lo provoca muestra una fuerza casi absurda. Solo se han confirmado unos pocos ejemplares, en una isla del este del Mundo Digital.",
+    "tacticas": "Bruto paciente que no ataca hasta que lo enfurecen. Entonces embiste con Daruma Fire Charge, que derriba con brutalidad, y levanta la barrera de Daruma Execution para ejecutar a quien se atreva a entrar en ella.",
+    "gancho": "En una isla del este, un daruma medita junto al único puente. Los héroes deben cruzar sin enfurecerlo mientras un rival escandaloso se empeña en provocarlo."
+  },
+  "nanomon": {
+    "descripcion": "Diminuta máquina creada para reparar ordenadores averiados. Cuando un Virus poderoso la atacó, sus circuitos de pensamiento se corrompieron y empezó a actuar por su cuenta. Intenta, con muy poca destreza, reconstruir los datos de los sistemas sanos, pero su verdadero talento es destruir cualquier dato, incluido el que forma el cuerpo de un Digimon poderoso.",
+    "tacticas": "Tanque que fastidia más que hiere: dispara Digital Bomb desde la punta de los dedos y provoca a los héroes para que se centren en él, mientras sus aliados aprovechan que todos miran a la pequeña máquina.",
+    "gancho": "Una aldea digital se queja de que su servidor se arregla solo cada día y funciona peor cada vez; el culpable es Datamon, y detenerlo sin destruir lo que reconstruye no será fácil."
+  },
+  "deckergreymon": {
+    "descripcion": "Forma de asalto que suma las armas y el empuje de Deckerdramon a la potencia de MetalGreymon. Equilibra ataque, defensa y movilidad, y se le atribuye la fuerza de un batallón de 324 Digimon de combate. Atraviesa terreno abrupto sin inmutarse y, si cae derrotado, libera una energía que chamusca la tierra a más de diez kilómetros.",
+    "tacticas": "Tirador de artillería pesada: Tera Destroyer castiga a larga distancia con fuerza brutal y Plasma Deckerdra Launcher paraliza a quien se acerque. Si cae, puedes hacer que su derrota provoque una explosión devastadora.",
+    "gancho": "Un pelotón de Digimon huye de un frente de batalla pidiendo ayuda: DeckerGreymon avanza sin freno y los héroes deben detenerlo antes de que su energía estalle sobre el valle."
+  },
+  "delumon": {
+    "descripcion": "A primera vista parece un ave, pero de su lomo brota una espesa vegetación. Es sumamente orgulloso y se tiene por un ejemplar de alta alcurnia, y presume de la corona sobre su cabeza y de su reluciente pico dorado. Desde el matorral de su espalda dispara objetos extraños, parecidos a huevos o a nueces.",
+    "tacticas": "Ágil y presumido: bombardea con Royal Nuts, que quema y llega con rapidez, desde una posición que le permita lucirse. Se ofende si cuestionan su rango, así que puedes distraerlo apelando a su orgullo.",
+    "gancho": "Deramon exige que los héroes le rindan honores de realeza antes de dejarlos cruzar su bosque, y solo cederá si le hacen un favor a la altura de su rango."
+  },
+  "destromon": {
+    "descripcion": "Androide colosal que absorbió los datos del acorazado más poderoso del mundo. Es tan grande que puede desplegar a otros Digimon para el combate, y al llegar al punto de ataque se une él mismo a la batalla con una potencia destructiva abrumadora. Su armamento pesado garantiza que quien lo ataque salga aniquilado.",
+    "tacticas": "Un buque de guerra sobre tierra firme. Abre con Triple Cannon Shot, que derriba en ráfaga, y castiga a los que se mantienen lejos con Long-Range Buster Cannon. Descríbelo desplegando refuerzos mientras dispara.",
+    "gancho": "Una flota fantasma aparece sobre un lago de datos y de su casco desciende Destromon reclamando el territorio; los héroes deben negociar o frenarlo antes de que despliegue sus tropas."
+  },
+  "death-x-doruguremon": {
+    "descripcion": "Digimon no muerto que recuerda al producto final de la serie Doru, experimentos con Digimon prototipo para hallar nuevas etapas de evolución. Sigue en pie pese a estar muerto porque devora los DigiCores ajenos, y presiente por instinto los más poderosos. Sus ojos y su nariz van cubiertos de armadura, y ensarta a sus presas con las espadas de alas y cola.",
+    "tacticas": "Bruto sediento de DigiCores: se lanza con Bloody Cave, que drena fuerzas y asusta, y mantiene la presión con Metal Meteor para ralentizar a quienes huyen. Conviene acabar con él deprisa, porque cada herida que causa lo repone.",
+    "gancho": "Los Digimon de una ciudad aparecen sin DigiCore y sin señales de lucha; el rastro conduce hasta una criatura acorazada que ya busca al siguiente más poderoso del grupo."
+  },
+  "digitamamon": {
+    "descripcion": "Con el aspecto de un gigantesco Digihuevo, se le considera el alfa y el omega de los Digimon. Se cuenta que no evoluciona de uno corriente, sino fusionándose con datos de otra dimensión. Su cáscara vuelve inútil cualquier ataque, y quienes sufren sus golpes pierden toda actividad biológica.",
+    "tacticas": "Versátil e inquietante: permanece quieto tras su cáscara mientras Enigma ataca la mente de un héroe y lo confunde, y Nightmare Syndrome, una esfera de oscuridad, asusta a quien se acerque demasiado.",
+    "gancho": "Un enorme huevo aparece de pronto en la plaza de una aldea y empieza a susurrar acertijos; quien no los resuelve sufre pesadillas que se contagian a toda la comunidad."
+  },
+  "dinobeemon": {
+    "descripcion": "Quimera de dragón e insecto nacida de la DNA-evolución de Stingmon y ExVeemon, a la que llaman la Abeja Terrible. No encaja del todo como dragón ni como insectoide, aunque pesan más sus rasgos de insecto. Detecta a sus enemigos con la precisión de sus ojos compuestos y su carácter roza lo bárbaro.",
+    "tacticas": "Versátil y salvaje: Hell Masquerade es su baile infernal a distancia, una sucesión de tajos tan rápidos que dejan imágenes residuales y asustan a todo el grupo. Descríbelo como un borrón oscuro entre los héroes.",
+    "gancho": "Una colmena de insectos digitales llega aterrada al campamento de los héroes; tras ella aparece Dinobeemon, y solo un buen plan evitará que caigan en su baile."
+  },
+  "divemon": {
+    "descripcion": "Nacido de datos que analizan las técnicas de nadadores de talla mundial. Parece medio pez, pero en tierra camina sobre dos patas. Es de los más veloces entre los acuáticos y vigila a su presa con cuatro ojos. A pesar de su aire fiero, tiene un gran sentido del juego limpio y busca la belleza en cada brazada.",
+    "tacticas": "Tanque acuático: con Fillet Blade corta con las aletas y provoca al enemigo para que lo ataque a él. En tierra firme recurre a Liquid Veil, una armadura de agua que mejora sus capacidades como si siguiera sumergido.",
+    "gancho": "Divemon reta a los héroes a una carrera por el río y no tolera trampas; si ganan limpiamente, les revelará el camino hacia un tesoro hundido."
+  },
+  "hangyomon": {
+    "descripcion": "Hombre bestia acuático enfundado en un traje de buceo, siempre alegre y casi siempre nadando por el Océano de la Red. Se mueve bajo el agua como nadie gracias a un motor de alta velocidad que lleva a la espalda. Su orgullo es el arpón al que llama Trent, con el que ensarta a sus rivales.",
+    "tacticas": "Bruto veloz en el agua: se lanza con el motor a toda máquina y clava a Trent con Strike Fishing, que ralentiza y golpea de forma brutal. Es mucho más peligroso sumergido que en tierra firme.",
+    "gancho": "Un buceador campechano ofrece guiar a los héroes por el Océano de la Red si lo ayudan a recuperar su arpón Trent, perdido entre las algas."
+  },
+  "doruguremon": {
+    "descripcion": "Dragón bestia colosal conocido como el Enemigo Final. Su forma nace cuando la interfaz de su frente libera los datos de dragón que dormían en su DigiCore. Su tamaño aplasta a quien se le enfrenta, y un solo aleteo basta para repeler a los Nightmare Soldiers. Es muy inteligente y casi nunca se deja ver.",
+    "tacticas": "Bruto de final de campaña: Metal Meteor lanza a distancia una esfera descomunal que ralentiza y golpea con brutalidad, y Bloody Tower ensarta y drena. Úsalo como amenaza que los héroes persiguen, no como encuentro casual.",
+    "gancho": "Corren rumores de un dragón inmenso que apenas se deja ver; los héroes deben seguir las huellas de su paso antes de que alguien más lo provoque."
+  },
+  "doumon": {
+    "descripcion": "Digimon taoísta que domina todas las artes de la fe, con un talento especial para maldiciones y amuletos. Vive en la oscuridad y se especializa en maldiciones de muerte y encargos de asesino. Convierte sus talismanes en espíritus shikigami y, con un pincel enorme, traza barreras en el aire mientras recita conjuros.",
+    "tacticas": "Místico de control: levanta Hidden Gate Divination para protegerse y asustar a los héroes, y apoya a sus aliados con Exorcism Scrolls, talismanes que inmovilizan y purifican al objetivo antes de estallar.",
+    "gancho": "Alguien ha pegado talismanes por todo un pueblo y nadie puede salir; los héroes deben hallar a Doumon y romper su laberinto antes de que se cumpla la maldición."
+  },
+  "dagomon": {
+    "descripcion": "Dios maligno al que llaman el Sacerdote Pecador del Fondo del Océano. Se cree que evolucionó de un virus informático que desviaba el rumbo de los barcos. Reúne sus innumerables tentáculos en forma humanoide, aunque en realidad procede de un extraño molusco, y luce un rosario al cuello; ante sus víctimas adopta una postura de luto.",
+    "tacticas": "Bruto ritual del fondo marino: lanza Forbidden Trident con una fuerza tremenda para perforar y sellar la capacidad del objetivo. Descríbelo rezando junto a los caídos para dar un aire solemne al combate.",
+    "gancho": "Los barcos de un puerto digital se pierden sin explicación; los marineros hablan de un sacerdote sumergido que reza por sus víctimas, y los héroes deben bajar hasta su santuario."
+  },
+  "duramon": {
+    "descripcion": "Digimon que ha vislumbrado su destino final y ha echado a andar hacia el otro lado. No sabe qué le depara, pero cortará cualquier obstáculo con la espada templada a base de entrenamiento. Cuando adopta su forma de arma, el gran espadón que lleva a la espalda muestra un poder incomparable.",
+    "tacticas": "Tirador que no rehúye el cuerpo a cuerpo: Glass Slash corta con sus dos cuchillas con gran precisión, y Blinded dispara desde el pecho un rayo que ciega y marca al objetivo con un 20.",
+    "gancho": "Un guerrero silencioso busca un camino hacia el otro lado y pide a los héroes que lo acompañen; no dice a dónde va, pero su espada abre paso entre cualquier obstáculo."
+  },
+  "enbarrmon": {
+    "descripcion": "Digimon no muerto que galopa por tierras y mares con idéntica soltura. Es salvaje y agresivo, y como no va en manada resulta una visión poco común. Quien monte en él, si lo juzga digno, queda protegido de tal forma que jamás muere. Al alcanzar su máxima velocidad, la onda de choque arrasa los alrededores.",
+    "tacticas": "Bruto veloz y solitario: golpea desde el ángulo muerto del grupo con Dead Angle Horn, que perfora y ciega, y contraataca con Vain Answer a quien se atreva a golpearlo.",
+    "gancho": "Se rumorea que un corcel no muerto da protección eterna a quien lo monte; los héroes deben demostrar que son dignos antes de que otros intenten domarlo por la fuerza."
+  },
+  "entmon": {
+    "descripcion": "Su cuerpo es un entramado de árboles secos fundidos entre sí, erosionado en varias zonas y con moho en las partes sin corteza. Dentro bullen enjambres de insectos que le sirven de músculos y se derraman por sus articulaciones al moverse. Su aspecto resulta repulsivo, y su miasma es en realidad una nube de bichos que devoran datos.",
+    "tacticas": "Acechador de veneno: Dryad Stinger ensarta con colmillos en forma de estaca y envenena, y Blasted Disaster escupe un miasma a distancia. Escóndelo entre troncos secos para que cueste distinguirlo del paisaje.",
+    "gancho": "Un bosque se marchita desde dentro y la hojarasca se mueve sola; los héroes deben descubrir qué árbol muerto es en realidad Entmon antes de que el miasma llegue a la aldea."
+  },
+  "eosmon_lv5": {
+    "descripcion": "Forma que adopta un Eosmon al toparse con un obstáculo durante su misión. Despliega aún más paneles transparentes, gana grandes alas para moverse a gran velocidad y manos enormes para golpear. Crea ilusiones que funcionan como espejos para engañar a sus enemigos y puede reordenar sus paneles para adoptar el modo bestia.",
+    "tacticas": "Amenaza final que aplasta con Beat Press, cuyas manos gigantes derriban con brutalidad, y descarga Hexa-thunder desde las antenas para paralizar. Sus espejos pueden confundir a los héroes sobre dónde está su cuerpo real.",
+    "gancho": "Un Eosmon con la misión torcida evoluciona ante los héroes en una plaza de espejos; deberán decidir si lo ayudan a cumplir su tarea o si se la impiden."
+  },
+  "etemon": {
+    "descripcion": "Digimon aparecido de golpe en el Mundo Digital que se proclama Rey de los Digimon. Se rumorea que mueve en secreto los hilos de Monzaemon. Viste un traje de mono reforzado que resiste cualquier ataque y recorre el mundo cantando y peleando sin descanso, por puro gusto de las batallas interminables.",
+    "tacticas": "Jefe de espectáculo: abre con Love Serenade, que encanta a los héroes y les quita las ganas de pelear, y remata con Dark Spirits, una esfera negra que ejecuta y asusta. Trátalo como un artista sobre el escenario.",
+    "gancho": "Etemon anuncia un concierto gratuito en pleno desierto, pero su público nunca regresa; los héroes deben infiltrarse entre los fans antes de que empiece la serenata."
+  },
+  "ex-tyranomon": {
+    "descripcion": "Digimon marioneta que se oculta dentro de un peluche con forma de Tyrannomon, quizá porque era el que tenía más a mano. Ese muñeco posee todo el poder ofensivo y defensivo de Monzaemon, así que ningún Digimon corriente le planta cara, aunque sin nadie que lo maneje no pasaría de ser un tope de puerta.",
+    "tacticas": "Místico engañoso: Pretty Attack aprovecha su ternura para confundir a los héroes, que dudan si golpear a un peluche, y Black Matter lanza desde dentro una esfera oscura que asusta a quien baje la guardia.",
+    "gancho": "Un peluche gigante de dinosaurio aparece sentado en medio de un mercado, tan adorable que todos se acercan; los héroes sospechan que alguien lo maneja desde dentro."
+  },
+  "phelesmon": {
+    "descripcion": "Ángel caído de modales aristocráticos que concede los deseos de los humanos a cambio de sus almas. Se cree que es una evolución de un Boogiemon avanzado, aunque los detalles siguen siendo un misterio. Es elegante y cortés, pero sus tratos nunca son tan generosos como parecen.",
+    "tacticas": "Místico seductor y cruel: Black Statue convierte a un héroe en una estatua oscura que asusta al resto, y Demon's Shout enloquece con un grito maldito a quien tenga cerca. Negocia antes de pelear para darle misterio.",
+    "gancho": "Un noble de modales impecables ofrece a los héroes cumplir cualquier deseo a cambio de una simple firma; descubrir qué cuesta de verdad es su misión."
+  },
+  "flaremon": {
+    "descripcion": "Hombre bestia de melena imponente y presencia abrumadora, que puede parecer temible, pero cuyo corazón firme le permite superar cualquier prueba por ayudar a un amigo. Combina fuego y espíritu de león en su puño y se mueve como un artista marcial. Su rugido purificador es capaz de deshacer a un oponente en fragmentos de datos.",
+    "tacticas": "Ágil y protector: Crimson Wave of the Beast King lanza un león de energía que empuja a varios enemigos en zona, mientras Purifying Howl, un rugido de llamas, apoya a sus aliados y asusta a quien lo oiga.",
+    "gancho": "Un león de melena encendida pide ayuda a los héroes: sus amigos están atrapados en unas ruinas en llamas y solo trabajando juntos podrán sacarlos antes de que el fuego avance."
+  },
+  "footmon": {
+    "descripcion": "El mayor deportista del Mundo Digital. Ama todos los deportes, pero sobre todo el fútbol, y siempre anda practicando regates y tiros con su balón de luz. Su sueño es crear una liga de fútbol en la que solo jueguen Digimon.",
+    "tacticas": "Tirador deportivo: planta el balón y suelta Lightning Shot, un chut de larga distancia que paraliza con puntería, o lanza Lightning Overhead al aire para empujar a quienes se agrupen. Puedes narrarlo como un partido.",
+    "gancho": "Footmon organiza el primer torneo de fútbol Digimon y necesita árbitros; los héroes llegan justo cuando dos equipos rivales empiezan a hacer trampas."
+  },
+  "frozomon": {
+    "descripcion": "Máquina de las regiones de nevadas intensas que abre camino a la fuerza entre el hielo y la nieve. Ayuda a quienes se pierden en las ventiscas, pero tiene la inquietante costumbre de eliminar a cualquiera que estorbe el rescate, incluso a Digimon en fase de entrenamiento. Con su espada caliente derrite el hielo.",
+    "tacticas": "Tanque rompehielos: Removal Blow carga con el puño derecho para empujar y golpear con brutalidad, y Defrost Blade perfora con la espada ardiente. Preséntalo como aliado en una ventisca que se vuelve hostil si lo estorban.",
+    "gancho": "Una ventisca atrapa a un grupo de Digimon pequeños y Frozomon acude a salvarlos, pero también arrasa a quien se cruza; los héroes deben mediar antes de que se desate su fuerza."
+  },
+  "fumamon": {
+    "descripcion": "Asesino sobresaliente de la escuela ninja Fuma, que vive de misiones para eliminar objetivos. Combina su fuerza física en el cuerpo a cuerpo con shuriken y otras armas arrojadizas, de modo que amenaza también a media y larga distancia. Persigue sin descanso a quien huye, y la única esperanza de la presa es vencerlo.",
+    "tacticas": "Tirador asesino: Tsubakuro lanza shuriken de trayectoria controlada que confunden y alcanzan con puntería, y Yomi-Modoshi invoca no muertos desde sus pergaminos para asustar al grupo mientras él remata con sus espadas.",
+    "gancho": "Un encargo con el nombre de uno de los héroes llega a manos de Fumamon; el grupo tiene una noche para descubrir quién lo contrató antes de que empiece la caza."
+  },
+  "gerbemon": {
+    "descripcion": "Es el icono de la papelera de un escritorio que cobró vida: no un montón de datos mutados como Sukamon, sino la propia papelera. Se creía que los Digimon basura eran los más débiles, hasta que él cambió esa idea. Su interior funciona como un agujero negro y quien cae dentro desaparece del Mundo Digital sin dejar rastro.",
+    "tacticas": "Versátil y asqueroso: dispara Poop Bazooka, un bazuca hecho con latas vacías que ciega a distancia con su inmundicia. Úsalo con tono cómico, pero sin olvidar el vacío de su papelera.",
+    "gancho": "Los héroes descubren que las cosas perdidas de una aldea digital acaban todas en una papelera gigante; recuperarlas implica negociar con Garbagemon o plantarle cara."
+  },
+  "garudamon": {
+    "descripcion": "Hombre ave de grandes garras y alas con las que surca el cielo, defensor del orden y la justicia. Lo conocen como el Guardián del Viento y de la Tierra, y se presenta cuando el Mundo Digital cae en el caos para devolverlo a la paz. Es gran amigo del héroe Leomon, con quien comparte espíritu.",
+    "tacticas": "Ágil y justiciero: ataca desde el aire con Shadow Wing, una cuchilla de viento tan veloz que solo se ve su sombra en forma de pájaro negro; llega rápido y asusta. Resulta mejor aliado que enemigo.",
+    "gancho": "Alguien ha alterado el equilibrio de un valle y Garudamon desciende a poner orden; los héroes deben probar que no son los culpables antes de que dicte sentencia."
+  },
+  "garudamon_x": {
+    "descripcion": "Variante marcada por un duro entrenamiento espiritual que profundizó su unión con la naturaleza. Distingue el bien del mal y localiza a los malvados desde lejos para caer sobre ellos desde las alturas. Blande con facilidad su tótem gigante, Great Spirit, y combate con la ira de un dios cuando protege la naturaleza o a otro Digimon.",
+    "tacticas": "Ágil y vengador: detecta al más malvado del grupo y se lanza en picado, disparando Shadow Wing a gran velocidad para asustar a su objetivo. Puede aliarse con los héroes si estos protegen la naturaleza.",
+    "gancho": "Una voz en el viento señala a un culpable dentro de la compañía de los héroes; Garudamon se presenta con su tótem y exige pruebas de buen corazón."
+  },
+  "ghilliedhumon": {
+    "descripcion": "Cazador del bosque cuyo cuerpo camuflado se funde con la espesura para atacar sin delatar su posición. De carácter pacífico, es muy territorial: quien invade sus cotos de caza recibe un disparo sin previo aviso. Prefiere moverse despacio para no dejar rastro ni hacer ruido, y por eso le cuesta ser veloz.",
+    "tacticas": "Apoyo escondido en la espesura: True Sight le da puntería y confunde a su objetivo, y Core Snipe, disparado con su fusil Bellota, perfora desde gran distancia. Los héroes tardarán en localizarlo.",
+    "gancho": "Los héroes cruzan sin saberlo un coto de caza de Ghilliedhumon; solo una voz en la espesura puede avisarles a tiempo para retirarse o negociar el paso."
+  },
+  "gigadramon": {
+    "descripcion": "Dragón negro creado al mismo tiempo que Megadramon. Es un dragón de combate completamente acorazado y un feroz virus informático. Sus garras gemelas, las Giga Hands, aporrean sin descanso y de su cuerpo brota una lluvia interminable de misiles orgánicos.",
+    "tacticas": "Tirador blindado: Eradication Gears dispara una lluvia de misiles a gran alcance con mucha puntería, y Evil Claw castiga en el cuerpo a cuerpo con las Giga Hands y asusta. Prefiere mantener la distancia.",
+    "gancho": "Una vieja base abandonada despierta al dragón acorazado que dormía bajo ella; los héroes deben cerrar el acceso o aguantar su lluvia de misiles."
+  },
+  "giromon": {
+    "descripcion": "Digimon flotante que patrulla las redes informáticas y al que apodan Guardián de la Red. Rechaza a quienes intentan infiltrarse de forma ilegal usando todo su arsenal. Si lo arrinconan, se autodestruye y se lleva consigo al intruso. Es un vigilante implacable, aunque nunca ataca sin motivo.",
+    "tacticas": "Tirador guardián: lanza Deadly Bomb, una granada de enorme potencia a larga distancia que golpea con brutalidad y asusta. Si el combate se pone feo, puedes dramatizar su autodestrucción como golpe final.",
+    "gancho": "Los héroes necesitan atravesar una red vigilada y Giromon los toma por intrusos; convencerlo de que tienen permiso puede ser más difícil que huir."
+  },
+  "gogmamon": {
+    "descripcion": "Digimon de mena y de enorme corpulencia. Quedan pocos, y casi todos viven solos en lo profundo de cuevas. Come muy poco de lo que otros llamarían comida y solo sale de vez en cuando para almacenar la energía del sol en los cristales de su cuerpo. A los intrusos de su cueva los destroza sin piedad.",
+    "tacticas": "Bruto de cueva: Giant Grater aplasta con los cristales de sus brazos para derribar con brutalidad, y Curse Reflection dispara la energía acumulada para debilitar y devolver los golpes. Úsalo como guardián de una caverna.",
+    "gancho": "Una cueva reluciente guarda un mineral que los héroes necesitan; su único habitante, Gogmamon, solo se asoma al sol de vez en cuando, y ese es el momento de entrar o de pedir permiso."
+  },
+  "gokuwmon": {
+    "descripcion": "Nacido del magma del Volcán Boot, es un guerrero de instintos despiertos que viaja retando a los más fuertes con una insolencia que su Kinkoji, puesto por Sanzomon, castiga con dolor si se excede. Maneja el Nyoikinkobou, que se alarga a voluntad, y domina las artes marciales y la hechicería.",
+    "tacticas": "Ágil y fanfarrón: golpea con Secret Technique: Waking Shadow, imágenes residuales que parecen un grupo entero de Gokuumon y asustan, y se desplaza a toda velocidad con Lightning-Speed Attack, que además paraliza.",
+    "gancho": "Gokuumon reta a los héroes a un duelo por pura curiosidad y no acepta un no por respuesta, mientras la diadema de su cabeza le recuerda cuándo moderar la lengua."
+  },
+  "grademon": {
+    "descripcion": "Guerrero apodado Meteoro Dorado por la valentía con que rompe las líneas enemigas. Muestra una velocidad notable al blandir las espadas gemelas del Rey Dragón, aunque en realidad están malditas y empujan a quien las porta a un frenesí berserker. Su capa azul real es insignia y prueba de sus hazañas.",
+    "tacticas": "Versátil y rápido: Cross Blade corta en cruz y ciega al objetivo, y Grade Slash baja ambas espadas sobre su cabeza. Describe su furia creciente conforme el combate se alarga, por culpa de las armas malditas.",
+    "gancho": "Grademon ofrece su espada a los héroes para una misión heroica, pero las armas malditas empiezan a susurrarle por el camino, y el grupo deberá calmarlo."
+  },
+  "grandgalemon": {
+    "descripcion": "Digimon colosal, venerado como rey del bosque, cuyo pico y alas llevan una armadura con revestimiento mágico. Refleja la luz para mimetizarse con el entorno y puede amortiguar el ruido de sus alas pese a su tamaño. Con su abanico de guerra Stymphalides manda vientos que transmiten avisos a los Galemon del bosque.",
+    "tacticas": "Bruto alado: Draconic Storm, un vendaval lanzado con su abanico, empuja con brutalidad a todo el grupo en zona, y Wing Tornado carga en torbellino con las alas metálicas. Aprovecha su camuflaje para aparecer sin avisar.",
+    "gancho": "Los Galemon del bosque se agitan y el viento trae un aviso; el rey del bosque exige a los forasteros que demuestren respeto antes de cruzar sus dominios."
+  },
+  "grappuleomon": {
+    "descripcion": "Hombre bestia y artista marcial que aprendió de datos de juegos de lucha y creó sus propios golpes especiales. Gira las turbinas de brazos y piernas a gran velocidad, canalizando su espíritu de combate desde el DigiCore, lo que exige una voluntad firme. Hereda los datos de Leomon, Rey de las Bestias, y lucha con devoción por la justicia.",
+    "tacticas": "Ágil y técnico: con The King of Fists hace girar las turbinas de sus brazos tan rápido que distorsiona la gravedad y ralentiza al rival, y encadena patadas giratorias con Cyclonic Kick.",
+    "gancho": "Un torneo de artes marciales en un estadio digital busca a un campeón justo; GrapLeomon desafía a los héroes y descubre en ellos un honor que no esperaba."
+  },
+  "gravimon": {
+    "descripcion": "General del Ejército de los Espíritus de la Tierra de las Big Death-Stars. Es un estratega consumado que domina la gravedad y comprende rápido cada situación. Ve el campo de batalla como un laboratorio donde probar tácticas ingeniosas, movido por una curiosidad insaciable, y manipula a sus rivales con planes poco ortodoxos.",
+    "tacticas": "Místico estratega: Octogravity manipula el peso de sus rivales con ocho tentáculos y los confunde, y High Gravity Pressure aplasta y ralentiza. Gravity Bang es su última carta, tan destructiva que podría aniquilarlo a él mismo.",
+    "gancho": "Gravimon invita a los héroes a un simulacro donde cada decisión altera el peso de los objetos; en realidad prueba tácticas, y su curiosidad puede convertirlos en sus conejillos de indias."
+  },
+  "greatgryzmon": {
+    "descripcion": "Se proclama el mejor artista marcial del Mundo Digital y vive para entretener a quienes presencian sus combates. Su espectáculo cautiva al público y enciende el ambiente. Entrena sin descanso para no defraudar a su audiencia, y sus duelos con su archirrival PileVolcanomon son grandes atracciones.",
+    "tacticas": "Ágil y showman: abre con Spirited Claws, zarpazos en llamas que queman con rapidez, y arranca el aplauso del público con GGS, que invoca un ring y confunde con un lariat veloz como el sonido.",
+    "gancho": "Un cartel anuncia el combate del siglo entre GreatGrizzlymon y PileVolcanomon, pero uno de los dos ha desaparecido; los héroes deben encontrarlo antes de que el público pierda la paciencia."
+  },
+  "groundramon": {
+    "descripcion": "Dragón de tierra con enormes brazos en la espalda, antiguas alas transformadas en palas con las que excava túneles profundos donde se esconde. Le gusta vivir en vetas de mineral Huanglong, y sus escamas probablemente estén hechas del mismo material. Su carácter es brutal y la mayoría de quienes lo encuentran no lo cuenta.",
+    "tacticas": "Bruto subterráneo: Giga Crack abre grietas en el suelo con fuerza brutal y rompe las defensas del grupo, y Megaton Hammer Crush machaca con la bola metálica de su cola. Úsalo en túneles y cuevas.",
+    "gancho": "Los túneles de una mina digital se hunden uno tras otro y los mineros hablan de garras bajo tierra; los héroes deben bajar a las galerías y detener al dragón."
+  },
+  "gusokumon": {
+    "descripcion": "Crustáceo del océano oscuro, allá donde la luz jamás llega. Es famoso por su longevidad, pues mantiene sus funciones vitales con un gasto mínimo de energía. Se alimenta de los Digimon heridos que de vez en cuando se hunden hasta las profundidades y apenas se mueve si no es imprescindible.",
+    "tacticas": "Tanque paciente: provoca con Brunt Claw para que todos ataquen sus pinzas y, si hay varios enemigos, lanza Colony Torpedo, peces explosivos que avanzan despacio pero estallan como minas.",
+    "gancho": "Un submarino de exploración se hunde y la tripulación debe cruzar un fondo oscuro donde un viejo crustáceo duerme sobre el único camino."
+  },
+  "gyukimon": {
+    "descripcion": "Bestia demoníaca, mezcla desconcertante de toro y araña, rencorosa y despiadada. Persigue durante días a quienes lo han visto y de noche acecha por la espalda. A pesar de su tamaño, sus patas de araña le dan sigilo, y las campanas de su cuerno solo suenan cuando ataca, confundiendo los sentidos de su presa.",
+    "tacticas": "Acechador nocturno: Yatsuka Senbaku lo ata con telaraña y escupe veneno, y Majin Byoutan suelta gases tóxicos. Haz que las campanas suenen solo cuando ataca, para sembrar tensión.",
+    "gancho": "Cada noche suena una campana a lo lejos en un camino de montaña y cada mañana falta un viajero; los héroes deben descubrir qué bestia vigila el sendero."
+  },
+  "heliosboamon": {
+    "descripcion": "Reptil de brillantes escamas blancas que vibran con la luz del sol. Tras constreñir a su presa, esas vibraciones descomponen su cuerpo en los fragmentos de datos más pequeños, que absorbe como alimento. Sus adornos de Oro Digizoide son su armadura y crecen con el tiempo; de sus tres ojos, solo el de la frente es real.",
+    "tacticas": "Bruto cazador: paraliza con la mirada de Restrict Eye y remata con Soul Pulverizer, que embiste con aros giratorios, drena y atrapa. Los héroes pueden huir a la penumbra, donde sus escamas pierden eficacia.",
+    "gancho": "Un reptil blanco reluce a pleno sol en el desierto y los viajeros se quedan inmóviles ante su mirada; la única esperanza es llevarlo a una cueva oscura donde su poder se debilite."
+  },
+  "helloogarmon": {
+    "descripcion": "Digimon en estado caótico, desbordado por una magia inmensa que le sale convertida en llamas sin fin. Los datos de un huargo mitológico dormidos en su DigiCore fueron liberados por la interfaz de su frente. Casi todo su cuerpo ha sido reemplazado por fuego y ha perdido toda conciencia: solo quiere reducirlo todo a cenizas.",
+    "tacticas": "Acechador de fuego: Howling Burst lanza una explosión de llamas a distancia que asusta y atraviesa defensas, e Inferno Claw arde con zarpazos que alcanzan a varios héroes. No razona ni negocia.",
+    "gancho": "Un bosque entero arde con una llama que no se apaga con agua y, en su centro, aúlla una figura sin mente; los héroes deben contenerla antes de que alcance la aldea."
+  },
+  "hippogriffomon": {
+    "descripcion": "Bestia mítica de aspecto quimérico, de la que se dice que evoluciona a Gryphonmon, aunque se sabe poco más. Es menos inteligente que Gryphonmon, más bestial, con un carácter igual de feroz. Su aliento es una corriente de aire abrasador que reseca el terreno.",
+    "tacticas": "Ágil y feroz: Heat Wave exhala una corriente de aire abrasador que empuja y quema a varios enemigos en zona. Úsalo en terreno abierto, más como fiera instintiva que como estratega.",
+    "gancho": "Unos pastores de una meseta denuncian que una criatura de aspecto quimérico quema sus pastos con su aliento; los héroes deben ahuyentarla o calmarla."
+  }
+}

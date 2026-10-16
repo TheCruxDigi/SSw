@@ -1,0 +1,227 @@
+{
+  "yukimibotamon": {
+    "descripcion": "Pelusa blanca y fría de la cabeza a los pies, como un copo de nieve con ojos. Se le considera una variante de Botamon, aunque nadie conoce bien su origen. Prefiere los lugares helados, es gélido al tacto y teme al calor, sobre todo al fuego. Sus soplidos dejan el aire lleno de escarcha reluciente.",
+    "tacticas": "Casi nunca empieza una pelea: se esconde en rincones fríos y, si lo acorralan, sopla Diamond Dust para cegar y congelar a su perseguidor antes de rodar lejos. Cualquier llama lo deja fuera de combate al instante.",
+    "gancho": "Un pasaje de hielo se derrite poco a poco y una colonia de YukimiBotamon, temblando, guía a los héroes hasta la fuente de calor que amenaza su hogar."
+  },
+  "yuramon": {
+    "descripcion": "Semilla peluda que viaja a merced del viento, como la pelusa de un diente de león, en busca de un rincón sin enemigos donde crecer. Apenas tiene fuerza para atacar, pero su instinto de huida es excelente. Cuando halla un lugar tranquilo, se posa y empieza a prepararse para evolucionar.",
+    "tacticas": "Su única baza es Adhesive Bubble Blow, que ralentiza a quien la toca y le regala unos segundos para escapar. En la mesa es más una criatura frágil que los héroes deben proteger que un rival.",
+    "gancho": "Una nube de Yuramon arrastrada por el viento busca un valle seguro donde echar raíces, y los héroes deben escoltarla antes de que algo hambriento la alcance."
+  },
+  "zerimon": {
+    "descripcion": "Rarísimo, nace en parejas desde un mismo Digi-Huevo, a veces acompañado de un Conomon en lugar de un gemelo idéntico. Zerimon es el de un solo cuerno, siempre lleno de energía, y ese cuerno es sorprendentemente duro para ser un limo. Nadie sabe por qué solo ellos pueden nacer como gemelos.",
+    "tacticas": "Hostiga con saltos nerviosos y escupe Acid Bubbles desde lejos para envenenar. En cuanto la pelea se pone seria, busca a su hermano y huye a esconderse, así que rara vez resiste un combate largo.",
+    "gancho": "Un Digi-Huevo se agrieta ante los héroes y de él salen un Zerimon y un Conomon que se niegan a separarse de ellos ni un solo instante."
+  },
+  "zurumon": {
+    "descripcion": "Nació de la fusión de un virus informático especialmente malicioso con los malos pensamientos de quienes usan mal los ordenadores, y por eso es un limo distinto de todos los demás. Repta con soltura por el suelo, y su cuerpo es tan tóxico que incluso los Digimon grandes le dejan paso.",
+    "tacticas": "Dispara Poison Bubbles desde lejos y su cercanía ya intimida: la mayoría de los rivales retrocede antes de que tenga que luchar. Si el enemigo insiste, se retira reptando mientras el veneno hace su trabajo.",
+    "gancho": "Un arroyo amanece cubierto de una baba verdosa; el rastro lleva hasta un Zurumon que todos temen y que quizá solo desea que lo dejen tranquilo."
+  },
+  "algomon_lv2": {
+    "descripcion": "Es la forma a la que crece el Argomon recién nacido. Se aferra a los puntos donde se fugan datos en grandes cantidades y los devora con la boca de su vientre. Su rasgo más llamativo es un enorme dibujo parecido a un ojo, de donde escupe sus burbujas.",
+    "tacticas": "Prendido a una grieta de datos, se defiende con Acid Bubbles envenenadas. Si el combate se complica, se suelta sin avisar y va a esconderse en otra fuga, así que los héroes deben cortarle el paso.",
+    "gancho": "Un servidor se vacía poco a poco y los héroes descubren a un diminuto Argomon pegado a la grieta, comiendo datos; deberán decidir si lo espantan o lo siguen."
+  },
+  "babydmon": {
+    "descripcion": "Pequeño dragón descubierto hace poco, cuyo código guarda rasgos de una especie ancestral hoy perdida. Es diminuto pero fiero: cualquier movimiento descuidado de un rival le hace soltar el gas caliente que produce en su cuerpo, un gas acre que irrita los ojos y que conviene lavar enseguida con agua.",
+    "tacticas": "Es de los bebés que sí plantan cara si lo provocan: responde con Hot Gas, un chorro ardiente y acre que envenena desde lejos. Si el gas no basta para ahuyentar a los héroes, se esconde.",
+    "gancho": "Unos eruditos creen que Bebydomon guarda la pista de una estirpe ancestral y piden a los héroes que lo cuiden sin asustarlo, pues cada susto libera más gas."
+  },
+  "bibimon": {
+    "descripcion": "Siempre rebosa energía y no para de meterse en líos. Todavía no se acostumbra a caminar a cuatro patas, así que pierde el equilibrio y se cae a menudo. Ni siquiera su tamaño lo frena ante los rivales: se carga de electricidad y se lanza al ataque. Evolucionó desde Dokimon.",
+    "tacticas": "Es un luchador valiente pero torpe: se acerca y embiste con Minimal Flash, que deslumbra y puede derribar. Suele tropezar tras cada carga, así que no aguanta mucho una pelea larga.",
+    "gancho": "Un Bibimon ha enredado un cable de energía y cada vez que se tropieza hay un apagón en la aldea; los héroes deben atraparlo antes de que se queden a oscuras."
+  },
+  "bosamon": {
+    "descripcion": "El pelaje le ha crecido hasta cubrirle los ojos y por eso ya no teme cruzar miradas. Sus dos grandes orejas localizan sonidos desde muy lejos, y le encanta escuchar conversaciones ajenas, así que sabe de casi todo. Es reservado, pacífico y odia las peleas.",
+    "tacticas": "Huye al primer indicio de peligro. Solo si lo acorralan descarga Total Earful, un combo de orejazos, y aprovecha el aturdimiento para ocultarse. Como informante sabe más rumores que nadie, si se le trata con calma.",
+    "gancho": "Los héroes necesitan un rumor que solo Bosamon conoce, pero el pequeño espía se esconde en cuanto oye pasos; tendrán que hablar bajito y ofrecerle algo a cambio."
+  },
+  "bowmon": {
+    "descripcion": "Cubierto de pelo suave, siente curiosidad por todo y no puede evitar olfatear lo que le llama la atención. Es muy activo, pero sus patas cortas le hacen caer al correr y, si el desnivel es mayor que su pata, se ve obligado a ir rodando. Ante una amenaza, ladra chispas.",
+    "tacticas": "Sus ladridos pirotécnicos, Puppy Spark, pueden paralizar a distancia y bastan para ganar tiempo. En terreno con escalones y rocas se atasca, así que es fácil de alcanzar si huye por ahí.",
+    "gancho": "Un Bowmon rueda por la escalera de unas ruinas persiguiendo un olor misterioso, y los héroes siguen su rastro de chispas para saber qué huele tan interesante."
+  },
+  "budmon": {
+    "descripcion": "Brote viviente que mezcla datos de muchas plantas venenosas. Se desliza con calma sobre sus hojas y no ataca si nadie lo molesta, pero tocarlo es un error, porque sus espinas hieren a quien lo agarre. Si se enfada, incluso las dispara como proyectiles.",
+    "tacticas": "Pasivo hasta que lo provocan. Quien lo toque sufre Poisonous Thorns y su veneno, y si se enfada las lanza desde lejos. Es ideal como obstáculo en un jardín donde conviene mirar sin tocar.",
+    "gancho": "Un Budmon descansa sobre el único camino hasta una flor rara que los héroes necesitan; moverlo sin pincharse exigirá ingenio y mucha paciencia."
+  },
+  "pukamon": {
+    "descripcion": "Parece la cría de un dinosaurio acuático, pero se mueve con la gracia de un caballito de mar y le encanta jugar. Eso sí, se asusta enseguida y huye si alguien se acerca. Su piel aún no resiste la presión ni el frío de las profundidades, de modo que solo aguanta un rato en lo hondo.",
+    "tacticas": "Cuando se asusta, lanza Air Bubbles para ralentizar a su perseguidor y se escabulle nadando. En aguas poco profundas es escurridizo; lejos del agua solo piensa en huir.",
+    "gancho": "La marea baja ha dejado a un Bukamon atrapado en una poza de la costa, y los héroes deben llevarlo a aguas tranquilas antes de que un depredador lo vea."
+  },
+  "chapmon": {
+    "descripcion": "Solo vive cerca de aguas limpias y cristalinas, así que incluso en el Mundo Digital se ve en pocos lugares. Pasa el día en la superficie del agua y duerme con solo la cabeza fuera. Detecta los movimientos más leves del agua y casi siempre huye antes de que lo descubran.",
+    "tacticas": "Detecta a los héroes mucho antes de que lo vean. Si lo descubren, Foam Shower cubre una zona de espuma que provoca y confunde, y aprovecha para sumergirse y desaparecer.",
+    "gancho": "Las aguas de un manantial se enturbian y Chapmon, su último vigilante, pide ayuda a los héroes para averiguar quién las está ensuciando."
+  },
+  "chicchimon": {
+    "descripcion": "Un polluelo cubierto de plumón amarillo que se mueve a saltitos, aleteando con muchas ganas. Presume de un largo copete que arregla sin descanso con su pequeño pico. Cuando intuye peligro suelta un chillido ultrasónico capaz de dejar inconsciente incluso a un Digimon más crecido, y se escabulle.",
+    "tacticas": "Actúa primero: Sonic Chirp confunde y aturde a quien tiene delante, y le deja vía libre para escapar. Un solo chillido puede cambiar un encuentro entero, así que úsalo con intención.",
+    "gancho": "Un grito ultrasónico deja mareados a varios Digimon en el bosque; el culpable es un diminuto Chicchimon asustado, y los héroes deben calmarlo antes de otro chillido."
+  },
+  "cupimon": {
+    "descripcion": "Mini ángel que evolucionó de Puttimon y que, a diferencia de entonces, adora hacer el bien y repartir felicidad. Lo llaman el Ángel de la Caridad porque despierta el cariño allá donde va. Se cuenta que hasta los Digimon enormes y belicosos dejan de pelear al encontrárselo.",
+    "tacticas": "Evita pelear: su sola presencia puede calmar a un enemigo violento. Si debe defenderse, lanza Angel Ring, un aro de luz que ciega, y sigue su camino volando entre risas.",
+    "gancho": "Dos bandas de Digimon enormes están a punto de pelearse, y solo Cupimon podría detenerlas; los héroes deben guiarlo hasta allí antes de que estalle la bronca."
+  },
+  "petimeramon": {
+    "descripcion": "Su DigiCore arde con tanta intensidad que, pese a su tamaño, vive envuelto en llamas. Es volátil y de carácter agresivo, aunque pega más bien poco. Le asustan el agua, el hielo y la nieve: si se topa con un Digimon de esos tipos, sale corriendo.",
+    "tacticas": "Dispara Small Flame Shot para quemar a distancia, más molesto que peligroso. Ante un rival de agua o hielo huye de inmediato. Úsalo como antorcha con patas y mecha corta, nunca como un reto serio.",
+    "gancho": "Una tormenta ha apagado las antorchas de la aldea y solo un DemiMeramon enfurruñado puede reavivarlas, pero se niega a salir mientras siga lloviendo."
+  },
+  "chibimon": {
+    "descripcion": "Tiene tronco y extremidades, algo rarísimo entre los bebés, y con sus manitas agarra objetos y rebota por todas partes. Es glotón por naturaleza y adora los dulces, pero aún más dormir: en cuanto le quitas el ojo de encima, ya está roncando.",
+    "tacticas": "Rebota y placa con Hop Attack, que puede derribar a quien tiene cerca. Con comida a la vista, o dormido, olvida el combate por completo, así que un dulce puede acabar el encuentro.",
+    "gancho": "Alguien ha vaciado la despensa de dulces del campamento; el rastro de migas lleva a un DemiVeemon dormido a pierna suelta en medio del botín."
+  },
+  "dorimon": {
+    "descripcion": "Sale disparado en línea recta y odia que lo domestiquen, por lo que muchos viven salvajes. Acercarse es peligroso: embiste sin pensar. Sus orejas puntiagudas son tan duras que funcionan como cuernos y dejan un buen moratón. Eso sí, una vez lanzado, no sabe girar.",
+    "tacticas": "Carga en línea recta con Metal Drop, escupiendo bolitas de metal para derribar. No puede girar en plena carrera, así que un héroe ágil que se aparte lo deja estrellado contra la pared.",
+    "gancho": "Un Dorimon salvaje cruza a toda velocidad el mercado de la aldea, y los héroes deben detenerlo y averiguar si busca algo o simplemente no sabe parar."
+  },
+  "fluffymon": {
+    "descripcion": "Vive escondido entre las frondosas hojas del bosque y es tan ágil que trepa incluso por troncos verticales. Prefiere la espesura a cualquier combate abierto y, cuando cree haber asustado lo bastante a la amenaza, sale corriendo a toda velocidad. Evolucionó desde Yolkmon.",
+    "tacticas": "Ataca por sorpresa con Birdy Head, un cabezazo veloz, y desaparece entre el follaje. Es difícil de atrapar en los árboles, así que los héroes deben cortarle la huida si quieren hablar con él.",
+    "gancho": "Alguien ha robado frutos de una arboleda sagrada y todo apunta a un Fluffymon escurridizo; perseguirlo por los troncos pondrá a prueba la agilidad del grupo."
+  },
+  "frimon": {
+    "descripcion": "Lleva una gorguera de pelo endurecido alrededor del cuello que usa como armadura cuando se acerca el peligro. Es curioso y enérgico, y reacciona a todo lo que se mueve, incluida su propia cola, que persigue girando sobre sí mismo hasta marearse.",
+    "tacticas": "Gira y descarga Tail Slap, un coletazo con fuerza centrífuga capaz de derribar a rivales mayores. Si falla, se encoge tras su gorguera y se aleja rodando.",
+    "gancho": "Frimon lleva horas persiguiéndose la cola en mitad del camino y bloquea el paso de una caravana; los héroes deben distraerlo antes de que alguien reciba un coletazo."
+  },
+  "gigimon": {
+    "descripcion": "Bebé de cuatro patas con unos colmillos poderosos, parecido a Tokomon pero con un carácter violento y salvaje pese a su tamaño diminuto. Su cuerpo, caliente como el de Jyarimon, deja marca en lo que muerde. Muchos Digimon grandes se confían al verlo y lo pagan caro.",
+    "tacticas": "Para ser un bebé pelea de verdad: muerde con Hot Bite y su cuerpo caliente chamusca. Aun así sigue siendo pequeño, y si ve que va a perder se esconde con rabia en vez de rendirse.",
+    "gancho": "Un Gigimon gruñón defiende una cueva calentita como si fuera una fortaleza, y los héroes, que necesitan pasar la noche, tendrán que ganarse su confianza."
+  },
+  "gummymon": {
+    "descripcion": "Alegre y vivaz como su antecesor Zerimon, aunque su cuerpo sigue siendo blando e inestable. El cuerno se le ha endurecido y lo usa para dar cabezazos, y le han brotado de la cabeza unas protuberancias parecidas a orejas. Siempre anda con ganas de jugar.",
+    "tacticas": "Sopla Double Bubble, una ráfaga de burbujas pegajosas que ralentizan, y se retira rebotando. Funciona mejor como estorbo simpático que como verdadera amenaza, y huye si lo apuran.",
+    "gancho": "Gummymon busca a su inseparable amigo Kokomon, perdido tras una tormenta, y ofrecerá cualquier cosa a los héroes que le ayuden a encontrarlo."
+  },
+  "gurimon": {
+    "descripcion": "Bebé con dos cuernos en la frente que recorre el Mundo Digital buscando rocas grandes y robustas. Al encontrar una, se estrella contra ella de cabeza, y si la roca resiste, salta de alegría, convencido de que así se hará más fuerte. Su gorguera lo protege y lo hace parecer mayor.",
+    "tacticas": "Lucha por probar su fuerza más que por ganar: Prickly Attack es un golpe de tierra que puede derribar. Una roca enorme lo atrae más que cualquier héroe y, si el combate se pone feo, se refugia tras ella.",
+    "gancho": "Un Gurimon lleva días embistiendo una roca gigante que tapa una entrada secreta; si los héroes le ayudan a vencerla, quizá descubran lo que esconde."
+  },
+  "hiyarimon": {
+    "descripcion": "Su cuerpo, cubierto de nieve, perdió la pelusa blanca de su etapa anterior. Vive en grandes grupos en montañas nevadas y no sale de día por miedo a derretirse. Se dice que se anima cuanto más crece el carámbano que le cuelga del pico.",
+    "tacticas": "En grupo, sopla Diamond Dust para cegar y congelar antes de ocultarse en la nevada. Es un bebé y evita el combate abierto, sobre todo con sol, cuando casi nunca saldrá.",
+    "gancho": "En un paso de montaña, cientos de Hiyarimon se asoman en plena ventisca; el sol de mediodía se acerca y los héroes deben ayudarlos a no derretirse."
+  },
+  "hopmon": {
+    "descripcion": "Está cubierto de escamas tan pequeñas que no se ven a simple vista, lo que lo hace más resistente de lo que parece. Ha superado su cobardía y, pese a su corta edad, tiene un fuerte sentido de la justicia y aborrece la maldad. Evolucionó desde Ketomon.",
+    "tacticas": "Rebota como una pelota y golpea con el trasero usando Hop Hip, que quema. Planta cara a los matones, pero si lo superan en número se escabulle a brincos.",
+    "gancho": "Hopmon ha jurado defender un pueblo de un matón mucho mayor que él; los héroes pueden unirse a su causa o convencerlo de que la justicia también necesita aliados."
+  },
+  "kakkinmon": {
+    "descripcion": "Su sombrero de cuero se ha convertido en un escudo de cobre, y con él ha crecido su atrevimiento, quizá demasiado. Ahora se lanza contra todo sin miedo, aunque su escudo sigue siendo solo de cobre, y se llevará un buen susto si se vuelve imprudente.",
+    "tacticas": "Temerario pero útil como apoyo: con Clang-Clang embiste con las esquinas de su escudo y reparte un Escudo protector. El cobre aguanta poco, así que castiga su imprudencia.",
+    "gancho": "Kakkinmon está convencido de que su escudo es invencible y reta a un Digimon mucho mayor; los héroes deben evitar el desastre sin herir su orgullo."
+  },
+  "capromon": {
+    "descripcion": "Pequeño con un casco metálico cuyos dos cuernos llevan antenas capaces de emitir ondas y sonidos de todo tipo. Como un murciélago, emite ultrasonidos y reconoce lo que tiene delante por el eco, sin fiarse de su vista débil, así que está activo a cualquier hora del día o de la noche.",
+    "tacticas": "Hace vibrar sus cuernos con Howling Hertz, que asusta y aturde incluso a Digimon grandes, y después huye guiándose por el eco. Su casco lo protege solo lo justo.",
+    "gancho": "Una señal extraña zumba por unas ruinas a medianoche; viene de un Kapurimon con las antenas atascadas, que no sabe volver a casa sin oír el eco."
+  },
+  "kekkomon": {
+    "descripcion": "Tiene el cuerpo multicolor y la lengua, un órgano sensorial muy desarrollado, siempre fuera. Con un lametón conoce la forma, la textura, el sabor e incluso la composición de un objeto, aunque su vista es pobre. Sus patas cortas lo hacen ágil y difícil de atrapar.",
+    "tacticas": "Fustiga con Beat Lick, un lengüetazo cósmico que ralentiza, y aprovecha el desconcierto para esfumarse en un parpadeo. Una vez que huye, solo se le alcanza con trampas o con ayuda.",
+    "gancho": "Kekkomon lame una reliquia en unas ruinas y reconoce antes que nadie de qué está hecha; los héroes pueden ganarse su ayuda si no les importa un poco de saliva."
+  },
+  "chocomon": {
+    "descripcion": "Amable y tranquilo, evolucionó de Conomon y se lleva de maravilla con el enérgico Gummymon, con quien siempre anda pese a lo distintos que son. Casi forman un solo ser: si lo separan de su compañero, Kokomon se apaga de soledad.",
+    "tacticas": "Lanza Double Bubble, burbujas pegajosas que pueden paralizar, y prefiere esconderse tras su compañero. Si queda solo, pierde el ánimo y huye; con Gummymon cerca, ambos forman un dúo pegajoso.",
+    "gancho": "Un Kokomon se aferra a los héroes con la esperanza de que lo lleven con su amigo; cuanto más tarden en encontrarlo, más se irá apagando."
+  },
+  "koromon": {
+    "descripcion": "Ha crecido un poco y ha perdido su pelusilla de recién nacido. Se mueve con energía, pero luchar aún le queda grande. Su futuro está abierto de par en par: puede acabar siendo desde un Agumon hasta un Guilmon o un Veemon.",
+    "tacticas": "No busca pelea: sopla Foam para cegar un instante al rival y escapa rebotando. Es más un compañero al que proteger que un adversario, y se esconde ante cualquier enfrentamiento serio.",
+    "gancho": "Un Koromon sigue a los héroes con ojos brillantes porque quiere crecer, y lo que coma y las aventuras que viva decidirán en qué Digimon se convertirá."
+  },
+  "kozenimon": {
+    "descripcion": "Diminuta moneda parecida a una de un yen que vive dentro del maletín de Ganemon. Es optimista sin remedio, incluso en las malas rachas, y trabaja con alegría en las misiones de reunir dinero que Ganemon le encarga. Su lema es que hasta una fortuna enorme empieza con una sola moneda.",
+    "tacticas": "Casi siempre aparece en grupo: Strength in Solidarity es un ataque conjunto del enjambre, y \\UE-N, un llanto colectivo que lanza una onda de choque si los insultan.",
+    "gancho": "Un enjambre de Kozenimon se escapa del maletín de Ganemon y recorre la ciudad recogiendo monedas; los héroes deben atraparlos sin insultarlos, o sufrirán su llanto."
+  },
+  "kyaromon": {
+    "descripcion": "Tiene una cola poderosa y una curiosidad sin fondo: se lanza hacia todo lo que despierta su interés. Su cuerpo es casi hueco y elástico como una pelota de goma. Cuando pone fuerza en el coletazo, puede mandar a volar incluso a Digimon mayores.",
+    "tacticas": "Se lanza de cabeza y azota con Tail Swing, que derriba a cuerpo a cuerpo. Su cuerpo elástico lo hace rebotar, y si la pelea se alarga, lo distrae cualquier cosa brillante.",
+    "gancho": "Kyaromon rebota por unas ruinas siguiendo cada brillo que ve; los héroes lo persiguen para recuperar el objeto reluciente que arrastra y que alguien necesita con urgencia."
+  },
+  "kyokyomon": {
+    "descripcion": "Su cuerpo alargado se estira hasta nueve veces su longitud cuando se enfada, aunque solo lo hace hacia delante, así que la mayoría de los rivales esquiva el golpe. Es ligero y, pese a todo, se mueve con rapidez gracias al impulso de sus extremidades.",
+    "tacticas": "Se estira en línea recta y dispara con Metal Straw un clavo de hierro por la boca. Un héroe que se aparte a tiempo lo deja expuesto, y como bebé abandona la pelea pronto.",
+    "gancho": "Un Kyokyomon se ha quedado encajado, estirado, entre dos rocas y pide ayuda a gritos; los héroes deberán tirar de él sin que se enfade."
+  },
+  "minomon": {
+    "descripcion": "Tras evolucionar de Leafmon se ha fabricado un caparazón resistente. Los días buenos asoma la cabeza y se relaja sin hacer nada. Se cuelga de sitios altos con las hiedras que le crecen en la cabeza. Es perezoso e inexpresivo, pero tiene un núcleo firme: no se desanima ni siquiera estando solo.",
+    "tacticas": "Se esconde en su caparazón y arroja Pinecone desde lejos, que puede atrapar al rival. No tiene ganas de pelear: si el enemigo no se retira, se cuelga de una rama alta y espera.",
+    "gancho": "Un Minomon cuelga de un árbol sobre el único puente del bosque y no piensa moverse; los héroes deben convencer a un Digimon perezoso de que eche su siesta en otro sitio."
+  },
+  "missimon": {
+    "descripcion": "Digimon con cuerpo de misil que se enciende en cuanto evoluciona y no se detiene hasta que cambia otra vez de forma. Puede regular un poco su velocidad, pero si baja de cierto ritmo se estrella, así que no puede quedarse quieto. Apenas controla su rumbo.",
+    "tacticas": "Es un proyectil sin control: Missile Crash es una embestida destructiva que derriba, pero casi nunca termina donde debería. Úsalo como amenaza impredecible que cruza la escena y se pierde.",
+    "gancho": "Un Missimon que no sabe frenar atraviesa el campamento cada pocos minutos; los héroes necesitan una red o un buen plan para detenerlo antes de que choque con algo valioso."
+  },
+  "mococomon": {
+    "descripcion": "Digimon de humo que ha dejado de ir a la deriva con el viento: ahora es más activo y le han salido colmillos. En el este del Mundo Digital lo veneran como el origen de toda Digievolución, y hasta los Digimon agresivos rara vez intentan hacerle daño.",
+    "tacticas": "Rara vez pelea: si se ve amenazado, Viscous Clouds cubre una zona de nubes pegajosas que ralentizan al atacante antes de escabullirse. Su reputación sagrada suele ser mejor escudo que cualquier golpe.",
+    "gancho": "Una pequeña nube con colmillos desciende a un santuario del este, y los héroes deben proteger al origen de la Digievolución de curiosos y cazadores."
+  },
+  "monimon": {
+    "descripcion": "Ninja de bajo rango que nunca va solo: se mueve en grupo, oculto entre plantas y sombras. Sus emociones se ven en la pantalla que tiene por cara, con emoticonos, incluso mientras duerme, y le da muchísima vergüenza que cualquiera pueda ver sus sueños.",
+    "tacticas": "Su grupo se abalanza en masa con Rappa y escapa como un rayo con Toppa, que además puede paralizar. Salen de los arbustos, golpean y se esfuman, como buenos ninjas.",
+    "gancho": "Un pelotón de Monimon sigue en silencio a los héroes, pero sus caras de emoticono los delatan; uno se ha dormido y proyecta un sueño que le da mucha vergüenza."
+  },
+  "moonmon": {
+    "descripcion": "Parece una gota de rocío a punto de caer, con una antena curiosa sobre la cabeza. Solo aparece en las noches de luna brillante y se le ha visto cerca de Viximon, con quien comparte costumbres nocturnas. Cuando está de buen humor, no para de rebotar de alegría.",
+    "tacticas": "Sus burbujas frías y azuladas, Moonlight Bubble, ralentizan a quien las toca. Solo se deja ver de noche, así que de día no debería aparecer, y ante un peligro real se esfuma.",
+    "gancho": "En una noche de luna llena, una luz azulada rebota entre las rocas; seguirla conduce a un claro donde los Digimon nocturnos celebran una fiesta secreta."
+  },
+  "mochimon": {
+    "descripcion": "Se parece a un molusco de piel muy elástica y se arrastra moviendo las protuberancias de su vientre. Su nombre viene del mochi, al que se asemeja cuando se hincha de emoción. Es sorprendentemente inteligente, entiende el lenguaje humano y cambia de forma para hacerse entender.",
+    "tacticas": "Evita pelear: Elastic Bubbles lanza burbujas elásticas que ralentizan y le dan tiempo para escabullirse. Por su inteligencia es un buen informante o ayudante para los héroes.",
+    "gancho": "Motimon intenta contar algo a los héroes moldeando su cuerpo en formas raras; descifrar su mensaje podría revelar dónde se esconde el verdadero peligro del bosque."
+  },
+  "negamon": {
+    "descripcion": "Creció sumergido en los datos negativos que desbordan la red, vive en la oscuridad más negra y desea desaparecer. Quienes se acercan sufren su mirada: pierden poco a poco las emociones y se apagan por dentro, hasta que de ellos puede surgir otro Negamon.",
+    "tacticas": "Un enemigo triste y esquivo: Downer Eye es una mirada certera que debilita al desanimar. Más que combatir, busca soledad; los héroes vencen mejor con ánimo y compañía que con golpes.",
+    "gancho": "Un valle sombrío apaga el ánimo de todo Digimon que lo pisa; en su fondo vive un Negamon solitario, y quizá los héroes puedan devolverle una razón para quedarse."
+  },
+  "nyaromon": {
+    "descripcion": "Rasgos gatunos y carácter caprichoso: su nombre le viene de su conducta felina. Es curioso y veleidoso a partes iguales, aunque también tiene un lado solitario. Azota con los pelos duros de su cola, y se acerca y se aleja de la gente según le dicte el humor.",
+    "tacticas": "Se acerca por sorpresa y azota con Fox Tail, que puede derribar. Su inconstancia manda: a mitad de la pelea puede perder el interés y marcharse tras algo más interesante.",
+    "gancho": "Un Nyaromon solitario sigue a los héroes durante todo el camino, siempre unos pasos detrás; si le ofrecen compañía, quizá deje de fingir indiferencia."
+  },
+  "onibimon": {
+    "descripcion": "Fantasma con forma de pequeño espíritu que puede atravesar superficies sólidas. En el este del Mundo Digital se cree que son Digimon que vivieron hasta el final de sus días y que reencarnan tras cruzar el mundo de Yomi, un misterio que los rodea de respeto.",
+    "tacticas": "Atraviesa paredes y sopla Ghastly Flames, chispas azuladas que queman. Aparece y desaparece entre los muros, más inquietante que letal; como bebé, prefiere escabullirse a luchar.",
+    "gancho": "Cada noche una llama azul recorre una mansión abandonada atravesando muros; los héroes descubren que Onibimon solo busca compañía en su nueva vida."
+  },
+  "pagumon": {
+    "descripcion": "Maneja las orejas de su cabeza como si fueran manos, y las usa sobre todo para hacer travesuras. Le encantan las bromas: tira de los párpados de los rivales o les da palmadas en el trasero. Suele burlarse de Koromon y Tsunomon, persiguiéndolos una y otra vez.",
+    "tacticas": "Es un bromista, no un guerrero: escupe Poison Bubbles para fastidiar y se burla desde lejos. Si lo agarran, huye entre risas. Es un buen enemigo recurrente que enreda a los héroes.",
+    "gancho": "Alguien cambia de sitio los carteles del sendero y pega burbujas en las botas de los viajeros: el bromista es Pagumon, y lo que quiere es que lo persigan."
+  },
+  "pickmon": {
+    "descripcion": "Forman la mayor parte de los Starmons, una unidad en la que un Starmon va flanqueado por varios Pickmon y las órdenes de los superiores se obedecen sin rechistar. Muchos se rinden y vuelven a la vida salvaje, pero algunos persisten, ascienden a Major y acaban siendo Starmon.",
+    "tacticas": "Suele aparecer en grupo: Chinchikurin ralentiza a distancia con energía cósmica y Sugar Plum golpea de cerca. Sin el Starmon al mando, duda y se retira en cuanto puede.",
+    "gancho": "Un Pickmon desertor pide asilo a los héroes: huye de su estricta unidad, pero sus superiores vienen a buscarlo y la discusión sobre la disciplina promete lío."
+  },
+  "pinamon": {
+    "descripcion": "Polluelo que no para de correr: sus emociones se leen en su forma de correr, porque su cara no expresa nada, y solo se detiene si está apático o dormido. Como Puwamon, no soporta que le toquen la cola, y es todavía más peligroso cuando lo hacen.",
+    "tacticas": "Si alguien le toca la cola, descarga Tingling Spark, una chispa que puede paralizar. Fuera de eso corre en círculos y evita el combate, así que conviene no tocarle el rabo.",
+    "gancho": "Un Pinamon corre en círculos ante los héroes sin decir nada; descifrar en su manera de correr qué necesita es la única forma de ayudarlo sin rozarle la cola."
+  },
+  "poromon": {
+    "descripcion": "Pajarito que evolucionó de Pururumon y ya vuela a baja altura, algo raro entre los bebés, con el cuerpo cubierto de plumón. Su rasgo más encantador es una pluma ornamental en la cabeza, a la que cuida con devoción. Ama el orden, pero no llega a asearse solo y depende de los demás para estar aseado.",
+    "tacticas": "Bate sus alitas con Pororo Breeze y levanta una nube de polvo que empuja a quien tiene cerca; en cuanto el rival parpadea, huye. No busca pelea: su arma es escapar con estilo.",
+    "gancho": "Poromon se ha ensuciado su preciada pluma y no puede limpiarla solo; los héroes que le echen una mano ganarán un compañero agradecido que conoce los vientos de la zona."
+  }
+}

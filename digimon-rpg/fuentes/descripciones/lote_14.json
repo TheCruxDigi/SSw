@@ -1,0 +1,227 @@
+{
+ "arbormon": {
+  "descripcion": "Muñeco articulado de madera nacido de un plano medieval, Arbormon guarda silencio y no muestra emoción alguna, así que sus compañeros lo tratan casi como a una marioneta. En combate, sin embargo, cambia por completo: lanza lianas desde los tubos de su espalda y mueve a sus rivales como títeres. Su armazón resiste el fuego, pero sus articulaciones arden con facilidad.",
+  "tacticas": "Úsalo como controlador versátil: abre con Blockade Seed para atrapar a un objetivo con hiedra desde lejos y remata con Machine Gun Dance, una ráfaga de patadas imprevisibles que confunde. Un ataque de fuego bien dirigido a sus articulaciones debería dolerle de verdad.",
+  "gancho": "Un pueblo de marionetas se mueve solo desde que una figura muda de madera apareció en su plaza, y los héroes deben descubrir si Arbormon maneja los hilos o es quien está atrapado en ellos."
+ },
+ "blitzmon": {
+  "descripcion": "Coloso eléctrico que se mueve con una agilidad asombrosa para su tamaño: la corriente que recorre su cuerpo crea un campo magnético que casi lo libra del peso. Parece una máquina, pero es expresivo y muy humano; habla con rudeza y, aun así, deja asomar calidez. Pelea como un luchador, y bajo el agua se siente torpe.",
+  "tacticas": "Bruto de primera línea: acércate al héroe más fuerte y golpea con Thor's Hammer, que aturde y pega con saña, y guarda Mjölnir Thunder para paralizar a distancia a quien se esconda. Si el combate se traslada al agua, penaliza su movilidad.",
+  "gancho": "Una tormenta eléctrica bloquea el único puente de la región, y un Beetlemon de mal humor exige que alguien le gane un pulso antes de dejar pasar a la caravana."
+ },
+ "beowolfmon": {
+  "descripcion": "Guerrero que une el instinto de una bestia con la inteligencia de una persona. Maneja con una sola mano su enorme espada de doble hoja, Trinität, y el lanzamisiles de su brazo izquierdo, el Roland 2 (Zwei), le permite pelear igual de bien de lejos que de cerca. Siempre sereno, cree en luchar por sus amigos y en plantar cara a rivales superiores.",
+  "tacticas": "Combatiente completo que no deja huecos: abre con Licht Angriff, una combinación de misiles y cañón que puede cegar desde lejos, y cierra con Zweihänder, un tajo veloz como la luz. Cambia de distancia según le convenga.",
+  "gancho": "Un caballero lobo se ofrece a escoltar al grupo por un desfiladero peligroso, pero antes exige pruebas de que los héroes luchan por sus amigos y no por su propio provecho."
+ },
+ "vritramon": {
+  "descripcion": "Dragón de fuego cuya piel soporta temperaturas extremas, hasta el punto de caminar entre la lava. Apaga incendios con sus propias llamas explosivas, y se cuenta que nació de los datos de volcanes activos. Su espíritu arde más cuanto más poderoso es el rival, y su temeridad le impide retirarse incluso cuando la batalla está perdida.",
+  "tacticas": "Ataque directo y sin miedo: Corona Blaster dispara un rayo de calor que quema, y Flame Storm levanta un tornado de llamas sobre toda una zona. Es testarudo y nunca huye, ideal para un combate a muerte con sabor épico.",
+  "gancho": "Un volcán del Mundo Digital ruge sin motivo y BurningGreymon, convencido de que solo él puede apagarlo, se lanza al cráter; alguien debe seguirlo antes de que su orgullo le salga caro."
+ },
+ "calamaramon": {
+  "descripcion": "Mitad humanoide, mitad bestia marina, hace girar sus diez tentáculos como hélices para atacar o los junta como un muro para defenderse. Si no logra rematar a su presa, se repliega en el manto y adopta la forma de un calamar gigante, más fuerte y casi inmune a los golpes. Es astuto y de genio corto, y en tierra camina como un cangrejo ermitaño enorme.",
+  "tacticas": "Empieza con Nero Corso, un chorro de tinta corrosiva que envenena, y cuando los héroes se acerquen embiste con Titanic Charge, que derriba y golpea con brutalidad. Si le va mal, haz que se repliegue en su manto para endurecerse.",
+  "gancho": "Una laguna amanece teñida de tinta negra y los pescadores no vuelven; los héroes deben calmar a un Calmaramon malhumorado antes de que convierta toda la orilla en su guarida."
+ },
+ "daipenmon": {
+  "descripcion": "Pingüino colosal de alas atrofiadas que sostiene dos enormes bloques de hielo, llamados Kakikaki-kun y Kochikochi-kun. Nunca pierde la calma, porque si se derriten puede recrearlos sin esfuerzo. Su estilo de combate es de lo más curioso: baña el hielo en almíbar de colores antes de estampárselo al rival, aunque el color es puro espectáculo.",
+  "tacticas": "Cómico pero peligroso: Blue Hawaii Death golpea con hielo y almíbar azul y ralentiza al objetivo, mientras que Strawberry Death, con almíbar rojo, asusta a quien tenga delante. En la narración el color da igual, pero en la mesa son técnicas distintas.",
+  "gancho": "En pleno festival de nieve, un pingüino gigante reparte raspados de hielo con almíbar y ofrece una recompensa a quien atrape a los ladrones que han derretido su reserva."
+ },
+ "duskmon": {
+  "descripcion": "Encarnación de una inmensa energía oscura, formada por la voluntad vengativa de Digimon extintos y por Datos Prohibidos de la Red. Es perfeccionista, cruel y rebosa seguridad, el reverso exacto de quienes portan poder sagrado. Esgrimista sin igual, no duda en jugar sucio, y las tres cabezas y siete ojos de su armadura pueden actuar por su cuenta.",
+  "tacticas": "Mago espadachín que desgasta al grupo: Geist Abend hipnotiza con los ojos de su cuerpo y confunde desde lejos, y Eroberung absorbe la energía de la víctima mientras la desorienta. Haz que se burle de los héroes y se ensañe con el más débil.",
+  "gancho": "Una armadura de ojos abiertos despierta entre unas ruinas y susurra los nombres de Digimon olvidados; si el grupo no la detiene, Duskmon reclamará todo su rencor."
+ },
+ "kaisergreymon": {
+  "descripcion": "Dragón de fuego trascendente, del que se dice que supera incluso a los Diez Guerreros Legendarios. En su cuerpo reposa el poder de las nueve venas del dragón que recorren Gaia, y una profecía asegura que quien lo domine gobernará sobre ella. Para controlarlo empuña la espada Ryuugonken, donde están selladas almas de dragones.",
+  "tacticas": "Rival de final de campaña: golpea de cerca con Firedrake Strike, flechas de fuego blanco lanzadas desde su espada, o desata Pyro Dragons para aplastar a distancia con el poder de las venas de Gaia. Ambas técnicas queman, así que prepara a los héroes.",
+  "gancho": "Una antigua profecía dice que el dueño de la espada Ryuugonken gobernará el mundo, y EmperorGreymon la ha reclamado; los héroes deben decidir si es un protector o una amenaza."
+ },
+ "flamon": {
+  "descripcion": "Criatura mitad humana, mitad bestia surgida cuando perdió el poder de Agunimon. Carece del instinto de combate de los Digimon y ha perdido su fuerza, pero conserva el espíritu de los Diez Guerreros Legendarios, de modo que otros Campeones apenas pueden con él. Posee una bondad poco común entre los suyos, que contrasta con su vena traviesa de Novato.",
+  "tacticas": "Prefiere evitar la pelea y buscar el diálogo. Si no tiene escapatoria, dispara Baby Salamander, un aura de llamas que quema; trátalo más como un aliado inseguro o un rival reticente que como un enemigo implacable.",
+  "gancho": "Un joven Digimon de fuego pide ayuda para recuperar el poder que perdió, pero cada pista lo lleva a lugares donde su bondad será puesta a prueba."
+ },
+ "gigasmon": {
+  "descripcion": "Gigante de tierra nacido cuando el suelo se fundió con los componentes de la atmósfera y se coció a altísima temperatura, de modo que su piel es más dura que la cerámica. Es presumido y confiado en exceso, y subestima a sus rivales hasta el punto de considerar un fastidio pelear, bostezando en pleno combate. Pero cuando golpea, lo hace con brutalidad.",
+  "tacticas": "Obstáculo que se toma el combate a la ligera: Earthquake derriba a los héroes con un salto y un pisotón, y Hurricane Bomber barre una zona con un giro de brazos que empuja. Su exceso de confianza puede abrirle huecos.",
+  "gancho": "Un gigante de piedra bosteza en mitad del camino y se niega a moverse; solo cederá si los héroes logran que se tome en serio un duelo, lo cual es muy peligroso."
+ },
+ "grottemon": {
+  "descripcion": "Artesano orgulloso de grandes manos, capaz de crear armas y armaduras tan útiles como bellas. Todo su equipo, desde la armadura hasta el martillo Grotte, es de factura propia. Odia recibir órdenes, pero si alguien lo impresiona con su habilidad, obedece sin rechistar. No es muy listo y subestima a los demás, aunque puede modelar un Golemon de tierra para que luche por él.",
+  "tacticas": "Bruto de contacto: Snake Eye Break golpea con precisión demoledora y rompe defensas, y Jack in the Box lo hace emerger del subsuelo por sorpresa para congelar a su víctima. Añade variedad haciendo que un Golemon pelee a su lado.",
+  "gancho": "Grumblemon se ofrece a forjar un arma legendaria para el grupo, pero exige que le traigan un metal raro que custodia un rival; su orgullo de artesano no admite excusas."
+ },
+ "kaiserleomon": {
+  "descripcion": "León negro y heredero del Espíritu de la Oscuridad; esta es la forma verdadera que recupera cuando la maldición de Cherubimon lo abandona. Su cuerpo está cubierto de Obsidan Digizoid, un metal negro y brillante que protege y además corta, y se cuenta que el viento oscuro que deja a su paso destroza todo lo que toca.",
+  "tacticas": "Depredador versátil: Schwarz Donner lanza una descarga negra que paraliza desde lejos, y Schwarz König lo envuelve en un aura oscura que asusta a quien se ponga delante. Descríbelo como una sombra metálica y veloz.",
+  "gancho": "Un león de metal negro vigila una cámara sellada y ataca a quien se acerque; los héroes descubrirán que protege el último fragmento de un espíritu que fue maldecido."
+ },
+ "jetsilphymon": {
+  "descripcion": "Digimon del viento que supera la leyenda tras heredar por completo el poder de los Diez Guerreros Legendarios. Absorbe las corrientes de aire y las aprovecha para lanzarse con la velocidad de un reactor; mientras se mueve por el aire se vuelve tan invisible como el propio viento. Su rueda de viento genera turbulencias nunca vistas.",
+  "tacticas": "Atacante veloz: Jet Binter lanza ráfagas rápidas desde sus brazos que empujan, y Ultra Turbulence barre a los rivales con una fuerza brutal. Aprovecha que casi no se le ve para que actúe primero.",
+  "gancho": "Un viento imposible recorre un valle y nadie ve a quien lo causa; es JetSilphymon, que busca a alguien que sepa respetar el aire antes de dejarse ver."
+ },
+ "fairimon": {
+  "descripcion": "Hada del viento más hábil en la guerra de información que en el combate corriente: crea espejismos para engañar y cuchillas de vacío para herir. Es inocente de corazón, curiosa, chismosa y traviesa, pero nunca con mala intención, así que cae bien a casi todos. Optimista incurable, se ríe de las dificultades.",
+  "tacticas": "Ágil y aérea: Tornado Gamba golpea con una patada giratoria que empuja, y Roseo Temporale se lanza contra el enemigo con una lluvia de patadas. Úsala para descolocar a los héroes con empujones y espejismos.",
+  "gancho": "Un rumor recorre la aldea: Kazemon asegura haber visto un tesoro, y mientras los héroes lo investigan descubren que ella misma lo inventó para gastarles una broma."
+ },
+ "garummon": {
+  "descripcion": "Lobo cíborg de velocidad increíble, quizá porque descubrió una red de fibra óptica por la que correr. Esquiva balas para acercarse y desgarra con garras y colmillos a quien considera malvado. Tiene el corazón recto y un odio profundo al mal; jamás obedecerá a quien guarde maldad, pero cuando jura lealtad a alguien, no lo traiciona.",
+  "tacticas": "Cazador veloz: Speed Star lo lanza como un rayo con las cuchillas de su espalda y ralentiza al objetivo, y Solar Laser remata a distancia con un rayo que quema. Si los héroes mienten, haz que lo note.",
+  "gancho": "KendoGarurumon sigue el rastro de un mentiroso y acusa a uno de los héroes; para limpiar su nombre, deben probar su honradez antes de que el lobo ataque."
+ },
+ "blizzarmon": {
+  "descripcion": "Guerrero bestia del hielo, de valor temerario y espíritu salvaje lleno de ambición. Curioso y siempre ávido de atención, se entusiasma enseguida. Le gusta hacer el payaso incluso en combate: posa mientras reza a su dios del ártico o grita el nombre de sus técnicas. Aun así, vigila con atención al enemigo y el terreno.",
+  "tacticas": "Escaramuzador espectacular: Avalanche Step corta a los rivales en una danza de hachas que derriba una zona, y Glacier Torpedo atrapa a un objetivo con su larga cabellera y lo congela. Haz que anuncie sus ataques a gritos.",
+  "gancho": "Un guerrero polar proclama a voces que vencerá a la ventisca que cubre el paso; los héroes deben seguirle el ritmo y evitar que su vanidad los entierre bajo un alud."
+ },
+ "chackmon": {
+  "descripcion": "Pequeño oso del hielo que se proclama sargento de la Fuerza de Defensa Polar; cuando se le pregunta, responde que es información clasificada, y probablemente sea invención suya. Maneja con eficacia su lanzador de asalto, apodado Romeo, y conoce técnicas de supervivencia. Rara vez actúa por iniciativa propia, y sin nadie que cuente con él se desanima.",
+  "tacticas": "Apoyo de fuego helado: Snow Bomber dispara bolas de nieve superheladas con su lanzador, y Frozen Tundra lo convierte en un témpano proyectado contra el rival. Rinde más si un aliado le da órdenes claras.",
+  "gancho": "Un pequeño oso con aire militar pide que alguien le encomiende una misión; si los héroes lo toman bajo su mando, los guiará con astucia por una tundra helada."
+ },
+ "ranamon": {
+  "descripcion": "Hada del agua con un humor tan cambiante como el tiempo: un día es una dama encantadora y al siguiente llora a gritos como un bebé. Su intuición es muy aguda y prefiere atacar de forma indirecta, haciendo llover a su antojo. Cuanto más se desbordan sus emociones, más peligrosos son sus golpes, y llorando resulta imprevisible.",
+  "tacticas": "Controladora de zona: Rain Stream cubre el terreno con un aguacero que ralentiza, y Jealousy Rain lo vuelve ácido para quemar. Si la provocan o la hacen llorar, sube la intensidad de sus ataques.",
+  "gancho": "Una nube negra cubre una aldea desde que Lanamon se enfadó con alguien; los héroes deben averiguar quién la hirió y consolarla antes de que la lluvia lo inunde todo."
+ },
+ "wolfmon": {
+  "descripcion": "Guerrero lobo con partes lavanda hechas de Saint Amethyst, un cristal que guarda luz sagrada: resistente mientras su corazón es sincero, quebradizo en cuanto aparece la negatividad. De espíritu caballeresco, arriesga la vida por lo que cree y detesta la injusticia. Callado y distante, parece frío, pero en realidad es de buen corazón.",
+  "tacticas": "Duelista de luz: Licht Sieger corta a distancia con sus espadas luminosas y puede cegar, y Zwei Sieger une las hojas para un tajo cercano. Describe cómo se agrieta el cristal si Lobomon duda o ve una injusticia.",
+  "gancho": "El cristal de Lobomon se agrieta tras una injusticia ocurrida en el pueblo; el guerrero silencioso necesita que los héroes descubran al culpable antes de que su luz se apague."
+ },
+ "louwemon": {
+  "descripcion": "Verdadero heredero del Espíritu de la Oscuridad, libre ya de la maldición. No hay maldad en él: actúa como una sombra al servicio de los demás Guerreros Legendarios, el Valiente Guerrero Negro. Su fuerza rivaliza con la de un Fusión, y se dice que el anillo de su dedo índice esconde un poder aún mayor.",
+  "tacticas": "Lancero sombrío: Ewig Schlaf es una estocada intensa lanzada a distancia, y Endlich Meteor dispara una onda dorada desde el león de su pecho que ralentiza. Úsalo como aliado inesperado o como rival honesto.",
+  "gancho": "Un guerrero oscuro, pero noble, aparece entre las sombras para defender al grupo de un peligro que aún no han visto; deben ganarse su confianza para saber quién lo envió."
+ },
+ "magnagarurumon": {
+  "descripcion": "Lobo cíborg trascendente, señor de la luz, del que se dice que supera a los Diez Guerreros Legendarios. Se especializa en la velocidad extrema y se desplaza casi a la velocidad de la luz. Su coraza pectoral y las armas de ambos brazos son desmontables, aunque así pierde potencia, y los láseres de su pecho fijan objetivos de los que es casi imposible escapar.",
+  "tacticas": "Francotirador de élite: Machinegun Destroyer descarga todo su arsenal con fuerza brutal y a gran velocidad, y Starlight Velocity lo convierte en un rayo que ciega al contacto. Haz que marque a su objetivo antes de golpear.",
+  "gancho": "Un punto de luz roja recorre el pecho de uno de los héroes sin explicación: MagnaGarurumon ha fijado un objetivo, y el grupo debe averiguar a quién protege o a quién persigue."
+ },
+ "mercuremon": {
+  "descripcion": "Consejero de los Guerreros del Mal, de gustos aristocráticos, que alardea de la magnificencia de sus armas y estrategias incluso en plena batalla. Sus engranajes giran tan rápido que idea cualquier plan, y siempre murmura discusiones consigo mismo. Los Escudos de la Ironía de sus brazos devuelven el daño recibido, y puede esfumarse dentro de sus espejos.",
+  "tacticas": "Tanque de contraataque: Generous Mirror refleja los ataques a distancia con escudo y respuesta inmediata, y Offset Reflector hace lo mismo cuerpo a cuerpo. Castiga a los héroes que ataquen sin pensar.",
+  "gancho": "En una mansión llena de espejos, Mercurymon recibe a los héroes con un discurso interminable; para hallar la salida deberán dejar de atacar y descubrir cuál es el reflejo verdadero."
+ },
+ "bolgmon": {
+  "descripcion": "Escarabajo cíborg hallado en un sistema de defensa inspirado en la cámara de los escarabajos de una pirámide. Prudente y cauto, protege a sus compañeros con su blindaje sólido y, al llegar al límite, lanza una ofensiva total hasta no dejar nada del enemigo. Es pesado y lento, así que suele apoyar desde la retaguardia, aunque de cerca también arrasa.",
+  "tacticas": "Artillería pesada: Ultimate Thunder concentra toda su energía en un rayo brutal que paraliza, y Field Destroyer barre una zona con un láser de fuego. Mantenlo atrás, protegido por aliados, y vigila cuándo llega a su punto crítico.",
+  "gancho": "Una pirámide cuyas cámaras se abren una a una esconde a MetalKabuterimon como su guardián; los héroes deben resolver los acertijos sin desatar su ofensiva total."
+ },
+ "petaldramon": {
+  "descripcion": "Criatura vegetal que nació cuando incontables brotes crecieron sobre Arbormon hasta formar un gran lagarto de plantas. Comparte su carácter estoico e inexpresivo, pero tiene un apetito voraz: abre la boca y su lengua de hiedra se traga todo lo que encuentra. Cada presa hace crecer sus ramas, y su musgo suelta esporas que dan sueño.",
+  "tacticas": "Controlador de campo: Leaf Cyclone empuja a todos los que le rodean con un torbellino de hojas, y Thousand Spikes clava raíces que perforan y atrapan en una ráfaga. Describe las esporas dormilonas como ambiente del escenario.",
+  "gancho": "En un bosque los árboles crecen sin parar y los animales desaparecen; el culpable es Petaldramon, un devorador silencioso al que hay que detener antes de que siga alimentándose."
+ },
+ "raihimon": {
+  "descripcion": "Digimon de la oscuridad que supera la leyenda tras heredar en plenitud el poder de los Diez Guerreros Legendarios. Lo llaman Emperador Guardián de la Oscuridad porque nadie ha visto nunca su forma, y ni siquiera quienes lo combatieron saben describirlo. Entre sus armas figura un ataque que dispara desde los ojos de su cabeza de león.",
+  "tacticas": "Jefe misterioso: Schwarz Lehrsatz anula las leyes de la física en una zona para ejecutar y asustar, y Rot Kreuz es un disparo venenoso desde los ojos de su cabeza de león. No lo describas con detalle: que siga siendo un misterio.",
+  "gancho": "Cada testigo de un combate contra una enorme sombra cuenta una versión distinta; los héroes deben reunir los relatos para saber qué custodia el Emperador Guardián de la Oscuridad."
+ },
+ "rhinokabuterimon": {
+  "descripcion": "Insecto tan enorme y acorazado que podría confundirse con un dinosaurio. Genera un campo magnético con una corriente de ultra alto voltaje que dirige mediante su gigantesco cuerno. Se especializa en cargar contra sus enemigos, aunque nunca llega a tocarlos: los lanza por los aires con ese campo. Ha heredado por completo el poder de los Guerreros Legendarios.",
+  "tacticas": "Volador de carga eléctrica: Condenser Storm atrapa a los rivales en una tormenta que cubre una zona, y Thunder Laser dispara un haz concentrado que paraliza. Sobrevuela el combate y castiga a quienes se agrupen.",
+  "gancho": "Una tormenta de rayos sin nubes azota una cumbre; RhinoKabuterimon descarga su energía acumulada y solo parará si los héroes encuentran dónde canalizar tanta electricidad."
+ },
+ "sephirothmon": {
+  "descripcion": "Digimon sin emociones, frío como una máquina, que analiza al instante a su oponente y golpea donde es más vulnerable. Su cuerpo está formado por diez orbes, cada uno asociado al elemento de un Guerrero, que pueden atacar o absorber con ese elemento. Una risa baja e inquietante se oye cuando un ataque suyo acierta o el rival falla.",
+  "tacticas": "Tira un dado de diez: Rumble Blend Number (1-10) baraja sus orbes y el que quede como cabeza decide con qué elemento narras el ataque, que además paraliza. Solo es vulnerable si un héroe hace algo fuera de sus cálculos.",
+  "gancho": "Un enigma de diez piezas aparece en una plaza y reordena sus orbes ante los curiosos; resolver su orden revela cuál de los elementos protege el lugar."
+ },
+ "storabimon": {
+  "descripcion": "Criatura mitad humana, mitad bestia nacida cuando perdió parte del poder de Lobomon. Parece un Novato, pero a diferencia de Flamemon conserva su instinto de combate y tiene un lado brutal: a veces se desata con tal violencia que hasta los Campeones sufren para contenerlo. Aun debilitado, muchos Campeones no tienen nada que hacer contra él.",
+  "tacticas": "Atacante impulsivo: en cuanto se enfurece, usa Licht Nagel, un zarpazo de garras brillantes que ciega al objetivo. Haz que pierda el control si la pelea se alarga, para subir la tensión.",
+  "gancho": "Un joven lobo salvaje arrasa un mercado sin saber por qué; los héroes deben calmar su furia sin lastimarlo y averiguar qué poder perdido está buscando."
+ },
+ "velgrmon": {
+  "descripcion": "Ave colosal y monstruosa a la que llaman el Devorador de Cadáveres por su aspecto amenazador. Es la forma bestial de Duskmon, que se vuelve partículas y emerge de una gran niebla negra. Orgulloso, Duskmon detesta esta forma tosca, por lo que rara vez se la ve. Sus garras ciegan y sus colmillos aplastan el metal.",
+  "tacticas": "Depredador aéreo: Zone Deleter lanza a otra dimensión todo lo que rodea al objetivo con un aleteo que ralentiza, y Master of Darkness lo asusta y corrompe. Haz que aparezca desde la niebla negra para sorprender.",
+  "gancho": "Una niebla negra cubre el cielo sobre un cementerio de datos y de ella emerge un ave enorme; los héroes deben huir o dar con el Duskmon que se oculta detrás."
+ },
+ "shutumon": {
+  "descripcion": "Digimon del viento de movimientos lánguidos que parece una mujer adulta y serena, pero tiene un carácter caprichoso y travieso. Le encanta causar problemas y anunciar malos augurios. En combate casi nunca ayuda: deja que sus aliados se vean en apuros solo para verlos esforzarse. Cuando quiere, planea sin esfuerzo y maneja el viento con magia secreta.",
+  "tacticas": "Atacante que nunca se compromete: Gilgamesh Slicer corta con las garras de sus cuatro miembros y empuja, y Wind of Pain lanza sus plumas como flechas afiladas. Funciona mejor como aliada caprichosa que como enemiga leal.",
+  "gancho": "Zephyrmon se ofrece a leerles la fortuna a los héroes y vaticina desastres; ¿es mentira, broma o aviso verdadero? Deberán decidir si ignorarla puede costarles caro."
+ },
+ "aegiochusmon": {
+  "descripcion": "Deidad que sintetiza las habilidades de muchas especies sobre un cuerpo humano, en busca de la omnipotencia, y cuya forma cambia según el entorno. Esta variante se basa en datos de Dragón: esa energía, latente en torno al cristal de su pecho, se manifiesta como una armadura que además hace de músculo y multiplica su fuerza de golpe.",
+  "tacticas": "Pegador relámpago: Bolt Break Knockdown lanza una lluvia de puñetazos eléctricos que rompen y atrapan, y Lightning Pile clava una estaca de rayo desde arriba. Si la primera estaca acierta, las siguientes no deberían fallar.",
+  "gancho": "Un guerrero de armadura de dragón acude a defender un pueblo bajo una tormenta y pide a los héroes que vigilen el cristal de su pecho, pues el entorno puede transformarlo."
+ },
+ "aegiochusmon:blue": {
+  "descripcion": "Forma azul de Aegiochusmon basada en datos de Cíborg, concentrados sobre todo en la mitad izquierda de su cuerpo. Fija a sus objetivos para que no escapen y puede soltar su gigantesco brazo mecánico para que persiga al enemigo, volviendo luego a acoplarlo. Como el resto de su especie, cambia de forma según el entorno.",
+  "tacticas": "Cazador a distancia: Penetra-laser dispara un rayo cegador desde el brazo mecánico, y Powered Ignition carga contra el rival con un estallido de fuego. Haz que fije a un objetivo y no lo suelte.",
+  "gancho": "El brazo mecánico de Aegiochusmon: Blue se separa solo y persigue a un bandido que robó un cristal; el grupo debe alcanzarlos antes de que haya daños."
+ },
+ "aegiochusmon:dark": {
+  "descripcion": "Forma oscura de Aegiochusmon, basada en datos de tipos malignos. La maldad inunda su mente y su cuerpo y lo lleva a ver todo como una presa. Aunque es de tipo Vacuna, genera virus: en la electricidad roja que desprende se esconde uno, y lo inyecta en las heridas que provoca, destruyendo a la víctima desde dentro.",
+  "tacticas": "Depredador implacable: Triangler despedaza con tres guadañas y asusta, y Death Dinner salta sobre la presa para devorarla y drenar sus fuerzas. Haz que persiga siempre al más herido.",
+  "gancho": "Una electricidad roja ronda un pantano y los Digimon heridos enferman; los héroes siguen el rastro hasta un ser que, siendo de Vacuna, esparce virus."
+ },
+ "aegiochusmon:green": {
+  "descripcion": "Forma verde de Aegiochusmon, basada en datos de Planta y mucho más ligera que las demás. Dispara espinas resistentes desde los cañones de ambos brazos y las usa como ganchos para trepar y hacer acrobacias. Su rasgo principal es la agilidad que le dan esa ligereza y su equipo.",
+  "tacticas": "Emboscador de enredaderas: Bramble Bite convoca zarzas demoníacas que muerden y atrapan, y Plant Zone Cradle cubre una zona con espinas que rodean a todos. Úsalo en escenarios con muchos puntos de apoyo.",
+  "gancho": "En una jungla de enredaderas gigantes, Aegiochusmon: Green salta de rama en rama y reta a los héroes a alcanzarlo; si lo consiguen, les mostrará un camino oculto."
+ },
+ "aegiochusmon_holly": {
+  "descripcion": "Forma sagrada de Aegiochusmon basada en datos de Ángel, con un corazón claro como un estanque. Con los escudos de sus manos canaliza la esencia Vacuna para crear espadas cortas o una barrera que ni los tipos Virus ni los de Datos pueden atravesar. Su defensa también devuelve los golpes con una descarga eléctrica.",
+  "tacticas": "Guardián que castiga: Circlet Defense levanta un escudo que protege a un aliado y empuja al atacante, y Lightning Shower provoca a los enemigos con una lluvia de espadas sobre una zona. Es ideal como protector del grupo.",
+  "gancho": "Los héroes piden refugio en un templo flotante donde Aegiochusmon: Holy protege a los inocentes con su barrera, pero un virus oculto intenta romperla desde dentro."
+ },
+ "earov-dramon": {
+  "descripcion": "Evolución de Veedramon que ha ganado la capacidad de volar. Solo los más fuertes de su linaje lo logran tras incontables combates, y como los Veedramon ya son raros, AeroVeedramon es casi una leyenda. Además de alas ha ganado ataque y defensa, y el combate aéreo lo hace prácticamente imbatible.",
+  "tacticas": "Bruto aéreo: V-Wing Blade, que solo puede usar en vuelo, lo convierte en una cuchilla brutal que empuja, y Dragon Impulse dispara una onda con forma de dragón. Hazlo atacar en picado desde las alturas.",
+  "gancho": "Un dragón alado cruza el cielo en busca de aprendices dignos de su linaje; para recibir su ayuda, los héroes deben superar una prueba en pleno vuelo."
+ },
+ "ajatarmon": {
+  "descripcion": "Vegetal que vive en tribus y ha creado su propia cultura en lo profundo de la jungla. Callado por naturaleza, coordina la caza con señas, y los miembros de su grupo trabajan en equipo para abatir presas. Seco y de genio vivo, es un cazador orgulloso y de corazón puro.",
+  "tacticas": "Cazador de tribu: Entangling Ivy inmoviliza con las enredaderas de su cabeza, y Shotgun Moss envenena con agujas a quien se refugie lejos. Presenta varios Ajatarmon coordinándose sin decir palabra.",
+  "gancho": "Los héroes se internan en la jungla y una tribu de Ajatarmon los observa en silencio; para cruzar su territorio deberán entender sus señas y demostrar respeto."
+ },
+ "andromon": {
+  "descripcion": "Androide prototipo capaz de eliminar de un solo golpe a casi cualquier Digimon de nivel inferior. No tiene emociones ni voluntad propia, y solo cumple su programación, que mejoró con datos de otro Andromon. Fue creado como modelo mecánico al mismo tiempo que Boltmon se hacía como modelo orgánico.",
+  "tacticas": "Tirador programado: Gatling Missile dispara una ráfaga certera de misiles a larga distancia, y Spiral Sword lanza hojas de energía desde sus brazos cuando el enemigo se acerca. Es una máquina sin piedad que solo obedece su programa.",
+  "gancho": "Una fábrica abandonada despierta a un androide que sigue una orden antigua sin comprender nada; los héroes deben reprogramarlo o esquivar su puntería."
+ },
+ "angewomon": {
+  "descripcion": "Arcángel con aspecto de mujer hermosa, serena por naturaleza pero intolerante con la maldad: no deja de atacar hasta que el enemigo se reforma. Por la fortaleza de su espíritu y su gran poder es considerada una diosa del Mundo Digital, y su ataque Heaven's Charm es más eficaz cuanto más oscuro es el poder del rival.",
+  "tacticas": "Apoyo luminoso: Celestial Arrow dispara desde lejos una flecha certera que purifica, y Heaven's Charm encanta al enemigo, con más fuerza si es oscuro. Procura que nadie la alcance cuerpo a cuerpo.",
+  "gancho": "Una diosa alada sobrevuela las ruinas de un castillo oscuro y exige que cesen los abusos; los héroes pueden convencerla de dar una oportunidad a quien ha cambiado."
+ },
+ "angewomon_x": {
+  "descripcion": "Versión de Angewomon con un Anticuerpo X que amplifica su poder sagrado y le permite canalizar su energía pura en cualquier elemento que toque: fuego que espanta el mal, tierra que florece, agua que purifica o viento que calma los corazones. Sigue siendo una arcángel serena que no tolera la maldad.",
+  "tacticas": "Mística de elementos: Grand Celestial Arrow dispara una flecha de rayos que perfora y ciega, alimentada por los elementos cercanos, y Heaven's Charm encanta al enemigo. Hazla más fuerte si hay fuego, agua o viento en el escenario.",
+  "gancho": "Un desierto estéril florece de pronto bajo las alas de una arcángel; la fuente de esa vida es Angewomon (X Antibody), pero alguien pretende arrebatársela."
+ },
+ "andiramon_2": {
+  "descripcion": "Digimon con forma del deva conejo de las doce bestias sagradas del folclore oriental. Controla a voluntad la energía espiritual que recorre su cuerpo: unas veces se mueve con suave gracia y otras golpea con dureza de hierro. Su técnica Meditation Cure recupera cualquier cantidad de daño en un instante.",
+  "tacticas": "Monje veloz: Mantra Chant endurece su cuerpo con energía luminosa y lo vuelve rápido para golpear y cegar, y Meditation Cure le permite curar en plena pelea. Ataca, se retira y se sana.",
+  "gancho": "Un conejo sabio medita en lo alto de un monte; para escuchar su consejo los héroes deben aprender el ritmo de su respiración y no interrumpirlo."
+ },
+ "andiramon": {
+  "descripcion": "Deva conejo al servicio de Azulongmon, uno de los Cuatro Soberanos, y de corazón bondadoso. Adora a las criaturas pequeñas y las trata con sumo cuidado; si alguien amenaza con aplastarlas, su carácter cambia por completo, convierte sus manos en Bǎo Fǔ y ataca. Una vez furioso, no se calma hasta que no queda ningún enemigo cerca.",
+  "tacticas": "Jefe de escenario: cuando amenacen a los pequeños, Bunny Blades lo hace girar como un tornado y cortar todo a su alrededor con golpes rápidos de zona. Haz crecer su enfado poco a poco para dar tensión.",
+  "gancho": "Un grupo de pequeños Digimon pide asilo al Deva conejo mientras un cazador los persigue; los héroes deben evitar una tragedia calmando a Antylamon antes de que ataque."
+ },
+ "algomon-ultimate": {
+  "descripcion": "Digimon nacido de un error en un algoritmo de cálculo. Utiliza innumerables lianas como tentáculos para controlar un vasto campo gracias a su procesamiento ultrarrápido. Cuando domina un territorio grande, se transforma en su fase parásita, la Worm Phase.",
+  "tacticas": "Controlador de zona: Imprisonment aprieta y sella con sus tentáculos para inmovilizar, y Elimination Line dispara desde los ojos de sus extremidades un haz borrador que ejecuta y atrapa. Haz que domine el terreno.",
+  "gancho": "Una zona del Mundo Digital pierde sus colores como si alguien la borrara; el culpable es un error con tentáculos, y los héroes deben cortarlo antes de que pase a su fase parásita."
+ },
+ "arkhaiangemon": {
+  "descripcion": "Principado de rango equiparable a MagnaAngemon y Angewomon. Se preocupa profundamente por los demás y es a la vez consejero y comandante de su escuadra: protege a sus subordinados Luxmon y Angemon y los guía con órdenes directas. Rara vez combate él mismo; cuando lo hace, invoca a Gargoylemon y Manticoremon desde un torbellino de llamas.",
+  "tacticas": "Comandante de apoyo: Saint Legion invoca multitud de familiares que ciegan al enemigo, y Brave Aura envuelve a los aliados en llamas que los protegen y mejoran. Que cuide de su escuadra y deje la lucha a los suyos.",
+  "gancho": "Un escuadrón de ángeles pide ayuda porque su comandante ha desaparecido en un torbellino de llamas; los héroes deben encontrar a ArkhaiAngemon antes de que sus familiares se queden sin órdenes."
+ },
+ "arresterdramon_superior": {
+  "descripcion": "Forma potenciada de Arresterdramon, surgida cuando su deseo de fuerza hizo aparecer un nuevo Kinkoji. Tiene alas más grandes, una enorme Tail Anchor más afilada que nunca y un brazo derecho cuya forma recuerda a Bagramon, símbolo de su poder destructivo. Aun así, usa esa fuerza para el bien y planta cara a los Digimon malignos.",
+  "tacticas": "Bruto con muchas herramientas: Blaze Spiker es una palmada de talón en llamas que perfora y quema, y Mach Flicker es un golpe veloz de remate. Funciona como aliado poderoso de los héroes o como rival que quiere probarlos.",
+  "gancho": "Un dragón justiciero persigue a un Digimon maligno hasta el campamento del grupo y exige que se lo entreguen; los héroes deben descubrir quién dice la verdad."
+ }
+}

@@ -1,0 +1,227 @@
+{
+  "ikkakumon": {
+    "descripcion": "Corpulento animal polar de espeso pelaje y piel todavía más dura que el cuero curtido, nacido en un laboratorio del Ártico. Su cuerno de mithril, un metal escaso, remata una cabeza que sabe rugir como un león para intimidar. Avanza despacio, pero sus garras emiten calor y le dan agarre firme hasta sobre el hielo más traicionero.",
+    "tacticas": "Bruto lento pero imparable: se planta en el hielo, ruge para amedrentar y dispara Harpoon Torpedo, su propio cuerno convertido en proyectil que perfora armaduras a distancia. Como el cuerno vuelve a crecerle, puede repetir el disparo sin miedo.",
+    "gancho": "Una expedición de Digimon pequeños debe cruzar un lago helado y solo Ikkakumon puede derretir el camino, pero antes exige que alguien recupere su cuerno, perdido en una grieta."
+  },
+  "jazardmon": {
+    "descripcion": "Mezcla de dragón y avión de combate, dotado de visión nocturna, sensores térmicos y detección ultrasónica que hacen casi imposible sorprenderlo. Es un excéntrico al que le apasiona el reconocimiento: vigila su entorno por pura afición, con ojos que disparan láseres y ametralladoras montadas sobre los hombros.",
+    "tacticas": "Tirador de largo alcance: abre con Laser Eye, certero y capaz de cegar, y cubre su posición con ráfagas de Sonic Vulcan que confunden al objetivo. Si el grupo intenta una emboscada, él ya los habrá detectado.",
+    "gancho": "Jazardmon ofrece acompañar a los héroes como explorador si le ayudan a localizar a un intruso invisible que lleva días burlando todos sus sensores."
+  },
+  "junglemojamon": {
+    "descripcion": "Habitante de lo más profundo de la selva, considera su madriguera y su territorio tierra sagrada y no tiene piedad con quien los invade. Bajo su pelaje enmarañado late una fuerza salvaje que estalla en cuanto alguien cruza la frontera. Con él no hay advertencias largas ni segundas oportunidades.",
+    "tacticas": "Ágil de cuerpo a cuerpo: salta desde el follaje y encadena Jungle Punch, un golpe rápido que casi siempre le da ventaja. Dentro de su territorio es implacable; lejos de él se vuelve mucho más cauto.",
+    "gancho": "El único atajo por la jungla cruza la guarida de JungleMojyamon. Los héroes deberán demostrar respeto, con regalos o con buenos modales, antes de que el guardián ponga a prueba sus puños."
+  },
+  "kabuterimon": {
+    "descripcion": "Insecto gigante con la fuerza de una hormiga y las defensas de un escarabajo; su cabeza metálica aguanta golpes que partirían una roca. Solo piensa en sobrevivir y hará cualquier cosa para lograrlo. Se muestra hostil con los Digimon Virus y los ataca sin piedad nada más verlos.",
+    "tacticas": "Tirador volador: patrulla por el aire y dispara Electro Shocker desde lejos, con puntería certera y posibilidad de paralizar. Si hay algún Virus en la escena, lo elige como objetivo prioritario.",
+    "gancho": "Un Kabuterimon ha acorralado a un Digimon Virus herido en una cueva y no escucha razones. Los héroes deben decidir si lo calman, lo apartan o ayudan al fugitivo."
+  },
+  "kausgammamon": {
+    "descripcion": "Forma madura de Gammamon, con el cuerpo teñido de azul por la serenidad de su espíritu. Lleva membranas extensibles en los brazos y toberas en las rodillas, y se muestra siempre sereno y dueño de sí. Antes de actuar, estudia los movimientos de su rival y decide con calma cómo golpear.",
+    "tacticas": "Bruto sereno que lee al adversario: abre con Urda Impulse, un placaje rasante de fuego que empuja y derriba, y remata con Lamberta Kick, una patada con voltereta impulsada por las toberas de sus rodillas.",
+    "gancho": "Un KausGammamon medita en lo alto de un risco y reta a los héroes a un combate sin rencor, pero solo si antes consiguen perturbar su calma."
+  },
+  "kinkakumon": {
+    "descripcion": "Ogresa dorada, hermana mayor de Ginkakumon, con quien forma la temida pareja de los Hermanos Ogro de Oro y Plata. Se lanza de cabeza a los asuntos del corazón y saca conclusiones precipitadas: si alguien le gusta, lo persigue a golpes. Es fuerte, despistada y completamente novata en el amor.",
+    "tacticas": "Bruto impredecible: machaca el suelo con la maza mediante Kibakusou, que rompe defensas, o se envuelve en electricidad con Dokidokidokyūn para proteger a los suyos. Si se avergüenza o se entristece, golpea con más furia.",
+    "gancho": "Kinkakumon se ha encaprichado de uno de los héroes y lo persigue por todo el mapa, maza en mano, convencida de ser correspondida. Hará falta mucha diplomacia."
+  },
+  "kiwimon": {
+    "descripcion": "Ave ancestral que se creía extinguida desde que Internet se expandió. Hojas brotan de su cabeza y le permiten alimentarse con la luz, como una planta; un duro casco es su única protección. Es tan dócil que resulta un blanco fácil, pero guarda en su interior a unos ayudantes muy ruidosos.",
+    "tacticas": "Ágil y escurridizo: ataca con Pummel Peck, soltando los pequeños ChibiKiwimon ocultos en su cuerpo para picotear con rapidez. Los pollitos explotan al golpear y siempre regresan. Prefiere ceder terreno antes que alargar el combate.",
+    "gancho": "Un Kiwimon asustado busca refugio porque teme que lo cacen. Si los héroes lo protegen, descubrirán por qué los depredadores de la zona no dejan de rondar."
+  },
+  "knightchessmon_black": {
+    "descripcion": "Caballo de ajedrez de las piezas negras y maestro en el lanzamiento de enormes dardos. Flojea en el cuerpo a cuerpo, pero sus patas son tan potentes como las de un purasangre y le permiten saltar sobre cualquiera para romper su formación. Su grito de guerra es «Joust».",
+    "tacticas": "Místico a distancia: arrasa con Big Darts, una ráfaga mental que confunde, y si lo acorralan salta con Gallop Whole para pisotear y derribar. Knight Lancer le sirve para preparar los dardos antes de cargar.",
+    "gancho": "Un tablero gigante cierra el paso y este caballero negro exige una partida: los héroes son las piezas, y cada movimiento mal calculado será castigado con una lluvia de dardos."
+  },
+  "knightchessmon": {
+    "descripcion": "Caballo de ajedrez de las piezas blancas y maestro en el lanzamiento de enormes dardos. Es débil de cerca, pero sus patas poseen la potencia de un purasangre y le sirven para saltar por encima de los rivales y desbaratarlos. Su grito de guerra es «Joust».",
+    "tacticas": "Místico a distancia: castiga con Big Darts, una ráfaga mental que confunde, y cuando se ve en apuros se eleva con Gallop Whole para aplastar y derribar. Con Knight Lancer prepara sus dardos antes de cargar.",
+    "gancho": "Un caballero blanco reta a los héroes a una justa para ganarse el paso por un puente, aunque sus dardos no entienden de deportividad ni de reglas."
+  },
+  "kougamon": {
+    "descripcion": "Shinobi del Mundo Digital que se oculta tras una máscara morada y viaja de sombra en sombra para entrenar el estilo Kōga-ryū. Casi nadie llega a verlo, y quien lo hace suele pensar que fue un truco de la luz. Vive para perfeccionar su ninjutsu y apenas deja rastro.",
+    "tacticas": "Versátil y sigiloso: crea un doble con Kōga-style Shadow Clone para atacar desde dos lados y asustar al objetivo. Aparece, golpea y se esfuma entre las sombras antes de que el grupo reaccione.",
+    "gancho": "Alguien roba comida del campamento y solo deja huellas entre las sombras. Es Kogamon, que busca un rival digno con quien practicar, no un botín."
+  },
+  "cockatrimon": {
+    "descripcion": "Ave gigantesca de patas poderosísimas, con un cuerpo hecho para la vida en el suelo. Es violenta y feroz, aunque evita los combates largos porque su enorme corpachón gasta mucha energía. Para intimidar despliega las alas y exhibe la cola. Dicen que su fuego especial no deja cenizas, sino piedra.",
+    "tacticas": "Ágil de choque: abre con Petra Fire, un fuego a distancia que quema y llega rápido, y después cae sobre su presa con sus patas. Si el combate se alarga se cansa y busca retirarse, buen momento para negociar.",
+    "gancho": "Aparecen estatuas de Digimon en la ladera de una montaña. Un Kokatorimon guarda su nido allí, y los héroes deben averiguar si son víctimas de su fuego o simples adornos."
+  },
+  "kokeshimon": {
+    "descripcion": "Muñeca kokeshi viviente que habita castillos y mansiones abandonados del este del Mundo Digital. Se queda tan quieta que se la confunde con un adorno, hasta que asusta por diversión a quien se acerca. Flota sin hacer ruido gracias a su poder psíquico y protege con ternura a los Digimon pequeños: una vez que confía, es una compañera leal.",
+    "tacticas": "Místico de control: dispara Sophora Storm, una tormenta de proyectiles psíquicos que empuja a todos los que alcanza, y remata con Kideko Strike, un impacto desde lo alto que aturde. Empieza inmóvil para sorprender.",
+    "gancho": "En una mansión abandonada, un Kokeshimon sentado en una estantería asusta a los visitantes, pero en realidad vigila a unos Digimon pequeños escondidos. Los héroes deben ganarse su confianza."
+  },
+  "komondomon": {
+    "descripcion": "Digimon lanudo al que le encanta cargar a otros sobre el lomo y recorrer cualquier terreno con paso despreocupado, incluso nadar girando la cola. Su largo pelaje siempre está sucio de arrastrarse, aunque en el fondo adora estar limpio. Detesta pelear: su prioridad es la seguridad de quien va a cuestas.",
+    "tacticas": "Ágil defensivo: prefiere huir con su pasajero, pero si lo acorralan intercepta con Howling Wiper, que asusta, y embiste con Masshigurun. Pelea lo justo para que quien va a su espalda escape.",
+    "gancho": "Komondomon se ofrece a llevar a los héroes por un río peligroso, pero antes necesita un buen baño. Su pelaje sucio le avergüenza más que cualquier monstruo."
+  },
+  "chrysalimon": {
+    "descripcion": "Crisálida que adopta Keramon para acumular energía antes de evolucionar a una forma más poderosa. En este estado no puede moverse, pero su dura cubierta lo protege y los tentáculos que brotan de su espalda se encargan de atacar. Parece inofensivo, aunque en su interior se está gestando un gran poder.",
+    "tacticas": "Bruto inmóvil: se queda quieto y golpea con los tentáculos mediante Data Crusher, que pega con brutalidad y rompe defensas. Quien se acerca demasiado lo paga caro; quien se mantiene lejos, casi no corre peligro.",
+    "gancho": "Una crisálida enorme palpita en una cueva y los datos a su alrededor se corrompen. Los héroes deben decidir si destruirla antes de que evolucione o protegerla mientras madura."
+  },
+  "kuwagamon": {
+    "descripcion": "Insecto con enormes pinzas en la cabeza y un caparazón recio, muy superior a sus parientes de Isla File. Atrapa a su presa con las pinzas y aprieta hasta que ya no queda vida que exprimir. Mantiene una enemistad total con Kabuterimon, el de atributo Vacuna.",
+    "tacticas": "Acechador volador: cae en picado, agarra con Scissor Claw y rompe la armadura o el equipo del objetivo. Si hay un Kabuterimon cerca, lo prefiere a cualquier otro blanco.",
+    "gancho": "Los pantanos del bosque se llenan de caparazones partidos por unas pinzas gigantes. Un Kuwagamon marca su territorio, y todo viajero debe decidir cómo cruzarlo."
+  },
+  "kuwagamon_x": {
+    "descripcion": "Variante con Anticuerpo X cuyo lado Virus se ha intensificado: ya no solo odia a los Vacuna, sino que ataca a los Digimon de tipo Datos en cuanto los ve. Es codicioso en el combate: afila sus brazos para cortar al enemigo y luego remata las heridas con las pinzas de la cabeza.",
+    "tacticas": "Acechador volador y oportunista: endurece sus brazos con Crunch Arm y después ataca con Scissor Claw, que rompe protecciones. Elige siempre a los objetivos de tipo Datos o Vacuna.",
+    "gancho": "Los Digimon de datos de una aldea huyen despavoridos porque un Kuwagamon con Anticuerpo X los persigue sin motivo. Los héroes deben interponerse antes de que acabe con todos."
+  },
+  "kyubimon": {
+    "descripcion": "Zorro gigante de nueve colas, temido como portador de ruina y decadencia, aunque en tiempos antiguos lo celebraban como mensajero de la paz. Tiene poca fuerza física pero una energía espiritual enorme, y se especializa en hechizos. Dicen que las llamas azules de sus patas le permiten galopar por el cielo.",
+    "tacticas": "Místico de zona: invoca fuegos fatuos con Fox Tail Inferno para quemar a varios enemigos a la vez y, si se le acercan, responde con Dragon Wheel, un dragón de llama azul que brota de su cola.",
+    "gancho": "Un Kyubimon aparece en un santuario para traer paz o destrucción, según cómo lo traten. Los héroes deben medir sus palabras ante sus nueve colas encendidas."
+  },
+  "landramon": {
+    "descripcion": "Digimon mineral hecho casi por completo de datos de arena, que se funde con el desierto mientras acecha a sus presas. Lidera manadas de Sunarizamon y les transmite órdenes con un gemido grave que viaja bajo las dunas. Detesta la humedad, y su poder depende del terreno: en pleno desierto es temible.",
+    "tacticas": "Bruto de terreno: apuñala desde el suelo con Terra Spike, que perfora y derriba, y traga a los enemigos con Desert Abyss para asustarlos. Fuera de la arena, o en sitios húmedos, pierde fuerza.",
+    "gancho": "Una caravana se hunde en arenas movedizas dirigidas por Landramon y su manada de Sunarizamon. Los héroes deben encontrar agua para debilitarlo antes de que el desierto los trague."
+  },
+  "lavorvomon": {
+    "descripcion": "Digimon de lava que deja nubes de ceniza a su paso. Tiene alas, pero casi no las usa y se arrastra por el suelo; aun así, se mueve con una rapidez sorprendente para su aspecto macizo. Es muy cariñoso con quien se gana su confianza, aunque su ceniza es explosiva y sus amigos acaban huyendo.",
+    "tacticas": "Bruto de cuerpo a cuerpo: se abalanza con Earth Stomp para derribar y machacar, y a distancia inhala hondo y suelta Great Flame, una bola de fuego brutal que quema. Su ceniza vuelve peligroso el terreno.",
+    "gancho": "Un Lavorvomon solitario busca compañía, pero cada vez que se acerca a alguien todos salen corriendo por miedo a una explosión. Alguien debe ayudarlo a controlar su ceniza."
+  },
+  "lekismon": {
+    "descripcion": "Hombre bestia de saltos asombrosos al que le gusta jugar con sus rivales gracias a su velocidad. Su carácter es tan cambiante como las fases de la luna y su aspecto tiene algo místico. Lleva guantes lunares en las manos y protuberancias en la espalda de las que saca flechas: más que pelear, parece bailar.",
+    "tacticas": "Ágil y juguetón: duerme a sus presas con las burbujas de Moon Night Bomb, lanzadas con rapidez, y las acribilla desde lejos con Tear Arrow. Salta sin parar, así que resulta difícil de inmovilizar.",
+    "gancho": "En cada noche de luna llena, Lekismon invita a los héroes a un baile que incluye burbujas somníferas. Si caen dormidos, algo habrá desaparecido de su campamento al amanecer."
+  },
+  "leomon": {
+    "descripcion": "Conocido como el Rey de las Bestias y el Noble Héroe, une una voluntad de hierro con un gran sentido de la justicia que le ha permitido vencer a incontables villanos. Entrena a diario para resistir cualquier golpe y lleva a la cintura la espada Shishiou-maru, que tiene voluntad propia. Su gran rival es Ogremon.",
+    "tacticas": "Bruto noble: protege a los débiles, planta cara al más fuerte y remata con Fist of the Beast King, un golpe de fuego brutal lanzado a distancia. Respeta a los rivales honorables y perdona a quien se rinde.",
+    "gancho": "Leomon desafía a su eterno rival Ogremon a un duelo en una aldea, pero Ogremon ha cambiado las reglas. Los héroes deben asegurarse de que el combate sea limpio."
+  },
+  "leomon_x": {
+    "descripcion": "Versión de Leomon que, para vencer a más Digimon malvados, ha entrenado no solo el cuerpo sino también la esgrima. Empuña a la vez la espada larga Jūga-maru y la Shishiou-maru, y su destreza le ha valido el apodo de Gladiador Bestia. Su capa roja, ganada ante un Mega, es símbolo de héroe.",
+    "tacticas": "Ágil duelista: ataca con sus dos espadas y sorprende con Fist of the Beast King, un golpe de fuego rápido que alcanza a distancia. Su movilidad le permite escoger a qué rival enfrentar.",
+    "gancho": "Un Leomon de capa roja organiza un torneo de esgrima en un castillo en ruinas. Los héroes deben inscribirse o descubrir quién intenta sabotear a los combatientes."
+  },
+  "liamon": {
+    "descripcion": "Bestia sagrada con aire de rey incluso siendo Campeón. Se cree que es la evolución de Liollmon, pero hay tan pocos ejemplares que se la tiene casi por un mito. Prefiere cazar presas más fuertes que ella y se la ha visto atacar sin miedo incluso a Digimon Mega.",
+    "tacticas": "Ágil cazador: carga la melena y lanza Thunder of the King, un rayo que paraliza a distancia, o cierra con Critical Strike apuntando a los puntos débiles. Escoge siempre al enemigo más fuerte del grupo.",
+    "gancho": "Corre el rumor de que una Liamon ha desafiado a un Mega. Los héroes llegan al final del combate y encuentran a la felina herida y orgullosa, que no acepta ayuda sin una prueba."
+  },
+  "lianpumon": {
+    "descripcion": "Enmascarado alegre al que le encantan las fiestas y cambia de máscara al instante para animar el ambiente. Nadie ha visto su verdadero rostro, porque cuando se quita una máscara aparece otra debajo. Casi no habla: expresa lo que siente con gestos y con máscaras, que quizá se parezcan a sus amigos.",
+    "tacticas": "Versátil de apoyo: cambia de máscara según la necesidad, con Cast-Iron Facet para endurecerse y Devotion Visage para curar a los aliados. Si se enfada, lanza sus máscaras como shuriken con Nonuple Mask Attack.",
+    "gancho": "Un festival de máscaras en una aldea digital sale mal porque alguien ha robado una de las máscaras de Lianpumon. Los héroes deben encontrarla antes de que acabe la fiesta."
+  },
+  "loogarmon": {
+    "descripcion": "Bestia oscura que produce tanta magia que la expulsa en forma de llamas por la boca. Con un solo rugido puede reducir su entorno a cenizas, y como el fuego es mágico, arde durante mucho tiempo. La anticuada interfaz de su frente sugiere a los investigadores que desciende de un Digimon prototipo.",
+    "tacticas": "Acechador de fuego: carga el aliento y descarga Howling Burner, que asusta y quema desde lejos, o se envuelve en llamas mágicas para embestir con Flame Blow. Sus quemaduras duelen más de lo que aparentan.",
+    "gancho": "Un bosque entero arde con llamas que no se apagan. Loogarmon ruge desde el centro de las cenizas, y los héroes deben encontrar la manera de extinguir su magia."
+  },
+  "machmon": {
+    "descripcion": "Androide obsesionado con la velocidad, parecido a una moto sin asiento y sin intención de aceptar jinete, aunque confía en que algún día aparecerá el Digimon destinado a conducirlo. Es un gamberro de nacimiento y odia todo lo que se mueve rápido. Las nubes de polvo en llanuras vacías suelen ser obra suya.",
+    "tacticas": "Tirador veloz: dispara sus cuatro cañones sin apuntar con Madness Fire, que confunde a todos, y embiste con Full Throttle Edge, cuchillas certeras que lo trocean todo. Prioriza a los rivales rápidos.",
+    "gancho": "Machmon reta a los héroes a una carrera por la llanura y ofrece lo que sea al ganador. Pero si alguien intenta montarlo, el desafío acaba en pelea."
+  },
+  "madleomon": {
+    "descripcion": "Antiguo Digimon león que se modificó una y otra vez hasta perder la conciencia, convertido en una marioneta que derrota a quien le plantan delante. Actúa solo por instinto y embiste sin pensar en trampas. Sus garras llevan un veneno que pudre todo lo que tocan.",
+    "tacticas": "Bruto sin cabeza: carga de frente sin evitar trampas, envenena con Poison Claw y, a distancia, dispara Beast Blaster, una descarga con forma de cabeza de león que asusta y lanza por los aires a quien alcanza.",
+    "gancho": "Un MadLeomon arrasa los campos sin saber por qué. Los héroes descubren una orden grabada en su interior y deben decidir si lo detienen o buscan a quien lo controla."
+  },
+  "madleomon:armedmode": {
+    "descripcion": "MadLeomon con una motosierra y otras modificaciones que le provocan un dolor constante. Ese dolor lo enfurece y le impide quedarse quieto: ve enemigos en todo lo que mira y ataca. Su estado refleja su corazón, un terreno roto y desgarrado. Solo descansará cuando derrote a su presa.",
+    "tacticas": "Bruto frenético: no para de moverse y ataca con The Lion Sleeps Tonight, un tajo brutal de motosierra que adormece, o hunde el arma en el suelo con Lion Heart para encantar a su víctima.",
+    "gancho": "Los héroes oyen una motosierra rugir en plena noche. Es el dolor de MadLeomon, que no sabe si quiere atacar o pedir ayuda. Calmar a la bestia puede ser la mejor victoria."
+  },
+  "mailbirdramon": {
+    "descripcion": "Depredador mecánico de ojos agudos que estudia el combate con frialdad y elige el momento exacto para actuar. Es especialista en apoyar con ataques relámpago y retirarse enseguida. Su fuerza total supera con mucho la de los Digimon que solo saben luchar de cerca, y su carácter es calculador y sereno.",
+    "tacticas": "Tanque calculador: provoca con Plasma Cannon, que paraliza y atrae todas las miradas, mientras Nighthawk asusta a los demás. Si se le acercan, responde con Trident Tail para perforar y derribar.",
+    "gancho": "MailBirdramon ofrece un trabajo de correo urgente: llevar un paquete misterioso por un valle vigilado. Curiosamente, él mismo pide escolta y no explica por qué."
+  },
+  "manekimon": {
+    "descripcion": "Muñeco con forma de gato de la suerte, aunque su fortuna es dudosa: su enorme brazo derecho puede romper losas de piedra, y el aparato de su zarpa atrae lo que tiene delante. Pero no trae suerte, sino víctimas. Su aspecto tierno es un engaño muy bien trabajado.",
+    "tacticas": "Místico engañoso: lanza Koban Toss, monedas doradas que ciegan a distancia, y atrae al rival con la zarpa para rematar con Welcoming Fist, un puñetazo que aturde incluso a Digimon más fuertes.",
+    "gancho": "Una tienda abierta en pleno desierto sonríe con un Manekimon en la puerta. Promete fortuna a los viajeros, pero nadie ha salido de ella con los bolsillos llenos."
+  },
+  "mantaraymon_x": {
+    "descripcion": "Raya acorazada de aspecto agresivo pero carácter tranquilo, que nada sin prisa por el vasto Océano de la Red. Su forma la hace casi invisible a los radares, y por eso la llaman el Sigilo de las Profundidades. Con el Anticuerpo X se ha vuelto aún más escurridiza, aunque la luz de su aguijón delata su posición.",
+    "tacticas": "Tanque paralizante: ataca con Paralyze Tail, un pinchazo del aguijón que paraliza y fija la atención de los rivales, y desde lejos lanza Paralyze Bomb. Evita luchar, pero castiga a quien la ataca.",
+    "gancho": "Alguien caza mantarrayas por sus dotes de espionaje. Una Mantaraymon pide a los héroes que la escolten por el Océano de la Red hasta aguas más seguras."
+  },
+  "meicoomon": {
+    "descripcion": "Gata de grandes orejas y cola cuyo pelaje suave y aspecto tierno esconden unas garras muy afiladas. Es tímida: los dos apéndices de su cuello le sirven para ocultar la cara o como bufanda cuando hace frío. Su tipo es un misterio incluso para los Digimon más sabios.",
+    "tacticas": "Bruto de cuerpo a cuerpo: araña con Shut Claw, un zarpazo brutal, y si la acorralan escupe Trichobezoar, una bola de pelo que destroza datos. Es tímida, así que ataca cuando se siente amenazada.",
+    "gancho": "Una Meicoomon asustada se esconde en un almacén y araña a quien se acerca. Si los héroes la tranquilizan, descubrirán quién la ha asustado tanto."
+  },
+  "mechanorimon": {
+    "descripcion": "Traje mecánico para Digimon pequeños y primer Digimon de tipo vehículo del Mundo Digital. No puede moverse por sí mismo: necesita un piloto en todo momento. Como su atributo es Virus, quien lo maneja también puede considerarse Virus. Aún está en desarrollo, y su DigiCore se sobrecalienta si lo usan demasiado.",
+    "tacticas": "Tanque piloteado: con Gyro Break, un taladro explosivo, rompe armaduras y provoca, y con Twinkle Beam, un rayo de luz, ciega al enemigo. Si se sobrecalienta, se detiene y el piloto queda expuesto.",
+    "gancho": "Un Digimon diminuto pide ayuda para sacar a su Mekanorimon de una trampa, pero la máquina está sobrecalentada. Los héroes deben enfriarla antes de que estalle."
+  },
+  "meramon": {
+    "descripcion": "Digimon de fuego envuelto en llamas carmesí, nacido de los cortafuegos que protegen las redes de los intrusos. Su temperamento violento refleja las llamas y quema todo lo que toca. Es el más poderoso de su clase en Isla File y muy difícil de domesticar: ni siquiera su domador sabe cuándo se volverá contra él.",
+    "tacticas": "Bruto de fuego: se acerca y enciende los puños con Burning Fist, que golpea con brutalidad y quema. Es impredecible; el Director puede hacer que se vuelva incluso contra quien dice dominarlo.",
+    "gancho": "Un Meramon arde frente a la puerta de un cortafuegos y no deja pasar a nadie. Los héroes deben convencerlo de que no son intrusos, o apagar su furia por otros medios."
+  },
+  "meramon_x": {
+    "descripcion": "Meramon con un temperamento todavía más violento: cuando encuentra un Virus invasor se lanza a golpearlo aunque él sea de tipo Datos. Su valentía nace de una barrera llamada X-Patch, que crea con la energía acumulada en su mano derecha y que lo protege de los ataques de los Virus.",
+    "tacticas": "Bruto de fuego protegido: levanta su barrera y lanza X Radicate, que lo escuda y quema a distancia. Es mucho más peligroso frente a los Virus, a los que persigue sin descanso.",
+    "gancho": "Un Meramon con Anticuerpo X descubre a un Digimon Virus escondido entre los héroes y exige que se lo entreguen. Ellos deberán defenderlo o demostrar que no es peligroso."
+  },
+  "mikemon": {
+    "descripcion": "Gato calicó del Mundo Digital que muestra el lado travieso de su etapa anterior al llegar a Campeón. Aunque recuerda a los felinos sagrados, no lo es: no lleva Anillo Sagrado. Es listo y, en reposo, tranquilo y dócil; pero en combate se divierte jugando con sus rivales a base de ágiles movimientos.",
+    "tacticas": "Ágil juguetón: golpea con Paw Punch, almohadillas endurecidas y muy rápidas, y araña con Cat Claw. Juega con sus rivales, así que retrocede y vuelve a pegar en lugar de combatir hasta el final.",
+    "gancho": "Un Mikemon aparece cada tarde en la ventana de un edificio abandonado y parece guiar a los héroes. Siguiendo su cola descubrirán una puerta secreta."
+  },
+  "mimicmon": {
+    "descripcion": "Mutación de un programa de seguridad que protegía ordenadores. Ha capturado y absorbido a los Virus que invadieron su territorio, y por eso ha adquirido atributo Virus. Dentro de su jaula hay muchos Digimon sellados; se cree que cada brazo y cuerno que sobresale es uno de ellos.",
+    "tacticas": "Versátil siniestro: asusta con Dead Shot y envenena con Hinder Miasma. Describe los brazos y cuernos que asoman de la jaula como prisioneros que intentan escapar y deja que el miedo haga el resto.",
+    "gancho": "Los héroes oyen voces que piden ayuda desde el interior de un Mimicmon. Para liberar a los cautivos tendrán que enfrentarse a la jaula que los mantiene presos."
+  },
+  "minotaurmon": {
+    "descripcion": "Digimon oscuro con gran poder del lado oscuro, de movimientos torpes pero de piel tan dura que los ataques corrientes ni lo inmutan. Lleva un Brazo Demonio en el brazo izquierdo con el que hace temblar la tierra, y nadie escapa de sus ondas de choque, por lejos que corra.",
+    "tacticas": "Bruto lento: aguanta golpes y suelta Darkside Quake, un temblor de zona que derriba y golpea con brutalidad a quienes estén cerca. Es torpe, así que conviene moverse para eludirlo.",
+    "gancho": "El suelo de una aldea tiembla cada noche. Minotarumon camina entre las ruinas con su Brazo Demonio, y los héroes deben detenerlo antes de que el pueblo se derrumbe."
+  },
+  "mojyamon": {
+    "descripcion": "Criatura peluda de espeso manto blanco que vive en regiones nevadas remotas; se le ve tan pocas veces que durante mucho tiempo se tuvo por fantasía. Es amable y nunca muestra hostilidad, pero considera su guarida tierra sagrada y no perdona a quien la invade.",
+    "tacticas": "Acechador helado: surge de la nieve y lanza Icicle Rod, un carámbano que congela y remata, o Boomerang Bone, un hueso helado que regresa a su mano. Solo ataca si invaden su territorio.",
+    "gancho": "Una tormenta de nieve obliga a los héroes a refugiarse en una cueva helada, sin saber que es la guarida sagrada de un Mojyamon. Deberán mostrarse muy educados para salir ilesos."
+  },
+  "monochromon": {
+    "descripcion": "Dragón acorazado con un cuerno de rinoceronte en el hocico que puede alcanzar la mitad de su cuerpo; su punta es dura como el diamante y dicen que no hay nada que no pueda perforar. Es herbívoro y bastante dócil, pero si lo enfurecen contraataca con la fuerza de un tanque.",
+    "tacticas": "Bruto defensivo: aguanta como un tanque y, cuando se enfada, embiste con Volcanic Strike, un golpe de fuego brutal. Mientras nadie lo provoque, un buen Director puede hacerlo pasar de largo.",
+    "gancho": "Un Monochromon pasta en medio del camino y se niega a moverse. Los héroes deben apartarlo sin enfurecerlo, porque el desfiladero es estrecho y no hay otra salida."
+  },
+  "monochromon_x": {
+    "descripcion": "Su piel brilla negra, como un caparazón aún más duro, y las largas garras de sus patas se clavan en el suelo para sostener el gigantesco cuerno con forma de hacha antes de descargarlo. Conserva el carácter de herbívoro tranquilo del Monochromon común, pero ahora su capacidad de supervivencia es mucho mayor.",
+    "tacticas": "Bruto acorazado: ancla sus garras y corta con Tomahawk Slash, un hachazo con el cuerno, o embiste con Volcanic Strike, que quema y golpea con brutalidad. Es lento pero casi imposible de derribar.",
+    "gancho": "Un Monochromon negro tala árboles con su cuerno-hacha para despejar un camino, pero los Digimon del bosque lo creen un invasor. Los héroes deben evitar una guerra por un malentendido."
+  },
+  "morishellmon": {
+    "descripcion": "Pariente de Shellmon que vive en los pantanos del bosque profundo, con otro color y otro hábitat: se cree que su cuerpo cambió para camuflarse. Suele quedarse dentro de su duro caparazón, pero es tan agresivo como Shellmon. Su cuerpo es grande y poderoso, así que mejor no molestarlo.",
+    "tacticas": "Bruto acorazado: se mete en su caparazón y gira con Shell Pile, una carga brutal, o exhala una niebla densa con Mind Fog que ciega y provoca alucinaciones a todos los que estén cerca.",
+    "gancho": "Un pantano cubierto de niebla hace que los viajeros vean cosas que no existen. MoriShellmon lo ha convertido en su hogar, y los héroes tendrán que descubrir qué es real."
+  },
+  "tuchidarumon": {
+    "descripcion": "Digimon hecho casi enteramente de datos de tierra, al que se considera una mutación de Frigimon. De carácter amistoso, poco amigo de las peleas, se mueve sin prisa y busca siempre evitar el conflicto. Pero cuando las cosas se ponen feas demuestra una fuerza que pocos han visto.",
+    "tacticas": "Versátil pacífico: evita el combate hasta el último momento y, cuando no puede más, pone todo su peso en Great Weight, un puñetazo demoledor. Un buen Director puede hacerlo dialogar antes.",
+    "gancho": "Un MudFrigimon bloquea un puente sin querer porque se ha quedado atascado. Los héroes deben ayudarlo antes de que alguien aproveche su situación para atacarlo."
+  },
+  "mulemon": {
+    "descripcion": "Digimon máquina con forma de bestia cuadrúpeda, de aspecto frágil pero muy resistente, con un equilibrio ideal para terrenos difíciles. Dos brazos robóticos plegados en su cuerpo le sirven para cargar bultos o lanzar a Digimon pequeños. Es el mensajero del Mundo Digital: diligente, aunque obsesionado con una sola ruta.",
+    "tacticas": "Bruto mensajero: cocea con Iron Gallop, que derriba y rompe, y desde lejos saca los misiles de su lomo con Missile Rodeo. Si algo bloquea su ruta, no entra en razón.",
+    "gancho": "Mulemon transporta un paquete urgente y un derrumbe bloquea su único camino. Está dispuesto a destruir todo lo que se interponga, y los héroes deben hallar otra ruta antes de que lo haga."
+  },
+  "musyamon": {
+    "descripcion": "Guerrero acorazado que antes fue datos de un protagonista de videojuego y evolucionó al infectarse con un virus. Tantas batallas lo han dejado con aspecto de desertor derrotado, pero eso solo demuestra su fiereza. Su espada demoníaca Shiratori-maru, grabada con un hechizo prohibido, absorbe la vida de lo que corta. Sueña con medirse algún día con Leomon.",
+    "tacticas": "Místico guerrero: desenvaina la Shiratori-maru y usa Kirisute Gomen para confundir a distancia antes de acercarse. Lo mueve el orgullo y el duelo pendiente con Leomon.",
+    "gancho": "Musyamon, harapiento y orgulloso, ofrece una alianza temporal a los héroes si le ayudan a encontrar a Leomon para el duelo que lleva años esperando."
+  }
+}

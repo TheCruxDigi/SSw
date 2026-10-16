@@ -1,0 +1,227 @@
+{
+  "marindevimon": {
+    "descripcion": "Pariente abisal de Devimon, vive en fosas oceánicas tan profundas y aisladas que ha olvidado cualquier emoción salvo el rencor. Pelea sucio incluso para los estándares de los demonios y no se detiene aunque su rival ya haya perdido las ganas de luchar. Dos tentáculos que le brotan de la espalda actúan por su cuenta y atrapan todo lo que se acerca.",
+    "tacticas": "Bruto despiadado que remata a quien ya está caído. Su firma Dark Deluge suelta una niebla venenosa desde la boca que envenena y golpea con saña; describe los tentáculos de su espalda agarrando por sorpresa a quien intente huir.",
+    "gancho": "Los pescadores de una aldea costera vuelven siempre con las redes vacías: algo en la fosa cercana ataca a quien se rinde. Los héroes deben bajar hasta allí y averiguar por qué MarineDevimon no perdona."
+  },
+  "masterblimpmon": {
+    "descripcion": "Dirigible de guerra que perfeccionó a su antecesor Blimpmon: el globo antes desprotegido ahora lleva blindaje, lo que reduce la resistencia al aire y aumenta su velocidad de crucero. Su misión favorita es transportar a otros Digimon pasajeros hasta el frente, y su casco erizado de troneras, rematado por un taladro de proa, impone respeto a cualquier enemigo.",
+    "tacticas": "Tanque que concentra la atención del grupo. Zeppelin Circus lanza misiles guiados que casi nunca fallan y provocan a los héroes para que respondan, mientras que Daredevil Break es una embestida con el taladro de proa que revienta defensas y coberturas.",
+    "gancho": "Un ejército de Digimon pide a los héroes que escolten a MasterBlimpmon hasta un campamento sitiado, pero alguien ha saboteado las bodegas de pasajeros antes de que la nave zarpe."
+  },
+  "mastertyranomon": {
+    "descripcion": "Antiguo Tyrannomon que ganó incontables combates difíciles; las cicatrices que cubren su cuerpo son la prueba de cada victoria. Con los años ha dejado de buscar pelea para convertirse en maestro, y entrena a los Tyrannomon más jóvenes hasta que se vuelven guerreros de verdad. Es severo con sus alumnos y temible con quien los amenaza.",
+    "tacticas": "Bruto veterano que sostiene la línea sin moverse. Master Fire es un chorro de llamas intenso que quema y golpea con fuerza brutal; si el combate se alarga, puedes sumar a algunos alumnos Tyrannomon como refuerzo.",
+    "gancho": "Una camada de jóvenes Tyrannomon se ha perdido en un cañón volcánico. Su maestro, MasterTyrannomon, promete guiar a los héroes hasta ellos si antes superan su dura prueba de combate."
+  },
+  "matadrmon": {
+    "descripcion": "Bailarín y esgrimista nacido de la base de datos de danzas folclóricas de cierto museo. Los ropajes ondulantes que agita despistan al rival mientras entre los pliegues de sus mangas se ocultan incontables estoques. Se alimenta de sangre de Digimon, pero no de cualquiera: recorre tierras lejanas buscando presas fuertes que merezcan su baile.",
+    "tacticas": "Bruto elegante que desconcierta antes de rematar. Bulldog confunde con su danza, y Thousand Arrows lanza una ráfaga de estoques que perfora y hiere con brutalidad. Earth-Shattering Stomp sirve para quebrar el suelo o la guardia de quien se acerca.",
+    "gancho": "Una feria de Digimon recibe a un bailarín misterioso de capas ondulantes que reta a los más fuertes a bailar. Quienes aceptan acaban sin fuerzas, y los héroes deben descubrir por qué."
+  },
+  "meicrackmon": {
+    "descripcion": "Criatura tímida que odia los conflictos y suele pasar las horas dormitando enroscada bajo el sol. Si percibe que algo se acerca, se escabulle entre las sombras para observar desde lejos. A veces se encariña con quien le trae comida, pero si un enemigo invade su territorio lo defiende con una ferocidad que nadie esperaría de ella.",
+    "tacticas": "Ágil que prefiere esconderse y solo pelea acorralada. Modestly Stun apresa con dos tentáculos y aturde con el aguijón de la cola, y Felt Made crea un señuelo que provoca al grupo. Si los héroes se marchan de su territorio, puede dejarlos ir.",
+    "gancho": "Alguien deja comida cada día para un tímido Maycrackmon entre unas ruinas soleadas, pero una banda rival quiere instalarse allí. El territorio de la criatura está a punto de convertirse en campo de batalla."
+  },
+  "meicrackmon_v": {
+    "descripcion": "Cuando el corazón de un Maycrackmon apacible se tiñe de maldad, aparecen grietas por todo su cuerpo. Entonces ve el mundo entero como un enemigo y solo desea destruirlo. Su asombrosa fuerza en las patas, su aguda percepción y sus instintos animales lo vuelven un perseguidor incansable, y sus garras malditas cortan el metal como si fuera papel.",
+    "tacticas": "Místico impredecible que no negocia ni se cansa. Su única técnica, Felt Made, lanza señuelos que crean copias suyas y provocan al grupo; úsala para sembrar dudas sobre cuál es el verdadero mientras acecha y persigue sin tregua.",
+    "gancho": "Los héroes encuentran un Maycrackmon corrompido que va llenando de grietas el bosque. Calmar su corazón, quizá devolviéndole algo que perdió, puede ser la única manera de detenerlo sin destruirlo."
+  },
+  "megadramon": {
+    "descripcion": "Dragón negro modificado de forma artificial por alguien desconocido, que lo programó para destruirlo todo. Se le tiene por el más terrible de los dragones cíborg de su nivel, casi un virus informático hecho carne. Entra en redes muy protegidas con facilidad y, una vez dentro, altera o arruina el equipo anfitrión sin esfuerzo.",
+    "tacticas": "Tirador volador que castiga desde el aire. Eradication Attack dispara una salva de misiles orgánicos desde los brazos que quema, y si alguien se le acerca, Ultimate Slicer corta con crueldad brutal y deja el terreno ardiendo.",
+    "gancho": "Un servidor sagrado del Mundo Digital ha sido infiltrado y sus archivos arden uno tras otro. Los héroes siguen el rastro hasta un Megadramon que cumple una orden antigua que nadie recuerda haber dado."
+  },
+  "atlurkabuterimon-blue": {
+    "descripcion": "Gran insectoide azul, una vez y media más grande que Kabuterimon, hallado en regiones tropicales de la Net Area. Su cuerno es descomunal y los músculos de sus patas delanteras le dan buenos puños. Famoso por su espíritu caballeresco, protege a los más débiles y no tolera que nadie abuse de ellos.",
+    "tacticas": "Acechador que elige el momento de golpear. Horn Buster es una embestida de su gran cuerno que perfora la defensa desde distancia; si los héroes defienden a inocentes en el mismo combate, puede incluso ponerse de su lado.",
+    "gancho": "Una aldea de Digimon débiles cree estar maldita por un enorme insecto que ronda de noche. En realidad MegaKabuterimon la vigila, y los héroes deben entenderlo antes de atacarlo."
+  },
+  "atlurkabuterimon": {
+    "descripcion": "Insectoide rojo de gran envergadura, de la misma especie que su hermano azul pero con un dominio superior del vuelo. Mide una vez y media lo que Kabuterimon, con un cuerno poderoso y brazos musculosos para pelear de cerca. Caballeroso y protector, se ha ganado fama de defender a los débiles en las selvas tropicales de la Net Area.",
+    "tacticas": "Acechador aéreo que ronda sobre el grupo y se lanza en picado con Horn Buster, un cuerno de acero que perfora la guardia. Si los héroes protegen a inocentes durante el combate, puede ponerse de su parte.",
+    "gancho": "Un convoy de pequeños Digimon cruza la selva rumbo a un santuario, perseguido por bandidos. Una sombra roja sobrevuela el camino: MegaKabuterimon decidirá si los héroes merecen su ayuda."
+  },
+  "megaseadramon": {
+    "descripcion": "Forma que adoptan los Seadramon que logran sobrevivir al duro entorno del Folder Continent. Más grande e inteligente que antes, lleva en la cabeza un caparazón más robusto y en la frente una cuchilla con forma de rayo. Persigue a sus enemigos sin descanso, como un torpedo con rumbo fijo.",
+    "tacticas": "Tanque acuático que aguanta mientras dispara. Lightning Javelin lanza un rayo desde la cuchilla de su frente con gran alcance, perfora la defensa y puede paralizar; vigila a quien intente rodearlo.",
+    "gancho": "Un río del que depende un pueblo entero se llena de descargas eléctricas. MegaSeadramon patrulla sus aguas persiguiendo algo que huyó de la costa, y los héroes deben averiguar qué busca."
+  },
+  "megaseadramon_x": {
+    "descripcion": "Considerado el rey de los Seadramon con Anticuerpo X, ha sobrevivido desde tiempos antiguos en todas las regiones del Net Ocean, de mares helados a aguas tropicales, como delatan los colores de su cuerpo. Disparar rayos en incontables combates ha templado la cuchilla de su frente, ahora más afilada y más conductora.",
+    "tacticas": "Tirador marino que domina las distancias. Lightning Javelin descarga un rayo que perfora y paraliza, y con King Javelin hunde su cuchilla en el rival para desgarrarlo. Hazlo disparar desde el agua y esconderse tras las olas.",
+    "gancho": "En un mar de aguas que cambian de color, los marineros hablan del rey de los Seadramon, que exige un tributo para dejar pasar los barcos. Los héroes pueden negociar con él o desafiarlo."
+  },
+  "mephismon": {
+    "descripcion": "Digimon con forma de gran macho cabrío, nacido de los restos conceptuales de Apocalymon y heredero de su deseo de extinguir toda vida. Es cruel, domina la magia negra y tiene mente de estratega, de modo que planifica cada ritual con cuidado. Pocos adversarios resultan tan peligrosos como uno tan inteligente.",
+    "tacticas": "Místico que juega con el miedo. Black Sabbath es una letanía oscura que asusta a quien la escucha, y Death Cloud extiende una nube de decaimiento que debilita y puede invocar ayuda. Mantiene la distancia y vuela.",
+    "gancho": "Una procesión de Digimon entona cantos fúnebres cerca de una torre en ruinas, atraídos por una voz que promete terminar con todo sufrimiento. Los héroes deben romper el hechizo de Mephistomon."
+  },
+  "mephismon_x": {
+    "descripcion": "Su aspecto ha cambiado del macho cabrío original a una cabra vestida con elegancia, y maneja conjuros oscuros avanzados con refinamiento. Bajo esas buenas maneras sigue siendo cruel: encuentra su razón de ser en acabar con quienes lloran, suplican o resisten sin esperanza.",
+    "tacticas": "Místico elegante y volador. Merry Merry Destruction libera una enorme fuerza mágica desde su paraguas, golpea con brutalidad y confunde, y Hermannia es su recurso cuando alguien logra acercarse. Haz que hable con cortesía mientras ataca.",
+    "gancho": "Una invitación perfumada llega a los héroes para tomar el té en un jardín apartado. La anfitriona, Mephistomon, no admite negativas, y los invitados que se resisten no regresan."
+  },
+  "mermaimon": {
+    "descripcion": "Habitante de los mares más fríos del Mundo Digital con aspecto de sirena de leyenda. Canta con facilidad y encanta a otros Digimon, pero manda su avaricia: seduce para saquear sus datos y, cuando ya son suyos, los tira sin interés. Se rumorea que en algún rincón del Net Ocean hay un colosal botín de datos desechados.",
+    "tacticas": "Bruto seductor. Charm Plunder encanta al héroe más cercano antes de hundirle el ancla dorada con saña, y Northern Cross Bomber hace girar esa ancla en un estallido de luz que ciega. Elige como víctima a quien cargue lo más valioso.",
+    "gancho": "Una melodía hermosa atrae a los viajeros hasta una cala helada donde Mermaimon los despoja de sus pertenencias. Alguien necesita recuperar un objeto robado antes de que la sirena se aburra y lo descarte."
+  },
+  "metalgreymon": {
+    "descripcion": "Modo de refuerzo táctico que suma la armadura de MailBirdramon a la fuerza de Greymon. Sigue siendo un combatiente de cuerpo a cuerpo: el Trident Arm añade garras al rojo vivo a su ya notable potencia. Además, puede plantar cara a grupos enteros, algo que su base nunca habría logrado.",
+    "tacticas": "Tirador versátil. Giga Destroyer lanza un láser guiado de alta energía contra todos los enemigos de una zona, con efecto brutal que remata a los debilitados; si lo rodean, cambia a Trident Arm y perfora de cerca.",
+    "gancho": "Un Greymon herido pide a los héroes que le ayuden a conseguir la armadura de MailBirdramon para defender su aldea. Quienes la custodian no entregarán nada sin una buena razón."
+  },
+  "metalgreymon-v": {
+    "descripcion": "Androide con la parte superior del cuerpo mecanizada, fruto de un Greymon que venció a varios enemigos poderosos. Se dice que sus ataques igualan una ojiva nuclear y borran del mapa a los Digimon de nivel inferior. Los MetalGreymon de File Island, en cambio, se modificaron a sí mismos para vivir más y el esfuerzo tiñó de azul su cuerpo natural.",
+    "tacticas": "Tirador volador de enorme potencia. Giga Destroyer dispara misiles biónicos desde el pecho con puntería certera, Giga Storm barre una zona con una ola ardiente y Trident Arm perfora si alguien se le acerca.",
+    "gancho": "Un MetalGreymon azulado de File Island exige un duelo a quien quiera cruzar el puente, pero en realidad busca adversarios dignos para un Greymon joven que desea evolucionar."
+  },
+  "metalgreymon_va_x": {
+    "descripcion": "Androide de torso mecánico que surge del Greymon que ha vencido a rivales muy superiores. Su Anticuerpo X actualiza el conjunto, y sus ataques se comparan con una ojiva nuclear capaz de arrasar a los Digimon de nivel inferior. Solo llega hasta esta forma quien ha sobrevivido a una larga serie de combates peligrosos.",
+    "tacticas": "Tirador de pie firme. Giga Destroyer dispara misiles biónicos desde una escotilla del pecho con precisión brutal, y Trident Arm Ver. 9.9 es su respuesta a quien se acerca: un zarpazo que perfora con el brazo reforzado.",
+    "gancho": "Un ejército de Digimon bloquea un paso de montaña. Un MetalGreymon con Anticuerpo X ofrece abrirlo a cambio de que los héroes le consigan los materiales para reparar su brazo reforzado."
+  },
+  "metalgreymon-web": {
+    "descripcion": "Androide con más de la mitad del cuerpo convertido en máquina. Ha sobrevivido a incontables batallas precisamente gracias a esa mecanización. Para llegar a esta forma, un Greymon debe vencer antes a varios enemigos poderosos, y se dice que sus ataques rivalizan con los de una ojiva nuclear.",
+    "tacticas": "Tirador de una sola idea: abre la escotilla del pecho y descarga Giga Destroyer, misiles biónicos certeros y brutales. Úsalo como amenaza fija en el campo, de modo que el grupo deba esconderse o cerrar distancia.",
+    "gancho": "Un veterano MetalGreymon de atributo Virus guarda un viejo campo de batalla y no deja pasar a nadie. Para convencerlo, los héroes deberán demostrar que no son un enemigo más."
+  },
+  "metalgreymon_vi_x": {
+    "descripcion": "Todas sus piezas mecánicas han sido actualizadas por el Anticuerpo X. El Alterous Trident Arm de su brazo izquierdo, rediseñado, alterna entre modo Blitz y modo Blast, y un propulsor lo hace superar la velocidad del sonido a máxima potencia. Su energía vírica es tan tóxica y contagiosa que se la considera una calamidad.",
+    "tacticas": "Tirador con dos caras. En modo Blitz, Energy Blitz lo lanza a toda velocidad para perforar con un ataque rápido; en modo Blast, Pandemic Destroyer dispara energía vírica brutal desde lejos. Cambia de modo según la distancia.",
+    "gancho": "Una región entera enferma por una misteriosa energía vírica. Los héroes siguen la pista hasta un MetalGreymon que apenas controla su brazo mejorado y teme lo que podría hacer."
+  },
+  "metalgreymon_cyberlauncher": {
+    "descripcion": "Modo de armamento pesado de Cyberdramon, con el que presta su poder a otros Digimon. En esta forma se vuelve una plataforma de artillería con dos técnicas: concentrar toda su energía en un único disparo a máxima potencia o sacrificar fuerza bruta para descargar todos sus cañones a la vez contra varios enemigos.",
+    "tacticas": "Tanque artillero. Cyber Gigantic Launcher exige carga y deja un único disparo brutal; Coronal Mass Ejection empuja y quema a quien esté cerca. Alternarlas puede aniquilar a un grupo desprevenido.",
+    "gancho": "Un Cyberdramon exhausto ofrece prestar su poder como arma pesada a quien defienda su ciudad sitiada, pero alguien debe decidir cuándo disparar, pues una sola descarga puede arrasar también a los aliados."
+  },
+  "metalgreymon_alter": {
+    "descripcion": "MetalGreymon que, tras sobrevivir a feroces combates, transformó su brazo derecho en un enorme cañón de energía llamado Alterous para enfrentarse a rivales aún más duros. Se rediseñó para dominar cualquier distancia: lejos con el cañón, cerca con una hoja de positrones. Cada derrota ajena le ha enseñado algo nuevo.",
+    "tacticas": "Tirador completo que cubre todos los alcances. Positron Blaster concentra energía en Alterous para un disparo perforante cargado, y Alter Blade corta de cerca con una hoja de positrones. No dejes que se limite a una distancia.",
+    "gancho": "Un MetalGreymon con un cañón nuevo en el brazo derecho recorre las montañas buscando rivales dignos. Reta a los héroes, y quien lo derrote será reconocido entre los guerreros de la región."
+  },
+  "metallifekuwagamon": {
+    "descripcion": "Subespecie de Kuwagamon armada hasta los dientes, cuya forma humanoide le da dotes de combate cuerpo a cuerpo. Su caparazón es duro y sus movimientos son ágiles, un equilibrio con el que la mayoría de Digimon de su nivel solo sueña. Desde los cañones de sus dedos dispara rayos que giran en el aire.",
+    "tacticas": "Acechador volador. Homing Laser rodea las coberturas, siempre encuentra a su objetivo y lo ciega; si el grupo se acerca, Blade Emission corta con un haz en forma de hoja. Ninguna pared ni columna basta para esconderse.",
+    "gancho": "Un puesto de vigilancia lleno de escondites recibe la visita de un insecto metálico que dispara desde lejos. Los héroes deben hallar cómo acercarse sin que sus rayos teledirigidos los alcancen."
+  },
+  "metalmamemon": {
+    "descripcion": "Evolución androide de Mamemon, el bombardero sonriente, con el 90 por ciento del cuerpo mecanizado. Conserva su aspecto simpático, y también las dolorosas consecuencias para quienes se dejan engañar por él. Todo su poder destructivo sale del Psycho Blaster montado en su brazo izquierdo.",
+    "tacticas": "Tirador engañoso. Presenta una cara adorable para que los héroes bajen la guardia y luego dispara Energy Bomb desde el Psycho Blaster: una explosión certera y brutal a larga distancia que puede decidir el combate.",
+    "gancho": "Un entrañable MetalMamemon pide escolta hasta una fortaleza lejana. La mitad de los Digimon que encuentran lo toman por un juguete inofensivo y pagan caro el error."
+  },
+  "metalmamemon_x": {
+    "descripcion": "Su mecanización ha llegado al 99 por ciento y ejecuta con precisión órdenes sencillas como atacar, defender o moverse. Conserva su aspecto adorable, que sigue engañando a los incautos. Su Psycho Blaster, más avanzado, dispara además una variante láser explosiva capaz de borrar a un rival en un instante.",
+    "tacticas": "Tirador disciplinado, ideal junto a un líder que le dé órdenes. Energy Bomb golpea con brutalidad desde lejos, y Energy Laser Bomb ciega y remata a los que ya están debilitados.",
+    "gancho": "Un MetalMamemon sin amo sigue esperando órdenes en un campo de batalla abandonado. Quien se las dé dirigirá también su fuerza, así que los héroes deben decidir quién mandará."
+  },
+  "metalfantomon": {
+    "descripcion": "Androide que mecaniza por completo el cuerpo de Phantomon, el segador. Funciona con energía de otro Mundo Digital situado en otra dimensión, y se dice que alguna fuerza ajena lo controla. Su guadaña de energía emite un grito extraño que cosecha almas directamente, sin importar armaduras ni escudos.",
+    "tacticas": "Tirador sombrío. Grave Scream asusta con un alarido que atraviesa defensas y le proporciona un escudo, y Soul Predator agranda su guadaña para drenar vitalidad desde larga distancia. Ideal para una cripta mecánica.",
+    "gancho": "Alguien parece manejar a distancia a un segador mecánico que recorre un cementerio de datos. Los héroes deben rastrear la señal que lo controla antes de que cosechen demasiadas almas."
+  },
+  "metaltyranomon": {
+    "descripcion": "Androide remodelado para interceptar enemigos en tierra, igual que Megadramon fue reformado para el combate aéreo. Los ataques rebotan en su cuerpo reforzado y su mentón es tan duro que atraviesa blindajes macizos. Su capacidad ofensiva es terrorífica.",
+    "tacticas": "Tirador blindado, un baluarte perfecto para un villano. Giga DestroyerⅡ lanza un misil desde el brazo derecho que quema con fuerza brutal, y Nuclear Laser ciega con un haz disparado desde el izquierdo.",
+    "gancho": "Un puente estratégico está custodiado por un MetalTyrannomon que intercepta todo lo que se mueve por tierra. Los héroes necesitan cruzarlo y tendrán que ser ingeniosos."
+  },
+  "metaltyranomon_x": {
+    "descripcion": "Más salvaje que MetalGreymon, pero también el que posee mayor capacidad de destrucción sobre tierra firme. Como Tyrannomon ya era muy resistente, aguantó extensas modificaciones del Crack Team, que convirtió su ferocidad en armamento. El exceso de energía sale por su brazo izquierdo.",
+    "tacticas": "Tirador feroz, menos disciplinado que otros cíborgs. Giga DestroyerⅡ quema con fuerza brutal desde larga distancia y Nuclear LaserⅡ ciega a media distancia. Descríbelo luchando con zarpazos entre disparo y disparo.",
+    "gancho": "Alguien ha soltado en un valle a un MetalTyrannomon que arrasa sin control. Los héroes hallan los restos de un laboratorio y deben decidir si apagarlo, calmarlo o dominarlo."
+  },
+  "insekimon": {
+    "descripcion": "Por razones aún sin explicar, muestra en su superficie datos de meteorito mezclados con los de mena de Gotsumon. Su cuerpo, formado por una sustancia que solo existe en el espacio, resulta muy resistente. De los confines del cosmos trae consigo una energía extraña.",
+    "tacticas": "Tanque pétreo que atrae la atención del combate. Galactic Flare lanza ondas de energía cósmica a distancia que queman y provocan al grupo para que le responda. Úsalo para proteger a un aliado más frágil.",
+    "gancho": "Una lluvia de estrellas abre un cráter cerca de una aldea y de él sale Meteormon, desorientado. Hay que ayudarlo a regresar antes de que la zona entera arda."
+  },
+  "mihiramon": {
+    "descripcion": "Uno de los Doce Generales Deva, con aspecto de tigre y siervo de Azulongmon. Es el más alborotador de todos y un estratega experto en prever dónde estará el enemigo. Corre más rápido que el viento, desgarra con colmillos y garras, y maneja como bastón su cola transformada en una vara de tres secciones.",
+    "tacticas": "Jefe ágil que acorrala con velocidad. Vimohana clava el bastón en el suelo y desata una onda eléctrica que paraliza a quienes estén cerca y le permite actuar con rapidez. Anticipa los movimientos del grupo.",
+    "gancho": "Mihiramon, general Deva al servicio de Azulongmon, pone a prueba a los héroes con una persecución por el bosque: deben adivinar adónde irá el estratega antes de que los acorrale."
+  },
+  "mistymon": {
+    "descripcion": "Guerrero mágico llegado de Witchelny, un Mundo Digital de otra dimensión. Domina multitud de conjuros y es un espadachín magistral, versado a la vez en caballería y hechicería. Puede cargar de magia su espada, y maneja cristales con astucia tanto para atacar como para defenderse.",
+    "tacticas": "Versátil que alterna espada y hechizos. Blast Fire envuelve su espada en llamas para quemar, y Core Dart lanza cristales que protegen y confunden. Cambia de táctica para desconcertar a héroes acostumbrados a un único patrón.",
+    "gancho": "Un caballero mago llegado de otro mundo busca ayuda para regresar a Witchelny. Los héroes lo acompañan hasta una grieta digital, pero él esconde algo sobre lo que les espera al otro lado."
+  },
+  "mockingbirdmon": {
+    "descripcion": "Máquina con aspecto de ave, de grandes alas y silueta grácil, aunque su cabeza y sus patas son brazos robóticos con pico. Graba los sonidos de cualquier Digimon que encuentra y los imita para despistar a su presa. Dos sensores en la base de las alas le permiten hallar a quien se esconde en las sombras o bajo tierra.",
+    "tacticas": "Tanque cazador que provoca con voces imitadas. Iron Siphon perfora con el pico y drena la vitalidad, y Tri-Airbots lo hace girar para atrapar al rival con sus tres brazos mientras dispara láseres.",
+    "gancho": "En un bosque se oyen las voces de los héroes pidiendo auxilio, aunque ellos no han hablado. Un MockingBirdmon las imita para atraer a otros viajeros hacia una trampa."
+  },
+  "monarchlizamon": {
+    "descripcion": "Cíborg remodelado para operaciones de asalto. Pese a su gran tamaño, los potentes propulsores de su espalda le dan gran movilidad. En su brazo izquierdo lleva Risanautr, un arma que une hacha doble y cañón de plasma, y el cuerno en forma de media luna de su frente genera el plasma que lo alimenta todo.",
+    "tacticas": "Tirador de asalto que se lanza sobre sus víctimas. Final Judgment salta con los propulsores, gira en el aire y descarga una hoja de plasma que ciega y ejecuta; Monarch Ordinance perfora y paraliza con el cañón.",
+    "gancho": "Un arsenal abandonado despierta con el rugido de unos propulsores. Monarchlizamon, construido para asaltar, patrulla sus pasillos, y los héroes necesitan atravesarlo sin que los tome por enemigos."
+  },
+  "monzaemon": {
+    "descripcion": "Parece un simple osito de peluche, aunque corre el rumor de que alguien, o algo, se ha metido dentro por la cremallera de su espalda. Envuelve a sus rivales con el amor que desborda su cuerpo adorable, aunque con una mirada que da algo de miedo, y los hace sentirse felices.",
+    "tacticas": "Místico que desarma con ternura. Lanza corazones con Hearts Attack, que encantan al héroe alcanzado y lo dejan sin ganas de pelear. Haz que los jugadores duden entre atacar a un peluche o abrazarlo.",
+    "gancho": "En una juguetería abandonada, los héroes encuentran un gran peluche que reparte abrazos a todos. Nadie sabe quién lleva dentro, y quien lo abraza sale sonriente pero sin ganas de continuar la misión."
+  },
+  "monzaemon_x": {
+    "descripcion": "Su inmenso amor ha cobrado forma física en el Lovely Gel, una sustancia repleta de corazones. Cuando otros Digimon se le acercan atraídos por su ternura, reparte un poco de gel, y quienes lo aceptan nunca se arrepienten. Sus sonrisas son su mayor alegría. Si alguien amenaza a su público, lo arrastra con un torrente.",
+    "tacticas": "Místico protector. Hearts Splash baña a los enemigos en gel que los encanta y refuerza a sus aliados. Es más fuerte cuanto más público lo anima, así que colócalo rodeado de Digimon pequeños que lo vitoreen.",
+    "gancho": "Un grupo de Digimon pequeños monta un espectáculo en un parque con Monzaemon como estrella. Unos matones amenazan la función, y los héroes deciden si defenderla o dejar que el oso se encargue."
+  },
+  "mummymon": {
+    "descripcion": "No muerto envuelto de pies a cabeza en vendas, al estilo de las momias del antiguo Egipto. Invoca y controla los espíritus residuales de Digimon eliminados, algo que le valió el apodo de Nigromante. Callado e inexpresivo, resulta difícil de leer, y cuando se ve acorralado dispara sin criterio su querida arma, Obelisk.",
+    "tacticas": "Jefe bruto que estrangula y asusta. Snake Bandage enrolla las vendas de sus brazos alrededor de un héroe y lo aprieta como una serpiente, y Necrophobia invoca a los muertos para sembrar terror. Es más peligroso acorralado.",
+    "gancho": "En una tumba recién abierta vagan sin rumbo los espíritus de Digimon caídos. Mummymon, mudo y vigilante, los controla, y los héroes deben descubrir quién lo despertó y por qué."
+  },
+  "murasamemon": {
+    "descripcion": "Espadachín que demuestra haber completado el exigente entrenamiento de Meido-Uryu, una escuela antigua nacida en montañas peligrosas del Mundo Digital oriental, famosa por técnicas con nombres que evocan la lluvia. Maneja una enorme espada con fuerza y soltura. Se dice que quien cae ante este estilo ve, al final, una tormenta de truenos y lluvia.",
+    "tacticas": "Ágil duelista con tres posturas. Gonozan: Murashigure descarga un tajo veloz desde guardia alta que además lo protege, y Jyunozan: Tsukishigure devuelve el golpe desde una postura baja. Alterna según lo que haga el grupo.",
+    "gancho": "Un maestro de Meido-Uryu busca a un discípulo digno en las montañas. Los héroes presencian una prueba bajo la lluvia, y Murasamemon quiere comprobar si su grupo resiste un duelo."
+  },
+  "musoknightmon": {
+    "descripcion": "Modo nacido de la Digixrose de DarkKnightmon y Tuwarmon, de una destructividad salvaje. Suma al poder ya abrumador de DarkKnightmon un cañón, el Gouradarai Gun. Ese cañón necesita enfriarse tras un disparo a plena potencia, lo que le impide mostrar todo su poder, aunque ningún Digimon ha sobrevivido a ese estallido.",
+    "tacticas": "Tirador devastador. Antes de disparar Wave of Destruction, lanza Demonic Gravity Curse para ralentizar a los enemigos y protegerse; luego descarga una onda brutal que empuja y daña toda la zona. Tras el disparo, concede al grupo un respiro.",
+    "gancho": "Un temible caballero oscuro con un gran cañón se acerca a una ciudad. Si los héroes lo obligan a disparar una vez, el cañón tardará en enfriarse, pero alguien tendrá que aguantar esa onda."
+  },
+  "vamdemon": {
+    "descripcion": "Rey de los No Muertos, resucitado mediante artes oscuras. Nació como un virus informático que destruía los datos que absorbía, y ahora los reanima como virus malignos. Cruel, astuto y casi imposible de destruir del todo, solo despliega su poder completo de noche: de día queda reducido a la mitad.",
+    "tacticas": "Jefe volador que desgasta con enjambres. Night Raid lanza una bandada de murciélagos que drena vitalidad y sirve de refuerzo invocado. Si el combate transcurre de día, rebaja su fuerza; de noche, alcanza su poder total.",
+    "gancho": "Una ciudad lleva tres noches seguidas sufriendo murciélagos y desapariciones. Los héroes tienen hasta el amanecer para hallar la guarida de Myotismon, mucho más débil bajo la luz del día."
+  },
+  "vamdemon_x": {
+    "descripcion": "Su cara y su cuerpo son artificiales: la capa es su verdadero cuerpo, y los brazos solo imitaciones. El interior reforzado de su DigiCore le permite actuar a pleno poder incluso de día. Sigue siendo el cruel rey de los No Muertos que destruye datos y los reanima como virus.",
+    "tacticas": "Bruto sin debilidad diurna. Vampire Theory envuelve al rival con la capa para drenarlo y asustarlo, y puedes describirlo como una transformación en murciélago; Bloody Drain atraviesa a su víctima con las garras de la capa.",
+    "gancho": "Una capa negra pasea sola por la plaza al mediodía, y quien la sigue desaparece. Los héroes descubren que es el verdadero cuerpo de un Myotismon que ya no teme al sol."
+  },
+  "neodevimon": {
+    "descripcion": "Evolución de Devimon creada cuando alguien desconocido potenció sus habilidades. Su propia voluntad está sometida a otro, lo que lo convierte en una criatura totalmente artificial. La máscara que le cubre el rostro regula sus poderes y, según se dice, se la pusieron para arrebatarle toda voluntad.",
+    "tacticas": "Místico volador que ataca de cerca. Guilty Claw desgarra y asusta con sus garras oscuras. Haz que pelee como un títere, sin dudar y sin hablar, salvo que el grupo consiga quitarle la máscara.",
+    "gancho": "Un NeoDevimon ataca sin una palabra a quien se cruza en su camino, pero sus ojos tras la máscara parecen suplicar. Los héroes buscan al amo oculto que lo maneja antes del anochecer."
+  },
+  "oblivimon": {
+    "descripcion": "Presencia que conviene vigilar cuando los Digimon empiezan a perder recuerdos o a comportarse de forma errática. Este androide de caparazón en forma de disco se desvanece y se acerca en silencio hasta quedar sobre su objetivo, lo atrapa con sus tentáculos y absorbe su memoria. Después lo escupe, ya sin recuerdos.",
+    "tacticas": "Tirador acechante que prefiere capturar. Waste Abduction atrapa a un héroe con sus tentáculos y le inyecta datos basura con fuerza brutal, y Unidentified Aerial Phenomenon dispara un láser ardiente desde arriba.",
+    "gancho": "Los habitantes de un pueblo olvidan su propio nombre, uno tras otro, después de ver un disco silencioso sobre los tejados. Los héroes deben recuperar sus recuerdos antes de que no quede nadie."
+  },
+  "oboromon": {
+    "descripcion": "No muerto fantasmal que vive en cementerios y disfruta peleando, incluso contra enemigos mucho más fuertes. Su obsesión por ganar se atribuye a los datos rencorosos que absorbe de sus víctimas. Fuera del combate pasea sin rumbo y conversa de forma extraña con la calavera de su brazo izquierdo, de la que brota una katana que se rompe, pero siempre vuelve a crecer.",
+    "tacticas": "Bruto jovial al que le encanta pelear. Chiyorozu-no-Tachi es un tajo brutal de katana; Rashomon esparce llamas fantasmales por una amplia zona, y con Yugen su bufanda cobra vida para atrapar o golpear.",
+    "gancho": "Un cementerio al borde del camino resuena con risas y choques de espadas. Oboromon reta a los visitantes a duelos que cree amistosos, aunque cada derrota deja a los héroes más cerca de los fantasmas."
+  },
+  "okuwamon": {
+    "descripcion": "Evolución de Kuwagamon hacia algo más siniestro que un Kabuterimon. Gana en defensa, de la que su predecesor carecía, sus antenas detectan mejor a los enemigos y sus pinzas atacan con más precisión. Destaca su instinto de supervivencia, pero aún más su impulso destructivo: una evolución teñida de agresividad.",
+    "tacticas": "Acechador volador que busca grietas en la defensa. Double Scissor Claw corta con unas pinzas capaces de partir un diamante, ya sea en un tajo único o en ráfaga. Sus antenas delatan a quien intente esconderse.",
+    "gancho": "En una cantera aparece un cuarzo gigante, de dureza legendaria, cortado limpiamente. Los héroes siguen un rastro de cortes hasta un Okuwamon que no distingue amigo de enemigo."
+  },
+  "okuwamon_x": {
+    "descripcion": "Su impulso destructivo ha crecido tanto que ataca sin pensar a cualquier Digimon que no sea de tipo Virus. Ahora lleva tres enormes pinzas en la cabeza, que no triplican sino elevan al cubo su potencia original. Conserva las antenas que detectan a sus presas y la precisión de sus tenazas.",
+    "tacticas": "Acechador volador que ataca primero a quien no sea Virus. Su Double Scissor Claw ３^３ corta con tres pinzas a la vez, en toque o ráfaga, y perfora la defensa. Un héroe Vacuna o de Datos será su blanco.",
+    "gancho": "Una frontera entre dos territorios queda sembrada de cortes limpios. Okuwamon ataca a cualquier Digimon que no sea Virus, y un guía local pide a los héroes que lo contengan."
+  },
+  "oleamon": {
+    "descripcion": "Planta carnívora que habita en los bosques del Mundo Digital. Su flor despide un aroma que atrae a los insectoides, y cuando la presa saca la lengua para saborearlo, sus pétalos la atrapan y la digieren poco a poco. Se mezcla con otras plantas, de modo que su presencia es una amenaza silenciosa para los insectos de la zona.",
+    "tacticas": "Místico emboscador que no se mueve y espera. Jameal atrapa con sus pétalos a quien se acerque al aroma, y Leaf Shredder lanza hojas venenosas o las agrupa como cuchillas. Ideal para un claro del bosque con trampas ocultas.",
+    "gancho": "Un enjambre de insectoides pide ayuda: sus compañeros desaparecen cerca de un hermoso campo de flores. Los héroes deben encontrar la flor que huele demasiado bien antes de caer en ella."
+  }
+}

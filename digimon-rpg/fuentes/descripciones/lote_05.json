@@ -1,0 +1,227 @@
+{
+  "otamamon-red": {
+    "descripcion": "Mutación de Otamamon que ha adquirido el atributo del fuego, y por eso prefiere las aguas termales a los ríos helados. Adora cantar y no se pierde un ensayo, subido a una roca a la que trepa con sus recias patas delanteras. Parece un cantante inofensivo, pero sus burbujas hierven lo bastante como para escaldar a cualquiera.",
+    "tacticas": "Tanque acuático: se planta delante de los aliados y lanza Boiling Bubble para ralentizar al enemigo más peligroso y obligarlo a fijarse en él. Resiste mucho pero hiere poco, así que úsalo para ganar tiempo mientras el grupo se organiza.",
+    "gancho": "En unas termas del Mundo Digital, un Otamamon (Red) ensaya a pleno pulmón y espanta a los bañistas. Los héroes deben convencerlo de que baje la voz o de que actúe en el festival."
+  },
+  "otamamon_x": {
+    "descripcion": "Renacuajo orondo que luce una corona heredada de un misterioso Digimon Mega, y cuyo porte señorial hace dudar a quienes quieren atacarlo. Canta más fuerte que nunca, y su voz lleva una nana capaz de adormecer a todo el que la oye. Su cabezazo sonriente es tan flojo como entrañable, y la cara le acaba doliendo.",
+    "tacticas": "Tanque que controla el combate a base de nanas: abre con Lullaby Bubble para dormir y provocar a un rival, y remata con Smiley Headbutt para aturdir al que se acerque. Pega flojo; su valor está en distraer y proteger.",
+    "gancho": "Un Otamamon (X Antibody) presume de corona ante todo el pantano y exige un público que escuche su canción. Si los héroes aplauden con demasiada calma, quizá acaben dormidos con su nana."
+  },
+  "palmon": {
+    "descripcion": "Planta con patas coronada por una flor tropical que hace de termómetro emocional: huele a perfume cuando está contenta y a algo insoportable cuando se enfada, tanto que hace huir a Digimon enormes. De día abre hojas y flor para aprovechar el sol, y sus pies, como raíces, se hunden en la tierra o caminan a pasitos.",
+    "tacticas": "Místico que fustiga desde lejos: lanza Poison Ivy para atrapar al objetivo y envenenarlo mientras sus aliados se organizan. Si lo acorralan, narra el hedor de su flor para que los enemigos más débiles retrocedan.",
+    "gancho": "Un Palmon ha echado raíces en mitad del camino y no se moverá hasta que alguien le consiga agua limpia. Su flor huele tan mal que nadie se atreve a discutir con él."
+  },
+  "palmon_x": {
+    "descripcion": "Su flor tropical ha florecido aún más, y ahora cada emoción tiene su color y su aroma: rojo y venenoso si se enfada, turquesa y calmante si está triste, amarillo y embriagador si está feliz, capaz de arrastrar a los vecinos a una ilusión. Además, las garras de sus brazos arañan e inyectan una toxina que provoca confusión.",
+    "tacticas": "Místico que lee el humor de su flor: empieza con Poison Ivy para atrapar y envenenar, y cambia a RGB Herb para inmovilizar con aromas cuando la lucha se alarga. Describe el color de los pétalos para que los jugadores intuyan su siguiente jugada.",
+    "gancho": "Un Palmon (X Antibody) cambia de color cada vez que alguien le habla. Los héroes deben adivinar su ánimo antes de que el aroma de su flor los atrape en una ilusión."
+  },
+  "patamon": {
+    "descripcion": "Criatura rechoncha de enormes orejas que le sirven de alas, aunque volar le cuesta tanto que a pie llega antes. Verlo esforzarse enternece a todo el mundo menos a él. Obediente y fiel, guarda un poder oculto que despierta sin necesidad de ningún anillo sagrado, señal de que desciende de una estirpe muy antigua.",
+    "tacticas": "Ágil y volador: golpea en cuerpo a cuerpo con Wing Slap y desde lejos suelta Air Shot para empujar a los enemigos y abrir hueco a sus aliados. Más que dañar, sirve para desbaratar posiciones del rival.",
+    "gancho": "Un Patamon agotado se ha quedado atrapado en lo alto de un árbol tras volar demasiado lejos. Si los héroes lo bajan, les ofrecerá una lealtad sin límites y un secreto de su linaje."
+  },
+  "paunchessmon": {
+    "descripcion": "Peón de ajedrez nacido de los datos de un superordenador, débil al principio pero con una ambición enorme: cada logro puede ascenderlo hasta el poder de un Mega. Su lema es «¡Yo solo avanzo!» y trata como rival a cualquiera que aspire a un ascenso antes que él. Junto a sus aliados, es capaz de frenar incluso a Digimon de nivel superior.",
+    "tacticas": "Esbirro que se despliega en grupo: avanza con Pawn Spear para clavar a quien se acerque y cubre a los suyos con Pawn Buckler, pidiendo refuerzos. Solo y sin apoyo es frágil; ponlo en formación.",
+    "gancho": "Un peón negro exige a los héroes que le ayuden a lograr un ascenso: debe vencer a un rival antes de que otro peón consiga el suyo, y no acepta un no por respuesta."
+  },
+  "paunchessmon-white": {
+    "descripcion": "Peón blanco surgido del mismo superordenador de ajedrez que su hermano negro, y con idéntica obsesión: avanzar, ser reconocido y subir de categoría. Lo consideran carne de cañón, pero no se rinde, porque sabe que cada victoria puede llevarlo hasta el rango de un Mega. Junto a otros peones se vuelve sorprendentemente obstinado.",
+    "tacticas": "Trata cada combate como una partida: carga con el escudo usando Pawn Buckler para proteger a su grupo, y si hay varios peones haz que cierren filas con Pyramid Formation para confundir a los atacantes más fuertes.",
+    "gancho": "Un pelotón de peones blancos bloquea el puente y solo deja pasar a quien les gane una partida de estrategia. Los héroes tendrán que pensar como si el mundo fuese un tablero."
+  },
+  "penmon": {
+    "descripcion": "Pingüino digital nacido en el ordenador de una base antártica. Detesta el calor, adora la compañía humana y seguirá a cualquiera a trompicones, encantado. Cuando hay hielo se tumba sobre la barriga y se desliza a toda velocidad, y en el agua nada con soltura moviendo sus pequeñas aletas.",
+    "tacticas": "Ágil y escurridizo: se acerca sin ser visto, se desliza hasta su presa y le propina Super Slap, un doble bofetón rápido, antes de que reaccione. Ideal para golpear primero y huir; sufre en escenarios calurosos.",
+    "gancho": "Un Penmon se ha perdido en un desierto digital y se derrite de calor. Los héroes deben llevarlo de vuelta al hielo antes de que el sol lo agote."
+  },
+  "phascomon": {
+    "descripcion": "Habitante del bosque maligno del Área Oscura, vive acurrucado entre las ramas y pasa casi todo el día dormido. Su aspecto perezoso engaña: es un Digimon malvado de pies a cabeza, y muchos viajeros confiados han acabado heridos cuando se ha dejado caer sobre ellos desde la copa de un árbol.",
+    "tacticas": "Acechador: desde las ramas abre con Evil Snore para adormecer a una víctima desprevenida y, cuando esté indefensa, baja de un salto y la araña con Eucalyptus Claw. Que los jugadores sospechen de cada rama.",
+    "gancho": "Los viajeros que cruzan el bosque maligno se duermen sin explicación y despiertan heridos. Los héroes tendrán que descubrir qué Phascomon cuelga sobre el sendero sin quedarse dormidos ellos también."
+  },
+  "pillomon": {
+    "descripcion": "Mezcla de almohada y oveja que flota casi todo el día dormida. Regala un sueño profundo y reparador a quien se le acerca, aunque a cambio se come sus sueños. Junto a su cuerpo flotan dos clases de burbujas: las de nana aparecen cuando descansa a gusto, y las de pesadilla, cuando su sueño se vuelve malo.",
+    "tacticas": "Místico de control: flota fuera de alcance y suelta Lullaby Bubble para dormir a los enemigos, o Nightmare Bubble para asustarlos si ha dormido mal. Narra su humor para decidir qué burbujas flotan en la escena.",
+    "gancho": "Un pueblo duerme sin despertar desde que Pillomon pasó flotando por allí. Los héroes deben averiguar si sueña bien o mal para saber si sus burbujas son una bendición o una maldición."
+  },
+  "pomumon": {
+    "descripcion": "Parece un pajarillo, pero su cuerpo es una fruta rebosante de jugo azucarado, y por eso aves e insectos lo persiguen sin descanso. Tiene alas, aunque vuela tan despacio y queda tan indefenso que prefiere quedarse en tierra. Si se siente amenazado, escupe semillas a toda prisa o se hace un ovillo para rodar lejos.",
+    "tacticas": "Combatiente defensivo: dispara Rapid Seed en ráfagas para atrapar a quien se acerque y, si lo acorralan, rueda con Fruit Rush para derribar y escapar. Trátalo como presa que huye antes que pelear.",
+    "gancho": "Una bandada de Digimon hambrientos persigue a un Pomumon por el bosque. Los héroes pueden esconderlo, proteger su dulce jugo o descubrir por qué todos lo quieren tanto."
+  },
+  "pristimon": {
+    "descripcion": "Su cuerpo de tela blanda invita a abrazarlo, pero acariciarlo sin cuidado es un error: tiene un carácter violento. En la cola guarda un pequeño generador de bobinas giratorias que le da energía, y en las palmas, bocas de cañón. Bajo la ternura de peluche asoman guanteletes metálicos con garras afiladas.",
+    "tacticas": "Bruto con cara de peluche: dispara Pri Shot desde las manos para castigar a distancia y, cuando alguien se acerca, lo atraviesa con Stab Claw. Deja que los jugadores subestimen su aspecto antes del primer golpe.",
+    "gancho": "Un Pristimon abandonado en una tienda de juguetes digital muerde a quien intenta abrazarlo. Los héroes deben calmarlo sin tocarlo, o descubrir quién lo dejó allí."
+  },
+  "psychemon": {
+    "descripcion": "Lagarto de colores tan chillones que cuesta no mirarlo. Se dice que es una mutación de Gabumon: igual de extrovertido que su cuerpo multicolor, pero, sin su pelaje, tan tímido como aquel. Concentra energía eléctrica de colores primarios y la descarga en forma de chispas o por su cuerno brillante.",
+    "tacticas": "Bruto eléctrico: embiste con Glittering Horn para perforar y acumular carga, y suelta Colorful Spark para paralizar a distancia. Alterna ambos ataques y deja que su aspecto deslumbrante distraiga a los jugadores.",
+    "gancho": "Un Psychemon organiza un baile de colores en mitad de un cañón, y los Digimon que lo miran quedan hipnotizados. Los héroes deben averiguar si es un espectáculo o una trampa."
+  },
+  "pteromon": {
+    "descripcion": "Dragón alado que surca los cielos sobre bosques inmensos. Los cuernos de su cabeza no son armas, sino órganos sensibles con los que lee las corrientes de aire y adivina el tiempo. Su curiosidad lo lleva a volar junto a otras criaturas, desde pequeños Novatos hasta gigantes, y puede regenerar sus plumas al instante para aliviar las heridas.",
+    "tacticas": "Bruto aéreo: pasa en picado clavando las garras con Rumble Claw y, cuando conviene, bate las alas para lanzar Wind Slicer, un corte de viento que empuja con fuerza. Si lo hieren, narra cómo regenera plumas.",
+    "gancho": "Un Pteromon curioso se pega a la caravana de los héroes y vuela a su lado durante días. Su compañía puede ser una guía del clima, o atraer a los depredadores del cielo."
+  },
+  "pulsemon": {
+    "descripcion": "Digimon nacido de los latidos registrados en hospitales y gimnasios. Es alegre, sociable y siempre dispuesto a hacer amigos. Su pelo en forma de rayo delata sus emociones y se le cae de pena cuando está triste. En combate se mueve en zigzag, imposible de fijar, como la línea de un electrocardiograma.",
+    "tacticas": "Ágil y veloz: derriba con Electric Rush y se aparta antes de que contraataquen, o dispara Minor Impulse desde su pelo para empujar a los enemigos. Su peinado caído avisa de que está perdiendo ánimo.",
+    "gancho": "Un Pulsemon con el pelo caído ha perdido su ritmo y ya no corre. Los héroes deben devolverle la alegría con una carrera, una canción o un buen amigo."
+  },
+  "renamon": {
+    "descripcion": "Zorra dorada de porte esbelto, serena y disciplinada, que entrena sin descanso para conservar la calma ante cualquier peligro. Entre los Novatos destaca por su altura y por preferir la rapidez de sus técnicas a la fuerza bruta. Domina el arte del disfraz: puede copiar la apariencia de su rival y sustituir su textura para esfumarse.",
+    "tacticas": "Ágil e imprevisible: se oculta con Kohenkyo para desaparecer de la vista y reaparece lanzando una ráfaga de Diamond Storm que perfora defensas. Castiga a los jugadores que se confían y se retira antes de que reaccionen.",
+    "gancho": "Un Renamon copia el aspecto de uno de los héroes y se pasea por la aldea ganándose la desconfianza. El grupo debe demostrar quién es quién antes del anochecer."
+  },
+  "renamon_x": {
+    "descripcion": "Zorra que, pese a ser una Novata, ya es toda una onmyoji. Un aura misteriosa la rodea, y su segunda cola y los dibujos rojos de su cuerpo muestran su poder creciente. Prefiere dominar el campo de batalla antes que embestir: sus técnicas, refinadas y astutas, juegan con la percepción de quienes la rodean.",
+    "tacticas": "Controladora ágil: abre con Kochōgen para confundir a los enemigos en zona y, mientras dudan, cruza entre ellos con Taikyokusen, un tajo giratorio y rápido. Pide a los jugadores que desconfíen de lo que ven.",
+    "gancho": "Una onmyoji de aspecto zorruno cambia la textura de todo un bosque para poner a prueba a los viajeros. Solo quien desconfíe de sus propios ojos podrá cruzarlo."
+  },
+  "ryudamon": {
+    "descripcion": "Joven guerrero acorazado al estilo samurái, con una antigua interfaz en la frente que delata a un prototipo anterior al descubrimiento de los Digimon. Su armadura es resistente, pero se mueve con agilidad y salta con valentía contra el pecho del rival. Cuanto más lucha, más afina su técnica, y en su núcleo duerme el espíritu de comandantes y dragones legendarios.",
+    "tacticas": "Duelista ágil: aguanta el golpe con el casco y responde con Kabutogaeshi, un contraataque rápido; si el enemigo se queda cerca, salta contra su pecho y dispara Iai Blade. Recompensa la paciencia de los jugadores.",
+    "gancho": "Un Ryudamon quiere batirse en duelo con un adversario digno y reta a los héroes a elegir a su campeón. Aceptar con honor puede ganarles un aliado de por vida."
+  },
+  "plotmon": {
+    "descripcion": "Cachorro de orejas caídas y linaje sagrado que aún no domina sus poderes ni ha descubierto su destino. Su naturaleza es inestable: puede inclinarse hacia el bien o hacia el mal. Fue creado por investigadores a imagen de una mascota humana, por eso se parece tanto a un animal de verdad, y algún día podría despertar como cazador de virus.",
+    "tacticas": "Ágil y escurridizo: ataca con el aullido, no con los colmillos. Puppy Howl asusta y paraliza a distancia, y le da tiempo para esconderse tras sus aliados. Aguanta mal el combate directo; descríbelo huyendo con ternura.",
+    "gancho": "Un Salamon abandonado lloriquea en un laboratorio en ruinas. Los héroes pueden adoptarlo y guiar su destino, aunque alguien más quiere llevárselo para moldear su naturaleza."
+  },
+  "plotmon_x": {
+    "descripcion": "Versión aún más adorable de Salamon, capaz de alegrar el día a cualquiera que lo vea. Su poder sagrado ha crecido: por donde pisa se forma una barrera contra los Digimon Virus, aunque él ni siquiera sabe que lo hace. Sigue siendo un cachorro curioso de orejas caídas, con un destino todavía sin definir.",
+    "tacticas": "Apoyo involuntario: camina junto a sus aliados y su Puppy Paw les da un escudo contra Virus sin que él lo sepa; en apuros, grita con Puppy Howl para asustar y paralizar a quien se acerque.",
+    "gancho": "Los Digimon Virus rehúyen un camino por donde pasó un Salamon (X Antibody). Los héroes pueden seguir sus huellas hasta el cachorro, que no entiende por qué todos lo siguen."
+  },
+  "sangomon": {
+    "descripcion": "Vive en las aguas poco profundas del Océano de la Red, y su carácter alegre y apacible le granjea amistades de todas las especies. Duerme sobre el caparazón de un Shellmon, y hay cangrejos que le recortan el coral de la cabeza. Si lo atacan, intenta escapar entre una niebla venenosa que hace llorar; si no basta, dispara agua a presión.",
+    "tacticas": "Más amigable que bruto: primero huye con Refuge Mist, una nube en zona que ciega y envenena, y solo si no escapa responde con Coral Pressure para derribar. Úsalo en escenas acuáticas junto a aliados.",
+    "gancho": "Los amigos de Sangomon, desde un Shellmon hasta un Crabmon, piden ayuda a los héroes porque un intruso lo persigue por los arrecifes. Deberán protegerlo y averiguar qué busca."
+  },
+  "shamamon": {
+    "descripcion": "Chamán de su clan de Goblimon, encargado de escuchar la voluntad de los dioses y transmitirla. Para ello ejecuta un ritual de baile extraño y, cuando su fervor alcanza el punto álgido, oye mensajes divinos con los que el clan predice sucesos importantes. Su maza ceremonial, grande y pesada, también sirve para fines menos espirituales.",
+    "tacticas": "Bruto de vocación sagrada: baila ante los aliados y remata con Shama Hammer, un mazazo que aturde y golpea con brutalidad. Funciona mejor como jefe de un grupo de goblins que como luchador solitario.",
+    "gancho": "Un Shamamon asegura haber recibido un presagio sobre los héroes durante su danza. Si lo interpretan bien evitarán un desastre; si no, su clan los tomará por culpables."
+  },
+  "shoemon": {
+    "descripcion": "Muñeco de cuero con piel de peluche que salta lejos si alguien intenta tocarlo. Es muy cobarde y detecta las amenazas por las vibraciones del suelo; su suela se agarra tanto que trepa por paredes verticales. Limpio hasta la manía, odia la arena y el barro, pero adora las frutas dulces y las engulle abriendo la suela como una boca.",
+    "tacticas": "Cobarde que pelea cuando no puede huir: lanza Petit Needle desde lejos para coser a un enemigo a su sitio y, si lo acorralan, recurre a Wonder Stomp, un pisotón doble que derriba. Prefiere terreno limpio y paredes.",
+    "gancho": "Alguien roba fruta dulce del mercado cada noche y solo deja huellas de suela. Los héroes siguen el rastro hasta un Shoemon que trepa por la pared y no quiere que lo toquen."
+  },
+  "shoutmon": {
+    "descripcion": "Pequeño dragón rebosante de vigor y agresividad, pero leal con quienes reconoce como amigos, con los que forja vínculos más allá de cualquier especie. Convierte la pasión en energía y la amplifica con su inseparable micrófono. Aunque parece salvaje, ama la música y tararea al compás del viento y la lluvia. Si le quitan el micrófono, su fuerza se desmorona.",
+    "tacticas": "Bruto apasionado: canta Rock Soul para drenar y asustar a distancia, y se lanza de cabeza con Soul Crusher cuando el rival se acerca. No abandona la pelea; si pierde el micrófono, su poder se desploma.",
+    "gancho": "Alguien ha escondido el micrófono de un Shoutmon antes de su gran concierto. Los héroes tienen una noche para recuperarlo, o su fuerza y su identidad se irán apagando."
+  },
+  "dorulucannon": {
+    "descripcion": "Modo bombardeo de Dorulumon unido a Shoutmon: un cañón gigantesco que concentra y dispara toda la energía disponible. Cargarlo exige concentración total y la puntería depende de otro Digimon que apunte. Mientras acumula energía su defensa desaparece, así que solo puede usarse entre compañeros que confían ciegamente el uno en el otro.",
+    "tacticas": "Tanque inmóvil: dispara Dorulu Cannon, un cañonazo que provoca al enemigo y lo obliga a mirarlo, mientras otro aliado apunta. Mientras carga queda indefenso, así que haz que los jugadores deban protegerlo.",
+    "gancho": "Un enemigo gigantesco avanza hacia la aldea y la única esperanza es el Dorulu Cannon, que necesita tiempo, un apuntador de confianza y escoltas que aguanten el tipo."
+  },
+  "jetsparrow": {
+    "descripcion": "Modo crucero supersónico de Sparrowmon unido a Shoutmon: un propulsor de velocidad vertiginosa capaz de llevar pasajeros a su espalda, siempre que tengan una voluntad de hierro para no salir despedidos por el viento. Un órgano interno, el DigiCompressor, condensa el aire que inhala y lo expulsa hacia atrás para impulsarse, o hacia delante convertido en plasma.",
+    "tacticas": "Tirador a toda velocidad: despeja el campo con Air Shooter, una ráfaga de aire comprimido que empuja y remata, y paraliza objetivos clave con Plasma Blaster. Puede llevar a un aliado a cuestas si resiste el viento.",
+    "gancho": "Para alcanzar a un ladrón veloz, los héroes deben montar en un Jet Sparrow. Solo quien tenga verdadera fuerza de voluntad lo logrará sin salir despedido por el viento."
+  },
+  "starsword": {
+    "descripcion": "Espada formada por la unión de Starmon y un grupo de Pickmon, empuñada por Shoutmon. Su hoja dentada es durísima, muerde la carne y deja heridas desiguales que tardan en curar. Como está hecha de cuerpos que se mueven libremente, también se dobla como un sauce para absorber golpes que quebrarían otro acero. Simboliza un vínculo inquebrantable.",
+    "tacticas": "Tanque y arma a la vez: se interpone y blande Star Blade, un tajo cósmico que ralentiza y provoca. Su filo flexible absorbe golpes; describe cómo se arquea como un sauce en vez de romperse.",
+    "gancho": "Una espada viva, formada por Pickmon y Starmon, aparece hecha pedazos tras la batalla. Los héroes deben reunir a todos sus miembros antes de que el filo se apague."
+  },
+  "sistermonblanc": {
+    "descripcion": "Hermana menor de Sistermon Noir, con un conejo blanco sobre la cabeza. Es reservada y suele esconderse tras su hermana, aunque se esfuerza por ser una buena escolta de Huckmon y por frenar los arrebatos de ella. Su lanza de tres puntas, la Cross Barbée, le sirve tanto para atacar como para clavarla en el suelo y levantar una barrera.",
+    "tacticas": "Apoyo protector: planta la lanza para levantar Protect Wave, que escuda a los aliados y aparta a los enemigos, y solo ataca con Divine Pierce si alguien amenaza al grupo. Si el combate se alarga, puede despertar.",
+    "gancho": "Sistermon Blanc pide a los héroes que mantengan a su hermana Noir lejos de los problemas mientras escoltan a Huckmon, aunque la calma nunca dura mucho."
+  },
+  "sistermon_blanc_Awake": {
+    "descripcion": "Otra forma de Sistermon Blanc: al despertar, aparece un sagrado estigma en el centro de su toca. La tímida escolta cambia por completo, abandona la prudencia y se lanza por el campo de batalla entregada al instinto de combate. Al volver a la normalidad cae en un sueño sereno que no deja rastro de la violencia anterior.",
+    "tacticas": "Apoyo desatado: arremete contra los enemigos con Divine Pierce (Awakened), que perfora y ciega desde lejos, y levanta Protect Wave (Awakened) para escudar a los suyos entre estocada y estocada. Al terminar, narra su sueño tranquilo.",
+    "gancho": "En plena batalla, Sistermon Blanc se transforma y arrasa sin control. Los héroes deben sobrevivir a su furia y proteger después su sueño hasta que recupere la dulzura."
+  },
+  "yukiagumon": {
+    "descripcion": "Pariente nevado de Agumon que vive en los campos helados. Heredó su travesura y retoza como un niño cuando cae una nevada reciente. Su cuerpo es del color de la nieve, así que se funde con el paisaje y sorprende a los rivales desde la ventisca. Escupe por la boca una pequeña tormenta de nieve.",
+    "tacticas": "Bruto sigiloso: se camufla en el terreno helado y luego suelta Little Blizzard en zona, congelando con fuerza a todos los que estén juntos. Funciona mejor si los héroes no ven de dónde llega.",
+    "gancho": "Un SnowAgumon desafía a los héroes a un juego de escondite entre ventiscas. Si lo encuentran a tiempo, será un amigo; si no, la nevada podría sepultar el camino."
+  },
+  "snowgoburimon": {
+    "descripcion": "Un Goblimon criado en países fríos y nevados que se abriga con gorro y chaleco, y camina sobre la nieve sin esfuerzo gracias a la gruesa piel de las plantas de sus pies. Su atuendo de excursión no debe engañar a nadie: arroja bolas de nieve rellenas de piedras con todo el ardor de un demonio.",
+    "tacticas": "Bruto que combate de lejos: arroja Snow Goblin Volt, bolas de nieve con piedra dentro que congelan y golpean con brutalidad, y se mueve con facilidad por terrenos nevados. Dale como cobertura la ventisca y la nieve.",
+    "gancho": "Una lluvia de bolas de nieve con piedras cae sobre el paso de montaña. Tras una roca, un SnowGoblimon de gorro cálido protege su territorio con todo su ardor."
+  },
+  "solarmon": {
+    "descripcion": "Rara especie de Digimon mecánico. Algunos investigadores creen que es una mutación de Hagurumon, aunque nadie lo sabe con certeza. Su DigiCore genera tanto calor que tocarlo quema, y por eso casi nadie se le acerca. Lanza engranajes incandescentes que chamuscan al enemigo, brillantes como pequeños soles.",
+    "tacticas": "Tanque que quema: se planta al frente, provoca con Shiny Ring y deja con quemaduras a quien se acerque. Atacarlo cuerpo a cuerpo debería resultar doloroso; narra el calor que emana de su cuerpo.",
+    "gancho": "En un taller abandonado, un Solarmon calienta sin querer toda la maquinaria y la funde. Los héroes deben enfriarlo y llevárselo a otro sitio antes de que el fuego se extienda."
+  },
+  "soundbirdmon": {
+    "descripcion": "Pájaro con altavoces integrados en las alas, siempre alerta y por lo general muy callado. Pero si se le acerca alguien que le parece sospechoso, estalla en un chillido ensordecedor para ahuyentarlo. Su arma es el sonido, desde un grito a todo volumen hasta ultrasonidos que entumecen el cuerpo de quien los oye.",
+    "tacticas": "Tirador aéreo: desde lejos descarga Giga Scream para asustar y golpear con una onda de choque, y remata a un enemigo debilitado con Sound Finish, que paraliza con ultrasonidos. Silencioso hasta que algo le inquieta.",
+    "gancho": "Un silencio extraño envuelve la cañada: un Soundbirdmon vigila desde lo alto y grita a todo el que le parezca sospechoso. Los héroes deberán demostrar sus buenas intenciones sin hacer ruido."
+  },
+  "spadamon": {
+    "descripcion": "Digimon capaz de transformarse en arma, uno de los legendarios Legend-Arms que, según se dice, pueden salvar el mundo en manos de un ángel o destruirlo en las de un demonio. Es serio y muy trabajador, aunque a veces la presión lo supera. Por sí solo pelea poco, pero en forma de arma demuestra su verdadero valor.",
+    "tacticas": "Tirador certero pese a su poca fuerza: desde lejos, Sugar Pound apunta con precisión a un objetivo, y si lo alcanzan se defiende con Blade Blender. Su gran valor llega cuando alguien lo empuña como arma.",
+    "gancho": "Un portador desconocido busca a Spadamon para empuñarlo. Los héroes deben decidir si lo entregan, pues nadie sabe si esas manos ansiosas son de ángel o de demonio."
+  },
+  "sparrowmon": {
+    "descripcion": "Especialista en combates aéreos que surca el cielo en silencio y a gran velocidad. Su radio de giro es tan cerrado que cambia de rumbo sin esfuerzo. Es voluble y fogoso, y su manera de volar delata su estado de ánimo: si hace acrobacias imposibles sin que nadie se las pida, está de excelente humor. En las manos lleva dos pistolas gemelas llamadas Zanahoria.",
+    "tacticas": "Ágil de combate aéreo: pasa rozando con Wing Edge, cortando con las alas, y remata desde la distancia con Crash Boom para derribar. Cambia de trayectoria cada ronda; que los jugadores no sepan por dónde llegará.",
+    "gancho": "Un Sparrowmon de ánimo exaltado reta a los héroes a una carrera entre cañones y torbellinos. Si observan sus acrobacias, sabrán si está contento o furioso, y qué esperar de él."
+  },
+  "starmons": {
+    "descripcion": "Escuadrón formado por un Starmon y varios Pickmon que marchan al compás del tambor de su líder. Las órdenes del jefe son absolutas y los subordinados se coordinan a la perfección. Starmon es presumido, alegre y optimista a prueba de bombas: hasta cuando se desanima piensa en lo bien que queda con la cara larga. Los demás lo ven ridículo, pero a él no le importa.",
+    "tacticas": "Bruto en formación: abre con Meteor Shower, una lluvia de estrellas en zona que provoca y castiga, y usa Wish Upon A Star para ralentizar a quien se acerque. Si el líder cae, los Pickmon pierden la coordinación.",
+    "gancho": "Un Starmon y su escuadrón desfilan por la plaza buscando público para su gran espectáculo. Los héroes tendrán que aplaudir con entusiasmo si no quieren recibir una lluvia de estrellas."
+  },
+  "sunarizamon": {
+    "descripcion": "Reptil del desierto que vive en grupo y confía en el camuflaje. Su cuerpo está hecho de arena, que puede aumentar o reducir a voluntad para modificar sus extremidades y su cola, de modo que se confunde con el terreno. No es raro que unas arenas movedizas resulten ser, en realidad, una manada de estos Digimon.",
+    "tacticas": "Bruto emboscador: se oculta entre las dunas, escupe Sand Blast para cegar y salta para arañar con Grit Nail con todo su peso. Suele aparecer en grupo, así que cada duna podría esconder a otro.",
+    "gancho": "Las arenas movedizas del desierto han empezado a moverse por sí solas. Los héroes descubren que son Sunarizamon disfrazados de duna para defender un oasis."
+  },
+  "swimmon": {
+    "descripcion": "Pez tropical de colores vivos que forma bancos en los arrecifes cálidos del ecuador. Con sus grandes aletas puede surcar la superficie del mar a saltos, y verlos así es una de las tres vistas más hermosas del Mundo Digital. Sus escamas cambian de color según el entorno, lo que le permite escapar de los gigantes marinos.",
+    "tacticas": "Tanque acuático: se mete en primera línea y provoca con Slash Fin, un corte de aleta, y usa Brine Pistol para drenar a distancia. Si el combate se complica, se camufla en el color del agua o del coral.",
+    "gancho": "Un banco de Swimmon salta sobre el mar para guiar a los héroes hasta un arrecife, pero un gigante marino los acecha, y los pececillos esperan que lo distraigan."
+  },
+  "shakomon": {
+    "descripcion": "Almeja robusta cuyo caparazón esconde una criatura blanda que parece un Digimon en entrenamiento. Usa esa cara inocente como señuelo para atraer a los incautos antes de atacar, y cuando cierra la concha, las agresiones pequeñas rebotan sin dejar marca. En su interior forma perlas de jade que dispara contra los enemigos.",
+    "tacticas": "Esbirro tanque: se cierra en su concha para aguantar golpes y provoca con Black Pearl Blast, una perla oscura que asusta a distancia. Si alguien se acerca, lo derriba con Water Pressure.",
+    "gancho": "Una almeja de cara adorable ha atraído a varios viajeros al fondo de un estanque. Los héroes deben descubrir cuál de las conchas no es lo que parece."
+  },
+  "shakomon_x": {
+    "descripcion": "Su concha, ahora con un precioso dibujo rosa cerezo, no tiene nada de dulce: ataca a todo el que se acerque y huye con chorros a presión de unos propulsores acuáticos. Más astuto que antes, guarda una pistolita oculta hecha con chatarra del fondo marino, con la que sorprende a quien esquiva su perla con dos disparos diminutos.",
+    "tacticas": "Tanque tramposo: provoca y asusta con Black Pearl Blast y, si los héroes la esquivan, sorpréndelos con dos disparos minúsculos de su pistola oculta. Cuando la cosa se complica, huye a chorro por el agua.",
+    "gancho": "Un Syakomon (X Antibody) cobra peaje en una charca y ataca a quien se niega. Los héroes pueden pagar, burlarlo o encontrar la chatarra con la que se arma."
+  },
+  "takinmon": {
+    "descripcion": "Bestia de pelaje dorado y rasgos de toro que habita en las montañas. Un hilo de energía psíquica recorre su pelo y lo protege de las tormentas y los golpes. Sus cuernos brillan en oro cuando levitan rocas, algo que usa para abrir caminos entre los picos, aunque a veces levanta sin querer a un Gotsumon y se arma una buena pelea.",
+    "tacticas": "Bruto de montaña: embiste con Horn Rush para perforar y derribar, y lanza Rock Missile, rocas que persiguen al objetivo aunque esquive. Hazlo pelear con el terreno: cualquier peñasco es munición.",
+    "gancho": "Un Takinmon abre un camino nuevo por la montaña, pero ha levantado sin querer a un Gotsumon y ahora pelean. Los héroes pueden mediar o quedarse bajo la lluvia de piedras."
+  },
+  "bakumon": {
+    "descripcion": "Digimon con aspecto de baku, el devorador de sueños del folclore japonés, nacido, se cree, de un ordenador médico que vigila las ondas cerebrales. Se alimenta de los datos del sueño humano y puede borrar pesadillas y virus, o devolverlos a un estado inofensivo, por lo que se le considera sagrado. Lleva un Anillo Sagrado en una pata.",
+    "tacticas": "Místico que devuelve las pesadillas: reúne los miedos que ha absorbido y los libera de golpe con Nightmare Syndrome para asustar y drenar a distancia. Narra los sueños terribles de sus víctimas.",
+    "gancho": "Todos los habitantes de un pueblo sufren las mismas pesadillas. Los héroes deben encontrar a un Tapirmon y pedirle que las borre, pero antes tendrán que ganarse su confianza."
+  },
+  "tentomon": {
+    "descripcion": "El insectoide por excelencia, con un caparazón duro y poca agresividad. Sus patas intermedias son tan hábiles como manos humanas. A diferencia de otros insectoides de su nivel, domina más el amor por la naturaleza que el afán de pelea: se detiene a oler flores y duerme siestas a la sombra de un árbol. Aun así, sabe descargar electricidad estática con las alas.",
+    "tacticas": "Tirador tranquilo: desde lejos dispara Super Shocker, descargas de electricidad estática amplificada que paralizan y casi nunca fallan. Prefiere que lo dejen en paz; si lo respetan, solo peleará para defender a sus amigos.",
+    "gancho": "Un Tentomon se niega a moverse de un prado florido que los héroes necesitan cruzar. Convencerlo de que se aparte exigirá paciencia, algo de música o una buena siesta."
+  },
+  "terriermon": {
+    "descripcion": "Digimon enigmático de orejas descomunales y aspecto tierno que no deja ver su poder. Tan tranquilo y adorable que nadie diría que pertenece a la especie de combate, pelea con una fuerza que sorprende. Dicen que nace con un gemelo, Lopmon, con el que ejecuta un ataque conjunto devastador. Hace girar las orejas como una hélice para crear pequeños tornados.",
+    "tacticas": "Tirador adorable: escupe Blazing Fire, un soplo de aire ardiente a distancia, y cuando lo rodean gira las orejas con Terrier Tornado para empujar a los atacantes. Si lo acompaña su gemelo Lopmon, narra un ataque doble.",
+    "gancho": "Un Terriermon y su gemelo Lopmon se han perdido en el bosque y necesitan reencontrarse. Los héroes pueden ayudarlos, mientras un viento extraño dificulta la búsqueda."
+  },
+  "terriermon_x": {
+    "descripcion": "Versión mejorada de Terriermon, cuyas orejas funcionan como sensores capaces de leer las corrientes de aire. Lleva una joya llamada Gen Emerald, conectada a su gemelo Lopmon (X Antibody), que le indica dónde está y cómo se encuentra. Cuando ambos estrechan su vínculo, combinan aire caliente y aire frío en un ataque en equipo muy llamativo.",
+    "tacticas": "Ágil y ardiente: dispara Blazing Fire, un soplo abrasador y rápido, y se aparta con Terrier Tornado cuando se acercan, empujando a los atacantes. Si su gemelo está cerca, que ambos combinen aire caliente y frío en un ataque conjunto.",
+    "gancho": "La joya Gen Emerald de un Terriermon (X Antibody) brilla de pronto: su gemelo está en apuros. Los héroes deben guiar al pequeño hasta él antes de que la señal se apague."
+  }
+}

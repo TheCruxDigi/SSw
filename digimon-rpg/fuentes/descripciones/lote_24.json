@@ -1,0 +1,227 @@
+{
+  "gankoomon": {
+    "descripcion": "Caballero Sagrado errante que aspira a heredar un puesto entre los Royal Knights. A diferencia de sus colegas, se mezcla con las comunidades que visita y cuenta con amigos por todo el Mundo Digital. Es terco y exigente: somete a Huckmon a pruebas durísimas porque quiere verlo a su altura. Le acompaña Hinukamuy, una proyección muda de su propio cuerpo.",
+    "tacticas": "Peleador versátil que no cede terreno. Abre con Tekken Seisai a distancia para derribar a quien le replique, y en el cuerpo a cuerpo hunde el suelo con Table Flip, que también derriba y deja la tierra dura como un metal legendario.",
+    "gancho": "En una aldea dividida por una disputa, Gankoomon se niega a dar la razón a nadie y exige que los héroes demuestren con hechos quién merece su protección."
+  },
+  "gankoomon_x": {
+    "descripcion": "Gankoomon fundido con Hinukamuy: los caracteres de su nombre y la imagen de su proyección brillan en su espalda. Cuando libera su aura, esta toma forma de un par de alas. Calza unos zuecos de hierro que usa como armas, lo que refuerza a la vez su ataque y su defensa.",
+    "tacticas": "Aguanta y golpea. Ultimate Sengi Tengyouken es un gancho brutal que además le da escudo, ideal como remate cuando los héroes crean haberlo acorralado, y Tetsu Geta Harite ralentiza a quien reciba el pisotón de sus zuecos de hierro.",
+    "gancho": "En pleno torneo de luchadores aparece Gankoomon con alas de aura y reta a los héroes a resistir tres golpes de sus zuecos de hierro sin retroceder."
+  },
+  "deathmon": {
+    "descripcion": "Antiguo ángel desterrado al Área Oscura que, pese a su título de Rey Maligno, no se entrega a la maldad: mantiene una neutralidad inquietante. Es blanco, con ojos malignos en las manos y uno solo, enorme, en la frente. Cuentan que en la batalla final se teñirá de negro y se volverá un dios de la destrucción.",
+    "tacticas": "Francotirador de la penumbra. Dispara Death Arrow desde lejos para perforar defensas y sembrar el miedo, y cuando los héroes se agrupan lanza Explosion Eye, certero, que deja quemaduras. Si logran acercarse, pierde su ventaja.",
+    "gancho": "Ghoulmon vigila una frontera entre luz y sombra y solo deja pasar a quien le convenza de que su causa no es ni buena ni mala, sino necesaria."
+  },
+  "deathmon-black": {
+    "descripcion": "Variante negra de Ghoulmon que recuerda la profecía de la batalla final, cuando su manto blanco se vuelve oscuridad total. Aquí la neutralidad desaparece: los ojos de sus manos y el ojo carmesí de su frente apuntan a un único objetivo. Su silueta recuerda a la de un dios de la destrucción.",
+    "tacticas": "Rival implacable de largo alcance. Death Arrow perfora y asusta, ideal para romper la moral del grupo antes del cuerpo a cuerpo, y Explosion Eye quema a quien intente ponerse a cubierto. Mantén la distancia y deja que el terror trabaje.",
+    "gancho": "Los héroes cruzan un valle ennegrecido donde cada sombra apunta a un Ghoulmon (Black), y deben descubrir qué lo ha despertado antes de que el miedo se extienda."
+  },
+  "gigaseadramon": {
+    "descripcion": "Gigantesco cíborg marino creado en secreto por el Crack Team para dominar el Océano de la Red. Es más largo que Whamon, tanto que en su interior caben otros Digimon del equipo, y funciona como un buque de desembarco. Surge de la nada en mitad del mar de datos para iniciar una invasión por sorpresa.",
+    "tacticas": "Artillería naval de largo alcance. Giga Sea Destroyer lanza una mina de energía brutal que ralentiza al blanco, y Sky Wave barre a los grupos con decenas de disparos y los empuja. Brilla en escenarios acuáticos o con vehículos.",
+    "gancho": "Frente a la costa digital emerge de la niebla un buque monstruoso, y los héroes deben decidir si abordarlo, averiguar qué carga lleva o dar la alarma antes de que desembarque."
+  },
+  "goddramon": {
+    "descripcion": "Dragón sagrado de cuerpo dorado y seis alas endurecidas, uno de los Cuatro Grandes Dragones, de los que solo se conocen dos. Un Anillo Sagrado en el brazo prueba su santidad. En sus brazaletes duermen dos pequeños dragones: el de la izquierda gobierna la destrucción con llama carmesí y el de la derecha, la regeneración con trueno azul.",
+    "tacticas": "Bruto volador que domina el campo de batalla desde el aire. God Flame detona su espíritu sagrado y quema a todo el que esté cerca, así que reserva su máxima potencia para cuando los héroes se agrupen.",
+    "gancho": "Goldramon concede un favor a quien demuestre un corazón puro, y los héroes deben superar una prueba de compasión en lo alto de un monte antes de poder pedírselo."
+  },
+  "goddramon_x": {
+    "descripcion": "Goldramon apenas cambió con el Anticuerpo X, señal de que ya había despertado casi todo su potencial. Aun así luce nueva armadura en cabeza y pecho, y sus alas endurecidas sirven también de escudos. Se le conoce como el Dragón Luchador de Brazo Fuerte que surca el cielo, por un puñetazo capaz de lanzar lejos a un Mega.",
+    "tacticas": "Alterna distancias con facilidad. God Flame quema y arrasa en zona, y God Fist, un puñetazo de luz que empuja al enemigo lejos, castiga a quien se atreva a acercarse. Aprovecha su vuelo para atacar y retirarse.",
+    "gancho": "Un dragón dorado de armadura nueva reta a los héroes a un duelo entre las nubes: si resisten su famoso puñetazo, les concederá su bendición y su ayuda."
+  },
+  "gracenovamon": {
+    "descripcion": "Ser mítico nacido cuando la crisis llamada Iliad cayó sobre el Mundo Digital, fruto de la fusión de Apollomon y Dianamon. El choque entre energía solar y lunar genera en su interior una fuerza como la del Big Bang, y se le considera una galaxia en sí mismo. Nadie ha logrado medir todos sus datos.",
+    "tacticas": "Amenaza final que se prepara en pantalla. Eclipse Finger es una técnica cargada que ralentiza a quien alcance, y Calydon Arcus, también cargada, envía las ocho cuchillas de su espalda tras su presa. Trátalo como un acontecimiento épico.",
+    "gancho": "Sobre los héroes se abre en el cielo una grieta con forma de eclipse, y deben decidir si dejan cruzar a la galaxia viviente o intentan detenerla antes de que despierte del todo."
+  },
+  "grandiskuwagamon": {
+    "descripcion": "Rarísimo insectoide al que solo llegan unos pocos GranKuwagamon, los Demonios del Bosque Profundo, y encontrarlo exige una suerte especial. Presume de ser Virus y una teoría lo sitúa como camarada de BlackWarGreymon. Con las garras de sus brazos abre los caparazones y metales más duros, y sus heridas profundas acaban rematando a la presa.",
+    "tacticas": "Acechador aéreo que ataca por sorpresa. Gran Killer rasga a distancia, asusta y ejecuta a quien ya esté malherido, y si alguien se acerca, Grandis Scissor lo atenaza con sus mandíbulas gigantes.",
+    "gancho": "El bosque se queda en silencio y todos los Digimon huyen en la misma dirección: los héroes siguen el rastro para saber si la leyenda de GrandisKuwagamon es real."
+  },
+  "granddracumon": {
+    "descripcion": "Rey de todos los vampiros, dueño de un castillo en el Área Oscura al que ni los Siete Grandes Señores Demonio osan molestar. Tiene modales de caballero y una voz hechizante; se cuenta que ha seducido a ángeles enviados a destruirlo. Su cuerpo se considera inmortal y parece conocer la verdad sobre la evolución Death-X.",
+    "tacticas": "Villano elegante que juega con la presa. Eye of the Gorgon atrapa con su mirada y no suele fallar, así que inmoviliza primero al más fuerte; luego Crystal Revolution derriba y perfora a todo el grupo, convertido en cristales de hielo.",
+    "gancho": "Una invitación sellada con cera negra llega al grupo: GranDracmon promete responder preguntas sobre la evolución Death-X, pero solo a quien logre llegar con vida hasta su castillo."
+  },
+  "grankuwagamon": {
+    "descripcion": "Forma definitiva de los Kuwagamon y un ser particularmente cruel incluso entre insectoides. Vive en lo más hondo del bosque y solo sale de noche, de ahí que lo llamen el Demonio del Bosque Profundo. Su gran rival es HerculesKabuterimon, con quien mantiene una lucha interminable. Toparse con él en la espesura es muy mala señal.",
+    "tacticas": "Cazador nocturno que cae desde las ramas. Dimension Scissor corta todo lo que lo rodea, incluso el espacio, y perfora y ralentiza, así que úsalo contra el grupo entero y deja que la oscuridad del bosque haga el resto.",
+    "gancho": "Cada noche de luna nueva se oyen chasquidos entre los árboles, y un guardabosques pide ayuda para detener al Demonio del Bosque Profundo antes de que corte el camino principal."
+  },
+  "greyknightsmon": {
+    "descripcion": "Forma de Caballero Dragón que surge cuando la potencia de carga de MetalGreymon refuerza la ya temible fuerza de DarkKnightmon. Ninguna defensa, por sólida que sea, resiste su lanza taladro. Lleva además dos cañones a la espalda y es capaz de levantar un tornado de fuego.",
+    "tacticas": "Caballero versátil y destructor. Gigas Spiral perfora con su lanza taladro y es brutal contra quien se esconda tras un escudo, y Death Destroyer asusta con orbes de oscuridad disparados desde los cañones de su espalda.",
+    "gancho": "Ante una fortaleza que se creía inexpugnable irrumpe un caballero con lanza de taladro, y los héroes tienen una noche para decidir si ayudan a defenderla o a abrirle paso."
+  },
+  "grandlocomon": {
+    "descripcion": "Locomon que, empujado por su deseo de ir cada vez más rápido, superó sus límites. Testarudo, competitivo y poco reflexivo, convierte en astillas lo que se interponga. Ya no depende de raíles: ahora tiende sus propias vías y viaja por la Red adonde se le antoja, a una velocidad increíble.",
+    "tacticas": "Tanque a toda máquina que embiste sin frenar. Destruction Crush estrella su rueda de pinchos con brutalidad y rompe armaduras, así que reserva el golpe para el héroe mejor protegido. Su orgullo lo hace fácil de engañar con una carrera.",
+    "gancho": "GroundLocomon desafía a una carrera por vías improvisadas a todo el que se cruce, y los héroes deben ganarla o detenerlo antes de que arrase un pueblo entero."
+  },
+  "griffomon": {
+    "descripcion": "Criatura fusionada con cabeza, alas y garras delanteras de ave, cuerpo de bestia y una serpiente por cola. Suele vivir en desiertos y cuevas de montaña. Rival muy difícil, juega con sus enemigos gracias a su fuerza y su agilidad, y se emplea como guardián contra accesos ilegales y para proteger información confidencial de la Red.",
+    "tacticas": "Duelista ágil que juega con su presa. Supersonic Voice llega muy rápido, confunde y desordena al equipo, así que úsalo para romper formaciones mientras esquiva los golpes. No es un tanque: si lo acorralan, pierde ventaja.",
+    "gancho": "Gryphonmon custodia un archivo secreto en una cueva del desierto y solo deja pasar a quien resista su canto de ultrasonido sin perder la cabeza ni el rumbo."
+  },
+  "gulfmon": {
+    "descripcion": "Bestia oscura del tamaño de una montaña, surgida del abismo del Área Oscura, con cuatro patas colosales y una boca gigante en la parte baja del cuerpo. Se dice que esa boca se abre al abismo y que quien cae en ella ve destruido su DigiCore. Hay quien jura que podría arrasar el mundo en siete días.",
+    "tacticas": "Monstruo colosal que paraliza de miedo. Black Requiem es un canto solemne que cae sobre toda la zona, asusta y perfora defensas, y Dead Scream es un lamento de ultratumba que hiela hasta al más valiente. Ofrece a los héroes la huida como opción heroica.",
+    "gancho": "Tiembla la ladera y una enorme boca se abre bajo la montaña: los héroes deben guiar a los refugiados fuera del valle antes de que Gulfmon despierte del todo."
+  },
+  "gundramon": {
+    "descripcion": "Gigante armado hasta los dientes que, junto a MagnaKidmon y BeelStarmon, forma los Tres Mosqueteros por su puntería. Miembro del Crack Team, es más rápido que Machinedramon y llega pronto a su posición de tiro. El olor a pólvora impregna cada rincón de su cuerpo metálico, a juego con su carácter áspero y curtido.",
+    "tacticas": "Tanque que combina blindaje y fuego rápido. Der Blitz apunta a los puntos vitales con sus dos revólveres y deja quemaduras, y Gewalt Schwärmer barre en todas direcciones cuando los héroes lo rodean.",
+    "gancho": "Unos disparos retumban en el cañón y el eco guía a los héroes hasta Gundramon, que acepta un duelo de puntería si los retadores prometen respetar sus normas."
+  },
+  "habakirimon": {
+    "descripcion": "Deidad de cuatro brazos que aparece en los cuentos de una escuela de esgrima del este del Mundo Digital. Según la leyenda fue el leal servidor del Dios de la Destrucción y maneja con soltura la espada de siete ramas Futsushimitama no Tsurugi. Desaparecido su señor, aún espera su regreso en su castillo.",
+    "tacticas": "Espadachín místico que se toma su tiempo. Habakiri exige carga, confunde y devasta una zona entera, así que avisa a los jugadores del brillo previo; Aramasa lanza siete hojas que ciegan desde todas direcciones.",
+    "gancho": "En un castillo antiguo del este, un guardián de cuatro brazos recibe a los héroes y solo les dejará pasar si prueban que no vienen a profanar la espada de su señor."
+  },
+  "heavyleomon": {
+    "descripcion": "Leomon de armazón pesado, algo raro en su especie, con la mayor fuerza de carga de todos los Máquina. Su espíritu ardiente multiplica su fuerza cuanto más arde. Lejos de ser un arma sin alma, es un buen corazón que se lanza de cabeza a rescatar a quien lo necesite, y en combate analiza al rival con calma.",
+    "tacticas": "Tanque que centra la atención. Barrage Sweeper derriba con su ráfaga y provoca a los enemigos para que ataquen a HeavyLeomon, mientras que Sonic Excavator perfora de cerca con su pila de impacto si alguien se cuela.",
+    "gancho": "Tras un derrumbe, varios Digimon quedan atrapados en una mina, y HeavyLeomon pide ayuda a los héroes para despejar la entrada mientras sostiene el techo con su propio cuerpo."
+  },
+  "heavymetaldramon": {
+    "descripcion": "Dragón imponente nacido de absorber la cultura del heavy metal, que vive cada combate como un espectáculo y busca rivales poderosos para emocionar al público. Su cuerpo de Black Digizoid retumba como un choque de metales, y sus alas con forma de guitarra producen un estruendo ensordecedor. Casi nadie quiere cruzarse con él.",
+    "tacticas": "Bruto escandaloso que ama el espectáculo. Black Sabbath destroza el suelo con un estruendo brutal y Blue Murder Flame rompe defensas con una llama blanquiazul. Deja que presuma antes de combatir y dale un buen público.",
+    "gancho": "Los vecinos de un valle sacudido por estruendos de guitarra piden a los héroes que convenzan a HeavyMetaldramon de dar su concierto en otro lugar, o de buscarse un rival digno."
+  },
+  "heraklekabuterimon": {
+    "descripcion": "El insectoide definitivo, fruto de combinar los datos de las especies Kabuterimon y Kuwagamon. Su cuerno colosal y sus grandes pinzas compensan las debilidades de ambas, y su cuerpo reluce dorado. Ha recuperado y mejorado el vuelo que perdió como MegaKabuterimon y cruza el Mundo Digital a velocidad supersónica.",
+    "tacticas": "Persigue a los héroes por el aire y espera el momento justo para soltar Giga Blaster, una descarga brutal que paraliza. Un héroe paralizado es un blanco fácil, así que dale al resto la forma de cubrirlo.",
+    "gancho": "Dos sombras luchan sobre el bosque, un destello dorado contra la oscuridad: HerculesKabuterimon pide a los héroes ayuda para vencer a su viejo rival antes del amanecer."
+  },
+  "heraklekabuterimon_x": {
+    "descripcion": "Con el Anticuerpo X dejó atrás parte de su aspecto de insecto para especializarse en el cuerpo a cuerpo, con manos y pies convertidos en miembros robustos. No perdió su velocidad: levanta objetos varias veces más grandes que él y se mueve con agilidad, prueba de su fuerza descomunal.",
+    "tacticas": "Combina vuelo y golpes de cerca. Horn Buster Revision se lanza en picado junto al enemigo para perforar y ejecutar al que esté débil, y Giga Blaster condensa energía en una esfera brutal que paraliza.",
+    "gancho": "Cargando un puente caído, un gigante dorado de puños enormes cruza el cielo y pide a los héroes que le abran paso hasta la otra orilla antes de que anochezca."
+  },
+  "hexeblaumon": {
+    "descripcion": "Legendario Caballero Mágico al que solo llegan quienes dominan la magia de hielo, un lenguaje de programación avanzado. Cuentan que protegió a otros Digimon durante una era glacial y que después viajó al mundo de Witchelny. Con el frío crea espadas, martillos, barreras y ataduras: es un auténtico maestro del hielo.",
+    "tacticas": "Mago de zona. Summon Frost congela a cuantos estén cerca y puede invocar refuerzos de hielo, y Absolute Blast, un cero absoluto lanzado desde el dragón de su hombro, es su ataque final a distancia. Todo congela: aprovecha la inmovilización.",
+    "gancho": "Una ventisca nacida de la nada cubre un pueblo, y Hexeblaumon ofrece descongelarlo si los héroes encuentran la fuente de magia que alimenta el invierno."
+  },
+  "hiandromon": {
+    "descripcion": "Androide completado a partir del inacabado Andromon, con más piezas de Chrondigizoid y un poder de ataque y defensa muy superior. Esas piezas le permiten pensar por sí mismo y perseguir sus propios objetivos. Como Vacuna, sus ataques anti-Virus son de una precisión y una potencia temibles.",
+    "tacticas": "Tirador de largo alcance. Atomic Ray funde la energía de sus dos turbinas en un haz brutal que ejecuta a los enemigos heridos, sobre todo a los Virus. Mantén a los héroes en movimiento y obligados a buscar cobertura.",
+    "gancho": "HiAndromon rastrea a un Digimon Virus camuflado en el pueblo y pide a los héroes que le ayuden a encontrarlo sin herir a ningún inocente."
+  },
+  "hydramon": {
+    "descripcion": "Vegetal colosal que se instala en los pantanos. Segrega veneno mortal por todo el cuerpo y lo escupe por el pecho, convirtiendo la tierra en cenagal para ampliar su territorio. Tiene tres cabezas y raíces que se hunden en el suelo. Si ves flora retorcida y mutada, sospecha que Hydramon anda cerca.",
+    "tacticas": "Domina el terreno envenenado. Biotoxin intoxica desde lejos y Fault Break abre grietas con sus raíces para romper el suelo bajo los pies de los héroes. Cuanto más pantano rodee el combate, más ventaja tiene.",
+    "gancho": "Los árboles de un bosque amanecen retorcidos y el agua se vuelve verde: los héroes siguen el rastro de la contaminación hasta el cenagal donde Hydramon extiende su territorio."
+  },
+  "imperialdramondragonmode": {
+    "descripcion": "Dragón ancestral que existe desde tiempos remotos y se distingue claramente del resto de Digimon. Su poder es tan difícil de controlar que puede salvar el mundo o ponerle fin. Cuenta con una forma humanoide, el Fighter Mode, con la que libera toda su fuerza.",
+    "tacticas": "Bestia voladora de poder desmedido. Mega Death es un disparo brutal de materia oscura que asusta y arrasa cientos de metros, así que úsalo una sola vez y haz que los héroes reaccionen. No lo repitas cada ronda.",
+    "gancho": "Cuando un rugido ancestral despierta una vieja leyenda, los héroes deben descubrir si el gran dragón que sobrevuela la comarca viene a protegerla o a destruirla."
+  },
+  "imperialdramon_dragon_black": {
+    "descripcion": "Dragón ancestral enloquecido tras perder el control de su desmedida fuerza. Una vez desatado, recorre toda la gama de la destrucción y ninguna técnica lo detiene. Se dice que existe una forma guerrera de tipo Virus que sí dominó ese poder, aunque con un corazón oscuro.",
+    "tacticas": "Fuerza bruta sin control. Mega Death arrasa un enorme radio de terreno con brutalidad y puede ejecutar a quien ya esté herido, así que da señales de peligro y deja que los héroes busquen cobertura o huyan.",
+    "gancho": "Los héroes siguen el rastro de cráteres humeantes que deja Imperialdramon: Dragon Mode (Black) para frenarlo antes de que llegue a una aldea."
+  },
+  "imperialdramonfightermode": {
+    "descripcion": "Resultado de liberar todo el poder del Dragon Mode: un guerrero dragón humanoide de gran inteligencia, que cambia la forma torpe por otra más ágil. Se dice que sus ataques pueden destruir planetas. Corren rumores de que existe una forma aún más poderosa, que despertaría con la justicia perfecta.",
+    "tacticas": "Guerrero que dispara desde lejos con Positron Laser, que perfora, y guarda Giga Death, diez veces más potente que Mega Death, para el momento decisivo. Haz que los héroes vean cómo inserta el láser en su pecho antes del golpe.",
+    "gancho": "Sereno, un guerrero dragón ofrece a los héroes su ayuda contra una amenaza que se acerca, pero antes quiere saber qué entienden ellos por justicia."
+  },
+  "imperialdramonfightermode_vi": {
+    "descripcion": "Imperialdramon desbocado cuyo corazón fue invadido por las sombras en su Dragon Mode (Black), transformándolo en un guerrero Virus. Aborrece a los Digimon Vacuna y persigue en especial a los Virus Busters para eliminarlos. Dispara el Positron Laser de su brazo izquierdo y libera una furia sin freno.",
+    "tacticas": "Cazador de Digimon Vacuna. Positron Laser Lance perfora y ciega desde lejos, y Giga Death, brutal y aterrador, es su golpe final. Si hay un héroe Vacuna en el grupo, será su blanco favorito.",
+    "gancho": "Los Virus Busters piden refugio a los héroes porque un guerrero dragón de sombras los persigue, y habrá que decidir si esconderlos o plantarle cara."
+  },
+  "imperialdramonpaladinmode": {
+    "descripcion": "Forma final y más fuerte de Imperialdramon, profetizada desde la antigüedad, que obtuvo el poder del Caballero Sagrado Omnimon. Descendió sobre el Mundo Digital antiguo durante una gran calamidad para salvarlo de la destrucción total. Casi todo lo que ocurrió entonces sigue envuelto en misterio.",
+    "tacticas": "Aliado o amenaza de leyenda. Vuela y golpea con Omni Blade, una espada suprema de toque que parte al rival y reinicia sus datos. Es un único gran golpe: haz que los héroes lo presientan antes de que caiga.",
+    "gancho": "Una antigua profecía se cumple cuando un caballero dragón desciende de los cielos, y los héroes deben averiguar contra qué calamidad ha venido a luchar."
+  },
+  "invisimon": {
+    "descripcion": "Mega modificado por el Crack Team para misiones de distracción. Su cuerpo de Blue Digizoid y su camuflaje lo hacen tan sigiloso que ni el cracker con quien trabaja lo encuentra a veces. Lo acompaña el Stealth Wing, un compañero con IA propia y el mismo camuflaje, que vuela por su cuenta y le comparte lo que ve.",
+    "tacticas": "Irrumpe por sorpresa y siembra confusión. Invisible Cutter lo oculta mientras corta con ataques que nadie ve, y Ultimate Blazar es su gran haz de luz, brutal y cegador desde lejos. Úsalo para abrir paso a otros enemigos.",
+    "gancho": "Alguien o algo vacía los almacenes del pueblo sin dejar huellas; los héroes tendrán que encontrar a Invisimon y descubrir a quién sirve el cracker que lo guía."
+  },
+  "jesmon": {
+    "descripcion": "Caballero Sagrado nacido cuando SaviorHuckmon superó sus límites y brilló el cristal de su pecho; hoy es uno de los Royal Knights. Percibe las señales del caos antes que nadie y llega primero a los problemas. Es confiado y prefiere coordinarse con las Sistermon y otros aliados. Observando a Hinukamuy, la proyección de su maestro Gankoomon, aprendió a manejar a Atho, René y Por.",
+    "tacticas": "Versátil y cooperativo. Judgment of the Blade corta a gran velocidad con sus cuchillas, ejecuta y ciega; si lo rodean, Weltgeist contraataca en todas direcciones con las nueve hojas. Que nadie piense que flanquearlo es fácil.",
+    "gancho": "Jesmon llega antes de que estalle el caos y pide a los héroes ayuda para hallar el origen de una perturbación que solo él percibe."
+  },
+  "jesmon_x": {
+    "descripcion": "Con el Anticuerpo X toda su armadura se convirtió en espadas, y su forma quedó centrada aún más en el ataque. Cada hoja se mueve por sí sola y no le deja ni un hueco. Atho, René y Por se fundieron en un solo ser, los Tactical Arms. Entre sus ases guarda una espada que apaga el instinto de pelea.",
+    "tacticas": "Duelista que no suelta a su presa. Iron-Fist Judgment golpea con puños de hierro, ejecuta y ciega, y Ultimate Seibaken, brutal pero nada letal, deja sin ganas de luchar al que corta.",
+    "gancho": "Cubierto de espadas autónomas, un caballero propone a los héroes zanjar una disputa sin heridos, usando solo la hoja que apaga las ganas de pelear."
+  },
+  "jesmongx": {
+    "descripcion": "Forma definitiva de Jesmon, alcanzada al despertar su verdadero poder tras sobrevivir al duro entrenamiento de Gankoomon. Su espíritu de lucha y su ansia de justicia le han teñido el cuerpo de rojo ardiente. Su arma principal es el Unlimitive Gauntlet, que cambia entre espada, puño y escudo, y de Gankoomon heredó la técnica Seiken Meppa.",
+    "tacticas": "Atacante de toque rapidísimo. Seiken Meppa encadena golpes casi a la velocidad de la luz y ciega, así que será el pico de la ronda. Knights' Intruder, su espada de juicio, ejecuta incluso a los más fuertes si están debilitados.",
+    "gancho": "Rojo como las brasas, un caballero ofrece su espada a quien le demuestre que defiende la justicia sin ira, y los héroes deben ganarse su respeto antes de pedirle ayuda."
+  },
+  "jetmervamon": {
+    "descripcion": "Variante potenciada de Mervamon, hecha para golpear y desaparecer a toda velocidad. Su estilo de lucha cambió por completo: mezcla la aceleración con tácticas de encanto que descolocan al rival. Con calma es elegante y deja un aroma agradable a su paso, pero a gran velocidad pierde la compostura y el gusto por correr le impide frenar.",
+    "tacticas": "Tirador de golpear y retirarse. Heartbreak Shot encanta y perfora desde muy lejos, y si alguien se acerca, Sexy Dynamites lo derriba de un porrazo explosivo. Alterna ataques para que los héroes nunca sepan cuándo caerá el siguiente.",
+    "gancho": "Una estela perfumada cruza el desierto a toda velocidad y deja a los habitantes de un oasis hechizados: los héroes deben alcanzar a JetMervamon y romper el encanto."
+  },
+  "jijimon": {
+    "descripcion": "Anciano Digimon que, según se dice, existe desde el origen del Mundo Digital y lo sabe todo sobre él. Guía a humanos elegidos cuando una crisis amenaza ese mundo. Esconde un poder fuera de lo común que rara vez muestra, y suele aparecer como un viejecito apacible con su fiel bastón.",
+    "tacticas": "Más consejero que combatiente. Si los héroes actúan con maldad, Death Hang asusta con su bastón a quienes tienen mal corazón. Úsalo como advertencia severa y deja que dé pistas valiosas antes de pelear.",
+    "gancho": "En una cabaña vive un viejecito que sabe más del Mundo Digital que nadie y ofrece una pista decisiva a los héroes, pero solo si resuelven primero su acertijo."
+  },
+  "jougamon": {
+    "descripcion": "Deidad que guarda los datos de una diosa lunar de la leyenda china. Es hermosa, serena y vive sola en su Kokankyu, una nave con forma de luna. Experta en artes marciales chinas, combina patadas y gran movilidad, y ante rivales enormes invoca el Gyokuto, una hoja en forma de luna creciente.",
+    "tacticas": "Luchadora ágil y apoyo a la vez. Lunar Kick empuja al rival con una patada saltando, y Glowing Moon cura a sus aliados y ralentiza a los enemigos con su luz. Al ser solitaria, rara vez usa la curación si no tiene compañía.",
+    "gancho": "En una noche de luna llena, la Kokankyu aparece sobre el lago y su moradora ofrece curar a los heridos si los héroes escoltan a un viajero hasta su nave."
+  },
+  "jumbogamemon": {
+    "descripcion": "Androide gigante que se cubrió de cañones de rayos a costa de blindaje, pues su filosofía es que la mejor defensa es un buen ataque. Dispara chorros de agua a gran velocidad por su boca de cañón y puede barrer los 360 grados a su alrededor, dejando cráteres en el suelo.",
+    "tacticas": "Cañón andante. Megaton Hydro Laser perfora todo desde lejos con un chorro brutal, y Jumbo Jetter lo lanza hacia delante en una carga de remolino protegido por un escudo. Su blindaje es flojo: castígalo si los héroes llegan hasta él.",
+    "gancho": "Los héroes hallan un cráter nuevo cada mañana en el camino de la costa, y siguen el rastro hasta JumboGamemon, que patrulla de noche y confunde a todos con intrusos."
+  },
+  "junomon": {
+    "descripcion": "Miembro de los Olympos XII y pareja de Jupitermon, a quien protege con cariño y a quien conoce al detalle. En el campo de batalla se planta como el escudo amoroso de Jupitermon, dispuesto a eliminar a quien se oponga a su voluntad. Lleva katares en los brazos y una lanza que ataca por su cuenta.",
+    "tacticas": "Pelea para proteger a los suyos. Needle Hive clava sus katares sin descanso, y Love Basket encanta e invoca refuerzos, así que hazlo más peligroso si Jupitermon anda cerca.",
+    "gancho": "Los héroes son acusados ante Junomon de haber enojado a Jupitermon y deben demostrar su inocencia antes de que la pareja divina dicte sentencia."
+  },
+  "junomon_hysteric": {
+    "descripcion": "Forma oscura que despierta en lo más hondo de Junomon, nacida de los celos por el tiempo que le roba la oposición a su amado Jupitermon. Su rostro pierde vitalidad hasta ocultarse tras una máscara, y a través de ella ve a todos los Digimon como malvados. Jupitermon no percibe esta forma, así que nunca la juzga.",
+    "tacticas": "Atacante implacable de cuerpo a cuerpo. Welcome Demise acribilla con lanzas y Chain Lash atrapa a un héroe con cadenas para obligarlo a confesar. Si lo ves complicado para el grupo, dale una salida pacífica.",
+    "gancho": "Una máscara blanca vigila un templo en ruinas y acusa de mentir a quien entra, diga lo que diga; los héroes deben encontrar la forma de calmarla."
+  },
+  "jupitermon": {
+    "descripcion": "Dios del trueno y del clima, miembro de los Olympos XII. Juzga el bien y el mal en el campo de batalla y castiga a los malvados sin emoción alguna. Quien discrepe de su veredicto puede desafiarlo y ganar, aunque nadie lo ha logrado. Al chocar los martillos de sus brazos convoca pequeñas nubes de tormenta.",
+    "tacticas": "Juez imparcial. Mabolt crea nubes que sueltan rayos paralizantes sobre los que juzga culpables, y Punish Judge marca al blanco para ejecutarlo más tarde. Dale al combate un tono de juicio, no de odio.",
+    "gancho": "Jupitermon convoca un juicio en la plaza y acusa de un crimen a un Digimon querido: los héroes pueden defenderlo, pero tendrán que vencer al juez para revocar su sentencia."
+  },
+  "jupitermmon_wrath": {
+    "descripcion": "Jupitermon cuando su calma de juez se quiebra ante un pecado imperdonable. Con un gran rugido convoca la hoja divina Keraunos, su cuerpo crece decenas de veces y lo envuelven armadura y relámpagos. Su furia es evidente, pero la serenidad eficiente de sus movimientos intimida más que sus truenos.",
+    "tacticas": "Coloso furioso pero controlado. Keraunos Divide parte en dos con un único mandoble, y Dios Thunder funciona como veredicto: si da en el blanco, el golpe paraliza; si falla, perdona. Dramatiza el juicio ante la mesa.",
+    "gancho": "Un crimen imperdonable ha encolerizado a Jupitermon hasta convertirlo en un gigante de tormenta, y solo los héroes pueden descubrir la verdad antes de que dicte sentencia."
+  },
+  "justimon_x": {
+    "descripcion": "Héroe de bufanda roja al viento que no soporta la injusticia y es el favorito de los Digimon más pequeños. Entra como una ráfaga, descarga el martillo de la justicia y se esfuma. Con el Anticuerpo X ya no cambia de brazo: cada extremidad lleva su propia arma y las activa desde la hebilla del cinturón.",
+    "tacticas": "Combatiente de cuerpo a cuerpo que no suele fallar. Justice X Kick es certero y ciega con una patada de luz, y Justice X Blade corta de cerca. Se anuncia con una pose heroica antes de actuar.",
+    "gancho": "Una bufanda roja ondea sobre un acantilado al atardecer: Justimon (X Antibody) reta a los héroes a un combate limpio para comprobar si merecen proteger a los más pequeños."
+  },
+  "justimon": {
+    "descripcion": "Héroe de bufanda roja, ardiente de justicia y adorado por los Digimon pequeños. Llega como el viento, descarga el martillo de la justicia y desaparece. Le gusta posar en un acantilado de espaldas al sol poniente. Con el Extend Transmitter de su espalda cambia de brazo; en esta forma lleva el Accel Arm, el de fuerza.",
+    "tacticas": "Combina disparos y golpes. Trinity Arm descarga una ráfaga certera de acero a distancia, y Justice Kick ciega con una patada que supera las 45 toneladas. Cambia de táctica para sorprender a los héroes.",
+    "gancho": "Mientras un malhechor acosa a unos Digimon pequeños, un destello rojo lo detiene: Justimon pide a los héroes que le ayuden a atraparlo antes del anochecer."
+  },
+  "justimon_blitzarm": {
+    "descripcion": "Forma de Justimon con el Blitz Arm, el brazo de tipo eléctrico, activado con el Extend Transmitter de su espalda. Conserva su bufanda roja y la pasión por la justicia que lo hace querido por los pequeños. Llega, golpea y se marcha, y puede cambiar de brazo según la situación.",
+    "tacticas": "Tirador certero. Trinity Arm lanza ráfagas de acero a larga distancia que rara vez fallan, y Justice Kick ciega a quien se acerque. Descríbelo rodeado de chispas azules para marcar su brazo eléctrico.",
+    "gancho": "Chispas azules recorren una subestación abandonada y Justimon pide ayuda a los héroes para detener a quienes aprovechan la oscuridad para asustar a los Digimon pequeños."
+  },
+  "justimon_criticalarm": {
+    "descripcion": "Forma de Justimon con el Critical Arm, el brazo cortador, seleccionado en el Extend Transmitter de su espalda. Jamás pasa por alto una injusticia y adora posar a contraluz en un acantilado. Los Digimon pequeños lo veneran, y sus cortes limpios dejan claro de qué lado está.",
+    "tacticas": "Tirador de precisión. Trinity Arm lanza ráfagas certeras de acero, como cuchillas, y Justice Kick lo remata de cerca cegando al rival. Prefiere acabar pronto y desaparecer, así que no lo hagas esperar.",
+    "gancho": "Alguien ha cortado los cables que alimentan un pueblo digital, y el rastro de cortes limpios lleva a los héroes hasta Justimon, que jura ser inocente y quiere demostrarlo."
+  }
+}

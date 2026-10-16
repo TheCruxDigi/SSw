@@ -1,0 +1,227 @@
+{
+  "algomon_lv1": {
+    "descripcion": "Un error de cálculo en un viejo algoritmo dio origen a Argomon, algo así como una falla con vida propia. Se siente atraído por los sitios por donde se escapan grandes cantidades de datos y acude de uno en uno, hasta formar un enjambre que cubre todo el lugar. Más que temible, resulta una plaga persistente.",
+    "tacticas": "Trátalo como un incordio en grupo: varios Argomon rodean a los PJ y escupen Acid Bubbles desde lejos, con posibilidad de envenenar. Cuando se ven en desventaja se dispersan en lugar de luchar hasta el final.",
+    "gancho": "Una fuga de datos en un viejo servidor se ha llenado de Argomon, y los PJ deben descubrir qué la causa y taparla antes de que el enjambre lo cubra todo."
+  },
+  "bommon": {
+    "descripcion": "Su cuerpo tiene forma de bomba y la mecha de la cola se enciende apenas sale del huevo, acortándose poco a poco. Bommon es de carácter corto, y la mecha arde más deprisa cuando está de mal humor. Nadie sabe qué pasaría si se apagase, porque siempre digievoluciona antes.",
+    "tacticas": "Bommon no busca pelea, pero asusta: Crack-Crack-Crackle, un estruendo de chispas de Tierra con efecto Romper, sorprende al enemigo y le da pie para escabullirse. Su mecha, cada vez más corta, sirve de cuenta atrás visual para dar tensión a la escena.",
+    "gancho": "Los PJ se topan con un Bommon furioso cuya mecha crepita cada vez más rápido; deben calmarlo con paciencia antes de que su rabieta alerte a todo el vecindario Digimon."
+  },
+  "bombmon-xwars": {
+    "descripcion": "En la versión animada de 2010, Bommon es un Digimon temperamental que pierde los estribos por cualquier provocación. Cuando se enfada, el mechón de su cabeza se encoge hasta tocarle la cabeza, y entonces estalla de rabia. Sus petardos son tan vistosos que a veces se usan como fuegos artificiales de fiesta, pero le fastidia que lo molesten en plena celebración.",
+    "tacticas": "Bombardea con Bomberhead desde lejos y, si lo acorralan, remata a toque con Fireworks Revolution. Ambas técnicas pueden Paralizar, pero hacen poco daño: su verdadero peligro es el susto y el desorden que arma.",
+    "gancho": "Los habitantes de un pueblo digital preparan una fiesta con fuegos artificiales, pero un Bommon enfadado lo estropea todo; los PJ deben calmarlo y darle un papel en la celebración."
+  },
+  "botamon": {
+    "descripcion": "Botamon es de los recién llegados al Mundo Digital: una bolita viscosa cubierta de una pelusilla oscura de tono melocotón. No sabe pelear, pero escupe burbujas por la boca para intimidar a quien se le acerca. Desde él se abren varios caminos de evolución, así que cada Botamon es una promesa distinta.",
+    "tacticas": "Casi nunca ataca: su Acid Bubbles, de Veneno a distancia, sirve para ahuyentar y ganar un turno de huida. Haz que se esconda entre otros Digimon o salga rodando en cuanto alguien le planta cara.",
+    "gancho": "Un Botamon recién nacido sigue a los PJ desde el huevo y no se despega de ellos, mientras un depredador husmea sus huellas y habrá que protegerlo."
+  },
+  "chibickmon": {
+    "descripcion": "Sociable y servicial, Chibickmon imita todo lo que ve y siempre quiere echar una mano. Si estás haciendo algo, de pronto aparece una multitud de ellos para ayudar, aunque rara vez entienden para qué sirve la tarea y acaban estorbando. Si los ignoras o los hieres en el orgullo, rompen a llorar. Su sueño es ser aceptado por unos Starmon.",
+    "tacticas": "Es una marea de ayudantes con buena voluntad: usa Chinchikurinrin a distancia para armar jaleo y Petit Sugar Plum al acercarse a tocar. Su arma real es la distracción y el llanto, no el daño.",
+    "gancho": "Cuando los PJ intentan reparar un puente, una multitud de Chibickmon acude a ayudar y lo enreda todo; habrá que darles una tarea inofensiva y agradecérselo con mucho tacto."
+  },
+  "chicomon": {
+    "descripcion": "Pequeño y azul, Chibomon es una cría con destino de dragón: aunque no tiene poder alguno, puede digievolucionar a cualquier Digimon dragón, y por eso Tamers e investigadores lo aprecian muchísimo. Es amistoso y curioso, rasgos propios de los bebés, y escupe Acid Bubbles con la misma fuerza que cualquiera de ellos: ninguna.",
+    "tacticas": "Prefiere esconderse tras un aliado; si lo acorralan, escupe Acid Bubbles, de Veneno a distancia, que sirven para ganar tiempo más que para herir. Úsalo como un tesoro al que otros persiguen.",
+    "gancho": "Una banda de cazadores de datos persigue a un Chibomon porque puede evolucionar en cualquier dragón; los PJ deben esconderlo y encontrarle un Tamer de confianza."
+  },
+  "choromon": {
+    "descripcion": "Diminuto Digimon de tipo Máquina con ojos rojos que funcionan como fotosensores. Su inquietud constante lo hace adorable, aunque es solo la reacción de un programa sencillo a la luz: en la oscuridad deja de funcionar. Cuando está de buen humor saltan chispas de la punta de su cola, sin que nadie sepa por qué.",
+    "tacticas": "Suelta Jamming Powder sobre una zona para Sellar y Confundir a varios enemigos a la vez, y aprovecha el desconcierto para huir. Si apagas las luces a su alrededor, se detiene por completo.",
+    "gancho": "Un Choromon se ha apagado en una cueva sin luz; los PJ deben improvisar una fuente de luz para reactivarlo y que les muestre la salida."
+  },
+  "cocomon": {
+    "descripcion": "Conomon es una rareza: nace en pareja desde un mismo Digi-Egg junto a un gemelo, y a veces el huevo contiene a un Zerimon y a un Conomon. Nadie sabe por qué solo estos dos pueden nacer así. Con sus tres cuernos y su carácter sereno, es más tranquilo que su hermano de un solo cuerno.",
+    "tacticas": "Rara vez ataca; cuando lo hace, escupe Acid Bubbles, burbujas de Veneno a distancia, solo para amenazar. Si su gemelo anda cerca, se pega a él y huyen juntos.",
+    "gancho": "Un Conomon recién nacido llora buscando a su gemelo Zerimon, extraviado en el bosque; los PJ deben reunir a la pareja antes de que caiga la noche."
+  },
+  "cotsucomon": {
+    "descripcion": "Nació con un sombrero de cuero puesto, y eso le da aire de pequeño guerrero aunque protege bien poco. Cotsucomon es muy precavido y se mete dentro del sombrero a la menor señal de peligro. Su gesto de defensa es golpear con el ala del sombrero, como quien llama a la puerta.",
+    "tacticas": "Usa Knock, un golpeteo de Acero con el ala del sombrero que puede Empujar al rival, y se encoge dentro del sombrero cuando le responden. Su protección es más aparente que real.",
+    "gancho": "Un Cotsucomon se ha escondido en una grieta tras perder su sombrero en el río; los PJ deben recuperarlo para ganarse su confianza."
+  },
+  "curimon": {
+    "descripcion": "Curimon rebota tanto que ya saltaba dentro de su Digi-Egg antes de nacer. Su cuerno y su gran cresta aún son blandos y no sirven para pelear, pero le ayudan a mantener el equilibrio y a recuperarse tras cada choque. Siempre en movimiento, es una bolita de energía valiente.",
+    "tacticas": "Cuando alguien se acerca suelta Foam, una espuma que puede Cegar, y rebota por todas partes en lugar de plantar cara. Es un enemigo escurridizo y molesto, no un peligro serio.",
+    "gancho": "Un Curimon rebota sin parar por una sala de máquinas y activa sin querer mecanismos antiguos; los PJ deben atraparlo antes de que el ruido atraiga algo peor."
+  },
+  "dodomon": {
+    "descripcion": "Este limo está cubierto de pelaje de mithril, tan duro como el metal. Dodomon es agresivo desde que nace: aunque no tiene colmillos, abre y cierra las fauces con estruendo para intimidar. Ese descaro hace que otros Digimon acaben con él, y por eso es tan raro encontrar uno.",
+    "tacticas": "Dodomon sí planta cara: dispara Little Iron Beads, bolitas de Acero, a quien se acerque. Preséntalo como un bebé bravucón al que cualquier Digimon grande podría quitar de en medio.",
+    "gancho": "Los PJ ven a un Dodomon desafiar desde una roca a un Digimon mucho mayor; para evitar que lo devoren tendrán que intervenir, aunque él no lo agradecerá."
+  },
+  "dokimon": {
+    "descripcion": "Nacido de datos biológicos humanos, Dokimon tiene un cuerpo que vibra con un ritmo constante, y ese ritmo coincide con el pulso de quien lo sostiene. Quien lo toma en brazos nota esa extraña ternura. Si se siente amenazado, avisa cargando de electricidad estática la punta de su cuerno.",
+    "tacticas": "Usa Static Shock para Paralizar a quien se acerque: es una advertencia más que un ataque a fondo. Si el rival retrocede, se acurruca junto al Tamer más cercano en vez de perseguirlo.",
+    "gancho": "El latido del Dokimon que lleva un PJ se acelera de pronto: percibe un peligro que el grupo aún no ha visto, y empieza a chisporrotear de aviso."
+  },
+  "fufumon": {
+    "descripcion": "Su cuerpo de limo es tan ligero que se deja flotar a poca altura desde que nace, sin llegar a volar de verdad. Fufumon intimida a los grandes embistiendo con el cuerno de su cabeza, pero este es tan blando que no hace ni cosquillas. Lento y fácil de atrapar, recurre pronto a su verdadera defensa.",
+    "tacticas": "Cuando algo se le acerca dispara Little Iron Spikes, púas de Acero a distancia que Perforan y Ralentizan. Es un blanco lento, así que haz que el combate sea breve.",
+    "gancho": "Un Fufumon flota sin rumbo hacia un valle lleno de Digimon hambrientos; los PJ deben guiarlo a un lugar seguro antes de que se lo coman."
+  },
+  "fukamon": {
+    "descripcion": "Digimon de humo, ligero como una nube y casi sin materia. Fukamon rara vez decide hacia dónde ir: se deja arrastrar por el viento por los continentes del este del Mundo Digital. Cuando estalla una tormenta, se refugia bajo objetos o Digimon grandes para que el aire no se lo lleve.",
+    "tacticas": "Al sentir una amenaza lanza Cloudcall, que cubre una zona de nubes y Confunde a quienes entran en ella, y huye flotando por el aire. No quiere pelear: dale un turno de nubes y que desaparezca.",
+    "gancho": "Una tormenta empuja a un Fukamon hasta el campamento de los PJ; si lo protegen del viento hasta que pase, quizá les devuelva el favor guiándolos entre la niebla."
+  },
+  "fusamon": {
+    "descripcion": "Limo cubierto de suave pelaje, curioso y muy movido, aunque se cansa enseguida y pasa casi todo el día dormido. Cuando intuye un peligro, emite un chillido agudo que sirve de aviso para todos los que están cerca. Es una pequeña alarma de pelusa.",
+    "tacticas": "Duerme hasta que algo lo despierta y entonces lanza Puppy Noise, un chillido agudo que puede Confundir y alerta a los Digimon cercanos. Úsalo como alarma viviente en una emboscada más que como combatiente.",
+    "gancho": "Un Fusamon dormido junto al camino delata a los PJ al despertar con su chillido; habrá que huir de lo que lo oiga o inventar una buena excusa."
+  },
+  "jyarimon": {
+    "descripcion": "Muy raro, pues quedan pocos Digimon de esta clase: casi todos los dragones en ciernes mueren o son capturados antes de crecer. Jyarimon esconde diminutos colmillos en la boca, señal del dragón que será, y su calor corporal es altísimo. Débil como es, se siente atraído por todo lo que es más grande que él.",
+    "tacticas": "Sopla Heated Bubbles, burbujas de Fuego a distancia que pueden Quemar. Haz que se acerque a quien no debe y se meta en líos: es una criatura que proteger más que un enemigo.",
+    "gancho": "Un Jyarimon sigue sin miedo a un Digimon enorme sin darse cuenta del peligro; los PJ deben apartarlo antes de que lo pisen."
+  },
+  "keemon": {
+    "descripcion": "Este limo tiene una mirada torva permanente, como si estuviera enfadado con todo lo que ve. Aunque es muy joven, Keemon detesta hacer amigos y vive escondido, desde donde se mete en los asuntos de los demás. Su pasatiempo es fastidiar con chorros de agua teñida de pintura.",
+    "tacticas": "Se esconde y dispara Pushū, un chorro de agua con pintura a distancia que Empuja a quien se acerque. Mancha y desorienta más de lo que daña; si lo descubren, huye.",
+    "gancho": "Alguien en la aldea amanece cada día cubierto de pintura, y las huellas llevan hasta un Keemon escondido; los PJ deben ganarse su confianza para que deje de molestar."
+  },
+  "kekomon": {
+    "descripcion": "Limo de colores muy vivos y cuerpo blando y flexible, pero con tres cuernos sorprendentemente duros que le sirven de defensa. Kekomon es ante todo precavido: cuando nota peligro suelta burbujas pegajosas y se escabulle mientras los demás se distraen.",
+    "tacticas": "Su Adhesive Bubble Blow es de Agua, a toque, y puede Ralentizar al rival; úsalo para entorpecer a un PJ y haz que Kekomon huya después. Los cuernos lo vuelven algo más aguantador que otros bebés.",
+    "gancho": "Una colonia de Kekomon ha llenado de burbujas pegajosas un puente; los PJ deben cruzarlo sin quedarse atrapados mientras los diminutos autores se escabullen."
+  },
+  "ketomon": {
+    "descripcion": "Se le reconoce por sus enormes ojos, capaces de leer el carácter de otros Digimon y detectar a los brutales antes de que lleguen, para avisar a los suyos. Ketomon es un vigía diminuto. Si lo arrinconan, llora burbujas ácidas que desconciertan a quien lo acosa.",
+    "tacticas": "Avisa del peligro antes que nadie. Acorralado, usa Poppin' Tear, burbujas ácidas de Veneno a toque con efecto Romper, mientras llora, y luego huye. Es un buen vigía para anunciar una emboscada.",
+    "gancho": "Un Ketomon asustado se niega a acercarse a un aparente aliado del grupo; sus ojos han visto una intención que los PJ todavía no sospechan."
+  },
+  "kuramon": {
+    "descripcion": "Digimon no identificado que apareció de pronto en una red informática. Nace de un Digi-Egg formado con la malicia y la agresividad de quienes abusan de las redes, y se multiplica como un virus provocando pequeñas averías. De su enorme ojo brota una espuma. Pese a su aspecto, se le considera peligroso.",
+    "tacticas": "Se vuelve un problema en grupo: usa Glare Eye, una mirada Certera que puede Asustar, y se multiplica para distraer. Preséntalo como una plaga que amenaza una red, no como un duelo uno a uno.",
+    "gancho": "Los PJ detectan fallos extraños en una red y descubren que los causan decenas de Kuramon; deben cortar la fuente antes de que el virus llegue a algo importante."
+  },
+  "leafmon": {
+    "descripcion": "Este limo lleva una hojita en la cola que le sirve de paraguas y le permite crecer con la luz del sol. Leafmon es puro e inocente: no teme ni desconfía de nadie, aunque tiene un lado tímido. No sabe pelear, pero su corazón sencillo contagia calma a los que están cerca.",
+    "tacticas": "Casi nunca pelea; si lo molestan demasiado, escupe Acid Bubbles, burbujas de Veneno, a modo de aviso. Su presencia calma, así que úsalo para rebajar la tensión de una escena, no para iniciar combate.",
+    "gancho": "En un claro soleado, un Leafmon apacigua a unos Digimon a punto de pelear; los PJ comprenden que su sola presencia calma, pero alguien quiere llevárselo."
+  },
+  "mokumon": {
+    "descripcion": "Un bebé envuelto en un vapor parecido al humo que oculta su cuerpo. Su DigiCore, el núcleo de todo Digimon, queda al aire en esta criatura y por eso lo protege con esa neblina, que extiende a su alrededor para escapar de los enemigos. Su forma de vivir resulta peculiar.",
+    "tacticas": "Con Smoke se envuelve en una nube que puede Cegar y le da Escudo, y se esfuma flotando; haz que desaparezca entre la bruma al primer golpe. Es más ilusión y escapada que combate.",
+    "gancho": "Entre la niebla del valle los PJ ven un resplandor: es el DigiCore de un Mokumon perdido, y deberán guiarlo sin disipar el humo que lo protege."
+  },
+  "nyokimon": {
+    "descripcion": "Digimon semilla cuyo cuerpo está cubierto por una capa de tejido transparente, bajo la cual se adivina algo parecido a un Botamon. Se cree que es su versión vegetal, con futuro de planta o quizá de dragón. Es dulce y algo tímido.",
+    "tacticas": "Casi sin fuerza, lanza Seed Cracker, semillas de Planta que pueden Romper, para sorprender y salir corriendo. Pon el foco en su huida, no en la pelea.",
+    "gancho": "Un Nyokimon se esconde en un invernadero abandonado y sus semillas rompen los cristales; los PJ deben sacarlo con ternura antes de que alguien más lo encuentre."
+  },
+  "bubbmon": {
+    "descripcion": "A primera vista parece una simple burbuja verde mar, pero es una criatura autónoma con una gran variedad de expresiones. Su delicada superficie casi no le da defensa ni destreza en combate. Con el chupete de su boca crea infinitos clones de espuma. Su vida es fugaz, y por eso resulta aún más entrañable.",
+    "tacticas": "Su Adhesive Bubble Blow, de Agua y a toque, puede Ralentizar y Atrapar al rival para ganar tiempo y escapar. Pabumon es frágil: la mejor táctica es la huida, no el combate.",
+    "gancho": "Cientos de burbujas de espuma invaden un puerto digital y los PJ descubren que un único Pabumon asustado las crea; deben calmarlo antes de que revienten."
+  },
+  "pafumon": {
+    "descripcion": "Digimon espíritu de cuerpo translúcido, ligero y esponjoso, que flota siempre a merced del viento y puede recorrer largas distancias según la brisa que atrape. De alma tierna, no ama el conflicto. Si lo acorralan, inhala aire hasta triplicar su tamaño.",
+    "tacticas": "En apuros usa Puff Balloon, hinchándose para Derribar y Drenar al agresor con un toque de Oscuridad, y aprovecha el desconcierto para escapar volando. Quien lo ataca recibe más susto que daño.",
+    "gancho": "Una brisa fuerte arrastra a un Pafumon hasta los PJ; si logran guiarlo entre las corrientes, podrán devolverlo con los suyos."
+  },
+  "paomon": {
+    "descripcion": "A diferencia de los Digimon nacidos de forma natural, Paomon fue creado por manos humanas para ser criado y querido. Los Digimon rediseñados en fase de bebé no escasean, pero uno concebido artificialmente desde el principio es una rareza. Algunos dicen que lo desarrollaron varios equipos asiáticos, aunque su cuna es un misterio.",
+    "tacticas": "Se defiende escupiendo Acid Bubbles, burbujas de Veneno, solo para amenazar. Úsalo como un tesoro de laboratorio al que persiguen más que como combatiente.",
+    "gancho": "Los PJ encuentran un Paomon perdido y alguien lo reclama como creación suya; el grupo debe averiguar si buscan devolverlo o encerrarlo."
+  },
+  "petitmon": {
+    "descripcion": "Limo con alitas y cuernos grandes, tan ligero que casi no toca el suelo gracias al aleteo y al aire que sopla por la boca. De natural alegre, se enfada muchísimo si le tocan las tres escamas de la barriga. Atraparlo no es nada fácil.",
+    "tacticas": "Usa Hot Breath como soplido que sorprende al enemigo y a la vez le sirve de impulso para escapar a toda velocidad. En la mesa es un blanco escurridizo que desaparece tras cada soplido.",
+    "gancho": "Un Petitmon juega alegremente con los PJ hasta que uno le toca la barriga por error; el berrinche los obliga a perseguirlo por todo un pueblo."
+  },
+  "pitchmon": {
+    "descripcion": "Digimon casi microscópico descubierto en el Net Ocean, el lugar donde se estudia el origen de toda la vida digital. Pichimon vive por pura emoción y se mueve de forma frenética; desea comunicarse con el exterior aunque no sabe cómo. Sus grandes ojos rojos conquistan a cualquiera.",
+    "tacticas": "Con Bubble Blow, burbujas de Agua a toque, empuja a quien se acerque y aprovecha el desconcierto para huir. Sus ojos enormes pueden hacer dudar a los enemigos de buen corazón.",
+    "gancho": "En el Net Ocean, un Pichimon se acerca a los PJ y trata de comunicarse con burbujas; si lo entienden, les mostrará una corriente desconocida."
+  },
+  "pipimon": {
+    "descripcion": "Nace del fruto de un gran árbol y, según cuentan, aparece ante quienes recuperan una esperanza perdida, listo para ser su compañero. Pipimon es tan joven que apenas se conocen sus costumbres, y quien lo encuentra suele verlo como un buen augurio.",
+    "tacticas": "Pipimon no tiene técnicas de combate: no pelea y se esconde entre hojas o detrás de un aliado. Si algo lo amenaza, haz que huya o que lo proteja un Digimon mayor.",
+    "gancho": "Un PJ que ha perdido la esperanza halla un fruto brillante en un árbol; de él sale un Pipimon que quiere ser su compañero."
+  },
+  "popomon": {
+    "descripcion": "Limo con aspecto de semilla que avanza a saltitos gracias a su cola en forma de hoja. Es extremadamente tímido y huye de los desconocidos, aunque, cuando por fin baja la guardia, se mantiene amigo de por vida.",
+    "tacticas": "Ante un extraño suelta Hair Mist, una nube de pelillos que puede Cegar en zona y hace de cortina de humo para huir. Hazlo aparecer, desaparecer y volver a asomar siempre fuera de alcance.",
+    "gancho": "Un Popomon observa desde los arbustos al grupo y huye cada vez que lo miran; si los PJ le dejan comida y se alejan, quizá gane confianza."
+  },
+  "poyomon": {
+    "descripcion": "Este bebé de cuerpo translúcido flota como una medusa por el Net Ocean. Posee la composición más primitiva entre los Digimon conocidos, así que antropólogos digitales y aficionados lo llaman el eslabón perdido que podría desvelar el misterio del origen de todos ellos.",
+    "tacticas": "Se protege con Acid Bubbles, burbujas de Veneno que además le dan Escudo. En escena, trátalo como un tesoro científico que alguien quiere capturar más que como un oponente.",
+    "gancho": "Unos investigadores del Net Ocean contratan a los PJ para escoltar a un Poyomon translúcido hasta su laboratorio, aunque otros lo quieren para sí."
+  },
+  "punimon": {
+    "descripcion": "Pertenece a un tipo de Digimon completamente nuevo: un cuerpo gelatinoso y rojo con tres protuberancias en lo alto. No sabe pelear y se limita a amenazar a los enemigos con burbujas ácidas. Su ternura y su torpeza lo vuelven fácil de querer.",
+    "tacticas": "Casi inofensivo: amenaza con Acid Bubbles, burbujas de Veneno a distancia, y poco más. Pon a Punimon como un bebé al que los PJ tienen que proteger, no como un adversario.",
+    "gancho": "Un Punimon aparece rojo y tembloroso en medio del camino, justo cuando algo grande se acerca; los PJ deben decidir si lo esconden o lo llevan a salvo."
+  },
+  "pupumon": {
+    "descripcion": "Limo con alitas casi transparentes que brotan de un cuerpo ligero como una burbuja. Sus ojos, muy grandes, son sensibles al menor movimiento y le permiten huir a la primera señal. Aun así no es cobarde: si lo acosan una y otra vez, planta cara.",
+    "tacticas": "Se esfuma ante cualquier movimiento, pero si lo acosan responde con Poison Bubbles, burbujas de Veneno a distancia. Su sensibilidad al movimiento le sirve para detectar antes a los PJ que se acercan.",
+    "gancho": "Un Pupumon vigila una ruta desde un árbol y huye a la menor sombra; los PJ necesitan quedarse inmóviles un buen rato para ganarse su confianza."
+  },
+  "pururumon": {
+    "descripcion": "Limo regordete, de cuerpo similar a la silicona, que tiembla al avanzar. Sus pequeñas aletas son hábiles para rascarse, pero no le permiten volar. Le encanta el olor del sol y, en días buenos, se tumba en la hierba a olisquear, feliz.",
+    "tacticas": "Si el asunto se complica, babea Acid Bubbles, de Veneno, para cubrir al enemigo y escapar entre tanto. Si nadie lo molesta, dormita al sol: es perfecto para un encuentro tranquilo.",
+    "gancho": "Un Pururumon toma el sol en medio del camino y se niega a moverse; los PJ tendrán que ingeniárselas para pasar sin molestarlo ni mancharse."
+  },
+  "pusumon": {
+    "descripcion": "Limo cubierto de un pelaje suave como el algodón, salvo unos pelos amarillos de la frente, algo más duros. Pusumon se angustia si no tiene el chupete a mano y llora sin parar cuando lo pierde. Al sentirse amenazado, se hincha con una bocanada de aire y lanza el chupete para intimidar.",
+    "tacticas": "Su Pacifier, de elemento Cósmico, sale disparado a distancia y puede Asustar. Después, sin chupete, Pusumon llora desesperado: es buen momento para que los PJ se lo devuelvan y se ganen su confianza.",
+    "gancho": "Un Pusumon llora sin consuelo porque ha perdido su chupete; los PJ deben encontrarlo antes de que el llanto atraiga a todo Digimon de la zona."
+  },
+  "puttimon": {
+    "descripcion": "Bebé sagrado y forma básica de todos los Digimon ángel. Le cuesta distinguir el bien del mal y se mete en travesuras encantadoras. Trae alegría y buena suerte, y vuela con las alitas de su espalda, algo muy raro en un recién nacido.",
+    "tacticas": "Revolotea esparciendo Angel Dust, polvo de Luz que puede Cegar y pone de buen humor. Úsalo para despistar más que para dañar, y haz que su travesura meta a los PJ en algún lío.",
+    "gancho": "Un Puttimon espolvorea Angel Dust sobre un mercado y todos sonríen sin parar; los PJ deben encontrarlo antes de que nadie se acuerde de lo que tenía que hacer."
+  },
+  "puwamon": {
+    "descripcion": "Digimon polluelo cubierto de plumas suaves, con una vista agudísima que abarca una gran extensión y le permite reaccionar al instante a cualquier movimiento. Curioso y nada tímido, congenia con todos. Lo que no soporta es que le toquen la cola.",
+    "tacticas": "Vuela y vigila desde el aire; si lo molestan, lanza Fluffy Feather, un plumón de Viento que puede Cegar. Ideal para dar aviso temprano de lo que se acerca y luego esfumarse entre nubes de plumas.",
+    "gancho": "Un Puwamon avista desde lo alto a unos Digimon hostiles y avisa a los PJ con un revoloteo; si lo siguen con cuidado, evitarán la emboscada."
+  },
+  "puyomon": {
+    "descripcion": "Limo blando y pegajoso del Net Ocean, con un solo ojo como lente que no deja adivinar qué piensa. Se deja llevar flotando por sus aguas, extendiendo tentáculos para agarrarse a lo que encuentra. Al hacerlo suelta una descarga que es más una forma de comunicarse que un ataque. Si se juntan varios, la zona se vuelve peligrosa.",
+    "tacticas": "Se agarra y suelta Static Cloud, una nube eléctrica de zona que puede Paralizar. Varios Puyomon juntos hacen el área peligrosa: para el DJ, el terreno es el verdadero enemigo.",
+    "gancho": "Un grupo de Puyomon se ha enganchado entre sí y electrifica una corriente del Net Ocean; los PJ deben cruzarla o separar con cuidado a los pequeños charlatanes."
+  },
+  "pyonmon": {
+    "descripcion": "Digimon con una única oreja enorme y el cuerpo cubierto de pelaje suave. Tímido desde que nace, se tapa la cara cuando alguien lo mira a los ojos, pero también se encariña pronto y busca a quien le cae bien para acurrucarse. Tiene poca paciencia con los que le molestan.",
+    "tacticas": "Su Earwhip, un latigazo de oreja a distancia, es sorprendentemente fuerte y puede espantar incluso a un Digimon de nivel superior. Un ruido fuerte lo hace bajar la oreja y huir.",
+    "gancho": "Un Pyonmon se acurruca contra un PJ, pero un estruendo cercano lo hace huir; hay que averiguar qué ruido lo asusta y dónde se esconde."
+  },
+  "relemon": {
+    "descripcion": "Digimon místico que, según se dice, solo nace en noches de luna. Los Relemon nacidos con luna llena reciben su magia y crecen con habilidades fuera de lo común. Nocturno y tímido, rara vez se deja ver. No puede atacar, pero sí transformarse en algo de su tamaño; la cola, eso sí, siempre lo delata.",
+    "tacticas": "Su Transformation le deja imitar cualquier objeto de su tamaño para esconderse, pero la cola lo delata. Úsalo para jugar al escondite con los PJ más que para pelear.",
+    "gancho": "Cada noche aparece en un pueblo un objeto nuevo de lo más sospechoso, siempre con una cola asomando; los PJ deben descubrir al Relemon que se disfraza."
+  },
+  "sakumon": {
+    "descripcion": "Digimon pequeño con una única cuchilla en la cabeza. Todo su cuerpo es de un dorado reluciente y su hoja brilla con fuerza. Es travieso y no para quieto mientras está despierto. Pero el peso de su cabeza lo desequilibra, y rueda por ahí agitando su filo.",
+    "tacticas": "Rueda y ataca con Sakkuri, su ataque de Acero a distancia, aunque sus movimientos son tan caóticos que casi nadie quiere acercarse. Es un revoltoso, no un guerrero: aprovecha su desequilibrio para el humor.",
+    "gancho": "Un Sakumon rueda por un mercado digital y deja un rastro de objetos cortados; los PJ deben detenerlo sin que nadie salga herido ni lo asuste más."
+  },
+  "sunamon": {
+    "descripcion": "Limo con el cuerpo hecho de arena. Muy territorial, es agresivo para ser un bebé. Puede cambiar su composición para fluir como arena o compactarse como arcilla, pero nunca logra transformar su chupete. Si se le acercan enemigos, lanza puñados de arena para intimidar.",
+    "tacticas": "Defiende su territorio lanzando Sand Toss, arena de Tierra que puede Cegar a distancia, y se funde con el suelo si lo presionan. Pon su territorio en un lugar que los PJ deban cruzar.",
+    "gancho": "Un Sandmon reclama como suyo el único paso entre dos dunas; los PJ deben negociar el cruce o dar un rodeo largo y peligroso."
+  },
+  "tomorimon": {
+    "descripcion": "Digimon fantasma que flota envuelto en un velo gaseoso y desprende un tenue resplandor. Se le ve de noche y se le ha avistado por el este del Mundo Digital, titilando mientras vaga por la oscuridad. Su luz atrae más de lo que asusta.",
+    "tacticas": "Si siente peligro, usa Will-o'-the-Wisp para iluminar los gases de su cuerpo y Cegar a los enemigos; después huye volando. Perfecto como luz misteriosa que guía a los PJ lejos del camino.",
+    "gancho": "Una luz tenue titila entre los árboles y atrae a los PJ hasta un Tomorimon perdido; deben decidir si lo siguen hacia lo desconocido o lo guían a casa."
+  },
+  "tsubumon": {
+    "descripcion": "Parece una semilla, pero no es un Digimon de tipo planta. Tsubumon no vuela, pero se desplaza rebotando sobre cualquier superficie, ya sea suelo o agua, y se dice que no hay lugar adonde no llegue. Los días de viento se lo lleva el aire, y de ahí viene el error de creer que es una planta.",
+    "tacticas": "Su Acid Bubbles, de Veneno a distancia, es su herramienta de espanto. Haz que rebote sobre agua o terreno difícil para escapar de los PJ, siempre un paso por delante.",
+    "gancho": "Un Tsubumon cruza rebotando un lago que los PJ necesitan atravesar; si lo siguen, descubrirán un camino que nadie conocía."
+  },
+  "yolkmon": {
+    "descripcion": "Limo que aún lleva en la cabeza el cascarón de su Digi-Egg. Es tranquilo y se las arregla colándose en los nidos de otros Digimon. Como el cascarón le sirve de camuflaje, casi nunca lo descubren antes de que digievolucione. Si alguien lo ve, hace burbujas para asustar.",
+    "tacticas": "Se esconde bajo el cascarón y, si lo descubren, usa Bubbles, burbujas de Agua que pueden Asustar, para ganar tiempo. Úsalo como un polizón en un nido: lo difícil es notar que está ahí.",
+    "gancho": "Una familia de Digimon encuentra un cascarón extra en su nido; los PJ deben descubrir que dentro hay un Yolkmon y convencerlo de salir."
+  }
+}

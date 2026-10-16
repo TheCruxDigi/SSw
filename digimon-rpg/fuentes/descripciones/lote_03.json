@@ -1,0 +1,227 @@
+{
+ "coronamon": {
+  "descripcion": "Nacido de los datos recogidos al observar el sol, Coronamon es un cachorro de fuego con un sentido de la justicia tan firme como ingenuo. Se lanza a defender a cualquiera sin pensárselo dos veces, y puede envolver todo su cuerpo en llamas cuando la situación lo pide. Su corazón puro lo hace fácil de querer.",
+  "tacticas": "Es un combatiente ágil que golpea primero: CoronaｰKnuckles encadena puñetazos ardientes con Quemar y Rápido. Si lo acorralan, Petit Prominence lo envuelve en llamas para ganar un Escudo y quemar a quien se acerque demasiado.",
+  "gancho": "Un joven Coronamon ha jurado proteger una aldea de unos supuestos bandidos que solo buscan refugio; los PJ deben aclarar el malentendido antes de que todo acabe en llamas."
+ },
+ "ganimon": {
+  "descripcion": "Crabmon se ha reforzado pegándose al cuerpo los datos de metal que flotan disueltos en el Net Ocean. Lleva una gran cuchilla en la pinza izquierda y una tenaza poderosa en la derecha, además de un caparazón espinoso que castiga a quien lo toca. Presumido y bromista, adora tender trampas y cuida mucho de no mostrar sus puntos débiles.",
+  "tacticas": "Actúa como tanque: se planta en primera línea, provoca a los enemigos para que lo ataquen a él y remata con Scissors Execution, un tijeretazo de Acero al cuello con efecto Ejecutar. Sus puntos flojos son las articulaciones y el vientre.",
+  "gancho": "Un Crabmon bromista ha convertido un vado del Net Ocean en su propio peaje: nadie cruza sin superar una de sus pruebas, y los PJ tendrán que vencerlo o burlarlo."
+ },
+ "ganimon_x": {
+  "descripcion": "Tras sobrevivir al duro entorno del Net Ocean, esta versión de Crabmon se cubre de datos metálicos que tapan cualquier hueco de su defensa y le permiten reparar al instante las piezas rotas. Como destruye y reconstruye su caparazón una y otra vez, cada ejemplar luce distinto. Sigue siendo seguro de sí mismo y amigo de las jugarretas.",
+  "tacticas": "Es un tanque aún más difícil de remover: con Heavy Crunch aprieta con las pinzas para Atrapar y Ralentizar, y después hunde la tijera con Scissors Execution. Describe su caparazón remendado de forma distinta en cada encuentro.",
+  "gancho": "Un Crabmon con el caparazón remendado de un metal desconocido pide escolta por el Net Ocean: busca el origen de ese metal, pero alguien mucho mayor también lo vigila."
+ },
+ "cutemon": {
+  "descripcion": "Habita las regiones frías y es tan tímido como bromista. Lo que parecen orejas de conejo son órganos sensoriales que le avisan al instante de cualquier Digimon que se acerca, así que casi siempre desaparece antes de ser visto. Si lo ves, o tienes mucha suerte o estás a punto de caer en su broma. A veces cura a escondidas a los heridos.",
+  "tacticas": "Evita la pelea: se esconde y cura a sus aliados con Healing Glow desde lejos, y solo si lo acorralan lanza Supersonic Wave, una onda de Agua que Empuja a todos. Úsalo como apoyo de un grupo enemigo o como aliado fugaz.",
+  "gancho": "Siguiendo rumores de heridas que se curan solas en una ladera nevada, los PJ tendrán que ganarse la confianza de un Cutemon tímido para conocer al sanador anónimo."
+ },
+ "picodevimon": {
+  "descripcion": "Pequeño y con aspecto de murciélago, sirve de ayudante a Digimon más poderosos como Devimon o Myotismon. Se rumorea que fue él quien tentó a Devimon, antes un ángel, para que se pasara al lado oscuro. Le falta fuerza, pero le sobra malicia: ama la oscuridad, rara vez va solo y siempre anda metido en algún problema.",
+  "tacticas": "Pelea sucio y en compañía: lanza ráfagas de Demi Darts, jeringuillas gigantes de Oscuridad que Drenan y Asustan, mientras su amo carga con el peso del combate. Sin un jefe cerca, lo lógico es que huya.",
+  "gancho": "Un DemiDevimon susurra mentiras y ofertas tentadoras al oído de un joven Digimon amigo del grupo; los PJ deben descubrir quién lo envía antes de que su compañero caiga."
+ },
+ "dokunemon": {
+  "descripcion": "Se parece a un Kunemon, pero es mucho más asustadizo: prefiere esconderse en el bosque, para desesperación de los investigadores que querían estudiarlo y entender mejor a los Insectoides. Su veneno es tan potente que incluso tocarlo resulta peligroso. Pequeño, esquivo y letal sin proponérselo, es más una trampa viviente que un adversario.",
+  "tacticas": "Ataca desde la maleza y salta: Worm Venom esparce desde su pico una neurotoxina con Veneno y Paralizar, y si lo atrapan, Poison Ride clava el cuerno de su cola. Tras un par de rondas busca otro escondite.",
+  "gancho": "Unos científicos digitales piden a los PJ que capturen un DoKunemon para estudiarlo, pero es tan miedoso y venenoso que acercarse sin ser vistos exige ingenio y paciencia."
+ },
+ "dondokomon": {
+  "descripcion": "Aparece de la nada allí donde hay fiesta y contagia a todos con su ritmo de tambor. Las ondas de sonido que golpea hacen vibrar a quien las oye y le suben los ánimos al máximo. Solo quiere animar, no pelear, pero en una batalla su música enciende por igual a amigos y enemigos, y todo acaba en una gran trifulca.",
+  "tacticas": "Es un místico que altera el ritmo del combate: Dondoko March Invoca refuerzos y da Mejora a los suyos, y Extreme Taiko Confunde a los rivales. Si alguien interrumpe su concierto, responde con Dondoko Rush.",
+  "gancho": "Un festival de aldea digital se descontrola cuando Dondokomon empieza a tocar. Los PJ deben apaciguar a una multitud que ha pasado de bailar a pelearse, sin dejar al tamborilero sin escenario."
+ },
+ "dorumon": {
+  "descripcion": "Su anticuada interfaz en la frente delata a un posible prototipo anterior al descubrimiento de los Digimon. Con un instinto de combate muy marcado, ruge y muerde todo lo que se mueve, aunque dicen que acaba acostumbrándose a lo que ha mordido una vez. En lo más hondo de su DigiCore se rumorea que duerme la fuerza vital de un dragón legendario.",
+  "tacticas": "Combate a media y corta distancia: Metal Cannon dispara una bola de hierro desde lejos, pero es más peligroso con Dash Metal, una embestida de Acero que Derriba y es Rápida. Elige muy bien cuándo atacar.",
+  "gancho": "Un Dorumon muerde todo lo que se cruza en su camino, incluida la mochila de los PJ. Si logran calmarlo, la marca de su frente podría guiarlos hasta el lugar donde fue creado."
+ },
+ "dracumon": {
+  "descripcion": "Es el mayor bromista del Área Oscura y no duda en jugarse el cuello por una buena travesura: una vez casi muere por garabatear las caras de los Cuatro Soberanos. Aunque es un vampiro, últimamente anda tan absorto en burlarse de los Caballeros Reales que se ha olvidado de beber sangre. Dicen que quien mira los ojos de sus palmas queda bajo su control.",
+  "tacticas": "Prefiere hostigar antes que pelear: Eye of Nightmares es una mirada Certera que Asusta desde lejos, y Undead Fang muerde con colmillos Perforantes a quien se acerque. Hazlo escurridizo y burlón, más interesado en la broma que en el daño.",
+  "gancho": "Dracmon planea su travesura definitiva y necesita ayuda: los PJ pueden unirse a la broma, frustrarla o salvarlo de las consecuencias, porque la víctima elegida es alguien muy poderoso."
+ },
+ "dracomon": {
+  "descripcion": "Heredero de un antiguo linaje que se remonta al origen de los Digimon dragón, tiene una fuerza y una velocidad asombrosas para su tamaño. Es fiero, pero guarda un lado tierno para quien se gana su confianza. Sus alas aún no le sirven para volar. Adora las cosas brillantes y, si una le gusta mucho, se la come. Si alguien toca su escama Gekirin, se enfurece sin control.",
+  "tacticas": "Pega fuerte para ser un Novato: Baby Breath lanza una ráfaga que Empuja con efecto Brutal, y Tail Smash derriba al girar sobre sí mismo. Si tocan su escama Gekirin, desata Great Strike, que Ciega, y ataca sin distinguir bando.",
+  "gancho": "Un Dracomon se ha tragado la joya de una reliquia valiosa y no quiere soltarla. Los PJ deben convencerlo con algo aún más brillante, sin rozar nunca su escama más sensible."
+ },
+ "dracomon_x": {
+  "descripcion": "Variante de Dracomon con las alas más desarrolladas, ahora situadas en los brazos. Más que para volar, las usa para empujar ráfagas de aire que extienden su aliento ardiente por un área amplia. Además, su cuerpo calienta tanto los cuernos que los usa como ariete al rojo vivo. Conserva el gusto por lo brillante y su carácter fiero.",
+  "tacticas": "Es un bruto de fuego: Baby Blaze arrasa una zona con Quemar y Brutal, y Smash Horn embiste con cuernos al rojo vivo que Perforan y queman. Guarda Great Strike, que Ciega, para cuando lo acorralen.",
+  "gancho": "Un Dracomon sobrecalentado se refugia en una cueva helada para enfriar sus cuernos. Los PJ deben ayudarlo antes de que el deshielo inunde la aldea que vive más abajo."
+ },
+ "ebiburgamon": {
+  "descripcion": "Es un Digimon formado con datos de comida, variante de Burgamon que además incorpora gambas frescas. Dicen que tiene un corazón puro, quizá por la cuidadosa selección de ingredientes de la que nació. Sus ataques despiden aromas tan sabrosos que dejan clavado en el sitio a cualquier enemigo.",
+  "tacticas": "No hiere, distrae: Fresh Shrimp y Hot Cutlets sueltan olores tan apetitosos que Confunden a quien los huele. Úsalo como apoyo que desbarata a los rivales mientras el resto del grupo aprovecha el despiste.",
+  "gancho": "Un aroma irresistible atrae a todos los Digimon hambrientos de la zona hacia un EbiBurgamon asustado. Los PJ deben protegerlo de la multitud sin que nadie salga herido."
+ },
+ "ekakimon": {
+  "descripcion": "Es el Digimon más apasionado por el dibujo en todo el Mundo Digital. Su cuerpo está hecho de lápices de colores y no deja de dibujar a ninguna hora ni en ningún lugar. Puede producir el color que necesite, y sus trazos adquieren propiedades distintas según el tono: los rojos, por ejemplo, arden. Hasta puede dibujar una versión diminuta de sí mismo.",
+  "tacticas": "Dibuja a Mini Mini Ekakimon, una copia pequeña que anima para que luche a distancia, y se acerca para usar Colorful Change con trazos rojos que Queman. Describe cada ataque como un dibujo que cobra vida.",
+  "gancho": "Los PJ hallan paredes y suelos cubiertos de dibujos que cobran vida. Siguiendo las pistas llegan hasta Ekakimon, que necesita un modelo para su obra maestra y les pide que posen."
+ },
+ "elecmon": {
+  "descripcion": "Conservó los rasgos de mamífero de Tsunomon al digievolucionar, y con ellos su gran curiosidad y su afición a las travesuras. Para intimidar, despliega en abanico sus nueve colas, como un pavo real presumiendo de plumaje. Es vivaz y juguetón, aunque su energía eléctrica es cosa seria.",
+  "tacticas": "Dispara Sparkling Thunder, una descarga Eléctrica Rápida que puede Paralizar, y cambia de sitio antes de que le respondan. Al empezar el encuentro, abre las colas para amedrentar: buen momento para una tirada de intimidación.",
+  "gancho": "Un Elecmon curioso se ha enredado en la red eléctrica de un pueblo digital y cada chispa de su cola apaga una luz; los PJ deben liberarlo antes del anochecer."
+ },
+ "elecmon-violet": {
+  "descripcion": "Un Elecmon que digievolucionó hacia el tipo Virus y salió con mal genio: fastidia a todo el que se le cruza, sin distinción, y maneja sus nueve colas con maña, azotando en una ráfaga de golpes. Frotándolas entre sí genera electricidad estática que interfiere con las ondas de radio.",
+  "tacticas": "Hostiga desde lejos con Jamming Thunder, que Sella a su objetivo y es Rápida, y cuando lo tiene cerca lo azota con las colas. Úsalo como matón de barrio que corta las comunicaciones del grupo.",
+  "gancho": "Las radios y terminales de un pueblo digital enmudecen sin motivo. Los PJ siguen la interferencia hasta un Elecmon (Violet) que se lo pasa en grande molestando a todos, y deben pararle los pies."
+ },
+ "elizamon": {
+  "descripcion": "Reptil de gran sensibilidad, cuyas orejas en forma de cinta captan hasta el sonido más leve. Le gustan los lugares tranquilos y, al dormir, las pliega para aislarse del ruido. Con su collar y sus orejas resulta elegante y casi adorable, pero si se siente amenazado despliega la gorguera y se lanza al ataque.",
+  "tacticas": "Planea a ras de suelo con el collar girando: Frilled Cutter corta con Acero y Brutal, y Helicop-Tail aprovecha el impulso para Derribar de un coletazo. Su oído fino hace difícil sorprenderlo.",
+  "gancho": "Para cruzar un valle silencioso, los PJ deben moverse sin hacer ruido: cualquier sonido alerta a un Elizamon, que defiende su descanso con el collar desplegado."
+ },
+ "espimon": {
+  "descripcion": "Cíborg curioso por naturaleza, se lanza a investigar cualquier rumor o pista sospechosa que llegue a sus oídos, incluso en zonas donde habitan Digimon peligrosos. Sus ojos cambian a modo de búsqueda para vigilar objetos a kilómetros de distancia, y un interruptor en el vientre le permite camuflarse con el entorno. Se dice que el Crack Team prueba con él sus intrusiones, aunque no está confirmado.",
+  "tacticas": "Es un tirador sigiloso: activa Divanish para Ocultarse y dispara desde muy lejos Mot Bomb, un explosivo Certero que se mueve solo y también sirve de señuelo. Cambia de posición después de cada disparo.",
+  "gancho": "Espimon lleva días siguiendo a los PJ sin que nadie lo vea, convencido de que ellos están detrás de cierto rumor sospechoso, y solo se revelará cuando tenga pruebas."
+ },
+ "niseagumonhakase": {
+  "descripcion": "Se presenta como un genio entre los Agumon, con doctorado en estudios de Monstruos Digitales por la Academia del Mundo Digital, pero su título es robado. No conoce a fondo las especies ni los ecosistemas y esparce información falsa sin remordimientos, así que conviene desconfiar. Eso sí, su rivalidad con Agumon Expert es auténtica: siempre maquina ideas para fastidiarlo.",
+  "tacticas": "Pelea más de farol que de fuerza: lanza Fake Mortarboard con efecto Brutal desde lejos para aparentar sabiduría, y se acerca con Fake Professor's Rod para persuadir a golpes. Sus falsas lecciones pueden despistar a los PJ.",
+  "gancho": "Un cartel anuncia una conferencia gratuita sobre ecosistemas digitales, pero el ponente es Fake Agumon Expert y sus datos son falsos. Los PJ deben desenmascararlo sin que se arme una pelea."
+ },
+ "falcomon": {
+  "descripcion": "Vive entre picos de más de tres mil metros. Sus alas aún no están del todo desarrolladas, así que más que volar planea, pero lo compensa con unas patas potentes que le permiten correr a gran velocidad por terreno rocoso. Tiene un carácter agresivo y ataca con fiereza a quien se acerca sin cuidado.",
+  "tacticas": "Cae desde las alturas y golpea fuerte: Scratch Smash lanza zarpazos de Viento con las garras de sus alas, con Brutal y Empujar, y Falco Rush embiste con las patas para Derribar. Aprovecha el terreno elevado.",
+  "gancho": "Los PJ deben cruzar un paso de montaña que es territorio de un Falcomon agresivo: pueden rodearlo, ganarse su respeto o enfrentarse a él entre las rocas."
+ },
+ "falcomon-2006": {
+  "descripcion": "Subespecie de Falcomon con alas mejor desarrolladas, que le permiten volar en lugar de confiar solo en la fuerza de las patas. Se ha obsesionado con aparecer desde el cielo montado en una gran cometa, como un ninja de película. Lanza estrellas arrojadizas hechas de plumas endurecidas y suelta pequeñas bombas desde arriba.",
+  "tacticas": "Ataca desde el aire como un ninja: Firecracker Smokescreen deja caer bombitas desde su cometa para Cegar, y Ninja Blade le permite Ocultarse tras lanzar sus estrellas de plumas. Hazle entradas teatrales.",
+  "gancho": "Un Falcomon ninja llega en su cometa para rescatar a los PJ de un peligro que solo existe en su cabeza, y su heroico rescate puede estropear una negociación delicada."
+ },
+ "floramon": {
+  "descripcion": "Raro Digimon que, como Palmon, digievolucionó a la manera de un reptil pero se clasifica como Vegetal. Toda su cara tiene forma de flor y suele proteger la cabeza con los pétalos, como un casco; los abre cuando no hay peligro o está de buen humor. Se cree superior a Palmon, a quien considera su rival.",
+  "tacticas": "Controla el espacio: Rain of Pollen cubre una zona con polen alergénico (elemento Agua) que Ralentiza y quita las ganas de luchar incluso a los grandes. Mantén a Floramon detrás y usa el polen como terreno.",
+  "gancho": "Floramon exige un duelo de belleza con Palmon para decidir quién es la mejor planta del jardín; los PJ, nombrados jueces, deberán opinar sin ofender a nadie."
+ },
+ "fujamon": {
+  "descripcion": "Voraz habitante de los ríos del este del Mundo Digital. De carácter agresivo, ahuyenta con sus colmillos venenosos a cualquier intruso de su territorio, sin importar lo fuerte que sea. Sus grandes aletas le sirven para agarrar objetos o arrastrarse por tierra un rato, y gira su larga cola como una hélice para nadar a contracorriente.",
+  "tacticas": "Aguanta en la orilla de su río: Hydro Blast dispara perdigones de Agua que Provocan y Ralentizan, y Serpentine Fang muerde con veneno Perforante que Paraliza incluso a rivales mucho mayores.",
+  "gancho": "El único puente sobre un río está custodiado por un Fujamon hambriento y territorial. Los PJ deben decidir si lo distraen, lo expulsan o buscan otro paso río arriba."
+ },
+ "funbeemon": {
+  "descripcion": "Insectoide ligado a la misteriosa Royal Base, una base flotante de miel. Es alegre, trabajador y bastante fuerte, y se lleva muy bien con los Digimon vegetales como Palmon o Lillymon. Recoge flores y plantas como material para las obras interminables de la base, que protege un poderoso Digimon que impide que nadie se acerque; nadie sabe aún para qué construyen.",
+  "tacticas": "No pelea solo: cuando sus antenas se ponen rojas, Buzz-Buzz Call Invoca a un enjambre de hermanos que Atrapan, mientras Gear Stinger clava aguijones dentados con Veneno. Frente a una horda, lo sensato es huir.",
+  "gancho": "Una fila de FunBeemon vuela cargada de flores hacia las nubes. Los PJ la siguen hasta la misteriosa Royal Base, donde alguien muy fuerte vigila que nadie se acerque."
+ },
+ "gabumon": {
+  "descripcion": "Aunque está cubierto de pelo, es un auténtico Reptil. Es muy tímido y asustadizo, y recoge siempre los restos de datos que deja Garurumon para llevarlos como piel. Como los demás Digimon temen esa piel, le sirve también de protección. Al ponérsela, su personalidad se invierte por completo.",
+  "tacticas": "Con la piel puesta es un bruto valiente: lanza Blue Blaster, una bola de fuego azul con Quemar y Brutal. Si se la quitan, vuelve a ser un Novato tímido que busca esconderse; úsalo como giro dramático.",
+  "gancho": "Un Gabumon tímido ha perdido su piel de Garurumon en una tormenta de datos y sin ella no se atreve a salir. Los PJ deben ayudarlo a recuperarla antes de que otro la reclame."
+ },
+ "gabumon_black": {
+  "descripcion": "Un Gabumon que digievolucionó al tipo Virus. Su piel parece hecha con datos de un Garurumon Virus, y su carácter es salvaje e indisciplinado; sin ella, vuelve a ser tímido y asustadizo, de modo que nadie conoce su verdadero aspecto. Escupe pequeñas bolas de fuego como quien tose.",
+  "tacticas": "Es un matón impulsivo: escupe Blue Blaster, una bolita de fuego que Quema y es Brutal, y busca pelea con cualquiera. Si le arrebatan la piel, pierde el valor y puede rendirse.",
+  "gancho": "Los PJ se topan con un Gabumon (Black) camorrista. Quien logre quitarle la piel descubrirá un secreto: debajo hay un Digimon tímido que nadie ha visto jamás."
+ },
+ "gabumon_x": {
+  "descripcion": "Aunque nació Reptil, absorbió los datos de la piel de Bestia que tanto aprecia y ahora es de tipo Bestia. Sigue siendo tímido, pero con la piel puesta combate con la ferocidad y la agilidad de una fiera. Guarda un Blue Blaster en la mano derecha para golpear, por lo que ya no la cubre con su preciada piel.",
+  "tacticas": "Es ágil y se mueve rápido: Blue Blaster le sirve como proyectil de fuego a distancia, Rápido y con Quemar, o cargado en el puño para golpear de cerca. Con la piel puesta actúa con más ferocidad.",
+  "gancho": "Un Gabumon (X Antibody) lleva su piel con tanto orgullo que otros Digimon quieren retarlo a duelo. Los PJ deben decidir si lo apoyan o lo protegen de su propia timidez."
+ },
+ "gammamon": {
+  "descripcion": "Joven y rarísimo Digimon blanco de tipo Ceratopsio, descubierto hace poco. Se dice que su digievolución está ligada a una señal digital llegada de algún lugar fuera de nuestra galaxia. Sus dos cuernos robustos le sirven para atacar y defenderse. Muestra pocas emociones, pero con el tiempo se vuelve amistoso cuando se crea un vínculo afectivo.",
+  "tacticas": "Embiste de frente con Horn Attack, de efectos Perforante y Brutal, y remata con Breaclaw, un zarpazo cargado con la garra izquierda. Es poco expresivo: transmite sus intenciones casi solo con gestos.",
+  "gancho": "Una señal extraña, venida de más allá del cielo digital, lleva a los PJ hasta un Gammamon que no parece saber de dónde viene. Protegerlo puede salir caro."
+ },
+ "gaomon": {
+  "descripcion": "Se cree que es una subespecie de Gazimon, el de garras afiladas. Se especializa en golpear y retirarse con movimientos ágiles. Lleva guantes que parecen proteger sus garras hasta que terminen de crecer. Es un luchador tenaz que se apoya en la fuerza de sus piernas.",
+  "tacticas": "Es un boxeador escurridizo: arranca con Rolling Upper, un golpe Rápido al pecho, y encadena Gao Rush, una ráfaga que Derriba, antes de retirarse. Double Backhand le da algo de alcance.",
+  "gancho": "Un Gaomon con guantes enormes desafía a los PJ a un combate amistoso para entrenarse; si lo ganan por puntos, se unirá a ellos, y si no, los seguirá hasta cansarlos."
+ },
+ "gaossmon": {
+  "descripcion": "Diminuto y ladrador, su espíritu competitivo es enorme. Es veloz y escurridizo, y perseguirlo entre la maleza es una causa perdida, aunque se delata en cuanto vuelve a ladrar. Nacido para correr por tierra, detesta el agua y no sabe nadar: un arroyo de apenas diez centímetros es para él una barrera, y a veces se desmaya en un charco.",
+  "tacticas": "Ataca con ladridos y llamas: Kilo Flame lanza fuego de poca temperatura a distancia, con Quemar y Brutal, y Head Strike es un cabezazo ardiente. En cuanto hay agua de por medio, queda en desventaja.",
+  "gancho": "Un Gaossmon ladra desde la otra orilla de un riachuelo y no se atreve a cruzar. Los PJ deben ayudarlo a pasar antes de que algo peor oiga sus ladridos."
+ },
+ "gasamon": {
+  "descripcion": "Misterioso molusco de tentáculos que se disfraza de sombrero de mimbre y esconde su arma debajo. Cuando un Digimon confiado se acerca, salta en una emboscada para devorarlo. Por eso choca a menudo con BushiAgumon, al que atrae su deseo de ponerse el sombrero. Pierde en un duelo de espadas, así que huye si falla su sorpresa.",
+  "tacticas": "Se hace pasar por un sombrero abandonado y ataca por sorpresa con Wickerwork Whirlwind, una espiral de tajos que Empuja y es Brutal. Si no sale bien, escupe Acidic Mucus para Atrapar y huye.",
+  "gancho": "Un sombrero de mimbre abandonado en el camino tienta a los PJ. Quien se lo pruebe se encontrará con un Gasamon hambriento, y quizá con un BushiAgumon rondando cerca."
+ },
+ "gazimon": {
+  "descripcion": "Mamífero de enormes garras, algo raro entre los suyos por andar sobre dos patas. Quizá usar las patas delanteras como brazos hizo crecer sus garras y le enseñó a caminar erguido. No es grande, pero tiene un temperamento salvaje y no quiere saber nada de los humanos. Con las garras ataca y también cava, y le encanta hacer hoyos para que otros caigan.",
+  "tacticas": "Cava trampas antes del combate y ataca desde ellas: Electric Stun Blast es un aliento Eléctrico y venenoso que Aturde y Envenena. Usa los hoyos ocultos para sorprender a los PJ.",
+  "gancho": "En el sendero aparecen hoyos ocultos que hacen tropezar a todo el que pasa. Siguiendo las huellas, los PJ descubren a un Gazimon que se parte de risa junto a su última trampa."
+ },
+ "gazimon_x": {
+  "descripcion": "Mamífero de garras enormes que anda sobre dos patas y no quiere llevarse bien con los humanos. Con la mutación se ha vuelto más astuto: se yergue para parecer más grande y amedrentar a los más pequeños, y ha aprendido una táctica traicionera para hacer caer a rivales mayores en fosas especiales. Después, si hace falta, remata con su aliento tóxico.",
+  "tacticas": "Prepara el terreno: con Booby Pit hunde a los grandes en trampas y, desde allí, Electric Stun Blast los Aturde y Envenena. Contra los más pequeños se limita a imponerse con su tamaño.",
+  "gancho": "Un Gazimon (X Antibody) ha llenado un desfiladero de fosas camufladas para atrapar a un Digimon gigante, y los PJ pasan por allí en el peor momento."
+ },
+ "gekkomon": {
+  "descripcion": "Colorido reptil de las selvas tropicales del Mundo Digital. Sus tonos vivos lo camuflan entre la vegetación, y las almohadillas de dedos y pies se agarran a cualquier superficie, de árboles a rocas. Suele ser curioso y alegre. Si se ve acorralado, se corta la cola para distraer a su enemigo y escapar; una cola corta es señal de cobardía y una larga, de fuerza.",
+  "tacticas": "Aprovecha su lengua extensible: Smash Beat golpea con efecto Brutal y puede Aturdir incluso a rivales mayores, Break Throw arroja objetos con Romper y Swing Tackle gira colgado para Derribar. Si va mal, suelta la cola y huye.",
+  "gancho": "En plena selva, algo se mueve entre las hojas: un Gekkomon camuflado sigue a los PJ, curioso, y les hará tropezar con su lengua si no lo descubren a tiempo."
+ },
+ "ghostmon": {
+  "descripcion": "Fantasma que flota entre las tumbas de los cementerios. Es tímido y asustadizo y prefiere no dejarse ver, pero tiene buen corazón y ayuda a quien lo necesite, siempre que pueda hacerlo sin ser visto. Su aspecto da algo de miedo, pero casi nunca es una amenaza.",
+  "tacticas": "Pelea solo como último recurso: Little Plasma suelta una pequeña descarga Eléctrica que Paraliza, y Jack Raid se lanza contra el rival, desaparece y lo golpea por la espalda con Drenar y Confundir.",
+  "gancho": "Alguien arregla en secreto las lápidas rotas y limpia las tumbas de un viejo cementerio. Los PJ, tras una noche en vela, descubren que el responsable es un Ghostmon tímido."
+ },
+ "gizamon": {
+  "descripcion": "Digimon marino con aletas en los pies, más a gusto bajo el agua que en tierra. Allí usa las aletas y sus fuertes patas traseras para nadar a gran velocidad; en tierra salta como una rana y se comporta como un cobarde. En cuanto vuelve al agua, muestra su carácter feroz.",
+  "tacticas": "En el agua es un tanque temible: Provoca con Spiral Edge, un ataque de Acero con sus afiladas aletas dorsales. En tierra se muestra tímido; cambia su valentía según el terreno.",
+  "gancho": "Los PJ deben cruzar un lago y un Gizamon que parecía un bicho cobarde en la orilla se vuelve fiero al nadar. Hallar la forma de atraerlo a tierra es la clave."
+ },
+ "goburimon": {
+  "descripcion": "Parece un duende travieso que adora las malas pasadas. Astutos pero sin una pizca de coraje, los Goblimon siempre van en grupo, ocultos a la sombra de árboles o edificios, esperando para tender una emboscada. Si la cosa se tuerce, huyen en todas direcciones a toda velocidad. Su inteligencia está por encima de la de otros Novatos.",
+  "tacticas": "Úsalos en grupo: emboscan con Goblin Strike, un ataque ígneo Rápido con Quemar, y se dispersan si el combate se complica. Cuantos más sean, más valientes parecen.",
+  "gancho": "Una banda de Goblimon acecha en la sombra de un viejo edificio. Si los PJ superan su emboscada, deberán perseguir a un cabecilla astuto que huye con algo muy valioso."
+ },
+ "gomamon": {
+  "descripcion": "Digimon de pelaje cálido que se mueve bien en tierra. El pelo blanco y corto se vuelve más largo y marrón con la edad. Es un entrometido y un alborotador al que le encanta meterse en todo. La franja roja de su lomo se eriza cuando se enfada, y sus garras cortan hielo sólido, así que subestimarlo es un error.",
+  "tacticas": "Hace de tanque con ayuda de amigos: Marching Fishes Invoca un escuadrón de peces que atacan una zona con Agua. Aguanta en primera línea mientras sus aliados acuáticos trabajan.",
+  "gancho": "Un Gomamon travieso se ha metido en una disputa que no era suya y ha liado un buen lío en un puerto digital. Los PJ deben arreglarlo antes de que los peces tomen partido."
+ },
+ "gomamon_x": {
+  "descripcion": "Su encanto ha subido de nivel y ahora expresa toda la gama de emociones con su mechón rojo, lo que le ha ganado multitud de fans, aunque criarlo por afición resulta difícil. Su cuerpo pequeño esconde una fuerza asombrosa y se mueve deprisa incluso en tierra. En contadas ocasiones actúa con el enorme DaiPenmon, al que considera su subordinado.",
+  "tacticas": "Aquí es un bruto: se lanza a pelear y deja que Marching Fishes Invoque un banco de peces que embisten en zona con Agua. Su pelo rojo indica cómo se siente; descríbelo para dar pistas a los PJ.",
+  "gancho": "Un Gomamon (X Antibody) con muchos admiradores llega a un pueblo y todos quieren acariciarlo; los PJ deben protegerlo del gentío y de un rival celoso que busca pelea."
+ },
+ "gottsumon": {
+  "descripcion": "Digimon de mineral con una defensa formidable, blindado con los datos de roca de su entorno. Descarado, travieso y ambicioso como un joven matón, suele guiar a grupos de Digimon de bajo nivel. También es egoísta y, cuando se enfada, se desata como un volcán en erupción. El aspecto de su coraza varía según dónde se haya formado.",
+  "tacticas": "Bruto resistente que embiste con Rock Fist, un golpe de Tierra con Derribar y Brutal. Acompáñalo de varios Digimon menores a sus órdenes y haz que se enfurezca más al perder, hasta estallar como un volcán.",
+  "gancho": "Un Gotsumon presumido encabeza una pandilla de Digimon pequeños que exige a los PJ un peaje en datos para cruzar su desfiladero rocoso, y no admite regateos."
+ },
+ "gottsumon_x": {
+  "descripcion": "Variante que se viste mejor con los datos de mineral del terreno: su cuerpo es más grueso y más resistente. Presuntuoso, travieso y ambicioso, lidera a otros Digimon jóvenes. Sus golpes tienen más fuerza y, cuando pierde los estribos, su embestida furiosa tiene una capacidad destructiva impresionante para ser un Novato.",
+  "tacticas": "Es un muro con puños: Rock Fist Derriba con Brutal, y Rage Rock, su embestida furiosa, hace Retroceder y Ralentiza. Cuando se enfurece, déjalo cargar sin cuidado.",
+  "gancho": "Un Gotsumon (X Antibody) enfurecido embiste una pared de roca y la hace temblar. Los PJ deben calmarlo antes de que provoque un derrumbe sobre una caravana."
+ },
+ "guilmon": {
+  "descripcion": "Parece un joven dinosaurio. Aunque es un Novato, tiene la brutalidad de un carnívoro y un gran potencial como luchador. La marca de su pecho, el Digital Hazard, la llevan los Digimon capaces de dañar gravemente los datos. Aun así, puesta al servicio de la paz, esa capacidad podría convertirlo en un guardián del Mundo Digital.",
+  "tacticas": "Se abre paso a zarpazos: Rock Breaker destroza incluso la piedra con efecto Romper, y Fire Ball escupe una bola de fuego a distancia que Quema. Si se siente amenazado, deja que su instinto se imponga.",
+  "gancho": "Los habitantes de una aldea temen la marca del pecho de Guilmon y quieren expulsarlo; los PJ pueden demostrar que podría ser su mejor guardián."
+ },
+ "guilmon_x": {
+  "descripcion": "La marca Digital Hazard ha desaparecido de su pecho porque Guilmon la ha aceptado y la contiene dentro de su pequeño cuerpo, aunque todavía no ha despertado ese poder. Si se le cría de la forma correcta, podría convertirse en el verdadero guardián del Mundo Digital. Sus instintos virales lo hacen más agresivo.",
+  "tacticas": "Es un bruto de fuego: Fire Ball y Fire Mitt Atrapan a distancia, y Rock Breaker Rompe obstáculos y armaduras de cerca. Su carácter agresivo lo lanza al ataque sin pensar.",
+  "gancho": "Un Guilmon (X Antibody) busca un maestro que lo guíe antes de que su poder oculto despierte. Los PJ deben decidir si lo acompañan o lo entregan a quien lo reclama."
+ },
+ "gumdramon": {
+  "descripcion": "Tiene una cola-martillo extensible y muy flexible, y su cuerpo blando y elástico se mueve con la energía de un muelle. Es travieso y le encanta ser el centro de atención: se mete en las situaciones más peligrosas si cree que puede lucirse. Dentro guarda un poder inmenso, pero el Kinkoji de su cola le impide aprovecharlo.",
+  "tacticas": "Pelea dando espectáculo: Ran-gum Break barre alrededor con su cola-martillo para Romper con Brutal, Jacked Hammer Aturde tras una voltereta, y Fire Vortex añade un golpe ardiente Rápido. Dale escenas de lucimiento.",
+  "gancho": "Un Gumdramon se mete en medio de la pelea de los PJ con un rival peligroso, decidido a lucirse. Pueden usar su alboroto como distracción o sacarlo antes de que se haga daño."
+ },
+ "hagurumon": {
+  "descripcion": "Máquina mutante cuyo cuerpo principal es un gran engranaje, con otros innumerables engranajes que giran sin parar. Si le quitan uno solo, todos se detienen y deja de funcionar. Puede infectar a otros con un virus para controlarlos, por eso los Digimon malvados lo utilizan. No tiene conciencia de sí mismo y no sabe que lo usan para el mal.",
+  "tacticas": "Aguanta golpes como tanque y usa Cog Crusher: implanta un engranaje negro con virus de Oscuridad, Brutal y Romper, que enloquece al objetivo. Atacar un engranaje clave puede apagarlo de golpe.",
+  "gancho": "Un villano utiliza a un Hagurumon para controlar a los Digimon de un pueblo. Los PJ deben detener a quien lo maneja sin dañar a una máquina que ni sabe que la usan."
+ },
+ "hagurumon_x": {
+  "descripcion": "Esta mutación de Hagurumon va acompañada de KoHagurumon con virus aún más potentes. Ninguno tiene conciencia propia; solo los une girar al unísono, y si se desincronizan, los pequeños pueden soltarse y dañarse. Sus engranajes se han vuelto taladros que hieren a quien se acerque sin cuidado.",
+  "tacticas": "Es un tanque erizado de taladros: castiga a quien se acerca y usa Cog Crusher para infectar con Oscuridad, Brutal y Romper. Rompe su sincronía para que los KoHagurumon se desprendan y se dañen.",
+  "gancho": "En una fábrica abandonada, un Hagurumon rodeado de KoHagurumon taladra el suelo sin parar. Los PJ deben romper su ritmo sin acercarse demasiado a sus puntas."
+ }
+}

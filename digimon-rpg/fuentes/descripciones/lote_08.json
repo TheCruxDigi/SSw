@@ -1,0 +1,227 @@
+{
+ "fugamon": {
+  "descripcion": "Ogro de músculos descomunales que recuerda a los oni de las leyendas japonesas. Pertenece al mismo clan que Ogremon y comparte su amor desatado por la pelea. Cada golpe de su cuerpo curtido arrasa lo que toca, y su garrote de hueso casi nunca descansa.",
+  "tacticas": "Se lanza contra el grupo más apretado y barre a varios héroes de una vez con Evil Hurricane, empujándolos lejos. Es fuerza pura sin finura: castiga a quien se amontona y se deja rodear.",
+  "gancho": "Un Fugamon ha hecho suyo un puente colgante y reta a combatir a todo el que quiera cruzarlo; los héroes deben vencerlo o buscar otro camino antes de que anochezca."
+ },
+ "galemon": {
+  "descripcion": "Dragón con aspecto de ave, de grandes alas y cuernos afilados como cuchillas. Con ellos nota los cambios del viento y adivina emboscadas antes de que ocurran. Es inteligente, come fruta y frutos secos, y vigila el territorio de los Digimon herbívoros a cambio de comida.",
+  "tacticas": "Sobrevuela el campo y aleja a los héroes con Tornado Launcher; cuando alguien se acerca, entra con Hurricane Slicer y los zarandea. Intuye las emboscadas, así que cuesta mucho sorprenderlo.",
+  "gancho": "Una manada de herbívoros pide ayuda a los héroes para que Galemon vuelva a vigilar su pradera, abandonada desde que unos intrusos le robaron la fruta."
+ },
+ "ganemon": {
+  "descripcion": "Anciano caballero con el cuerpo de una moneda al que el dinero le hace perder la cabeza. Con su labia estafa a cualquiera y envía a sus Zenimon a reunir ganancias, que después se come, engordando con cada moneda. Su bigote le sirve de radar para localizar a los Zenimon.",
+  "tacticas": "Lanza monedas con Gold Bowling para cegar desde lejos y, si alguien se acerca, lo aplasta con Gold Press hasta derribarlo. Cuanto más ha acumulado, más pesa su cuerpo; ofrécele dinero para distraerlo.",
+  "gancho": "Ganemon ofrece a los héroes una fortuna por un encargo sencillo, pero el contrato tiene letra pequeña y sus Zenimon ya han empezado a vaciarles los bolsillos."
+ },
+ "gaogamon": {
+  "descripcion": "Bestia de complexión mayor que Gaomon, con las garras protegidas por unos guantes ya bien crecidos. Camina a cuatro patas, pero se levanta como un oso para atacar. Se acerca a una velocidad que el rival no puede seguir y muerde sin soltar hasta que la presa cae.",
+  "tacticas": "Irrumpe con Dash Double Claw, rápido y en ráfaga, para derribar al héroe más débil, y luego lo sujeta con Gaoga Hound. Su velocidad le deja elegir presa; quien intente huir lo lamentará.",
+  "gancho": "Un Gaogamon solitario rodea cada noche el campamento de los héroes sin atacar: está midiendo su valor, y un rival digno podría ganarse a un compañero feroz."
+ },
+ "galgomon": {
+  "descripcion": "Cazador de puntería inigualable, evolución de Terriermon y mucho más veloz de lo que aparenta. Salta muy alto y despliega las orejas para planear. De carácter alegre, pierde los estribos si se enfada, y adora sus vaqueros como si fueran un tesoro.",
+  "tacticas": "Salta, planea y dispara Gatling Arm en ráfagas rápidas desde la distancia; si lo acorralan, se pega al enemigo y lo aturde con Dumdum Uppercut. Cambia de posición cada turno para que nadie lo fije.",
+  "gancho": "Gargomon persigue a un ladrón de Digimon pequeños por un mercado digital y pide ayuda a los héroes, pero alguien ha manchado sus preciados vaqueros y se avecina un berrinche."
+ },
+ "garurumon": {
+  "descripcion": "Lobo de pelaje plateado, tan duro, dicen, como el mithril, con cuchillas en los hombros que cortan lo que toquen. Forjado en la tundra helada, impone por su instinto de combate y su agilidad. Pero es muy inteligente y leal hasta el final a quien reconoce como líder.",
+  "tacticas": "Rodea a los héroes con rapidez y los castiga con Fox Fire, un chorro de llamas azules que quema a distancia. Si el grupo le demuestra valor y liderazgo, puede dejar de atacar y ofrecer su lealtad.",
+  "gancho": "Un Garurumon herido vigila la entrada de una cueva helada y solo deja pasar a quien tenga un líder digno de su lealtad; los héroes deben demostrarlo sin combatir."
+ },
+ "garurumon_black": {
+  "descripcion": "Versión Virus de Garurumon, con las mismas cuchillas en los hombros capaces de cortar cualquier cosa. Le encanta enterrar huesos, aunque el travieso Drimogemon se divierte cambiándolos de sitio a escondidas. Entre travesuras y colmillos, es un cazador que respira llamas azules muy calientes.",
+  "tacticas": "Embosca desde las sombras y exhala Fox Fire a distancia, quemando a los héroes mientras cambia de posición con rapidez. Es astuto y oportunista: se ensaña con el más herido o el más descuidado.",
+  "gancho": "Alguien ha desenterrado todos los huesos que escondía Garurumon (Black) y el lobo acusa a los héroes; para calmarlo deberán descubrir al verdadero bromista, quizá un Drimogemon."
+ },
+ "garurumon_x": {
+  "descripcion": "Lobo de pelaje plateado endurecido aún más por regiones de frío extremo, hasta el punto de que casi nada puede herirlo. Su instinto de combate es más fiero y pelea hasta el final, por lo que pocos Digimon se atreven a desafiarlo. Exige a su Tamer una gran valía.",
+  "tacticas": "Aguanta mucho castigo sin retroceder y lanza Fox Fire a distancia, quemando mientras se mueve rápido. Al ser tan duro, exige que el grupo coordine sus esfuerzos en lugar de confiar en un golpe único.",
+  "gancho": "Un Garurumon (X Antibody) desafía a los héroes en plena ventisca; solo se unirá a quien soporte el frío y no baje la mirada ante la suya."
+ },
+ "tailmon": {
+  "descripcion": "Gata llena de curiosidad y aficionada a las bromas. Es pequeña, pero su poder sagrado es poco común. Lleva el Holy Ring en la cola, y sin él pierde fuerza. Sus guantes de largas uñas, copiados de los datos de SaberLeomon, le sirven de defensa.",
+  "tacticas": "Se cuela entre los héroes con Lightning Paw, un zarpazo veloz, y desde lejos usa Cat's Eye para confundir a quien le sostenga la mirada. Si le quitan el anillo, se debilita visiblemente.",
+  "gancho": "Alguien ha robado el Holy Ring de Gatomon durante una de sus bromas; debilitada pero testaruda, pide a los héroes que la ayuden a recuperarlo sin que nadie se entere."
+ },
+ "tailmon_x": {
+  "descripcion": "Versión más pequeña, curiosa y traviesa de Gatomon, con su inocencia todavía más a flor de piel. Parece que el anticuerpo X le quitó lo superfluo para que manejase mejor su poder sagrado. En la oreja lleva el Holy Chime, una campanilla que suena más fuerte cerca de la energía sagrada y espanta a los Digimon malignos.",
+  "tacticas": "Ataca de cerca con Lightning Paw, rápida y escurridiza, y hace resonar Holy Chime para cegar a distancia a sus enemigos. Es especialmente útil contra criaturas malignas, que se ven forzadas a retroceder.",
+  "gancho": "La campanilla de Gatomon (X Antibody) suena sin parar cerca de unas ruinas; los héroes deben seguir su tintineo para descubrir qué Digimon maligno se esconde allí."
+ },
+ "gawappamon": {
+  "descripcion": "Androide nacido de fusionar los datos de un reproductor de música con los de un mítico kappa. Casi siempre escucha su música favorita con una sonrisa, pero llora si se raya el disco que lleva sobre la cabeza. Su baile es tan misterioso que descoloca a cualquiera.",
+  "tacticas": "Dispara el disco de su cabeza con DJ Shooter, rápido y certero, desde lejos; si lo acercan, golpea con Gawappa Punch. Gawappa Rapper confunde a un rival distraído. Si dañan su disco, se desmoraliza.",
+  "gancho": "Alguien ha rayado el disco favorito de Gawappamon y el androide llora en mitad del camino; los héroes deben conseguirle uno nuevo para devolverle el ritmo."
+ },
+ "gekomon": {
+  "descripcion": "Anfibio de aspecto extraño cuyo canto resulta inesperadamente hermoso. Con los tres agujeros de su lengua y el cuerno que le rodea el cuello toca acordes que manipulan las emociones. Dicen que nace cuando se compone una canción de éxito en un programa de música, y por eso los músicos lo consideran un símbolo de estatus.",
+  "tacticas": "Entona Symphony Crusher en medio del grupo: una vibración que castiga a todos los cercanos y rompe defensas. Conviene que los héroes se separen o lo interrumpan antes de que termine su acorde.",
+  "gancho": "Un concierto misterioso hechiza a todo un pueblo digital y el cantante es un Gekomon; los héroes deben llegar al escenario y romper el hechizo."
+ },
+ "geogreymon": {
+  "descripcion": "Subespecie de Greymon con un aspecto aún más mortífero: el caparazón de su cabeza y de todo su cuerpo se ha convertido en un arma viviente. Sus llamas arrasan cuanto encuentran y su enorme cuerno aplasta sin piedad a quien se interponga.",
+  "tacticas": "Abre con Mega Flame para quemar a distancia y, si carga su aliento, estalla con Mega Burst. Cuando alguien se le acerca, embiste con Horn Impulse, que perfora y empuja.",
+  "gancho": "Un GeoGreymon vigila un desfiladero de lava y ataca a quien se acerque al nido que protege; los héroes deben demostrar que no vienen a robar nada."
+ },
+ "geremon": {
+  "descripcion": "Molusco de la misma especie que Numemon, con poca fuerza ofensiva pero una ferocidad sorprendente. Se lanza contra cualquiera sin importarle quién sea. Lo derrotan enseguida, pero olvida la paliza al instante, así que vuelve a retar a enemigos temibles una y otra vez.",
+  "tacticas": "Corre hacia el enemigo más grande y lo envuelve con Hyper Smell, un hedor que ralentiza a quien lo respira. Cae pronto, pero insiste turno tras turno; funciona mejor como estorbo cómico que como amenaza.",
+  "gancho": "Geremon ha retado, por enésima vez, a un Digimon colosal; los héroes deben sacarlo del campo de batalla antes de que lo aplasten, aguantando su olor."
+ },
+ "gesomon": {
+  "descripcion": "Calamar de las profundidades del Net Ocean, temido como el Demonio Blanco del Abismo. Es muy inteligente y no daña a quien está fuera de su territorio, pero los intrusos se enfrentan a una furia de dios enojado. Prefiere golpear y alejarse a toda prisa.",
+  "tacticas": "Golpea con Devil Bashing, una combinación de tentáculos que aturde, y se retira; Deadly Shade lanza tinta oscura que asusta y estorba la vista. Ataca y se aleja, así que perseguirlo es mala idea.",
+  "gancho": "Los héroes cruzan aguas profundas sin saber que entran en el dominio de Gesomon; deberán mostrar buenas intenciones antes de que el Demonio Blanco salga a por ellos."
+ },
+ "gesomon_x": {
+  "descripcion": "Calamar del Net Ocean cuyas toxinas han evolucionado hasta convertirlo en una criatura letal, consumida por su propio veneno. Dentro de su territorio se siente el amo, pero extiende sus tentáculos más allá de sus fronteras y muerde a los Digimon cercanos para inyectarles un veneno que paraliza durante mucho tiempo.",
+  "tacticas": "Usa Deadly Shade a distancia para paralizar con veneno al objetivo más peligroso, y de cerca muerde con Mad Viking para confundir. Con un héroe paralizado, el resto debe cubrirlo y mantenerse a salvo.",
+  "gancho": "Un banco de Digimon marinos huye hacia la superficie, envenenados por Gesomon (X Antibody); los héroes deben hallar el antídoto antes de que la toxina llegue al puerto."
+ },
+ "ginkakumon": {
+  "descripcion": "Muchacho gigante y callado que, junto a su hermana mayor Kinkakumon, forma los temidos Hermanos Ogro de Oro y Plata. La adora y la cuida con ternura, y aplasta con fuerza de montaña a quien se le acerque con malas intenciones. Que ella lo pilote desde su pecho es, en secreto, su momento más feliz.",
+  "tacticas": "Escupe bolas de fuego con Kiendan y, si lo atacan cuerpo a cuerpo, responde con Gyakugeki Endan, un contraataque en llamas. Si Kinkakumon va a bordo, añade descargas con Kingin Raimeigeki.",
+  "gancho": "Un Ginkakumon silencioso protege a su hermana de unos pretendientes insistentes; los héroes quedan envueltos en un malentendido que solo se aclarará hablando con ella."
+ },
+ "ginkakumon_promote": {
+  "descripcion": "Forma que aparece cuando Kinkakumon y Ginkakumon alcanzan el punto máximo de su furia. Kinkakumon pilota al gigante con su intuición y la fuerza de este se multiplica. Es la unión de dos hermanos que combaten como si fueran uno solo, con el rayo de ella y el fuego del infierno de él.",
+  "tacticas": "Se oculta y aparece de pronto para lanzar Hiden Kibakuha, que combina relámpago y fuego infernal y paraliza a distancia. Prepara la emboscada y castiga al héroe que quede aislado.",
+  "gancho": "Los hermanos de oro y plata, furiosos por una afrenta, se fusionan en plena tormenta; los héroes deben calmar su ira antes de que el rayo arrase una aldea."
+ },
+ "ginryumon": {
+  "descripcion": "Dragón bestial cubierto por una sólida armadura de estilo japonés antiguo. Es más ligero de lo que parece y lucha desviando golpes con su coraza lisa y resistente. Tiene el valor de frenar ataques con su propio cuerpo y la intuición de verlos venir. La interfaz anticuada de su frente delata que es un Digimon prototipo.",
+  "tacticas": "Se planta ante los héroes y desvía sus ataques con Boujinha, contraatacando entre llamas mientras avanza. De cerca, Metal Armor Blade perfora defensas y lo cubre con su escudo.",
+  "gancho": "Un Ginryumon centenario guarda una armería abandonada y solo cede sus tesoros a quien resista sus embates sin dar un paso atrás; los héroes habrán de templar su valor."
+ },
+ "gladimon": {
+  "descripcion": "Guerrero novato de la primera línea: pequeño, ágil y de armadura ligera. Suele colarse entre las filas enemigas para explorar y destaca cuando se coordina con sus aliados en formaciones de combate. Se dice que solo los que ganan batallas evolucionan en grandes guerreros.",
+  "tacticas": "Entra con Wheel Rush, un giro de espadas que derriba, y después danza con Sword Dancer para confundir a quien lo rodea. Mejora si pelea junto a aliados; aislado resulta mucho menos peligroso.",
+  "gancho": "Un pelotón de Gladimon pide a los héroes que los ayuden a abrir una brecha en las líneas enemigas; quien dé muestras de valor podría inspirarlos a evolucionar."
+ },
+ "goldnumemon": {
+  "descripcion": "Subespecie dorada de Numemon, reluciente de pies a cabeza. Absorbe datos de oro de las minas del Mundo Digital, lo que le da más defensa que a un Numemon corriente. Su aspecto impecable engaña: sus ataques son bastante poco elegantes y muy apestosos.",
+  "tacticas": "Arroja una lluvia de oro envenenado con Goldurian Rush para derribar y suelta Gold Excrement para cegar desde lejos. Es resistente y apestoso, más molesto que mortal; juega con el humor del grupo.",
+  "gancho": "Un GoldNumemon presume de su brillo ante los héroes mientras rebusca en una mina; si alguien le roza el oro, hará llover una tormenta de porquería dorada."
+ },
+ "golemon": {
+  "descripcion": "Digimon de roca surgido durante el análisis digital de una antigua maldición. Lleva grabado en la espalda un hechizo con las palabras plaga, maldición y mal, que parece protegerlo de su propio gas venenoso. Casi todo su cuerpo es roca, no siente nada y no da un paso sin una orden.",
+  "tacticas": "Espera inmóvil hasta recibir una orden; luego lanza Crimson Curse para debilitar al héroe más fuerte y golpea con Golem Punch hasta derribar. Es lento y sin emociones: no improvisa.",
+  "gancho": "En unas ruinas, un Golemon aguarda inmóvil una orden que nadie recuerda; los héroes descubren que quien se la dé podría controlar la maldición grabada en su espalda."
+ },
+ "gorimon": {
+  "descripcion": "Hombre bestia con brazos capaces de romper cualquier cosa y piernas que aplastan lo más resistente. Pese a su corpulencia se mueve con una agilidad inesperada, y la aprovecha para disparar el cañón de energía de su brazo derecho. Pelea con estilo, golpeando y retirándose.",
+  "tacticas": "Dispara Power Attack desde distancia con el cañón de su brazo y se desplaza rápido antes de que respondan. Golpea y se aleja, así que los héroes deben cerrar el espacio para que no los castigue sin riesgo.",
+  "gancho": "Un Gorillamon patrulla un desfiladero y exige un duelo de fuerza y elegancia a todo el que pase; los héroes buscan la manera de burlar su cañón."
+ },
+ "greymon-first": {
+  "descripcion": "Dinosaurio cuya piel se ha endurecido en un caparazón que protege su cráneo. Agresivo por naturaleza, usa sus garras afiladas y sus enormes cuernos como armas mortales. Domarlo significa ganar un aliado inteligente y de fuerza incomparable en el campo de batalla.",
+  "tacticas": "Abre con Mega Flame, una llamarada que quema desde lejos, y carga contra quien siga en pie. Es un bruto clásico: castiga al que se queda en primera línea, pero un héroe rápido puede rodearlo.",
+  "gancho": "Un Greymon salvaje corre desbocado hacia una aldea; los héroes pueden detenerlo y, con suerte, ganarse la confianza de un aliado enorme."
+ },
+ "greymon": {
+  "descripcion": "Dinosaurio de tipo tiranosaurio, especializado en el ataque, con un instinto de combate extremo y una naturaleza brutal que no se detiene hasta aplastar al rival. Los Digimon comunes ni se le acercan: los mantiene a raya con su extraño espíritu de lucha. Ni siquiera tiene piedad con los de su especie.",
+  "tacticas": "Quema el entorno con Mega Flame y gira sobre sí mismo con Atomic Tail para derribar a todos los cercanos. Horn Strike le sirve para entrar o retirarse; en el cuerpo a cuerpo es casi imposible de vencer.",
+  "gancho": "Un Greymon despiadado acorrala a una caravana de Digimon menores; los héroes deben distraerlo y encontrar cómo enfrentarlo sin acercarse a su cola."
+ },
+ "greymon_blue": {
+  "descripcion": "Versión Virus de Greymon, de cuerpo negro y azul. Más fiero que el original, se le considera el miembro más salvaje de su especie, pero no es un lobo solitario: es lo bastante astuto como para colaborar con aliados y lograr así sus objetivos.",
+  "tacticas": "Abre fuego con Mega Flame a distancia mientras sus aliados acorralan a los héroes. Es mejor usarlo en grupo que en solitario, para reflejar su astucia y su carácter salvaje.",
+  "gancho": "Un Greymon (Blue) lidera una banda que asalta caravanas con una coordinación sorprendente; los héroes deben romper su trabajo en equipo para detenerlo."
+ },
+ "greymon_blue_x": {
+  "descripcion": "Con el anticuerpo X, su poder de ataque y su inteligencia han crecido, y ahora aprovecha mejor los puntos débiles de su presa. Tras vencer, la despedaza con ferocidad de dinosaurio carnívoro. Es la variante azul y negra de Greymon en su versión más peligrosa.",
+  "tacticas": "Estalla con Mega Burst, una llamarada explosiva a distancia que quema, y si lo rodean barre con Razor Tail para derribar. Elige al héroe más herido y se ensaña con él.",
+  "gancho": "Un Greymon (Blue)(X Antibody) ha marcado a uno de los héroes como presa; el grupo debe encontrar su debilidad antes de que él descubra la de ellos."
+ },
+ "greymon_x": {
+  "descripcion": "Más agresivo aún que el Greymon corriente, tiene un cuerpo pequeño comparado con los grandes dinosaurios, pero la ferocidad de un carnívoro. Ha crecido venciendo batallas, y ha aprendido a concentrar su llama en la boca antes de soltarla con efecto explosivo.",
+  "tacticas": "Dispara Mega Flame desde lejos y, cuando está cerca, remata con Mega Burst, una explosión de golpe cargado. Es compacto y feroz: no subestimes su tamaño menor.",
+  "gancho": "Un Greymon (X Antibody) busca un oponente digno tras cada victoria y se planta ante los héroes, reclamando un combate honorable antes de dejarlos cruzar."
+ },
+ "gryzmon": {
+  "descripcion": "Bestia de gran corpulencia, garras y colmillos temibles, pero con el espíritu honesto de un auténtico artista marcial. Nunca empieza una pelea; si lo enfadan, se alza sobre las patas traseras y lanza un zarpazo capaz de herir gravemente a casi cualquiera. Esquiva con una velocidad impropia de su volumen.",
+  "tacticas": "Espera el primer ataque y responde con Maul Attack, devolviendo la fuerza del golpe contra el punto débil del enemigo. Es un duelista paciente que castiga a quien ataca sin pensar.",
+  "gancho": "Un Grizzlymon pacífico es provocado por unos matones; los héroes deben calmar a todos antes de que su paciencia se agote y el pueblo pague las consecuencias."
+ },
+ "growmon": {
+  "descripcion": "Conocido como el Dragón Carmesí, ha dejado atrás la ingenuidad de Guilmon y se ha vuelto más salvaje. Aunque es Virus, puede volverse leal según cómo lo críe su Tamer, incluso luchar por la justicia. Su rugido hace temblar el suelo y lo usa para intimidar antes de pelear.",
+  "tacticas": "Ruge para intimidar y abre con Exhaust Flame para debilitar a distancia; después se acerca con Plasma Blade, que paraliza. Es buen momento para que el grupo intente razonar con él.",
+  "gancho": "Un Growlmon rojo ruge frente a una puerta digital; si los héroes le recuerdan al Guilmon que fue, quizá elija entre la furia y la justicia."
+ },
+ "growmon_orange": {
+  "descripcion": "Growlmon de color naranja por haberse vuelto de tipo Datos. Suele ser más sosegado que su versión Virus, aunque se enfurece enseguida si algo sale mal. Cuando pierde la paciencia, desata una llamarada acompañada de un rugido explosivo.",
+  "tacticas": "Empieza sereno y, cuando algo falla, estalla con Exhaust Flame para debilitar a distancia o con Plasma Blade para paralizar de cerca. Narra cómo su calma se rompe a mitad de combate.",
+  "gancho": "Los héroes comparten fogata con un Growlmon (Orange) amable, hasta que una torpeza arruina su descanso; ahora deben calmar a un dragón furioso."
+ },
+ "growmon_x": {
+  "descripcion": "Ha aceptado en su cuerpo el poder del anticuerpo X y su instinto de Virus ha crecido, mostrando una ferocidad desbordante que, según cómo madure, roza la justicia. Las cuchillas de sus antebrazos son más grandes y generan plasma al golpear.",
+  "tacticas": "Combina Plasma Blade para paralizar y Raiden Blade para soltar la energía acumulada, y usa Exhaust Flame para debilitar desde lejos. Es un bruto con más recursos: pelea cerca y lejos.",
+  "gancho": "Un Growlmon (X Antibody) escapa de una prueba con energía desbordada; los héroes deben decidir si lo detienen o le muestran el camino de la justicia."
+ },
+ "guardromon": {
+  "descripcion": "Máquina guardiana de los cortafuegos de las redes. Antes defendía los sistemas junto a Giromon, hasta que unos hackers lo infectaron con un virus para aprovechar su defensa impenetrable. Solo sabe defender, así que repele a los invasores sin cuestionar a su nuevo amo y únicamente ataca a intrusos.",
+  "tacticas": "Se planta en la puerta y provoca con Destruction Grenade, una granada de acero que persigue a los intrusos. Es un tanque: aguanta, atrae la atención y deja que sus aliados golpeen.",
+  "gancho": "Para cruzar un cortafuegos controlado por hackers, los héroes deben engañar a Guardromon, que solo ataca a intrusos; quizá baste con hacerse pasar por invitados."
+ },
+ "gardromon_gold": {
+  "descripcion": "Guardián de una mina de Chrondigizoit, se transformó para resistir los asaltos de mineros ilegales. Su armadura, formada con polvo de Chrondigizoit del aire, es más resistente que la de un Guardromon corriente y su granada rinde algo más; a cambio, pesa tanto que sus movimientos son lentos.",
+  "tacticas": "Defiende con Destruction Grenade, que además lo cubre con un escudo. Es una fortaleza lenta: déjalo avanzar poco y atraer los ataques mientras los héroes tratan de rodearlo.",
+  "gancho": "Unos mineros ilegales intentan saquear la mina que protege Guardromon (Gold); los héroes deben convencerlo de que no son ladrones antes de que sus granadas respondan."
+ },
+ "gulusgammamon": {
+  "descripcion": "El corazón malvado oculto en Gammamon se liberó y lo convirtió en un Digimon violento. Rechaza cualquier intromisión y solo piensa en combatir; una vez atrapa a su rival, no cesa hasta dejarlo fuera de combate. Sigue peleando aunque tenga las extremidades destrozadas.",
+  "tacticas": "Aplasta con Dark Pales, llamas oscuras en la mano que asustan y golpean fuerte, y remata al herido con Dead End Skewer, su cola puntiaguda. No se detiene aunque esté herido: ignora el dolor.",
+  "gancho": "Un GulusGammamon aparece donde resuena el eco de un Gammamon que ha perdido su alegría; los héroes podrían devolverle algo de la luz que escondió."
+ },
+ "gururumon": {
+  "descripcion": "Bestia casi idéntica a Garurumon, pero brutal y amante de las sombras, que siembra discordia por donde pasa. Resulta un problema constante para los Digimon de la zona. Su aliento de fuego tiñe de rojo el aire cuando escupe llamas ardientes.",
+  "tacticas": "Acecha desde las sombras y exhala Chaos Fire a distancia, quemando mientras cambia de sitio. Cuando el grupo discute o se dispersa, aprovecha para atacar al más descolocado.",
+  "gancho": "Alguien siembra rencillas entre dos aldeas digitales y las huellas llevan hasta Gururumon; los héroes deben seguir su rastro antes de que estalle la guerra."
+ },
+ "hakubamon": {
+  "descripcion": "Bestia sagrada con rasgos de caballo y de dragón oriental: garras afiladas, bigotes y escamas. Vive solitaria en las montañas. Su pelaje platino y sus escamas resisten el fuego, y gracias a ello ha rescatado a Digimon pequeños atrapados en incendios. Orgullosa, apenas deja que alguien la monte.",
+  "tacticas": "Cruza veloz el campo y desgarra con Severing Dragon Claw, cuya luz deslumbra; desde lejos lanza Blazing Beads, cuentas que persiguen y queman a quien tenga malas intenciones. Respeta a los de buen corazón.",
+  "gancho": "Un incendio forestal amenaza a unos Digimon pequeños y Hakubamon aparece entre el humo; los héroes deben ganarse su confianza para que los ayude a ponerlos a salvo."
+ },
+ "hi-commandramon": {
+  "descripcion": "Soldado de infantería pesada de la Brigada D. Muchos de los cien Commandramon que no superan la prueba Selection-D evolucionan a Hi-Commandramon. Su función principal es hacer de escudo con su corpulencia y su armadura, protegiendo a los asaltantes. Su piel imita en tiempo real los colores de su entorno.",
+  "tacticas": "Dispara DCD Grenade desde larga distancia con gran precisión, con granadas explosivas, de humo o acústicas, y embiste con Destroy Charge para derribar. Úsalo como apoyo pesado de un pelotón de Commandramon.",
+  "gancho": "Una patrulla de la Brigada D, con un Hi-Commandramon al frente, pide escolta a los héroes por territorio hostil, pero uno de sus soldados oculta algo."
+ },
+ "hi-visionmonitamon": {
+  "descripcion": "Último modelo de Monitamon, superior en combate, análisis y recopilación de información. Siempre al día de las noticias del Mundo Digital, guía con ellas a los Monitamon, que confían en él y lo llaman Señal Negra. Su defecto: se emociona tanto explicando sus planes que no se calla.",
+  "tacticas": "Dirige una escuadra de Monitamon con Photoelectric Execution Formation, dispara Film Buster desde lejos para drenar energía y cura con Healing Sky Light. Es polivalente: sus técnicas menores queman, ralentizan, empujan o paralizan.",
+  "gancho": "Hi-VisionMonitamon pide ayuda a los héroes para frenar un plan de ataque que ha descubierto, pero sus explicaciones se alargan tanto que el tiempo corre en su contra."
+ },
+ "hookmon": {
+  "descripcion": "Pirata de un solo ojo que surca el Net Ocean persiguiendo al legendario Whamon blanco, desafiando las olas bravas. Su mano derecha es un garfio, y cuando atrapa a su presa no la suelta por nada. Con la izquierda dispara balas de cañón.",
+  "tacticas": "Dispara Captain Cannon desde lejos y, si se acerca, engancha con su garfio a un héroe para impedir que huya. Combina cañonazos con presión constante; ideal como capitán de una tripulación pirata.",
+  "gancho": "Hookmon ofrece un trato a los héroes: guiarlos por el Net Ocean si lo ayudan a encontrar al Whamon blanco que lleva años buscando."
+ },
+ "hoverespimon": {
+  "descripcion": "Evolución mejorada de Espimon, creada para reunir datos más precisos tras varias investigaciones. Se sumerge a profundidades enormes del Net Ocean para espiar a Digimon escondidos. Con sus gafas de realidad virtual calcula dónde estará su objetivo segundos después, y su camuflaje puede borrar todo rastro, visual y sonoro.",
+  "tacticas": "Desaparece con Divanish, se cubre con humo gracias a Dronger y dispara Stamper Missile desde larga distancia sin fallar. Es un espía: golpea desde lejos y se esfuma antes de que lo localicen.",
+  "gancho": "Se rumorea que equipos de espías usan a HoverEspimon en guerras de información; los héroes encuentran uno que ofrece secretos a cambio de un favor imposible."
+ },
+ "hudiemon": {
+  "descripcion": "Insectoide de forma humanoide y alas de mariposa. Receloso al principio, muestra su cara alegre y juguetona cuando se siente a gusto. Es como una copia de seguridad del Mundo Digital: guarda en sí inmensas cantidades de datos, y aunque desaparecieran todos los recuerdos del mundo, volverían mientras él exista.",
+  "tacticas": "Vuela sobre los héroes y los adormece con Infinity Dream, una ráfaga de escamas, y se lanza en picado con Flying Kick para empujar. Con aliados heridos, usa su poder para aliviarlos.",
+  "gancho": "Un archivo del Mundo Digital se ha borrado y la única esperanza es Hudiemon, que huye de los extraños; los héroes deben ganarse su confianza para recuperar los datos."
+ },
+ "hyougamon": {
+  "descripcion": "Variante de Ogremon que vive en regiones frías. Tiene un fuerte sentido del territorio y ataca a quien pise siquiera un palmo dentro; a veces choca con Mojyamon por los límites. Su gélido puñetazo hiela hasta los huesos.",
+  "tacticas": "Defiende su territorio con Snow Punch, un puñetazo helado que congela de cerca. Se enfurece al instante cuando alguien invade su zona; conviene rodearlo o hacerle perder la calma.",
+  "gancho": "Al cruzar un paso nevado, los héroes pisan sin saberlo el territorio de Hyogamon; deberán retirarse con respeto o mediar en su disputa con Mojyamon."
+ },
+ "icedevimon": {
+  "descripcion": "Ángel caído de corazón gélido. Es la forma que adopta un Devimon de corazón cruelísimo al evolucionar. Engaña a sus víctimas con una lengua de plata y después las envuelve en alas de hielo hasta congelarlas.",
+  "tacticas": "Vuela y adula a los héroes para ganar tiempo; luego baja con Frost Claw y congela al que se confíe. Úsalo como un villano elocuente que parlotea antes de atacar.",
+  "gancho": "Un IceDevimon ofrece a los héroes un tratado de paz con sonrisa afilada; descubrir la trampa antes de que sus alas se cierren es la verdadera prueba."
+ },
+ "icemon": {
+  "descripcion": "Digimon de cuerpo hecho de hielo. Sus orígenes aún se investigan: quizá evolucionó de Gotsumon o quizá sea alguna clase de mutación. Se desplaza con aire misterioso por las zonas heladas del Mundo Digital, lanzando bombas de hielo a quien se acerque demasiado.",
+  "tacticas": "Lanza Iceball Bomb desde lejos, bombas de hielo que congelan al impactar. Mantiene la distancia; los héroes pueden acercarse en grupo para acorralarlo antes de que los inmovilice.",
+  "gancho": "Una estatua de hielo con forma de Icemon aparece en medio de un desierto; los héroes deben averiguar quién la creó y cómo llegó hasta allí."
+ }
+}

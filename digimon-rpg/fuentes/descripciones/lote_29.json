@@ -1,0 +1,62 @@
+{
+  "xiangpengmon": {
+    "descripcion": "Un ave colosal cuya sombra podría cubrir varias montañas. Duerme en lo más hondo del océano de la Red y, mientras descansa, su cuerpo mantiene el equilibrio de las aguas. Muchos Digimon marinos anidan entre sus pliegues y lo alimentan; cuando despierta y bate las alas, el clima enloquece.",
+    "tacticas": "Trátalo como una fuerza de la naturaleza, no como un duelo: Sea of Destruction y Lightning Scourge castigan grandes zonas desde lejos, y Divine Lance parte el suelo. Su agilidad le deja sobrevolar el campo y elegir dónde golpear.",
+    "gancho": "Las aguas del puerto se vuelven turbias y el clima se desquicia: algo inmenso se agita en el fondo, y los Digimon marinos suplican a los héroes que descubran qué perturbó su sueño."
+  },
+  "yihumon": {
+    "descripcion": "Mitad tigre, mitad rapaz, con alas que brotan de sus brazos y talismanes amarillos pegados al cuerpo. Domina el viento y lo mezcla con golpes de kung fu. Vive en las cumbres sombrías de Jakeizan, de las que casi nunca baja, y su malicia es tan afilada como sus plumas.",
+    "tacticas": "Bruto que se pega al enemigo: con Sky Rend lanza una patada giratoria de viento cortante que rompe defensas, y con Ravaging Storm arrastra a los héroes por el campo en un torbellino que los empuja.",
+    "gancho": "Para cruzar el paso de Jakeizan, los héroes deben esquivar las ráfagas de Yihumon y descubrir qué antiguo sello esconden los talismanes amarillos que lleva pegados al cuerpo."
+  },
+  "zanbamon": {
+    "descripcion": "General a caballo, o mejor dicho fundido con su montura, que dirige al cuerpo de Musyamon. Jamás se queda en la retaguardia: le encanta cargar el primero contra el enemigo. Blande una espada enorme con la mano derecha y una hoja fina y mágica con la izquierda.",
+    "tacticas": "Entra el primero y busca el cuerpo a cuerpo. Vorpal Blade es un tajo brutal que atraviesa armaduras; con Mystic Flame lanza ondas de fuego en forma de cruz que confunden a quienes se agrupan.",
+    "gancho": "Un ejército de Musyamon bloquea el camino y su general, Zanbamon, ofrece paso libre a quien derrote a su campeón en un duelo de honor ante todas las tropas."
+  },
+  "zdgarurumon": {
+    "descripcion": "Lobo cíborg convertido en tanque viviente, una variante de MetalGarurumon cargada de armas con munición real. Sus miras láser fijan cientos de blancos a la vez y puede mantener el fuego durante horas. Su código de evolución difiere del de los Digimon nativos, señal de un origen artificial.",
+    "tacticas": "Tirador de largo alcance: abre con Zeed Cannon, un disparo certero que rara vez falla, y mantén la presión con Blowback Breath. Si se le acercan, responde con Fullmetal Blaze, que quema al contacto.",
+    "gancho": "Siguiendo un rastro de casquillos metálicos, los héroes llegan a un lobo cíborg que vigila una instalación abandonada; su extraño código sugiere que alguien fabricó su Digihuevo con datos artificiales."
+  },
+  "zeedmillenniumon": {
+    "descripcion": "Rey malvado que surca el espacio y el tiempo con la intención de destruir todos los mundos y todas las épocas. Se cree que nació del alma oscura de Millenniummon, y las bandas que rodean su cuerpo parecen cadenas que contienen su poder. Nadie sabe quién las colocó.",
+    "tacticas": "Úsalo como clímax, no como combate rutinario: aparece, golpea y se desvanece. Time Destroyer es su gran baza a distancia, brutal y capaz de ralentizar a sus víctimas mientras las arroja por el espacio-tiempo.",
+    "gancho": "Las cadenas de ZeedMillenniummon empiezan a agrietarse y el tiempo se hace pedazos alrededor; los héroes deben averiguar quién selló su poder antes de que el hechizo se deshaga."
+  },
+  "zekegreymon": {
+    "descripcion": "Un MetalGreymon que, en busca de la victoria perfecta, recibió una armadura dorada y reluciente de metal digital. Pese a su aspecto pesado, es ligero y se mueve con agilidad inesperada. Combina potencia y versatilidad, y quien lo ve brillar sabe que no piensa perder.",
+    "tacticas": "Tirador que domina varios rangos: Plasma Railgun paraliza desde lejos, Trident Fang atraviesa las defensas y, cuando el combate se alarga, cierra con Destruction Smasher, un golpe brutal y certero contra el rival más fuerte.",
+    "gancho": "Un guerrero dorado recorre el desierto digital en busca de rivales dignos; si los héroes superan su prueba, ZeigGreymon podría convertirse en aliado para una misión imposible."
+  },
+  "zephagamon": {
+    "descripcion": "Dios del viento que habita en los bosques y trae brisas cálidas que maduran los frutos de los árboles. Protege a los Digimon y también al entorno. Su fuerza nace de un núcleo en el pecho, resguardado siempre por remolinos, que solo libera ante un peligro grave.",
+    "tacticas": "Versátil, cambia de ritmo: Gale Braver lanza sus espadas como bumeranes de viento a distancia, Anemoi Embrace repite el empuje al contacto y Divine Tempest ciega a quienes se amontonan. Aprovecha los empujes para separar al grupo.",
+    "gancho": "Los frutos de un bosque se pudren y el viento cálido ha desaparecido. Los héroes deben encontrar a Zephagamon y averiguar qué amenaza le ha hecho abandonar su vigilancia."
+  },
+  "zhuqiaomon": {
+    "descripcion": "Uno de los Cuatro Soberanos, guardián del sur del Mundo Digital y señor de las llamas. Reina desde la era del mito y resulta casi imposible de encontrar. Es el más salvaje de sus hermanos: reduce a cenizas cualquier cosa que se le acerque, sin motivo alguno.",
+    "tacticas": "Es un ave ágil y devastadora: se mantiene en el aire y desata Crimson Blaze, una ola de fuego a distancia que quema y le da la iniciativa. Plantéalo como encuentro de leyenda, donde un error arrasa al grupo.",
+    "gancho": "Un cielo rojo cubre el sur y los Digimon huyen hacia el norte. Los héroes deben atravesar tierras abrasadas para pedir audiencia a Zhuqiaomon, cuya furia no distingue amigos de enemigos."
+  },
+  "zombieplutomon": {
+    "descripcion": "Lo que queda de Plutomon cuando su DigiCore se detiene: un cuerpo que se mueve sin voluntad, sin propósito y sin justicia. Vaga sin descanso y solo conserva el hambre de devorar los datos ajenos, un hambre que su carne en descomposición jamás sacia.",
+    "tacticas": "Bruto implacable: Hazardous Hold atrapa a una víctima y le drena energía, Hell Slicer asusta con sus tajos oscuros y Marionette abomination confunde a quien muerde. Céntrate en el héroe más débil y deja que el miedo haga el resto.",
+    "gancho": "Un Digimon antaño venerado vaga ahora devorando DigiCores. Los héroes sospechan que quizá exista una forma de devolverle el propósito perdido, pero antes deberán sobrevivir a su cuerpo sin vida."
+  },
+  "burpmon": {
+    "descripcion": "Un Digimon voraz que comió más de lo que podía y mutó en una bola rodante y perezosa. Nunca se sacia, detesta moverse y pasa el día holgazaneando y buscando algo que tragar. Cuando se le acaba la comida, se mete en la boca lo primero que encuentra.",
+    "tacticas": "No tiene técnicas oficiales y le interesa más comer que pelear: rueda, embiste con su barriga o traga objetos del escenario. Es un estorbo glotón más que un enemigo, y se le puede distraer con comida.",
+    "gancho": "Burpmon ha devorado las provisiones de todo un pueblo digital. Los héroes deben convencerlo de que devuelva lo que pueda y, con paciencia, animarlo a hacer dieta y ejercicio para recuperar su forma anterior."
+  },
+  "culumon": {
+    "descripcion": "Un pequeño ser enigmático que, a diferencia de los demás, ni combate ni evoluciona. Es amistoso, ama jugar y aparece de la nada cuando hay diversión en el aire. Acaba sus frases con un simpático «calu», y corre el rumor de que ayuda a otros Digimon a evolucionar.",
+    "tacticas": "No ataca ni tiene técnicas oficiales: es apoyo puro. Úsalo como aliado o como personaje que desvía la atención entre risas; si el peligro aprieta, se escabulle. Su rumoreado don para ayudar a evolucionar sirve de recompensa narrativa.",
+    "gancho": "Calumon aparece en plena pelea y propone jugar al escondite; si los héroes aceptan el juego, quizá a uno de sus compañeros le llegue el impulso que necesitaba para evolucionar."
+  },
+  "neo": {
+    "descripcion": "Ser digital misterioso que ni siquiera encaja como Digimon: ninguna tecnología logra analizarlo. En su pequeño cuerpo parece reunir los rasgos de todas las familias del Mundo Digital. Quizá sea el modelo de la próxima generación, con un poder que empequeñece incluso a los Mega.",
+    "tacticas": "Resérvalo para la amenaza final. Judgment, a distancia, ciega y busca ejecutar a los héroes más castigados; Zero Genesis ralentiza al contacto mientras rellena el vacío que deja. Descríbelo como una fuerza que reescribe la realidad.",
+    "gancho": "El sistema que gobierna el Mundo Digital parece haber despertado a NEO. Los héroes deben decidir si protegerlo, estudiarlo o impedir que rehaga el mundo entero desde cero."
+  }
+}

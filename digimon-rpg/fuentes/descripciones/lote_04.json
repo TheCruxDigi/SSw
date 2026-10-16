@@ -1,0 +1,227 @@
+{
+  "hanimon": {
+    "descripcion": "Muñeco de arcilla con forma de haniwa, de rostro inexpresivo y carácter dulce, que vaga entre las ruinas del este del Mundo Digital. Su cuerpo se agrieta con facilidad, así que se pasa el día remendándose. Detesta que le toquen el mechón de la cabeza, y cuando varios Hanimon bailan juntos levantan una barrera que aleja a los Digimon oscuros.",
+    "tacticas": "Místico frágil: deslumbra a distancia con Haniwa Flash, un rayo de sus ojos que ciega, y si lo presionan se lanza con Tumulus Tackle, un golpe brutal que puede derribar, aunque cada choque lo resquebraja un poco.",
+    "gancho": "En unas ruinas, un círculo de Hanimon baila para sostener una barrera de luz que se debilita; los PJ deben protegerlos de las sombras sin tocarles jamás el mechón."
+  },
+  "hawkmon": {
+    "descripcion": "Ave de modales impecables y temple sereno, cortés incluso con sus rivales. Pertenece a un linaje antiguo y glorioso, el mismo del que descienden criaturas como Veemon, y puede tomar prestado el poder de los Digihuevos para vestirse de armadura. En la cabeza lleva un adorno de plumas que le sirve de arma arrojadiza.",
+    "tacticas": "Ágil y aéreo: golpea primero con Pecking Beak, una ráfaga de picotazos veloces, y se aparta. Con Feather Slash lanza su pluma como un bumerán para empujar a quien se le acerque. Educado, pero difícil de atrapar.",
+    "gancho": "Un Hawkmon de modales exquisitos pide ayuda a los PJ para recuperar un Digihuevo antiguo, aunque solo se lo confiará a quien demuestre buena educación."
+  },
+  "herissmon": {
+    "descripcion": "Erizo curioso hasta la obsesión: cuando algo le llama la atención, se olvida del resto del mundo. Aun así es muy cauteloso y, ante una amenaza, saca sus púas y se enrosca en una bola hasta que pasa el peligro. Cuando por fin confía en alguien se vuelve un amigo fiel y le enseña los tesoros que esconde entre las púas.",
+    "tacticas": "Escaramuzador veloz: dispara púas cargadas con Lightning Fur para paralizar desde lejos y, si lo acorralan, se hace bola y embiste con Needle-Point Dive, que perfora y derriba. Se tensa en cuanto aparece un Gatomon.",
+    "gancho": "Un Herissmon emocionado enseña a los PJ su colección secreta de objetos brillantes, escondida entre las púas; entre ellos hay una llave perdida que alguien anda buscando."
+  },
+  "huckmon": {
+    "descripcion": "Minidragón de brillo blanco que odia las cadenas y vive como un pirata sin rumbo, quizá por la sangre de Gankoomon que corre por sus datos. Entrenado por los hermanos Sistermon, planta cara incluso a rivales de niveles muy superiores. Pelea sin descanso persiguiendo un sueño: llegar a ser un Royal Knight.",
+    "tacticas": "Bruto de cuerpo a cuerpo: abre con Fifth Rush, un zarpazo brutal que puede derribar, y sigue con Teen Ram. Si lo mantienen a distancia, escupe Pepper Breath para quemar al rival y obligarlo a acercarse.",
+    "gancho": "Huckmon reta a los PJ a un duelo amistoso para probar su valía, convencido de que vencer a un grupo de aventureros lo acerca un paso más a ser Royal Knight."
+  },
+  "hyemon": {
+    "descripcion": "Bestia de colmillos y garras afilados con un cuerpo grande y robusto, raro entre los Novatos. Vive en manadas que cazan en grupo y persiguen a su presa con astucia y mucha resistencia. Sus mandíbulas son tan potentes que pueden masticar hasta metal, y cuando aúllan a coro se enardecen unos a otros.",
+    "tacticas": "Preséntalos siempre en manada. Cada Hyemon muerde con Curse Bite para debilitar y se retira enseguida, mientras el aullido de Release Howling asusta a distancia; cuantos más aúllan, más miedo da el coro.",
+    "gancho": "Una manada de Hyemon acecha cerca del campamento y sus aullidos nocturnos van cerrando el cerco; los PJ deben decidir si plantarles cara o ofrecerles otra comida."
+  },
+  "hyokomon": {
+    "descripcion": "Polluelo samurái que entrena de sol a sol para perfeccionar el camino de la espada e inventar nuevas técnicas secretas. Presume de destreza, aunque su fuerza real aún va por detrás de su orgullo. Cuentan que el día en que el entrenamiento le rompa el cascarón será el día en que esté listo para evolucionar.",
+    "tacticas": "Bruto saltarín: se eleva sobre el enemigo y cae con Downward Cleave, un tajo brutal que rompe defensas. A quien siga en pie lo remata con Secret Sword: Chirping Slash, una técnica pulida a base de práctica.",
+    "gancho": "Hyokomon ruega a los PJ que sean sus rivales de práctica para pulir una nueva técnica secreta, aunque su entusiasmo podría destrozar el campamento entero."
+  },
+  "iguneetmon": {
+    "descripcion": "Hombre reptil holgazán que se pasa los días descansando y riéndose con los programas de humor de la pantalla de su amigo Monitamon. Se resiste a hacer nada que no le apetezca y, si estalla una pelea, huye a esconderse. Pero quien interrumpa su diversión descubrirá que todas sus armas son temibles.",
+    "tacticas": "Bruto reacio: prefiere evitar el combate, pero si lo molestan dispara Timoniniser con la espada-pistola de su cabeza. Su Final Traveler es un último recurso brutal que lo arrasa todo, a él incluido, y por eso lo evita.",
+    "gancho": "Ignitemon descansa frente a la pantalla de un Monitamon cuando los PJ llegan armando ruido; calmarlo con un buen programa de comedia puede evitar una explosión."
+  },
+  "impmon": {
+    "descripcion": "Diablillo travieso que disfruta viendo a sus víctimas pasarlo mal con sus bromas; dicen que, cuando aparece, los aparatos eléctricos enloquecen un instante. No se doblega ante los fuertes y les planta cara con descaro, pero en el fondo es un solitario que echa de menos compañía.",
+    "tacticas": "Acechador burlón: con Summon invoca elementales de fuego y hielo para que hagan el trabajo sucio, y lanza Night of Fire en ráfaga para quemar. Hostiga desde lejos sin dejarse atrapar.",
+    "gancho": "Las pantallas del campamento parpadean y se congelan: un Impmon se divierte con ellas. Convertirlo en amigo en lugar de enemigo podría ser la mejor jugada de los PJ."
+  },
+  "impmon_x": {
+    "descripcion": "Versión más segura y distante del diablillo bromista. Con el Anticuerpo X se cree un lobo solitario: eligió él mismo su parche y su bufanda para parecerlo, y está convencido de que, al quitarse el parche, liberará todo su poder, aunque sus ataques no mejoran. Sigue siendo travieso y, en el fondo, solitario.",
+    "tacticas": "Acechador con aires de duro: Night of Fire abre brecha con llamas que perforan y queman, y Summon Chaser manda elementales de hielo y fuego a perseguir al objetivo hasta congelarlo. Ideal para bromas que acaban en pelea.",
+    "gancho": "Un Impmon con parche y bufanda desafía a los PJ para demostrar que es un lobo solitario; su plan se vendrá abajo si alguien le ofrece compañía de verdad."
+  },
+  "jazamon": {
+    "descripcion": "Digimon con forma de ave, tímido y extremadamente receloso, siempre atento a cualquier movimiento a su alrededor. Sus alas le sirven más para planear desde un lugar elevado que para batirlas, y su pico duro es su mejor herramienta. Cualquier sombra que se mueva le parece una amenaza.",
+    "tacticas": "Bruto cauto: se queda en lo alto y baja planeando para castigar con Tap-tapping Pick, picotazos ardientes que queman y golpean fuerte. Se sobresalta ante cualquier movimiento sospechoso, así que atácalo cuando alguien se acerque.",
+    "gancho": "Un Jazamon asustadizo ve amenazas en cada sombra y ataca a todo lo que se mueve; los PJ tendrán que quedarse quietos y ganarse su confianza poco a poco."
+  },
+  "jellymon": {
+    "descripcion": "Molusco de cabeza blanda como una medusa y cuerpo igual de flexible. A veces se guarda dentro de su propio cráneo y parece solo una cabeza, tan ligera que una brisa la arrastra. Ama la limpieza y los buenos modales; ante la suciedad se enfurece y despliega su cuerpo para pelear.",
+    "tacticas": "Bruto eléctrico: abre con Bibi Thunder, chispas paralizantes lanzadas desde los tentáculos, y cuando alguien se acerca remata con Bolt Knuckle, un puñetazo eléctrico que aturde. Se enciende sobre todo ante la suciedad.",
+    "gancho": "Un Jellymon se indigna porque alguien ha ensuciado su arroyo; si los PJ no ayudan a limpiarlo antes de que despliegue sus tentáculos, volarán chispas."
+  },
+  "junkmon": {
+    "descripcion": "Marioneta chatarrera que va metiendo piezas sueltas en el cañón de su espalda. Desmonta lo que tiene alrededor para montarse un hogar a su gusto, así que, si un taller conocido desaparece de la noche a la mañana, quizá haya pasado una manada de Junkmon. Presume de sus incisivos.",
+    "tacticas": "Místico chatarrero: dispara Parabolic Junk golpeando con la cola la bolsa de su cañón, un tiro que empuja a distancia, y si lo acosan hunde los dientes con Scrap Teeth. Puedes narrar que usa piezas del escenario como munición.",
+    "gancho": "El taller de un viejo Digimon ha desaparecido durante la noche, pieza a pieza. Siguiendo un rastro de tornillos, los PJ darán con una manada de Junkmon muy satisfecha."
+  },
+  "kakamon": {
+    "descripcion": "Bestia de bello pelaje rojo y dorado, muy orgullosa de la cresta que lleva sobre la cabeza. Alegre y amante de la música, se empeña en que todo el que se cruza con él escuche sus canciones. Muchos Kakamon admiran a Pandamon, llevan su pegatina en los auriculares y sueñan con vivir como lobos solitarios.",
+    "tacticas": "Ágil y escandaloso: rueda hecho una bola con Monkey Ball, un golpe veloz al toque, y desde lejos suelta Golden Howl, ondas de sonido que asustan. Si lo ignoran, canta más fuerte.",
+    "gancho": "Un Kakamon monta un concierto improvisado en pleno camino y exige público; los PJ deberán aguantar sus canciones o ingeniárselas para pasar sin ofenderlo."
+  },
+  "kamemon": {
+    "descripcion": "Androide con un caparazón que recuerda a un ratón de ordenador y un casco que, por cierto, no cabe dentro de la concha. Dispara flechas-misil que guía hasta el blanco, rueda sobre la bola de su vientre para embestir y, si se ve en apuros, se encierra en su caparazón para rechazar los ataques.",
+    "tacticas": "Tirador de largo alcance: Pointer Arrow es una flecha guiada que perfora y casi nunca falla. Si le cierran el paso, se refugia con Shell Guard para cubrirse y empujar, o embiste con Met Tackle.",
+    "gancho": "Una lluvia de flechas guiadas persigue a los PJ por el valle; tras ella hay un Kamemon que cree estar jugando a la puntería y no entiende por qué huyen."
+  },
+  "keramon": {
+    "descripcion": "Criatura de tipo desconocido cuyo cuerpo ha crecido y cuya boca se ha ensanchado: devora más de cien megabytes por segundo y casi todos los datos se destruyen en cuanto los toca. Es juguetona por naturaleza y trata sus destrozos como un juego. Su risa resulta inquietante.",
+    "tacticas": "Místico impredecible: su Crazy Giggle es una carcajada a distancia que confunde a las víctimas y las lleva a actuar sin criterio. Interprétalo como un travieso que juega, no como un villano con maldad.",
+    "gancho": "Los archivos y mapas de los PJ empiezan a desaparecer mientras una risita recorre los pasillos; un Keramon juega a zamparse los datos y no entiende por qué nadie ríe con él."
+  },
+  "keramon_x": {
+    "descripcion": "Keramon con el Anticuerpo X, que ha dividido su rostro en tres sobre un único cuerpo para devorar cantidades enormes de datos de un solo bocado. Hasta otros Digimon son ya su presa, incluso poderosísimos si logra atraparlos. Cada cara tiene voluntad propia: una saborea mientras otra hace muecas de asco.",
+    "tacticas": "Místico inquietante: su Crazy Giggle confunde desde lejos, y con tres bocas riendo a la vez resulta aún más desconcertante. Narra tres expresiones distintas al mismo tiempo para que los PJ no sepan a qué cara atender.",
+    "gancho": "Un Keramon de tres caras devora el puente de datos que los PJ querían cruzar, y sus tres bocas discuten entre sí sobre qué parte estaba más rica."
+  },
+  "kodokugumon": {
+    "descripcion": "Pequeña araña que siempre va en compañía de Dokugumon. Suele ser dócil: se enrolla en una bola y cuelga de las ramas. Pero cuando se acercan enemigos, se deja caer desde arriba con sus hermanos para atacar. Todavía no produce un veneno potente, así que usa guantes con garras que lo inyectan.",
+    "tacticas": "Acechador de emboscada: aparece desde las ramas altas, varios a la vez, y se abalanza con Poison Nails para envenenar y perforar. Su veneno es débil; su fuerza está en el número y la sorpresa.",
+    "gancho": "Los PJ pasan bajo unas ramas cargadas de bolas colgantes; cuando una se mueve, descubren que son KoDokugumon esperando para caer sobre ellos."
+  },
+  "kokabuterimon": {
+    "descripcion": "Escarabajo de poca talla y fuerza descomunal, con enormes cuernos y brazos que intimidan a quienes lo rodean. En realidad es amable y detesta los conflictos. Se cuenta que una vez levantó a un Tortomon durante unos experimentos de cierto instituto de investigación.",
+    "tacticas": "Acechador que prefiere evitar la pelea, pero si lo acorralan embiste con Scoop Smash, que alza al rival con los cuernos y lo lanza con fuerza brutal, o con Beetle Lariat, un abrazo de sus enormes brazos.",
+    "gancho": "Un tronco gigante bloquea el sendero y solo un KoKabuterimon podría levantarlo; el problema es que este es pacífico y los PJ tendrán que convencerlo con amabilidad."
+  },
+  "kokuwamon": {
+    "descripcion": "Insecto-máquina rarísimo, tanto que nadie creía que existiera. Su cabeza y sus brazos con forma de pistola eléctrica pueden descargar un megavoltio cuando siente peligro, así que conviene acercarse con cuidado. Aun así es dócil y busca la paz. Se alimenta de electricidad y se recarga con las dos extremidades de su vientre.",
+    "tacticas": "Tanque esbirro: usa Mini Scissor Claw, un tijeretazo de Acero electrificado, para provocar y atraer los golpes sobre sí. Funciona bien en grupo como pantalla defensiva, aunque ataca sin ganas de pelear.",
+    "gancho": "Un Kokuwamon hambriento acampa junto a un generador del que depende una aldea; los PJ deberán negociar cuánta energía puede tomar sin apagar las luces de todos."
+  },
+  "kokuwamon_x": {
+    "descripcion": "Variante con Anticuerpo X del raro insecto-máquina. Su mayor capacidad eléctrica no solo le permite soltar descargas, sino también alimentar su Dendouhenkei, una transformación eléctrica. Sigue siendo pacífico, pero si se enfada demasiado se lanza a la carga en esa forma. No se sabe aún si pega más fuerte.",
+    "tacticas": "Tanque paciente: provoca con Mini Scissor Claw y aguanta golpes mientras sus aliados actúan. Si lo hartan de verdad, narra cómo entra en su forma Dendouhenkei y carga envuelto en chispas.",
+    "gancho": "Los PJ encuentran a un Kokuwamon rodeado de chispas azules: alguien lo ha sacado casi de quicio. Calmarlo a tiempo evitará un destrozo eléctrico."
+  },
+  "kotemon": {
+    "descripcion": "Reptil que aspira a ser el mejor espadachín del Mundo Digital. Entrena en silencio en rincones apartados y jamás se quita la protección de la cara, así que su rostro es un misterio. Es miedoso y llorón, pero quiere mucho a sus amigos, tiene un fuerte sentido de la justicia y a veces muestra una valentía inesperada.",
+    "tacticas": "Bruto de espada de bambú: Thunder Kote golpea con una descarga que paraliza y hiere con fuerza, y Hothead envuelve su espada en llamas para quemar. Empieza dudando y, si sus amigos corren peligro, se crece.",
+    "gancho": "Kotemon pide a los PJ que lo entrenen en secreto, pero cada vez que alguien intenta ver bajo su protector rompe a llorar; ganar su confianza será el verdadero entrenamiento."
+  },
+  "kudamon": {
+    "descripcion": "Bestia sagrada enroscada siempre alrededor de un cartucho de munición santa. Guarda poder sagrado en el pendiente de su oreja izquierda, y la cantidad que acumula marca su próxima evolución. Sereno y calculador, evalúa cada situación, incluso en pleno combate, y se mete en su cartucho a defenderse cuando las cosas se tuercen.",
+    "tacticas": "Místico estratega: gira con su cartucho en Bullet Whirlwind para empujar a varios enemigos a la vez y deslumbra con Blinding Ray desde el pendiente. Si el combate se tuerce, narra cómo se refugia en el cartucho.",
+    "gancho": "Un Kudamon de pendiente brillante observa en silencio cómo los PJ afrontan un peligro y decide si los acompaña según lo que ve; el pendiente brilla más con cada acto valiente."
+  },
+  "kudamon-2006": {
+    "descripcion": "Versión del anime de 2006 de la bestia sagrada con cartucho de munición santa. Acumula poder en el pendiente izquierdo, y eso condiciona su futura evolución. Es tranquilo, analiza cada situación y se refugia en el cartucho si todo se complica. Cuando los dibujos de circuito de su lomo se encienden, puede disparar un haz de energía sagrada.",
+    "tacticas": "Místico paciente: Bullet Whirlwind aparta enemigos con el giro de su cartucho y Blinding Ray deslumbra desde el pendiente. Cuando su lomo brilla, usa Holy Shot, un haz sagrado que también ciega, como disparo menor.",
+    "gancho": "Los circuitos del lomo de un Kudamon empiezan a brillar cuando los PJ se acercan a unas ruinas; algo sagrado duerme allí, y solo hablará si le demuestran buenas intenciones."
+  },
+  "kunemon": {
+    "descripcion": "Larva con un dibujo de rayo en el cuerpo. Las marcas con forma de relámpago de lo que parece su cara cambian según su ánimo, y quizá le sirvan de ojos. Adora las bromas. Su existencia sugiere que, además de Kabuterimon, hay más Digimon insectoides esperando ser descubiertos.",
+    "tacticas": "Místico bromista: escupe Electric Thread desde su duro pico para atrapar a un objetivo con un hilo electrificado que lo sacude. Inmoviliza a un PJ y da tiempo a sus aliados.",
+    "gancho": "Alguien ha atado todo el campamento con hilos eléctricos brillantes y los PJ sospechan de un Kunemon que se esconde entre risitas; atraparlo sin enredarse será la broma final."
+  },
+  "labramon": {
+    "descripcion": "Bestia idéntica a un perro labrador, considerada la forma final de los Digimon creados artificialmente, aunque se rumorea que aún podría evolucionar. Es leal hasta el extremo con la persona a quien acompaña y toma su protección como un deber. Puede sanar heridas y enfermedades de quienes considera aliados.",
+    "tacticas": "Ágil de apoyo: ladra con Retriever Bark, ondas intensas que golpean rápido desde lejos, y entre turnos sana a sus aliados con Cure Liqueur. Como enemigo, es el que protege y cura a su bando.",
+    "gancho": "Un Labramon sin dueño deambula por una estación de datos, fiel a alguien que ya no está. Los PJ pueden ganarse su confianza o descubrir qué fue de su compañero."
+  },
+  "lalamon": {
+    "descripcion": "Vegetal con forma de capullo de flor y rostro inexpresivo, pero con muchísimo encanto. Hace girar las hojas de su cabeza a toda velocidad para embestir. Dispara semillas duras con una puntería sorprendente y le encanta cantar melodías relajantes que adormecen a quien las escucha.",
+    "tacticas": "Apoyo con voz: Sing a Song mejora a los aliados o duerme a los rivales, y Seed Blast atrapa a distancia con semillas certeras. Si un PJ se duerme o se enreda, probablemente haya sido Lalamon.",
+    "gancho": "Se oye una nana en el bosque y todo el mundo bosteza. Si los PJ la siguen, descubrirán a un Lalamon que solo quiere compañía para sus melodías."
+  },
+  "liollmon": {
+    "descripcion": "Bestia sagrada de pelaje dorado, tan rara que su existencia no se confirmó hasta hace poco. Es extremadamente territorial y no tolera intrusos, ni siquiera de su propia especie. Cuando se pone en guardia, el pelo de su cabeza se carga de electricidad estática y emite un sonido amenazador.",
+    "tacticas": "Ágil y territorial: ataca con Lio Claw, zarpazos veloces, y guarda Critical Bite para un golpe decisivo a los puntos vitales, explosivo pero poco fiable. Es más fiero de lo que su tamaño sugiere.",
+    "gancho": "Los PJ cruzan sin saberlo el territorio de un Liollmon; su melena se llena de chispas y suena un gruñido. Deberán retirarse con respeto o probar su fuerza."
+  },
+  "loogamon": {
+    "descripcion": "Bestia oscura de aspecto de cachorro, con una interfaz anticuada en la frente que sugiere que es un prototipo anterior al descubrimiento de los Digimon. En lo más hondo de su DigiCore parece dormir un warg de leyenda, y de ahí su rabia. Solo reconoce como amo a quien sepa dominarlo, y su lealtad es difícil de ganar.",
+    "tacticas": "Acechador engañoso: su aire de cachorro desarma a los incautos antes de que suelte Howling Fire, una llama mágica que asusta y perfora, o muerda con Spiral Bite girando sobre sí mismo.",
+    "gancho": "Un cachorro de aspecto adorable sigue a los PJ pidiendo caricias. Es un Loogamon, y solo obedecerá a quien demuestre que es capaz de controlarlo."
+  },
+  "lopmon": {
+    "descripcion": "Uno de los gemelos de una pareja rarísima: tiene tres cuernos, frente al único de su hermano Terriermon. Es más tímido y llorón, mientras que su hermano es relajado y enérgico. Ninguno parece hecho para el combate, pero ambos sorprenden con su poder. Gira las orejas como si fueran hélices.",
+    "tacticas": "Ágil tímido: gira las orejas con Terrier Tornado para empujar y, si Terriermon anda cerca, desata Double Typhoon en zona. Blazing Ice, una ráfaga de balas heladas, le sirve para congelar. Es más peligroso de lo que aparenta.",
+    "gancho": "Un Lopmon llorón busca a su hermano Terriermon, perdido en el bosque, y pide ayuda a los PJ; el reencuentro desatará una pequeña tormenta de viento."
+  },
+  "lopmon_x": {
+    "descripcion": "Con el Anticuerpo X, el pelo de sus orejas y su cola se ha vuelto más ligero y suave. Su pendiente de granate Chen está enlazado con el de Terriermon (X Antibody) y le avisa constantemente de cómo se encuentra su hermano. Lo que más le gusta es pasear con él, a quien quiere muchísimo.",
+    "tacticas": "Ágil gélido: Blazing Ice congela con una ráfaga veloz desde lejos y Terrier Tornado empuja de cerca. Si Terriermon (X Antibody) está presente, narra Fi-rost Typhoon, un soplo de aire cálido y frío a la vez que empuja a todo un grupo.",
+    "gancho": "Los pendientes de Lopmon (X Antibody) y de su hermano parpadean a la vez: uno de los dos está en apuros. Los PJ deberán seguir el pulso de la joya para encontrarlo."
+  },
+  "lucemon": {
+    "descripcion": "Ángel con aspecto de niño que, según las leyendas, descendió de lo alto en la Antigüedad del Mundo Digital, en una época de caos, y trajo paz y orden. Su posterior rebelión sumió el mundo en una larga edad oscura. Aunque parezca un niño, es más sabio y poderoso que muchos Digimon de nivel superior.",
+    "tacticas": "Ágil celestial: su gran ataque es Grand Cross, diez esferas de luz dispuestas en cruz que ciegan y llegan veloces. Resérvalo para escenas de leyenda: un niño ángel con mucho más poder del que muestra.",
+    "gancho": "En unas ruinas antiguas, un niño de luz mira el cielo en silencio. Es Lucemon, y los PJ deberán decidir si confían en un ángel cuya historia mezcla paz y rebelión."
+  },
+  "ludomon": {
+    "descripcion": "Uno de los Legend-Arms, capaces de convertir su cuerpo en un arma, y el único que se transforma en escudo. Lleva gruesos escudos de hierro en la cabeza y los brazos que lo protegen desde cualquier ángulo. Vive centrado en la defensa y se sabe que ha protegido zonas amenazadas por la D-Brigade.",
+    "tacticas": "Apoyo defensivo: usa Wall Rake, un muro de Acero a distancia, para cubrir a sus aliados, y también para golpear si hace falta. Es el guardián al que los atacantes no logran atravesar con facilidad.",
+    "gancho": "Un Ludomon se planta ante las puertas de una aldea digital amenazada y no se mueve ni a ruegos; los PJ pueden unirse a su defensa o demostrarle que sus intenciones son buenas."
+  },
+  "lunamon": {
+    "descripcion": "Mamífero con forma de conejo, nacido de la fusión de datos de observación lunar. Sus enormes orejas captan sonidos desde cualquier distancia. Es tímido, pero se siente solo y se encariña con facilidad. Sus garras parecen tiernas, aunque esconden un poder oscuro.",
+    "tacticas": "Ágil asustadizo: Luna Claw golpea rápido y asusta con sus garras oscuras, mientras Lop-Ear Ripple envuelve al rival en burbujas para ralentizarlo. Tearing Shot concentra su poder en una esfera que rompe defensas.",
+    "gancho": "En una noche de luna, un Lunamon solitario sigue a los PJ a distancia; oye todo lo que dicen y solo se acercará si alguien le ofrece compañía."
+  },
+  "luxmon": {
+    "descripcion": "Pequeño ángel de aspecto infantil, del rango más bajo de su especie. Su inocencia le impide distinguir una mentira de la verdad, por lo que Impmon y DemiDevimon suelen gastarle bromas. Admira a Angemon e intenta imitarlo; cuando varios Luxmon trabajan en equipo logran mucho más de lo que se espera.",
+    "tacticas": "Ágil de apoyo: golpea con Tiny Knuckle, un puñetazo veloz imitando a Angemon que aturde, y protege al grupo con Cloud Barrier. Preséntalos en grupo: sus escudos se refuerzan unos a otros.",
+    "gancho": "Impmon ha convencido a un Luxmon de que algo absurdo es verdad, y este va repartiendo la noticia por el pueblo; los PJ deben deshacer el embrollo con tacto."
+  },
+  "maquinamon": {
+    "descripcion": "Digimon compuesto, mitad bestia y mitad máquina a partes iguales, una auténtica rareza. Ese equilibrio inestable apenas le deja mostrar emociones u hostilidad. Tiene un apetito enorme, y su olfato animal y su vista robótica lo ayudan a encontrar comida. Adapta su cuerpo con datos del entorno y come casi de todo.",
+    "tacticas": "Versátil y poco agresivo: escupe Twin Bubbles, burbujas dobles que ralentizan a distancia, más para distraer que para herir. Solo ataca en serio si le estorban cuando busca comida.",
+    "gancho": "Un Maquinamon husmea las provisiones de los PJ con su olfato mecánico y no ataca, solo come. Alimentarlo o despistarlo con un señuelo exigirá ingenio."
+  },
+  "minidekachimon": {
+    "descripcion": "Tan pequeño que lo confunden con un Digimon en entrenamiento, pero con una actitud enorme. No sirve para pelear, y aun así se pavonea y se mete en el cuerpo a cuerpo para enfurecer al rival y agotarlo. Vive tranquilo, protegido en la boca de Atamadekachimon.",
+    "tacticas": "Ágil molesto: Kocchon lo lleva al cuerpo a cuerpo para debilitar y exasperar, y Minideka Flame escupe llamas cuyo tamaño nadie puede prever. Trátalo como un incordio fanfarrón, no como un enemigo serio.",
+    "gancho": "Un Minidekachimon se planta ante los PJ con aire de matón y exige que se rindan; su verdadero respaldo, Atamadekachimon, se esconde justo detrás."
+  },
+  "modokibetamon": {
+    "descripcion": "Anfibio casi idéntico a Betamon, pero rarísimo y de población escasa. Es de carácter apacible y vive en humedales tranquilos, donde maneja las corrientes con destreza. Lleva una cresta afilada en la cabeza que no se parece a nada de lo que luce un Betamon corriente.",
+    "tacticas": "Tanque acuático: Aqua Tower crea un pequeño remolino que ralentiza y atrae la atención de los enemigos, y Blade Fin corta con la cresta de su cabeza. Su estilo es resistir y hacer que todos se fijen en él.",
+    "gancho": "Un humedal siempre plácido se agita con remolinos extraños: es un ModokiBetamon asustado, tan parecido a un Betamon que nadie nota la diferencia. Los PJ deben tranquilizarlo."
+  },
+  "monitamon": {
+    "descripcion": "Ninja con pantalla de televisor al que le encanta observar a otros Digimon: siempre vigila a alguien. Se llama a sí mismo ninja, pero actúa más como un acosador. Si ves uno, hay treinta más cerca. Sus técnicas son flojas; su verdadera fuerza es compartir información con otros Monitamon, sea buena, mala o vergonzosa.",
+    "tacticas": "Tirador de ninjutsu menor: dispara Fire Shot con puntería certera para quemar desde lejos y alterna Water Dragon o Lightning Flash. Su valor real es informativo: un Monitamon visto delata el plan a los demás.",
+    "gancho": "Los PJ descubren que sus secretos más embarazosos se emiten en directo por las pantallas de una aldea; para pararlo, deberán encontrar al Monitamon espía y a sus treinta compañeros."
+  },
+  "koemon": {
+    "descripcion": "Bestia con aspecto de mono bebé, con fuerza suficiente para manejar con soltura una honda tan grande como él y tanta confianza que ninguna presa se le escapa. Es rápido pero despistado, y se cae de los árboles a menudo. Luce con orgullo su ropa de rayas de tigre y la punta blanca de su cola.",
+    "tacticas": "Ágil tirador de honda: Mischievous Hoop lanza un aro rápido a los pies del rival para que tropiece, y Baby Sling es un disparo que casi nunca falla. Puedes hacer que resbale de una rama en el peor momento.",
+    "gancho": "Un Monmon presume de puntería disparando a cuanto se mueve en el bosque; los PJ deben detener sus tiros antes de que acierte algo frágil, pero sin enfadarlo."
+  },
+  "monodramon": {
+    "descripcion": "Minidragón con alas de murciélago en los brazos que no le sirven para volar. Para ser un Vacuna es bastante bruto: parece disfrutar de las peleas y se mete en casi todas las del Mundo Digital, hasta hartar al mismísimo Ogremon. Se rumorea que su cuerno, que crece hacia atrás, es su punto débil.",
+    "tacticas": "Bruto peleón: se lanza con Crack Bite, un mordisco brutal que fragmenta los datos y rompe defensas, y repite hasta que algo se rompa. Ideal para una pelea de recreo que se descontrola.",
+    "gancho": "Dos bandas rivales se pelean en una plaza, y en medio hay un Monodramon que no es de ninguna: solo quiere pegarse. Los PJ deben sacarlo de allí antes de que todo escale."
+  },
+  "morphomon": {
+    "descripcion": "Digimon con manos y orejas hechas de alas de mariposa, relajado y amante de la naturaleza. Cuando conoce a alguien lo toca para saber si es de fiar; si lo es y le cae bien, lo acompaña. Cuando sus alas aletean con energía es señal de que está de excelente humor.",
+    "tacticas": "Apoyo mariposa: esparce las escamas de sus alas con Intense Therapy, que cura y calma a los aliados o paraliza a los enemigos. Úsalo para dar un respiro al grupo o como sorpresa si lo creen inofensivo.",
+    "gancho": "Un Morphomon tranquilo toca a cada PJ para decidir si puede fiarse de ellos; si lo consiguen, se unirá al grupo y su Intense Therapy será un gran apoyo."
+  },
+  "muchomon": {
+    "descripcion": "Ave de plumaje vivo y colorido criada en una tierra tropical del sur. Vive con una alegría constante, desborda pasión, baila al ritmo de la samba y adora su rica y vistosa pluma. Su pico multicolor es su mejor arma.",
+    "tacticas": "Ágil festivo: ataca con Tropical Beak, un picotazo veloz de su pico multicolor, y se mueve sin parar como si bailara. Es un buen enemigo para escenas animadas en las que el combate parece una fiesta.",
+    "gancho": "Un Muchomon organiza un carnaval improvisado en medio del camino y se empeña en que los PJ bailen samba con él; negarse puede acabar en picotazos muy alegres."
+  },
+  "mushmon": {
+    "descripcion": "Pequeño vegetal con forma de seta venenosa. De su cuerpo brotan diminutas bombas de hongo que provocan todo tipo de males: risas incontrolables, entumecimiento o pérdida de memoria. Es de muy mal genio y le gusta meterse con los débiles, pero también es tímido y siempre se oculta media cara.",
+    "tacticas": "Bruto esbirro: aparece en corros que embisten con Fungus Crusher, golpes brutales que rompen defensas, y puedes narrar que sus esporas dan risa floja o entumecen. Ideal como esbirro en grupo.",
+    "gancho": "Unos Mushroomon matones acorralan a un Digimon pequeño y sus bombas de hongo hacen reír sin parar a quien las toca; los PJ deben intervenir sin acabar muertos de risa."
+  },
+  "neamon": {
+    "descripcion": "Bestia despreocupada con afición a meterse en líos. Pasa el rato mirando al vacío con los ojos entrecerrados y huye al primer indicio de peligro. Bokomon se desespera con su pereza. Sabe más de lo que parece, aunque casi nada resulta útil, y adora sus pantalones ajustados, que no se quita jamás.",
+    "tacticas": "Ágil que prefiere huir: usa Escape Dash para derribar a quien se interponga y salir corriendo, y Play Possum para fingirse dormido y escapar de los aprietos. Sirve para escenas cómicas más que para combates serios.",
+    "gancho": "Un Neemon aburrido se ha comido las provisiones de los PJ y ahora finge dormir; despertarlo sin que salga corriendo será la prueba."
+  },
+  "otamamon": {
+    "descripcion": "Anfibio de piel todavía blanda por vivir bajo el agua. Nada por pantanos y ríos con su gran cola y, a veces, sube a las rocas con sus patitas delanteras para hacer ejercicios de voz. Es valioso porque su futura evolución está muy marcada, pero muta con facilidad, así que hay que criarlo con cuidado.",
+    "tacticas": "Tanque esbirro: con Lullaby Bubble duerme y provoca desde lejos, de modo que los enemigos se fijan en él. Funciona mejor en grupos de varios que cantan a coro, como una nana imposible de ignorar.",
+    "gancho": "Desde las rocas de un pantano, un coro de Otamamon ensaya su nana más suave; los PJ notan cómo les pesan los párpados y deben acabar con la canción sin dormirse."
+  }
+}

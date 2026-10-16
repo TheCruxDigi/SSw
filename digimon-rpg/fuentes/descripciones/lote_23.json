@@ -1,0 +1,227 @@
+{
+  "darknessbagramon": {
+    "descripcion": "Fusión de caballero oscuro y demonio brutal, este emperador del mal irradia una energía tan opresiva que los malvados menores se arrodillan solos ante él. Los ojos rojos de su pecho quiebran la voluntad de quien intenta resistirse. Convierte en peones a todos los Digimon útiles y vigila sin descanso cualquier señal de rebeldía.",
+    "tacticas": "Preséntalo como un villano final que deja el trabajo sucio a sus peones. God of Death Snatcher asusta a un héroe desde lejos, y Balefire Eyes, con su Certero, barre la zona entera cuando el grupo se cree a salvo.",
+    "gancho": "Una aldea entera obedece a un amo al que nadie ha visto. Los PJ descubren que sus vecinos no sirven por miedo, sino porque algo les cambió la mirada."
+  },
+  "death-x-mon": {
+    "descripcion": "Más que un Digimon es un programa sin DigiCore propio, una forma teórica que repite sin descanso sus procesos del 0 al F: localizar DigiCores, tragarlos, desmontarlos y borrarlos para siempre. No odia ni razona, simplemente funciona, y nada lo detiene mientras exista un solo DigiCore a su alcance.",
+    "tacticas": "No tiene técnicas oficiales, así que trátalo como un peligro ambiental, no como un duelista. Avanza ronda a ronda hacia el DigiCore más cercano, y los héroes sobreviven escondiendo, alejando o protegiendo esos núcleos en lugar de golpearlo.",
+    "gancho": "Un valle entero ha quedado en silencio, sin un solo Digimon a la vista. Los PJ deben poner a salvo los DigiCores de los supervivientes antes de que el programa llegue a la siguiente aldea."
+  },
+  "devitamamon": {
+    "descripcion": "Se dice que nació de una evolución oscura de Digitamamon y que guarda toda la maldad de este mundo, como una caja de Pandora con patas. Cuanto mira o toca se convierte en objeto de su odio. Conjura hechizos en un antiguo lenguaje de programación ya perdido, siempre con el mismo fin: destruir.",
+    "tacticas": "Abre el combate con Black Death Cloud, una nube negra que cubre toda la zona, asusta y deja a los héroes tanteando a ciegas. Mientras el grupo se dispersa, deja que recite su magia olvidada para aumentar la tensión.",
+    "gancho": "Una nube negra que borra los colores avanza hacia una aldea cercana. Los PJ deben encontrar su origen y averiguar quién recita en una lengua que ningún sabio recuerda."
+  },
+  "death-x-dorugoramon": {
+    "descripcion": "Conocido como el Depredador de DigiCores, es la forma extrema de la serie Doru: un ser muerto que sigue en pie solo porque devora los núcleos de otros Digimon. Su cuerpo está cubierto de ataduras que apenas contienen la información que ha acumulado. Para cualquier vecino, es una amenaza sin matices.",
+    "tacticas": "Bruto que arrasa en línea recta. Metal Impulse empuja y golpea con fuerza brutal a un héroe, y DORU-Din siembra el pánico entre quienes sigan en pie. Hazlo parecer imparable hasta que el grupo coordine una respuesta.",
+    "gancho": "En una ciénaga desaparecen los Digimon heridos y solo queda polvo de datos. Los PJ siguen el rastro hasta una criatura encadenada que se alimenta de núcleos ajenos."
+  },
+  "diablomon": {
+    "descripcion": "Absorbe todos los datos de la Red para evolucionar una y otra vez, y deja al Mundo Digital al borde del colapso. Se cree omnisciente y todopoderoso, y disfruta con la destrucción. Entre tantos Digimon sin rumbo, es de los pocos con una meta clara: apoderarse de una computadora militar y golpear el Mundo Real.",
+    "tacticas": "Villano de campaña, no de una sola escena. Su Catastrophe Cannon, disparada desde el pecho, amenaza a todo el grupo a la vez. Antes de usarla, deja caer pistas de que busca algo mucho más grande que ganar un combate.",
+    "gancho": "La Red pierde datos en oleadas y algo crece devorando archivos. Los PJ deben cortarle el paso hacia una conexión que lleva directamente al Mundo Real."
+  },
+  "diablomon_x": {
+    "descripcion": "El Anticuerpo X ha afilado su peor carácter: ahora tiende trampas crueles y astutas para demostrar que es un dios. Se presenta con los brazos abiertos, se mueve con poses extrañas, como un invertebrado, y mira a todo ser vivo con desprecio. Doce ojos cubren su cuerpo y esconde un decimotercero.",
+    "tacticas": "Pelea a corta distancia con desgaste. Spooky Zapper paraliza, Fatal Gaze asusta y drena, y Rewind Abyss 13 debilita al grupo tras una cuenta atrás ominosa. Deja que el contador inquiete a los jugadores antes de que caiga el efecto.",
+    "gancho": "Alguien ha dejado trampas ingeniosas por todo un bosque, cada una con un reloj parpadeante. Los PJ deben averiguar para quién están preparadas antes de que la cuenta llegue a cero."
+  },
+  "dianamon": {
+    "descripcion": "Una de las Olympos XII, deidad del agua y el hielo capaz de combatir incluso en el cero absoluto. Su carácter tiene dos caras, como la luna: una belleza serena por fuera y una fuerza temible por dentro. Con la luz lunar crea espejismos, flechas heladas y arrullos que adormecen a sus rivales.",
+    "tacticas": "Dispara desde lejos y vigila todo el campo. Crescent Harken ralentiza con ilusiones lunares, Arrow of Artemis perfora y ciega, y Good Night Moon duerme a quien se descuide. Castiga a los héroes que se agrupan bajo su luz.",
+    "gancho": "Cada luna llena se congela un lago y en la orilla aparece un coro de Digimon dormidos. Los PJ deben decidir si piden ayuda a la deidad o si se enfrentan a ella."
+  },
+  "diarbbitmon": {
+    "descripcion": "Caballero de modales suaves que cuida de los Digimon bestia de los bosques exuberantes y disfruta de la compañía tranquila. Maneja con maestría sus dos espadas, Moralltach y Beagalltach. Pero quien dañe sus tierras descubre que su cortesía tiene límite, porque también persigue a los aliados del agresor.",
+    "tacticas": "Duelista que cierra todas las salidas. Buck Rush rodea al grupo con imágenes residuales y derriba, y Twin Spear Pursuit invoca lanzas que persiguen a quien huye. Truskmore Advance confunde al héroe más aferrado a su plan.",
+    "gancho": "Un guardián cortés exige a los PJ que dejen intacto un claro del bosque. Si alguien lo daña, perseguirá sin descanso a todos ellos y a sus aliados."
+  },
+  "dijiangmon": {
+    "descripcion": "Criatura enteramente cubierta de cuero que nunca habla ni da señal alguna de pensar o sentir. Permanece inmóvil, en un silencio inquietante, hasta que se cuela entre una multitud y, mediante una especie de telepatía, despierta el instinto de pelea para que todos se ataquen entre sí. Su única razón de ser es hacer daño.",
+    "tacticas": "Empieza como un espectador mudo entre la multitud y revela su naturaleza con Wicked Spiral, que asusta y dispersa. Luego sujeta a un héroe con Cursed Impact y amenaza con Chaotic Void, un destino sin retorno.",
+    "gancho": "Un mercado digital estalla en una pelea general sin motivo aparente. Los PJ notan una figura de cuero inmóvil al fondo y deben separar a los combatientes mientras la buscan."
+  },
+  "dinomon": {
+    "descripcion": "Cumbre de un linaje de dinosaurios curtidos en mil batallas, con un poder antiguo que hace brillar su cuerpo. Sus escamas negras se ponen al rojo vivo cuando el combate se calienta. Aun así nunca pierde la calma: persigue a sus presas con inteligencia y, tras vencer, se hunde en el mar levantando una nube de vapor.",
+    "tacticas": "Empieza con Dino Breath para calentar el campo y quemar a distancia. Cuando la pelea avance, Burning End cae como un golpe brutal que lo arrasa todo. Describe sus escamas cada vez más rojas para marcar la escalada.",
+    "gancho": "Una columna de vapor se alza sobre la costa y los Digimon locales susurran que alguien ha ganado una guerra. Los PJ deben llegar antes de que el vencedor escoja su siguiente rival."
+  },
+  "dinorexmon": {
+    "descripcion": "Apodado el Rey del Terror, supera con creces a los demás dinosaurios en fuerza y ferocidad. Atrapa a sus presas con unas garras casi tan largas como la mitad de su cuerpo y las remata con unas mandíbulas descomunales. Se pelean entre sí, así que quedan muy pocos de su especie.",
+    "tacticas": "Cazador feroz que castiga al que se separa del grupo. Splatter Hunting es su captura y remate, un golpe brutal, y Ogre Flame escupe magma pegajoso que deja el suelo quemado incluso si falla.",
+    "gancho": "Un campo de tierra chamuscada, con huellas enormes, marca el territorio de un rey. Los PJ necesitan cruzarlo sin llamar su atención o aprovechar una disputa entre dos rivales."
+  },
+  "dinotigermon": {
+    "descripcion": "Rarísima evolución de un SaberLeomon que sobrevivió a interminables luchas y absorbió metales de la tierra hasta endurecer su cuerpo. Es más lento que su antecesor, pero tiene casi el doble de músculo, y sus colmillos como espadas rematan hasta a los Digimon acorazados. Los heridos son sus presas y los demás lo evitan.",
+    "tacticas": "Acechador paciente que elige al herido. Ground Fang derriba y perfora al héroe más maltrecho, y Highland Fang remata desde lo alto con Ejecutar. Úsalo para obligar al grupo a proteger a quien esté débil.",
+    "gancho": "Un rastro de huellas profundas sigue a una caravana de Digimon heridos que huyen hacia el norte. Los PJ deben decidir si los escoltan o si tienden una trampa al cazador."
+  },
+  "dominimon": {
+    "descripcion": "Conocido como un fantasma, este ser de la Dominación no obedece la jerarquía angelical y actúa por cuenta propia. Surge por mutación cuando la luz y la oscuridad del Mundo Digital se desequilibran, así que casi nadie lo ve. Valora la vida de todos por encima de la suya y no duda en jugársela por los demás.",
+    "tacticas": "Apoyo volador y generoso. Devotion Field irradia un aura sagrada que ciega y empuja atrás, y Zero Heavens lo protege mientras lanza láseres. Reserva Final Excalibur para cuando se juegue el todo por el todo.",
+    "gancho": "Los PJ y un monstruo gigantesco están a punto de caer cuando aparece un ser luminoso. Se ofrece a pelear a su lado, pero pide que después nadie hable de él."
+  },
+  "donedevimon": {
+    "descripcion": "Alcanzó el nivel Mega absorbiendo toda la información negativa que encontró. Su mente oscila entre la locura y la cordura, pero cuando se enfurece pierde la razón y arremete como una bestia salvaje. Quien sufre sus ataques en ese estado queda aniquilado, sea quien sea.",
+    "tacticas": "Empieza sereno y se vuelve más peligroso a medida que lo hieren. Destruction Claw atraviesa al héroe con un zarpazo brutal, y Ultimate Flare quema desde la boca cuando pierde el control. Narra su furia en aumento.",
+    "gancho": "Un ángel de alas rotas sigue el rastro de datos negativos hasta un laboratorio abandonado. Los PJ deben decidir si lo ayudan a descansar o lo detienen antes de que se desboque."
+  },
+  "dorbickmon": {
+    "descripcion": "General del Ejército Furia-Fuego de las Grandes Estrellas de la Muerte, dirige legiones de dragones con un orden perfecto. Rápido, fuerte, curtido y de intuición aguda, se adapta a cualquier campo de batalla. Le encanta ver crecer las llamas de la guerra y, si encuentra una región en paz, se apresura a provocar un conflicto.",
+    "tacticas": "Comandante que rodea al grupo de subordinados dragón mientras empuña Tyrant Collbrande a distancia. Burning the Dragon altera el terreno y pone en llamas a varios héroes, e Infernal Dragon Fire remata.",
+    "gancho": "Una región pacífica recibe soldados-dragón con falsos rumores de agravios. Los PJ descubren que alguien orquesta la guerra y deben desenmascarar a un general antes del primer disparo."
+  },
+  "dorugoramon": {
+    "descripcion": "Digimon imaginario nacido del ensueño de un DigiCore: la interfaz de su frente liberó su creatividad y lo hizo evolucionar. Es un avatar de destrucción, la encarnación del Enemigo Definitivo, quizá por los poderosos datos dracónicos que dormían en lo más profundo de su núcleo.",
+    "tacticas": "Bruto frontal que prefiere cargar. Brave Metal es una embestida brutal con todo el cuerpo, y DORU-Din paraliza a quien quede cerca con su onda expansiva. Que cada carga obligue a los héroes a apartarse.",
+    "gancho": "Un Digimon recién evolucionado se asusta de su propio poder y arrasa un cañón. Los PJ pueden detenerlo, pero también descubrir qué sueño desató su forma."
+  },
+  "dullahamon": {
+    "descripcion": "Jinete fantasma que cabalga su corcel etéreo, Cóiste Bodhar, en busca de Digimon al borde de la muerte para acabar con ellos. Cabeza y cuerpo, unidos por cadenas, tienen cada uno su propia mente, aunque luchan con una coordinación aterradora. A veces la cabeza desbocada guía al cuerpo en el galope nocturno.",
+    "tacticas": "Aparece de noche y busca al héroe más herido. Bercilak Edge lanza la cabeza como una maza de golpes encadenados, y Sleepy Hollow arrastra a un PJ a un ataúd flotante con Dormir. Los demás deberán rescatarlo.",
+    "gancho": "Un Digimon moribundo pide ayuda a los PJ porque oye el galope de un jinete sin cabeza que viene a por él. Hay que protegerlo hasta el amanecer."
+  },
+  "durandamon": {
+    "descripcion": "Es el Digimon de la espada sagrada definitiva: evolucionó perfeccionando su propia hoja y absorbiendo datos de espadas legendarias de juegos y mitos. Quien la empuña, dicen, tiene la llave de la victoria. Sus tajos son tan feroces que parten cualquier barrera, y solo el más fuerte de los Legend-Arms escudo podría resistirlos.",
+    "tacticas": "Duelista imparable. Zwei Glänze corta a distancia con su espíritu de lucha, y Thron Messer gira para alcanzar a varios héroes. Hazle partir las defensas del grupo para que los jugadores entiendan que necesitan una estrategia.",
+    "gancho": "Los PJ encuentran una espada reluciente clavada en una piedra. Es Durandamon, que ofrece su alianza a quien lo supere en un duelo limpio."
+  },
+  "dynasmon": {
+    "descripcion": "Caballero Real con poderes de wyvern y una lealtad absoluta hacia su señor, siempre que este comparta su sentido de la justicia. Aunque otros lo consideren malvado, Dynasmon entregaría la vida por lo que cree justo. Cortesía, fidelidad y honor guían su espíritu, y su armadura dracónica lo vuelve casi invencible.",
+    "tacticas": "Duelista honorable que habla antes de pelear. Dragon's Roar asusta a distancia a todo el grupo, y Wyvern's Breath golpea con el aura de un gran wyvern. Puede dudar si los héroes prueban que su señor miente.",
+    "gancho": "Un caballero impecable bloquea el paso de los PJ en defensa de un señor al que muchos llaman villano. ¿Ganarán su respeto con palabras o tendrán que demostrar su valor en combate?"
+  },
+  "dynasmon_x": {
+    "descripcion": "Con el Anticuerpo X, su naturaleza de wyvern se ha acentuado: luce un aspecto más siniestro, una armadura ligera de Blue Digizoid y unos cuernos enormes en la frente. Conserva la lealtad absoluta hacia su señor y su cuerpo, pesado y enorme, desprende un poder abrumador. Es el más diestro de los Caballeros Reales en velocidad.",
+    "tacticas": "Más ágil de lo que aparenta. Dragon's Gust embiste con los cuernos y empuja, Dragon's Roar asusta a todos y Wyvern's Breath cierra el asalto con su aura. Ideal como obstáculo imponente.",
+    "gancho": "Un portal custodiado por un caballero de armadura azul se cierra ante los PJ. El guardián solo se apartará si alguien le demuestra con hechos que su señor no se equivoca, o que sí."
+  },
+  "crossmon": {
+    "descripcion": "Ave gigante cubierta por una armadura dorada de Chrondigizoid que repele cualquier ataque. Su origen es incierto, aunque algunos creen que desciende de Parrotmon. Se cree que su misión es eliminar los elementos ajenos que invaden el Mundo Digital, por lo que vigila los cielos con una mirada dura y atenta.",
+    "tacticas": "Cazador veloz que cae en picado. Kaiser Phoenix es una embestida llameante de cuerpo metálico, y Mystic Break confunde a quien se acerque. Úsalo contra intrusos, incluso contra los PJ si parecen ajenos al mundo.",
+    "gancho": "Un ave dorada sobrevuela una zona donde ha aparecido un objeto que no pertenece al Mundo Digital. Los PJ deben demostrarle que no son una amenaza antes de que embista."
+  },
+  "ebemon": {
+    "descripcion": "Androide creado a partir de un Vademon capturado, analizado y mejorado. Los rumores dicen que nació de tecnología extraterrestre en el misterioso Área 51. Lleva un arma en cada mano: una introduce un programa en el cerebro rival para robarle datos y la otra descarga toda su energía acumulada. Nadie sabe qué país lo fabricó.",
+    "tacticas": "Tirador de larga distancia con dos ritmos. Planet Destroyer es un disparo brutal que ralentiza desde lejos, y Brain Rupture exige acercarse para drenar y derribar. Dale cobertura para obligar al grupo a flanquearlo.",
+    "gancho": "Un Vademon desaparece de su refugio y un androide de armas relucientes llega exigiendo cuentas. Los PJ deben averiguar quién lo envió y qué busca de verdad."
+  },
+  "ebemon_x": {
+    "descripcion": "Versión mejorada tras recibir el Anticuerpo X: el arma de su mano derecha funciona casi como un segundo cerebro y calcula posiciones al instante. Sigue envuelto en rumores sobre el Área 51 y los experimentos secretos de un país que ansía dominar el Mundo Digital. Hasta un disparo al azar suena calculado.",
+    "tacticas": "Tirador implacable. Planet Destroyer remata con Ejecutar desde lejos, y Planet Destroyer Justice castiga con una puntería casi perfecta. Hazlo sentir como un cálculo frío que no falla.",
+    "gancho": "Los PJ interceptan un mensaje cifrado que revela dónde y cuándo apuntará Ebemon (X Antibody). Deben avisar al objetivo y cambiarlo de sitio antes de que el cálculo se cumpla."
+  },
+  "xuanwumon": {
+    "descripcion": "Una de las cuatro Bestias Soberanas, guardiana del norte y dueña de un agua fantasmagórica. Es la más anciana de ellas y de carácter amable, pero su fuerza rivaliza con la de los dioses. Tiene cuatro ojos brillantes y doce DigiCores flotando a su alrededor, algo rarísimo entre los Digimon.",
+    "tacticas": "Más una prueba o una fuerza de la naturaleza que un enemigo. Si llega a luchar, Mugen envuelve a los héroes en una niebla de alucinaciones que ciega y rompe el ánimo. Úsalo como defensa, no como ataque.",
+    "gancho": "Una niebla densa cubre el norte y los viajeros alucinan con sus peores miedos. Los PJ deben llegar hasta el anciano guardián y pedirle audiencia sin alterarlo."
+  },
+  "eldoradimon": {
+    "descripcion": "Nació cuando un Digimon se perdió entre los datos de unas ruinas antiguas guardados en una computadora y se fundió con ellos. Con la cabeza y las extremidades recogidas parece una fortaleza en ruinas. Es enorme y lento de ideas, pero decenas de Digimon juntos no logran abatirlo: es la imagen misma de lo inexpugnable.",
+    "tacticas": "Tanque ambulante. Golden Road lo hace cargar de frente a través de las filas mientras recibe golpes, y Meteor Earthquake derriba al grupo con una pisada. Hazlo lento, pero imparable.",
+    "gancho": "Los PJ deben cruzar unas ruinas que de pronto se ponen en pie. Su guardián de piedra solo atiende a quien le ofrece datos antiguos."
+  },
+  "enmamon": {
+    "descripcion": "Rey del Yomi, el inframundo adonde van los Digimon del Este al morir. Dos espíritus, uno azulado y otro rojo, anotan en pergaminos la información de cada DigiCore, y si encuentran un fallo, el núcleo queda encerrado allí para siempre. Gobierna con mano de hierro, aunque él mismo está atado a ese sistema.",
+    "tacticas": "Juez más que luchador. Mirror of Retribution devuelve los ataques con Contraataque y confunde, así que castiga el ataque indiscriminado. Yama's Descent aplasta con un puño de fuego infernal a quien se confíe.",
+    "gancho": "Un amigo cae en el Yomi por un error de registro. Los PJ deben llegar hasta Enmamon y demostrar con pruebas que su DigiCore no tenía ningún fallo."
+  },
+  "eosmon_lv6": {
+    "descripcion": "Resultado de un experimento fuera de control: un investigador, al ver que todo salía mal, fusionó a multitud de Eosmon en un único ser. Se desboca siguiendo una sola orden, eliminar todos los obstáculos, y de su cola abultada nacen nuevos Eosmon que engrosan sus filas.",
+    "tacticas": "Jefe con séquito. Cruelty Rain levanta sus paneles como escudo y los estrella sobre la zona, ralentizando. Aurora Stream es el rayo de su pecho. Añade Eosmon menores para presionar al grupo.",
+    "gancho": "Alguien dejó abierto un laboratorio y de la sala sale una marea de Eosmon que obedece a un gigante nacido de la fusión. Los PJ deben cerrar la fuente antes de que se multiplique."
+  },
+  "erlangmon": {
+    "descripcion": "Deidad nacida de los datos de un guerrero de la leyenda china, íntegra y decidida a librar a los Digimon de la maldad. Maneja una espada de tres puntas y doble filo como si fuera parte de su cuerpo, y le acompaña Kotenken, un arma divina con cabeza de perro y voluntad propia. Su tercer ojo descubre debilidades y malicia.",
+    "tacticas": "Juez astuto que puede cambiar de aspecto, aunque no copia poderes. Yosen Enbu gira su hoja y golpea a todos los que lo rodean, y Shorai: Kotenken invoca al perro divino para morder y cegar.",
+    "gancho": "Un aliado de los PJ se comporta de forma extraña. En realidad es Erlangmon disfrazado, que busca la maldad escondida en alguien del grupo sin que ellos lo sepan."
+  },
+  "erlangmon_blast": {
+    "descripcion": "Su forma completamente despierta, sin límites a sus poderes, que adopta solo ante enemigos que su tercer ojo no logra descifrar. Vestido con la armadura que forma Kotenken, lo percibe todo, incluso los pensamientos rivales. Pero ese ojo es también su DigiCore, así que cada golpe lo arriesga, y no puede mantener la forma mucho tiempo.",
+    "tacticas": "Combate corto y letal. Bansho Ikkan necesita carga y luego atraviesa y ciega, y Tengan Kensei anticipa los movimientos del grupo y los asusta. Limita su duración a pocas rondas; el tercer ojo es su punto débil.",
+    "gancho": "Ante un enemigo demasiado fuerte, el aliado de los PJ despierta su forma definitiva. Deben protegerlo mientras dura, porque cada segundo de poder le cuesta caro."
+  },
+  "examon": {
+    "descripcion": "Caballero Real y Emperador Dragón, el dragón supremo. Tiene tanta masa de datos que los dispositivos antiguos nunca pudieron mostrarlo. Sus enormes alas conscientes, Caledfwlch, deciden por sí mismas si son alas o escudo, y su lanza Ambrose guarda balas con virus de efectos variados.",
+    "tacticas": "Jefe versátil que alterna ataques para sorprender. Avalon's Gate perfora y estalla por dentro con las balas de Ambrose, Pendragon's Glory ciega con su láser y Dragonic Impact aturde a un grupo con una onda de choque.",
+    "gancho": "Un dispositivo de última generación proyecta por primera vez una sombra descomunal. Los PJ deben decidir si el Emperador Dragón es un aliado o una amenaza para el Mundo Digital."
+  },
+  "examon_x": {
+    "descripcion": "Con el Anticuerpo X afloraron sus datos de Caballero Sagrado, y ahora parece un guerrero con yelmo y armadura. Sus poderes de dragón y de caballero no caben en su nuevo cuerpo y se arremolinan a su alrededor como plasma dracónico. Su lanza Ambrose es consciente y ajusta su potencia a la fuerza del enemigo.",
+    "tacticas": "Tormenta andante. Thunder Sword Bureiragaha lanza espadas de rayo que paralizan, y Pendragon Sparkle combina lanza y relámpago contra un solo objetivo. Ajusta su energía al grupo para que nunca sea una pelea fácil.",
+    "gancho": "Cae una tormenta eléctrica que no responde al clima, y doce espadas de rayo rodean una colina. Los PJ deben decidir si superan el examen de su dueño."
+  },
+  "exmaquinamon": {
+    "descripcion": "Digimon único con dos DigiCores en un solo cuerpo, uno de bestia y otro de máquina, y sus mitades izquierda y derecha, de naturaleza distinta, quedan separadas por una línea limpia. Domina Escaton, un poder que fuerza la fusión de elementos incompatibles. Sigue siendo un enigma con muchos detalles por descubrir.",
+    "tacticas": "Trátalo como un misterio de combate. Escaton funde datos incompatibles, ralentiza y castiga a toda la zona. Describe cada ataque con un lado distinto de su cuerpo para sugerir que las dos mitades se contradicen.",
+    "gancho": "Dos facciones, una de bestias y otra de máquinas, reclaman al mismo extraño como suyo. Los PJ deben decidir quién tiene razón antes de que estalle una guerra."
+  },
+  "huanglongmon": {
+    "descripcion": "Emperador de las cuatro Bestias Soberanas, reina en el centro del Mundo Digital. Hace mucho tiempo, un ángel lo selló en lo más profundo, y sus guardianes quedaron sin soberano. Es bien y mal a la vez, luz y oscuridad. Tiene ocho ojos, doce DigiCores fuera del cuerpo y un mineral que lo hace inmune al daño.",
+    "tacticas": "Encuentro mítico, no un combate corriente. Taikyoku descompone todo en luz y oscuridad y ciega, y Yellow Circle levanta un tifón de sedimentos que empuja a todos. Úsalo para dar escala al cierre de una campaña.",
+    "gancho": "El sello que mantiene preso al Emperador se agrieta y los cuatro guardianes vuelven a disputarse el poder. Los PJ deben convencerlos de colaborar antes de que algo despierte."
+  },
+  "huanglongmon_ruin": {
+    "descripcion": "Es Fanglongmon enloquecido por una energía de odio vertida en su interior: ha perdido la virtud y la luz, y solo desea sumir el mundo en la ruina. Según los registros, las cuatro Bestias Sagradas unieron fuerzas para someterlo. Ya no queda en él nada de su antigua majestad.",
+    "tacticas": "Catástrofe viva. Mukyoku engulle el campo en un vacío negro que asusta y se mueve rápido, y Kaimeisou lanza un tornado de llamas negras con golpe brutal. Hazlo un reto de supervivencia, no de victoria.",
+    "gancho": "Las cuatro Bestias Sagradas piden ayuda a los PJ para devolver la calma a un emperador que ha perdido su luz. El plan requiere reunir un objeto de cada guardián."
+  },
+  "fenriloogamon": {
+    "descripcion": "Digimon imaginario, nacido del ensueño de un DigiCore con datos del warg del mito real: una Bestia Oscura de armadura plateada y magia inagotable. Controla por completo las llamas azules que lo envuelven, que arden a temperaturas enormes pero suelen mecerse en silencio, bellas como un velo.",
+    "tacticas": "Cazador silencioso de llamas azules. Ragnarok Howling asusta y remata con un aullido, Jotunheimr Gale corta y empuja, y Hrodvitnir invoca un doble de fuego que usa las mismas técnicas. Que los PJ duden de cuál es el original.",
+    "gancho": "Una llama azul silenciosa recorre el páramo de noche sin quemar nada, y quien la sigue oye un aullido. Los PJ deben decidir si perseguirla o apagar el rastro."
+  },
+  "fenriloogamon_takemikazuchi": {
+    "descripcion": "Forma nacida de la evolución milagrosa de Kazuchimon mediante la magia de Gleipnir, el pañuelo inscrito que Fenriloogamon lleva al cuello y que hace realidad las emociones intensas de su DigiCore. Sostiene entre las fauces la gran espada Takemikazuchi, que puede partirse en dos y manejarse con Gleipnir convertido en cuerda.",
+    "tacticas": "Espadachín de llamas y rayos. Ultimate War Blade Takemikazuchi es un tajo brutal y perforante, y Ultimate Dancing Sword Takemikazuchi usa dos espadas ligadas por la cuerda para confundir. Premia a los PJ que rompan su ritmo.",
+    "gancho": "Un guerrero lupino cuyo pañuelo brilla cada vez que se enfada pide a los PJ que lo acompañen a un duelo ritual. Todo puede acabar mal si sus emociones se desbordan."
+  },
+  "frosvelgrmon": {
+    "descripcion": "Ave gigante de aparición rarísima, símbolo de temor y respeto en cierta región. La leyenda cuenta que se presenta ante los perdidos en las cumbres nevadas para juzgarlos: a los dignos los lleva a salvo montaña abajo y a los demás les concede una muerte tranquila con su aliento helado. Su canto es hermoso y mortal.",
+    "tacticas": "Tirador aéreo que juzga antes de atacar. Innocence Blizzard cubre una amplia zona de ventisca con Certero, Freezing Ray congela y remata, y Ruin Reverb asusta a quien escuche su canto. Dale a los PJ la opción de convencerlo.",
+    "gancho": "Una tormenta de nieve aísla a los PJ en una cumbre y una silueta alada los observa en silencio. Deberán demostrar que merecen ser salvados."
+  },
+  "fujinmon": {
+    "descripcion": "Androide que toma su nombre del dios del viento del folclore japonés. Es un luchador ligero, especialista en el cuerpo a cuerpo y en movimientos que parecen flotar. Lleva en el brazo la misma cuchilla que Justimon. En la mesa es un protector que se planta en medio del campo y agita el aire a su alrededor.",
+    "tacticas": "Tanque de viento. Marut Cyclone provoca y empuja a toda la zona para que los enemigos se centren en él, y Critical Arm corta de cerca. Úsalo como escolta móvil de un jefe o de un convoy.",
+    "gancho": "Un convoy de datos importante cruza un cañón ventoso protegido por un androide ligero y orgulloso. Los PJ pueden unirse a la escolta o ser tomados por saqueadores."
+  },
+  "gabumon_kizuna": {
+    "descripcion": "Última evolución legendaria de Gabumon, fruto de un lazo profundo con su compañero. Esa amistad se hace armadura elegante sobre su cuerpo, y también puede adoptar la forma de la moto que su compañero tanto aprecia para correr juntos. Es la prueba de que la fe mutua abre posibilidades ilimitadas.",
+    "tacticas": "Sin puntos ciegos. Full-Metal Machinegun llueve metal a distancia, Cool Edge golpea de cerca tras soltar su armadura, y Moon Phase y Raddle Star ralentizan con láseres y armas guiadas. Que pelee mejor con su compañero a la vista.",
+    "gancho": "Un joven Tamer desolado cree que su Gabumon nunca podrá evolucionar más. Los PJ deben ayudarles a recuperar la confianza que sostiene un lazo capaz de transformar a ambos."
+  },
+  "gaioumon": {
+    "descripcion": "Subespecie de Greymon que ha crecido venciendo en combate. Apareció en una computadora abandonada del Este, y se desconoce gran parte de su fuerza, pero su experiencia es enorme. Maneja las inusuales espadas Kikurin, cuya estela de luz extraña corta en pedazos todo lo que toca.",
+    "tacticas": "Duelista que acumula energía. Gaia Reactor y Phosphorus Fire Attack requieren carga, así que anúncialo antes de ejecutar para que los PJ reaccionen. Will-O'-Wisp Slash es su tajo de estela luminosa a corta distancia.",
+    "gancho": "Una computadora abandonada del Este se enciende sola cada noche y una luz errante asoma por la pantalla. Los PJ siguen el rastro hasta un guerrero que busca rival."
+  },
+  "gaioumon_itto": {
+    "descripcion": "Forma que adopta tras una derrota y un entrenamiento sin descanso: los datos de ogro dormidos en su DigiCore despertaron y ahora combate con una sola espada. Domina el estilo Tenrin y su arte es la esgrima silenciosa, que corta al rival en el acto y sin ruido. En guardia, nadie se acerca sin arriesgarse.",
+    "tacticas": "Duelista silencioso. Senpū Baku inmoviliza con un tornado y Kikurin Issen: Gouraizan carga y corta con rayos. Narra el combate con pocas palabras; el golpe llega sin aviso.",
+    "gancho": "Un maestro de la espada espera al final de un puente sin decir palabra. Si los PJ ganan su respeto sin atacar, les ofrecerá el paso y un secreto del estilo Tenrin."
+  },
+  "ragnamon": {
+    "descripcion": "Es el mayor de todos los androides: absorbió los datos de un satélite artificial y posee armamento capaz de arrasar vastas regiones desde la órbita. Moverlo exige muchos recursos y el apoyo de hackers de élite, así que casi nunca combate. Puede analizar los ataques que recibe y reutilizarlos.",
+    "tacticas": "Para una escena de asedio. Satellite Buster y Ragnarok Cannon golpean desde muy lejos, y Space Laser perfora y ciega. Los PJ deben cortar el apoyo de los hackers que lo sostienen.",
+    "gancho": "Un grupo de hackers pide a los PJ que vigilen un coloso dormido en una montaña, mientras otros quieren despertarlo. Quien controle a sus operadores dominará el arma más destructiva."
+  },
+  "dukemon": {
+    "descripcion": "Caballero Real, defensor supremo de la Red junto a Omnimon y Magnamon. Viste armadura de Chrondigizoid casi puro, con la lanza sagrada Gram en la derecha y el escudo Aegis en la izquierda. Es cortés y fiel a su señor, aunque su naturaleza Virus lo deja siempre al borde de convertirse en amenaza.",
+    "tacticas": "Caballero equilibrado. Lightning Joust es una estocada de Gram que paraliza, y Shield of the Just le da un Escudo personal para aguantar. Úsalo como aliado o rival heroico cuyo dilema moral importa más que sus números.",
+    "gancho": "Un Gallantmon patrulla la frontera con una sombra que se refleja en su armadura. Los PJ deben ayudarle a resistir la tentación de un poder prohibido antes de que se rompa su lealtad."
+  },
+  "dukemon_x": {
+    "descripcion": "Tras arriesgar su vida en incontables batallas santas, fiel a su honor, recibió armadura, lanza y escudo de la más alta calidad, una aleación sagrada de Red, Blue y Gold Digizoid y Chrondigizoid purísimo. Su aspecto cambió para encajar con ese poder. Se dice que, antes del Anticuerpo X, regaló su capa roja al héroe Leomon.",
+    "tacticas": "Zeig Saber multiplica el filo de la lanza de luz en un tajo enorme, y Shield of the Just le procura un Escudo para aguantar. Combátelo en un duelo solemne en el que las palabras pesan como los golpes.",
+    "gancho": "Un anciano Leomon conserva una capa roja que le regaló un caballero. Los PJ deben escoltarlo hasta el Caballero Real para devolverle el favor, aunque el camino esté lleno de enemigos."
+  },
+  "dukemoncrimsonmode": {
+    "descripcion": "Forma oculta de Gallantmon con una armadura carmesí al rojo vivo. Libera todo su poder, pero el calor le impide mantenerla mucho tiempo. En su pecho hay un DigiCore que sella un Digital Hazard, y al liberarlo le brotan alas de energía. Empuña la lanza de luz Gungnir y la espada de luz Blutgang, armas sin forma.",
+    "tacticas": "Duración limitada: pocas rondas de gloria. Invincible Sword es un tajo certero de Blutgang, y Quo Vadis quema con Gungnir. Cuenta el calor creciente para que los jugadores sientan la presión.",
+    "gancho": "Un Gallantmon herido, rodeado por un enemigo imposible, hace brillar su armadura al rojo. Los PJ tienen muy poco tiempo para ganar terreno antes de que el calor lo consuma."
+  }
+}

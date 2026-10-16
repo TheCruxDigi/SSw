@@ -1,0 +1,227 @@
+{
+  "kaguyamon": {
+    "descripcion": "Cuentan en el Mundo Digital que, cuando una puerta se abre bajo la luna del este, es porque Kaguyamon llora en algún lugar. Esta marioneta serena vigila las montañas y los bosques de bambú orientales, y el dispositivo de su espalda le permite abrir portales hacia sitios remotos e incluso otros mundos. Detrás de su calma hay una guardiana que resuelve lo que sus subordinados no logran.",
+    "tacticas": "Es una Mística que domina desde la distancia. Abre con Bamboo Reaper, su técnica de firma, para sembrar miedo sobre toda una zona, y guarda Heavenly Outpour para cegar a quien se acerque. Juégala con paciencia y movilidad, no como una brutal.",
+    "gancho": "Un portal de bambú se abre en mitad del bosque y arroja al grupo muy lejos de casa. Kaguyamon, afligida, les pide ayuda para cerrarlo antes de que cruce algo peor."
+  },
+  "kazuchimon": {
+    "descripcion": "Para Kazuchimon la batalla es un rito sagrado que no admite trampas ni descuidos. Su cuerpo y su espíritu se forjaron con un entrenamiento tan feroz que a veces olvida comer y dormir mientras perfecciona una sola técnica. Cuando se enciende lucha como un dios de la guerra, y un único golpe suyo basta para derribar a miles.",
+    "tacticas": "Úsalo como duelista. Con Shido Ittetsu encierra a un héroe en un combate singular, y Nito Seirai paraliza a quien se deje tocar por sus hojas de rayo. Shinden Shouraiko es su remate a distancia cuando la pelea se alarga.",
+    "gancho": "Kazuchimon reta a los personajes a un duelo honorable, pero solo contra el más fuerte del grupo. Los demás deben decidir si respetan el rito o intervienen."
+  },
+  "sleipmon": {
+    "descripcion": "Entre los Caballeros Reales, casi todos humanoides, Kentaurosmon destaca por su silueta de bestia de seis patas. La armadura Red Digizoid que lo cubre lo hace difícil de herir incluso para un Mega, y su zancada lo traslada en un parpadeo a pesar de su tamaño. Custodia unas ruinas antiquísimas sepultadas bajo el hielo del norte del Mundo Digital.",
+    "tacticas": "Versátil: úsalo como arquero móvil que cambia de posición cada ronda. Bifrost quema desde lejos con una flecha incandescente, y Odin's Breath levanta una ventisca que lo protege y congela a quienes se acercan.",
+    "gancho": "Una ventisca imposible cierra el paso hacia unas ruinas heladas. Kentaurosmon exige que los personajes prueben su valía antes de dejar que alguien se acerque a lo que duerme bajo el hielo."
+  },
+  "sleipmon_x": {
+    "descripcion": "Con el X Antibody, Kentaurosmon ha sumado cuatro brazos a sus seis patas, y ya no pierde tiempo entre tensar la cuerda y disparar: hace llover flechas sin pausa mientras galopa a toda velocidad. Los escudos Niflheimr de sus brazos congelan el suelo hasta detener cualquier vida a su alrededor. Sigue vigilando las ruinas heladas del norte.",
+    "tacticas": "Arquero imparable que castiga a quien intente rodearlo. Surtr Brander lanza flechas envueltas en fuego infernal que atrapan al objetivo, y Niflheimr Arrest congela el terreno cercano mientras sus escudos de hielo lo protegen.",
+    "gancho": "Flechas llameantes caen sobre un valle nevado desde un arquero de seis patas. El grupo debe decidir si lo enfrenta o lo convence de que no son intrusos, antes de que el hielo cubra el campamento."
+  },
+  "yggdrasill7d6": {
+    "descripcion": "King Drasil_7D6 es un avatar creado por King Drasil, el enigmático ordenador anfitrión que gobierna todo el Mundo Digital desde la Red. Se sabe muy poco de esta extraña criatura, salvo que levanta cristales como armas y es capaz de repararse a sí misma. Para una mesa de juego, su misterio es su mejor virtud.",
+    "tacticas": "Tanque paciente y pesado. Crystal Shards derriba a los héroes y los provoca para que lo ataquen a él, Huge Crystal castiga a quien se acerque y Self-Restore le permite recuperarse mientras el grupo se agota.",
+    "gancho": "Una figura de cristal bloquea el paso hacia una región que el grupo debe cruzar. No dice nada y solo repara sus grietas tras cada golpe: averiguar quién la envió es la verdadera misión."
+  },
+  "kingchessmon": {
+    "descripcion": "KingChessmon se cree monarca de un Imperio Chessmon que, de momento, solo existe en sus planes secretos y en su cabeza. Es un cobarde con un cerebro comparable a un superordenador, y su mayor talento es escapar a tiempo: repite que quien huye hoy pelea mañana. Siempre lleva consigo su cetro real, con el que crea dobles de sí mismo.",
+    "tacticas": "Evita pelear hasta verse acorralado, y entonces golpea con Checkmate, su técnica de firma, con la fuerza de quien se juega la vida. King Stick confunde a los héroes y King Dash le sirve para derribar y salir corriendo.",
+    "gancho": "Un rey de ajedrez de aspecto ridículo ofrece al grupo un puesto en su imperio secreto. Si lo rechazan, huirá; si aceptan, tendrán que averiguar qué traman de verdad sus piezas."
+  },
+  "kingetemon": {
+    "descripcion": "KingEtemon se proclama Rey de reyes, un título que sus vecinos toman a broma. Desfila con su traje de mono, que lleva en el pecho los caracteres de «Gran Rey», como si el mundo entero fuese su escenario. Pese a su fama de payaso, su espectáculo es tan desconcertante que puede dejar a un enemigo sin ganas de seguir luchando.",
+    "tacticas": "Es un artista más que un guerrero. Su único ataque, Monkey Wrench, es un número de escena que confunde a los héroes que lo miran. Alarga sus poses y discursos; quien lo interrumpa a tiempo resistirá mejor.",
+    "gancho": "KingEtemon organiza un gran concierto y exige que los personajes sean su público y sus guardaespaldas. Bajo los focos, alguien sabotea la función y el rey culpa al grupo."
+  },
+  "kingwhamon": {
+    "descripcion": "KingWhamon es una ballena colosal que carga una isla habitable sobre el lomo, y muchos Digimon viajan en su boca y viven en ella mientras cruza el océano de la Red. Es un anfitrión protector: cuando amenaza peligro envuelve la isla en una burbuja gigante, y si alguien arma jaleo lo expulsa con un chorro por su espiráculo.",
+    "tacticas": "Tanque gigantesco y defensivo. Aqua Jet lanza un chorro a presión que empuja y ralentiza, y Cranial Bash aturde a quien intente abordar su isla. Los combates con él suelen ser escoltas que proteger.",
+    "gancho": "Una tormenta en el océano de la Red obliga a los personajes a refugiarse en la isla de KingWhamon, cuyos habitantes sospechan que uno de los pasajeros no subió por buenas razones."
+  },
+  "kuzuhamon": {
+    "descripcion": "Se dice que Kuzuhamon fue una zorra que vivió tantos años que aprendió a caminar con forma humana. Domina las antiguas artes del shinto, el onmyodo y el shugendo, y solo las más grandes de su linaje alcanzan después la forma de Sakuyamon. En la pipa de su cinturón habita un zorro que ataca, espía y le sirve de ojos y oídos.",
+    "tacticas": "Apoyo mágico con ataques de luz. Illuminator lanza al zorro de su cinturón contra el objetivo y lo ciega, y Taizoukai Mandala crea un campo purificador que ayuda a sus aliados mientras ella lo sostiene con su báculo.",
+    "gancho": "Una dama de aspecto sereno pide al grupo que la acompañe a un santuario embrujado. Solo ella sabe que su zorro ya ha olfateado a un espíritu escondido entre los viajeros."
+  },
+  "kuzuhamon_miko": {
+    "descripcion": "Maid Mode es la forma que adopta Kuzuhamon cuando oficia ceremonias siguiendo la voluntad de los dioses. Cambia la guerra por la solemnidad de un oficio sagrado: casi nunca pelea, pero en este aspecto resulta aún más hábil para ahuyentar el mal. Su presencia basta para serenar un lugar embrujado antes de que nadie levante la voz.",
+    "tacticas": "Evita el combate directo y prefiere proteger el lugar donde oficia. Cuando debe actuar, Illuminator deslumbra a un atacante y Taizoukai Mandala baña la zona de una luz cegadora; no le pidas heroicidades.",
+    "gancho": "Los personajes llegan a un santuario donde se celebra un ritual a medias. Si logran proteger a la sacerdotisa hasta que termine, el lugar quedará libre de una maldición antigua."
+  },
+  "lampmon": {
+    "descripcion": "Lampmon surge de una lámpara mágica cuando alguien lo invoca, y trae consigo un poder enorme: cambia de estatura y de aspecto, y conjura palacios o montañas de oro y plata. Muchos de los suyos siguen sellados en lámparas, concediendo deseos. Pero el encierro puede torcerles el carácter, y algunos atacan a quien los libera.",
+    "tacticas": "Mago de oscuridad que busca inmovilizar. Phantom Turban convierte su turbante en látigos de formas cambiantes que atrapan al objetivo. Haz que hable de deseos y tratos antes de empezar a pelear.",
+    "gancho": "Los personajes encuentran una lámpara polvorienta en unas ruinas. Quien la abre libera a un Lampmon que ofrece tres deseos, pero su sonrisa delata que el encierro no le ha sentado bien."
+  },
+  "duftmon": {
+    "descripcion": "Leopardmon es el estratega más respetado de los Caballeros Reales, capaz de dirigir a compañeros con creencias muy distintas entre sí. Prefiere mover las piezas desde la distancia, pero cuando le toca entrar en combate corre al campo de batalla en su Leopard Mode. Su espada de haz y su fría eficacia pesan tanto como sus órdenes.",
+    "tacticas": "Úsalo como comandante que alcanza a todo el campo. Extinction Wave es un tajo descendente que empuja y remata a muchos a la vez; Black Aura Blast ejecuta y asusta a un solo objetivo. Su mente es su mejor arma.",
+    "gancho": "Leopardmon convoca al grupo a una reunión táctica: los Caballeros Reales necesitan un plan contra una amenaza, y quiere comprobar si los personajes saben seguir órdenes sin perder la iniciativa."
+  },
+  "duftmon_x": {
+    "descripcion": "Con el X Antibody, la armadura de Leopardmon se ha vuelto Brown Digizoid, un material tan elástico que sus movimientos parecen una danza. Aunque lo rodeen por todos lados, es probable que esquive cada golpe. Sigue siendo el gran estratega de los Caballeros Reales, ahora con una agilidad casi imposible de seguir.",
+    "tacticas": "Duelista veloz que suma control y presión. Braun Nebel ralentiza a quienes lo rodean y Eine Billion, una lluvia de estocadas en un instante, ralentiza a un solo objetivo. Extinction Wave sigue siendo su ataque contra todos.",
+    "gancho": "Un grupo de enemigos coordinados cree haber acorralado a Leopardmon. Los personajes llegan a tiempo de verlo desvanecerse entre ellos como niebla y reaparecer tras el cabecilla."
+  },
+  "duftmonleopardmode": {
+    "descripcion": "Cuando Leopardmon abandona el puesto de mando y sale a pelear lo hace en este Leopard Mode, una forma felina y rapidísima. Corre, salta y corta al enemigo desde cualquier ángulo, y la punta redonda de su cola fabrica minas de energía con las que cerca a su presa. Es el estratega convertido en cazador.",
+    "tacticas": "Cazador que combina movimiento y minas. Blockade lo lanza como un torbellino de tajos que empuja a los enemigos, Eroberung planta minas de energía en la zona y Vulcan Crusher levanta pilares de roca para un golpe brutal.",
+    "gancho": "Tras un ataque a una aldea solo quedan huellas felinas y esferas de energía dispersas por el suelo. Los personajes deben seguir el rastro de Leopardmon antes de que alguien pise una de ellas."
+  },
+  "leviamon": {
+    "descripcion": "Leviamon es la Bestia Demonio, una de los Siete Grandes Reyes Demonio, tan colosal que sus fauces podrían tragarse el Mundo Digital entero. Duerme en el océano de la Red, cerca del Área Oscura, y casi nunca se deja ver. Quienes saben de su existencia prefieren que siga durmiendo: hasta los ángeles huyen cuando despierta.",
+    "tacticas": "Jefe final que se enfrenta cuerpo a cuerpo. Biting Crush rompe todo a su paso con sus enormes mandíbulas, y Tail Strike derriba con brutalidad a quienes se agrupen. No tiene trucos: su amenaza es el tamaño.",
+    "gancho": "Una grieta en el océano de la Red deja ver unas fauces inmensas bajo la superficie. El grupo debe cruzar sin hacer ruido, porque ni los Digimon ángel se atreven a respirar fuerte allí."
+  },
+  "leviamon_x": {
+    "descripcion": "El X Antibody ha dado a Leviamon unos brazos en forma de ala por los que libera parte de su energía desbordante. Su única meta es devorarlo todo, y para ello ha estrenado colas como tentáculos, tres mandíbulas y un rayo de poder inmenso. Sigue contándose entre los Siete Grandes Reyes Demonio, ahora todavía más hambriento.",
+    "tacticas": "Jefe devorador que ataca a varios a la vez. Seventh Lightning paraliza con un rayo brutal desde lejos, Tail Strike Mortifera derriba con colas que atraviesan, y Biting Crush Triadens rompe defensas con sus tres mandíbulas.",
+    "gancho": "Un bosque entero ha desaparecido de un solo bocado, y la zona vacía crece cada noche. Los personajes siguen unas huellas gigantes para averiguar qué se está comiendo el mapa."
+  },
+  "lilithmon": {
+    "descripcion": "Lilithmon, la Diosa de la Oscuridad, es una de los Siete Grandes Reyes Demonio. Se cree que fue una Ophanimon caída en desgracia, y hoy seduce a sus víctimas con una belleza cautivadora. Es generosa con los vicios y cruel con las virtudes, y la garra Nazar Nail de su brazo corroe cuanto toca. Aceptar su invitación suele ser el último error.",
+    "tacticas": "Villana sinuosa que presiona con una sola técnica. Phantom Pain es su aliento oscuro: debilita y golpea con brutalidad, royendo los datos del cuerpo desde las extremidades. Haz que los héroes duden antes de actuar.",
+    "gancho": "Una dama hermosa ofrece al grupo un banquete y un favor a cambio de nada. Quien acepta nota que le duelen las manos; averiguar quién es antes del postre es cuestión de vida o muerte."
+  },
+  "lilithmon_x": {
+    "descripcion": "Obsesionada con la belleza, Lilithmon (X Antibody) ha tomado una forma joven y deslumbrante cuya mirada convierte a los curiosos en marionetas. Se considera una diosa de la muerte que reparte una destrucción dulce como si fuera un regalo generoso. Su Crown of Lust le da el poder de gobernar voluntades.",
+    "tacticas": "Control mental ante todo. Seventh Fascination encanta a un grupo entero y lo vuelve contra sí mismo; después Nazar Nail asusta de cerca y Phantom Pain debilita. Úsala para que los héroes teman a sus propios compañeros.",
+    "gancho": "Los aldeanos de un pueblo siguen a una joven radiante sin pestañear y ya no recuerdan sus propios nombres. Los personajes deben romper el hechizo sin dañar a los que ahora son sus marionetas."
+  },
+  "lordknightmon": {
+    "descripcion": "LordKnightmon gobierna a todos los Knightmon con una idea de justicia que no depende del bien ni del mal, sino de lograr una paz duradera, aunque haya que imponerla. Cumple sus deberes con eficacia implacable, y sin embargo muestra compasión hacia los débiles. Cuatro cuchillas brotan de su armadura como espinas de acero.",
+    "tacticas": "Duelista disciplinado de cuerpo a cuerpo. Spiral Masquerade corta con las cuatro hojas de su armadura; Fist of Athena lo acerca al instante y su estaca descarga una onda que ejecuta y paraliza.",
+    "gancho": "LordKnightmon ofrece un trato al grupo: ayudarle a imponer el orden en un pueblo caótico a cambio de su protección. Aceptar parece fácil, pero sus métodos podrían no gustar a todos."
+  },
+  "lordknightmon_x": {
+    "descripcion": "En esta forma, LordKnightmon porta un escudo de rosas, el Rose Pile Bunker, y un estoque llamado Rose's Fencer. El cristal rojo de su visera analiza el campo de batalla y le permite dirigir a sus tropas siempre con ventaja, como un director de orquesta. Quienes lo contemplan creen estar ante un ser perfecto.",
+    "tacticas": "Comandante elegante que dirige a sus tropas y ataca de cerca. Ultimate Thrusting Sword Gran Rozerio es una estocada brutal que además lo protege, y Noblesse of Rouge perfora y atrapa. Usa Lord of Fraternity para confundir.",
+    "gancho": "Un ejército perfectamente coordinado obedece a una sola mirada tras una visera roja. Los personajes deben descubrir cómo quitarle la ventaja táctica antes de que el desfile termine en batalla."
+  },
+  "lotusmon": {
+    "descripcion": "Lotosmon recuerda a un loto, la flor que dicen que florece incluso en el cielo. Tiene la dignidad tranquila de una joven refinada y regala sueños tan dulces que quien los recibe olvida las penas del mundo. Pero es implacable con quienes desprecian su buena voluntad. Su báculo con serpientes sirve tanto para curar como para dañar.",
+    "tacticas": "Apoyo volador con doble filo. Serpent Cure cura a los aliados y Serpent Ruin asusta a los enemigos; si la tratan mal, Seven's Fantasia confunde y debilita a todo un grupo con visiones agradables.",
+    "gancho": "Lotosmon ofrece sueños apacibles a los viajeros cansados de un pantano. El grupo debe decidir si acepta su regalo o lo rechaza con cuidado para no ofender a una anfitriona peligrosa."
+  },
+  "lovelyangemon": {
+    "descripcion": "LovelyAngemon es un ángel que bajó a la tierra y disfruta paseando para probar comida rica, siempre alegre y atento a la moda. No te fíes de su aspecto: lleva en su interior los datos de luchadores mágicos de combate cuerpo a cuerpo, y desata combinaciones de artes marciales contra quienes no perdona. Nunca se rinde.",
+    "tacticas": "Especialista en combate que alterna golpes y control. Marble Impact aturde con una embestida de siete colores, Dream Hurricane duerme y empuja con una patada giratoria, y Lovely Shower provoca y purifica con un corazón de energía.",
+    "gancho": "LovelyAngemon se pierde buscando un puesto de comida legendario y pide a los personajes que le sirvan de guía. En el camino se topan con matones a los que se encargará de corregir."
+  },
+  "lucemon_x": {
+    "descripcion": "Lucemon (X Antibody) es tan divino como demoníaco: el más poderoso de los Siete Grandes Reyes Demonio, que en tiempos antiguos se rebeló y fue sellado en el Área Oscura. Sus seis alas doradas lo hacen parecer un ángel, y su inteligencia y poder superan a los de su forma anterior. Una parte de él ama la vida y otra quiere destruir el mundo para rehacerlo.",
+    "tacticas": "Jefe final de tres caras. Seventh Divine Cruz ciega y golpea con una luz brutal, Paradise Lost debilita y sella a un héroe de cerca, y Purgatorial Flame quema a distancia. Haz que su discurso dude entre piedad y destrucción.",
+    "gancho": "Un ángel de seis alas doradas promete a los personajes un mundo nuevo y perfecto, sin dolor. Para construirlo, solo pide que dejen que el actual se desvanezca."
+  },
+  "lucemonlarva": {
+    "descripcion": "Lucemon: Larva es el verdadero cuerpo de Lucemon, escondido dentro de Gehenna, el orbe oscuro que sujeta su forma Satan Mode. Se dice que es la voluntad maligna del demonio hecha criatura. Ningún golpe dirigido a la figura exterior lo alcanza: maneja los hilos desde las sombras, y el mundo apenas sabe que existe.",
+    "tacticas": "No tiene técnicas propias ni ataca por sí mismo. Aparece como el titiritero oculto tras Lucemon: Satan Mode. Úsalo como giro final: golpear a la forma visible no sirve de nada mientras Gehenna lo cubra.",
+    "gancho": "Un dragón coronado parece invencible, pero los personajes notan que todo ataque se pierde dentro de un orbe negro. Quien descubra qué late dentro de él cambiará el rumbo de la batalla."
+  },
+  "lucemonsatanmode": {
+    "descripcion": "Lucemon: Satan Mode es el dragón del Apocalipsis. Lleva la Corona de los Siete Pecados Capitales y sostiene Gehenna, un orbe oscuro que anula cualquier ataque. Se dice que el mundo perecerá cuando Lucemon adopte esta forma, aunque no es más que una sombra: el verdadero Lucemon, la Larva, vive dentro del orbe.",
+    "tacticas": "Jefe apocalíptico que no teme el castigo. Purgatorial Flame quema y purifica en un frente, y Divine Atonement dispara un rayo desde sus coronas que ejecuta. Haz que Gehenna absorba los golpes hasta que los héroes encuentren la clave.",
+    "gancho": "Cuando el cielo se tiñe de rojo y una corona de siete puntas aparece sobre un dragón, el grupo debe encontrar la manera de herir lo que Gehenna protege, antes de que el mundo acabe."
+  },
+  "mugendramon": {
+    "descripcion": "Machinedramon es un coloso de metal puro, construido con piezas de incontables cyborgs, hasta el punto de que se cree que todos los demás fueron prototipos para completarlo. Posee una enorme capacidad de cálculo, pero carece de voluntad propia: alguien instaló en su DigiCore un programa de malas intenciones que le da poder sin límite.",
+    "tacticas": "Tanque artillero que apenas se mueve y no lo necesita. Infinity Cannon descarga disparos de gran calibre desde ambos cañones, brutales y capaces de romper defensas. Pon a los héroes a buscar el programa que lo guía.",
+    "gancho": "Un gigante de metal avanza sin detenerse hacia una ciudad digital, sin odio ni emoción. Los personajes sospechan que alguien lo dirige a distancia y deben localizar el origen de esa orden."
+  },
+  "holydramon": {
+    "descripcion": "Magnadramon es el rey heroico del cielo y la forma suprema de las Bestias Divinas. Rara vez se le ve y casi nadie sabe dónde vive, pero se cuenta que, cuando una gran oscuridad se alzó sobre el Mundo Digital, apareció de la nada y redujo ese mal a cenizas con su inmensa fuerza.",
+    "tacticas": "Aparece como salvador inesperado o como prueba imponente. Fire Tornado es un estallido de fuego justiciero que empuja y golpea con brutalidad. Resérvalo para el momento clave de la aventura.",
+    "gancho": "Cuando todo parece perdido ante un enemigo oscuro, una sombra enorme cruza el cielo. Los personajes saben que Magnadramon está allí, pero nadie sabe si vendrá a ayudar."
+  },
+  "holydramon_x": {
+    "descripcion": "Magnadramon (X Antibody) apenas ha cambiado con el X Antibody, señal de que ya había despertado casi todo su potencial a lo largo de sus incontables evoluciones. Aun así, su ferocidad draconiana se ha vuelto más salvaje: desgarra a los malvados sin contenerse, y por eso muchos lo temen como a un dios iracundo. Es uno de los Cuatro Grandes Dragones.",
+    "tacticas": "Cazador de villanos de mano dura. Fire Tornado empuja y golpea con brutalidad, y Holy Blaze quema y ejecuta a quien ya está herido. Perfecto para mostrar un poder que asusta incluso a quien lo invoca.",
+    "gancho": "Un dragón celeste ha jurado acabar con una banda de Digimon malvados, y los personajes encuentran a uno de ellos arrepentido. Deben decidir si lo protegen de un dragón que no admite excepciones."
+  },
+  "magnakidmon": {
+    "descripcion": "MagnaKidmon es un hombre dragón cubierto de armas de fuego que recorre el Mundo Digital buscando a unos compañeros dispersos. Se mete en líos dondequiera que va y parece indiferente a todo, pero guarda una lealtad profunda hacia sus amigos. Cuando encuentra Deputymon los confunde con familia y los adopta, y se le dispara el gatillo en cuanto alguien lo reta a duelo.",
+    "tacticas": "Pistolero de duelo con puntería de zona. Bind Red Trigger clava sus armas en el objetivo y lo atrapa; Happy Bullet Showering castiga a todo un grupo desde un gran salto. Chaos Triangular asusta a quienes dudan.",
+    "gancho": "Un Deputymon asustado pide ayuda: un forastero lo llama hermano y no lo suelta. Los personajes deben calmar a MagnaKidmon antes de que un reto de duelo llene de balas el pueblo."
+  },
+  "magnamon_x": {
+    "descripcion": "Magnamon (X Antibody) es un Caballero Sagrado de armadura nacido del milagro del Digihuevo de los Milagros. Su cuerpo de Chrondigizoid se refuerza con el entrenamiento como un músculo, y puede cubrirse de brillante Gold Digizoid, una defensa que resiste hasta los ataques que desmontan datos. Su poder de ataque iguala al de un Mega.",
+    "tacticas": "Guerrero acorazado que también golpea fuerte. Plasma Shot paraliza a un objetivo desde la distancia y Shining Gold Solar Storm barre a varios enemigos y los derriba. Su defensa dorada frustra los ataques de datos.",
+    "gancho": "Los personajes hallan una vieja forja donde un metal dorado late como si estuviera vivo. Magnamon aparece para pedirles que la protejan de quienes quieren fundirlo y fabricar armas."
+  },
+  "magneticdramon": {
+    "descripcion": "Magneticdramon parece un dragón envuelto en roca, pero en el fondo su cuerpo es pura energía eléctrica sin materia: un campo magnético vivo que atrae los minerales que usa de armadura y de arma. Es lento, aunque compensa tirando de sus enemigos con su imán. Los sabios temen que su paso altere volcanes, terrenos e incluso la evolución de otros Digimon.",
+    "tacticas": "Bruto lento que gana controlando el campo. Stone Rail Gun lanza proyectiles cargados que derriban, Electric Compression atrapa en un campo magnético y Magnetic Tempest sella con un pulso que apaga DigiCores. Obliga al grupo a moverse.",
+    "gancho": "Las brújulas del grupo giran como locas y las rocas flotan hacia una cueva. Allí late Magneticdramon, y cada paso que da hace temblar un poco más la tierra."
+  },
+  "belialvamdemon": {
+    "descripcion": "MaloMyotismon es la forma final atribuida a Myotismon. A diferencia de VenomMyotismon, que se perdió en la fuerza bruta hasta volverse una bestia sin juicio, conserva su inteligencia y la usa con frialdad para saciar cualquier capricho. Los cañones vivientes de sus hombros son los parásitos Sodom y Gomorrah.",
+    "tacticas": "Villano volador y calculador que domina el campo. Pandemonium Flame dispara rayos de altísima temperatura desde Sodom y Gomorrah, que queman a varios a la vez con brutalidad. Mantén al grupo bajo presión mientras los observa desde el aire.",
+    "gancho": "Un noble pálido invita al grupo a cenar en un castillo a oscuras. La mesa está repleta de comida, pero cada ventana da a un cielo lleno de cañones vivos."
+  },
+  "marinangemon": {
+    "descripcion": "MarineAngemon es un hada del océano de la Red que muy pocos han visto. Aunque lleva Angemon en el nombre, pertenece a un linaje completamente distinto. En su cuello luce el Holy Ring, un anillo con una inscripción que nadie sabe leer y que quizá lo emparenta con Gatomon y Angewomon. Detesta pelear y busca la paz con ternura.",
+    "tacticas": "No busca el combate. Su Ocean Love encanta a los enemigos hasta que pierden las ganas de pelear; úsalo como mediador volador que gana sin heridas y pone a prueba la paciencia del grupo.",
+    "gancho": "En una cala perdida, un pequeño ser alado flota entre burbujas y pide ayuda: unos Digimon marinos se pelean por el mismo tesoro y solo él puede detenerlos con su magia."
+  },
+  "marsmon": {
+    "descripcion": "Marsmon es un dios de la guerra con aspecto de hombre leopardo y miembro de los misteriosos Olympos XII, deidades guardianas que protegen cada una una región y se mantienen neutrales. Conoce todas las técnicas de lucha cuerpo a cuerpo, incluidas las sucias, y confía ciegamente en ganar cualquier duelo. Su estilo favorito es la lucha libre.",
+    "tacticas": "Luchador seguro de sí que prefiere el duelo. Corona Sanctions lo envuelve en llamas en un salto mortal que quema, y si se ve apurado saca sus armas ocultas, como los Tria Knuckles. Haz que pelee primero con puños y patadas.",
+    "gancho": "Marsmon organiza un torneo de lucha en un coliseo neutral donde nadie debe intervenir en un duelo. Alguien hace trampas, y el campeón, que conoce todas, no piensa tolerarlo."
+  },
+  "mastemon": {
+    "descripcion": "Mastemon aparece, según se cuenta, cuando una crisis sin precedentes cae sobre el Mundo Digital. Nació de la unión poco armoniosa de un ángel y un ángel oscuro, pero conserva una sola voluntad y domina la luz y la oscuridad. Como Estratega de Otro Mundo, hace colaborar a bandos hostiles que acuden por puertas abiertas desde otra dimensión.",
+    "tacticas": "Comandante de apoyo que también lucha. Holy Desire ciega con flechas de luz, y Dark Despair debilita y ejecuta a quien sujeta con su brazo izquierdo. Acompáñalo con refuerzos de ángeles y ángeles oscuros.",
+    "gancho": "Una puerta entre mundos se abre en el cielo y de ella sale un ejército de ángeles y demonios que marchan juntos bajo un solo estandarte. Los personajes deben averiguar quién los dirige y por qué."
+  },
+  "medievaldukemon": {
+    "descripcion": "MedievalGallantmon es el héroe legendario de Witchelny, un Mundo Digital de otra dimensión que estuvo a punto de caer ante los invasores hasta que él apareció de pronto para expulsarlos. Apodado el General Torbellino, comanda a los Vortex Warriors y viste una armadura de ornamentos fastuosos. Se dice que viaja a través del tiempo, aunque nadie puede probarlo.",
+    "tacticas": "Caballero de lanza y fuego. Rage of Wyvern descarga la energía de su lanza Dynas contra el enemigo que se le ponga delante; Final Crest, su firma, es un golpe brutal a distancia que prende en llamas.",
+    "gancho": "En una antigua tierra mágica, una armadura de adornos extraños surge de un torbellino para ayudar a una aldea sitiada. Nadie sabe de dónde viene, ni cuánto tiempo se quedará."
+  },
+  "medusamon": {
+    "descripcion": "Medusamon es una figura con serpientes por cabellera, cada una con voluntad propia, que defienden a su dueña mientras ella adopta una postura elegante y casi inmóvil. Si alguien aguanta los mordiscos, aún le esperan sus botas con colmillos y el aguijón de la cola. Siente debilidad por los Digimon pequeños y redondos, a los que convierte en estatuas para su colección.",
+    "tacticas": "Casi inmóvil, deja que sus serpientes hagan el trabajo. Gorgon Eye congela y petrifica con un destello certero, y Biting Boots remata a quien se acerca. Raging Serpentine paraliza y le devuelve fuerzas.",
+    "gancho": "Alguien ha estado robando Digimon pequeños y redondos, y en una cueva aparece un jardín de estatuas diminutas. Los personajes deben rescatarlos sin cruzarse con la mirada de la guardiana."
+  },
+  "saintgalgomon": {
+    "descripcion": "MegaGargomon es un coloso de acero cuyo cuerpo entero es un arsenal: láseres, misiles, bazucas y lanzallamas escondidos por todas partes. Se mueve muy despacio, pero toda la energía que no gasta en caminar se convierte en potencia de fuego. Le basta plantar los pies para repeler ataques por cualquier flanco.",
+    "tacticas": "Torre de artillería casi inmóvil. Burst Shot provoca a los enemigos con una andanada de armas, y Giant Missile lanza misiles de gran potencia desde los hombros. Los héroes deben usar la velocidad para flanquearlo.",
+    "gancho": "Una fortaleza andante bloquea un desfiladero y ruge órdenes de que nadie pase. Los personajes necesitan cruzar, y tendrán que convencerla o buscar la forma de rodear su inmenso poder de fuego."
+  },
+  "megidramon": {
+    "descripcion": "Megidramon es el más cruel de los dragones del Mundo Digital y, aun así, uno de los Cuatro Grandes Dragones. Casi nadie lo ha visto, tanto que su existencia se pone en duda. Es un peligro en sí mismo, y una fuerza desconocida mantiene sellado su poder. Hay quien cree que es la otra cara de ChaosGallantmon.",
+    "tacticas": "Amenaza de final de campaña. Hell Howling es un aullido brutal que llena de miedo, y Megiddo Flame lo sigue con llamas que lo reducen todo a ceniza. Hazlo aparecer solo si el sello se rompe.",
+    "gancho": "Una grieta en el suelo desprende un calor imposible y un rugido lejano. Unos fanáticos quieren romper el sello que contiene a Megidramon, y el grupo debe detenerlos a tiempo."
+  },
+  "megidramon_x": {
+    "descripcion": "El X Antibody, que despierta el potencial de un DigiCore, cometió su mayor error con Megidramon (X Antibody): dio aún más fuerza a un ser sin una pizca de bondad. Se dice que su sola existencia basta para incendiar todo el Mundo Digital y que su aspecto es el infierno encarnado. No hay en él nada que salvar.",
+    "tacticas": "Como su versión base, pero más implacable. Hell Howling asusta y golpea con brutalidad a distancia, y Megiddo Flame quema a quien siga en pie. No ofrezcas diálogo: es un desastre natural, no un villano que negocia.",
+    "gancho": "El horizonte arde sin que haya fuego visible, y los Digimon del lugar huyen con un nombre en la boca. Los personajes deben evacuar a los más débiles antes de que llegue el dragón."
+  },
+  "mercurymon": {
+    "descripcion": "Merukimon es un dios genio de los Olympos XII y el Digimon más veloz del Mundo Digital: sus movimientos son invisibles al ojo, y las grabaciones que existen solo muestran imágenes residuales. Odia quedarse quieto, así que vaga sin parar y casi nunca se le encuentra. Además es chamán y convoca demonios de otra dimensión con su espada Aztec.",
+    "tacticas": "Veloz y escurridizo: golpea y desaparece. Thousand Fists lo acerca al instante y lanza una ráfaga de puñetazos llameantes, y Spiritual Enchantment fortalece y encanta con demonios invocados. Que los héroes apenas lo vean.",
+    "gancho": "Se rumorea que un borrón veloz cruza el desierto cada noche. Si los personajes consiguen que Merukimon se detenga a escucharlos, quizá obtengan un favor de un dios que nunca está quieto."
+  },
+  "mervamon": {
+    "descripcion": "Mervamon, miembro de los Olympos XII, es la forma que alcanza Minervamon tras acumular experiencia y logros. Es más serena y madura, y busca la elegancia y el encanto en cada gesto, hasta cuando combate. Baila con tanta gracia que no pocos espectadores se hacen admiradores suyos, sin sospechar el peligro de su danza.",
+    "tacticas": "Bailarina letal que fascina y envenena. Love Poison encanta y envenena desde lejos, Night Stalker asusta con su brazo Medullia y Final Strike Roll es un tajo brutal. Madness Merry-Go-Round DX es su danza final, un torbellino de cortes.",
+    "gancho": "Mervamon ofrece una exhibición de baile en una plaza y todos los asistentes quedan embobados. Los personajes notan un aroma dulce en el aire y deben decidir si interrumpen la función."
+  },
+  "metaletemon": {
+    "descripcion": "MetalEtemon fue llamado el Rey de los Digimon. Buscó oponentes fuertes en una larga serie de combates brutales, y tantas peleas casi lo destruyeron. Entonces estudió sus propias debilidades y se rehízo como una máquina de guerra totalmente mecanizada, cubierta de Chrondigizoid. Un luchador invencible que mezcla técnica y trucos sucios.",
+    "tacticas": "Tirador sucio de larga distancia. Banana Slip es un disparo certero que derriba al objetivo, y después se burla de quien cae. Combina su puntería con un terreno que le dé ventaja.",
+    "gancho": "Un robot presumido desafía al grupo a una batalla para demostrar que sigue siendo el rey de los Digimon. Está dispuesto a todo, incluso a jugar sucio, con tal de ganar."
+  },
+  "metalgarurumon": {
+    "descripcion": "MetalGarurumon es la forma final de Garurumon con casi todo el cuerpo convertido en metal, sin perder un ápice de agilidad. Cuatro miras láser en el hocico y sensores de infrarrojos y rayos X le permiten seguir a su objetivo hasta en la oscuridad total, y sus brazos mecánicos despliegan alas de luz con las que cruza el Mundo Digital a gran velocidad.",
+    "tacticas": "Francotirador volador y congelador. Freezing Breath hiela y ejecuta a larga distancia, Garuru Tomahawk lanza un misil que congela e Ice Wolf Claw es su recurso de cuerpo a cuerpo. Dale buenas coberturas a los héroes.",
+    "gancho": "Un lobo metálico patrulla sobre una ciudad en ruinas y ha fijado su mira en uno de los personajes. Hay que averiguar si es un guardián que los protege o un cazador que los persigue."
+  },
+  "metalgarurumon_black": {
+    "descripcion": "MetalGarurumon (Black) es una variante Virus del lobo cibernético, plagada de armas de congelación. Tiene un carácter aterrador: cuando las miras láser de su hocico fijan un objetivo, lo persigue sin descanso, sea amigo o enemigo, y lo llena de misiles. Es un cazador que nunca se detiene.",
+    "tacticas": "Perseguidor implacable que no distingue bandos. Freezing Breath congela con un aliento helado y puntería certera; Garuru Tomahawk y Ice Wolf Claw completan un ataque en cadena. Úsalo para acorralar al grupo.",
+    "gancho": "Una alarma de proximidad suena en el campamento: un lobo negro de metal ha marcado a los personajes como objetivo. Solo una huida astuta o un escondite bien elegido podrá salvarlos."
+  }
+}

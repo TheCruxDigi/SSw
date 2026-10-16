@@ -1,0 +1,227 @@
+{
+  "kangarumon": {
+    "descripcion": "Canguro de buen humor surgido del Digihuevo de la Bondad. Se lanza hacia el rival con saltos rápidos, le encaja un gancho ascendente y remata con una patada desde lo más alto. Cuando cree que nadie lo ve, baila a solas con pasitos ligeros, y nadie sabe por qué. Todo su empuje se concentra en el brazo derecho, dorado.",
+    "tacticas": "Haz que salte de un héroe a otro: su Jumping Blow, un puñetazo dorado de Luz, empuja al objetivo y, con Rápido, suele llegar antes que nadie. Golpea, se aparta y vuelve a saltar.",
+    "gancho": "Cada noche, un canguro baila solo en un claro del bosque. Los héroes descubren que sus pasos van dibujando en la tierra el camino hacia algo que alguien enterró hace mucho."
+  },
+  "kenkimon": {
+    "descripcion": "Obrero mecánico de cuerpo macizo: una mano es una carretilla elevadora, la otra una pala, y a la espalda carga una grúa. Se mueve con electricidad y se recarga enchufando la cola a cualquier toma. Ninguna obra del Mundo Digital está fuera de su alcance, por grande que sea.",
+    "tacticas": "Colócalo en primera línea y deja que use Crazy Crane, un grúazo Mental que confunde al objetivo y lo provoca para que solo le pegue a él. Es el muro que sostiene la formación.",
+    "gancho": "El puente entre dos aldeas se ha venido abajo y solo Kenkimon puede levantarlo. Pero su batería está casi agotada, y los héroes tendrán que encontrarle una toma de corriente."
+  },
+  "kongoumon": {
+    "descripcion": "Insecto de metal dorado con seis brazos, cada uno armado con un vajra sagrado capaz de obrar milagros. Es un luchador de fuerza descomunal y conoce a fondo todos los ritos santos. Desde tiempos remotos se le considera un representante de los dioses en la tierra, sin relación alguna con los ángeles.",
+    "tacticas": "Vuela por encima de los héroes y les descarga Popper, una tormenta de manotazos de Acero que, por ser Perforante, atraviesa corazas. Es especialmente peligroso para quienes confían en su armadura.",
+    "gancho": "Un templo derruido se ilumina cuando Kongoumon aterriza sobre su altar. Para que les revele lo que guarda, los héroes han de demostrar antes que respetan lo sagrado."
+  },
+  "lighdramon": {
+    "descripcion": "Bestia-dragón que bebe la energía del trueno del Digihuevo de la Amistad y la convierte en velocidad pura. Se mueve como un relámpago frente a sus enemigos y los derrota con ataques cargados de electricidad. Lleva una hoja imbuida de rayos en la cabeza y tres protuberancias en el lomo.",
+    "tacticas": "Cierra la distancia en un parpadeo con Lightning Blade, una espada de rayo que paraliza y que, gracias a Rápido, suele actuar primero. Si se queda lejos, dispara Blue Thunder desde el lomo.",
+    "gancho": "Una tormenta sin nubes cae siempre sobre el mismo valle. Los héroes rastrean a un rayo con patas que corre más deprisa que el viento y parece buscar a alguien."
+  },
+  "lynxmon": {
+    "descripcion": "Lince envuelto en un pelaje que arde como una hoguera, habitante de las selvas tropicales. Libre y orgulloso, odia las ataduras y no se somete a ningún amo. Es el reverso caluroso de Garurumon, que reina en las tierras frías, y entre ambos existe una rivalidad bien conocida.",
+    "tacticas": "Déjalo moverse de cobertura en cobertura y luego haz que baje la melena con Thermal Mane, una explosión de calor a distancia que quema. Con Rápido actúa primero y no se deja acorralar.",
+    "gancho": "Un lince de fuego se niega a seguir órdenes de nadie, pero sigue a los héroes selva adentro. Su pelaje se aviva cuando nota el rastro de un lobo de hielo."
+  },
+  "magnamon": {
+    "descripcion": "Caballero Real vestido con el supermetal Chrondigizoid, fruto del Digihuevo de los Milagros. Su defensa es inmensa y su fuerza de ataque iguala a la de un Mega. Con el prodigio del huevo ha superado cualquier crisis que se le ha puesto delante, y su armadura dorada brilla como un pequeño sol.",
+    "tacticas": "Vuela sobre el campo y alterna Plasma Shot, una bola de plasma que paraliza a su objetivo, con Shining Gold Solar Storm, un rayo dorado de zona que derriba a varios enemigos a la vez.",
+    "gancho": "Un caballero dorado desciende en plena guerra entre tribus Digimon y ordena detener los combates. Los héroes han de decidir si obedecen su mandato o lo ponen a prueba."
+  },
+  "maildramon": {
+    "descripcion": "Dragón con armadura de Chrondigizoid, tan descomunal que carga a su amo Knightmon a la espalda mientras recorre el campo de batalla. Destaca por su potencia y su aguante: es, literalmente, una fortaleza andante. Sirve con lealtad y avanza sin detenerse.",
+    "tacticas": "Es un ariete lento pero imparable: aplasta al objetivo con Iron Press, un golpe de Tierra que derriba y se aplica con Brutal. Úsalo para romper formaciones; difícilmente caerá antes de tiempo.",
+    "gancho": "Una fortaleza con patas camina sola hacia la aldea. Es Maildramon, que ha perdido a su jinete y busca a alguien en quien confiar para encontrarlo."
+  },
+  "manbomon": {
+    "descripcion": "Digimon rarísimo que casi nunca se deja ver, ni siquiera en el Océano de la Red. Flota con la corriente cerca de la superficie, pero en pleno combate acelera con la hélice de su aleta. Sus marcas cambian de uno a otro, y su cuerpo produce anticuerpos contra virus informáticos, lo que lo convierte en un tesoro.",
+    "tacticas": "Combina Balloon Mine, burbujas con su propia forma que estallan al tocar, con Global Glove, una carga de puñetazos acuáticos que ralentiza. Si el combate se alarga, acelera con su hélice y cambia de posición.",
+    "gancho": "Un mercader promete una fortuna a quien capture un Manbomon por sus anticuerpos. Los héroes deben decidir entre aceptar el trabajo o proteger a un Digimon casi imposible de encontrar."
+  },
+  "mantaraymon": {
+    "descripcion": "Manta de silueta veloz y agresiva, pero de ánimo sereno: nada sin prisa por el inmenso Océano de la Red. Su forma lo hace casi invisible a los radares y le ha dado el apodo de Sigilo de las Profundidades. Tantas veces lo han explotado para espiar y bombardear que estuvo a punto de extinguirse.",
+    "tacticas": "Aguanta los golpes y provoca con Paralyze Tail, una puñalada con la aguja de su cola que paraliza. Puedes narrar que quien lo ataca recibe un picotazo, así que cada agresión directa sale cara.",
+    "gancho": "Un banco de Mantaraymon escapa de unos cazadores que quieren usarlos como armas. Los héroes pueden esconderlos en el fondo marino, si logran despistar a los perseguidores."
+  },
+  "moosemon": {
+    "descripcion": "Alce colosal que habita las montañas y soporta sin inmutarse el aire enrarecido y el frío extremo. Se le venera como protector divino de las cumbres y defiende su hogar incluso a costa de la vida. Su humor cambia con el tiempo: truenos súbitos y avalanchas inesperadas delatan que está de mal talante.",
+    "tacticas": "Se planta al frente y provoca con Horn Blade, un tajo de sus enormes astas capaz de perforar defensas. A medida que se alarga el combate, descríbelo más furioso y haz que el clima empeore.",
+    "gancho": "Una avalancha sin motivo sepulta el paso de montaña. Los héroes sospechan que Moosemon está de mal humor y deben averiguar qué ha profanado su territorio antes del próximo trueno."
+  },
+  "mothmon": {
+    "descripcion": "Polilla rarísima que, según se cuenta, aparece cuando hay una plaga de Kunemon. De todas sus parientes es la de carácter más áspero y agresivo. Las escamas de sus alas son explosivas, y a veces amenaza al rival cubriéndolo de polen. Lleva un cañón gatling en la cola.",
+    "tacticas": "Vuela fuera de alcance y abre fuego con Morphon Gatling, una ráfaga de Acero Perforante que no da tregua. Mantén a los héroes bajo presión y cambia de posición para que no puedan acercarse.",
+    "gancho": "Una nube de polen brillante cubre el bosque y los Kunemon se multiplican sin control. Los héroes buscan a la causa, un Mothmon furioso, antes de que todo estalle."
+  },
+  "nefertimon": {
+    "descripcion": "Esfinge alada de porte regio. Gatomon, entre otros, alcanza esta forma al despertar un poder dormido en sus datos, aunque no descienda de ninguna raza antigua. Con la luz del Digihuevo de la Luz purifica la oscuridad, y de su frente brota un resplandor rojo.",
+    "tacticas": "Sobrevuela la escena y usa Curse of the Queen, un rayo rojo desde la frente que debilita al objetivo. Guarda Rosetta Stone para invocar una gigantesca tablilla de piedra que derriba a quien se ponga debajo.",
+    "gancho": "Una reina esfinge exige a los héroes que descifren una tablilla de inscripciones antiguas antes de cruzar sus ruinas. Si fracasan, dejará caer la piedra sobre ellos."
+  },
+  "nohemon": {
+    "descripcion": "Parece un espantapájaros, pero su verdadero cuerpo es el cuervo posado en su mano derecha, que mueve al muñeco con la mente para despistar a todos. Mentiroso, exagerado y astuto, es además un tirador excelente con el arco.",
+    "tacticas": "Haz que los héroes se obsesionen con el espantapájaros mientras el cuervo, escondido, los desmoraliza con Derision Crow, burlas Mentales que debilitan. Si lo descubren, cambia de posición.",
+    "gancho": "Un espantapájaros ofrece a los héroes un trato en mitad de un maizal. Solo el cuervo de su mano sabe qué parte es mentira, y es muy reacio a soltar la verdad."
+  },
+  "opossummon": {
+    "descripcion": "Zarigüeya adorable con un manojo de globos de colores, parece salida de un cuento. Pero si algo la ataca, hace estallar los globos y esparce los potentes virus informáticos que guarda dentro. Le gusta la arena seca y pasa horas enterrada con solo los globos asomando.",
+    "tacticas": "Se esconde, flota un globo sobre la cabeza de su objetivo y lo revienta con Mad Balloon Bomb, un estallido de virus que confunde y asusta. Es lento, pero cuesta atraparlo gracias a sus saltos largos.",
+    "gancho": "En el desierto asoma de la arena un racimo de globos de colores. Si los héroes lo tocan, despertarán a Opossummon, que es adorable pero muy peligroso cuando se asusta."
+  },
+  "orcamon": {
+    "descripcion": "Orca precavida hasta la exageración: lleva chaleco salvavidas y flotador a todas partes. Su prudencia a veces roza lo tonto, pero esconde una potencia explosiva, y muchos Digimon acuden a él en busca de consejo. En combate gana velocidad: corta el aire en tierra y nada sin agitar el agua.",
+    "tacticas": "Estudia al rival y se lanza con Vassallo Crush, una patada de delfín que rompe defensas con brutalidad. Si la pelea se complica, narra cómo llama a sus aliados con ondas agudas.",
+    "gancho": "Una orca con chaleco salvavidas pide ayuda a los héroes para cruzar un mar traicionero. Es muy prudente, pero esta vez su plan es sensato y el peligro, real."
+  },
+  "peacockmon": {
+    "descripcion": "Ave de metal azul, tan vistosa como veloz: de sus brazos brotan alas de láser que le permiten moverse a velocidades altísimas. Es una rareza: ciertas aves Digimon que normalmente evolucionarían a Deramon pueden convertirse en él con el Digihuevo de los Milagros.",
+    "tacticas": "Se luce frente a los héroes para atraer su atención y desata Rainbow Shower, un abanico de luz que provoca y quema a varios a la vez. Hace de tanque: mantiene la atención mientras otros rematan.",
+    "gancho": "Un pavo real metálico reta a los héroes a un certamen de luces en una plaza digital. El premio es valioso, y perder significa salir chamuscados."
+  },
+  "pegasmon": {
+    "descripcion": "Caballo alado sagrado nacido del Digihuevo de la Esperanza, cuya energía santa le da un poder aplastante contra los seres malignos. Galopa por el aire con elegancia y guarda en sus alas meteoritos formados desde el espacio.",
+    "tacticas": "Cae en picado y derriba con Rodeo Gallop, coces de sus patas traseras que le dan ventaja gracias a Rápido. Si lo alejan, dispara Silver Blaze desde la frente o lanza Shooting Star para ralentizar.",
+    "gancho": "Cada noche un Pegasusmon blanco cruza el cielo hacia una torre oscura. Los héroes lo siguen desde tierra para averiguar qué teme encontrar allí."
+  },
+  "pipismon": {
+    "descripcion": "Murciélago digital nacido, según se dice, de los datos de un sensor ultrasónico. Sus grandes orejas captan cualquier frecuencia y su boca funciona como un altavoz que repite lo que oye. Domina las operaciones nocturnas y localiza enemigos en la oscuridad con eco. Si oyes ruidos extraños en la penumbra, quizá ande cerca.",
+    "tacticas": "Acecha en la oscuridad y lanza Crazy Sonic, ondas de alta frecuencia que confunden los sentidos de los héroes. Con Rápido ataca primero y cambia de sitio; haz que imite las voces de sus compañeros.",
+    "gancho": "Desde la oscuridad de una cueva, una voz idéntica a la de un compañero llama a los héroes. Es Pipismon, que repite lo que oye y ha oído algo que nadie debería saber."
+  },
+  "ponchomon": {
+    "descripcion": "Fantasma con aspecto de planta, sombrero con maracas y puños envueltos en cuero. Sonríe sin que nadie logre leer su expresión, y los demás Digimon lo encuentran inquietante. Se mueve siempre a ritmo latino y trata como enemigo a quien no lleva el compás. Se entiende bien con Bakemon.",
+    "tacticas": "Baila alrededor del grupo y castiga con Blood Dance: Maracas Version, que drena energía y asusta. A quien se le acerque le encaja Tequila Knuckle, un puñetazo que aturde y atrapa.",
+    "gancho": "Una música latina suena de madrugada en un cementerio. Los héroes deben bailar al compás de Ponchomon sin pisar mal, o serán declarados enemigos."
+  },
+  "prairiemon": {
+    "descripcion": "Cava madrigueras en regiones áridas, donde remueve la tierra con sus enormes garras a gran velocidad. Es tímido: vive en grupo y rara vez sale a la superficie, salvo para tomar el sol en masa en los días tranquilos. Quien quiera estudiarlo haría bien en vigilar el pronóstico del tiempo.",
+    "tacticas": "Prefiere huir bajo tierra, pero si lo acorralan hace girar las cuchillas de sus orejas con Sonic Ear, un ataque Mental a distancia que confunde y, gracias a Rápido, suele llegar primero.",
+    "gancho": "Cientos de Prairiemon toman el sol a la vez en una pradera. Los héroes buscan a uno en concreto y deben acercarse sin asustar a toda la colonia."
+  },
+  "pteranomon": {
+    "descripcion": "Pterosaurio de alas de acero apodado el Bombardero Azul, que vuela más alto que cualquier otro Digimon. Desde allí lanza ataques con precisión milimétrica sin ser detectado, y su vista le permite divisar enemigos desde una distancia enorme. Su pico atraviesa hasta la coraza más gruesa.",
+    "tacticas": "Sobrevuela fuera de la vista y se deja caer en vertical con Beak Pierce, un picotazo que perfora armaduras y golpea con Brutal. Luego recupera altura: conviene que los héroes tengan cómo alcanzarlo.",
+    "gancho": "Un bombardeo preciso e inexplicable cae sobre el campamento desde nubes altísimas. Los héroes descubren que Pteramon vigila para impedir que alguien llegue a cierta montaña."
+  },
+  "quetzalmon": {
+    "descripcion": "Serpiente blanca de aspecto sagrado, encarnación del sol y del viento. Se cuenta que quien ataque a la ligera a esta bestia será maldecido hasta la muerte, aunque es de carácter sereno y nunca empieza una pelea. En combate se enrosca en espiral.",
+    "tacticas": "Deja que sea el grupo quien empiece. Entonces responde con Freezing Wave, una espiral de hielo que congela y atrapa a varios héroes a la vez. Cada turno suyo debería sentirse como una advertencia.",
+    "gancho": "Un joven Digimon ha herido sin querer a la serpiente blanca y la maldición ya lo alcanza. Los héroes deben calmar a Quetzalmon antes de que sea demasiado tarde."
+  },
+  "bitmon": {
+    "descripcion": "Conejo acorazado con orejas largas y garras capaces de triturar diamantes, con las que excava incluso los estratos más duros. Cubre el cuerpo y la cabeza con minerales que va recogiendo y, hecho una bola, resiste cualquier golpe. Es pacífico: deja pasar a los enemigos. Dicen que colecciona fósiles antiguos hallados al excavar.",
+    "tacticas": "Casi nunca ataca. Si lo obligan, afila las orejas y dispara Ear Lancer, un pinchazo Perforante a distancia que, con Rápido, le da ventaja. Después se enrosca en su armadura y espera.",
+    "gancho": "Un Rabbitmon pacífico guarda fósiles antiguos en sus galerías. Los héroes necesitan uno de ellos y deben ganarse su confianza sin amenazarlo."
+  },
+  "rapidmon_gold": {
+    "descripcion": "Caballero que obtiene su forma de Terriermon gracias al Digihuevo del Destino. En origen era un Digimon de nivel Definitivo, evolución de Gargomon, pero el huevo le inyectó un poder dorado a la altura de un Mega. De sus brazos y del revólver que lleva a la espalda salen misiles guiados.",
+    "tacticas": "Abre con Rapid Fire, una ráfaga de misiles de Fuego, Certero y Rápido, desde lejos. Si algún enemigo se le acerca, responde con Golden Triangle, un toque de luz que ciega.",
+    "gancho": "Un destello dorado cae sobre un Terriermon y lo convierte en Rapidmon en plena emboscada a su aldea. Los héroes deben ayudarle a repeler el ataque antes de que cunda el pánico."
+  },
+  "rhinomon": {
+    "descripcion": "Rinoceronte cubierto de armadura de Chrondigizoid que resiste golpes físicos y refleja los láseres. Parece lento, pero tanta fuerza le permite moverse a velocidades impropias de su corpulencia. Las joyas incrustadas en su coraza emiten una luz protectora.",
+    "tacticas": "Carga con Atomic Burst, una embestida de Fuego brutal que lo cubre con un escudo, y cuando sus aliados sufren usa Ain Soph Aur para envolverlos en una barrera de luz. Es un bruto con vocación de guardián.",
+    "gancho": "Un rinoceronte acorazado bloquea el único paso del cañón. No es hostil: custodia joyas y solo deja pasar a quien demuestre que sabe proteger a otros."
+  },
+  "rinkmon": {
+    "descripcion": "Androide nacido de los datos de un experimento con partículas aceleradas casi a la velocidad de la luz, fusionados con un Digimon de laboratorio y un Digihuevo. Alcanza el 98 % de esa velocidad, algo que ningún otro Digimon iguala. Su poder, en cambio, es escaso.",
+    "tacticas": "Gira sobre sí mismo con Spinning Cutter, un tajo Certero de las cuchillas de sus brazos. Es frágil: haz que golpee primero y se retire antes de que los héroes lo alcancen.",
+    "gancho": "Un destello recorre el desierto sin dejar huella. Rinkmon se ha escapado de un laboratorio, y los héroes deben alcanzarlo antes que quienes quieren recuperarlo."
+  },
+  "sagittarimon": {
+    "descripcion": "Centauro arquero de estirpe mítica, versión avanzada de la especie Centarumon. Nace de la pseudoevolución de Digimon antiguos gracias al poder del Digihuevo de la Esperanza, aunque un Centarumon puede alcanzar esta forma por sí solo. Gasta tanta energía que pronto regresa a su aspecto anterior.",
+    "tacticas": "Mantente a larga distancia, marca a un solo héroe y dispara Judgment Arrow, una flecha de luz que ciega y, con Ejecutar, remata a los más castigados. Es ágil: no dejes que lo alcancen.",
+    "gancho": "Un centauro arquero desafía a los héroes a un torneo de tiro en la pradera. Si vencen, recibirán una flecha de metal puro; si pierden, deberán servirle durante un día."
+  },
+  "salamandamon": {
+    "descripcion": "Salamandra envuelta en llamas que, a pesar de ellas, transmite un aire despreocupado. Si algo la enfurece, aviva el fuego de su cuerpo antes de atacar. Nace del Digihuevo del Valor y su atributo es Virus.",
+    "tacticas": "Aguanta en primera línea y provoca con Heat Breath, un aliento ardiente que quema. Prepara Backdraft: tras cargarlo, concentra el oxígeno del aire y estalla en una explosión que empuja a todos.",
+    "gancho": "Una salamandra de fuego duerme junto a un bosque seco. Si los héroes la despiertan de mal humor habrá incendio, pero con paciencia pueden convertirla en guardiana."
+  },
+  "seahomon": {
+    "descripcion": "Habitante de las fosas más profundas del Océano de la Red, donde la presión lo mantiene pequeño. Se dice que, al subir a aguas someras, crece hasta superar a un Seadramon, y que quizá esté emparentado con los Digimon antiguos. Su boca recuerda a una trompeta.",
+    "tacticas": "Resiste los golpes mientras suelta Prism Rainbow, un arcoíris de siete colores que ciega y purifica la agresividad del rival. Es el enemigo ideal para un combate que puede terminar en paz.",
+    "gancho": "Una criatura diminuta emerge de la fosa y empieza a crecer sin parar. Los héroes deben guiarla de vuelta a las profundidades antes de que su tamaño asuste a todo el arrecife."
+  },
+  "searchmon": {
+    "descripcion": "Insecto explorador que lleva un radomo en la espalda con el que reúne información. El Digihuevo del Conocimiento le dio una naturaleza curiosa. Capta la presencia de enemigos por el ruido o la vibración más tenue y averigua cosas sobre ellos antes de atacar.",
+    "tacticas": "Vuela a distancia y emite Jamming Hertz, una señal Mental que confunde y sella las habilidades de los héroes. Su interferencia es más molesta que mortal: úsalo para desbaratar sus planes.",
+    "gancho": "Un zumbido de radar suena sobre una colina. Searchmon ofrece a los héroes información sobre su enemigo, pero exige que antes recuperen su radar robado."
+  },
+  "sepikmon": {
+    "descripcion": "Mago de máscara extraña que le permite hablar con las almas de los muertos. Pasa casi todo el tiempo en lo profundo de la jungla y rara vez se deja ver. Según una teoría, sus únicos amigos son espíritus difuntos, así que no tiene motivo para salir. Si oyes una voz hablando sola entre los árboles, da media vuelta.",
+    "tacticas": "Se mantiene lejos y lanza Spirit Boomerang, un arma maldita de Oscuridad que cambia de trayectoria a voluntad y debilita al objetivo. Hazlo conversar con aliados invisibles para inquietar a los héroes.",
+    "gancho": "Una voz que conversa con nadie suena en el corazón de la jungla. Sepikmon quiere compañía, y los héroes deben rechazar con tacto su invitación a quedarse."
+  },
+  "sethmon": {
+    "descripcion": "Bestia de pelaje rojo siniestro. El poder del Digihuevo del Amor fue demasiado para controlarlo y se transformó en odio. Puede crear tormentas catastróficas. Es el polo opuesto de Halsemon: juntos muestran la dualidad entre amor y odio de ese huevo.",
+    "tacticas": "Acecha y desata Heat Storm, un viento abrasador de zona que derriba y perfora defensas. Si los héroes se acercan, embiste con Tusk Driver, sus dos enormes colmillos.",
+    "gancho": "Un viento ardiente barre el desierto y deja un rastro rojo. Los héroes siguen a Sethmon, que arrastra un rencor que quizá puedan calmar."
+  },
+  "shadramon": {
+    "descripcion": "Con forma a la vez humanoide e insectoide, resulta siniestro por haber reaccionado mal al Digihuevo del Valor. Domina las llamas como Flamedramon y pelea igual de bien cuerpo a cuerpo, pero es su opuesto exacto, como la luz y la oscuridad.",
+    "tacticas": "Cae desde el aire y descarga Flare Buster, llamas incandescentes de ambos brazos que queman con brutalidad. Es un acechador: haz que aparezca desde la penumbra y busque al héroe más herido.",
+    "gancho": "Todos dicen haber visto a Flamedramon incendiar una aldea, pero el culpable es Shadramon, su reflejo oscuro. Los héroes deben limpiar el nombre del verdadero héroe."
+  },
+  "sheepmon": {
+    "descripcion": "Oveja de lana finísima que se mueve con una lentitud tan exagerada que basta ver pasar un rebaño para quedarse dormido. A su espalda lleva el Wool Ball Booster, un propulsor-bazuca que reproduce ese ritmo pausado.",
+    "tacticas": "Lanza Wool Grenade, gigantescas bolas de lana de Acero que duermen a los héroes y fortalecen a los suyos con Mejora. Prioriza el sueño sobre el daño y mantente a distancia.",
+    "gancho": "Un rebaño cruza lentamente el camino y todos los héroes empiezan a bostezar. Solo uno puede mantenerse despierto para averiguar qué guía a ese rebaño."
+  },
+  "shurimon": {
+    "descripcion": "Ninja por excelencia. El Digihuevo de la Sinceridad, de atributo planta, le permite mimetizarse con la naturaleza y esconderse como una hoja al viento para aparecer en el punto ciego del rival y golpear con precisión. Sus miembros extensibles llevan shuriken giratorios y a la espalda carga uno gigante.",
+    "tacticas": "Surge desde un ángulo ciego y gira los shuriken de sus extremidades con Double Star Strike; desde lo alto, lanza Double Stars, el gigantesco de su espalda. Ambos ralentizan al objetivo.",
+    "gancho": "Un ninja de hojas aparece en el campamento y deja un shuriken clavado en un árbol como aviso. Los héroes deben averiguar para quién trabaja antes de que regrese."
+  },
+  "stegomon": {
+    "descripcion": "Estegosaurio con incontables cuchillas en el lomo que usa para protegerse y contraatacar, y que puede reorientar a voluntad. También golpea con las púas de la cola, pero sobre todo bloquea y repele ataques con su espalda.",
+    "tacticas": "Aguanta en primera línea y bloquea. Solo cuando se ve en apuros suelta Shell Needle Rain, una lluvia de cuchillas que perfora y ralentiza; después queda desprotegido, así que los héroes pueden aprovechar ese instante.",
+    "gancho": "Un estegosaurio cierra con sus cuchillas el único puente del valle y no deja pasar a nadie sin que le demuestren que no son una amenaza. Los héroes deben convencerlo."
+  },
+  "sabmarimon": {
+    "descripcion": "Nada libre por los vastos océanos y en el combate submarino solo le igualan otros Digimon Acuáticos. Evolucionó con el Digihuevo de la Fiabilidad. Su nariz es un taladro giratorio con el que embiste a sus rivales a gran velocidad.",
+    "tacticas": "Dispara desde lejos Oxygen Homing, oxígeno comprimido que persigue al blanco y quema con Certero. Si el objetivo se acerca, acelera con Submarine Attack y lo embiste con su taladro.",
+    "gancho": "Un submarino vivo patrulla un arrecife y confunde a los héroes con intrusos. Para convencerlo deben hablarle desde la superficie, mientras él los vigila desde abajo."
+  },
+  "swanmon": {
+    "descripcion": "Al desplegar las alas, este cisne de cuello largo y plumaje deslumbrante parece una aparición celestial. Vive en regiones frías y es capaz de congelar los ordenadores cuando cruza una red. Antes actuaba en bandadas, pero ahora sus miembros se independizan; quizá por el calor creciente.",
+    "tacticas": "Sobrevuela en círculos y estalla Down Tornado, un torbellino de aire frío y plumas que empuja y corta. Con Rápido suele actuar primero, así que castiga a quien se quede aislado.",
+    "gancho": "Una bandada de Swanmon se ha dividido por primera vez. Los héroes investigan por qué los cisnes ya no vuelan juntos y encuentran una zona del Mundo Digital que se calienta."
+  },
+  "thunderbirmon": {
+    "descripcion": "Ave gigante que invoca nubes de tormenta con un grito que retumba como un trueno y controla el rayo con el cuerno de su frente. De naturaleza violenta, cuida sin embargo de sus compañeros, y los defiende con furia cuando alguien los amenaza.",
+    "tacticas": "Vuela sobre el campo y dispara Spark Wing, plumas cargadas de electricidad que paralizan y le dan iniciativa con Rápido. Si lo alcanzan, bate las alas para formar Thunderstorm y paralizar de nuevo.",
+    "gancho": "Un trueno sin nubes resuena sobre la aldea. Thunderbirdmon protege a sus compañeros de unos intrusos y los héroes deben decidir de qué lado están."
+  },
+  "togemogumon": {
+    "descripcion": "Su espalda está erizada de cristales de hielo como un acerico: basta tocar uno para congelar al instante. No se mueve rápido, pero convierte su defensa en arma, y eso lo hace un luchador equilibrado y difícil de abordar.",
+    "tacticas": "Haz que cada contacto físico con él sea un riesgo. Cuando le conviene, dispara Hail Machine Gun, una ráfaga de cristales de hielo que congelan y, con Rápido, llegan antes de lo esperado.",
+    "gancho": "Una cueva helada está tapizada de cristales caídos y un mamífero espinoso duerme en el centro. Los héroes deben cruzarla sin tocar a Togemogumon ni sus cristales."
+  },
+  "tocanmon": {
+    "descripcion": "Pese a su aspecto vistoso, es muy tímido y se mete en su caparazón a la mínima inquietud, aunque su enorme pico siempre se interpone. Si se enfurece de verdad, abre al máximo el pico multicolor y eriza la cresta para intimidar. Se rumorea que bajo la concha esconde un cuerpo muy musculoso.",
+    "tacticas": "Evita pelear y se encoge ante los héroes. Si lo provocan en exceso, agarra a un objetivo con Pliers Cutter, un picotazo-pinza de Acero poco vistoso pero contundente, y con Rápido suele ir primero.",
+    "gancho": "Un Toucanmon tembloroso se refugia en su caparazón y pide ayuda: unos intrusos lo persiguen. Los héroes descubren que tras su miedo late un Digimon con valor oculto."
+  },
+  "tylomon": {
+    "descripcion": "Apodado el Avión a Reacción de las Profundidades, bajo el agua rivaliza en velocidad con MetalSeadramon. Es extremadamente feroz y territorial: quien entra en sus dominios sufre su embestida, aunque sea mayor que él. Capta olores a más de un kilómetro de distancia.",
+    "tacticas": "Lanza Torpedo Attack, que lo convierte en un proyectil teledirigido Certero y brutal. A corta distancia usa Ocean Strike, un chorro de agua a presión que ralentiza. No da respiro.",
+    "gancho": "Un dragón-torpedo ha marcado un arrecife como su territorio y ataca a todo el que entra. Los héroes deben cruzarlo para llegar a un tesoro hundido sin convertirse en su presa."
+  },
+  "yaksamon": {
+    "descripcion": "Mago con el poder de un dios furioso, pero de una lealtad inmensa y vocación de proteger a los débiles. Es reservado y distante, empuña dos espadas de madera y domina las artes secretas y todas las habilidades psíquicas.",
+    "tacticas": "Cruza sus espadas de madera y desata Double Strike, una onda de choque eléctrica que paraliza. Con Kugutsu no Jutsu hechiza con la mirada y maneja a un héroe como si fuera una marioneta.",
+    "gancho": "Un guardián serio y callado protege a una aldea indefensa y rechaza toda ayuda. Los héroes deben ganarse su confianza demostrando que también cuidarán de los más débiles."
+  },
+  "agnimon": {
+    "descripcion": "Guerrero con poder sobre el fuego, portador de la fuerza de los Diez Guerreros Legendarios. Una llama sagrada, el Fuego Espiritual, cubre su DigiCore y lo convierte en avatar del Firewall que defiende Internet. Se enciende con facilidad, así que practica una respiración de yoga para disciplinar la mente, y habla con tono anticuado de maestro marcial.",
+    "tacticas": "Pelea cuerpo a cuerpo al estilo de las artes marciales: abre con Pyro Punch, un puño de fuego que quema con Brutal, y rompe defensas con Salamander Break, una patada giratoria llameante.",
+    "gancho": "Un guerrero de fuego que habla como un viejo maestro pide a los héroes que lo acompañen a un santuario, donde debe meditar para recuperar el control de su llama."
+  },
+  "aldamon": {
+    "descripcion": "Su poder sobre el fuego supera a la leyenda tras heredar por completo la fuerza de los Diez Guerreros Legendarios. Es un dios demonio que transforma el miedo y la ira en una fuerza justa. Su violencia le granjea muchos enemigos; su nombre alude a una deidad hindú que une la furia de la bestia con la inteligencia del hombre.",
+    "tacticas": "Arrasa zonas enteras: Atomic Inferno lanza una lluvia de balas ardientes y Brahmashira, una esfera solar detonada, es su golpe final. Ambos queman con Brutal. En cuerpo a cuerpo también es letal.",
+    "gancho": "Una explosión de calor cubre una meseta y deja el suelo convertido en cristal. Los héroes deben calmar a Aldamon antes de que su ira lo reduzca todo a cenizas."
+  }
+}
