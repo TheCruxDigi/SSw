@@ -101,7 +101,7 @@ for i, (p, f) in enumerate(pools):
 y = ay - 46
 field("trasfondo", M, y, 120, 16, "Trasfondo")
 field("senda", M + 128, y, 110, 16, "Senda")
-field("virtud", M + 246, y, 90, 16, "Virtud")
+field("virtud", M + 246, y, 90, 16, "Cualidad")
 field("defecto", M + 344, y, 90, 16, "Defecto")
 field("emblema", M + 442, y, W - M - (M + 442), 16, "Emblema")
 y -= 30

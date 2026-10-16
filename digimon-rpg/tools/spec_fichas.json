@@ -24,7 +24,7 @@
    "background_EN_reference_only solo se usa para extraer la cláusula de contexto del clasificador. Nunca se copia ni se traduce en el bestiario.",
    "Salida: en los nombres de técnica que se imprimen, el carácter U+FF70 'ｰ' se sustituye por '-' (p. ej. 'CoronaｰKnuckles' → 'Corona-Knuckles'). El nombre oficial sin cambios se conserva en el campo 'nombre_dato'."
   ],
-  "generador_de_referencia": "work_final/gen.py implementa esta especificación tal cual (lee este JSON), genera las 1.317 fichas y comprueba validacion.reglas y validacion.rangos_por_nivel; si algo falla, se detiene con error. work_final/r3_sim.py es el motor de simulación con el que se midieron las cifras de validacion.objetivos_de_diseño.",
+  "generador_de_referencia": "work_final/gen.py implementa esta especificación tal cual (lee este JSON), genera las 1.317 fichas y comprueba validacion.reglas y validacion.rangos_por_nivel; si algo falla, se detiene con error. work_final/r3_sim.py es el motor de simulación; work_final/cal_biblia/*.py son los guiones con los que se midieron las cifras de validacion.objetivos_de_diseño y de la biblia 1.1 (§0, §19.2, §21.8, §22.4).",
   "distribucion_resultante": {
    "roles": {
     "bruto": 300,
@@ -4462,7 +4462,7 @@
    "5. Bebé I/II: sin palabras de daño ni control duro (se descartan Ejecutar, Aturdir, Dormir y Regresión).",
    "6. Total solo admite estados que no sean de control duro.",
    "7. Ejecutar solo en técnicas Individuales: en una técnica de área se sustituye por Brutal (o se descarta si ya tiene Brutal).",
-   "8. Si un override fija 'claves', son definitivas: la segunda pasada no añade nada."
+   "8. Si un override fija 'claves', son definitivas y se omite toda la segunda pasada (pasos 3 y 4 y la Larga del Tirador). Si la Firma de un Tirador debe ser Larga, el override fija también 'alcance': 'larga'."
   ],
   "sin_tecnicas": {
    "nombre": "Descarga de datos",
@@ -4835,7 +4835,8 @@
     "No usa P3: su Firma se usa como P2.",
     "Daño fijo: VF por dado (VF + 1 por dado si el PJ saca 6– al defenderse).",
     "Huye si cae su líder.",
-    "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno; ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble."
+    "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno (el daño sobrante pasa al siguiente); ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble.",
+    "Hordas inferiores: contra un esbirro o un pelotón 2 o más rangos por debajo del atacante, cualquier técnica cuenta como de área a efectos del daño doble, y cada impacto elimina como mínimo tantos miembros como rangos de diferencia."
    ],
    "pa": 0.25
   },
@@ -4868,14 +4869,46 @@
    "ini": 2,
    "acciones": "ceil(N / 2)",
    "reglas": [
-    "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª, si la hay, al principio del asalto.",
-    "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 turno; inmune a Ejecutar (en su lugar +1 dado).",
+    "Turno: el turno de un Jefe es el asalto completo. Sus estados avanzan una vez por asalto (al inicio de su 1.ª acción), su daño por turno (Quemar, Veneno, invocaciones) se aplica una vez por asalto y sus duraciones se cuentan en asaltos.",
+    "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª y siguientes, al principio del asalto siguiente.",
+    "Agotadora: no usa una técnica Agotadora (P3) en dos asaltos seguidos ni dos veces en el mismo asalto.",
+    "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 asalto; inmune a Ejecutar (en su lugar +1 dado).",
     "Fases: 2 fases con umbral en la mitad de sus PV. Escudo de fase: el daño que sobrepasa el umbral se pierde. Al cruzar el umbral entra en Furia: elimina sus estados, su Firma queda lista, +1 dado en todas sus técnicas el resto del combate y cada Tamer gana 1 Chispa. Si tiene Modos, cambia de Modo.",
-    "Firma telegrafiada: su Firma P3 tiene siempre Cargado. El turno que carga, el DJ anuncia qué hará y a qué zona. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta su próximo turno) y no puede volver a cargarla en esta fase.",
-    "Punto débil: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
-    "Objetivos de escena: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
+    "Firma telegrafiada [A]: su Firma P3 tiene siempre Cargado. Carga con una acción (el DJ anuncia qué hará y a qué zona) y la lanza con la 1.ª acción del asalto siguiente. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta el final de su próximo turno, es decir, del asalto siguiente) y no puede volver a cargarla en esta fase.",
+    "Punto débil [A]: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
+    "Objetivos de escena [A]: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
    ],
-   "pa": "N"
+   "pa": "N (× factor por diferencia de nivel; con refuerzo cuenta un nivel más)",
+   "refuerzos": {
+    "para_que": "La Chispa inicial (= Vínculo) permite digievolucionar en el asalto 1 desde Vínculo 2. Para que el Jefe de la aventura siga siendo un clímax, su plantilla se refuerza según el Vínculo de la mayoría del grupo. Calibrado con work_final/cal_biblia (4 parejas, sin programas ni objetos, sin Firma telegrafiada).",
+    "vinculo_1": {
+     "nivel_del_jefe": "nivel de referencia + 1 (Campeón)",
+     "pv": "floor(pv * (N + 2) / 2)",
+     "acciones": "ceil(N / 2)",
+     "dados_extra": 0,
+     "pa": "2 * N (Épico)"
+    },
+    "vinculo_2_3": {
+     "nombre": "Refuerzo I",
+     "aplica_a": "Vínculo 2 y 3, y Vínculo 4 sin el Definitivo desbloqueado (Jefe Perfecto)",
+     "nivel_del_jefe": "nivel de referencia",
+     "pv": "floor(pv * (N + 3) / 2)",
+     "acciones": "ceil(N / 2) + 1",
+     "dados_extra": 0,
+     "pa": "2 * N (Épico)"
+    },
+    "vinculo_4_5": {
+     "nombre": "Refuerzo II",
+     "aplica_a": "Vínculo 4 con el Definitivo desbloqueado y Vínculo 5 (Jefe Definitivo)",
+     "nivel_del_jefe": "nivel de referencia",
+     "pv": "floor(pv * (N + 3) / 2)",
+     "acciones": "N",
+     "dados_extra": 1,
+     "pa": "2 * N (Épico)"
+    },
+    "vinculo_estrella": "El clímax es un Legendario del nivel de referencia (plantilla Legendario, sin refuerzo): 2 * N (Épico).",
+    "nota": "Un Jefe reforzado cuenta, para el presupuesto, como un nivel por encima del nivel de referencia (factor ×2). El refuerzo no se suma a la plantilla Legendario."
+   }
   },
   "legendario": {
    "pv": "floor(pv * (N + 3) / 2)",
@@ -4886,7 +4919,7 @@
    "acciones": "ceil(N / 2)",
    "dados_extra": 1,
    "reglas": [
-    "Todas las reglas de Jefe.",
+    "Todas las reglas de Jefe (sin refuerzos).",
     "+1 dado de daño en todas sus técnicas.",
     "3 fases (umbrales al 2/3 y al 1/3 de sus PV), cada una con escudo de fase y Furia.",
     "Dominio de su grupo (lista dominios)."
@@ -4894,20 +4927,23 @@
    "pa": "2 * N"
   },
   "pa_por_diferencia_de_nivel": {
+   "-3 o menos": 0.125,
    "-2": 0.25,
    "-1": 0.5,
    "0": 1,
    "1": 2,
    "2": 5,
-   "3": 15
+   "3 o más": 15,
+   "nota": "Diferencia = rango del enemigo − nivel de referencia. Más de 2 pelotones de esbirros contra compañeros 3 o más rangos superiores no se tiran: se narran. Un enemigo +3 o más es Mortal: solo como presagio que huye o con un objetivo de escena."
   },
-  "nivel_de_referencia": "El nivel estable del grupo (el que tiene la mayoría de compañeros sin gastar Chispa).",
+  "nivel_de_referencia": "Nivel de combate del grupo: el nivel que la mayoría de los compañeros puede alcanzar en el asalto 1 con la Chispa que tiene su Tamer al empezar el combate = nivel estable + 1 por cada 2 Chispa, contando solo formas desbloqueadas y sin pasar del nivel máximo del Vínculo. Al empezar una sesión (Chispa = Vínculo): Vínculo 1 → Novato; Vínculo 2 → Campeón; Vínculo 3 → Perfecto; Vínculo 4 → Definitivo si está desbloqueado (si no, Perfecto); Vínculo 5 y ★ → Definitivo.",
   "presupuesto": {
    "facil": "N / 2",
    "normal": "N",
    "dificil": "1.5 * N",
    "epico": "2 * N",
-   "nota": "N = número de parejas Tamer-Digimon. Un encuentro Normal al nivel estable que incluya un enemigo de un nivel por encima es la receta del 'episodio de digievolución'. El Jefe de una aventura suele ser del nivel temporal máximo del grupo (estable + 1): vale 2N PA (Épico)."
+   "nota": "N = número de parejas Tamer-Digimon. Los PA se cuentan contra el nivel de referencia y se multiplican por el modificador del índice de amenaza de cada ficha (baja ×0,75, media ×1, alta ×1,5). Episodio de digievolución (Vínculo 1): encuentro Normal al nivel estable con un enemigo un nivel por encima. Jefe de la aventura: según amenaza.jefe.refuerzos, vale 2N PA (Épico).",
+   "mortal": "más de 2 * N"
   },
   "legendarios": {
    "caballeros_reales": [
@@ -5177,14 +5213,46 @@
   "ini": 2,
   "acciones": "ceil(N / 2)",
   "reglas": [
-   "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª, si la hay, al principio del asalto.",
-   "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 turno; inmune a Ejecutar (en su lugar +1 dado).",
+   "Turno: el turno de un Jefe es el asalto completo. Sus estados avanzan una vez por asalto (al inicio de su 1.ª acción), su daño por turno (Quemar, Veneno, invocaciones) se aplica una vez por asalto y sus duraciones se cuentan en asaltos.",
+   "Reparto de acciones: la 1.ª en la fase enemiga; la 2.ª al final del asalto (tras la fase lenta); la 3.ª y siguientes, al principio del asalto siguiente.",
+   "Agotadora: no usa una técnica Agotadora (P3) en dos asaltos seguidos ni dos veces en el mismo asalto.",
+   "Inmunidades: Aturdir y Dormir le quitan una sola acción del asalto (si solo le queda una, queda Ralentizado); Congelado y Atrapado le duran como máximo 1 asalto; inmune a Ejecutar (en su lugar +1 dado).",
    "Fases: 2 fases con umbral en la mitad de sus PV. Escudo de fase: el daño que sobrepasa el umbral se pierde. Al cruzar el umbral entra en Furia: elimina sus estados, su Firma queda lista, +1 dado en todas sus técnicas el resto del combate y cada Tamer gana 1 Chispa. Si tiene Modos, cambia de Modo.",
-   "Firma telegrafiada: su Firma P3 tiene siempre Cargado. El turno que carga, el DJ anuncia qué hará y a qué zona. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta su próximo turno) y no puede volver a cargarla en esta fase.",
-   "Punto débil: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
-   "Objetivos de escena: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
+   "Firma telegrafiada [A]: su Firma P3 tiene siempre Cargado. Carga con una acción (el DJ anuncia qué hará y a qué zona) y la lanza con la 1.ª acción del asalto siguiente. Guardia de carga = pv_base del nivel ÷ 2 (Novato 10, Campeón 14, Perfecto 17, Definitivo 21): si antes de que la lance el grupo le inflige ese daño, o le aplica Aturdir o Sellar con 10+, la carga se rompe, queda Expuesto (−1 Def hasta el final de su próximo turno, es decir, del asalto siguiente) y no puede volver a cargarla en esta fase.",
+   "Punto débil [A]: todo Jefe tiene uno que se descubre con Analizar 10+ o investigando antes del combate (un elemento extra al que es débil, una parte, o una ventana: tras lanzar su Firma queda Expuesto).",
+   "Objetivos de escena [A]: el combate puede ganarse de otra forma (desactivar la Torre, liberar a los rehenes, purificar el Engranaje): reloj de 4-6 segmentos que los Tamers avanzan con acciones de entorno."
   ],
-  "pa": "N"
+  "pa": "N (× factor por diferencia de nivel; con refuerzo cuenta un nivel más)",
+  "refuerzos": {
+   "para_que": "La Chispa inicial (= Vínculo) permite digievolucionar en el asalto 1 desde Vínculo 2. Para que el Jefe de la aventura siga siendo un clímax, su plantilla se refuerza según el Vínculo de la mayoría del grupo. Calibrado con work_final/cal_biblia (4 parejas, sin programas ni objetos, sin Firma telegrafiada).",
+   "vinculo_1": {
+    "nivel_del_jefe": "nivel de referencia + 1 (Campeón)",
+    "pv": "floor(pv * (N + 2) / 2)",
+    "acciones": "ceil(N / 2)",
+    "dados_extra": 0,
+    "pa": "2 * N (Épico)"
+   },
+   "vinculo_2_3": {
+    "nombre": "Refuerzo I",
+    "aplica_a": "Vínculo 2 y 3, y Vínculo 4 sin el Definitivo desbloqueado (Jefe Perfecto)",
+    "nivel_del_jefe": "nivel de referencia",
+    "pv": "floor(pv * (N + 3) / 2)",
+    "acciones": "ceil(N / 2) + 1",
+    "dados_extra": 0,
+    "pa": "2 * N (Épico)"
+   },
+   "vinculo_4_5": {
+    "nombre": "Refuerzo II",
+    "aplica_a": "Vínculo 4 con el Definitivo desbloqueado y Vínculo 5 (Jefe Definitivo)",
+    "nivel_del_jefe": "nivel de referencia",
+    "pv": "floor(pv * (N + 3) / 2)",
+    "acciones": "N",
+    "dados_extra": 1,
+    "pa": "2 * N (Épico)"
+   },
+   "vinculo_estrella": "El clímax es un Legendario del nivel de referencia (plantilla Legendario, sin refuerzo): 2 * N (Épico).",
+   "nota": "Un Jefe reforzado cuenta, para el presupuesto, como un nivel por encima del nivel de referencia (factor ×2). El refuerzo no se suma a la plantilla Legendario."
+  }
  },
  "esbirro": {
   "pv": "ceil(pv / 4)",
@@ -5197,7 +5265,8 @@
    "No usa P3: su Firma se usa como P2.",
    "Daño fijo: VF por dado (VF + 1 por dado si el PJ saca 6– al defenderse).",
    "Huye si cae su líder.",
-   "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno; ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble."
+   "Se pueden agrupar en Pelotones de 3 a 6: un solo perfil, PV = suma; cada vez que pierde los PV de un esbirro, cae uno (el daño sobrante pasa al siguiente); ataca una vez por asalto con +1 dado por cada miembro por encima del primero (máximo +2); las técnicas de área le hacen daño doble.",
+   "Hordas inferiores: contra un esbirro o un pelotón 2 o más rangos por debajo del atacante, cualquier técnica cuenta como de área a efectos del daño doble, y cada impacto elimina como mínimo tantos miembros como rangos de diferencia."
   ],
   "pa": 0.25
  },
@@ -5287,7 +5356,7 @@
   ]
  },
  "formulas": {
-  "rango": "niveles[level].rango (o niveles[level].por_nombre[name] → fila de ese nivel)",
+  "rango": "niveles[level].rango (o niveles[level].por_id[id] → fila de ese nivel)",
   "dado": "d4 si rango 0; si no d(4 + 2*rango)",
   "vf": "dado_caras / 2",
   "pv": "Bebé I: 6; Bebé II: 10; resto: vf * (7 + rol.pv_mult + familia.pv_mult + atributo.pv_mult + Σ plantillas.pv_mult)",
@@ -5297,19 +5366,19 @@
   "ini": "rango + rol.ini + atributo.ini + familia.ini + Σ plantillas.ini",
   "peligro_tamer": "max(1, rango); +1 si la técnica es P3",
   "umbral_ejecutar": "2 * vf",
-  "dados_tecnica": "potencia (1/2/3) − 1 si el área no es individual (mínimo 1)",
-  "dano_tecnica_impreso": "'Nd(dado)' con N = dados_tecnica; la ficha imprime también la media: N * (dado_caras + 1) / 2",
-  "escala": "Atacante de nivel inferior al objetivo: el daño se divide a la mitad por cada nivel de diferencia (redondeo abajo, mínimo 1). Atacante de nivel superior: +1 dado de daño (no acumulable por más niveles).",
-  "triangulo": "+1 a las tiradas del PJ contra un PNJ cuyo atributo vence el suyo; −1 si el del PNJ vence al suyo (en ataque y en defensa)",
+  "dados_tecnica": "potencia (P1 = 1, P2 = 2, P3 = 3; P2/P3: 2 o 3). Una técnica de área que alcanza de verdad a 2 o más objetivos tira potencia − 1 (mínimo 1); contra un solo objetivo cuenta como Individual. La ficha guarda los dos valores: 'dados' (contra un objetivo) y 'dados_area' (contra 2+ objetivos; null si la técnica es Individual).",
+  "dano_tecnica_impreso": "'Nd(dado)' con N = dados contra un objetivo; si la técnica es de área se imprime además 'contra 2+: Md(dado)'. La ficha guarda también las medias: dano_medio = N × (dado_caras + 1) / 2 y dano_medio_area.",
+  "escala": "Se compara el RANGO de la fila que usa cada ficha (Armadura = Campeón; Rapidmon (Armadura) y GoldVeedramon = Perfecto; Magnamon y NEO = Definitivo; Híbrido = la fila de su clase), no la etiqueta de nivel. Atacante de rango inferior al objetivo: el daño se divide a la mitad por cada rango de diferencia (redondeo abajo, mínimo 1). Atacante de rango superior: +1 dado de daño (no acumulable por más rangos).",
+  "triangulo": "+1 a las tiradas del PJ (ataque y Defensa) contra un PNJ si el atributo del PJ vence al del PNJ; −1 si el atributo del PNJ vence al del PJ; 0 si alguno de los dos es neutral (Libre, Desconocido, SIN DATOS, Ninguno). Variable usa el atributo elegido en la escena. Es un modificador situacional (cuenta para el límite de ±3).",
   "tirada_pj_ataque": "2d6 + atq_propio − def_objetivo + situacionales (máx. ±3)",
   "tirada_pj_defensa": "2d6 + def_propia − atq_atacante + situacionales (máx. ±3)",
   "tirada_fuera_de_combate_digimon": "2d6 + rango (+1 si es su especialidad de familia o rol)",
   "guardia_de_carga": "pv_base del nivel / 2 (redondeo abajo)",
-  "jefe_pv": "floor(pv * (N + 2) / 2)",
+  "jefe_pv": "floor(pv * (N + 2) / 2); con Refuerzo I o II (amenaza.jefe.refuerzos): floor(pv * (N + 3) / 2)",
   "legendario_pv": "floor(pv * (N + 3) / 2)",
   "esbirro_pv": "ceil(pv / 4)",
   "elite_pv": "floor(pv * 1.5)",
-  "debilidades": "Bebés: ninguna. Resto: familia.debilidad (Elemental: la de su tipo; excepciones_tipo de la familia si existen) ∪ {primer elemento de orden_debilidad cuyo 'vence_a' contiene el elemento principal}; resistencias: familia.resistencia ∪ {elemento principal si no es neutro ni cosmico}; se quita de ambas listas lo que aparezca en las dos; máximo 2 de cada (primero las de familia). Plantilla Armadura: se añade a resistencias el elemento de la Firma (si no es neutro), manteniendo el máximo de 2, y se quita de debilidades.",
+  "debilidades": "Bebés: ninguna. Resto: familia.debilidad (Elemental: la de su tipo; excepciones_tipo de la familia si existen) ∪ {primer elemento de orden_debilidad cuyo 'vence_a' contiene el elemento principal y que no esté ya entre las debilidades ni las resistencias de la familia}; resistencias: familia.resistencia ∪ {elemento principal si no es neutro ni cosmico}; se quita de ambas listas lo que aparezca en las dos; máximo 2 de cada (primero las de familia). Plantilla Armadura: se añade a resistencias el elemento de la Firma (si no es neutro), manteniendo el máximo de 2, y se quita de debilidades.",
   "elemento_principal": "el elemento más repetido entre sus técnicas oficiales sin contar neutro; empate → el de la técnica que va antes (la Firma primero); Elemental: el de su tipo; sin técnicas con elemento: ninguno"
  },
  "validacion": {
@@ -5424,20 +5493,28 @@
    }
   },
   "reglas": [
-   "Como mucho una técnica P3 por ficha.",
+   "Como mucho una técnica P3 (o P2/P3) por ficha.",
    "Máximo 2 palabras clave por técnica.",
-   "Ningún Bebé con P3, Ejecutar, Aturdir ni Dormir.",
+   "Ningún Bebé con P3, Ejecutar ni control duro (Aturdir, Dormir, Regresión).",
    "Área Total solo en la Firma de rango 4.",
+   "Ejecutar solo en técnicas Individuales.",
+   "Una técnica de daño P1 es siempre Individual.",
+   "Las técnicas de apoyo no hacen daño ni llevan palabras de daño ni de estado; tácticas solo por override.",
    "Toda ficha tiene técnica básica y maniobra de rol (salvo Bebés: solo básica).",
    "Cada uno de los 140 tipos pertenece a exactamente una familia.",
-   "Las técnicas de apoyo no hacen daño ni tienen palabras de daño."
+   "Toda clave de overrides.tecnicas existe en algún 'moves'; toda clave de overrides.digimon y todo id de las listas (niveles.por_id, clase_por_id, legendarios, jefes y esbirros sugeridos, vuelo) existe en all.json.",
+   "Ninguna raíz contiene caracteres que la normalización elimina.",
+   "Las filas Armadura, Híbrido e Indeterminado se validan con el rango de la fila que usan (fila_de o por_id)."
   ],
   "objetivos_de_diseño": {
-   "turnos_1v1_mismo_nivel": "PJ con Dado de Vínculo y Orden: 2,6-3,5 turnos contra un PNJ estándar; ningún emparejamiento de roles por encima de 6",
-   "nivel_superior_+1": "un PJ necesita ~7-8 ataques contra un PNJ estándar un nivel por encima",
-   "nivel_superior_+2": "~22-24 ataques",
-   "nivel_superior_+3": "~60 ataques (imposible en la práctica)",
-   "primera_digievolucion": "asalto 2 de media (simulación de grupo de 4)"
+   "metodo": "work_final/r3_sim.py con las fichas de gen.py (golpe aguantado, área −1 dado solo contra 2+, capas sin cascada, turno de Jefe = asalto, Chispa inicial = Vínculo). Equipos de 4 parejas de las líneas Adventure, Tamers y Savers (y 02 y «frágil» a Vínculo 1), Orden y Dado de Vínculo cada asalto, sin programas ni objetos, sin Firma telegrafiada. 250-400 combates por caso.",
+   "duelos_1v1_mismo_nivel": "PJ con Dado de Vínculo y Orden contra un PNJ estándar de su nivel: 3,1-3,2 asaltos de media (Novato, Campeón y Perfecto). Peores emparejamientos de roles: Apoyo contra Apoyo 4,3-5,9 (hasta 36 % por encima de 6) y Tanque contra Tanque 4,3-4,8 (12-18 % por encima de 6). Ninguna media de emparejamiento pasa de 6.",
+   "nivel_superior": "Un Novato invulnerable contra un PNJ estándar (mediana de ataques necesarios): mismo nivel 3; +1: 9; +2: 29; +3: 77 (imposible en la práctica). La media es mucho mayor por las Resistencias y la Arm.",
+   "encuentros_vinculo_1": "Fácil 2,1-2,6 asaltos; Normal 2,7-3,0; Difícil 3,4-3,7; 0 % de derrota. Los compañeros que digievolucionan lo hacen de media en los asaltos 1,5-1,8, siempre tras una Crisis.",
+   "jefe_de_la_aventura": "Vínculo 1 (Jefe Campeón, plantilla base): 5,0-5,3 asaltos, 1-3 % de derrota (hasta 14 % con el Jefe más duro). Vínculo 2 (Jefe Campeón, Refuerzo I): 3,6-3,8 asaltos, 2-10 %. Vínculo 3 (Jefe Perfecto, Refuerzo I): 4,3-4,7 asaltos, 16-28 %. Vínculo 4 sin Definitivo desbloqueado (Jefe Perfecto, Refuerzo I): 4,3-4,8 asaltos, 13-27 %. Vínculo 4 con Definitivo (Jefe Definitivo, Refuerzo II): 3,0-4,3 asaltos, 3-26 %. Vínculo 5 (Refuerzo II): 2,9-4,1 asaltos, 0-10 %.",
+   "legendario": "Legendario Definitivo contra Vínculo ★: 3,8-4,4 asaltos, 7-22 % de derrota; contra Vínculo 5: 3,7-4,4 asaltos, 0-6 %.",
+   "dispersion": "La diferencia entre Jefes del mismo nivel es mayor que la que hay entre tramos (Myotismon Jefe a Vínculo 3: 60-97 % de derrota; Etemon: 0 %). Por eso el PA se multiplica por el modificador del índice de amenaza.",
+   "armadura": "Equipo 02 a Vínculo 1 con Armadura (2 Chispa, nunca en el asalto 1 salvo emergencia) contra Jefe Campeón: 3,2-5,2 asaltos, 0-5 %; primera Armadura de media en el asalto 2,1-2,4."
   }
  },
  "salida": {
@@ -5445,8 +5522,9 @@
    "id": "str (id de all.json)",
    "nombre": "str",
    "nivel": "str (Bebé I…Definitivo)",
-   "etiqueta": "str|null (Armadura, Híbrido, Desconocido)",
+   "etiqueta": "str|null (Armadura, Híbrido, Indeterminado)",
    "rango": "int",
+   "fila_validacion": "id de rangos_por_nivel con el que se valida",
    "familia": "id",
    "tipo": "str (inglés)",
    "tipo_es": "str",
@@ -5456,6 +5534,9 @@
     "id"
    ],
    "amenaza_sugerida": "estandar|esbirro|elite|jefe|legendario",
+   "indice_amenaza": "float (amenaza.indice_amenaza)",
+   "amenaza_nivel": "baja|media|alta",
+   "mod_pa": "0.75|1|1.5",
    "grupo_legendario": "id|null",
    "dado": "str",
    "vf": "int",
@@ -5464,6 +5545,10 @@
    "def": "int",
    "arm": "int",
    "ini": "int",
+   "especialidades": [
+    "str (familia)",
+    "str (rol)"
+   ],
    "vuela": "bool",
    "nada": "bool",
    "debilidades": [
@@ -5485,9 +5570,9 @@
      "nombre": "str",
      "tipo": "basica|maniobra|oficial|generica",
      "firma": "bool",
-     "potencia": "P1|P2|P3|P2/P3|null",
-     "dados": "str (p. ej. '3d10')",
-     "dano_medio": "float|null",
+     "potencia": "P1|P2|P3|P2/P3|null (null en apoyo sin valor, p. ej. Ocultar)",
+     "dados": "str|null (contra un objetivo, p. ej. '3d10')",
+     "dano_medio": "float|[float, float]|null",
      "alcance": "id",
      "area": "id",
      "elemento": "id",
@@ -5495,7 +5580,10 @@
       "id"
      ],
      "apoyo": "bool",
-     "agotadora": "bool"
+     "agotadora": "bool",
+     "nombre_dato": "str (nombre oficial sin cambios)",
+     "dados_area": "str|null (contra 2+ objetivos)",
+     "dano_medio_area": "float|[float, float]|null"
     }
    ],
    "prev": [
@@ -5513,15 +5601,17 @@
   },
   "bloque_texto": [
    "NOMBRE — Nivel [etiqueta] · Familia (Tipo) · Rol · Atributo [· plantillas] [· Amenaza sugerida]",
-   "PV __ · Atq +_ · Def +_ · Arm _ · Ini +_ · Dado d_ (VF _) [· Vuela] [· Nada]",
+   "Rango _ · PV __ · Atq +_ · Def +_ · Arm _ · Ini +_ · Dado d_ (VF _) [· Vuela] [· Nada]",
    "Debilidad: __ · Resistencia: __ · Triángulo: vence a __",
+   "Especialidades: <familia>; <rol> · Amenaza: baja (PA ×¾) | media | alta (PA ×1½)",
    "Rasgos: <rol>; <familia>; <atributo>; <plantillas>",
    "Técnicas:",
    "· <Básica> — P1 · Toque · Individual · <elemento>  [1d_]",
    "· <Maniobra de rol> — ...",
-   "· <Firma> — P3 (Agotadora) [o P2/P3] · <alcance> · <área> · <elemento> · <claves>  [3d_ ≈ media]",
+   "· <Firma> — P3 (Agotadora) [o P2/P3] · <alcance> · <área> · <elemento> · <claves>  [3d_; contra 2+: 2d_ si es de área]",
    "· …",
-   "Evoluciona de: … · Evoluciona a: … · Modos: …"
+   "Evoluciona de: … · Evoluciona a: … · Modos: …",
+   "[Notas: …]"
   ]
  },
  "overrides_iniciales": {
@@ -5731,11 +5821,11 @@
    },
    "Terrier Tornado": {
     "elemento": "viento",
-    "alcance": "distancia",
+    "alcance": "larga",
     "claves": [
      "empujar"
     ],
-    "nota": "Tornado lanzado: así la Firma del Tirador Terriermon pasa a Larga."
+    "nota": "Tornado lanzado a gran distancia: Firma de Tirador (Terriermon, Lopmon). El override fija las claves, así que también fija el alcance Larga."
    },
    "Blazing Fire": {
     "elemento": "neutro",
@@ -5932,7 +6022,7 @@
    "River of Power": {
     "apoyo": false,
     "elemento": "agua",
-    "alcance": "distancia",
+    "alcance": "larga",
     "claves": [
      "brutal"
     ]
@@ -6254,8 +6344,9 @@
    },
    "bloque_texto": [
     "Agumon — Novato · Saurio (Reptil) · Bruto · Vacuna",
-    "PV 27 · Atq +2 · Def +2 · Arm 0 · Ini +1 · Dado d6 (VF 3)",
+    "Rango 1 · PV 27 · Atq +2 · Def +2 · Arm 0 · Ini +1 · Dado d6 (VF 3)",
     "Debilidad: Hielo, Agua · Resistencia: Tierra, Fuego · Triángulo: vence a Virus",
+    "Especialidades: aguante, fuerza, morder; fuerza y romper cosas · Amenaza: media",
     "Rasgos: Arrollador (rol); Piel gruesa (familia); Antivirus (atributo)",
     "Técnicas:",
     "· Mordisco — P1 · Toque · Individual · Neutro",
@@ -6408,8 +6499,9 @@
    },
    "bloque_texto": [
     "Greymon — Campeón · Saurio (Dinosaurio) · Bruto · Vacuna",
-    "PV 36 · Atq +3 · Def +3 · Arm 0 · Ini +2 · Dado d8 (VF 4)",
+    "Rango 2 · PV 36 · Atq +3 · Def +3 · Arm 0 · Ini +2 · Dado d8 (VF 4)",
     "Debilidad: Hielo, Agua · Resistencia: Tierra, Fuego · Triángulo: vence a Virus",
+    "Especialidades: aguante, fuerza, morder; fuerza y romper cosas · Amenaza: media",
     "Rasgos: Arrollador (rol); Piel gruesa (familia); Antivirus (atributo)",
     "Técnicas:",
     "· Mordisco — P1 · Toque · Individual · Neutro",
@@ -6436,7 +6528,7 @@
     "2. Tipo Cyborg → familia Máquina (afinidad acero; rasgo Blindaje; mods pv_mult +0, arm +1, ini -1).",
     "3. Técnica Giga Destroyer [Firma]: P3 (Agotadora) · larga · individual · acero · claves brutal, certero. (override)",
     "3. Técnica Trident Arm: P2 · toque · individual · acero · claves perforante. (override)",
-    "3. Técnica Giga Storm: P2 · distancia · zona · acero · claves brutal, quemar. (override)",
+    "3. Técnica Giga Storm: P2 · distancia · zona · acero · claves brutal. (override)",
     "4. Puntuación de rol {\"tanque\": 3, \"tirador\": 8, \"bruto\": 4, \"acechador\": 1} → tirador.",
     "5. Plantillas: ninguna.",
     "6. PV = VF 5 × (7 +0 rol +0 familia +0 atributo +0 plantillas) = 35.",
@@ -6560,17 +6652,18 @@
       "tipo": "oficial",
       "firma": false,
       "potencia": "P2",
-      "dados": "1d10",
-      "dano_medio": 5.5,
+      "dados": "2d10",
+      "dano_medio": 11.0,
       "alcance": "distancia",
       "area": "zona",
       "elemento": "acero",
       "claves": [
-       "brutal",
-       "quemar"
+       "brutal"
       ],
       "apoyo": false,
-      "agotadora": false
+      "agotadora": false,
+      "dados_area": "1d10",
+      "dano_medio_area": 5.5
      }
     ],
     "prev": [
@@ -6599,15 +6692,16 @@
    },
    "bloque_texto": [
     "MetalGreymon (Vaccine) — Perfecto · Máquina (Cíborg) · Tirador · Vacuna",
-    "PV 35 · Atq +4 · Def +3 · Arm 1 · Ini +3 · Dado d10 (VF 5) · Vuela",
+    "Rango 3 · PV 35 · Atq +4 · Def +3 · Arm 1 · Ini +3 · Dado d10 (VF 5) · Vuela",
     "Debilidad: Eléctrico, Fuego · Resistencia: Veneno, Acero · Triángulo: vence a Virus",
+    "Especialidades: fuerza, cálculo, sensores, interfaz; puntería y vigilancia · Amenaza: media",
     "Rasgos: Francotirador (rol); Blindaje (familia); Antivirus (atributo)",
     "Técnicas:",
     "· Disparo — P1 · Distancia · Individual · Acero",
     "· Disparo certero — P1 · Larga · Individual · Acero · Certero",
     "· Giga Destroyer — P3 (Agotadora) · Larga · Individual · Acero · Brutal, Certero  [3d10]",
     "· Trident Arm — P2 · Toque · Individual · Acero · Perforante  [2d10]",
-    "· Giga Storm — P2 · Distancia · Zona · Acero · Brutal, Quemar  [1d10]",
+    "· Giga Storm — P2 · Distancia · Zona · Acero · Brutal  [2d10; contra 2+: 1d10]",
     "Evoluciona de: Growlmon, DarkTyrannomon, Leomon, Airdramon, Tyrannomon, GoldVeedramon · Evoluciona a: WarGreymon, BlitzGreymon, VictoryGreymon, Gaiomon, ShineGreymon, Alphamon"
    ]
   },
@@ -6764,8 +6858,9 @@
    },
    "bloque_texto": [
     "WarGreymon — Definitivo · Dragón (Hombre Dragón) · Versátil · Vacuna",
-    "PV 42 · Atq +4 · Def +5 · Arm 0 · Ini +5 · Dado d12 (VF 6) · Vuela",
+    "Rango 4 · PV 42 · Atq +4 · Def +5 · Arm 0 · Ini +5 · Dado d12 (VF 6) · Vuela",
     "Debilidad: Hielo, Agua · Resistencia: Fuego · Triángulo: vence a Virus",
+    "Especialidades: fuerza, intimidar, volar si tiene alas; una a elección del jugador · Amenaza: baja (PA ×¾)",
     "Rasgos: Adaptable (rol); Corazón de dragón (familia); Antivirus (atributo)",
     "Técnicas:",
     "· Garra de dragón — P1 · Toque · Individual · Neutro",

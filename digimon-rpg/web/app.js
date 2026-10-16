@@ -52,7 +52,7 @@ function buildRail() {
   for (const c of S.manifest) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
   rail.innerHTML = `<a href="#inicio" data-r="inicio"><span class="n">⌂</span>Portada</a>` +
     groups.map(g => `<h4>${esc(g.name)}</h4>` + g.items.map(c => `<a href="#${c.id}" data-r="${c.id}"><span class="n">${esc(c.n)}</span>${esc(c.titulo)}</a>`).join("")).join("") +
-    `<h4>Herramientas</h4><a href="#bestiario" data-r="bestiario"><span class="n">◆</span>Bestiario (${S.best.length})</a><a href="#ficha" data-r="ficha"><span class="n">✎</span>Ficha de personaje</a>`;
+    `<h4>Herramientas</h4><a href="#bestiario" data-r="bestiario"><span class="n">◆</span>Bestiario (${S.best.length})</a><a href="#ficha" data-r="ficha"><span class="n">✎</span>Ficha de personaje</a><a href="#encuentro" data-r="encuentro"><span class="n">⚔</span>Constructor de encuentros</a>`;
   rail.addEventListener("click", e => { if (e.target.closest("a")) rail.classList.remove("open"); });
 }
 $("#menuBtn").addEventListener("click", () => rail.classList.toggle("open"));
@@ -69,6 +69,7 @@ function route() {
   if (h === "bestiario") return bestiary(null);
   if (h.startsWith("d-")) return bestiary(h.slice(2));
   if (h === "ficha") return sheet();
+  if (h === "encuentro") return encounter();
   const ch = S.manifest.find(c => c.id === h || h.startsWith(c.id + "_"));
   if (ch) return chapter(ch, h);
   home();
@@ -94,6 +95,7 @@ function home() {
     <div class="cards">
       ${first ? `<a class="card" href="#${first.id}"><b>Empieza a leer</b><span>${esc(first.titulo)}: qué es este juego y cómo se usa el manual.</span></a>` : ""}
       <a class="card" href="#bestiario"><b>Bestiario</b><span>Busca cualquier Digimon por nombre, nivel, atributo, familia o rol, y ajusta su ficha como esbirro, élite o jefe.</span></a>
+      <a class="card" href="#encuentro"><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en PA.</span></a>
       <a class="card" href="#ficha"><b>Ficha de personaje</b><span>Crea tu Tamer y tu compañero. Las cifras del Digimon se rellenan solas desde el bestiario.</span></a>
     </div>
     ${groups.map(g => `<div><div class="eyebrow" style="margin-top:14px">${esc(g.name)}</div><div class="cards">${g.items.map(c => `<a class="card" href="#${c.id}"><b>${esc(c.n)} · ${esc(c.titulo)}</b><span>${esc(c.resumen || "")}</span></a>`).join("")}</div></div>`).join("")}
@@ -234,13 +236,29 @@ function renderList() {
 }
 
 /* plantillas de amenaza */
-const THREATS = [["estandar", "Estándar"], ["esbirro", "Esbirro"], ["elite", "Élite"], ["jefe", "Jefe"], ["legendario", "Legendario"]];
+const THREATS = [["estandar", "Estándar"], ["esbirro", "Esbirro"], ["elite", "Élite"], ["jefe", "Jefe"], ["jefe1", "Jefe · Refuerzo I"], ["jefe2", "Jefe · Refuerzo II"], ["legendario", "Legendario"]];
+const threatName = t => (THREATS.find(x => x[0] === t) || [0, "Estándar"])[1];
 function applyThreat(d, t, N) {
-  const A = S.R.amenaza[t]; if (!A || t === "estandar") return { pv: d.pv, atq: d.atq, def: d.def, arm: d.arm, ini: d.ini, acciones: 1, extra: 0, reglas: [] };
-  const pv = { esbirro: Math.ceil(d.pv / 4), elite: Math.floor(d.pv * 1.5), jefe: Math.floor(d.pv * (N + 2) / 2), legendario: Math.floor(d.pv * (N + 3) / 2) }[t];
-  const acciones = t === "jefe" || t === "legendario" ? Math.ceil(N / 2) : 1;
-  return { pv, atq: d.atq + (A.atq || 0), def: d.def + (A.def || 0), arm: Math.min(3, d.arm + (A.arm || 0)), ini: d.ini + (A.ini || 0), acciones, extra: A.dados_extra || 0, reglas: A.reglas || [] };
+  const base = t === "jefe1" || t === "jefe2" ? "jefe" : t;
+  const A = S.R.amenaza[base]; if (!A || base === "estandar") return { pv: d.pv, atq: d.atq, def: d.def, arm: d.arm, ini: d.ini, acciones: 1, extra: 0, reglas: [] };
+  const pv = { esbirro: Math.ceil(d.pv / 4), elite: Math.floor(d.pv * 1.5), jefe: Math.floor(d.pv * (N + 2) / 2), jefe1: Math.floor(d.pv * (N + 3) / 2), jefe2: Math.floor(d.pv * (N + 3) / 2), legendario: Math.floor(d.pv * (N + 3) / 2) }[t];
+  const acciones = { jefe: Math.ceil(N / 2), jefe1: Math.ceil(N / 2) + 1, jefe2: N, legendario: Math.ceil(N / 2) }[t] || 1;
+  const extra = (A.dados_extra || 0) + (t === "jefe2" ? 1 : 0);
+  const reglas = (A.reglas || []).slice();
+  if (t === "jefe1") reglas.unshift("Refuerzo I (Jefe de la aventura con Vínculo 2-3, o 4 sin Definitivo desbloqueado): PV × (N + 3) / 2 y una acción más por asalto. Para el presupuesto cuenta un nivel por encima.");
+  if (t === "jefe2") reglas.unshift("Refuerzo II (Jefe de la aventura con Vínculo 4 con Definitivo desbloqueado, o 5): PV × (N + 3) / 2, N acciones por asalto y +1 dado en todas sus técnicas. Para el presupuesto cuenta un nivel por encima.");
+  return { pv, atq: d.atq + (A.atq || 0), def: d.def + (A.def || 0), arm: Math.min(3, d.arm + (A.arm || 0)), ini: d.ini + (A.ini || 0), acciones, extra, reglas };
 }
+const PA_BASE = { esbirro: 0.25, estandar: 1, elite: 2 };
+function paOf(d, t, N, ref) {
+  const base = t.startsWith("jefe") ? N : t === "legendario" ? 2 * N : PA_BASE[t] || 1;
+  const diff = (d.rango ?? 1) - ref + (t === "jefe1" || t === "jefe2" ? 1 : 0);
+  const f = diff <= -3 ? 1 / 8 : diff >= 3 ? 15 : { "-2": 0.25, "-1": 0.5, "0": 1, "1": 2, "2": 5 }[String(diff)];
+  return base * f * (d.mod_pa || 1);
+}
+const fmtPA = x => (Math.round(x * 100) / 100).toLocaleString("es");
+const ENC = Object.assign({ N: 4, ref: 1, list: [] }, store.get("lazos-encuentro", {}));
+const saveEnc = () => store.set("lazos-encuentro", ENC);
 function techRow(t, d, extra) {
   const L = S.lookup;
   const claves = (t.claves || []).map(c => { const e = L.efe[c]; return `<span class="kw" title="${esc(e ? e.regla : c)}">${esc(e ? e.nombre : c)}</span>`; }).join(" ");
@@ -277,9 +295,10 @@ function statBlock(d, threat) {
     </header>
     ${d.descripcion ? `<p class="sb-desc">${esc(d.descripcion)}</p>` : ""}
     <div class="sb-threat" role="radiogroup" aria-label="Plantilla de amenaza">
-      ${THREATS.map(([k, t]) => `<button type="button" role="radio" aria-checked="${k === threat}" data-t="${k}" class="th${k === threat ? " on" : ""}">${t}${k === d.amenaza_sugerida && k !== "estandar" ? " ·" : ""}</button>`).join("")}
-      ${threat === "jefe" || threat === "legendario" ? `<label class="nsel">Parejas <input type="number" id="sb-n" min="1" max="8" value="${N}"></label>` : ""}
+      ${THREATS.map(([k, t]) => `<button type="button" role="radio" aria-checked="${k === threat}" data-t="${k}" class="th${k === threat ? " on" : ""}">${t}</button>`).join("")}
+      ${threat.startsWith("jefe") || threat === "legendario" ? `<label class="nsel">Parejas <input type="number" id="sb-n" min="1" max="8" value="${N}"></label>` : ""}
     </div>
+    <div class="sb-pa"><span>Vale <b>${fmtPA(paOf(d, threat, ENC.N, ENC.ref))} PA</b> para un grupo de ${ENC.N} parejas con nivel de referencia ${esc(REF_NAMES[ENC.ref])}${d.amenaza_nivel ? ` · índice de amenaza ${esc(d.amenaza_nivel)}` : ""}.</span><button type="button" class="pill" id="sb-add">Añadir al encuentro</button><span class="hint" id="sb-added"></span></div>
     <div class="sb-stats">
       <div><span>PV</span><b>${v.pv}</b></div>
       <div><span>Ataque</span><b>${sgn(v.atq)}</b></div>
@@ -295,7 +314,8 @@ function statBlock(d, threat) {
       <div><dt>Débil a</dt><dd>${(d.debilidades || []).map(x => esc((L.ele[x] || {}).nombre || x)).join(", ") || "—"}</dd></div>
       <div><dt>Resiste</dt><dd>${(d.resistencias || []).map(x => esc((L.ele[x] || {}).nombre || x)).join(", ") || "—"}</dd></div>
       <div><dt>VF</dt><dd>${d.vf} <span class="sub">(valor fijo por dado)</span></dd></div>
-      <div><dt>Amenaza sugerida</dt><dd>${esc((THREATS.find(x => x[0] === d.amenaza_sugerida) || [0, "Estándar"])[1])}</dd></div>
+      <div><dt>Amenaza sugerida</dt><dd>${esc(threatName(d.amenaza_sugerida))}</dd></div>
+      ${d.especialidades && d.especialidades.length ? `<div class="wide"><dt>Fuera de combate</dt><dd>${esc(d.especialidades.join("; "))}</dd></div>` : ""}
     </dl>
     <h3>Técnicas</h3>
     <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead>
@@ -303,7 +323,7 @@ function statBlock(d, threat) {
     ${usedKw.size ? `<details class="sb-gl"><summary>Qué hace cada efecto</summary><dl>${[...usedKw].map(c => { const e = L.efe[c]; return e ? `<div><dt>${esc(e.nombre)}</dt><dd>${esc(e.regla)}</dd></div>` : ""; }).join("")}</dl></details>` : ""}
     <h3>Rasgos</h3>
     <ul class="sb-traits">${(d.rasgos || []).map(r => `<li><b>${esc(r.nombre)}.</b> ${esc(r.regla)} <span class="sub">${esc(r.origen || "")}</span></li>`).join("") || "<li>—</li>"}</ul>
-    ${v.reglas.length ? `<h3>Reglas de ${esc((THREATS.find(x => x[0] === threat) || [])[1])}</h3><ul class="sb-traits">${v.reglas.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
+    ${v.reglas.length ? `<h3>Reglas de ${esc(threatName(threat))}</h3><ul class="sb-traits">${v.reglas.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
     ${d.tacticas ? `<h3>En combate</h3><p>${esc(d.tacticas)}</p>` : ""}
     ${d.gancho ? `<h3>Gancho de aventura</h3><p>${esc(d.gancho)}</p>` : ""}
     <h3>Línea evolutiva</h3>
@@ -311,12 +331,70 @@ function statBlock(d, threat) {
   </article>`;
 }
 function wireStatBlock(root, d) {
-  root.addEventListener("click", e => {
+  const onClick = e => {
     const b = e.target.closest("button.th"); if (!b) return;
+    root.removeEventListener("click", onClick);
     root.innerHTML = statBlock(d, b.dataset.t); wireStatBlock(root, d);
-  }, { once: true });
+  };
+  root.addEventListener("click", onClick);
+  const add = $("#sb-add", root);
+  if (add) add.addEventListener("click", () => {
+    const t = $("button.th.on", root).dataset.t, v = applyThreat(d, t, ENC.N);
+    ENC.list.push({ id: d.id, t, pv: v.pv, k: Date.now() % 1e9 + ENC.list.length }); saveEnc();
+    $("#sb-added", root).innerHTML = `Añadido. <a href="#encuentro">Ver encuentro (${ENC.list.length})</a>`;
+  });
   const n = $("#sb-n", root);
-  if (n) n.addEventListener("change", () => { S.groupN = Math.max(1, Math.min(8, +n.value || 4)); const t = $("button.th.on", root).dataset.t; root.innerHTML = statBlock(d, t); wireStatBlock(root, d); });
+  if (n) n.addEventListener("change", () => { S.groupN = Math.max(1, Math.min(8, +n.value || 4)); const t = $("button.th.on", root).dataset.t; root.removeEventListener("click", onClick); root.innerHTML = statBlock(d, t); wireStatBlock(root, d); });
+}
+
+/* ---------- constructor de encuentros ---------- */
+const REF_NAMES = { 0: "Bebé", 1: "Novato", 2: "Campeón", 3: "Perfecto", 4: "Definitivo" };
+function encounter() {
+  S.view = "encuentro"; markNav("encuentro");
+  const N = ENC.N, ref = ENC.ref;
+  const rows = ENC.list.map((e, i) => ({ e, i, d: S.byId.get(e.id) })).filter(x => x.d);
+  const total = rows.reduce((a, { e, d }) => a + paOf(d, e.t, N, ref), 0);
+  const bands = [["Fácil", N / 2], ["Normal", N], ["Difícil", 1.5 * N], ["Épico", 2 * N]];
+  let dif = "Mortal"; for (const [n, v] of bands) if (total <= v + 1e-9) { dif = n; break; }
+  if (!rows.length) dif = "—";
+  main.innerHTML = `<div class="enc">
+    <div><p class="eyebrow">Herramienta del DJ</p><h1 class="bst-title">Constructor de encuentros</h1>
+    <p class="bst-help">Añade Digimon desde el bestiario con el botón «Añadir al encuentro» o con el buscador de abajo. Los PA siguen la sección de presupuesto de la Guía del DJ: PA de la amenaza × diferencia de nivel × índice de amenaza.</p></div>
+    <form class="filters" onsubmit="return false">
+      <label><span>Parejas en el grupo</span><input id="enc-n" type="number" min="1" max="8" value="${N}"></label>
+      <label><span>Nivel de referencia</span><select id="enc-ref">${[1, 2, 3, 4].map(r => `<option value="${r}"${r === ref ? " selected" : ""}>${REF_NAMES[r]}</option>`).join("")}</select></label>
+      <label class="f-q"><span>Añadir Digimon</span><input id="enc-q" list="enc-dl" placeholder="Escribe un nombre y pulsa Intro" autocomplete="off"></label>
+      <datalist id="enc-dl">${S.best.map(d => `<option value="${esc(d.nombre)} · ${esc(d.nivel)}"></option>`).join("")}</datalist>
+      <button class="pill" id="enc-clear" type="button">Vaciar</button>
+    </form>
+    <div class="enc-sum">
+      <div><span>PA totales</span><b>${fmtPA(total)}</b></div>
+      <div><span>Dificultad</span><b class="dif-${norm(dif)}">${esc(dif)}</b></div>
+      ${bands.map(([n, v]) => `<div><span>${n}</span><b>≤ ${fmtPA(v)}</b></div>`).join("")}
+    </div>
+    ${rows.length ? `<div class="tbl"><table class="sb-t enc-t"><thead><tr><th>Digimon</th><th>Plantilla</th><th>PV</th><th>Atq</th><th>Def</th><th>Arm</th><th>Ini</th><th>Acc.</th><th>PA</th><th></th></tr></thead><tbody>
+      ${rows.map(({ e, i, d }) => { const v = applyThreat(d, e.t, N); return `<tr data-i="${i}">
+        <td><a href="#d-${slug(d.id)}"><b>${esc(d.nombre)}</b></a><div class="sub">${esc(d.nivel)} · ${esc((S.lookup.atr[d.atributo] || {}).nombre || "")}</div></td>
+        <td><select class="enc-t-sel">${THREATS.map(([k, t]) => `<option value="${k}"${k === e.t ? " selected" : ""}>${t}</option>`).join("")}</select></td>
+        <td class="num"><input class="enc-pv" type="number" min="0" max="${v.pv}" value="${Math.min(e.pv ?? v.pv, v.pv)}"> / ${v.pv}</td>
+        <td class="num">${sgn(v.atq)}</td><td class="num">${sgn(v.def)}</td><td class="num">${v.arm}</td><td class="num">${sgn(v.ini)}</td><td class="num">${v.acciones}</td>
+        <td class="num">${fmtPA(paOf(d, e.t, N, ref))}</td>
+        <td><button type="button" class="pill enc-del" aria-label="Quitar ${esc(d.nombre)}">Quitar</button></td></tr>`; }).join("")}
+    </tbody></table></div>` : `<div class="sb-empty"><b>El encuentro está vacío</b><span>Busca un Digimon arriba o ábrelo en el bestiario y pulsa «Añadir al encuentro».</span></div>`}
+  </div>`;
+  $("#enc-n").addEventListener("change", e => { ENC.N = Math.max(1, Math.min(8, +e.target.value || 4)); saveEnc(); encounter(); });
+  $("#enc-ref").addEventListener("change", e => { ENC.ref = +e.target.value; saveEnc(); encounter(); });
+  $("#enc-clear").addEventListener("click", () => { ENC.list = []; saveEnc(); encounter(); });
+  const q = $("#enc-q");
+  const addQ = () => { const name = q.value.split(" · ")[0].trim(), lvl = q.value.split(" · ")[1]; const d = S.best.find(x => norm(x.nombre) === norm(name) && (!lvl || x.nivel === lvl.trim())); if (!d) return; ENC.list.push({ id: d.id, t: d.amenaza_sugerida || "estandar", pv: null }); saveEnc(); encounter(); $("#enc-q").focus(); };
+  q.addEventListener("change", addQ);
+  $$(".enc-t tr[data-i]").forEach(tr => {
+    const i = +tr.dataset.i;
+    $(".enc-t-sel", tr).addEventListener("change", ev => { ENC.list[i].t = ev.target.value; ENC.list[i].pv = null; saveEnc(); encounter(); });
+    $(".enc-pv", tr).addEventListener("change", ev => { ENC.list[i].pv = Math.max(0, +ev.target.value || 0); saveEnc(); });
+    $(".enc-del", tr).addEventListener("click", () => { ENC.list.splice(i, 1); saveEnc(); encounter(); });
+  });
+  window.scrollTo(0, 0);
 }
 
 /* ---------- ficha editable ---------- */
@@ -327,14 +405,14 @@ const TRASFONDOS = {
   "Hermano/a mayor": ["empatia", "medicina", "Botiquín", "Protector: +1 para proteger a alguien más débil o más joven."],
   "Explorador/a": ["supervivencia", "atletismo", "Cuerda y brújula", "Siempre preparado: 1 vez por sesión, saca un objeto común razonable."],
   "Artista": ["arte", "persuasion", "Instrumento o utensilios de cocina", "Inspiración: en un descanso corto, los compañeros recuperan VF PV extra."],
-  "Pícaro/a": ["sigilo", "engano", "Tirachinas o ganzúas", "Escurridizo: +1 a las tiradas de Defensa de tu Tamer."],
+  "Pícaro/a": ["sigilo", "engano", "Tirachinas o ganzúas", "Huidizo: +1 a las tiradas de Defensa de tu Tamer."],
   "Líder nato": ["persuasion", "tactica", "Silbato", "Al mando: tu Orden puede darse a cualquier compañero del grupo."],
   "Chico/a de campo": ["supervivencia", "empatia", "Navaja multiusos", "Mano con los animales: los Digimon salvajes empiezan un paso más amistosos."],
   "Gamer": ["saber", "tecnologia", "Consola portátil", "Me sé este jefe: +1 a Analizar; 1 vez por combate repite una tirada de Analizar."],
 };
 const HABILIDADES = [["atletismo", "Atletismo"], ["sigilo", "Sigilo"], ["tecnologia", "Tecnología"], ["saber", "Saber Digital"], ["observacion", "Observación"], ["supervivencia", "Supervivencia"], ["medicina", "Medicina"], ["persuasion", "Persuasión"], ["engano", "Engaño"], ["empatia", "Empatía"], ["tactica", "Táctica"], ["arte", "Arte"]];
-const SENDAS = { "Estratega": "¡Flanqueo!: tu compañero y un aliado que ataquen al mismo enemigo tienen +1 contra él.", "Técnico": "Memoria ampliada: +2 Carga máxima y 1 programa de Nivel 1 más.", "Protector": "Vínculo protector: +1 Aguante; en la misma zona, tu compañero tiene +1 Def contra técnicas de área.", "Explorador": "Ojo para el terreno: al empezar cada combate, da Cobertura o Altura a una zona, o quita Terreno difícil.", "Inspirador": "Llama del vínculo: al empezar cada combate, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo." };
-const DIGIVICES = { "Digivice clásico": 1, "D-3": 0, "D-Arc / D-Power": 1, "D-Tector": 0, "Digivice iC / Burst": 0, "Xros Loader": 0, "Digivice de campaña": 1 };
+const SENDAS = { "Estratega": "¡Flanqueo!: tu compañero y un aliado que ataquen al mismo enemigo este asalto tienen +1 contra él.", "Técnico": "Memoria ampliada: +2 Carga máxima y 1 programa de Nivel 1 más.", "Protector": "Vínculo protector: +1 Aguante; en la misma zona, tu compañero tiene +1 Def contra técnicas de área.", "Batidor": "Ojo para el terreno: al empezar cada combate, da Cobertura o Altura a una zona, o quita Terreno difícil.", "Inspirador": "Llama del vínculo: al empezar cada combate, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo." };
+const DIGIVICES = { "Digivice clásico": 1, "D-3": 1, "D-Arc / D-Power": 1, "D-Tector": 1, "Digivice iC / Burst": 0, "Xros Loader": 0, "Digivice de campaña": 1 };
 const EMBLEMAS = ["Valor", "Amistad", "Amor", "Sabiduría", "Pureza", "Sinceridad", "Fiabilidad", "Esperanza", "Luz", "Bondad", "Milagros", "Destino"];
 const VINCULO = { 1: ["Novato", "Campeón"], 2: ["Novato", "Perfecto"], 3: ["Campeón", "Perfecto"], 4: ["Campeón", "Definitivo"], 5: ["Perfecto", "Definitivo"], 6: ["Definitivo", "Modo Supremo"] };
 const PERSONALIDAD = ["Glotón", "Valiente e impulsivo", "Miedoso", "Orgulloso", "Curioso", "Gruñón", "Leal hasta el extremo", "Bromista", "Serio y responsable", "Cariñoso y pegajoso", "Perezoso", "Tímido"];
@@ -428,7 +506,7 @@ function sheet() {
         <h3>Habilidades <span class="hint">0 sin entrenar · +1 entrenada · +2 experta</span></h3>
         <div class="habs">${hab}</div>
         <div class="g2">
-          <label>Virtud ${txt("t.virtud", t.virtud)}</label>
+          <label>Cualidad ${txt("t.virtud", t.virtud)}</label>
           <label>Defecto ${txt("t.defecto", t.defecto)}</label>
           <label>Emblema ${sel("t.emblema", EMBLEMAS, t.emblema)}</label>
           <label>Digivice ${sel("t.digivice", Object.keys(DIGIVICES), t.digivice)}</label>
