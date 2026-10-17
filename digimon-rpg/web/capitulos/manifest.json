@@ -88,6 +88,46 @@
   "resumen": "Bits, consumibles, equipo del Tamer y objetos de trama con precios, los siete Digivices y los Emblemas con su arco."
  },
  {
+  "id": "c13",
+  "n": "13",
+  "titulo": "Reglas opcionales y avanzadas",
+  "grupo": "Reglas",
+  "archivo": "13-reglas-opcionales.md",
+  "resumen": "Todos los módulos opcionales: Digi-Huevos, Espíritus, DNA, Modos, X-Antibody, Digimon salvajes, corrupción, Agujas y Tarjetas."
+ },
+ {
+  "id": "c12",
+  "n": "12",
+  "titulo": "Guía del Director de Juego",
+  "grupo": "Director de juego",
+  "archivo": "12-guia-del-dj.md",
+  "resumen": "Cómo dirigir: preparar sesiones, ritmo, jugadas, relojes, presupuesto en PA, plantillas de amenaza, jefes, legendarios, recompensas y campañas."
+ },
+ {
+  "id": "c14",
+  "n": "14",
+  "titulo": "Cómo usar el bestiario",
+  "grupo": "Director de juego",
+  "archivo": "14-como-usar-el-bestiario.md",
+  "resumen": "Cómo leer una ficha del bestiario campo a campo, las plantillas de forma y de amenaza, las fórmulas y cómo crear Digimon propios."
+ },
+ {
+  "id": "c15",
+  "n": "15",
+  "titulo": "Personajes pregenerados",
+  "grupo": "Aventuras",
+  "archivo": "15-personajes-pregenerados.md",
+  "resumen": "Cinco parejas de nivel 1 listas para jugar (Gomamon, Guilmon, Renamon, Tentomon y Lalamon), con interpretación, secretos y vínculos."
+ },
+ {
+  "id": "c17",
+  "n": "17",
+  "titulo": "Aventura: La sombra del Engranaje",
+  "grupo": "Aventuras",
+  "archivo": "17-aventura-la-sombra-del-engranaje.md",
+  "resumen": "Mini-campaña de tres sesiones: la sombra de los Engranajes Negros, la Fábrica de Metal y la decisión de purificar o derrotar a Leomon."
+ },
+ {
   "id": "apendice",
   "n": "A",
   "titulo": "Apéndice: biblia de reglas",
