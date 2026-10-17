@@ -120,12 +120,28 @@
   "resumen": "Cinco parejas de nivel 1 listas para jugar (Gomamon, Guilmon, Renamon, Tentomon y Lalamon), con interpretación, secretos y vínculos."
  },
  {
+  "id": "c16",
+  "n": "16",
+  "titulo": "Aventura: La primera Puerta",
+  "grupo": "Aventuras",
+  "archivo": "16-aventura-la-primera-puerta.md",
+  "resumen": "Aventura de iniciación de una sesión: los Tamers cruzan su primera Puerta, conocen a sus compañeros y salvan la Aldea Molinete."
+ },
+ {
   "id": "c17",
   "n": "17",
   "titulo": "Aventura: La sombra del Engranaje",
   "grupo": "Aventuras",
   "archivo": "17-aventura-la-sombra-del-engranaje.md",
   "resumen": "Mini-campaña de tres sesiones: la sombra de los Engranajes Negros, la Fábrica de Metal y la decisión de purificar o derrotar a Leomon."
+ },
+ {
+  "id": "c19",
+  "n": "19",
+  "titulo": "Referencia rápida y glosario",
+  "grupo": "Referencia",
+  "archivo": "19-referencia-rapida.md",
+  "resumen": "Todas las tablas de consulta en la mesa, un glosario alfabético y tablas aleatorias de ganchos, encuentros, lugares y complicaciones."
  },
  {
   "id": "apendice",
