@@ -20,9 +20,9 @@ Así suena un rato de partida. Marta es la DJ. Leo juega con Kai y su compañero
 
 **Leo:** Kai quiere pasar por debajo del puente, agachado, sin hacer ruido. Agumon va detrás, pegado a él.
 
-**Marta (DJ):** Eso es Sigilo, y es una tirada normal, sin modificador. Tira 2d6 y suma tu Destreza y tu Sigilo.
+**Marta (DJ):** Eso es Sigilo. Te escondes de un Digimon de nivel Campeón, así que la tirada tiene −2. Tira 2d6, suma tu Destreza y tu Sigilo y resta 2.
 
-**Leo:** Tengo Destreza +1 y Sigilo +1. Saco un 4 y un 2: seis, más dos, ocho.
+**Leo:** Tengo Destreza +1 y Sigilo +1: más dos y menos dos, se queda en cero. Saco un 5 y un 3: ocho.
 
 **Marta (DJ):** Un 8. Lo consigues, pero con un coste. Llegas al otro lado... y tu mochila se engancha en un cable. Si tiras de ella, hará ruido. Puedes soltarla y seguir. ¿Qué prefieres?
 
@@ -30,13 +30,13 @@ Así suena un rato de partida. Marta es la DJ. Leo juega con Kai y su compañero
 
 **Sara:** Nia va detrás de Kai, igual de agachada.
 
-**Marta (DJ):** Tira tú también. Tu Destreza es 0 y no tienes Sigilo, así que tiras 2d6 sin sumar nada.
+**Marta (DJ):** Tira tú también. Tu Destreza es 0 y no tienes Sigilo, así que tiras 2d6 y restas 2.
 
-**Sara:** Un 3 y un 1. Cuatro.
+**Sara:** Un 3 y un 1. Cuatro, menos dos... dos.
 
 **Marta (DJ):** Pisas una rama de datos que cruje como un disquete roto. Kuwagamon se queda quieto y gira la cabeza, muy despacio, hacia tu lado. Eso sí: el fallo te da 1 Chispa. Tu Digivice se calienta en tu bolsillo. Nia, ¿qué haces?
 
-Fíjate: el DJ describe, los jugadores deciden y solo se tira cuando hay riesgo. Y fallar no es el final: la historia se pone más interesante y, en un momento de tensión, el fallo da **Chispa**, la energía que más adelante hará digievolucionar a tu compañero.
+Fíjate: el DJ describe, los jugadores deciden y solo se tira cuando hay riesgo. Antes de cada tirada, el DJ dice qué se suma y qué se resta (aquí, −2 porque cuanto más fuerte es un Digimon, más cuesta engañarlo). Y fallar no es el final: la historia se pone más interesante y, en un momento de tensión, el fallo da **Chispa**, la energía que más adelante hará digievolucionar a tu compañero.
 
 ## Quién hace qué
 
@@ -65,11 +65,11 @@ No hace falta mucho, y casi todo se encuentra en cualquier tienda de juegos.
 | Material | Cuántos | Para qué sirve |
 |---|---|---|
 | **2d6** del mismo color | 2 por jugador | La tirada básica: 2d6 + modificador. |
-| **Dado de Vínculo** (1d6 de otro color) | 1 por jugador | Una vez por asalto, tu Tamer lo añade a una tirada de ataque o de Defensa de su compañero: tiras 3d6 y te quedas con los 2 mejores. Si ese dado saca un 6, ganas 1 Chispa. |
+| **Dado de Vínculo** (1d6 de otro color) | 1 por jugador | Una vez por asalto (cada ronda de combate), tu Tamer lo añade a una tirada de ataque o de Defensa de su compañero: tiras 3d6 y te quedas con los 2 mejores. Si ese dado saca un 6, ganas 1 Chispa. |
 | **Dados de poder:** d4, d6, d8, d10 y d12 | 1 de cada por jugador | El daño de las técnicas. El dado depende del nivel del compañero: Bebé d4, Novato d6, Campeón d8, Perfecto d10, Definitivo d12. |
 | **Fichas para la Chispa** (botones, cuentas, gominolas...) | Unas 10 por jugador | La Chispa sube y baja todo el rato. Es más cómodo con fichas que con marcas. |
 | **Ficha de personaje** | 1 por pareja | Todo lo de tu Tamer y tu compañero. Tienes una versión editable en la web y un PDF rellenable. |
-| **Lápiz y goma** | 1 por persona | Las cosas cambian mucho: PV, Chispa, objetos, Bits. |
+| **Lápiz y goma** | 1 por persona | Las cosas cambian mucho: PV (puntos de vida), Chispa, objetos, Bits (el dinero del Mundo Digital). |
 | **Dados del DJ:** d20, d12, d8 y d6 | 1 juego | Las tablas aleatorias. Para el daño de los enemigos, el DJ usa también dados de poder. |
 
 Algunos detalles útiles:
@@ -100,7 +100,7 @@ Una sesión típica tiene esta forma:
 
 Cada Tamer empieza respondiendo a una pregunta: *¿qué te falta en tu vida?* Puede ser valor, alguien que te escuche, un sitio donde encajar o creer en ti. Esa respuesta es la semilla de tu **Emblema**, y a lo largo de la campaña verás cómo tu Tamer la va llenando. Crecer, en este juego, no es solo subir de nivel: es cambiar por dentro.
 
-Las amenazas son reales y los combates tienen emoción, pero el tono es luminoso. **Los Tamers no mueren.** Un compañero que cae en combate queda Derrotado, no muerto, y se recupera descansando. Solo con una regla opcional, el Borrado, puede volver a ser un Digi-Huevo y obligar a la pareja a empezar de nuevo; tu grupo decide si la usa.
+Las amenazas son reales y los combates tienen emoción, pero el tono es luminoso. **Los Tamers no mueren.** Un compañero que cae en combate queda Derrotado, no muerto, y se recupera descansando. Solo con una regla opcional, el Borrado, puede volver a ser un Digi-Huevo, y si el vínculo aún era débil, la pareja tiene que reconstruirlo desde el principio; tu grupo decide si la usa.
 
 ### El vínculo entre Tamer y Digimon
 
@@ -109,7 +109,7 @@ Lo más importante no está en las cifras de la ficha, sino entre tu Tamer y tu 
 - **El Vínculo** mide la confianza entre los dos. Sube cuando tu Tamer crece y la pareja vive un **Momento de Vínculo**: una escena en la que los dos se juegan algo el uno por el otro.
 - **La Chispa** es la emoción de tu Tamer que fluye por el Digivice. Se gana fallando, en momentos de crisis y actuando según tu Emblema. La digievolución nace de la adversidad: cuando las cosas van peor, tu compañero se vuelve más fuerte.
 - **El Dado de Vínculo** es ese instante en que tu Tamer grita el nombre de su compañero y el Digivice brilla. Cada asalto decides en qué tirada lo usas.
-- **La digievolución** es el gran momento de cada partida. Tu [[Agumon]] se convierte en [[Greymon]] y su daño pasa de dados de seis caras a dados de ocho. Al terminar la escena, tu compañero queda Hambriento. Tras un salto muy grande, de dos niveles o más, incluso vuelve a su forma de bebé (Agumon, a [[Koromon]]), y hay que cuidarlo.
+- **La digievolución** es el gran momento de cada partida. Tu [[Agumon]] se convierte en [[Greymon]] y su daño pasa de dados de seis caras a dados de ocho. Al terminar la escena, tu compañero queda Hambriento. Si en la escena ha estado dos niveles o más por encima de su nivel estable (el que mantiene sin gastar Chispa), incluso vuelve a su forma de bebé, Bebé II (Agumon, a [[Koromon]]), y hay que cuidarlo.
 
 Tu compañero no es una herramienta ni una mascota: es un amigo con personalidad propia. A veces tiene miedo, a veces se pelea contigo por la última galleta y a veces te salva la vida.
 

@@ -136,6 +136,14 @@
   "resumen": "Mini-campaña de tres sesiones: la sombra de los Engranajes Negros, la Fábrica de Metal y la decisión de purificar o derrotar a Leomon."
  },
  {
+  "id": "c18",
+  "n": "18",
+  "titulo": "Aventura: El trono vacío",
+  "grupo": "Aventuras",
+  "archivo": "18-aventura-el-trono-vacio.md",
+  "resumen": "Aventura para un grupo veterano en el Olimpo XII: intriga, un Cónclave con votos y el clímax contra Junomon como Legendario de tres fases."
+ },
+ {
   "id": "c19",
   "n": "19",
   "titulo": "Referencia rápida y glosario",
