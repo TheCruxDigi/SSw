@@ -93,7 +93,7 @@ Con −3 y −2, el 10+ solo llega con un doble seis.
 |---|---|
 | **Técnica** | Usa una técnica de ataque o de apoyo. Tras una Agotadora, en su siguiente turno no puede usar ninguna técnica Agotadora. |
 | **Defender** | +2 a sus tiradas de Defensa hasta su próximo turno (un PNJ: −2 a los ataques contra él). |
-| **Proteger** | Elige un aliado o un Tamer de su zona: los ataques individuales contra él le apuntan a él, con +1 Def. |
+| **Proteger** | Elige un aliado o un Tamer de su zona: hasta su próximo turno, los ataques individuales contra él le apuntan a él, con +1 Def. |
 | **Cargar** | Prepara una técnica con *Cargado*. |
 | **Correr** | Se mueve 2 zonas en total. |
 | **Maniobra** | 2d6 + Atq − Def. 10+ aplica Derribar, Empujar, Atrapar o Marcar · 7–9 lo aplica, pero queda Expuesto · 6– falla. |
@@ -154,7 +154,7 @@ Con −3 y −2, el 10+ solo llega con un doble seis.
 | Perfecto | 3 | d10 | 5 | 5,5 | 11,0 | 16,5 | 35 | 3 | 17 |
 | Definitivo | 4 | d12 | 6 | 6,5 | 13,0 | 19,5 | 42 | 4 | 21 |
 
-*P1, P2 y P3 son el daño medio antes de la Arm. Armadura e Híbrido usan la fila de Campeón (salvo excepciones, capítulo 14); Indeterminado, la de Novato (NEO, la de Definitivo). Daño fijo (por defecto para esbirros y pelotones): cada dado vale su VF, y VF + 1 con un 10+ del atacante o un 6– del defensor.*
+*P1, P2 y P3 son el daño medio antes de la Arm. Armadura usa la fila de Campeón (salvo excepciones) e Híbrido, la de su clase de Espíritu (capítulos 13 y 14); Indeterminado, la de Novato (NEO, la de Definitivo). Daño fijo (por defecto para esbirros y pelotones): cada dado vale su VF, y VF + 1 con un 10+ del atacante o un 6– del defensor.*
 
 - **Arm y Escudo:** Arm máxima 2 en la ficha, 3 con programas o chips. Los Escudos no se acumulan y se pierden al final de la escena.
 - **Ataque conjunto** [A]: dos parejas; cada Tamer paga 1 Chispa. Una tirada con el mejor Atq de los dos, +1; el daño suma los dados de ambas técnicas, y la Arm y las Resistencias se aplican una vez.
@@ -274,13 +274,13 @@ Cada técnica lleva como mucho 2 palabras clave. Las 20 de estado están en la t
 
 ### La Chispa (capítulo 6)
 
-Máximo **3 + Vínculo**. Al empezar cada sesión, si tienes menos que tu Vínculo, sube hasta tu Vínculo.
+Empiezas con **1** al crear el personaje. Máximo **3 + Vínculo**. Al empezar cada sesión, si tienes menos que tu Vínculo, sube hasta tu Vínculo.
 
 | Cómo se gana | Chispa | Límite |
 |---|---|---|
 | **Fallo dramático:** un 6– del Tamer o del compañero en tensión (no la iniciativa) | +1 | 1 por asalto en combate; 1 por escena fuera |
 | **Resonancia:** el Dado de Vínculo saca un 6 (desde Vínculo 4, un 5 o un 6) | +1 | 1 por asalto |
-| **Crisis:** el compañero baja por primera vez a la mitad de sus PV o menos, el Tamer pierde Aguante por primera vez o el DJ telegrafía un ataque contra el Tamer | +1 | 1 por combate |
+| **Crisis:** en el combate, el compañero baja por primera vez a la mitad de sus PV o menos (en cualquier forma), el Tamer pierde Aguante por primera vez o el DJ telegrafía un ataque contra el Tamer | +1 | 1 por combate |
 | **Emblema:** el Tamer actúa según su virtud asumiendo un riesgo real | +1 | 1 por escena |
 | **Personalidad o defecto** causan un problema real | +1 | 1 por sesión cada uno |
 | **Animar** con éxito (opción del menú) | +1 | 1 por combate |
@@ -465,6 +465,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Actitud** | Disposición de un PNJ hacia el grupo, de Hostil (−2) a Leal (+2). | 3 |
 | **Actuar en el entorno** | Acción de Tamer: rescatar, hackear, avanzar un objetivo de escena. | 7 |
 | **Adyacente** | Zona unida a otra por una línea en el mapa. | 7 |
+| **Afinidad** | Elemento por defecto de una familia; también, el avance que quita una debilidad o da una Resistencia. | 8, 11 |
 | **Agotado** | Estado tras caer una forma temporal: −1 a todo y sin digievolucionar. | 6 |
 | **Agotadora** | P3 o apoyo con Curar o Escudo: al turno siguiente, ninguna Agotadora. | 8 |
 | **Aguante** | Los «puntos de vida» del Tamer: 6 + VAL. | 4 |
@@ -499,11 +500,14 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Campeón** | Nivel de rango 2 (d8). | 5, 6 |
 | **Carga** | Puntos del Digivice para programas: 3 + AST + Digivice. | 4, 9 |
 | **Cargar / Cargado** | Acción y palabra clave: preparar una técnica (+1 y +1 dado). | 7, 8 |
+| **Casillas** [O] | Opción de tablero: 1 zona equivale a unas 4 × 4 casillas. | 13 |
 | **Chispa** | La emoción del Tamer; paga la digievolución. | 6 |
+| **Clima digital** | Tabla d6 que cambia las condiciones de una jornada de viaje. | 3 |
 | **Combate** | Escena completa de pelea. | 2, 7 |
 | **Combos elementales** [O] | Efecto extra de un elemento sobre cierto estado. | 13 |
 | **Compañero** | El Digimon del Tamer; usa la ficha del bestiario. | 5 |
 | **Control duro** | Aturdir, Dormir y Regresión: nunca con 7–9. | 8 |
+| **Correr** | Acción del Digimon: se mueve 2 zonas en total. | 7 |
 | **Corrupción** [O] | Oscuridad acumulada por un Tamer (0–3). | 13 |
 | **Crisis** | Momento crítico: 1 Chispa y detonante del primer Campeón. | 6 |
 | **Crítico** | Doble seis: siempre 10+, con un extra. | 2 |
@@ -511,9 +515,11 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Dado de poder** | Dado de daño: d4, d6, d8, d10 o d12 según el nivel. | 8 |
 | **Dado de Vínculo (DV)** | d6 de otro color que da Ventaja al compañero una vez por asalto. | 6 |
 | **Daño fijo** | Cada dado vale su VF. | 7 |
+| **Daño por turno** | Quemar, Veneno e invocaciones: VF del causante en cada turno. | 8 |
 | **Debilidad** | Elemento que le hace +1 dado de daño a una ficha. | 8 |
 | **Def** | Defensa del Digimon. | 5 |
 | **Defecto** | Rasgo personal negativo del Tamer: 1 Chispa por sesión. | 4 |
+| **Defender** | Acción del Digimon: +2 a su Defensa hasta su próximo turno. | 7 |
 | **Defensa del Tamer** | 2d6 + DES + Atletismo − Atq. | 7 |
 | **Definitivo** | Nivel de rango 4 (d12). | 5, 6 |
 | **Derrotado** | Cae la forma estable: Bebé II e inconsciente. | 7 |
@@ -527,6 +533,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Digievolución forzada / oscura** [A] | Superar los límites con 2d6 + Vínculo. | 6 |
 | **Digi-Huevo** | Lo que deja un Digimon al caer; objeto de la Armadura [O]. | 7, 13 |
 | **Digivice** | El aparato del Tamer: DV, Carga, programas y digievolución. | 10 |
+| **Distancia** | Alcance: tu zona o una adyacente (−1 si estás trabado). | 8 |
 | **DJ** | Director de Juego: describe el mundo y lleva a los PNJ. | 1 |
 | **DNA / Jogress** [O] | Fusión de dos compañeros. | 13 |
 | **Dominio** | Regla especial del grupo de un Legendario. | 12 |
@@ -535,6 +542,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 
 | Término | Qué es | Cap. |
 |---|---|---|
+| **Elemento** | Uno de los 14 (Fuego, Agua, Luz…): decide debilidades, resistencias y el estado por defecto. | 8 |
 | **Élite** | Plantilla: PV × 1,5, +1 Atq, Def e Ini y una reacción. 2 PA. | 12 |
 | **Emblema** | La virtud del Tamer: Chispa, primer Perfecto y Resonancia. | 10 |
 | **Engranaje Negro** | Corrompe a un Digimon: Hostil y +1 Atq. | 3, 13 |
@@ -548,21 +556,25 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Estabilización** | Con más Vínculo, las formas de un nivel pasan a ser estables. | 6 |
 | **Estado** | Efecto alterado de una técnica. | 8 |
 | **Estándar** | La ficha tal cual. 1 PA. | 12 |
+| **Evento de viaje** | Tabla d12 que el DJ tira cuando alguien saca 6– en su papel de viaje. | 3 |
 | **Expuesto** | −1 Def; un Tamer Expuesto puede ser atacado. | 7, 8 |
 | **Familia** | Uno de los 14 grupos de tipos. | 8 |
 | **Fase rápida / enemiga / lenta** | Las tres partes del asalto. | 7 |
 | **Fases de un Jefe** | Tramos de PV con escudo de fase. | 12 |
+| **Fatiga acumulada** [O] | Alternativa a la regresión: se acumula por los niveles subidos. | 13 |
 | **Firma** | Técnica emblemática: P3 (o P2/P3). | 8 |
 | **Firma telegrafiada** [A] | El Jefe la carga un asalto antes. | 12 |
 | **Forma de partida** | Desde la que se digievolucionó; se vuelve a ella. | 6 |
 | **Forma estable / temporal** | Sin Chispa / con Chispa hasta el final de la escena. | 6 |
 | **Franjas** | 10+, 7–9 y 6–. | 2 |
+| **Fricción del Vínculo** [O] | El Vínculo baja 1 de forma temporal tras una traición grave. | 13 |
 | **Furia** | Jefe al cruzar el umbral: +1 dado y +1 Chispa a cada Tamer. | 12 |
 | **Golpe aguantado** | Un impacto de PNJ no quita más de la mitad de los PV máximos. | 7 |
 | **Guardia de carga** [A] | Daño que rompe la carga de un Jefe. | 12 |
 | **Habilidad** | Una de las 12 del Tamer: 0, +1 o +2. | 4 |
 | **Hambriento** | −1 fuera de combate; digievolucionar cuesta +1. | 6 |
 | **Herido** | −1 a tiradas físicas del Tamer hasta un descanso largo. | 7 |
+| **Hordas inferiores** | Contra esbirros 2 o más rangos por debajo, cualquier técnica cuenta como de área. | 12 |
 | **Huida** | 2d6 + Ini − Ini del perseguidor. | 7 |
 
 ### I – N
@@ -571,12 +583,16 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 |---|---|---|
 | **Indeterminado** | Nivel `Unknown`: fila de Novato (NEO, de Definitivo). | 14 |
 | **Índice de amenaza** | Baja, media o alta: PA × ¾, 1 o 1½. | 12, 14 |
+| **Individual** | Área de un solo objetivo. | 8 |
 | **Ini / Iniciativa** | Rapidez del Digimon; 2d6 + Ini − Ini del enemigo más rápido. | 7 |
+| **Iniciativa individual** [O] | Cada pareja y cada PNJ tiran y se actúa de mayor a menor. | 13 |
 | **Instinto protector** | El compañero se interpone ante un ataque a su Tamer. | 7 |
 | **Invocación** | Creada con Invocar: VF de daño durante 2 asaltos. | 8 |
 | **Jefe** | Plantilla del clímax: fases, Furia, varias acciones. N PA. | 12 |
 | **Jugadas del DJ** | Tras un 6–: suaves (avisan) o duras (golpean). | 2, 12 |
+| **Larga** | Alcance de hasta 2 zonas (−1 si estás trabado). | 8 |
 | **Legendario** | Plantilla de los grandes poderes: 3 fases y Dominio. 2N PA. | 12 |
+| **Libre** | Atributo neutral: fuera del triángulo, +VF PV. | 8 |
 | **Límite de ±3** | Tope de los modificadores situacionales. | 2 |
 | **Línea evolutiva** | Formas alcanzables (listas *prev* y *next*). | 5 |
 | **Maniobra** | Acción sin técnica: Derribar, Empujar, Atrapar o Marcar. | 7 |
@@ -586,6 +602,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Modos** [O] | Formas alternas, supremas u oscuras. | 13 |
 | **Momento de Vínculo** | Escena que prueba a la pareja; sube el Vínculo. | 6 |
 | **N** | Número de parejas del grupo. | 12 |
+| **Ninguno** | Atributo neutral, sin modificadores. | 8 |
 | **Nivel (Digimon)** | Su etapa, de Bebé I a Definitivo. | 5, 14 |
 | **Nivel de referencia** | Nivel del grupo en el asalto 1; base del presupuesto. | 12 |
 | **Nivel de Tamer** | De 1 a 10; sube con 10 XP. | 11 |
@@ -597,8 +614,11 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | Término | Qué es | Cap. |
 |---|---|---|
 | **Objetivo de escena** [A] | Otra forma de ganar un combate, con un reloj. | 12 |
+| **Objeto de trama** | Digi-Huevo, Espíritu, Emblema físico, Tarjeta Azul o Dorada, Engranaje Negro… | 10 |
 | **Oculto** | Inmune a Distancia y Larga; +2 a su primer ataque. | 8 |
 | **Orden** | Acción de Tamer: +1 a la próxima tirada del compañero. | 7, 11 |
+| **Orden especial** | Orden de un talento; sustituye al +1 de la Orden normal. | 7, 11 |
+| **Orden táctica** [A] | AST + Táctica: +2 y 1 zona extra con 10+, +1 con 7–9. | 7 |
 | **P1, P2, P3** | Potencia: 1, 2 o 3 dados de poder. | 8 |
 | **PA** | Puntos de amenaza de un enemigo. | 12 |
 | **Palabra clave** | Uno de los 35 efectos de técnica. | 8 |
@@ -607,24 +627,33 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Pelotón** | De 3 a 6 esbirros con un solo perfil. | 12 |
 | **Perfecto** | Nivel de rango 3 (d10). | 5, 6 |
 | **Persecución** | Medidor de Distancia de 0 a 6. | 3 |
+| **Personal** | Alcance: solo el usuario. | 8 |
 | **Personalidad** | Rasgo del compañero (d12); 1 Chispa por sesión. | 5 |
 | **Pifia** | Doble uno: siempre 6– y jugada dura. | 2 |
 | **PJ / PNJ** | Personaje jugador / personaje del DJ. | 1 |
+| **Plantilla** | Ajuste de una ficha: de amenaza (Esbirro… Legendario, la aplica el DJ) o de forma (X-Antibody, Modos, Armadura…). | 12, 14 |
+| **Ponerse a cubierto** | Acción de Tamer: +2 a su Defensa y deja de estar Expuesto. | 7 |
 | **Potenciado / Potenciado+** | +1 al próximo ataque / y +1 dado. | 8 |
+| **Presupuesto de encuentro** | PA totales: Fácil N ÷ 2, Normal N, Difícil 1,5 × N, Épico 2 × N; más, Mortal. | 12 |
 | **Programa** | Tarjeta que el Digivice ejecuta con Carga. | 9 |
+| **Proteger** | Acción del Digimon: recibe él los ataques individuales contra un aliado de su zona. | 7 |
 | **Prueba de grupo** | Tiran todos; basta con la mitad en 7+. | 2 |
 | **Punto débil** [A] | Debilidad, parte o ventana de un Jefe. | 12 |
 | **PV** | Puntos de vida del Digimon. | 7 |
+| **Ráfaga** | Área de hasta 2 objetivos con una sola tirada. | 8 |
 | **Rango** | Número del nivel (0 a 4); es lo que se compara. | 5, 7 |
 | **Rasgo** | Regla especial del rol, la familia, el atributo o una plantilla. | 5, 8 |
+| **Rasgo de zona** | Cobertura, Altura, Agua, Terreno difícil, Peligro, Oscuridad o Estrecha. | 7 |
 | **Reacción** | Efecto fuera de turno; 1 por asalto. | 7 |
 | **Refuerzo I / II** | Mejoras del Jefe de la aventura según el Vínculo. | 12 |
+| **Región** | Una de las 8 zonas del Mundo Digital, con su nivel típico. | 3 |
 | **Regla de espejo** | Lo que modifica a un PNJ se aplica al revés al PJ. | 2 |
 | **Regresión** | Control duro; y vuelta a Bebé II tras un gran salto. | 6, 8 |
 | **Reloj** | Contador de 4, 6 u 8 segmentos. | 2 |
 | **Resistencia** | Elemento que una ficha recibe a mitad de daño. | 8 |
 | **Resonancia** | DV con un 6 (5–6 desde Vínculo 4): +1 Chispa. | 6 |
 | **Resonancia del Emblema** [A] | Poder del Emblema por 2 Chispa. | 10 |
+| **Retirarse** | Acción del Digimon: sale trabado de una zona sin ataque de retirada. | 7 |
 | **Rol / Rol fijado** | Estilo de combate del Digimon (8) / el que elige el jugador. | 5 |
 
 ### S – Z
@@ -634,6 +663,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Segundo aliento** | Digievolucionar estando Agotado (+2 Chispa). | 6 |
 | **Senda** | Estilo de combate del Tamer (5). | 4 |
 | **SIN DATOS** | Atributo neutral (`NO DATA`). | 8 |
+| **Sobrecarga controlada** [A] | 10+ en la digievolución forzada: la forma dura 2 asaltos. | 6 |
 | **Sorpresa** | PNJ sorprendidos no actúan en el asalto 1; PJ sorprendidos, a la fase lenta. | 7 |
 | **Talento** | Poder del Tamer al subir de nivel. | 11 |
 | **Tamer** | Chico o chica de unos 10 a 17 años, compañero de un Digimon. | 4 |
@@ -642,11 +672,17 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Técnica básica** | P1 de Toque de cada familia. | 8 |
 | **Técnica heredada / perfeccionada / nueva** | Avances del repertorio. | 5, 11 |
 | **Telegrafiar** | Anunciar un ataque un asalto antes. | 7, 12 |
+| **Tirada enfrentada** | PJ contra PJ: gana el total más alto. | 2 |
+| **Tirada social** | 2d6 + atributo + Persuasión, Engaño o Empatía + actitud. | 3 |
+| **Toque** | Alcance: un objetivo de tu zona; quedas trabado con él. | 8 |
+| **Total** | Área: todos los enemigos al alcance; no admite control duro. | 8 |
 | **Trabado** | En la zona de un enemigo tras un Toque. | 7 |
 | **Trasfondo** | Origen del Tamer (10). | 4 |
 | **Triángulo** | Vacuna > Virus > Datos > Vacuna: ±1. | 8 |
 | **Turno** | Una acción de Tamer y una de Digimon. | 7 |
 | **Último aliento** | 2 Chispa: el compañero se queda a 1 PV. | 6 |
+| **Vacuna / Datos / Virus** | Los tres atributos del triángulo. | 8 |
+| **Variable** | Atributo que elige ser Vacuna, Datos o Virus en cada escena. | 8 |
 | **Ventaja** | 3d6, quédate con los 2 mejores. | 2 |
 | **VF** | Valor fijo: la mitad de las caras del dado. | 8 |
 | **Viaje (papeles)** | Guía, Vigía, Intendente y Ojeador. | 3 |
@@ -656,7 +692,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **XP** | 1 por cada «sí» al final de la sesión. | 11 |
 | **Zona** | Área del campo de batalla; también, un área de técnica. | 7, 8 |
 
-**No los confundas:** *Arm* y *Armadura* · *Agotado* y *Agotadora* · *Indeterminado* (nivel) y *Desconocido* (atributo) · *Místico* (rol) y *Arcano* (familia) · familia *Oscuro*, *Modo Oscuro* y *digievolución oscura* · *Resonancia* y *Resonancia del Emblema* · *Carga*, *Cargar* y *Guardia de carga* · *Mejora* (palabra clave) y *avances del compañero* · *Explorador/a* (trasfondo), *Batidor* (Senda) y *Ojeador* (papel de viaje).
+**No los confundas:** *Arm* y *Armadura* · *Agotado* y *Agotadora* · *Indeterminado* (nivel) y *Desconocido* (atributo) · *Místico* (rol) y *Arcano* (familia) · familia *Oscuro*, *Modo Oscuro* y *digievolución oscura* · *Resonancia* y *Resonancia del Emblema* · *Carga*, *Cargar* y *Guardia de carga* · *Mejora* (palabra clave) y *avances del compañero* · *Explorador/a* (trasfondo), *Batidor* (Senda) y *Ojeador* (papel de viaje) · nivel del Digimon, *nivel de Tamer*, *nivel de programa* y *nivel estable* o *máximo* · *Cualidad* (rasgo personal) y *virtud* (del Emblema) · *Valor* (atributo) y Emblema del Valor · *Protector* (Senda) y *Protector* (rasgo del trasfondo Hermano/a mayor) · *Escurridizo* (rol Ágil) y *Huidizo* (trasfondo Pícaro) · *Grito de guerra* (técnica) y *¡A por ellos!* (Orden) · *Purga* (combo) y *Purgado* (programa) · *Sobrecarga controlada* y *Overclock* (programa) · *Bloqueos* y *Candado* (programa).
 
 ## Tablas aleatorias para el DJ
 
@@ -689,7 +725,7 @@ Cuando te falte una idea, tira. Si el resultado no encaja, elige otro o mezcla d
 
 ### Encuentros por región (d12)
 
-El Bosque Nativo (d20) y la Ciudad Juguete y Fábrica de Metal (d12) ya tienen tabla en el capítulo 3. Aquí tienes las otras seis regiones. Un encuentro no siempre es un combate: la actitud indica cómo recibe al grupo. Aplica la plantilla y ajusta el número con el presupuesto de encuentro. Un **presagio** aparece, deja una pista y se va; si hay pelea, ofrece siempre la huida.
+Aquí tienes las ocho regiones del capítulo 3. Todas usan un d12, salvo el Bosque Nativo, que usa un d20 por ser la región más variada. Un encuentro no siempre es un combate: la actitud indica cómo recibe al grupo. Aplica la plantilla y ajusta el número con el presupuesto de encuentro. Un **presagio** aparece, deja una pista y se va; si hay pelea, ofrece siempre la huida.
 
 > **Consejo para el DJ:** vigila el nivel de referencia. Un enemigo dos niveles por encima del grupo es imposible sin digievolucionar: úsalo como presagio, nunca como encuentro casual.
 
@@ -709,6 +745,30 @@ El Bosque Nativo (d20) y la Ciudad Juguete y Fábrica de Metal (d12) ya tienen t
 | 10 | [[Jijimon]] de visita, buscando a quien le lleve un recado a las Ruinas | Neutral |
 | 11 | Una cuna vacía con marcas de garras: algo se llevó un huevo anoche | — |
 | 12 | Una sombra alada cruza el cielo: [[Devimon]] observa y se va (presagio) | Hostil |
+
+**Bosque Nativo** (Novato–Campeón; d20)
+
+| d20 | Encuentro | Actitud |
+|---|---|---|
+| 1–2 | Pelotón de 4 [[Goblimon]] (esbirros Novato) | Hostil |
+| 3 | [[Kuwagamon]] (Campeón) | Hostil |
+| 4 | 2 [[Gotsumon]] | Recelosa |
+| 5 | [[Palmon]] y [[Floramon]], perdidas | Amistosa |
+| 6 | 3 [[Numemon]] (esbirros Campeón) | Recelosa |
+| 7 | [[Elecmon]], guardián de Digi-Huevos | Recelosa |
+| 8 | [[Tentomon]] curioso | Neutral |
+| 9 | [[Ogremon]], rival bravucón | Hostil |
+| 10 | [[Leomon]], mentor | Neutral |
+| 11 | 2 [[Kokuwamon]] | Neutral |
+| 12 | [[Snimon]] | Hostil |
+| 13 | [[Woodmon]] | Hostil |
+| 14 | 3 [[Mushroomon]] bromistas | Recelosa |
+| 15 | [[Unimon]] con Engranaje Negro | Hostil (liberable) |
+| 16 | [[Monochromon]] territorial | Recelosa |
+| 17 | [[Biyomon]] | Amistosa |
+| 18 | [[Drimogemon]] excavando | Neutral |
+| 19 | [[Devimon]] (presagio; huye tras 2 asaltos) | Hostil |
+| 20 | [[Andromon]], Perfecto perdido y sin memoria | Neutral |
 
 **Desierto de Datos** (Campeón)
 
@@ -741,6 +801,22 @@ El Bosque Nativo (d20) y la Ciudad Juguete y Fábrica de Metal (d12) ya tienen t
 | 10 | [[Gesomon]] con Engranaje Negro bajo el muelle | Hostil (liberable) |
 | 11 | [[MarineDevimon]] en aguas profundas (Perfecto) | Hostil |
 | 12 | La silueta de [[MetalSeadramon]] bajo las olas (presagio) | Hostil |
+
+**Ciudad Juguete y Fábrica de Metal** (Campeón–Perfecto)
+
+| d12 | Encuentro | Actitud |
+|---|---|---|
+| 1–2 | Pelotón de 4 [[PawnChessmon (White)]] o [[PawnChessmon (Black)]] (esbirros Novato) | a elección del DJ |
+| 3 | [[Guardromon]] de patrulla | Recelosa |
+| 4 | [[Tankmon]] averiado (Tecnología para repararlo) | Neutral |
+| 5 | [[Monzaemon]] triste | Amistosa |
+| 6 | [[Hagurumon]] con Engranaje Negro | Hostil (liberable) |
+| 7 | [[Mekanorimon]] pilotado por nadie | Hostil |
+| 8 | [[Andromon]] guardián | Neutral |
+| 9 | 3 [[Numemon]] en las tuberías | a elección del DJ |
+| 10 | [[Clockmon]] con un mensaje del futuro | a elección del DJ |
+| 11 | [[Puppetmon]] jugando a ser rey (Jefe; Definitivo: antes de tiempo, presagio) | Hostil |
+| 12 | [[Machinedramon]] en el horizonte (presagio) | a elección del DJ |
 
 **Montaña Infinita** (Perfecto)
 

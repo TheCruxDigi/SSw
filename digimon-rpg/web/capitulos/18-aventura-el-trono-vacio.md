@@ -22,7 +22,7 @@ Aquí aprenderás a dirigir una intriga entre dioses, con pistas repartidas por 
 
 ### El tramo del grupo
 
-Mira el **Vínculo de la mayoría** antes de cada combate y recuerda que el nivel de referencia solo cuenta formas desbloqueadas.
+Mira el **Vínculo de la mayoría** antes de cada combate y recuerda que el nivel de referencia solo cuenta formas desbloqueadas. Los presupuestos de cada encuentro van en **PA** (puntos de amenaza, capítulo 12).
 
 | | Tramo Perfecto | Tramo Definitivo |
 |---|---|---|
@@ -82,7 +82,7 @@ Hay cuatro verdades que descubrir. Cada una tiene un efecto concreto en el Cónc
 
 Once dioses votan en el Cónclave. Jupitermon falta y [[Merukimon]], el mensajero que nunca se sienta, no vota. Todos son Definitivos que el bestiario marca como Legendarios, pero aquí **no combaten**: son la corte, los testigos y los jueces.
 
-**El voto depende de la actitud hacia el grupo** (capítulo 3): Hostil o Recelosa, **culpable**; Neutral, se abstiene; Amistosa o Leal, **inocente**. Junomon vota culpable pase lo que pase. Cada visita durante la investigación permite una tirada social con ese dios: 2d6 + COR, AST o VAL (según el enfoque) + Persuasión, Engaño o Empatía + su actitud, con **−1** porque son de rango superior a los compañeros. Con **10+**, la actitud sube un paso. Con **7–9**, el Tamer elige: la sube, o consigue lo que pide a cambio de algo. Con **6–**, baja un paso o surge una complicación.
+**El voto depende de la actitud hacia el grupo** (capítulo 3): Hostil o Recelosa, **culpable**; Neutral, se abstiene; Amistosa o Leal, **inocente**. Junomon vota culpable pase lo que pase. Cada visita durante la investigación permite una tirada social con ese dios: 2d6 + COR, AST o VAL (según el enfoque) + Persuasión, Engaño o Empatía + su actitud, con **−1** porque son de rango superior a los compañeros. Con **10+**, la actitud sube un paso y el Tamer consigue lo que pide, si es razonable. Con **7–9**, el Tamer elige: la sube, o consigue lo que pide a cambio de algo. Con **6–**, baja un paso o surge una complicación.
 
 | Dios | Actitud inicial | Qué quiere | Le convence (Ventaja) | Qué sabe |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Al empezar, el recuento es **4 culpables, 2 inocentes y 5 abstenciones**: si se 
 
 ### Escena 1: Truenos sin dueño
 
-Empieza donde esté tu grupo. Una tormenta seca, sin lluvia, cruza el cielo y los rayos caen donde quieren. Uno parte en dos el tejado de una posada llena de Digimon pequeños. Juega el rescate como una **prueba de grupo** (capítulo 2): cada Tamer elige cómo ayuda (VAL + Atletismo para sacar a alguien, AST + Medicina para atender heridos, COR + Empatía para calmar a los que lloran) y cada compañero puede tirar fuera de combate con su rango. Si la mitad saca 7+, nadie sale herido. Cada 6– individual cuesta 1 Aguante.
+Empieza donde esté tu grupo. Una tormenta seca, sin lluvia, cruza el cielo y los rayos caen donde quieren. Uno parte en dos el tejado de una posada llena de Digimon pequeños. Juega el rescate como una **prueba de grupo** (capítulo 2): cada Tamer elige cómo ayuda (VAL + Atletismo para sacar a alguien, AST + Medicina para atender heridos, COR + Empatía para calmar a los que lloran) y cada compañero puede tirar fuera de combate con su rango. Si al menos la mitad saca 7+, nadie sale herido. Cada 6– individual cuesta 1 Aguante.
 
 Cuando el humo se disipa, un borrón cruza la plaza y se detiene en seco. Es [[Merukimon]], que habla deprisa y no se queda quieto ni un segundo.
 
@@ -136,7 +136,7 @@ Sin su rey, la tormenta enloquece a las aves que viven en ella. En el último tr
 **Enemigos.**
 
 - **[[Parrotmon]]** — Perfecto · Ave · Ágil · Vacuna · vuela. **Élite:** PV 45 · Atq +4 · Def +6 · Arm 0 · Ini +6 · d10 (VF 5); 1 reacción por asalto (Contraataque con Picotazo cuando un PJ saca 6– atacándole, o Proteger a un aliado). **Estándar:** PV 30 · Atq +3 · Def +5 · Ini +5. Picotazo (P1 · Toque · Neutro · 1d10); Golpe y fuga (maniobra de Ágil); **Mjölnir Thunder** (P2 · Distancia · Eléctrico · Paralizar · 2d10, **3d10 con la tormenta**); **Sonic Destroyer** (Firma: P3 · Distancia · Mental · Brutal, Rápido · 3d10). *Escurridizo* y *Vuelo*. Débil a Eléctrico y Acero; resiste Tierra y Mental.
-- **Pelotón de 4 [[Thunderbirdmon]]** — Armadura (fila de Campeón, rango 2) · Ave · Ágil · Datos · vuela. PV 28 (cae uno cada 7) · Atq +1 · Def +2 · Ini +5 · d8 (VF 4), daño fijo. Una vez por asalto, **Spark Wing** como P2 (Distancia · Eléctrico · Paralizar, Rápido): 2 dados, +2 por los miembros y +1 por la tormenta, **5 × 4 = 20** de daño fijo (5 por dado si el PJ saca 6–), antes de la escala épica. Las técnicas de área le hacen daño doble. Resiste Tierra y Eléctrico.
+- **Pelotón de 4 [[Thunderbirdmon]]** — Armadura (fila de Campeón, rango 2) · Ave · Ágil · Datos · vuela. PV 28 (cae uno cada 7) · Atq +1 · Def +2 · Ini +5 · d8 (VF 4), daño fijo. Una vez por asalto, **Spark Wing** como P2 (Distancia · Eléctrico · Paralizar, Rápido): 2 dados, +2 por los miembros y +1 por la tormenta, **5 × 4 = 20** de daño fijo (5 por dado si el PJ saca 6–), antes de aplicar la escala por rango (la mitad por cada rango que el objetivo le supere, capítulo 7). Las técnicas de área le hacen daño doble. Resiste Tierra y Eléctrico.
 - **[[Gryphonmon]]** (solo en el tramo Definitivo) — Definitivo · Bestia · Ágil · Datos. **Élite:** PV 63 · Atq +5 · Def +6 · Arm 0 · Ini +8 · d12 (VF 6); 1 reacción por asalto. Zarpazo (P1 · Toque · Neutro · 1d12); Golpe y fuga; **Supersonic Voice** (Firma: P2/P3 · Distancia · Mental · Confundir, Rápido · 2d12 / 3d12). *Escurridizo* y *Manada*. Débil a Fuego y Acero; resiste Hielo y Mental. No vuela: salta desde lo alto del mirador cuando cae el primer Parrotmon y actúa desde el asalto siguiente.
 
 | PA (N = 4) | Tramo Perfecto | Tramo Definitivo |
@@ -177,7 +177,7 @@ Hasta el Cónclave hay **tres turnos de investigación**: la tarde, la noche y l
 | **La Forja** | Vulcanusmon | Ayudarle a templar pararrayos: AST + Tecnología o DES + Arte | **La Máscara** (una fuente) y **El hollín**: «Un cliente con las manos negras de hollín. Pagó en oro y no dio su nombre». | Si le acusan, se encierra: baja un paso. |
 | **Aposentos de Junomon** | Dos Knightmon en la puerta | DES + Sigilo − 3 (el rango de los Knightmon), o entrar con Venusmon si es Leal | **La Máscara** (una fuente): una caja de terciopelo vacía y la tarjeta del regalo. | Si los pillan, es allanamiento: Plutomon, Neptunemon y Marsmon bajan un paso. |
 | **Bosque de Ceresmon** | Ceresmon; Bruno, escondido | AST + Supervivencia u Observación | **El testigo** (escena 6). | Dañar un árbol vuelve Hostil a Ceresmon. |
-| **El coliseo** | Marsmon | Su desafío: un combate de lucha sin técnicas | Si el grupo acepta, Marsmon sube un paso, gane o pierda con honor. | Un compañero vencido queda Agotado hasta un descanso corto. |
+| **El coliseo** | Marsmon | Su desafío: un combate de lucha sin técnicas | Si el grupo acepta, Marsmon sube un paso, gane o pierda con honor. | Con 6– en el desafío, el compañero queda Agotado hasta un descanso corto. |
 | **El banquete** | Bacchusmon, Plutomon, Merukimon | COR + Arte o Persuasión | **La Jaula** con 10+: Plutomon presume de que ningún alma de rey ha bajado a su reino. | Las bebidas de Bacchusmon dan sueño: −1 a la siguiente tirada. |
 
 **El desafío de Marsmon.** El dios de la guerra reta al compañero más fuerte. Juégalo como una tirada fuera de combate del compañero: 2d6 + rango, +1 si la fuerza es su especialidad, con dificultad Heroica (−3). Con 10+, gana; con 7–9, pierde con honor; con 6–, pierde y queda Agotado. Los tres resultados suben la actitud de Marsmon: lo que respeta es que alguien acepte.
@@ -224,7 +224,7 @@ Si habla, lo cuenta todo: la promesa de la Puerta que lleva a casa, la llave de 
 
 El Deshollinador ha mandado a alguien a recoger a Bruno. Si jugaste el capítulo 17, es el viejo mensajero, aquel [[DemiDevimon]] al que le prometieron un cuerpo de Perfecto: ahora es [[Phantomon]] y está muy orgulloso de ello. Viene con un pelotón de [[Bakemon]].
 
-- **[[Phantomon]]** — Perfecto · Oscuro · Místico · Virus · vuela. **Élite:** PV 45 · Atq +5 · Def +4 · Arm 0 · Ini +4 · d10 (VF 5); 1 reacción por asalto. Interferencia (maniobra de Místico); **Soul Chopper** (Firma: P2/P3 · Toque · Oscuridad · Drenar, Asustar · 2d10 / 3d10). *Maestro de estados* y *Hambre oscura*. Débil a Luz; resiste Oscuridad. Huye al quedar a ¼ de sus PV.
+- **[[Phantomon]]** — Perfecto · Oscuro · Místico · Virus · vuela. **Élite:** PV 45 · Atq +5 · Def +4 · Arm 0 · Ini +4 · d10 (VF 5); 1 reacción por asalto (Contraataque con Zarpa sombría o Proteger a un aliado). Zarpa sombría (P1 · Toque · Oscuridad · 1d10); Interferencia (maniobra de Místico); **Soul Chopper** (Firma: P2/P3 · Toque · Oscuridad · Drenar, Asustar · 2d10 / 3d10). *Maestro de estados* y *Hambre oscura*. Débil a Luz; resiste Oscuridad. Huye al quedar a ¼ de sus PV.
 - **Pelotón de 4 [[Bakemon]]** — Campeón · Oscuro · Místico · Virus · vuela. PV 24 (cae uno cada 6) · Atq +2 · Def +1 · Ini +2 · d8 (VF 4), daño fijo. Una vez por asalto, **Hell's Hand** como P2 (Distancia · Oscuridad · Atrapar): **4 × 4 = 16**. Débil a Luz; resiste Oscuridad.
 - **Zonas:** el claro de los frutales (Cobertura), la ladera de roca (Altura) y el borde del lomo (Peligro: 2 de daño; a los Tamers, 1 Aguante).
 - **PA (N = 4):** en el tramo Perfecto, Phantomon Élite (índice bajo) 1½ + pelotón ½ = **2, Fácil**. En el tramo Definitivo vale la mitad: añade un segundo Phantomon Élite, otro cliente del Deshollinador, y un segundo pelotón. Con 3 parejas, quita el pelotón; con 5, añade otro.
@@ -253,9 +253,9 @@ Tres jugadas especiales cambian la escena:
 
 **3. La votación.** Cuenta los votos según las actitudes. Hacen falta más votos inocentes que culpables; el empate lo decide la regente.
 
-**4. El veredicto.** Pase lo que pase, la noche cae y llega el clímax:
+**4. El veredicto.** Pase lo que pase, la noche cae sobre el hemiciclo:
 
-- **Culpables.** Junomon proclama el Cielo Cerrado. Pero la ley del Olimpo es antigua: *quien no acepte un veredicto puede desafiar al juez*, y nadie puede interferir en el duelo. Si el grupo desafía a la regente, pasa a la escena 8. Si acepta el veredicto, salta al desenlace.
+- **Culpables.** Junomon proclama el Cielo Cerrado. Pero la ley del Olimpo es antigua: *quien no acepte un veredicto puede desafiar al juez*, y nadie puede interferir en el duelo. Si el grupo desafía a la regente, pasa a la escena 8. Si acepta el veredicto, no hay clímax: pasa directamente a las consecuencias para la campaña.
 - **Inocentes.** Junomon se queda inmóvil. Su voz se quiebra: «No. Mienten. Todos mienten». La lanza sale disparada hacia el grupo, y la misma ley prohíbe a los dioses luchar en un duelo declarado en la sala. Pero hablar sí pueden: el objetivo B empieza con **1 segmento** más y cada dios Leal puede dar **Ayuda (+1)** una vez a una tirada de los objetivos de escena, con un consejo a gritos desde la galería.
 
 > **Consejo para el DJ:** deja que los jugadores hablen como abogados y tira solo cuando el argumento esté dicho. Después de cada intervención, describe una reacción en el hemiciclo: Bacchusmon que aplaude, Plutomon que entorna los ojos, Minervamon que sonríe. Y lleva la cuenta de votos a la vista: es el reloj de esta escena.
@@ -391,7 +391,7 @@ Jupitermon no percibe la forma enmascarada de su esposa, así que alguien tendr�
 
 **Modos.** El cambio de Modo de Junomon es una regla de Jefe y funciona aunque no uses el módulo. Con el módulo activo, un compañero con un **Modo alterno** desbloqueado puede cambiar de ficha gastando su movimiento y conservando el daño. Si Junomon se salvó, Jupitermon regala al grupo una **Tarjeta Dorada**: un uso de **Modo Supremo** durante una escena para un compañero que lo tenga en su línea, como [[Gallantmon: Crimson Mode]] o [[Rosemon: Burst Mode]]. Cuesta 4 Chispa y, al terminar la escena, el compañero queda Agotado y en regresión a Bebé II. Y recuerda la otra cara: si un Tamer actúa movido por la ira contra Junomon, puedes declarar una digievolución forzada [A], con el riesgo de una forma oscura.
 
-**DNA.** La Prueba del Eclipse (escena 4) cuenta como **Momento de Vínculo compartido**, el requisito de la primera fusión; un Ataque conjunto con éxito también vale. En el clímax, dos compañeros del mismo nivel y en la misma zona pueden fusionarse en una forma un nivel superior: Perfecto (2 Chispa cada Tamer, Vínculo 2+), como [[Silphymon]] o [[Lilamon]], que nace de un [[Sunflowmon]] y un [[Kabuterimon]]; o Definitivo (3 Chispa cada uno, Vínculo 4+), como [[Mastemon]], que une a [[Angewomon]] y [[LadyDevimon]], luz y sombra igual que el eclipse, y cuyas técnicas de Oscuridad castigan la debilidad de la regente. La forma DNA tiene PV × 1,5 y actúa en el turno de cada Tamer. Al terminar la escena, ambos compañeros sufren la regresión a Bebé II.
+**DNA.** La Prueba del Eclipse (escena 4) cuenta como **Momento de Vínculo compartido**, el requisito de la primera fusión; un Ataque conjunto con éxito también vale. En el clímax, dos compañeros del mismo nivel y en la misma zona pueden fusionarse en una forma un nivel superior: Perfecto (2 Chispa cada Tamer, Vínculo 2+), como [[Silphymon]] o [[Lilamon]], que nace de un [[Sunflowmon]] y un [[Kabuterimon]]; o Definitivo (3 Chispa cada uno, Vínculo 4+), como [[Mastemon]], que une a [[Angewomon]] y [[LadyDevimon]], luz y sombra igual que el eclipse, y cuyas técnicas de Oscuridad castigan la debilidad de la regente. La forma DNA tiene PV × 1,5 y actúa en el turno de cada Tamer (solo una técnica P3 por asalto). Al terminar la escena, ambos compañeros sufren la regresión a Bebé II.
 
 **X-Antibody.** Si Vulcanusmon termina Amistoso o Leal, ofrece al grupo el **Programa X** que guarda en la Forja (capítulo 9). El compañero que lo reciba obtiene el **Anticuerpo X**: es inmune a Sellar y a Ejecutar, puede repetir una tirada de Defensa una vez por combate y, desde entonces, usa la versión X de cada forma que la tenga en el bestiario (o la plantilla X si no existe). Contra las Firmas cargadas de la regente, esa Defensa repetida vale oro.
 

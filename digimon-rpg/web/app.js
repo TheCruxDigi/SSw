@@ -14,7 +14,7 @@ const store = {
 
 const S = { manifest: [], best: [], byId: new Map(), bySlug: new Map(), byName: new Map(), R: null, mdCache: new Map(), view: null };
 const main = $("#main"), rail = $("#rail");
-const LEVEL_ORDER = ["Bebé I", "Bebé II", "Novato", "Campeón", "Armadura", "Híbrido", "Perfecto", "Definitivo", "Desconocido"];
+const LEVEL_ORDER = ["Bebé I", "Bebé II", "Novato", "Campeón", "Armadura", "Híbrido", "Perfecto", "Definitivo", "Indeterminado", "Desconocido"];
 const ATTR_CLASS = { vacuna: "vac", datos: "dat", virus: "vir" };
 
 /* ---------- carga de datos ---------- */
@@ -165,7 +165,7 @@ function matches(d) {
   return true;
 }
 function sorted(list) {
-  const lv = d => LEVEL_ORDER.indexOf(d.nivel);
+  const lv = d => { const i = LEVEL_ORDER.indexOf(d.nivel); return i < 0 ? 99 : i; };
   const by = { nivel: (a, b) => lv(a) - lv(b) || a.nombre.localeCompare(b.nombre), nombre: (a, b) => a.nombre.localeCompare(b.nombre), pv: (a, b) => b.pv - a.pv || a.nombre.localeCompare(b.nombre), atq: (a, b) => b.atq - a.atq || a.nombre.localeCompare(b.nombre) }[F.orden];
   return list.slice().sort(by);
 }
@@ -211,7 +211,7 @@ function bestiary(sl) {
     renderList();
   }
   markNav(sl ? "d-" : "bestiario");
-  const d = sl && S.bySlug.get(sl);
+  const d = sl && (S.bySlug.get(sl) || S.byName.get(norm(sl)));
   const det = $("#bdetail");
   det.innerHTML = d ? statBlock(d) : `<div class="sb-empty"><b>Elige un Digimon</b><span>Toca cualquier nombre de la lista para ver su ficha completa.</span></div>`;
   det.classList.toggle("open", !!d);

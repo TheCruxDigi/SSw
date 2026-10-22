@@ -48,10 +48,10 @@ Para esta sesión basta con el **núcleo de primera sesión** (capítulo 12): la
 | Escena | Lo que enseñas | Cómo lo presentas |
 |---|---|---|
 | 1 | La tirada del Tamer, las franjas, la Ayuda y la Chispa por fallo. | «Con 10 o más, perfecto; de 7 a 9, sí, pero con un pero; con 6 o menos, algo se tuerce y ganas Chispa.» |
-| 2 | Zonas, iniciativa, Atacar y Defenderse, la Orden, el Dado de Vínculo, la Firma, Quemar y Expuesto. | El primer asalto, paso a paso. Después, deja que los jugadores marquen el ritmo. |
+| 2 | Zonas, iniciativa, Atacar y Defenderse, la Orden, el Dado de Vínculo, la Firma, el golpe aguantado, Quemar y Expuesto. | El primer asalto, paso a paso. Después, deja que los jugadores marquen el ritmo. |
 | 3 | La tirada social, la actitud y la personalidad como fuente de Chispa. | «Brasa desconfía: tienes −1. Si alguien te ayuda, +1.» |
 | 4 | Los relojes, la prueba de grupo y los compañeros fuera de combate. | Dibuja los relojes a la vista de todos. |
-| 5 | La Crisis, la digievolución a Campeón, la escala de rangos y el golpe aguantado. | En la primera Crisis, para la mesa: es el gran momento. |
+| 5 | La Crisis, la digievolución a Campeón y la escala de rangos. | En la primera Crisis, para la mesa: es el gran momento. |
 | 6 | El descanso corto, el Hambriento y los Momentos de Vínculo. | Una pregunta a cada pareja y algo de comer. |
 | 7 | El Jefe, el objetivo de escena y los ataques telegrafiados. | Explica solo lo que el grupo ve; las fases y la Furia, cuando ocurran. |
 
@@ -138,7 +138,8 @@ PA: 5 × ¼ (esbirro) × 1 (mismo rango) × 1½ (amenaza alta) = 1,9 → Fácil
 
 - **Iniciativa:** cada jugador tira 2d6 + la Ini de su compañero − 1 (la Ini del pelotón). Con 7+, su pareja actúa en la **fase rápida**, antes que los Goblimon (con 10+, además, +1 a su primera tirada); con 6–, en la **fase lenta**.
 - **El pelotón es un solo enemigo:** ataca una vez por asalto con daño fijo y pierde un miembro por cada 6 PV de daño. Las técnicas de área le hacen **daño doble**: Marching Fishes de Gomamon (que además es de Agua: +1 dado por debilidad) y Diamond Storm de Renamon lucen aquí.
-- **Tácticas:** en el primer asalto, el pelotón usa *Rápido* para cruzar el Claro de una carrera y golpear al compañero más cercano. Un Tamer que termine su turno en la zona del pelotón sin ponerse a cubierto queda **Expuesto**, y Tizón puede ir a por él (1 Aguante si le alcanza). Así enseñas que los Tamers también corren peligro y que su compañero puede interponerse con el *Instinto protector*.
+- **Goblin Strike es de Fuego:** contra Renamon, Tentomon y Lalamon, débiles al Fuego, suma +1 dado (15 de daño, o 20 si el PJ saca 6–); Gomamon y Guilmon lo resisten y reciben la mitad. Y aplica el **golpe aguantado**: ningún impacto de un PNJ quita a un compañero más de la mitad de sus PV máximos.
+- **Tácticas:** en el primer asalto, el pelotón usa *Rápido* para cruzar el Claro de una carrera y golpear al compañero más cercano. Un Tamer que termine su turno en la zona del pelotón sin ponerse a cubierto (en los Helechos, la Cobertura ya lo protege) queda **Expuesto**, y Tizón puede ir a por él (1 Aguante si le alcanza). Así enseñas que los Tamers también corren peligro y que su compañero puede interponerse con el *Instinto protector*.
 - **Pipo:** un Tamer que llegue al Claro puede llevárselo a la Orilla con *Actuar en el entorno* (DES + Atletismo). Si lo rescatan, la aldea los recibirá mejor.
 - **Final:** con 1 o 2 miembros, el pelotón huye. Tizón grita desde los helechos: «¡Esto se lo cuento al Deshollinador!».
 
@@ -217,9 +218,9 @@ La escena termina en cuanto se llena uno. Hay cuatro tramos; en cada uno tiran u
 
 | Tramo | Obstáculo y tiradas | Los compañeros |
 |---|---|---|
-| **1. La cascada muda** | Cinco metros de roca resbaladiza: VAL o DES + Atletismo, +1 con la cuerda (Dani tira 2d6 + 4). | [[Tentomon]] sube volando con la cuerda; [[Guilmon]] abre agarraderas a zarpazos (2d6 + 2). |
+| **1. La cascada muda** | Cinco metros de roca resbaladiza: VAL o DES + Atletismo, +1 con la cuerda (Dani tira 2d6 + 4, o 2d6 + 5 con su cuerda). | [[Tentomon]] sube volando con la cuerda; [[Guilmon]] abre agarraderas a zarpazos (2d6 + 2). |
 | **2. Las charcas** | Donde pesca una familia de [[Bearmon]]: ver «Los pescadores». | [[Lalamon]] y Tentomon se camuflan en los juncos; [[Gomamon]] se desliza por el agua sin ruido. |
-| **3. El túnel de raíces** | Un túnel oscuro: AST + Supervivencia u Observación, **Difícil (−1)** por la oscuridad; la linterna (Martín, Alma) anula ese penalizador. Con 10+, además, un **cofre de datos** (d20 × 10 Bits). | [[Renamon]] sigue el rastro con el olfato (2d6 + 2). |
+| **3. El túnel de raíces** | Un túnel oscuro: AST + Supervivencia u Observación, **Difícil (−1)** por la oscuridad; la linterna (Martín, Alma) anula ese penalizador a quien la lleva. Con 10+, además, un **cofre de datos** (d20 × 10 Bits). | [[Renamon]] sigue el rastro con el olfato (2d6 + 2). |
 | **4. Las raíces que beben** | Raíces que sorben las piedras como pajitas: AST + Saber Digital u Observación (Leo tira 2d6 + 4). Con 7+, descubren que arrastran el agua al manantial; con 10+, ven un brillo negro que late en lo alto y huellas de botas manchadas de hollín. | Lalamon entiende de plantas (2d6 + 2). |
 
 En el túnel, el miedo de Leo a la oscuridad puede causar un problema real («¡Yo me vuelvo!») y darle 1 Chispa por su defecto.
@@ -271,7 +272,7 @@ Recuerda el **golpe aguantado**: un impacto de un PNJ no quita a un compañero m
 
 > **Para leer en voz alta:**
 >
-> La Garganta se estrecha hasta ser una grieta profunda. Solo hay un modo de cruzarla: un puente natural de raíces trenzadas, ancho como una calle, que se balancea sobre el vacío. Al otro lado crece un árbol solitario cargado de frutas rojas, el único árbol verde de toda la tarde. Sobre la copa duerme algo enorme y rojo, con dos pinzas como sierras.
+> La Garganta se estrecha hasta ser una grieta profunda. Solo hay un modo de cruzarla: un puente natural de raíces trenzadas, ancho como una calle, que se balancea sobre el vacío. En el borde de la grieta, junto al arranque del puente, crece un árbol solitario cargado de frutas rojas, el único árbol verde de toda la tarde. Sobre la copa duerme algo enorme y rojo, con dos pinzas como sierras.
 >
 > En mitad del puente, la pandilla de los Goblimon le tira piedras al árbol. El de la cara tiznada ve al grupo y sonríe de oreja a oreja.
 >
@@ -283,7 +284,7 @@ Recuerda el **golpe aguantado**: un impacto de un PNJ no quita a un compañero m
 
 Tizón quiere echarle encima al grupo el [[Kuwagamon]] del árbol. Es un Campeón, **un rango por encima** de los compañeros: suma +1 dado de daño contra ellos, y el daño de los Novatos contra él se divide a la mitad. Mientras nadie digievolucione, parecerá imposible. Es el **episodio de digievolución**: un encuentro Normal con un enemigo de un nivel más.
 
-**Zonas** (en fila): **La orilla de helechos** (Cobertura; las parejas) · **El Puente de Raíces** (la pandilla) · **El árbol del fruto** (Altura; Kuwagamon).
+**Zonas** (dibújalas en triángulo: las tres son adyacentes entre sí, porque el árbol crece entre la orilla y el arranque del puente): **La orilla de helechos** (Cobertura; las parejas) · **El Puente de Raíces** (la pandilla) · **El árbol del fruto** (Altura; Kuwagamon).
 
 ```
 Kuwagamon — Campeón · Naturaleza (Insectoide) · Acechador · Virus · Estándar
@@ -311,18 +312,18 @@ Lo acompaña el **pelotón de Goblimon** del Encuentro 1 (si huyó, vuelve con a
 
 **Cómo lo juega el DJ:**
 
-- **Iniciativa:** los jugadores tiran con −4 (la Ini de Kuwagamon); casi todos irán a la fase lenta, y eso alimenta su *Emboscada*.
+- **Iniciativa:** cada jugador tira 2d6 + la Ini de su compañero − 4 (la Ini de Kuwagamon); casi todos irán a la fase lenta, y eso alimenta su *Emboscada*.
 - **Asalto 1:** Kuwagamon cae en picado con **Scissor Claw como P3**: 3d8, +1 dado por rango superior y +1 por *Emboscada* si su objetivo aún no ha actuado. Si Xime juega, va a por [[Tentomon]]: los Kuwagamon y los Kabuterimon se llevan fatal, y Tentomon huele a Kabuterimon. El golpe aguantado lo deja como mínimo a 10 PV, y eso ya es una **Crisis**. La pandilla ataca al compañero más cercano.
-- **Asalto 2:** sin su Firma, Kuwagamon usa **Marca de caza** sobre quien más daño le haya hecho, y lo anuncias: «Kuwagamon clava los ojos en Growlmon». Tizón señala a un Tamer con el garrote: «¡A por el pequeño!». Es un **ataque telegrafiado**, y le da una Crisis a ese Tamer.
+- **Asalto 2:** sin su Firma, Kuwagamon usa **Marca de caza** sobre quien más daño le haya hecho, y lo anuncias: «Kuwagamon clava los ojos en Growlmon». Tizón señala a un Tamer con el garrote: «¡A por el pequeño!». Es un **ataque telegrafiado**, y le da una Crisis a ese Tamer (1 Chispa, si aún no tuvo otra en este combate).
 - **Asalto 3:** Scissor Claw como P3 contra el Marcado (−2 a su Defensa y +1 dado por *Emboscada*). La pandilla cumple su amenaza contra el Tamer señalado (1 Aguante si le alcanza), salvo que su compañero se interponga.
 - **Final:** con 6 PV o menos, Kuwagamon vuelve a su árbol. El pelotón huye con uno o dos miembros.
-- **La salida:** Kuwagamon solo defiende su árbol. Si el grupo se retira a la orilla de helechos, deja de perseguirlo.
+- **La salida:** Kuwagamon solo defiende su árbol. Si el grupo se aleja de él y se retira por donde vino, deja de perseguirlo.
 
 > **Si es tu primera vez:** cuando llegue la primera **Crisis** (un compañero baja por primera vez a la mitad de sus PV o menos, su Tamer pierde Aguante o le telegrafías un ataque), detén la mesa: «Tu Digivice se pone al rojo. Gana 1 Chispa». Con 2 Chispa, al comienzo del turno de su pareja, el Tamer puede **digievolucionar a Campeón**: el jugador describe el momento y el compañero toma la ficha de su Campeón con **todos sus PV** y sin estados hasta el final de la escena. Si un golpe va a dejarlo a 0 PV, puede hacerlo como reacción pagando 1 Chispa más, y la Chispa que gane con ese golpe ya cuenta. Lee en voz alta el nombre de la nueva forma: es el momento que la mesa recordará.
 
 En cuanto un compañero es Campeón, la escala se da la vuelta: pega a Kuwagamon con todo su daño y suma +1 dado contra los Goblimon.
 
-**Después del combate.** Si el grupo atrapa a Tizón cuando huye (DES + Atletismo − 1, el rango del Goblimon), lo suelta todo: «¡El Deshollinador nos da caramelos de datos por cada cesta de fruta y por cada curioso que espantamos de la Garganta! Dice que, cuando la aldea se vacíe, abrirá lo que duerme bajo el molino». Y quien se acerque a Kuwagamon con una fruta y buenas palabras (tirada social con actitud Recelosa, y −1 más si su compañero es Novato) descubre que solo protegía su árbol. Con 10+ se vuelve Amistoso: un aliado inesperado.
+**Después del combate.** Si el grupo atrapa a Tizón cuando huye (DES + Atletismo − 1, el rango del Goblimon), lo suelta todo: «¡El Deshollinador nos da caramelos de datos por cada cesta de fruta y por cada curioso que espantamos de la Garganta! Dice que, cuando la aldea se vacíe, abrirá lo que duerme bajo el molino». Y quien se acerque a Kuwagamon con una fruta y buenas palabras (tirada social con actitud Recelosa, y −1 más si su compañero es Novato) descubre que solo protegía su árbol. Con 10+ su actitud sube un paso, a Neutral; si más tarde otra tirada social vuelve a sacar 10+ (o el grupo le devuelve las frutas robadas), sube a Amistosa: un aliado inesperado.
 
 Al terminar la escena, cada forma temporal vuelve a su forma de partida con los PV que tenía y el compañero queda **Hambriento** hasta que coma: −1 a sus tiradas fuera de combate y +1 Chispa al coste de digievolucionar.
 
@@ -354,13 +355,13 @@ Haz una pregunta a cada pareja. Cualquiera puede convertirse en un **Momento de 
 
 ### El campo de batalla
 
-Las cuatro zonas forman un anillo: cada una es adyacente a las dos que tiene al lado. Hasta el Clavo hay un camino corto, junto a Raigón, y uno largo, por las Raíces altas.
+Las cuatro zonas forman un anillo: cada una es adyacente a las dos que tiene al lado. Desde la Escalinata, el Clavo queda a dos zonas por cualquiera de los dos lados: un camino pasa por la Poza, junto a Raigón, y el otro rodea por las Raíces altas.
 
 | Zona | Rasgo | Adyacente a | Quién empieza aquí |
 |---|---|---|---|
 | **La Escalinata** | Cobertura | La Poza seca y las Raíces altas | Las parejas |
 | **La Poza seca** | — | La Escalinata y el Ojo | Raigón, que no sale de aquí: sus raíces lo anclan |
-| **El Ojo del manantial** | Agua; aquí está el Clavo Negro | La Poza seca y las Raíces altas | El pelotón de Mushroomon |
+| **El Ojo del manantial** | Agua; aquí está el Clavo Negro | La Poza seca y las Raíces altas | El pelotón de [[Mushroomon]] |
 | **Las Raíces altas** | Altura (+1 al atacar a quien está debajo) | La Escalinata y el Ojo | — |
 
 Las Raíces altas están a dos zonas de la Poza: desde allí solo alcanzan a Raigón las técnicas de alcance Larga (como Super Shocker de Tentomon), y sus técnicas de Distancia tampoco llegan. Los Mushroomon sí pueden trepar.
@@ -405,7 +406,7 @@ Raigón suma +1 dado contra los Novatos, y ellos le hacen la mitad de daño; con
 El combate puede ganarse sin derrotar a Raigón. Dibuja un **reloj de 4 segmentos**. Un Tamer que esté en el **Ojo del manantial** lo avanza con *Actuar en el entorno*:
 
 - **Apuntar la luz del Digivice al Clavo:** AST + Tecnología. Alma y Leo tiran 2d6 + 3.
-- **Arrancarlo a tirones**, con el agua hasta la cintura: VAL o DES + Atletismo, +1 con la cuerda. Dani tira 2d6 + 4, y el agua es honda y oscura: justo lo que ella teme.
+- **Arrancarlo a tirones**, con el agua hasta la cintura: VAL o DES + Atletismo, +1 con la cuerda. Dani tira 2d6 + 5 con su cuerda, y el agua es honda y oscura: justo lo que ella teme.
 - **Hablarle a Raigón a través del Clavo**: COR + Empatía. Martín tira 2d6 + 3.
 
 **10+ marca 2 segmentos, 7–9 marca 1 y 6– no marca nada**; con 6–, además, el Tamer queda Expuesto y gana 1 Chispa (máximo 1 por asalto). Quien termine su turno en el Ojo, junto a los Mushroomon, sin ponerse a cubierto, también queda Expuesto: los compañeros tienen que contener a las setas. **Cuando el reloj se llena, el Clavo se parte**: Raigón vuelve en sí, deja de luchar y los Mushroomon huyen. Es una victoria completa.
@@ -417,8 +418,8 @@ El Clavo Negro no es un Engranaje Negro corriente (capítulo 3): es demasiado gr
 Los jugadores tiran la iniciativa con −4 (la Ini de Raigón): casi todos irán a la fase lenta del primer asalto.
 
 - **Asalto 1.** 1.ª acción: **Branch Drain como P3** contra el compañero más cercano: 3d8, +1 dado si es Novato, con −1 a su Defensa por *Toxinas y raíces*. Si impacta, Raigón recupera la mitad del daño (Drenar) y el compañero queda Atrapado con 6– y también con 7–9 (*Maestro de estados*). Después, Raigón queda **Expuesto** por su punto débil: +1 a los ataques de los PJ contra él hasta el final del asalto siguiente. 2.ª acción: **Interferencia** para Ralentizar al compañero más rápido.
-- **Asalto 2.** Sin su Firma. 1.ª acción: **Picadura** contra un compañero de la Poza, o Interferencia para Debilitar a quien más daño le haga. 2.ª acción: **telegrafía** un ataque contra el Tamer que trabaja en el Clavo: «Una raíz se alza sobre Alma como un látigo». Ese Tamer gana 1 Chispa por la Crisis.
-- **Asalto 3.** 1.ª acción: cumple la amenaza con **Branch Drain**. El Tamer tira su Defensa (2d6 + DES + Atletismo − 4) y, si le alcanza, pierde 3 Aguante (2 si la usas como P2; la mitad, mínimo 1, con 7–9). Para no complicar la primera sesión, no le apliques Atrapado. Su compañero puede interponerse con el *Instinto protector*. 2.ª acción: Picadura o Interferencia.
+- **Asalto 2.** Sin su Firma. 1.ª acción: **Picadura** contra un compañero de la Poza, o Interferencia para Debilitar a quien más daño le haga. 2.ª acción: **telegrafía** un ataque contra el Tamer que trabaja en el Clavo: «Una raíz se alza sobre Alma como un látigo». Ese Tamer gana 1 Chispa por la Crisis, si aún no tuvo otra en este combate.
+- **Asalto 3.** 1.ª acción: cumple la amenaza con **Branch Drain**. El Tamer tira su Defensa (2d6 + DES + Atletismo − 4, y −1 más por *Toxinas y raíces*) y, si le alcanza, pierde 3 Aguante (2 si la usas como P2; la mitad, mínimo 1, con 7–9). Para no complicar la primera sesión, no le apliques Atrapado. Su compañero puede interponerse con el *Instinto protector*. 2.ª acción: Picadura o Interferencia.
 - **Después**, alterna: Branch Drain como P3 un asalto (nunca dos seguidos) y Picadura o Interferencia el siguiente. No dejes Atrapada a la misma pareja dos veces en un asalto.
 - **El pelotón** guarda el Clavo y ataca a quien llegue al Ojo, sobre todo a los Tamers Expuestos (1 Aguante por impacto).
 - **Furia.** Cuando un golpe lleva a Raigón a su umbral (36 PV con 4 parejas) o por debajo, se queda en el umbral y el resto del daño se pierde en el escudo de fase. El Clavo late, la poza tiembla y Raigón pierde sus estados, recupera su Firma y gana **+1 dado** en todas sus técnicas hasta el final del combate. **Cada Tamer gana 1 Chispa**: «¡No podemos rendirnos ahora!».
@@ -496,7 +497,8 @@ Cada casilla da el modificador del compañero **al atacar / al defenderse** cont
 - **Tentomon y Kabuterimon** suman +1 contra objetivos fuera de su zona (*Francotirador*). **Lalamon** suma +1 con Lala Screw y Seed Blast, que atrapan (*Toxinas y raíces*).
 - **Contra Kuwagamon**, las técnicas de Toque de quien no vuela tienen −2, salvo que estén trabados.
 - **Escala:** un Novato hace la mitad de daño a Kuwagamon y a Raigón, y ellos suman +1 dado contra él. Un Campeón suma +1 dado contra Goblimon, Bearmon y Mushroomon.
-- **Debilidades:** el Fuego hace +1 dado a Bearmon, Kuwagamon, Mushroomon y Raigón; el Agua, a los Goblimon.
+- **Debilidades:** el Fuego hace +1 dado a Bearmon, Kuwagamon, Mushroomon y Raigón; el Agua, a los Goblimon. **Resistencias** (la mitad de daño, salvo Perforante): los Goblimon resisten el Fuego y la Oscuridad; Kuwagamon y los Mushroomon, el Agua y el Acero; Raigón, el Agua y la Planta.
+- **Los compañeros también tienen las suyas:** Goblin Strike (Fuego) hace +1 dado a Renamon, Tentomon, Kabuterimon y Lalamon, y la mitad a Gomamon, Ikkakumon, Guilmon y Growlmon. Branch Drain (Planta) hace +1 dado a Gomamon e Ikkakumon, y la mitad a Lalamon.
 
 Recuerda el **límite de ±3**: los situacionales (Orden, Ayuda, triángulo, Marcado, Expuesto…) no suman más de +3 ni restan más de −3.
 
