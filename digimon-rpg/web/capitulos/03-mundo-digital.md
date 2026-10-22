@@ -16,7 +16,7 @@ El Mundo Digital no está terminado: sus regiones crecen, se borran y se reescri
 
 - **Los Digimon hablan.** La mayoría habla como tú; otros, con pitidos, gruñidos o canciones. Todos tienen personalidad, opiniones y, sobre todo, hambre.
 - **Los Digimon comen muchísimo.** Tu compañero necesita una comida al día como mínimo, y digievolucionar le abre un apetito enorme.
-- **Nada se pierde del todo.** Un Digimon que cae en combate se deshace en datos y, normalmente, deja un **Digi-Huevo** que renacerá en la Ciudad del Comienzo. Los Digimon lo saben, y eso les da una valentía extraña.
+- **Nada se pierde del todo.** Un Digimon salvaje que cae en combate se deshace en datos y, normalmente, deja un **Digi-Huevo** que renacerá en la Ciudad del Comienzo. Los Digimon lo saben, y eso les da una valentía extraña. Tu compañero no se convierte en huevo: si lo derrotan, vuelve a su forma Bebé II y se recupera descansando (capítulo 7).
 - **Tu móvil no tiene cobertura.** La cámara funciona, pero aquí no llegan las llamadas. La brújula también se vuelve loca en ciertos lugares.
 - **La emoción es energía.** Lo que sientes de verdad fluye por tu Digivice y se convierte en **Chispa**. Por eso los compañeros digievolucionan justo cuando todo va peor.
 
@@ -43,7 +43,7 @@ El Digivice es el aparato que une a cada Tamer con su compañero. Todos los mode
 | Modelo | Serie de referencia | Lo que aporta en el Mundo Digital |
 |---|---|---|
 | **Digivice clásico** | Adventure | *Luz del Digivice:* 1 vez por escena asusta, sin tirada, a un Digimon Novato o Campeón de la familia Oscuro o en Modo Oscuro. Libera de Engranajes Negros (AST + Tecnología 7+). Activa el Emblema físico. |
-| **D-3** | Adventure 02 | *Radar D-3:* el grupo no puede ser sorprendido por Digimon a 2 zonas o menos. Abre Puertas Digitales desde ordenadores. |
+| **D-3** | Adventure 02 | *Radar D-3:* mientras tu Tamer esté consciente, el grupo no puede ser sorprendido por Digimon a 2 zonas o menos. Abre Puertas Digitales desde ordenadores. |
 | **D-Arc / D-Power** | Tamers | *Card Slash* y uso de Tarjetas Digimon con 1 Carga menos. |
 | **D-Tector** | Frontier | +1 a Observación en el Mundo Digital; revela a los Ocultos de su zona. |
 | **Digivice iC / Burst** | Savers | *DigiSoul* en combate; 1 Chispa la primera vez en cada sesión que tu Tamer se planta cara a cara ante un Digimon hostil. |
@@ -232,7 +232,7 @@ Doce guerreros de nivel Perfecto que obedecen a un poder mayor y cumplen sus ór
 
 ### Los Señores Demonio
 
-Siete demonios de nivel Definitivo, cada uno ligado a un pecado: Orgullo, Ira, Envidia, Lujuria, Pereza, Avaricia y Gula. Entre ellos están [[Lucemon: Chaos Mode]], [[Creepymon]], [[Leviamon]], [[Lilithmon]], [[Belphemon: Sleep Mode]], [[Barbamon]] y [[Beelzemon]]. Son **Legendarios**: el clímax de una campaña larga. El despertar de uno de ellos es un reloj de amenaza perfecto para toda una temporada.
+Siete demonios, cada uno ligado a un pecado: Orgullo, Ira, Envidia, Lujuria, Pereza, Avaricia y Gula. Entre ellos están [[Lucemon: Chaos Mode]], [[Creepymon]], [[Leviamon]], [[Lilithmon]], [[Belphemon: Sleep Mode]], [[Barbamon]] y [[Beelzemon]]. Todos son de nivel Definitivo, salvo Lucemon: Chaos Mode, que es Perfecto. Son **Legendarios**: el clímax de una campaña larga. El despertar de uno de ellos es un reloj de amenaza perfecto para toda una temporada.
 
 ### Los poderes antiguos
 
@@ -280,13 +280,13 @@ Si el PNJ es de **rango superior al compañero de tu Tamer**, tienes **−1** m�
 
 Recuerda que un Digimon con Engranaje Negro, Espiral del Mal o Anillo Maligno no puede pasar de Hostil hasta que se le libere.
 
-Algunas cosas hacen que los Digimon salvajes te miren con mejores ojos. El rasgo *Mano con los animales* (trasfondo Chico/a de campo) y el talento *Domador/a* hacen que **empiecen un paso más amistosos** contigo. El **Cebo de datos** da +1 a Empatía con ellos durante la escena, y el talento *Discurso* del Inspirador da +1 a Persuasión y Empatía.
+Algunas cosas hacen que los Digimon salvajes te miren con mejores ojos. El rasgo *Mano con los animales* (trasfondo Chico/a de campo) y el talento *Domador/a* hacen que **empiecen un paso más amistosos** contigo; *Domador/a*, además, te da Ventaja en Empatía con ellos. El **Cebo de datos** da +1 a Empatía con ellos durante la escena, y el talento *Discurso* del Inspirador da +1 a Persuasión y Empatía.
 
-> **Ejemplo:** El grupo llega a un claro donde un [[Elecmon]] vigila un nido de Digi-Huevos, con actitud Recelosa. Iker quiere que les deje descansar allí. Habla despacio, con las manos a la vista: es COR + Empatía. Iker tiene Corazón +1 y Empatía +1, y la actitud Recelosa resta 1. Elecmon es Novato, igual que el Agumon de Iker, así que no hay −1 por rango. Tira 2d6 + 1 y saca 8. Con 7–9, Diego (el jugador de Iker) elige: o Elecmon pasa a Neutral, o les deja quedarse a cambio de algo. Elige lo segundo. Elecmon acepta… si antes encuentran un huevo que se le perdió ayer en el río. Acaba de nacer una aventura.
+> **Ejemplo:** El grupo llega a un claro donde un [[Elecmon]] vigila un nido de Digi-Huevos, con actitud Recelosa. Iker quiere que les deje descansar allí. Habla despacio, con las manos a la vista: es COR + Empatía. Iker tiene Corazón +1 y Empatía +1, y la actitud Recelosa resta 1. Elecmon es Novato, igual que el Agumon de Iker, así que no hay −1 por rango. Tira 2d6 + 1: los dados suman 7, así que saca 8 en total. Con 7–9, Diego (el jugador de Iker) elige: o Elecmon pasa a Neutral, o les deja quedarse a cambio de algo. Elige lo segundo. Elecmon acepta… si antes encuentran un huevo que se le perdió ayer en el río. Acaba de nacer una aventura.
 
 ### Más allá de los dados
 
-No todo se resuelve con una tirada social. Compartir la comida o defender a un Digimon más débil puede mejorar una actitud sin tirar, y robar en una aldea la hundirá sin remedio. Los aliados importan: al final de cada sesión, cada jugador gana 1 XP si el grupo **hizo un nuevo aliado o amigo**. Y un Digimon **Leal** puede acompañar al grupo como aliado temporal, o incluso convertirse en el compañero de un Tamer (regla opcional; capítulo 13).
+No todo se resuelve con una tirada social. Compartir la comida o defender a un Digimon más débil puede mejorar una actitud sin tirar, y robar en una aldea la hundirá sin remedio. Los aliados importan: al final de cada sesión, cada jugador gana 1 XP si el grupo **hizo un nuevo aliado o amigo**. Y, con la regla opcional de Digimon salvajes como compañeros (capítulo 13), un Digimon **Leal** puede acompañar al grupo como aliado temporal, o incluso convertirse en el compañero de un Tamer.
 
 ### Las aldeas
 
@@ -331,6 +331,8 @@ El Mundo Digital está lleno de terminales antiguas, cables que salen de la tier
 Tu equipo del mundo real funciona, pero con sorpresas. La **cámara o el móvil** sirven para Analizar desde lejos, aunque no hay cobertura. Los **walkie-talkies** comunican a Tamers separados hasta una región de distancia. Y la **brújula** gira loca en las zonas glitch. Las **Tarjetas Digimon**, que guardan los datos de un Digimon concreto, se compran, se ganan y se intercambian; en algunas campañas son el centro de todo.
 
 ## Explorar: las escenas fuera de combate
+
+Estas reglas usan algunos términos que verás con calma más adelante: el **Aguante** de tu Tamer (capítulo 4), la **Ini** (iniciativa) de tu compañero y el estado **Hambriento** (capítulo 5), el estado **Agotado** (capítulo 6) y las fases del combate y los esbirros (capítulo 7). Si aún no los conoces, no pasa nada: el DJ te dirá qué número mirar.
 
 Fuera de combate se juega por **escenas**, como viste en el capítulo 2. El DJ describe, los jugadores dicen qué hacen sus Tamers y sus compañeros, y **solo se tira cuando hay riesgo e incertidumbre**. Cruzar un puente firme no pide tirada; cruzarlo mientras se desmorona, sí.
 
@@ -416,7 +418,7 @@ Cuando todo el grupo se enfrenta al mismo peligro, como cruzar el mismo río, us
 Cuando el grupo huye de un combate y no lo consigue, o cuando quiere alcanzar a alguien que escapa, empieza una **persecución**.
 
 1. **El medidor de Distancia va de 0 a 6.** Empieza en **3**; en **2** si los perseguidores están muy cerca, y en **4** si el grupo tiene ventaja.
-2. **Cada asalto, el líder del grupo tira** (o cada pareja, si van separadas): **2d6 + Ini de su compañero − Ini del rival más rápido**. A pie, sin compañero, es **DES + Atletismo − rango del rival más rápido**.
+2. **Cada asalto, el líder del grupo tira** (o cada pareja, si van separadas): **2d6 + Ini de su compañero − Ini del rival más rápido**. A pie, sin compañero, es **2d6 + DES + Atletismo − rango del rival más rápido**.
 3. **Los demás pueden ayudar** (+1, con el máximo normal de +2 por Ayuda) **o crear un obstáculo** con una tirada propia: con 10+, el obstáculo da **+1 Distancia extra**.
 4. **Quien vuela, en terreno abierto, tira con Ventaja.**
 
@@ -466,7 +468,7 @@ El Mundo Digital admite muchas historias. Aquí tienes tres estilos clásicos, c
 
 Una excursión del colegio, un apagón a mediodía y unos Digivices que caen del cielo. Los Tamers aparecen en el Bosque Nativo, conocen a sus compañeros y descubren que el Mundo Digital está en peligro. No hay forma de volver hasta que lo salven.
 
-La campaña avanza **de región en región**, y cada región es un arco con su villano. La escalera de Jefes sigue al Vínculo del grupo: [[Devimon]] como Jefe Campeón a Vínculo 1; un Perfecto como [[Etemon]] a Vínculo 3; los Amos Oscuros a Vínculo 4 y 5; y una amenaza final, como [[Apocalymon]], cuando las parejas alcanzan el Vínculo ★.
+La campaña avanza **de región en región**, y cada región es un arco con su villano. La escalera de Jefes sigue al Vínculo del grupo: [[Devimon]] como Jefe Campeón a Vínculo 1; un Perfecto como [[Etemon]] a Vínculo 3; los Amos Oscuros a Vínculo 5 (o a Vínculo 4, si el grupo ya ha desbloqueado el Definitivo); y una amenaza final, como [[Apocalymon]], cuando las parejas alcanzan el Vínculo ★.
 
 En esta campaña, el **Emblema físico** es el requisito del primer Perfecto: el detonante exige, además, llevarlo encima, y lo activa el Digivice clásico. Encontrar cada Emblema es un objetivo de aventura en sí mismo.
 
@@ -474,7 +476,7 @@ En esta campaña, el **Emblema físico** es el requisito del primer Perfecto: el
 - Cierra la Puerta detrás de los Tamers en la primera escena. Volver a casa es la meta que sostiene toda la campaña.
 - Prepara el **arco del Emblema** de cada Tamer desde el principio, a partir de su respuesta a *¿qué te falta en tu vida?*
 - [[Myotismon]] tiene amenaza alta: si lo usas como Jefe, dale al grupo un punto débil que descubrir o un objetivo de escena.
-- Para una segunda temporada al estilo «02», añade Agujas de Control, el D-3 y la Armadura (reglas opcionales del capítulo 13).
+- Para una segunda temporada al estilo «02», añade el D-3 y dos reglas opcionales del capítulo 13: las Agujas de Control y la Armadura.
 
 ### De cartas y ciudad
 
@@ -500,7 +502,7 @@ El **Xros Loader** es el Digivice ideal: guarda hasta 3 aliados de rango inferio
 
 ## Lo esencial
 
-- El Mundo Digital es un mundo de datos que se reescribe. Los Digimon que caen dejan un Digi-Huevo que renace en la Ciudad del Comienzo.
+- El Mundo Digital es un mundo de datos que se reescribe. Los Digimon salvajes que caen dejan un Digi-Huevo que renace en la Ciudad del Comienzo.
 - Los Tamers llegan por **Puertas Digitales**. Su Digivice siempre señala la más cercana.
 - Hay **8 regiones**, cada una con su nivel típico. Lleva al grupo a la que corresponda a su Vínculo.
 - Los **Engranajes Negros** vuelven Hostil a un Digimon (+1 Atq) hasta que se destruyen: Purificar 10+, Luz del Digivice (AST + Tecnología 7+) o Maniobra 10+.

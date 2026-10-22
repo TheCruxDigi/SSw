@@ -36,10 +36,10 @@ Para no repetirlo cinco veces, esto vale para todas:
 - **Nivel 1** y 0 XP. **Vínculo 1**, **Chispa 1** (máximo 4), un **Dado de Vínculo** por asalto y la **Carga llena**.
 - **Senda como paquete cerrado** (capítulo 4): los atributos, las 2 habilidades del paso 4, los 3 programas y los 2 objetos de equipo vienen de la Senda.
 - **Digivice clásico** (Carga +1). Hace todo lo que hacen los Digivices: es el canal del Dado de Vínculo, guarda la Carga, ejecuta cualquier programa, permite digievolucionar y *Analizar*, y señala la Puerta Digital más cercana. Su función especial es la *Luz del Digivice*: 1 vez por escena, como acción de Tamer, un Digimon Novato o Campeón de la familia Oscuro o en Modo Oscuro queda Asustado de ti, sin tirada. Además libera de Engranajes Negros (AST + Tecnología 7+) y activa el Emblema físico. Cada pareja tiene uno de un color distinto.
-- **Consumibles y dinero:** 1 Disco de recuperación S (el compañero recupera 2 dados de PV), 2 Carnes digitales (fuera de combate, recupera 2 × VF PV, elimina Hambriento y cuenta como la comida del día) y 100 Bits.
+- **Consumibles y dinero:** 1 Disco de recuperación S (el compañero recupera 2 dados de PV), 2 Carnes digitales (fuera de combate, recupera 2 × VF PV, es decir, 6 PV a un Novato; elimina Hambriento y cuenta como la comida del día) y 100 Bits.
 - **Rasgos personales:** la cualidad da +1 a una tirada fuera de combate en la que encaje claramente (una vez por escena). El defecto da 1 Chispa una vez por sesión, cuando causa un problema real. La personalidad del compañero funciona igual: 1 Chispa por sesión cuando causa un problema real.
 - **El compañero** usa la ficha de su especie en el bestiario, **sin rol fijado**. Si un jugador quiere fijarlo, sigue el capítulo 5 y recalcula sus cifras.
-- **La primera digievolución a Campeón** cuesta 2 Chispa y necesita una **Crisis** en la escena (capítulo 6). El compañero toma la ficha del Campeón con todos sus PV hasta el final de la escena. Si esa forma cae a 0 PV, vuelve a Novato con los PV que tenía y queda Agotado. Si cae el Novato, queda Derrotado y vuelve a su **Bebé II**. Los Bebés no pueden usar técnicas P3, sus técnicas no aplican control duro ni Ejecutar, y tienen +2 a las tiradas para esconderse o huir.
+- **La primera digievolución a Campeón** cuesta 2 Chispa y necesita una **Crisis** en la escena (capítulo 6): por ejemplo, que el compañero baje por primera vez en el combate a la mitad de sus PV o menos, o que el DJ telegrafíe un ataque contra su Tamer. El compañero toma la ficha del Campeón con todos sus PV hasta el final de la escena; entonces vuelve a Novato con los PV que tenía y queda Hambriento (una Carne digital lo arregla). Si esa forma cae a 0 PV, vuelve a Novato con los PV que tenía y queda Agotado. Si cae el Novato, queda Derrotado y vuelve a su **Bebé II**. Los Bebés no pueden usar técnicas P3, sus técnicas no aplican control duro ni Ejecutar, y tienen +2 a las tiradas para esconderse o huir.
 - **El Campeón probable** es solo una intención. La forma se decide en la escena, con el DJ.
 
 ### Los programas de las parejas
@@ -167,7 +167,7 @@ Técnicas:
 
 ### Guilmon
 
-[[Guilmon]] es un Bruto con el Ataque más alto de todos los Novatos. Pega muy fuerte y rompe armaduras, pero con Def +1 le conviene que Gomamon le cubra las espaldas.
+[[Guilmon]] es un Bruto con el Ataque más alto del grupo (+3). Pega muy fuerte y rompe armaduras, pero con Def +1 le conviene que Gomamon le cubra las espaldas.
 
 ```
 Guilmon — Novato · Saurio (Reptil) · Bruto · Virus
@@ -271,7 +271,7 @@ Técnicas:
 **Reglas a mano:**
 
 - *Escurridizo:* tras su acción puede moverse 1 zona extra y nunca sufre ataques de retirada.
-- *Manada:* +1 al atacar a un objetivo que un aliado ya ha atacado en este asalto. Combina de maravilla con Leo: si otro compañero ya ha golpeado a un enemigo y Leo da *¡Flanqueo!* antes de que Renamon ataque a ese mismo enemigo, Renamon suma +1 por la Orden y +1 por *Manada*.
+- *Manada:* +1 al atacar a un objetivo que un aliado ya ha atacado en este asalto. Combina de maravilla con Leo: si otro compañero ya ha atacado a un enemigo y Leo da *¡Flanqueo!* antes de que Renamon ataque a ese mismo enemigo, Renamon suma +1 por la Orden y +1 por *Manada*.
 - *Diamond Storm* es su Firma: P3, Agotadora y Perforante (ignora la Arm y la Resistencia del objetivo). Contra un solo enemigo tira 3d6; contra dos, 2d6 a cada uno. Con **Puntería** gana *Certero*: +1 a la tirada y no le afectan la Cobertura ni el Oculto.
 - *Kohenkyo* es una técnica de apoyo, sin tirada y no Agotadora: Renamon queda Oculta hasta que ataque. Mientras tanto, no puede ser objetivo de técnicas de Distancia ni Larga, y su primer ataque tiene +2. Como Renamon no tiene P2, su ritmo natural es Diamond Storm, Kohenkyo y otra vez Diamond Storm, ahora con +2.
 - *Procesamiento* ya está incluido en sus cifras.
@@ -351,7 +351,7 @@ Técnicas:
 **Reglas a mano:**
 
 - *Francotirador:* +1 a sus tiradas de ataque contra objetivos que no estén en su zona.
-- *Super Shocker* es su Firma: P2, o P3 y entonces Agotadora. Tiene alcance Larga, es *Certero* (+1 a la tirada; no le afectan la Cobertura ni el Oculto) y Paraliza con 10+. Un enemigo Paralizado no tiene reacciones y los PJ tienen +1 a su Defensa contra sus ataques.
+- *Super Shocker* es su Firma: P2, o P3 y entonces Agotadora. Tiene alcance Larga, es *Certero* (+1 a la tirada; no le afectan la Cobertura ni el Oculto) y Paraliza con 10+. Un enemigo Paralizado (2 turnos) solo puede moverse o actuar en su turno, no ambas cosas; no tiene reacciones y los PJ tienen +1 a su Defensa contra sus ataques.
 - *Disparo certero* es su maniobra de rol: P1 a Larga y Certero, siempre disponible.
 - **Vuela:** ignora el Terreno difícil, y las técnicas de Toque de quien no vuela tienen −2 contra él, salvo que estén trabados.
 - **Frágil, pero no tanto:** por el *golpe aguantado*, ningún impacto de un PNJ puede quitarle más de 11 PV (la mitad de sus PV máximos). Además, con *Ojo para el terreno*, Xime puede dar Cobertura a su zona (+1 Def contra Distancia y Larga) o Altura (+1 al atacar a quien está debajo).
@@ -434,7 +434,7 @@ Técnicas:
 
 - *Sanador:* sus técnicas de apoyo (Curar, Escudo, Mejora, Purificar) afectan a un aliado adicional dentro del alcance. El objetivo principal (solo él) suma +VF a la curación o al Escudo.
 - *Pulso restaurador:* sin tirada, un aliado recupera 1 dado de poder de PV (1d6) o se libra de un estado. Es Agotadora: en su siguiente turno, Lalamon no puede usar otra técnica Agotadora.
-- *Sing a Song* (P1, Mental): con 10+, el objetivo queda Dormido. Pierde sus turnos, los PJ tienen +2 al atacarle y despierta al recibir daño. Dormir es control duro: con 7–9 no se aplica.
+- *Sing a Song* (P1, Mental): con 10+, el objetivo queda Dormido hasta 2 turnos. Pierde sus turnos, los PJ tienen +2 al atacarle y despierta al recibir daño o si un aliado suyo gasta su acción en despertarlo. Dormir es control duro: con 7–9 no se aplica.
 - *Lala Screw* (P2) y *Seed Blast* (su Firma, P3): de Planta, Atrapan con 10+. Su familia, *Toxinas y raíces*, le da +1 a la tirada con técnicas de Atrapar y la hace inmune a Veneno.
 - Un buen ritmo: Pulso restaurador un turno; Lala Screw o Sing a Song el siguiente.
 

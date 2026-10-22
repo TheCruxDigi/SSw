@@ -14,7 +14,7 @@ Este capítulo gira en torno a tres ideas que funcionan juntas:
 
 El ciclo es siempre el mismo. Las cosas se ponen feas y tu Tamer gana Chispa. Cuando hay suficiente, tu compañero digievoluciona. Al terminar, tiene hambre o incluso vuelve a ser un bebé. Y con el tiempo, esas formas se vuelven estables.
 
-> **Si es tu primera vez:** para la primera sesión solo necesitas tres cosas de este capítulo: cómo se gana y se gasta la Chispa, el Dado de Vínculo y la digievolución a Campeón con su detonante, la Crisis. Todo lo demás puede esperar a la segunda o la tercera sesión.
+> **Si es tu primera vez:** para la primera sesión solo necesitas tres cosas de este capítulo: cómo se gana y se gasta la Chispa, el Dado de Vínculo y la digievolución a Campeón con su detonante, la Crisis (incluido qué pasa si la nueva forma cae a 0 PV). Todo lo demás puede esperar a la segunda o la tercera sesión.
 
 ## La Chispa
 
@@ -30,11 +30,11 @@ La Chispa es la emoción de tu Tamer que fluye por el Digivice. Miedo, rabia, es
 |---|---|---|---|
 | **Fallo dramático** | Tu Tamer o tu compañero sacan 6– en una situación de tensión. La iniciativa no cuenta. | +1 | 1 por asalto en combate; 1 por escena fuera de combate |
 | **Resonancia** | Tu Dado de Vínculo saca un 6 (desde Vínculo 4, un 5 o un 6). | +1 | 1 por asalto |
-| **Crisis** | Tu compañero baja por primera vez en el combate a la mitad de sus PV o menos (en cualquier forma), tu Tamer pierde Aguante por primera vez en el combate o el DJ telegrafía un ataque contra tu Tamer. | +1 | 1 por combate |
+| **Crisis** | Tu compañero baja por primera vez en el combate a la mitad de sus PV o menos (en cualquier forma), tu Tamer pierde Aguante por primera vez en el combate o el DJ telegrafía (anuncia con un asalto de antelación) un ataque contra tu Tamer. | +1 | 1 por combate |
 | **Emblema** | Tu Tamer actúa según la virtud de su Emblema asumiendo un riesgo o un coste real. | +1 | 1 por escena |
 | **Personalidad o defecto** | La personalidad de tu compañero o el defecto de tu Tamer causan un problema real. | +1 | 1 por sesión cada uno |
-| **Animar** | Tu Tamer usa *Animar* con éxito y elige ganar Chispa. | +1 | 1 por combate |
-| **Furia de un Jefe** | Un Jefe entra en Furia al cruzar la mitad de sus PV. | +1 a cada Tamer | — |
+| **Animar** | Tu Tamer usa *Animar* (una acción de Tamer, capítulo 7) con éxito y elige ganar Chispa. | +1 | 1 por combate |
+| **Furia de un Jefe** | Un Jefe entra en Furia al cruzar el umbral de una fase, normalmente la mitad de sus PV (capítulo 12). | +1 a cada Tamer | — |
 | **Premio del DJ** | El grupo protagoniza un momento épico. | +1 | a discreción del DJ |
 
 Fíjate en el patrón: casi toda la Chispa llega cuando algo sale mal. Es deliberado. En este juego, la digievolución nace de la adversidad.
@@ -99,11 +99,11 @@ Digievolucionar cuesta **2 Chispa por cada nivel por encima del nivel estable**.
 | 5 | Gratis | Gratis | 2 |
 | ★ | Gratis | Gratis | Gratis |
 
-Con Vínculo 2, llegar a Perfecto cuesta 4 en total: puedes pagarlo de golpe o en dos pasos de 2. Si tu compañero está Hambriento, suma 1 al total.
+Con Vínculo 2, llegar a Perfecto cuesta 4 en total: puedes pagarlo de golpe o en dos pasos de 2. Si tu compañero está Hambriento, cada digievolución le cuesta 1 Chispa más.
 
 Ir a una forma de nivel igual o inferior al estable es gratis, pero **no restaura PV** (lo verás en «Cómo se digievoluciona»). Hay una excepción: si tu compañero está **Derrotado** o en **regresión a Bebé II**, no puede volver a su forma estable sin más. Solo vuelve con un descanso (corto y con comida para la regresión, largo para la derrota) o pagando 1 Chispa.
 
-Desde Vínculo 2, la Chispa con la que empiezas la sesión ya paga un nivel en el primer asalto. El DJ lo tiene en cuenta al preparar los encuentros (capítulo 12).
+Desde Vínculo 2, la Chispa con la que empiezas la sesión ya paga un nivel en el primer asalto (si esa forma ya está desbloqueada; la primera vez sigue haciendo falta el detonante). El DJ lo tiene en cuenta al preparar los encuentros (capítulo 12).
 
 ## El Dado de Vínculo y la Resonancia
 
@@ -132,7 +132,7 @@ El DV no se acumula: si no lo usas en un asalto, se pierde. ¿Lo usas para asegu
 
 ### Saltos
 
-Puedes **saltar niveles** en una sola digievolución pagando la suma. Con Vínculo 2, [[Agumon]] puede pasar directamente a [[MetalGreymon (Vaccine)]] pagando 4 Chispa. También puedes subir paso a paso: digievolucionar a [[Greymon]] en un asalto (2 Chispa) y a MetalGreymon en el siguiente (2 más). Cuando subes de una forma temporal a otra superior, solo pagas los niveles nuevos.
+Puedes **saltar niveles** en una sola digievolución pagando la suma. Con Vínculo 2, si ya tiene desbloqueado a [[MetalGreymon (Vaccine)]], [[Agumon]] puede pasar directamente a él pagando 4 Chispa. También puedes subir paso a paso: digievolucionar a [[Greymon]] en un asalto (2 Chispa) y a MetalGreymon en el siguiente (2 más). Cuando subes de una forma temporal a otra superior, solo pagas los niveles nuevos.
 
 ### La forma de partida
 
@@ -141,7 +141,7 @@ La **forma de partida** es la forma desde la que digievoluciona tu compañero. N
 ### Qué cambia al digievolucionar
 
 1. Tu compañero adopta la **ficha del bestiario** de la nueva forma, con su rol fijado y sus avances (capítulo 5).
-2. Entra con los **PV al máximo** de la nueva forma y con su **Firma lista**. Esto solo ocurre con una digievolución **pagada con Chispa** a un nivel superior al estable, y como mucho **una vez por forma y escena**. Si vuelve a una forma que ya usó en esta escena, entra con los PV que tenía al dejarla.
+2. Entra con los **PV al máximo** de la nueva forma y con su **Firma lista**. Esto solo ocurre con una digievolución **pagada con Chispa** a un nivel superior al estable, y como mucho **una vez por forma y escena**. Si vuelve a una forma que ya usó en esta escena, entra con los PV que tenía al dejarla (y si esa forma cayó a 0, mira *Segundo aliento*, más abajo).
 3. **Se eliminan todos sus estados**, salvo Hambriento.
 4. **Se guardan los PV** que tenía la forma de partida. Anótalos aparte: los necesitarás. Si subes de una forma temporal a otra superior, los PV guardados siguen siendo los de la forma de partida original.
 
@@ -156,7 +156,7 @@ Y no es solo la ficha. El rango cuenta en el daño: un Novato que golpea a un Ca
 
 ### Elegir la nueva forma
 
-- Cada nivel nuevo se elige de la lista *Evoluciona a* de la forma actual (o de otra, si el DJ lo justifica con la historia).
+- Cada nivel nuevo se elige de la lista *Evoluciona a* (la lista *next* de la ficha) de la forma actual (o de otra, si el DJ lo justifica con la historia).
 - Las formas alcanzadas quedan **desbloqueadas**. Puedes tener varias ramas del mismo nivel: Greymon y, en una noche de rabia, [[SkullGreymon]].
 - El avance **Rama alternativa** (capítulo 11) desbloquea otra forma del mismo nivel sin repetir el detonante.
 - Cambiar a otra forma del mismo nivel es gratis fuera de combate. En combate cuesta lo mismo que digievolucionar a ese nivel (0 si el nivel es estable). En ambos casos **conserva el daño**.
@@ -333,7 +333,7 @@ Las reglas dicen cuánto cuesta digievolucionar. La mesa decide cuánto emociona
 
 Lucía es una Tamer de nivel 1 con el Emblema del Valor. Tiene Vínculo 1 y empieza la sesión con 1 Chispa. Su compañero es un [[Agumon]]: 27 PV, Atq +2, Def +2, Ini +1, atributo Vacuna y su Firma, Pepper Breath (Fuego, P2/P3).
 
-El grupo de cuatro parejas entra en un claro. El DJ ha preparado el episodio de digievolución: un [[Kuwagamon]] (Campeón, Virus, 24 PV, Atq +4, Def +2, Ini +4, vuela y es débil al Fuego), un [[Gizamon]] y un pelotón de [[Mushroomon]]. Para que sea fácil de seguir, aquí solo miramos a Lucía. Agumon está en el claro y Lucía, detrás de unas rocas en la zona de al lado, dentro del alcance de su Digivice.
+El grupo de cuatro parejas entra en un claro. El DJ ha preparado el episodio de digievolución: un [[Kuwagamon]] (Campeón, Virus, 24 PV, Atq +4, Def +2, Ini +4, vuela y es débil al Fuego), un [[Gizamon]] y un pelotón de [[Mushroomon]]. Para que sea fácil de seguir, aquí solo miramos a Lucía. El ejemplo usa reglas de combate (fases, Orden, trabado, cálculo del daño) que se explican en detalle en el capítulo 7; si aún no las conoces, fíjate sobre todo en las cuentas de Chispa y de PV. Agumon está en el claro y Lucía, detrás de unas rocas en la zona de al lado, dentro del alcance de su Digivice.
 
 ### Paso 1: iniciativa
 
@@ -399,7 +399,7 @@ El grupo hace un descanso corto y Lucía le da una ración a Agumon: recupera la
 - **Vínculo (1–5 y ★):** sube con el nivel de Tamer **y** un Momento de Vínculo. Marca el nivel estable, el nivel máximo, la Chispa máxima y la Resonancia.
 - **Dado de Vínculo:** una vez por asalto, Ventaja en un ataque o una Defensa del compañero; un 6 (5–6 desde Vínculo 4) da 1 Chispa.
 - **Digievolucionar:** acción gratuita al comienzo del turno, una vez por asalto, con el Tamer a 1 zona como mucho. Ficha nueva, PV llenos y Firma lista (una vez por forma y escena), estados limpios salvo Hambriento y PV de la forma de partida guardados.
-- **Al terminar:** fin normal, vuelve a la forma de partida con los PV guardados; si la forma temporal cae a 0, vuelve y queda Agotado; si cae la forma estable, Derrotado (Bebé II). Como mucho, dos barras de PV.
+- **Al terminar:** fin normal, vuelve a la forma de partida con los PV guardados; si la forma temporal cae a 0, vuelve y queda Agotado; si cae una forma que no es temporal (la estable o una inferior), Derrotado (Bebé II). Como mucho, dos barras de PV.
 - **Primera vez:** Campeón con una Crisis, Perfecto con el Emblema, Definitivo con un Momento de Vínculo o una situación desesperada.
 - **Después:** Hambriento al terminar la escena; regresión a Bebé II si estuvo 2 o más niveles por encima del estable o tras una digievolución forzada u oscura.
 - **Emergencia:** como reacción ante un golpe que lo deja a 0 PV, coste +1; la Chispa de ese impacto ya cuenta.

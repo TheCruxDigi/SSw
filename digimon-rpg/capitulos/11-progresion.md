@@ -92,7 +92,7 @@ Cuando un talento añade una **nueva Orden**, esa Orden especial **sustituye** a
 
 ### Estratega
 
-Coordina a todo el equipo y multiplica las Órdenes. **Talento inicial:** *¡Flanqueo!*
+Coordina a todo el equipo y multiplica las Órdenes. **Talento inicial:** *¡Flanqueo!* (nueva Orden: tu compañero y un aliado que ataquen al mismo enemigo este asalto tienen +1 contra él).
 
 | Talento | Nivel | Efecto |
 |---|---|---|
@@ -104,7 +104,7 @@ Coordina a todo el equipo y multiplica las Órdenes. **Talento inicial:** *¡Fla
 
 ### Técnico
 
-Maestro de programas y del entorno digital. **Talento inicial:** *Memoria ampliada*.
+Maestro de programas y del entorno digital. **Talento inicial:** *Memoria ampliada* (+2 Carga máxima y conoces 1 programa de Nivel 1 más).
 
 | Talento | Nivel | Efecto |
 |---|---|---|
@@ -116,7 +116,7 @@ Maestro de programas y del entorno digital. **Talento inicial:** *Memoria amplia
 
 ### Protector
 
-El escudo emocional de su compañero. **Talento inicial:** *Vínculo protector*.
+El escudo emocional de su compañero. **Talento inicial:** *Vínculo protector* (+1 Aguante; mientras estéis en la misma zona, tu compañero tiene +1 Def contra técnicas de área).
 
 | Talento | Nivel | Efecto |
 |---|---|---|
@@ -128,7 +128,7 @@ El escudo emocional de su compañero. **Talento inicial:** *Vínculo protector*.
 
 ### Batidor
 
-Terreno, movilidad y emboscadas. **Talento inicial:** *Ojo para el terreno*.
+Terreno, movilidad y emboscadas. **Talento inicial:** *Ojo para el terreno* (al empezar cada combate, da Cobertura o Altura a una zona, o quita Terreno difícil de una).
 
 | Talento | Nivel | Efecto |
 |---|---|---|
@@ -140,7 +140,7 @@ Terreno, movilidad y emboscadas. **Talento inicial:** *Ojo para el terreno*.
 
 ### Inspirador
 
-Emoción, Chispa y digievolución. **Talento inicial:** *Llama del vínculo*.
+Emoción, Chispa y digievolución. **Talento inicial:** *Llama del vínculo* (al empezar cada combate, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo).
 
 | Talento | Nivel | Efecto |
 |---|---|---|
@@ -163,7 +163,7 @@ Cualquier Tamer puede elegirlos, sea cual sea su Senda.
 | *Coleccionista* | Al empezar cada aventura, +1 Disco de recuperación S y +1 objeto de 150 Bits o menos. |
 | *Cocinero/a* | En un descanso corto con tu comida, todos los compañeros recuperan VF PV extra y se elimina Hambriento sin gastar comida (1 vez por sesión). |
 
-> **Si es tu primera vez:** elige el talento que vayas a usar en casi todos los combates. Una Orden nueva o una rebaja de Chispa se notan cada asalto. Los talentos de situación, como *Emboscador* o *Domador/a*, brillan más cuando ya sabes cómo juega tu grupo. Y fíjate en lo que hacen los demás: si nadie lleva *Cocinero/a*, el grupo entero te lo agradecerá.
+> **Si es tu primera vez:** elige el talento que vayas a usar en casi todos los combates. Una Orden nueva o una rebaja de Chispa se notan en cada combate. Los talentos de situación, como *Emboscador* o *Domador/a*, brillan más cuando ya sabes cómo juega tu grupo. Y fíjate en lo que hacen los demás: si nadie lleva *Cocinero/a*, el grupo entero te lo agradecerá.
 
 ## Avances del compañero
 
@@ -211,7 +211,7 @@ Si llegas al nivel sin el Momento, **el Vínculo espera** hasta que lo viváis. 
 | 5 | 9–10 | Perfecto | Definitivo | 8 | 5–6 |
 | ★ | 10 + arco del Emblema cerrado | Definitivo | Modo Supremo [O] | 9 | 5–6 |
 
-Al subir el Vínculo cambian tu nivel estable y tu nivel máximo, y las formas del nuevo nivel estable se estabilizan (sección siguiente). Tu Chispa máxima es siempre 3 + Vínculo. Y recuerda que, al empezar cada sesión, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo: desde Vínculo 2, esa Chispa inicial ya paga un nivel de digievolución en el primer asalto.
+Al subir el Vínculo cambian tu nivel estable y tu nivel máximo, y las formas del nuevo nivel estable se estabilizan (sección siguiente). Tu Chispa máxima es 3 + Vínculo (+1 si tienes *Corazón ardiente*). Y recuerda que, al empezar cada sesión, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo: desde Vínculo 2, esa Chispa inicial ya paga un nivel de digievolución en el primer asalto.
 
 **El Vínculo ★** es el último escalón. Pide nivel 10 y haber cerrado el **arco del Emblema**: una historia en la que tu Tamer supera su mayor dificultad gracias a su virtud (capítulo 10). Con él, el Definitivo se vuelve estable y, si la mesa usa el módulo de Modos (capítulo 13), se abre el Modo Supremo.
 
@@ -237,7 +237,7 @@ Estabilizar también reduce la **regresión a Bebé II**. Esa regresión llega c
 
 ## Qué pasa en cada nivel: la campaña del grupo
 
-Esta tabla resume lo que vive un grupo típico en cada nivel. La columna de sesiones supone unos 4 XP por sesión; tu mesa puede ir algo más deprisa o más despacio. La columna de formas da por hecho que el Vínculo ha subido al máximo de ese nivel (es decir, que ya habéis vivido el Momento de Vínculo).
+Esta tabla resume lo que vive un grupo típico en cada nivel. La columna de sesiones indica, más o menos, al final de qué sesión se llega a cada nivel, con unos 4 XP por sesión; tu mesa puede ir algo más deprisa o más despacio. La columna de formas da por hecho que el Vínculo ha subido al máximo de ese nivel (es decir, que ya habéis vivido el Momento de Vínculo).
 
 | Nivel | Hacia la sesión | Vínculo (máx.) | Formas del compañero (estable / máximo) | Qué cambia para el grupo |
 |---|---|---|---|---|
@@ -281,9 +281,9 @@ En la segunda sesión, un [[Gazimon]] que les había tendido una trampa se rinde
 
 ### Nivel 2: un talento y un programa
 
-**Talento.** Sara duda. *Corazón ardiente* le daría +1 Chispa máxima, pero con Vínculo 1 rara vez acumula 4. *Discurso* le encanta: con Empatía +3, Nora calmaría a un Digimon salvaje en pleno combate con 2d6 + 5, muy propio de la Bondad. Al final elige **Digievolución inspirada**. Ahora, una vez por combate, [[Monochromon]] le cuesta 1 Chispa en lugar de 2 (o 2 en lugar de 3, si Guijarro está Hambriento). Y como *Llama del vínculo* le asegura al menos 1 Chispa al empezar cada combate, Guijarro podrá convertirse en Monochromon desde el primer asalto. *Discurso* queda apuntado para el nivel 4.
+**Talento.** Sara duda. *Corazón ardiente* le daría +1 Chispa máxima, pero con Vínculo 1 rara vez acumula 4. *Discurso* le encanta: con su +1, la Empatía de Nora pasaría de +2 a +3, y calmaría a un Digimon salvaje en pleno combate con 2d6 + 5, muy propio de la Bondad. Al final elige **Digievolución inspirada**. Ahora, una vez por combate, [[Monochromon]] le cuesta 1 Chispa en lugar de 2 (o 2 en lugar de 3, si Guijarro está Hambriento). Y como *Llama del vínculo* le asegura al menos 1 Chispa al empezar cada combate, Guijarro podrá convertirse en Monochromon desde el primer asalto. *Discurso* queda apuntado para el nivel 4.
 
-**Programa.** En el nivel 2 solo puede aprender programas de Nivel 1. Sara elige **Enfoque**. Volcanic Strike, la Firma de Monochromon, es Agotadora: después de lanzarla como P3, el turno siguiente no puede usar otra técnica Agotadora. Con Enfoque (1 Carga), la Firma queda lista igualmente. Son dos golpes de 3d8 seguidos cuando el combate lo pide.
+**Programa.** En el nivel 2 solo puede aprender programas de Nivel 1. Sara elige **Enfoque**. Volcanic Strike, la Firma de Monochromon, es Agotadora: después de lanzarla como P3, en su turno siguiente no puede usar ninguna técnica Agotadora, ni siquiera la misma. Con Enfoque (1 Carga), la Firma queda lista igualmente. Son dos golpes de 3d8 seguidos cuando el combate lo pide.
 
 ### Sesiones 4 y 5
 
@@ -300,7 +300,7 @@ El Momento de Vínculo de la sesión 4 **no sube el Vínculo**: en el nivel 2, e
 
 **Avance del compañero.** Sara repasa la tabla. *Robustez* le daría a Guijarro 30 PV como Gotsumon y 40 como Monochromon. *Entrenamiento ofensivo*, +1 Atq en todas sus formas. Pero ya tenía un plan desde el capítulo 5: **Técnica heredada** para Rock Fist. Gotsumon la sigue usando como su Firma, igual que siempre. Y Monochromon la gana como P2 con su dado: **2d8 de Tierra cuerpo a cuerpo**. Volcanic Strike es de Fuego, así que, cuando un enemigo resista el Fuego, Guijarro tendrá otra forma de golpear fuerte. Además, las dos son de Toque, así que la *DigiSoul* del Digivice iC sirve con cualquiera de ellas.
 
-**Programas de Nivel 2.** El nivel 3 da acceso a los programas de Nivel 2, pero no regala ninguno. Nora ha ahorrado 340 Bits de los encargos y, en la siguiente ciudad Digimon, compra **Ancla de datos** por 300. Cuesta 2 Carga y hace que, hasta el final de la escena, la primera vez que la forma temporal de Guijarro caiga a 0, se quede a 1 PV.
+**Programas de Nivel 2.** El nivel 3 da acceso a los programas de Nivel 2, pero no regala ninguno. Entre sus 100 Bits iniciales y lo que ha ganado en los encargos, Nora ha reunido 340 Bits y, en la siguiente ciudad Digimon, compra **Ancla de datos** por 300. Cuesta 2 Carga y hace que, hasta el final de la escena, la primera vez que la forma temporal de Guijarro caiga a 0, se quede a 1 PV.
 
 **Lo que aún no cambia:** el Vínculo. Nora ya tiene el nivel para Vínculo 2, pero le falta el Momento.
 
@@ -311,7 +311,7 @@ Sara y el DJ ya tienen una idea, sacada de la debilidad de Guijarro: el Agua. El
 El DJ lo tiene claro: es un Momento de Vínculo. Nora ya es de nivel 3, así que **su Vínculo sube a 2**. Esto es lo que cambia:
 
 - Su **Chispa máxima** pasa de 4 a 5.
-- Cada sesión empieza con al menos **2 Chispa**, y *Llama del vínculo* le sube a 2 al empezar cada combate. Con 2 Chispa, Monochromon ya está pagado en el primer asalto aunque no use el talento; con el talento, le cuesta 1 y le sobra otra para un Esfuerzo.
+- Cada sesión empieza con al menos **2 Chispa**, y, si tiene menos, *Llama del vínculo* la sube a 2 al empezar cada combate. Con 2 Chispa, Monochromon ya está pagado en el primer asalto aunque no use el talento; con el talento, le cuesta 1 y le sobra otra para un Esfuerzo.
 - El **nivel máximo** de Guijarro sube a Perfecto. Su primer Perfecto necesita que el Emblema despierte: en esa escena, Nora tiene que haber ganado Chispa por su Bondad. Desde Gotsumon le costaría 4 Chispa (3 con *Digievolución inspirada*). Como sería un salto de 2 niveles por encima de su nivel estable, al acabar la escena Guijarro volvería a ser un [[Motimon]] hasta comer y descansar. Sara marca dos candidatos de la lista *next* de Monochromon: [[Mammothmon]] y [[Triceramon]].
 - El **nivel estable** sigue siendo Novato. Monochromon seguirá siendo una forma temporal, con su hambre al final de la escena, hasta que el Vínculo llegue a 3.
 

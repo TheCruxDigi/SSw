@@ -73,7 +73,7 @@ Un Digi-Huevo es un fragmento de poder muy antiguo, con la forma de un huevo de 
 | Milagros (dorado) | Luz | [[Magnamon]] |
 | Destino (dorado) | Acero | [[Rapidmon]] (Armadura), [[GoldVeedramon]] |
 
-**Qué forma sale con cada huevo.** Una forma Armadura cuya lista *prev* incluya a tu Novato, a elección del jugador y del DJ. La forma de referencia de la tabla es la más típica, pero no la única. Las demás formas Armadura del bestiario se asignan al huevo cuyo elemento encaje con su Firma: [[Kabukimon]], cuya Firma es de Planta, va con el huevo de la Pureza; [[Allomon]], con Firma de Viento, con el del Amor.
+**Qué forma sale con cada huevo.** Una forma Armadura cuya lista *prev* (las formas de las que viene, capítulo 5) incluya a tu Novato, a elección del jugador y del DJ. La forma de referencia de la tabla es la más típica, pero no la única. Las demás formas Armadura del bestiario se asignan al huevo cuyo elemento encaje con su Firma: [[Kabukimon]], cuya Firma es de Planta, va con el huevo de la Pureza; [[Allomon]], con Firma de Viento, con el del Amor.
 
 ### Los huevos dorados
 
@@ -111,7 +111,7 @@ Algunas leyendas del Mundo Digital no están en un Digimon, sino en un **Espíri
 - El Tamer **es** la criatura: usa la **ficha del Híbrido** del bestiario.
 - Tiene **una acción de Digimon** por turno y solo las **acciones gratuitas de Tamer**.
 - Su **Aguante queda protegido** bajo los PV del Híbrido: los golpes van a los PV, no al Aguante.
-- Su atributo es **Variable** mientras dure la transformación (rasgo *Espíritu legendario*): para el triángulo, usa el atributo que elija en cada escena (capítulo 8).
+- Su atributo es **Variable** mientras dure la transformación (rasgo *Espíritu legendario*): al empezar cada escena elige ser Vacuna, Datos o Virus para el triángulo (capítulo 8).
 - **A 0 PV:** el Tamer recupera su forma humana, **pierde 2 Aguante** y **queda Agotado**.
 
 ### Los Espíritus
@@ -248,7 +248,7 @@ Un Digimon con actitud **Leal** puede acompañar al grupo durante una aventura.
 
 - Lo manejan **los jugadores, por turnos**, y actúa en la **fase lenta**.
 - **No tiene Chispa ni Dado de Vínculo** y **no digievoluciona**, salvo que lo pida la historia.
-- **Para el presupuesto de encuentro, suma sus PA a N** (capítulo 12).
+- **Para el presupuesto de encuentro, suma sus PA a N** (capítulo 12). Recuerda: N es el número de parejas del grupo y los PA son los puntos de amenaza que vale cada enemigo.
 
 *Ejemplo:* cuatro Tamers de Vínculo 1 (nivel de referencia Novato) salvan la aldea de [[Leomon]], que los acompaña hasta la montaña. Leomon es un Campeón, un rango por encima del nivel de referencia (×2), con índice de amenaza medio (×1): vale 2 PA. Para el presupuesto, el DJ cuenta N = 4 + 2 = 6, así que un encuentro Normal sube de 4 a 6 PA. Cada asalto, un jugador distinto decide qué hace Leomon en la fase lenta.
 
@@ -332,7 +332,7 @@ La oscuridad también puede tocar a los humanos. Cada Tamer tiene un contador de
 
 **Se limpia 1 punto** con un **Momento de Vínculo**, con la **Resonancia del Emblema** de la **Pureza** o de la **Luz** (capítulo 10), o con una **escena de reparación**: pedir perdón, deshacer el daño, devolver lo que se tomó.
 
-*Ejemplo:* desesperado por salvar a su hermana, Tomás se coloca en la muñeca una Espiral del Mal que le arrebató a un enemigo: gana 1 punto de Corrupción y, desde ahora, tiene −1 a Animar. Dos sesiones después, lleno de odio, ordena a su compañero rematar a un enemigo que ya se rendía: 2 puntos. Toda la Chispa que gane por fallar solo le sirve para forzar la digievolución. Al final de esa sesión, Tomás se disculpa con el Digimon al que humilló y le ayuda a reconstruir su refugio. Es una escena de reparación: vuelve a 1 punto.
+*Ejemplo:* desesperado por salvar a su hermana, Tomás se coloca en la muñeca una Espiral del Mal que le arrebató a un enemigo: gana 1 punto de Corrupción y, desde ahora, tiene −1 a Animar. Dos sesiones después, lleno de odio, ordena a su compañero rematar a un enemigo que ya se rendía: 2 puntos. Toda la Chispa que gane por fallo dramático solo le sirve para forzar la digievolución. Al final de esa sesión, Tomás se disculpa con el Digimon al que humilló y le ayuda a reconstruir su refugio. Es una escena de reparación: vuelve a 1 punto.
 
 > **Consejo para el DJ:** la Corrupción es un tema intenso. Pacta su uso con la mesa en la sesión cero, recuerda las herramientas de seguridad del capítulo 1 y ofrece siempre un camino de vuelta. En *Lazos de Código*, la oscuridad es una prueba de la que se sale con ayuda de los amigos, no un final.
 
@@ -425,7 +425,7 @@ Si el Tamer **traiciona gravemente la confianza** de su compañero, el **Víncul
 
 - **Dados:** cada jugador necesita 3d6 (dos de un color y el Dado de Vínculo de otro) y un dado de poder de cada tipo (d4 a d12). El DJ, un d20, un d12, un d8 y un d6 para las tablas. No hacen falta reservas grandes de dados.
 - **Daño fijo para todos:** si la mesa prefiere no tirar daño nunca, todos usan el daño fijo del capítulo 7: cada dado vale su VF (d4 = 2, d6 = 3, d8 = 4, d10 = 5, d12 = 6), y VF + 1 con un 10+ del atacante o un 6– del defensor.
-- **App de dados:** la web del manual incluye un lanzador con el Dado de Vínculo y la lectura de franjas.
+- **App de dados:** la web del manual incluirá un lanzador con el Dado de Vínculo y la lectura de franjas.
 
 ## Objetos, tarjetas y Digivices de los módulos
 

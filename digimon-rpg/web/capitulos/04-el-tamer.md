@@ -99,7 +99,7 @@ El trasfondo es **lo que tu Tamer era antes de cruzar la Puerta Digital**. Elige
 
 ### Cómo funcionan los objetos de trasfondo
 
-Algunos objetos de trasfondo son piezas del equipo normal y usan su regla de la tabla de equipo (la verás en el paso 9): el **portátil**, el **botiquín**, el **silbato**, la **navaja multiusos**, la **cuerda** y la **brújula**.
+Algunos objetos de trasfondo son piezas del equipo normal y usan su regla de la tabla de equipo (la verás en el paso 9): el **botiquín**, el **silbato**, la **navaja multiusos**, la **cuerda** y la **brújula**. El **portátil** del Cerebrito no sale en esa tabla porque cuesta más de 60 Bits: da **+1 a Tecnología** y es necesario para hackear a distancia (capítulo 10).
 
 Los demás son más personales. Cada uno da **+1 a una tirada por sesión** en la que encaje claramente:
 
@@ -111,7 +111,7 @@ Los demás son más personales. Cada uno da **+1 a una tirada por sesión** en l
 
 ### Nombres que se parecen
 
-Ojo con dos pares de nombres. *Explorador/a* es un **trasfondo**; *Batidor* es una **Senda** (paso 5). Y *Protector* es a la vez el rasgo del trasfondo Hermano/a mayor y el nombre de otra Senda. Son cosas distintas y puedes tener las dos.
+Ojo con dos pares de nombres. *Explorador/a* es un **trasfondo**; *Batidor* es una **Senda** (paso 5). Y *Protector* es a la vez el rasgo del trasfondo Hermano/a mayor y el nombre de una Senda. Son cosas distintas y puedes tener las dos.
 
 ## Paso 4: Habilidades
 
@@ -248,7 +248,7 @@ Ha llegado el momento que todo el mundo espera: elegir a tu compañero. Todo el 
 2. **Anota su Bebé II**, de su lista *prev* en el bestiario. Es la forma a la que vuelve cuando lo derrotan o tras un gran esfuerzo. Si tiene varias, eliges tú. Si no tiene ninguna, el capítulo 5 explica qué hacer.
 3. **Anota un Campeón probable** de su lista *next*. Es solo una intención: la primera digievolución se decide en la escena.
 4. **Elige o tira su personalidad** (1d12, capítulo 5). Igual que tu defecto, una vez por sesión te dará Chispa cuando cause un problema real.
-5. **Si quieres, fija su rol.** Puedes elegir uno de los 8 roles de combate para que todas sus formas lo usen. Si eliges Versátil, decide ya su especialidad fuera de combate.
+5. **Si quieres, fija su rol.** Puedes elegir uno de los 8 roles de combate para que todas sus formas lo usen. Si su rol es Versátil (porque lo fijas o porque lo trae del bestiario), decide ya su especialidad fuera de combate.
 
 La ficha de tu compañero es **la ficha de su especie en el bestiario**. Busca a tu Novato en la web y cópiala; si fijas su rol, el capítulo 5 te explica qué cambia.
 
@@ -355,7 +355,7 @@ Algunos detalles sobre estos valores:
 - **La Carga** se gasta en programas. Se recupera **entera** con un descanso largo y **2 puntos** con uno corto. Empiezas con la Carga **llena**.
 - **La Chispa** sube con los fallos, las Crisis, la Resonancia, tu Emblema y tus defectos, y se gasta sobre todo en digievolucionar (2 por nivel por encima del estable). **Al empezar cada sesión, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo.** Todo esto se explica en el capítulo 6.
 - **El Vínculo** no sube solo con la experiencia: hace falta, además, un **Momento de Vínculo** entre tu Tamer y su compañero (capítulo 6).
-- **La Defensa del Tamer** se tira poco: un enemigo solo ataca a un Tamer si el DJ lo ha anunciado antes, si el Tamer está Expuesto en su zona o con una técnica de área (capítulo 7).
+- **La Defensa del Tamer** se tira poco: un enemigo solo ataca a un Tamer si el DJ lo ha anunciado antes, si el Tamer está Expuesto en su zona o con una técnica de Zona o Total que alcance la zona del Tamer, y como mucho una vez por asalto (capítulo 7).
 
 El Aguante de un Tamer suele estar entre 6 y 8. Parece poco, pero un ataque de un Novato quita 1 punto de Aguante y uno de un Campeón, 2 (uno más si es una técnica P3). Además, siempre puede ponerse a cubierto: tu Tamer no está para recibir golpes, sino para estar al lado de su compañero.
 
@@ -491,7 +491,7 @@ Las cifras de Guijarro salen tal cual de la ficha de [[Gotsumon]] en el bestiari
 | **Técnicas** | Golpe elemental (básica: P1 · Toque · Tierra) · Arremetida (maniobra de Bruto: P1 · Toque · Neutro · Derribar) · **Rock Fist** (Firma: P2/P3 · Toque · Individual · Tierra · Derribar, Brutal; Agotadora como P3) |
 | **Rasgos** | *Arrollador* (rol) · *Cuerpo elemental* (familia) · *Procesamiento* (atributo) |
 | **Debilidades / Resistencias** | Planta y Agua / Tierra |
-| **Especialidades** | Su elemento · fuerza y romper cosas |
+| **Especialidades** | Su elemento (Tierra) · fuerza y romper cosas |
 | **Bebé II** | [[Motimon]] |
 | **Campeón probable** | [[Monochromon]] |
 | **Personalidad** | Gruñón (d12: 6) |
@@ -500,7 +500,7 @@ Las cifras de Guijarro salen tal cual de la ficha de [[Gotsumon]] en el bestiari
 
 En la primera sesión, un Digimon salvaje les cierra el paso en un desfiladero. Antes de que nadie diga nada, Nora da un paso al frente y le planta cara. Es la primera vez en la sesión que se enfrenta cara a cara a un Digimon hostil, así que su Digivice iC le da **1 Chispa**: ya tiene 2.
 
-Empieza el combate. *Llama del vínculo* no hace nada esta vez, porque Nora ya tiene más Chispa que su Vínculo. Con 2 Chispa podría pagar la digievolución a Campeón, pero es la primera vez y le falta el detonante: una **Crisis**. En el primer asalto, Nora le da una Orden a Guijarro. En el segundo, Guijarro baja a la mitad de sus PV: esa es la Crisis, que además le da otra Chispa. El Digivice brilla y Sara anuncia, con una sonrisa enorme, que es el momento de conocer a [[Monochromon]].
+Empieza el combate. *Llama del vínculo* no hace nada esta vez, porque Nora ya tiene más Chispa que su Vínculo. Con 2 Chispa podría pagar la digievolución a Campeón, pero es la primera vez y le falta el detonante: una **Crisis**. En el primer asalto, Nora le da una Orden a Guijarro. En el segundo, Guijarro baja a la mitad de sus PV: esa es la Crisis, que además le da otra Chispa (ya tiene 3). Al empezar el siguiente turno de la pareja, el Digivice brilla: Sara gasta 2 Chispa (le queda 1) y anuncia, con una sonrisa enorme, que es el momento de conocer a [[Monochromon]].
 
 Cada pieza que Sara eligió al crear a Nora le dio una herramienta o una razón para actuar.
 

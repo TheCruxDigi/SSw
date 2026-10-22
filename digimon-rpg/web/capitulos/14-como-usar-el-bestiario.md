@@ -6,7 +6,7 @@ En este capítulo aprenderás a leer una ficha campo a campo, qué significan lo
 
 ## El bestiario de un vistazo
 
-Cada ficha se **genera por fórmula** a partir de cinco datos: **nivel, rol, atributo, familia y técnicas oficiales**. Nadie ha retocado los números a mano. Por eso todas las fichas son coherentes entre sí y encajan en el presupuesto de encuentros del capítulo 12. Hay 108 Bebés, 175 Novatos, 278 Campeones, 283 Perfectos, 371 Definitivos y 102 fichas de niveles especiales (Armadura, Híbrido e Indeterminado).
+Cada ficha se **genera por fórmula** a partir de cinco datos: **nivel, rol, atributo, familia y técnicas oficiales**. Nadie ha retocado las cifras a mano: solo se corrigen a mano algunos roles y técnicas, como verás más adelante. Por eso todas las fichas son coherentes entre sí y encajan en el presupuesto de encuentros del capítulo 12. Hay 108 Bebés, 175 Novatos, 278 Campeones, 283 Perfectos, 371 Definitivos y 102 fichas de niveles especiales (Armadura, Híbrido e Indeterminado).
 
 Dos ideas te ahorrarán muchos problemas:
 
@@ -49,7 +49,7 @@ Evoluciona de: Growlmon, Leomon, Airdramon… · Evoluciona a: WarGreymon, Shine
 ### Segunda línea: las cifras
 
 - **Rango (0–4):** el número que se compara siempre (Bebé 0, Novato 1, Campeón 2, Perfecto 3, Definitivo 4). Los niveles especiales usan el rango de la fila que toman prestada.
-- **PV, Atq, Def:** el DJ no tira para impactar. Un PJ ataca con 2d6 + su Atq − la Def del objetivo y se defiende con 2d6 + su Def − el Atq del atacante.
+- **PV, Atq, Def:** sus puntos de vida, su Ataque y su Defensa. El DJ no tira para impactar. Un PJ ataca con 2d6 + su Atq − la Def del objetivo y se defiende con 2d6 + su Def − el Atq del atacante.
 - **Arm:** resta daño a cada impacto. En el bestiario nunca pasa de 2.
 - **Ini:** para la tirada de iniciativa.
 - **Dado y VF:** el dado de poder del nivel (d4 a d12) y su **valor fijo**, la mitad de sus caras. El VF es el daño de cada dado con daño fijo y aparece en muchas reglas («recupera VF PV»).
@@ -70,9 +70,9 @@ Los rasgos de **rol**, **familia**, **atributo** y **plantillas**. Si un rasgo d
 
 Se leen así: **nombre — potencia · alcance · área · elemento · palabras clave [dados]**.
 
-- **Técnica básica** (Disparo): depende de la familia. Siempre P1.
+- **Técnica básica** (Disparo): su nombre y su elemento dependen de la familia. Siempre P1 y de Toque, salvo en la familia Arcano (a Distancia) y en los Tiradores, que la usan como **Disparo**, a Distancia: por eso MetalGreymon no tiene el Puño mecánico de las Máquinas.
 - **Maniobra de rol** (Disparo certero): depende del rol. Los Bebés no tienen.
-- **Firma** (Giga Destroyer): la técnica estrella, P3 y **Agotadora** (el turno siguiente no puede usar otra técnica Agotadora). Si el Digimon solo tiene una técnica oficial, su Firma es **P2/P3**: P2 a voluntad o P3 Agotadora. Por eso [[Agumon]] imprime «2d6 / 3d6» en Pepper Breath.
+- **Firma** (Giga Destroyer): la técnica estrella, P3 y **Agotadora** (en su turno siguiente no puede usar ninguna técnica Agotadora, tampoco la misma). Si el Digimon solo tiene una técnica oficial, su Firma es **P2/P3**: P2 a voluntad o P3 Agotadora. Por eso [[Agumon]] imprime «2d6 / 3d6» en Pepper Breath.
 - **Las demás técnicas oficiales**, con su potencia.
 - **Los dados entre corchetes** son contra un objetivo. En una técnica de área se añaden los dados **contra 2 o más objetivos**, uno menos: Giga Storm tira 2d10 contra uno y 1d10 contra cada uno si alcanza a varios.
 
@@ -153,7 +153,7 @@ Algunas fichas llevan una **plantilla de forma**: una marca de que ese Digimon e
 
 **Modos.** El nombre decide la plantilla. [[ShineGreymon]] tiene PV 48, Atq +5 y Def +5; [[ShineGreymon: Burst Mode]] sube a PV 54, Atq +6 y Def +6, y su rasgo **Poder desatado** deja lista su Firma al entrar en el modo. [[ShineGreymon: Ruin Mode]] tiene las mismas cifras, pero su rasgo es **Descontrol**: +1 dado de daño en todas sus técnicas (no está impreso en los corchetes: súmalo al tirar) y −1 Def contra la Luz. Un compañero solo llega a un Modo Oscuro por digievolución oscura, y entonces lo controla el DJ. Los Modos alternos, como [[Imperialdramon: Dragon Mode]] e [[Imperialdramon: Fighter Mode]], comparten cifras y cambian de técnicas; pasar de uno a otro **gasta el movimiento** y conserva el daño recibido. Ojo: varios Híbridos figuran como «modo» en los datos, pero no usan estas plantillas.
 
-**Armadura.** El nivel Armadura usa la **fila de Campeón**: [[Flamedramon]] tiene PV 36, Atq +3 y Def +2, como un Campeón de su familia, rol y atributo. Su rasgo **Poder del Digi-Huevo** le da resistencia al elemento de su Firma (incluida), funciona aunque la digievolución normal esté bloqueada y le impide digievolucionar desde esa forma. Los huevos dorados son la excepción: [[GoldVeedramon]] usa la fila de Perfecto y [[Magnamon]], la de Definitivo.
+**Armadura.** El nivel Armadura usa la **fila de Campeón**: [[Flamedramon]] tiene PV 36, Atq +3 y Def +2, como un Campeón de su familia, rol y atributo. Su rasgo **Poder del Digi-Huevo** le da resistencia al elemento de su Firma (incluida), funciona aunque la digievolución normal esté bloqueada y le impide digievolucionar desde esa forma. Los huevos dorados son la excepción: [[GoldVeedramon]] y el [[Rapidmon]] de nivel Armadura usan la fila de Perfecto, y [[Magnamon]], la de Definitivo.
 
 **Híbridos.** Son la transformación de un Tamer con un Espíritu (capítulo 13). Su atributo es siempre **Variable** y cada clase usa una fila:
 
@@ -178,9 +178,21 @@ Las reglas completas de cada plantilla y la anatomía de un Jefe están en el ca
 1. **Elige la ficha** según la historia y el nivel de referencia del grupo.
 2. **Mira su amenaza sugerida.** El bestiario sugiere Legendario en 126 fichas, Jefe en 27 y Esbirro en 20. Es solo una sugerencia, aunque la plantilla Legendario está pensada para los grandes poderes de esa lista.
 3. **Elige la plantilla** según su papel: carne de cañón (Esbirro), rival de igual a igual (Estándar), veterano peligroso (Élite), clímax (Jefe) o fuerza de la naturaleza (Legendario).
-4. **Ajusta las cifras.** **N** es el número de parejas Tamer-Digimon.
+4. **Ajusta las cifras** con la tabla que sigue a esta lista. **N** es el número de parejas Tamer-Digimon.
 5. **Añade sus reglas:** daño fijo y Firma como P2 del Esbirro, reacción de la Élite, fases y Furia del Jefe, Dominio del Legendario.
-6. **Calcula sus PA:** PA de la plantilla × factor por diferencia de rango × modificador de su índice de amenaza.
+6. **Calcula sus PA:** PA de la plantilla × factor por diferencia de rango con el nivel de referencia (−3 o menos ×⅛, −2 ×¼, −1 ×½, 0 ×1, +1 ×2, +2 ×5, +3 o más ×15) × modificador de su índice de amenaza.
+
+Los ajustes de cada plantilla, en resumen:
+
+| Plantilla | PV | Atq | Def | Arm | Ini | Acciones por asalto | PA | Además |
+|---|---|---|---|---|---|---|---|---|
+| **Esbirro** | PV ÷ 4, hacia arriba | −1 | −1 | +0 | +0 | 1 | ¼ | Firma como P2; daño fijo |
+| **Estándar** | PV | +0 | +0 | +0 | +0 | 1 | 1 | — |
+| **Élite** | PV × 1,5, hacia abajo | +1 | +1 | +0 | +1 | 1 | 2 | 1 reacción por asalto |
+| **Jefe** | PV × (N + 2) ÷ 2, hacia abajo | +1 | +1 | +1 | +2 | N ÷ 2, hacia arriba | N | Anatomía de un Jefe |
+| **Jefe con Refuerzo I** | PV × (N + 3) ÷ 2, hacia abajo | +1 | +1 | +1 | +2 | N ÷ 2, hacia arriba, + 1 | N, contando un nivel más | Anatomía de un Jefe |
+| **Jefe con Refuerzo II** | PV × (N + 3) ÷ 2, hacia abajo | +1 | +1 | +1 | +2 | N | N, contando un nivel más | +1 dado en todas sus técnicas |
+| **Legendario** | PV × (N + 3) ÷ 2, hacia abajo | +1 | +1 | +1 | +2 | N ÷ 2, hacia arriba | 2N | +1 dado, 3 fases y Dominio |
 
 Así queda [[MetalGreymon (Vaccine)]] para **4 parejas** con nivel de referencia **Perfecto** (diferencia 0, índice medio):
 
@@ -192,9 +204,9 @@ Así queda [[MetalGreymon (Vaccine)]] para **4 parejas** con nivel de referencia
 | Jefe | 105 | +5 | +4 | 2 | +5 | 2 | Anatomía de un Jefe | 4 |
 | Jefe con Refuerzo I | 122 | +5 | +4 | 2 | +5 | 3 | Cuenta un nivel más | 8 |
 
-Los PV salen así: 35 ÷ 4 = 8,75, hacia arriba, 9; 35 × 1,5 = 52,5, hacia abajo, 52; 35 × (4 + 2) ÷ 2 = 105; 35 × (4 + 3) ÷ 2 = 122,5, hacia abajo, 122. El Refuerzo II (N acciones y +1 dado) es para los Jefes Definitivos de Vínculo 4 y 5.
+Los PV salen así: 35 ÷ 4 = 8,75, hacia arriba, 9; 35 × 1,5 = 52,5, hacia abajo, 52; 35 × (4 + 2) ÷ 2 = 105; 35 × (4 + 3) ÷ 2 = 122,5, hacia abajo, 122. El Refuerzo II (N acciones y +1 dado) es para los Jefes Definitivos de Vínculo 5, o de Vínculo 4 con el Definitivo desbloqueado.
 
-> **Ejemplo:** el grupo de Lía tiene 4 parejas a Vínculo 3, así que el Jefe de la aventura es un Perfecto con Refuerzo I. La DJ elige a MetalGreymon (Vaccine), corrompido por una Aguja de Control: 122 PV, 3 acciones por asalto, umbral de fase en 61 PV y Guardia de carga 17. Para el presupuesto cuenta un nivel por encima: 4 × 2 × 1 = **8 PA**, justo **2N (Épico)**. Como esbirro, en cambio, haría 10 de daño fijo con Giga Destroyer usada como P2 (12 si el PJ saca 6– al defenderse).
+> **Ejemplo:** el grupo de Lía tiene 4 parejas a Vínculo 3, así que el Jefe de la aventura es un Perfecto con Refuerzo I. La DJ elige a MetalGreymon (Vaccine), corrompido por una Aguja de Control: 122 PV, 3 acciones por asalto, umbral de fase en 61 PV y Guardia de carga 17. Para el presupuesto cuenta un nivel por encima: 4 × 2 × 1 = **8 PA**, justo **2N (Épico)**. Como esbirro, en cambio, usaría Giga Destroyer como P2 con daño fijo: 2 dados × VF 5 = 10, que se quedan en 5 si el PJ saca 7–9 al defenderse. Con 6–, Brutal suma un dado y cada dado vale VF + 1: 3 × 6 = 18 (antes de restar Arm).
 
 Dos recordatorios. **Los compañeros nunca usan plantillas de amenaza**: un compañero que llega a [[Gallantmon]] usa su ficha base. Y las plantillas de forma y de amenaza **se suman**: un [[ShineGreymon: Ruin Mode]] como Jefe conserva su dado extra de Descontrol, y la Furia le añade otro.
 
@@ -238,10 +250,10 @@ El generador reparte puntos y gana el rol con más:
 
 - **+3** al rol primario de su familia y **+1** al secundario.
 - **+4** si su tipo es una excepción de un rol (Cyborg → Tirador, Holy Knight → Versátil, Pixie → Apoyo, Dinosaur → Bruto…).
-- **Evidencia de sus técnicas**, que cuenta doble en la Firma: una técnica de apoyo da +3 a Apoyo; un Toque detectado por una palabra, +1 a Bruto; una Distancia o Larga detectada por una palabra, +1 a Tirador; y cada palabra clave encontrada suma 1 a su rol afín (estados de control a Místico; Perforante, Certero o Ejecutar a Acechador; Rápido a Ágil; Provocar o Contraataque a Tanque; Brutal, Romper, Derribar o Aturdir a Bruto).
-- **Extras:** +2 a Versátil si es Definitivo con técnicas de Toque y de Distancia; +4 a Apoyo si más de la mitad de sus técnicas son de apoyo.
+- **Evidencia de sus técnicas**, que cuenta doble en la Firma: una técnica de apoyo da +3 a Apoyo; un Toque detectado por una palabra, +1 a Bruto; una Distancia o Larga detectada por una palabra, +1 a Tirador; y cada palabra clave encontrada por raíz suma 1 a su rol afín (Dormir, Encantar, Confundir, Sellar, Regresión, Atrapar, Ralentizar, Debilitar, Asustar o Cegar a Místico; Invocar, Drenar, y Curar o Mejora en una técnica de daño, también a Místico; Perforante, Certero, Ejecutar u Ocultar a Acechador; Rápido a Ágil; Provocar, Contraataque o Escudo en una técnica de daño a Tanque; Brutal, Romper, Derribar o Aturdir a Bruto).
+- **Extras:** +2 a Versátil si es Definitivo con técnicas de Toque y de Distancia; +4 a Apoyo si más de la mitad de sus técnicas son de apoyo; +1 a Bruto si es un Elemental de tipo Fire.
 
-Los empates los gana el rol primario de la familia. Los Híbridos solo reciben +3 a Versátil más la evidencia de sus técnicas, y 24 Digimon icónicos tienen el rol fijado a mano. MetalGreymon (Vaccine) empieza con Tanque 3 y Tirador 1 por ser Máquina, su tipo Cyborg suma +4 a Tirador y termina con Tirador 8, Bruto 4, Tanque 3 y Acechador 1.
+Los empates los gana el rol primario de la familia; después, el rol de la excepción de tipo, y si aún hay empate, un orden fijo (Bruto, Versátil, Tirador, Místico, Ágil, Acechador, Tanque, Apoyo). Los Híbridos solo reciben +3 a Versátil más la evidencia de sus técnicas, y 24 Digimon icónicos tienen el rol fijado a mano. MetalGreymon (Vaccine) empieza con Tanque 3 y Tirador 1 por ser Máquina, su tipo Cyborg suma +4 a Tirador y termina con Tirador 8, Bruto 4, Tanque 3 y Acechador 1.
 
 ### Cómo se leen las técnicas
 
@@ -253,14 +265,14 @@ Un **clasificador** convierte el nombre oficial en mecánica buscando **raíces 
 - **Alcance:** Larga, luego Distancia fuerte, Toque, el contexto y Distancia débil. Si nada decide, la Firma es de Distancia y las demás dependen del rol primario de la familia.
 - **Elemento:** primero las frases y luego las palabras sueltas, por este orden: Veneno, Hielo, Eléctrico, Fuego, Agua, Planta, Oscuridad, Luz, Cósmico, Mental, Viento, Tierra y Acero. Si no hay ninguna, la afinidad de la familia (salvo en Toque) o Neutro.
 - **Área:** Total solo en la Firma de rango 4; si no, Zona, Ráfaga o Individual. Una técnica de daño P1 siempre es Individual.
-- **Palabras clave:** como mucho dos. En la segunda pasada, una técnica sin estado recibe el **estado por defecto de su elemento** y la Firma, la **palabra de Firma de su rol**, si les cabe. Ejecutar solo va en técnicas Individuales (en una de área pasa a Brutal).
+- **Palabras clave:** como mucho dos. Del nombre se toma solo la primera palabra de cada categoría (apoyo, daño, estado y táctica), según el orden de efectos; si aún queda hueco, se buscan en el contexto. En la segunda pasada, una técnica sin estado recibe el **estado por defecto de su elemento** y la Firma, la **palabra de Firma de su rol**, si les cabe; además, la Firma de Distancia de un Tirador pasa a Larga. Ejecutar solo va en técnicas Individuales (en una de área pasa a Brutal).
 - **Correcciones manuales:** 74 técnicas y 24 Digimon tienen valores fijados a mano. Siempre ganan.
 
 ### Elementos y amenaza
 
-El **elemento principal** es el más repetido entre sus técnicas oficiales, sin contar Neutro (si empatan, el de la técnica que va antes). Las **debilidades** son las de su familia más el primer elemento de esta lista que vence a su elemento principal y que la familia no tenga ya: Agua, Fuego, Planta, Eléctrico, Veneno, Viento, Tierra, Hielo, Acero, Mental, Luz, Oscuridad y Cósmico. Las **resistencias** son las de su familia más su elemento principal (salvo Neutro y Cósmico). Lo repetido en ambas listas se tacha y quedan como mucho dos de cada. MetalGreymon (Vaccine) es Máquina (débil a Eléctrico, resiste Veneno) y su elemento principal es Acero, al que vence el Fuego: débil a Eléctrico y Fuego, resiste Veneno y Acero.
+El **elemento principal** es el más repetido entre sus técnicas oficiales, sin contar Neutro (si empatan, el de la técnica que va antes). Las **debilidades** son las de su familia más el primer elemento de esta lista que vence a su elemento principal y que no esté ya entre las debilidades ni las resistencias de su familia: Agua, Fuego, Planta, Eléctrico, Veneno, Viento, Tierra, Hielo, Acero, Mental, Luz, Oscuridad y Cósmico. Las **resistencias** son las de su familia más su elemento principal (salvo Neutro y Cósmico). Lo repetido en ambas listas se tacha y quedan como mucho dos de cada. MetalGreymon (Vaccine) es Máquina (débil a Eléctrico, resiste Veneno) y su elemento principal es Acero, al que vence el Fuego: débil a Eléctrico y Fuego, resiste Veneno y Acero.
 
-La **amenaza sugerida** sale de tres listas cerradas (Legendarios, Jefes y esbirros). El **índice de amenaza** combina su **ofensiva** (dados de su Firma y de su mejor otra técnica, probabilidad de que la Defensa del PJ falle, área de la Firma) con sus **PV efectivos** (PV, Arm, resistencias, curación y lo difícil que es impactarla), frente a una pareja media de su rango. La ofensiva cuenta al cuadrado: en las simulaciones, el riesgo de derrota depende más del daño que del aguante. Las fichas de cada nivel se dividen en tres tercios: **baja**, **media** y **alta**. Por eso [[WarGreymon]] es «baja» y [[ShineGreymon]], con más Atq y más PV, es «alta».
+La **amenaza sugerida** sale de tres listas cerradas (Legendarios, Jefes y esbirros). El **índice de amenaza** combina su **ofensiva** (dados de su Firma y de su mejor otra técnica, probabilidad de que la Defensa del PJ falle, área de la Firma) con sus **PV efectivos** (PV, Arm, resistencias, curación y lo difícil que es impactarla), frente a una pareja media de su rango. La ofensiva cuenta al cuadrado: en las simulaciones, el riesgo de derrota depende más del daño que del aguante. Las fichas de cada nivel se dividen en tres tercios: **baja**, **media** y **alta**. Los Bebés, que no tienen rol, son siempre «media». Por eso [[WarGreymon]] es «baja» y [[ShineGreymon]], con más Atq y más PV, es «alta».
 
 ### La validación
 

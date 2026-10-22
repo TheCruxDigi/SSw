@@ -137,11 +137,11 @@ La línea evolutiva es el camino de formas que recorre tu compañero: de Bebé I
 
 - **Cada nivel nuevo se elige de la lista *next* de la forma actual.** Si la historia lo justifica, el DJ puede permitir una forma de otra lista.
 - **Las formas alcanzadas quedan desbloqueadas.** La primera vez que tu compañero llega a un nivel hace falta un detonante dramático (capítulo 6). Después, basta con la Chispa.
-- **Puedes tener varias ramas.** Un compañero puede tener desbloqueado [[Greymon]] y, tras una noche de rabia, [[SkullGreymon]]. Las formas no se borran.
+- **Puedes tener varias ramas.** Un [[Greymon]] puede llegar a [[MetalGreymon (Vaccine)]] y, tras una noche de rabia, desbloquear también [[SkullGreymon]]: dos Perfectos distintos salidos de la misma forma. Las formas no se borran.
 - **El avance *Rama alternativa*** desbloquea otra forma de un nivel que ya has alcanzado, sin repetir el detonante.
 - **Cambiar de forma dentro del mismo nivel** es gratis fuera de combate. En combate cuesta lo mismo que digievolucionar a ese nivel (0 si ese nivel ya es estable). En los dos casos **conserva el daño**: los PV de la nueva forma son sus PV máximos menos el daño acumulado.
 
-> **Ejemplo:** el Agumon de Iván tiene desbloqueados [[Greymon]] y, gracias a una *Rama alternativa*, [[GeoGreymon]]. Con Vínculo 1, su nivel estable es Novato. En pleno combate, Greymon ha recibido 10 puntos de daño, y el enemigo está muy blindado: Iván quiere el Horn Impulse de GeoGreymon, que es Perforante. Cambiar le cuesta 2 Chispa, lo mismo que digievolucionar a Campeón. GeoGreymon entra con sus 36 PV máximos menos los 10 de daño: 26 PV.
+> **Ejemplo:** el Agumon de Iván tiene desbloqueados [[Greymon]] y, gracias a una *Rama alternativa*, [[GeoGreymon]]. Iván es nivel 3 y tiene Vínculo 2, así que su nivel estable sigue siendo Novato. En pleno combate, Greymon ha recibido 10 puntos de daño, y el enemigo está muy blindado: Iván quiere el Horn Impulse de GeoGreymon, que es Perforante. Cambiar le cuesta 2 Chispa, lo mismo que digievolucionar a Campeón. GeoGreymon entra con sus 36 PV máximos menos los 10 de daño: 26 PV.
 
 > **Si es tu primera vez:** no hace falta planear la línea completa. Para empezar solo necesitas tres nombres: tu Novato, su Bebé II y un Campeón probable. El resto lo descubrirás en la mesa, y casi siempre en el momento más emocionante.
 
@@ -226,7 +226,7 @@ Cuando tu Tamer llega a los niveles **3, 5, 7, 9 y 10**, tu compañero gana un *
 | Reflejos | +1 Ini | 1 vez |
 | Técnica heredada | Usa una técnica de una forma inferior en todas las superiores (ver más abajo) | Sin límite |
 | Técnica perfeccionada | Una técnica gana una palabra clave o sube de P1 a P2 | Una vez por técnica |
-| Técnica nueva | Aprende una técnica genérica o la de una Tarjeta Digimon | Sin límite |
+| Técnica nueva | Aprende una técnica genérica o la de una Tarjeta Digimon que poseas (máximo P2) | Sin límite |
 | Afinidad | Elimina una debilidad de familia de una forma, o gana Resistencia a un elemento en todas sus formas | 1 vez |
 | Rama alternativa | Desbloquea otra forma de un nivel ya alcanzado (de su lista *next*) sin detonante | Sin límite |
 
@@ -403,9 +403,9 @@ Las técnicas aprendidas, igual que los avances, acompañan a tu compañero en *
 
 ## Ejemplo: Sara elige a Guijarro
 
-En el capítulo 4, Sara creó a **Nora Valdés**: doce años, Chica de campo, Inspiradora, Emblema de la Bondad y un Digivice iC. Ahora llega el paso 8: elegir a su compañero.
+En el capítulo 4, Sara creó a **Nora Valdés**: doce años, Chica de campo, Inspiradora y Emblema de la Bondad. Ahora llega el paso 8: elegir a su compañero. (En el paso 9 le dará un Digivice iC, y ya lo tiene en mente.)
 
-**1. Pensar en la pareja.** Nora es impulsiva y va a plantar cara a los Digimon hostiles. Además, la *DigiSoul* de su Digivice iC añade un dado a un ataque **de Toque** de su compañero si Nora está en su zona. Sara busca, por tanto, alguien robusto que pegue cuerpo a cuerpo. En la tabla de Novatos recomendados duda entre [[Kotemon]], con 30 PV, y [[Gomamon]], que protege muy bien pero dispara a Distancia. Entonces ve a [[Gotsumon]], un Digimon de roca con cara de pocos amigos que le recuerda a las piedras del río de su pueblo. Ya tiene nombre: **Guijarro**.
+**1. Pensar en la pareja.** Nora es impulsiva y va a plantar cara a los Digimon hostiles. Además, la *DigiSoul* del Digivice iC que piensa elegir añade, una vez por combate, un dado a un ataque **de Toque** de su compañero si Nora está en su zona. Sara busca, por tanto, alguien robusto que pegue cuerpo a cuerpo. En la tabla de Novatos recomendados duda entre [[Kotemon]], con 30 PV, y [[Gomamon]], que protege muy bien pero dispara a Distancia. Entonces ve a [[Gotsumon]], un Digimon de roca con cara de pocos amigos que le recuerda a las piedras del río de su pueblo. Ya tiene nombre: **Guijarro**.
 
 **2. Leer la ficha.** Gotsumon es un Bruto de la familia Elemental con 27 PV. Sus tres técnicas son de Toque, incluida su Firma, **Rock Fist**, que derriba y puede ser Brutal. Su rasgo *Cuerpo elemental* le da Resistencia a la Tierra e inmunidad a Derribar. A Sara le extraña que la ficha sugiera usar a los Gotsumon salvajes como esbirros. El DJ la tranquiliza: eso es una herramienta para enemigos, y un compañero usa siempre la ficha tal cual.
 

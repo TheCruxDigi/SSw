@@ -148,7 +148,7 @@ Las técnicas **P1 y P2 se usan siempre que quieras**. Las **Agotadoras** no: tr
 - las técnicas de apoyo con **Curar** o **Escudo**;
 - la maniobra *Pulso restaurador* del rol Apoyo.
 
-El ritmo natural de un combate es, por tanto, Firma, técnica P2, Firma, técnica P2… Hay tres cosas que dejan la Firma **lista** aunque tu compañero la usara en su turno anterior: digievolucionar pagando Chispa, la acción de Tamer *Animar* y el programa *Enfoque*.
+El ritmo natural de un combate es, por tanto, Firma, técnica P2, Firma, técnica P2… Hay tres cosas que dejan la Firma **lista** aunque tu compañero la usara en su turno anterior: digievolucionar pagando Chispa a un nivel superior al estable (como mucho una vez por forma y escena), la acción de Tamer *Animar* y el programa *Enfoque*.
 
 No confundas **Agotadora**, la propiedad de una técnica, con **Agotado**, el estado que sufre un compañero cuando cae su forma temporal (capítulo 6).
 
@@ -422,13 +422,13 @@ Todas las fichas del bestiario son **Estándar**. Para usarlas como enemigos, el
 
 ## Ejemplo de combate completo: el guardián del bosque
 
-Teo y Alma son dos Tamers de nivel 1 que siguen el rastro de unos Digimon desaparecidos hasta el Bosque de los Ecos. En un claro, los árboles parecen inclinarse hacia ellos. Uno no es un árbol: es un [[Woodmon]] con los ojos encendidos, y dos [[Mushroomon]] saltan de entre las raíces para cerrarles el paso. No hay forma de hablar con él. Empieza el combate.
+Teo y Inés son dos Tamers de nivel 1 que siguen el rastro de unos Digimon desaparecidos hasta el Bosque de los Ecos. En un claro, los árboles parecen inclinarse hacia ellos. Uno no es un árbol: es un [[Woodmon]] con los ojos encendidos, y dos [[Mushroomon]] saltan de entre las raíces para cerrarles el paso. No hay forma de hablar con él. Empieza el combate.
 
 ### Las dos parejas
 
-| | Teo y su Agumon | Alma y su Biyomon |
+| | Teo y su Agumon | Inés y su Biyomon |
 |---|---|---|
-| **Tamer** | Senda Estratega · Vínculo 1 · Chispa 1 · Aguante 7 · Analizar 2d6 + 4 | Senda Inspirador · Vínculo 1 · Chispa 1 · Aguante 7 · Carga 4 (programas Potencia, Enfoque y Guardia) |
+| **Tamer** | Senda Estratega · Vínculo 1 · Chispa 1 · Aguante 7 · Analizar 2d6 + 4 (AST +2 y Saber Digital experta +2) | Senda Inspirador · Vínculo 1 · Chispa 1 · Aguante 7 · Carga 4 (programas Potencia, Enfoque y Guardia) |
 | **Compañero** | [[Agumon]]: 27 PV · Atq +2 · Def +2 · Arm 0 · Ini +1 · d6 · Vacuna · Bruto | [[Biyomon]]: 21 PV · Atq +2 · Def +1 · Arm 0 · Ini +2 · d6 · Vacuna · Tirador · vuela |
 | **Firma** | Pepper Breath: P2/P3 · Distancia · Fuego · Quemar, Brutal | Spiral Twister: P2/P3 · Larga · Fuego · Empujar, Certero |
 | **Rasgo clave** | *Arrollador* | *Francotirador* |
@@ -447,11 +447,11 @@ El DJ dibuja tres zonas en fila:
 
 | Rocas (Cobertura) | Claro | Arboleda |
 |---|---|---|
-| Teo, Alma, Agumon y Biyomon | Los dos Mushroomon | Woodmon |
+| Teo, Inés, Agumon y Biyomon | Los dos Mushroomon | Woodmon |
 
 ### La iniciativa
 
-El enemigo más rápido es Woodmon, con Ini +3. Teo tira 2d6 + 1 − 3: saca 6 y 4, 10 − 2 = **8**. Fase rápida. Alma tira 2d6 + 2 − 3: saca 3 y 2, 5 − 1 = **4**. Fase lenta; la iniciativa no da Chispa. Cada asalto irá así: Teo y Agumon, después los enemigos y al final Alma y Biyomon.
+El enemigo más rápido es Woodmon, con Ini +3. Teo tira 2d6 + 1 − 3: saca 6 y 4, 10 − 2 = **8**. Fase rápida. Inés tira 2d6 + 2 − 3: saca 3 y 2, 5 − 1 = **4**. Fase lenta; la iniciativa no da Chispa. Cada asalto irá así: Teo y Agumon, después los enemigos y al final Inés y Biyomon.
 
 ### Asalto 1
 
@@ -465,22 +465,22 @@ Teo se queda en las Rocas. No hay enemigos en su zona, así que no queda Expuest
 
 **Fase enemiga.** Woodmon sale de la Arboleda hacia el Claro y, como manda la rutina, abre con su Firma: **Branch Drain como P3** contra Biyomon, que está en las Rocas, a su alcance. El DJ anuncia el modificador de la Defensa: Def +1 − Atq +4 = −3; +1 por el triángulo; −1 porque *Toxinas y raíces* le da +1 a Woodmon con las técnicas de Atrapar (regla de espejo); y +1 por la Cobertura de las Rocas contra una técnica de Distancia. Total: **−2**.
 
-Alma añade el Dado de Vínculo. Saca 5 y 2, y un 3 en el DV: se queda con 5 y 3, 8 − 2 = **6**. ¡Le alcanza! Daño completo y todos los efectos, y Alma gana **1 Chispa** (2).
+Inés añade el Dado de Vínculo. Saca 5 y 2, y un 3 en el DV: se queda con 5 y 3, 8 − 2 = **6**. ¡Le alcanza! Daño completo y todos los efectos, y Inés gana **1 Chispa** (2).
 
 Daño: 3 dados por ser P3 y +1 porque Woodmon es de rango superior: 4d8, que suman 21. Biyomon no tiene Arm ni resiste la Planta, pero entra en juego el **golpe aguantado**: un solo impacto no puede quitarle más de 11 PV, la mitad de 21 redondeada hacia arriba. Biyomon baja a **10 PV** y queda **Atrapado**: no puede moverse y tiene −1 a sus ataques. *Drenar* le devolvería a Woodmon la mitad del daño, pero está a tope de PV y no gana nada.
 
-Es la primera vez en el combate que Biyomon baja a la mitad de sus PV o menos: **¡Crisis!** Alma gana otra Chispa y ya tiene **3**.
+Es la primera vez en el combate que Biyomon baja a la mitad de sus PV o menos: **¡Crisis!** Inés gana otra Chispa y ya tiene **3**.
 
 El Mushroomon que queda, trabado con Agumon, le lanza **Fungus Crusher**. Es un esbirro: no usa P3, así que va como P2. Defensa de Agumon: Def +2 − Atq +2 = 0, +1 por el triángulo y −1 por estar Expuesto: **0**. Teo añade el DV: saca 4 y 1, y un 6 en el DV. Se queda con 6 y 4: **10**. ¡Lo esquiva! Y el 6 del Dado de Vínculo es **Resonancia**: Teo gana 1 Chispa (3). «¡El Digivice de Teo brilla!»
 
-**Fase lenta: Alma y Biyomon.** Alma tiene 3 Chispa, Biyomon está en su misma zona y la Crisis ya ha ocurrido en esta escena. Al comienzo de su turno, digievoluciona. Paga **2 Chispa** (le queda 1) y Biyomon guarda sus 10 PV. Un remolino de fuego envuelve las Rocas y aparece **Birdramon**: 24 PV, Atq +2, Def +4, dado d8, rol Ágil. La digievolución le quita el estado Atrapado y su Firma, Meteor Wing, está lista. La pareja sigue en la fase lenta: la iniciativa no se vuelve a tirar.
+**Fase lenta: Inés y Biyomon.** Inés tiene 3 Chispa, Biyomon está en su misma zona y la Crisis ya ha ocurrido en esta escena. Al comienzo de su turno, digievoluciona. Paga **2 Chispa** (le queda 1) y Biyomon guarda sus 10 PV. Un remolino de fuego envuelve las Rocas y aparece **Birdramon**: 24 PV, Atq +2, Def +4, dado d8, rol Ágil. La digievolución le quita el estado Atrapado y su Firma, Meteor Wing, está lista. La pareja sigue en la fase lenta: la iniciativa no se vuelve a tirar.
 
-Alma da una **Orden**. Birdramon lanza **Meteor Wing como P3**. Es una técnica de **Ráfaga**: alcanza a dos objetivos distintos, y elige a Woodmon y al Mushroomon, los dos en el Claro, a su alcance. Hay una sola tirada, que el DJ compara con cada uno:
+Inés da una **Orden**. Birdramon lanza **Meteor Wing como P3**. Es una técnica de **Ráfaga**: alcanza a dos objetivos distintos, y elige a Woodmon y al Mushroomon, los dos en el Claro, a su alcance. Hay una sola tirada, que el DJ compara con cada uno:
 
 - Contra Woodmon: Atq +2 − Def +3 = −1, +1 por el triángulo y +1 por la Orden: **+1**.
 - Contra el Mushroomon: Atq +2 − Def 0 = +2, +1 por el triángulo y +1 por la Orden: **+4**.
 
-Alma ya usó su Dado de Vínculo en este asalto, al defenderse, así que tira 2d6 normales: saca 4 y 4, 8. Contra Woodmon, 9: **impacto**, con daño completo pero sin estados. Contra el Mushroomon, 12: **impacto total**.
+Inés ya usó su Dado de Vínculo en este asalto, al defenderse, así que tira 2d6 normales: saca 4 y 4, 8. Contra Woodmon, 9: **impacto**, con daño completo pero sin estados. Contra el Mushroomon, 12: **impacto total**.
 
 Daño: como la Ráfaga alcanza de verdad a dos objetivos, pierde un dado. Como cada objetivo suma dados distintos, el daño se calcula para cada uno. Contra Woodmon: 3 − 1 + 1 (débil al Fuego) = 3d8, que suman 12. Los dos son Campeones: no hay escala. Woodmon baja a **24 PV**. Contra el Mushroomon: 3 − 1 + 1 (débil al Fuego) + 1 (Birdramon es de rango superior) = 4d8, que suman 17. El segundo esbirro cae. Agumon ya no está trabado.
 
@@ -489,7 +489,7 @@ Woodmon no ha usado su reacción de Élite: nadie ha fallado un ataque contra é
 | Final del asalto 1 | PV | Estados |
 |---|---|---|
 | Agumon (Teo: 3 Chispa) | 27 / 27 | Expuesto |
-| Birdramon (Alma: 1 Chispa) | 24 / 24 (Biyomon guarda 10) | — |
+| Birdramon (Inés: 1 Chispa) | 24 / 24 (Biyomon guarda 10) | — |
 | Woodmon | 24 / 36 | — |
 
 ### Asalto 2
@@ -508,14 +508,14 @@ Teo añade el DV: saca 5 y 3, y un 4 en el DV. Se queda con 5 y 4: 9 − 2 = **7
 
 Daño: 2 dados por ser P2 y +1 por el rango: 3d8, que suman 15. La mitad: **7**. Agumon baja a **20 PV**. *Drenar*: Woodmon recupera la mitad del daño infligido, 3, y sube a **16 PV**.
 
-**Fase lenta: Alma y Birdramon.** Birdramon usó su Firma como P3 en su último turno, así que ahora lanza **Meteor Wing como P2**. Alma da una **Orden**. Esta vez solo hay un objetivo, así que la Ráfaga cuenta como Individual y no pierde ningún dado. Modificador: −1, +1 por el triángulo, +1 por la Orden y +1 por el Analizar de Teo (es el primer ataque de Birdramon contra Woodmon desde el análisis): **+2**. Los situacionales suman +3, justo el límite.
+**Fase lenta: Inés y Birdramon.** Birdramon usó su Firma como P3 en su último turno, así que ahora lanza **Meteor Wing como P2**. Inés da una **Orden**. Esta vez solo hay un objetivo, así que la Ráfaga cuenta como Individual y no pierde ningún dado. Modificador: −1, +1 por el triángulo, +1 por la Orden y +1 por el Analizar de Teo (es el primer ataque de Birdramon contra Woodmon desde el análisis): **+2**. Los situacionales suman +3, justo el límite.
 
-Alma usa el DV: saca 4 y 2, y un 1. Se queda con 4 y 2: 6 + 2 = **8**. Impacto. Daño: 2 dados por ser P2 y +1 por la debilidad al Fuego: 3d8, que suman 9. Woodmon baja a **7 PV**.
+Inés usa el DV: saca 4 y 2, y un 1. Se queda con 4 y 2: 6 + 2 = **8**. Impacto. Daño: 2 dados por ser P2 y +1 por la debilidad al Fuego: 3d8, que suman 9. Woodmon baja a **7 PV**.
 
 | Final del asalto 2 | PV | Estados |
 |---|---|---|
 | Agumon (Teo: 3 Chispa) | 20 / 27 | Atrapado |
-| Birdramon (Alma: 1 Chispa) | 24 / 24 | — |
+| Birdramon (Inés: 1 Chispa) | 24 / 24 | — |
 | Woodmon | 7 / 36 | Quemado |
 
 ### Asalto 3
@@ -530,9 +530,9 @@ Daño: 2 dados, +1 por la debilidad y +1 por *Brutal*: 4d6, que suman solo 8. La
 
 Daño: 3 dados por ser P3 y +1 por el rango: 4d8, que suman 22. La mitad: **11**. Agumon baja de 20 a **9 PV**. Es la primera vez en el combate que baja a la mitad de sus PV o menos: **¡Crisis!** Teo gana 1 Chispa y vuelve a tener **3**. Woodmon drena la mitad del daño, 5, y sube a **7 PV**. El árbol se niega a caer.
 
-**Fase lenta: Alma y Birdramon.** Birdramon usó Meteor Wing como P2 en el asalto anterior, así que su Firma vuelve a estar disponible como P3. Alma ve que Woodmon se cura con lo que roba y decide acabar ya: en lugar de una Orden, usa el programa **Potencia** (1 Carga; le quedan 3), que da +1 dado a la próxima técnica de Birdramon en este asalto. Birdramon lanza **Meteor Wing como P3** contra Woodmon, su único objetivo. Modificador: −1 y +1 por el triángulo: **0** (el +1 del Analizar ya se gastó).
+**Fase lenta: Inés y Birdramon.** Birdramon usó Meteor Wing como P2 en el asalto anterior, así que su Firma vuelve a estar disponible como P3. Inés ve que Woodmon se cura con lo que roba y decide acabar ya: en lugar de una Orden, usa el programa **Potencia** (1 Carga; le quedan 3), que da +1 dado a la próxima técnica de Birdramon en este asalto. Birdramon lanza **Meteor Wing como P3** contra Woodmon, su único objetivo. Modificador: −1 y +1 por el triángulo: **0** (el +1 del Analizar ya se gastó).
 
-Alma añade el DV: saca 6 y 3, y un 5 en el DV. Se queda con 6 y 5: **11**. ¡Impacto total! Daño: 3 dados por ser P3, +1 por la debilidad al Fuego y +1 por Potencia: 5d8, que suman 27. Woodmon solo tenía 7 PV.
+Inés añade el DV: saca 6 y 3, y un 5 en el DV. Se queda con 6 y 5: **11**. ¡Impacto total! Daño: 3 dados por ser P3, +1 por la debilidad al Fuego y +1 por Potencia: 5d8, que suman 27. Woodmon solo tenía 7 PV.
 
 Su corteza se ilumina por dentro, cruje y se deshace en miles de hojas de datos. En mitad del Claro queda un **Digi-Huevo**, que late despacio. No quedan enemigos: **¡victoria!**
 
@@ -540,7 +540,7 @@ Su corteza se ilumina por dentro, cruje y se deshace en miles de hojas de datos.
 
 - **Fin de la escena.** Birdramon vuelve a ser Biyomon, su forma de partida, con los **10 PV que tenía guardados**, y queda **Hambriento**. No hay regresión a Bebé II: solo estuvo un nivel por encima del nivel estable. Birdramon queda desbloqueado: la próxima vez costará 2 Chispa, sin necesidad de Crisis.
 - **Agumon** queda a 9 PV de 27. Atrapado termina al caer el captor.
-- **Recursos.** Teo guarda 3 Chispa; Alma, 1 Chispa y 3 de Carga. La Chispa no se pierde al terminar la escena.
+- **Recursos.** Teo guarda 3 Chispa; Inés, 1 Chispa y 3 de Carga. La Chispa no se pierde al terminar la escena.
 - **Descanso corto.** El grupo come junto al Digi-Huevo: los dos compañeros recuperan la mitad de sus PV máximos y a Biyomon se le pasa el hambre. El huevo renacerá en la Ciudad del Comienzo; quizá allí alguien sepa qué enfureció al guardián del bosque.
 
 ### ¿Y si…?

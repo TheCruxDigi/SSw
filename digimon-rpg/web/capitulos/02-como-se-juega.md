@@ -65,7 +65,7 @@ Esto tiene una consecuencia: si una regla da un bono o un penalizador a la tirad
 - «Los ataques contra él tienen +1» = **+1 a tu ataque** si el objetivo es un PNJ, y −1 a tu Defensa si el objetivo eres tú.
 - Ventaja de un PNJ = **tu Desventaja**, y al revés.
 
-Para que nadie tenga que mirar la ficha del enemigo, **el DJ anuncia el modificador neto** antes de que tires: «Contra Goblimon, tiras con +2». Tú solo sumas lo tuyo.
+Para que nadie tenga que mirar la ficha del enemigo, **el DJ anuncia el modificador neto** antes de que tires: «Contra Goblimon, tiras con +2». Ese número ya incluye el Atq, la Def y el triángulo: tú solo añades lo que aportes en ese momento (una Orden, el Dado de Vínculo…).
 
 ### Tiradas enfrentadas
 
@@ -109,7 +109,7 @@ A veces la situación juega claramente a tu favor o en tu contra: atacas por sor
 - **Desventaja:** tira **3d6 y quédate con los 2 peores**.
 - **No se acumulan.** Dos Ventajas son una Ventaja. Una Ventaja y una Desventaja se anulan: tiras 2d6 normales.
 
-El **Dado de Vínculo** es una forma especial de Ventaja. Una vez por asalto, tu Tamer puede añadir un d6 de otro color a una tirada de ataque o de Defensa de su compañero: tiras 3d6 y te quedas con los 2 mejores. **Si ese dado de color saca un 6, tu Tamer gana 1 Chispa** (es la **Resonancia**: «¡el Digivice brilla!»). Si la tirada ya tenía Ventaja, el Dado de Vínculo da +1 en su lugar. Si tenía Desventaja, ambas se anulan: tiras 2d6 normales y el Dado de Vínculo aparte, solo para ver si hay Resonancia. Tienes todos los detalles en el capítulo de la Chispa, el Vínculo y la digievolución.
+El **Dado de Vínculo** es una forma especial de Ventaja. Una vez por asalto, tu Tamer puede añadir un d6 de otro color a una tirada de ataque o de Defensa de su compañero: tiras 3d6 y te quedas con los 2 mejores. **Si ese dado de color saca un 6, tu Tamer gana 1 Chispa** (es la **Resonancia**: «¡el Digivice brilla!»; desde Vínculo 4 también vale un 5). Si la tirada ya tenía Ventaja, el Dado de Vínculo da +1 en su lugar. Si tenía Desventaja, ambas se anulan: tiras 2d6 normales y el Dado de Vínculo aparte, solo para ver si hay Resonancia. Tienes todos los detalles en el capítulo de la Chispa, el Vínculo y la digievolución.
 
 ## Ayuda
 
@@ -138,7 +138,7 @@ Los modificadores **situacionales** suman como mucho **+3**, y los penalizadores
 
 | Cuentan para el límite (situacionales) | No cuentan para el límite |
 |---|---|
-| Orden, Ayuda, programas, Marcado, triángulo de atributos, Certero, rasgos que dan +1 a la tirada, Esfuerzo (gastar Chispa), Dado de Vínculo cuando da +1 | Atq, Def, atributos, habilidades, dificultad, rango |
+| Orden, Ayuda, programas, Marcado, triángulo de atributos, Certero, rasgos que dan +1 a la tirada, Esfuerzo (gastar Chispa; lo verás más abajo), Dado de Vínculo cuando da +1 | Atq, Def, atributos, habilidades, dificultad, rango |
 
 Esta regla existe para que ninguna combinación de trucos convierta una tirada en un éxito automático. Por muy bien que lo prepares, los dados siempre tienen algo que decir.
 
@@ -161,12 +161,12 @@ No hace falta saber estadística para jugar, pero esta tabla ayuda al DJ a elegi
 
 *Con −3 y −2, el 10+ solo llega por crítico: el doble seis siempre es 10+ y el doble uno siempre es 6–.*
 
-Cómo leerla, en cristiano:
+Cómo leerla, en pocas palabras:
 
 - **Con +2**, que es lo normal cuando un Tamer hace aquello en lo que está entrenado, consigues al menos un éxito parcial **5 de cada 6 veces**. Pero el éxito limpio llega menos de la mitad de las veces: el 7–9 va a ser tu compañero de viaje.
 - **Con 0**, es poco más que lanzar una moneda al aire.
 - **La Ventaja vale mucho**, más o menos como un +2. Por eso el Dado de Vínculo es tan valioso.
-- **Con −2 o menos**, falla más de lo que acierta. Si el DJ te anuncia una tirada así, quizá sea el momento de buscar Ayuda, otro plan o una Ventaja.
+- **Con −1 o menos**, fallas más de lo que aciertas, y con −2 fallas casi tres de cada cuatro veces. Si el DJ te anuncia una tirada así, quizá sea el momento de buscar Ayuda, otro plan o una Ventaja.
 
 ## El éxito parcial: el menú de costes
 
@@ -175,7 +175,7 @@ El 7–9 es el resultado más frecuente del juego y también el más jugoso. Lo 
 | Coste | Qué significa | Ejemplo |
 |---|---|---|
 | **Tarda más** | El reloj de amenaza avanza 1. | Abres la cerradura, pero los pasos del guardia ya suenan más cerca. |
-| **Cuesta algo** | Pierdes un objeto, 1 Carga del Digivice, 1 Aguante o 1 Chispa. | Saltas el barranco, pero la mochila se te abre y pierdes la linterna. |
+| **Cuesta algo** | Pierdes un objeto, 1 Carga del Digivice (la energía de sus programas), 1 Aguante (la resistencia de tu Tamer) o 1 Chispa. | Saltas el barranco, pero la mochila se te abre y pierdes la linterna. |
 | **Resultado reducido** | Consigues la mitad, o solo durante un rato. | El [[Elecmon]] te deja pasar, pero solo a ti, no a todo el grupo. |
 | **Complicación** | Alguien te ve, algo se rompe o aparece un problema nuevo. | Reparas el ascensor… y la alarma de la fábrica empieza a sonar. |
 | **Posición peligrosa** | La próxima tirada relacionada tiene −1. | Subes al tejado, pero las tejas crujen bajo tus pies. |
@@ -195,7 +195,7 @@ Un 6– significa que las cosas no salen como querías. Pero no es el final de n
 
 Cada 6– del Tamer o de su compañero **en una situación de tensión** da **1 Chispa** a su Tamer. Es el *fallo dramático*. Tiene un límite: **como mucho 1 por asalto en combate y 1 por escena fuera de combate**. La tirada de iniciativa no cuenta.
 
-¿Por qué premiar el fallo? Porque en las historias de Digimon los compañeros digievolucionan justo cuando todo va mal. La Chispa se gasta en digievolucionar, en dar un último empujón a una tirada y en otras proezas que verás en su capítulo. Así, cada fallo acerca un poco más el gran momento.
+¿Por qué premiar el fallo? Porque en las historias de Digimon los compañeros digievolucionan justo cuando todo va mal. La Chispa se gasta en digievolucionar, en otras proezas que verás en su capítulo y en dar un último empujón a una tirada: es el **Esfuerzo**. Por 1 Chispa sumas +1 a una tirada ya hecha, antes de que el DJ narre el resultado (como mucho +2 por tirada, y cuenta para el límite de +3). Así, cada fallo acerca un poco más el gran momento.
 
 ### Las jugadas del DJ
 
@@ -252,7 +252,7 @@ Cuando **todos hacen lo mismo** a la vez (escalar una ladera, esconderse de una 
 - **Cada 6– individual sufre una consecuencia menor:** pierde 1 Aguante, pierde algo o se rezaga.
 - **Si todos sacan 10+**, el grupo obtiene además un beneficio: un atajo, una ventaja en la escena siguiente…
 
-| Tamers en el grupo | 7+ necesarios |
+| Personajes que tiran | 7+ necesarios |
 |---|---|
 | 3 | 2 |
 | 4 | 2 |
@@ -289,7 +289,7 @@ Cada Digimon tiene **dos especialidades**, una por su **familia** y otra por su 
 
 Algunas reglas más:
 
-- **Digievolucionar se nota.** Una forma digievolucionada tiene su propio rango. Si [[Biyomon]] se convierte en [[Birdramon]] para llevar al grupo volando, tira con rango 2 en lugar de 1, y +1 por volar. Pero hay un precio: al terminar la escena, el compañero queda **Hambriento** (−1 a sus tiradas fuera de combate hasta que coma).
+- **Digievolucionar se nota.** Una forma digievolucionada tiene su propio rango. Si [[Biyomon]] se convierte en [[Birdramon]] (pagando la Chispa de siempre) para llevar al grupo volando, tira con rango 2 en lugar de 1, y +1 por volar. Pero hay un precio: al terminar la escena, el compañero queda **Hambriento** hasta que coma (−1 a sus tiradas fuera de combate, y digievolucionar le cuesta 1 Chispa más).
 - **El Dado de Vínculo también funciona fuera de combate**, **una vez por escena**: puedes darlo a una tirada de tu compañero o a una tirada conjunta de la pareja. Solo da Chispa si la escena es de tensión.
 - **Tamer y compañero pueden ayudarse** fuera de combate, con las reglas normales de Ayuda.
 
@@ -315,7 +315,7 @@ Los tres Tamers tienen Vínculo 1 y empiezan la sesión con 1 Chispa.
 
 **Diego (Iker):** Yo voy detrás de Mara y piso donde ella pisa.
 
-**Sam (Noa):** Y yo intento no matarme.
+**Sam (Noa):** Y yo intento no bajar rodando.
 
 **Carmen:** Hacéis todos lo mismo, así que es una prueba de grupo: Destreza + Atletismo, dificultad Normal.
 
@@ -350,6 +350,8 @@ Lucía tira por Biyomon: 5 y 3. **8 + 1 = 9.** Un 7–9.
 Sam tira: 2 y 3. **5 + 2 = 7.** Otro 7–9.
 
 **Carmen:** En un reloj de progreso, un 7–9 marca 1 segmento: las primeras losas del puente se iluminan con un zumbido. Pero mientras tecleas, el tiempo pasa: la tormenta también marca un segmento. Van 1 a 1.
+
+*(Esta vez Carmen elige el coste ella sola: «Tarda más», que hace avanzar el reloj de amenaza.)*
 
 **Diego (Iker):** No pienso esperar. Me cuelgo de la cuerda y cruzo a pulso.
 

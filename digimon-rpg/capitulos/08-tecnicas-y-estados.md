@@ -48,7 +48,7 @@ La potencia te dice cuántos **dados de poder** tiras. El dado de poder depende 
 - Las técnicas de apoyo con Curar o Escudo.
 - La maniobra Pulso restaurador del rol Apoyo.
 
-Un Jefe nunca usa su Firma (ni otra técnica Agotadora) dos veces en el mismo asalto ni en dos asaltos seguidos. Hay formas de saltarse la espera: si el Tamer usa **Animar** y elige esa opción, la Firma de su compañero queda lista aunque la usara en su turno anterior. No confundas **Agotadora** (una propiedad de las técnicas) con **Agotado** (el estado que sufre un compañero cuando cae su forma temporal).
+Un Jefe nunca usa su Firma (ni otra técnica Agotadora) dos veces en el mismo asalto ni en dos asaltos seguidos. Hay formas de saltarse la espera: si el Tamer usa **Animar** y elige esa opción, o ejecuta el programa **Enfoque** (capítulo 9), la Firma de su compañero queda lista aunque la usara en su turno anterior. No confundas **Agotadora** (una propiedad de las técnicas) con **Agotado** (el estado que sufre un compañero cuando cae su forma temporal).
 
 ### Los dados de poder
 
@@ -67,7 +67,7 @@ Cada nivel tiene su dado de poder y su **VF** (valor fijo), que es la mitad de l
 La cuenta completa del daño está en el capítulo 7. En resumen:
 
 1. Tiras tantos dados de poder como la **potencia** de la técnica.
-2. Sumas **+1 dado** por cada uno de estos: el objetivo es **débil** al elemento; **Brutal** con 10+; crítico; **Potenciado+** o programa Potencia; tu Digimon es de **rango superior** al objetivo; plantilla Legendario; **Cargado**; **Retroceso**; Furia de un Jefe.
+2. Sumas **+1 dado** por cada uno de estos: el objetivo es **débil** al elemento; **Brutal** con 10+; crítico; **Potenciado+** o programa Potencia; tu Digimon es de **rango superior** al objetivo; plantilla Legendario; **Cargado**; **Retroceso**; Furia de un Jefe; y cualquier rasgo o regla que lo indique (como *Aura sagrada* o Purificar contra la familia Oscuro).
 3. Restas **1 dado** si la técnica es de área **y alcanza de verdad a 2 o más objetivos**. Siempre tiras al menos 1 dado.
 4. Al total le restas la **Arm** del objetivo (salvo con Perforante).
 5. Lo divides a la mitad (redondeando hacia abajo) por cada una de estas: el defensor PJ sacó 7–9; el objetivo **resiste** el elemento (salvo con Perforante); por cada rango que el objetivo esté por encima del atacante.
@@ -88,7 +88,7 @@ No tienes que calcular nada: cada ficha ya trae sus potencias. Pero si te pregun
 
 | Alcance | Regla |
 |---|---|
-| **Toque** | Un objetivo en tu zona. Al usarla quedas **trabado** con él. Con área, el área está en tu zona: Toque + Ráfaga = 2 objetivos de tu zona; Toque + Zona o Total = todos los enemigos de tu zona (y quedas trabado con todos). |
+| **Toque** | Un objetivo en tu zona. Al usarla quedas **trabado** con él (se explica más abajo, en «Otros estados y condiciones»). Con área, el área está en tu zona: Toque + Ráfaga = 2 objetivos de tu zona; Toque + Zona o Total = todos los enemigos de tu zona (y quedas trabado con todos). |
 | **Distancia** | Un objetivo (o el área) en tu zona o en una adyacente. Si estás trabado: −1 a la tirada. |
 | **Larga** | Hasta 2 zonas de distancia. Si estás trabado: −1 a la tirada. |
 | **Personal** | Solo el usuario (técnicas de apoyo sobre sí mismo). Personal + Zona = centrada en el usuario: afecta a su zona. |
@@ -222,7 +222,7 @@ Un estado alterado es lo que queda después del golpe: el fuego que sigue ardien
 - **Digievolucionar los borra todos**, salvo Hambriento. A veces es la mejor salida de un apuro.
 - **Control duro:** Aturdir, Dormir y Regresión. Nunca se aplican con 7–9, una técnica de área Total no puede llevarlos y los Jefes los sufren de forma limitada.
 - **Daño por turno** (Quemado, Envenenado e invocaciones): usa el VF de quien lo causó, se divide a la mitad por cada rango que el afectado esté por encima del causante (mínimo 1) y a un Jefe se le aplica una vez por asalto.
-- **Cómo se quitan.** Con la palabra Purificar, la maniobra *Pulso restaurador* del rol Apoyo, el programa Purgado (capítulo 9), el Disco antiestado (capítulo 10) o digievolucionando. Además, varios estados tienen su propia salida: el Dormido despierta al recibir daño, el Agua y el Hielo apagan el Quemado, el Fuego descongela y el Atrapado puede liberarse.
+- **Cómo se quitan.** Con la palabra Purificar, la maniobra *Pulso restaurador* del rol Apoyo, los programas Antídoto y Purgado (capítulo 9), el Disco antiestado (capítulo 10) o digievolucionando. La acción **Animar** del Tamer libra al compañero de un estado mental (Asustado, Confundido, Encantado o Dormido). Además, varios estados tienen su propia salida: el Dormido despierta al recibir daño, el Agua y el Hielo apagan el Quemado, el Fuego descongela y el Atrapado puede liberarse.
 - **Inmunidades.** Algunas familias, roles y plantillas no sufren ciertos estados. Lo dice su rasgo, y tienes la lista completa al final de esta sección.
 
 ### Los estados de las técnicas, de un vistazo
@@ -233,7 +233,7 @@ Los 20 estados de las palabras clave tienen su regla exacta en la tabla del grup
 - **Lo dejan sin actuar (control duro):** Aturdido y Dormido. La Regresión rompe una forma temporal o sella al objetivo.
 - **Lo frenan o lo clavan al sitio:** Congelado, Paralizado, Ralentizado, Atrapado y Derribado. Empujar lo saca de su zona de golpe.
 - **Le nublan el juicio:** Cegado, Confundido, Asustado, Encantado y Provocado.
-- **Lo dejan vulnerable:** Debilitado, Roto, Marcado y Sellado.
+- **Lo debilitan o lo dejan vulnerable:** Debilitado, Roto, Marcado y Sellado.
 
 ### Cuando el estado lo sufre un PNJ: la regla de espejo
 

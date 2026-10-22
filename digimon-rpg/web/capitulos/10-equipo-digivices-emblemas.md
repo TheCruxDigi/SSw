@@ -18,7 +18,7 @@ Cada Tamer empieza la campaña con **100 Bits** (capítulo 4, paso 9).
 | Un cofre de datos | d20 × 10 |
 | Vender un objeto | La mitad de su precio |
 
-Los **encargos** son la fuente principal, y casi siempre traen una pista sobre la trama además del pago. Los **cofres de datos** aparecen en ruinas y rincones olvidados, o los encuentra el Ojeador durante un viaje.
+Los **encargos** son la fuente principal, y casi siempre traen una pista sobre la trama además del pago. Los **cofres de datos** aparecen en ruinas y rincones olvidados, o los encuentra quien hace de Ojeador durante un viaje (uno de los papeles de viaje del capítulo 3).
 
 ### En qué se gastan
 
@@ -29,6 +29,8 @@ Los **encargos** son la fuente principal, y casi siempre traen una pista sobre l
 | Ración de viaje (un día, un Tamer o un compañero) | 10 |
 | Un programa nuevo de Nivel 1, 2 o 3 | 100, 300 u 800 |
 | Objetos y equipo | según las tablas de este capítulo |
+
+Los **mercaderes ambulantes** que os salen al paso en los caminos venden con un **20 % de recargo** sobre estos precios.
 
 Dos gastos se repiten a diario. El primero es la **comida**: cada día, cada Tamer y cada compañero necesitan una comida. Un compañero que no ha comido empieza el día Hambriento, y un Tamer que no ha comido tiene −1 a sus tiradas físicas hasta que coma. El segundo es el **descanso**: el descanso largo exige un lugar seguro, que puede ser una posada, una tienda de campaña o una aldea Amistosa.
 
@@ -58,7 +60,7 @@ Hay dos clases de objetos: los **consumibles**, que se gastan al usarlos (discos
 | **Disco de ánimo** | Elimina Agotado | 120 |
 | **Disco de reinicio** *(raro)* | Un compañero Derrotado vuelve a su forma estable con la mitad de PV | 1.000 |
 
-Los **dados de PV** se tiran con el dado de poder actual de tu compañero: un [[Agumon]] (d6) recupera 2d6 PV con un Disco S, y un [[Greymon]] (d8), 2d8. El **Disco antiestado** limpia de una vez lo que el programa Antídoto quita de uno en uno; solo se le resiste el Hambriento, que se quita comiendo.
+Los **dados de PV** se tiran con el dado de poder actual de tu compañero: un [[Agumon]] (d6) recupera 2d6 PV con un Disco S, y un [[Greymon]] (d8), 2d8. El **Disco antiestado** limpia de una vez lo que el programa Antídoto quita de uno en uno; lo que no quita es el Hambriento, que solo se cura comiendo.
 
 El **Disco de ánimo** quita Agotado, el estado que deja una forma temporal al caer a 0 PV. En mitad de un combate vale oro: tu compañero recupera sus tiradas normales y puede volver a digievolucionar sin pagar el Segundo aliento (aunque, si vuelve a una forma que ya cayó a 0 en esta escena, entrará con la mitad de sus PV). El **Disco de reinicio** es raro y cuesta una fortuna: devuelve a la pelea a un compañero Derrotado sin esperar al descanso largo.
 
@@ -72,7 +74,7 @@ El **Disco de ánimo** quita Agotado, el estado que deja una forma temporal al c
 | **Chip de blindaje** | +1 Arm durante la escena (máximo 3) | 250 |
 | **Chip elemental [elemento]** | Resistencia a ese elemento durante la escena | 180 |
 
-**No acumulable** significa que dos Chips de ataque no dan +2. El **Chip de blindaje** se suma a la Arm de tu compañero, pero nunca por encima de 3. El **Chip elemental** se compra para un elemento concreto y da Resistencia a él: tu compañero recibe la mitad del daño de esas técnicas. Si os espera un [[Devimon]], cuyas técnicas son de Oscuridad, un Chip elemental de Oscuridad puede cambiar la pelea.
+**No acumulable** significa que dos Chips de ataque no dan +2. El **Chip de blindaje** se suma a la Arm de tu compañero, pero nunca por encima de 3. El **Chip elemental** se compra para un elemento concreto y da Resistencia a él: tu compañero recibe la mitad del daño de esas técnicas. Si os espera un [[Devimon]], cuyas técnicas de daño son de Oscuridad, un Chip elemental de Oscuridad puede cambiar la pelea.
 
 ### Comida
 
@@ -83,7 +85,7 @@ El **Disco de ánimo** quita Agotado, el estado que deja una forma temporal al c
 | **Fruta de datos** | Elimina Hambriento y el Tamer recupera 1 Aguante | 15 |
 | **Ración de viaje** | Comida de un día para un Tamer o un compañero | 10 |
 
-Al terminar una escena en la que usó una forma temporal, tu compañero queda **Hambriento** y su siguiente digievolución cuesta 1 Chispa más. La comida es la forma barata de arreglarlo. Con una **Carne digital**, un [[Agumon]] (VF 3) recupera 6 PV, y un [[Greymon]] (VF 4), 8 PV. La **Fruta de datos** sirve de comida al compañero y, de paso, devuelve 1 Aguante a tu Tamer. La **Ración de viaje** no cura nada, pero es la más barata.
+Al terminar una escena en la que usó una forma temporal, tu compañero queda **Hambriento**: −1 a sus tiradas fuera de combate y, mientras le dure, digievolucionar le cuesta 1 Chispa más. La comida es la forma barata de arreglarlo. Con una **Carne digital**, un [[Agumon]] (VF 3) recupera 6 PV, y un [[Greymon]] (VF 4), 8 PV. La **Fruta de datos** sirve de comida al compañero y, de paso, devuelve 1 Aguante a tu Tamer. La **Ración de viaje** no cura nada, pero es la más barata.
 
 ### Utilidades
 
@@ -105,7 +107,7 @@ Cada Tarjeta guarda los datos de un Digimon concreto, X. Con el programa **Tarje
 
 Las Tarjetas tienen un segundo uso: el avance del compañero **Técnica nueva** (capítulo 11) le permite aprender para siempre la técnica de una Tarjeta que poseas, también como máximo P2.
 
-> **Ejemplo:** Dani lleva un D-Arc y a [[Guilmon]] como compañero. En el barrio de chatarra de la Ciudad Juguete compra una Tarjeta de [[Kabuterimon]] por 300 Bits. Cuando un enemigo vuela lejos de sus garras, Dani desliza la Tarjeta: paga 1 Carga (2 del programa, menos 1 por el D-Arc) y Guilmon lanza Electro Shocker como P2, de alcance Larga, Eléctrico, con Paralizar y Certero. Tira su propio Atq +3 para impactar y 2d6 de daño, con su propio d6.
+> **Ejemplo:** Dani lleva un D-Arc y a [[Guilmon]] como compañero. En el barrio de chatarra de la Ciudad Juguete compra una Tarjeta de [[Kabuterimon]] por 300 Bits. Cuando un enemigo vuela lejos de sus garras, Dani desliza la Tarjeta: paga 1 Carga (2 del programa, menos 1 por el D-Arc) y Guilmon lanza Electro Shocker como P2, de alcance Larga, Eléctrico, con Paralizar y Certero. Para impactar tira 2d6 + 3 (el Atq de Guilmon, no el de Kabuterimon) − la Def del objetivo, con +1 por Certero; si impacta, hace 2d6 de daño con el d6 de Guilmon.
 
 ## Objetos de trama
 
@@ -184,7 +186,7 @@ Lo marcado como *(opcional)* solo existe si la mesa usa ese módulo del capítul
 
 **D-Arc / D-Power.** El Digivice de las cartas. Una vez por escena, un programa de Nivel 1 (Guardia, Potencia…) te sale gratis, y es el único que usa Tarjetas Digimon sin el programa 22, por solo 1 Carga.
 
-**D-Tector.** El Digivice de los buscadores: +1 a Observación en el Mundo Digital y una alarma permanente contra los Digimon con técnicas de *Ocultar*.
+**D-Tector.** El Digivice de los buscadores: +1 a Observación en el Mundo Digital y revela a los Digimon Ocultos que estén en su zona.
 
 **Digivice iC / Burst.** El de los que pelean cara a cara. Ten en cuenta el riesgo: si tu compañero ataca con Toque, el enemigo está en su zona, y tu Tamer también. Quien termina su turno en una zona con un enemigo, sin ponerse a cubierto, queda Expuesto.
 
@@ -196,7 +198,7 @@ Si vuestra historia no encaja con ningún modelo, inventad el vuestro: **+1 a la
 
 - **Digivice de sintonía:** 1 vez por escena, tu Tamer siente dónde está su compañero y si está herido, aunque estéis separados.
 - **Digivice cartógrafo:** 1 vez por escena, dibuja en la pantalla el mapa de la zona: +1 a una tirada para orientarse o encontrar un paso.
-- **Digivice traductor:** tu Tamer entiende cualquier idioma escrito del Mundo Digital: inscripciones, mapas antiguos o el código de una puerta.
+- **Digivice traductor:** 1 vez por escena, tu Tamer entiende un texto escrito del Mundo Digital: una inscripción, un mapa antiguo o el código de una puerta.
 
 ### Elegir un Digivice
 
@@ -290,7 +292,7 @@ La Resonancia de **Milagros** es la más sencilla y quizá la más poderosa: rep
 
 La de **Destino** permite superar el límite del Vínculo. Durante 3 asaltos, el compañero alcanza un nivel por encima de su máximo, sin la tirada de la digievolución forzada (capítulo 6), pagando el coste normal de Chispa de ese nivel. Por ejemplo, con Vínculo 3 (estable Campeón, máximo Perfecto), tu compañero puede llegar a Definitivo pagando 4 Chispa, más las 2 de la Resonancia. Y como ha estado dos niveles por encima del estable, al terminar la escena sufrirá la regresión a Bebé II.
 
-Si vuestra mesa usa la Armadura (capítulo 13), cada Digi-Huevo lleva además el nombre de un Emblema: el del Valor da [[Flamedramon]]; el de la Esperanza, [[Pegasusmon]]; el de la Luz, [[Nefertimon]]; y el dorado de los Milagros, [[Magnamon]].
+Si vuestra mesa usa la Armadura (capítulo 13), cada Digi-Huevo lleva además el nombre de un Emblema. Sus formas de referencia son [[Flamedramon]] para el del Valor, [[Pegasusmon]] para el de la Esperanza, [[Nefertimon]] para el de la Luz y [[Magnamon]] para el dorado de los Milagros (la forma exacta depende del Novato de tu compañero).
 
 ## El arco del Emblema
 
@@ -322,6 +324,8 @@ El arco se diseña entre el jugador y el DJ, mejor en la primera o la segunda se
 
 Con esas respuestas, el DJ siembra la campaña de pequeños ganchos: un PNJ que reaparece, una decisión que vuelve, una pregunta que nadie ha contestado. Cada pocas sesiones, el arco debe asomar un poco.
 
+> **Consejo para el DJ:** el arco es del jugador. Propón, sugiere y pon obstáculos, pero no decidas por él cómo cambia su Tamer, ni cierres el arco sin su acuerdo. Lo decidís juntos: cuando los dos estéis de acuerdo en que el Tamer ha superado su mayor dificultad gracias a su virtud, el arco está cerrado. Y si podéis, haced que la escena de cierre coincida con un gran momento de la campaña, como el combate contra un Jefe o un Momento de Vínculo.
+
 ### Semillas para cada Emblema
 
 | Emblema | Lo que suele faltar | Una prueba posible | Un cierre posible |
@@ -338,8 +342,6 @@ Con esas respuestas, el DJ siembra la campaña de pequeños ganchos: un PNJ que 
 | **Bondad** | Una segunda oportunidad | Un enemigo que no parece merecerla | Perdona a quien le hizo daño, o se perdona a sí mismo |
 
 > **Ejemplo:** Sara y el DJ diseñan el arco de Nora, la Tamer de la Bondad del capítulo 4. *¿Qué le falta?* Una segunda oportunidad. *¿Por qué le cuesta?* Es impulsiva: empujó a un chico que se burló de ella y ahora todos la evitan. *¿Quién la pone a prueba?* Ese mismo chico, que aparecerá en el Mundo Digital como Tamer rival. *¿Qué pasaría si fallara?* Que acabaría siendo de verdad «la bruta del pueblo». *¿Cómo sabremos que lo ha superado?* Cuando le tienda la mano a quien menos se lo merece. Meses después, Nora se interpone para salvar a un [[Ogremon]] que acaba de atacar al grupo; el Emblema despierta y Guijarro digievoluciona por primera vez a [[Triceramon]]. El cierre llegará cuando el chico del colegio, derrotado y solo, necesite que alguien confíe en él.
-
-> **Consejo para el DJ:** el arco es del jugador. Propón, sugiere y pon obstáculos, pero no decidas por él cómo cambia su Tamer, ni cierres el arco sin su acuerdo. Lo decidís juntos: cuando los dos estéis de acuerdo en que el Tamer ha superado su mayor dificultad gracias a su virtud, el arco está cerrado. Y si podéis, haced que la escena de cierre coincida con un gran momento de la campaña, como el combate contra un Jefe o un Momento de Vínculo.
 
 ## Lo esencial
 

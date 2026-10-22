@@ -16,7 +16,7 @@ Cada programa tiene tres datos:
 - **Coste en Carga**: los puntos del Digivice que gastas al ejecutarlo. Coincide con su nivel.
 - **Efecto**: lo que hace, escrito con el mismo vocabulario que las técnicas (capítulo 8).
 
-> **Si es tu primera vez:** Los programas entran en juego a partir de la segunda sesión. Las parejas pregeneradas (capítulo 15) ya traen 3 programas elegidos, pero puedes jugar la primera partida sin tocarlos. Cuando domines la Orden y el Dado de Vínculo, prueba **Guardia** y **Potencia**: son los más fáciles de entender.
+> **Si es tu primera vez:** Los programas entran en juego a partir de la segunda sesión. Las parejas pregeneradas (capítulo 15) ya traen sus programas elegidos (3, o 4 si el Tamer es Técnico), pero puedes jugar la primera partida sin tocarlos. Cuando domines la Orden y el Dado de Vínculo, prueba **Guardia** y **Potencia**: son los más fáciles de entender.
 
 ## Cómo se usa un programa
 
@@ -36,7 +36,7 @@ Ten en cuenta estas reglas:
 
 Fíjate también en la duración de cada efecto: «en este asalto» termina al final del asalto; «hasta tu próximo turno» dura hasta que tu pareja vuelva a actuar; «durante la escena» llega hasta que el DJ corta la escena.
 
-> **Ejemplo:** Nora y Guijarro, su [[Gotsumon]], pelean contra un [[Gazimon]] al que solo le quedan 12 PV. Nora podría dar una Orden (+1 a la tirada), pero prefiere asegurar el daño y ejecuta **Potencia**: tacha 1 Carga (le quedan 2 de 3). Guijarro lanza Rock Fist como P3, que tira 3d6 y, con Potencia, **4d6**. El DJ anuncia el modificador neto: −1. Nora suma el Dado de Vínculo, tira 3d6 y saca 4, 5 y 2: se queda con 4 + 5 y resta 1. Total, 8: impacto sin estados, pero con el daño completo. Los cuatro dados suman 3 + 5 + 4 + 3 = 15. El [[Gazimon]] se deshace en datos.
+> **Ejemplo:** Nora y Guijarro, su [[Gotsumon]], pelean contra un [[Gazimon]] al que solo le quedan 12 PV. Nora podría dar una Orden (+1 a la tirada), pero prefiere asegurar el daño y ejecuta **Potencia**: tacha 1 Carga (le quedan 2 de 3). Guijarro lanza Rock Fist como P3, que tira 3d6. Es una técnica de Tierra y el [[Gazimon]] es débil a la Tierra: +1 dado. Con Potencia, otro más: **5d6**. El DJ anuncia el modificador neto: −1 (Atq 2 − Def 2, y −1 porque Virus vence a Datos). Nora suma el Dado de Vínculo, tira 3d6 y saca 4, 5 y 2: se queda con 4 + 5 y resta 1. Total, 8: impacto sin estados, pero con el daño completo. Los cinco dados suman 3 + 5 + 4 + 3 + 2 = 17. El [[Gazimon]] se deshace en datos.
 
 ## La Carga
 
@@ -106,7 +106,7 @@ Tu Tamer consigue programas de cuatro maneras.
 | 6 | +1 programa | Nivel 3 | — |
 | 8 | +1 programa | — | +1 |
 
-En total, un Tamer de nivel 10 conoce 7 programas solo por subir de nivel (8 si es Técnico). Los niveles 3, 6, 8 y 10 dan además +1 a un atributo: si lo pones en Astucia, también sube tu Carga.
+En total, sin comprar ni encontrar ninguno, un Tamer de nivel 10 conoce 7 programas: 3 al crearlo y 4 al subir de nivel (8 si es Técnico). Los niveles 3, 6, 8 y 10 dan además +1 a un atributo: si lo pones en Astucia, también sube tu Carga.
 
 **3. Comprándolos.** En las ciudades Digimon, un programa cuesta **100 Bits** (Nivel 1), **300** (Nivel 2) u **800** (Nivel 3). Los mercaderes ambulantes cobran un 20 % más (capítulo 3).
 
@@ -255,11 +255,11 @@ Algunos programas no se agotan al final del asalto, y otros necesitan algo previ
 
 - **Escáner → Exploit o Copia.** Primero analizas; en el turno siguiente, el aliado más fuerte golpea ignorando Arm y Resistencia, o tu compañero copia la técnica del enemigo.
 - **Catalizador → digievolución.** Lo ejecutas en un turno y digievolucionas más barato al comienzo del siguiente.
-- **Hiperpotencia → Firma.** Espera a la próxima P3, aunque antes tu compañero use otras técnicas. Úsala en el turno en que la Firma no está lista y llegará cargada.
+- **Hiperpotencia → Firma.** Espera a la próxima P3, aunque antes tu compañero use otras técnicas. Úsala en el turno en que la Firma no está lista y llegará reforzada.
 
 ### Contra un Jefe
 
-- **Primer asalto, Escáner.** Saber su Def, sus debilidades y sus PV ayuda a todo el grupo. Si tiras y sacas 10+, descubres también su punto débil.
+- **Primer asalto, Escáner.** El 7–9 automático te dice su nivel, su atributo, una debilidad y sus PV aproximados, y eso ayuda a todo el grupo. Si tiras y sacas 10+, conoces su ficha entera, punto débil incluido, y los aliados tienen +1 en su próximo ataque contra él.
 - **Candado** desarma las técnicas con *Cargado*: un enemigo que queda Sellado pierde la carga. Contra un Jefe que carga su Firma (capítulo 12) hace falta un 10+. Recuerda que a un Jefe sus duraciones le cuentan en asaltos.
 - **Purgado** borra sus Escudos y sus Potenciados de golpe.
 - **Exploit** es la llave contra la Arm alta y las Resistencias.
@@ -279,7 +279,7 @@ Utilidad, Hackeo, Radar y Bengala brillan explorando: un mapa en un laberinto, u
 
 ## Combinaciones recomendadas por Senda
 
-Estas listas son sugerencias, no obligaciones. Con 7 programas por subir de nivel no podrás aprenderlos todos: elige los que encajen con tu compañero y compra el resto si te sobran Bits.
+Estas listas son sugerencias, no obligaciones. Con los 7 programas que ganas sin gastar Bits no podrás aprenderlos todos: elige los que encajen con tu compañero y compra el resto si te sobran Bits.
 
 | Senda | Nivel 1 (al empezar) | Nivel 2 (desde el nivel 3) | Nivel 3 (desde el nivel 6) |
 |---|---|---|---|
@@ -291,7 +291,7 @@ Estas listas son sugerencias, no obligaciones. Con 7 programas por subir de nive
 
 ### Estratega: leer el combate
 
-El Estratega vive de sus Órdenes, así que cada programa le cuesta una Orden. Alterna: Orden en un turno, programa en el siguiente. Su combinación estrella es **Escáner → Exploit**: analiza al enemigo más duro y, al turno siguiente, regala a cualquier aliado un golpe con *Perforante*. **Convertidor** le da la vuelta al triángulo cuando el grupo pelea contra el atributo que le gana.
+El Estratega vive de sus Órdenes, así que cada programa le cuesta una Orden. Alterna: Orden en un turno, programa en el siguiente. Su combinación estrella es **Escáner → Exploit**: analiza al enemigo más duro y, al turno siguiente, regala a cualquier aliado un golpe con *Perforante*. **Convertidor** le da la vuelta al triángulo cuando tu compañero pelea contra el atributo que le gana.
 
 ### Técnico: el bucle de la Firma
 
@@ -303,7 +303,7 @@ Si tu compañero es Tanque, como [[Gomamon]] (Arm 1), **Fortaleza** lo deja en A
 
 ### Batidor: el apagón
 
-**Bengala** deja Cegados a los enemigos de una zona, y eso activa la *Emboscada* de los compañeros Acechadores, como [[Snimon]] o [[Kuwagamon]]: +1 dado de daño contra objetivos Cegados. **Transferencia** coloca a tu compañero en la zona elevada que creaste con *Ojo para el terreno*, sin ataques de retirada. **Radar** y **Hackeo** hacen del Batidor el mejor guía del grupo fuera de combate.
+**Bengala** puede dejar Cegados a los enemigos de una zona (a todos con 10+; a uno con 7–9), y eso activa la *Emboscada* de los compañeros Acechadores, como [[Snimon]] o [[Kuwagamon]]: +1 dado de daño contra objetivos Cegados. **Transferencia** coloca a tu compañero en la zona elevada que creaste con *Ojo para el terreno*, sin ataques de retirada. **Radar** y **Hackeo** hacen del Batidor el mejor guía del grupo fuera de combate.
 
 ### Inspirador: el salto de fe
 

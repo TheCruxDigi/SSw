@@ -12,7 +12,7 @@ Antes de las herramientas, cinco ideas que sostienen todo lo demás:
 - **Di qué está en juego antes de tirar.** Anuncia la dificultad fuera de combate, o el modificador neto en combate, **antes** de la tirada. Así los jugadores deciden con información: si gastan Chispa, si usan el Dado de Vínculo, si piden Ayuda.
 - **Tira solo cuando haya riesgo e incertidumbre.** Si no puede salir mal, o si salir mal no importa, simplemente ocurre.
 - **Los jugadores tiran; tú, casi nunca.** En combate solo tiras el daño, o usas el daño fijo. Todo bono o penalizador de un PNJ se aplica con el signo cambiado a la tirada del PJ que se le opone: es la **regla de espejo**.
-- **Pregunta mucho.** «¿Cómo calma Leo a su Gabumon?» «¿Qué recuerda Nora cuando ve brillar el Digivice?» Cada respuesta es material para tus escenas.
+- **Pregunta mucho.** «¿Cómo calma Leo a su [[Gabumon]]?» «¿Qué recuerda Nora cuando ve brillar el Digivice?» Cada respuesta es material para tus escenas.
 
 ## La sesión cero
 
@@ -56,21 +56,21 @@ Una hoja de preparación cabe en media página:
 | Situación | La campana de una aldea de [[Gekomon]] dejó de sonar. Sin ella, la niebla del pantano se traga los caminos. Alguien la robó a propósito. |
 | Reloj de amenaza | «La niebla cubre la aldea» (6 segmentos) |
 | Escenas | Llegada a la aldea · cruzar el pantano (viaje) · la torre del campanario · el ladrón y su señor |
-| Encuentros | Pelotón de esbirros en el pantano (Normal) · Jefe de la aventura en la torre (Épico) |
+| Encuentros | Esbirros y su cabecilla en el pantano (Normal, 4 PA) · Jefe de la aventura en la torre (Épico, hasta 8 PA) |
 | PNJ | El anciano Gekomon (Neutral, desconfía de los humanos) · un [[Gizamon]] que sabe más de lo que dice (Recelosa) |
-| Para cada pareja | Un Gekomon pequeño perdido en la niebla (Bondad, Amor) · una verdad incómoda sobre el robo (Sinceridad) |
+| Para cada pareja | Un Gekomon pequeño perdido en la niebla (Amor, Valor) · una verdad incómoda sobre el robo (Sinceridad) |
 | Recompensas | 150 Bits del consejo · un Disco de recuperación M · un rumor sobre la Zona Oscura |
 
 Al final de la sesión, reserva diez minutos: repasad las preguntas de XP, entrega las recompensas y pregunta qué quieren hacer la próxima vez. Esa respuesta es la mitad de tu siguiente preparación.
 
 ## Ritmo y escenas
 
-La partida avanza por **escenas**: tramos continuos de acción en un lugar y con un objetivo. Cruzar el bosque es una escena; interrogar a un Gekomon, otra; pelear contra Ogremon, otra. **Tú decides cuándo empieza y cuándo termina cada una.** Corta cuando el objetivo se resuelva o cuando el interés decaiga, nunca cuando la mesa esté en su mejor momento.
+La partida avanza por **escenas**: tramos continuos de acción en un lugar y con un objetivo. Cruzar el bosque es una escena; interrogar a un [[Gekomon]], otra; pelear contra [[Ogremon]], otra. **Tú decides cuándo empieza y cuándo termina cada una.** Corta cuando el objetivo se resuelva o cuando el interés decaiga, nunca cuando la mesa esté en su mejor momento.
 
 Cortar tiene efectos de reglas, así que hazlo con intención:
 
-- **Al terminar una escena** acaban las formas temporales, llegan el Hambriento y la regresión a Bebé II, desaparecen los Escudos y el estado Roto, y se renuevan los límites «por escena».
-- Un **combate** es siempre una escena completa y termina cuando no quedan enemigos activos. Si otro combate empieza sin pausa (llegan refuerzos, el grupo huye y le sale otro enemigo), **es la misma escena**: la forma temporal sigue activa y el Hambriento llega al final. Los límites «por combate» sí se renuevan con cada combate.
+- **Al terminar una escena** acaban las formas temporales, llegan el Hambriento y, si corresponde, la regresión a Bebé II, desaparecen los Escudos y el estado Roto, y se renuevan los límites «por escena».
+- Un **combate** es siempre una escena completa y termina cuando no quedan enemigos activos. Si otro combate empieza sin pausa (llegan refuerzos, el grupo huye y le sale otro enemigo), **es la misma escena**: la forma temporal sigue activa, los límites «por escena» no se renuevan y el Hambriento llega al final. Los límites «por combate» sí se renuevan con cada combate.
 - Los **descansos** son tu palanca de ritmo. Uno corto (una comida o una hora tranquila) devuelve a los compañeros la mitad de sus PV máximos, da a los Tamers 2 Aguante y 2 Carga, quita el Agotado y, si hay comida, el Hambriento y la regresión. Uno largo (una noche en lugar seguro) lo restaura todo y devuelve a los Derrotados a su forma estable. No regales descansos, pero tampoco los niegues siempre: un grupo sin respiro deja de arriesgar.
 
 Alterna tensión y calma. Después de un combate duro, una escena en una aldea, una comida y una conversación entre Tamer y compañero valen tanto como la pelea. Ahí nacen los Momentos de Vínculo.
@@ -111,13 +111,13 @@ Un 6– da 1 Chispa al Tamer si había tensión (como mucho 1 por asalto en comb
 - **Suaves (avisan):** mostrar una amenaza que se acerca, ofrecer una oportunidad con coste, separar al grupo, revelar una verdad incómoda o anunciar el próximo ataque contra un Tamer.
 - **Duras (golpean):** infligir daño o un estado, quitar un objeto, avanzar un reloj 2 segmentos, capturar a alguien, hacer que un enemigo actúe de inmediato o cumplir un ataque ya telegrafiado contra un Tamer.
 
-Empieza por las suaves. Guarda las duras para cuando un aviso se ignora, para la pifia (el doble uno siempre trae una jugada dura) o para cuando la ficción lo pide a gritos. Y nunca olvides la **regla de oro**: tras un 6– **siempre cambia algo**. «No pasa nada» no es una jugada. Si te quedas en blanco en mitad de un combate, usa la jugada por defecto: **el compañero queda Expuesto**.
+Empieza por las suaves. Guarda las duras para cuando un aviso se ignora, para la pifia (el doble uno siempre trae una jugada dura) o para cuando la ficción lo pide a gritos. Y nunca olvides la **regla de oro**: tras un 6– **siempre cambia algo**. «No pasa nada» no es una jugada. Si te quedas en blanco en mitad de un combate, usa la jugada por defecto: **el compañero queda Expuesto** (−1 Def hasta el final de su próximo turno).
 
 ### Telegrafiar los ataques a los Tamers
 
 Los Tamers son chicos y chicas humanos en un mundo de monstruos. Pueden sufrir, pero nunca por sorpresa. Un PNJ solo ataca a un Tamer si:
 
-- lo **telegrafiaste** en el asalto anterior («Devimon clava los ojos en Sora…») o es una jugada dura tras un 6– del propio Tamer;
+- lo **telegrafiaste** en el asalto anterior («[[Devimon]] clava los ojos en Sora…») o es una jugada dura tras un 6– del propio Tamer;
 - el Tamer está **Expuesto** y en la zona del atacante; o
 - una técnica de **Zona o Total** incluye a cualquier Tamer de esa zona, a elección del atacante.
 
@@ -134,7 +134,7 @@ Como mucho, **un ataque contra cada Tamer por asalto**. Telegrafiar no es solo j
 
 Los jugadores olvidan pedir su Chispa; tú no. Además de los fallos, la Resonancia y las Crisis, vigila estas fuentes: el **Emblema** (1 por escena, cuando el Tamer actúa según su virtud asumiendo un riesgo real), el **defecto** y la **personalidad** (1 por sesión cada uno, cuando causan un problema real) y el **Premio del DJ**: +1 Chispa a tu discreción por un momento épico del grupo. Úsalo poco y en voz alta, para que todos sepan qué celebras.
 
-> **Ejemplo:** Leo intenta convencer al anciano Gekomon de que les deje entrar en el campanario y saca un 5. Hay tensión, así que gana 1 Chispa. El DJ elige una jugada suave: «El anciano duda… y entonces ve el Digivice en tu muñeca. Palidece. "Uno igual que ese colgaba del cuello del ladrón"». Ha revelado una verdad incómoda. Si el grupo ignora la pista y sigue insistiendo, la próxima jugada puede ser dura: el anciano toca un silbato y aparecen los guardias.
+> **Ejemplo:** Leo intenta convencer al anciano [[Gekomon]] de que les deje entrar en el campanario y saca un 5. Hay tensión, así que gana 1 Chispa. El DJ elige una jugada suave: «El anciano duda… y entonces ve el Digivice en tu muñeca. Palidece. "Uno igual que ese colgaba del cuello del ladrón"». Ha revelado una verdad incómoda. Si el grupo ignora la pista y sigue insistiendo, la próxima jugada puede ser dura: el anciano toca un silbato y aparecen los guardias.
 
 ## Relojes
 
@@ -292,7 +292,7 @@ El bestiario sugiere 27 Jefes: los Amos Oscuros ([[MetalSeadramon]], [[Puppetmon
 
 ### Legendario
 
-Los grandes poderes del Mundo Digital: todas las reglas de Jefe (nunca con refuerzo), **PV × (N + 3) ÷ 2**, **+1 dado en todas sus técnicas**, **3 fases** y el **Dominio** de su grupo. Vale **2N PA** al nivel de referencia. Lo verás en detalle más abajo. Solo se aplica a PNJ: un compañero que llega a Gallantmon o a Beelzemon usa su ficha base.
+Los grandes poderes del Mundo Digital: todas las reglas de Jefe (nunca con refuerzo), **PV × (N + 3) ÷ 2**, **+1 dado en todas sus técnicas**, **3 fases** y el **Dominio** de su grupo. Vale **2N PA** al nivel de referencia. Lo verás en detalle más abajo. Solo se aplica a PNJ: un compañero que llega a [[Gallantmon]] o a [[Beelzemon]] usa su ficha base.
 
 ### Tamers rivales
 
@@ -323,7 +323,7 @@ Cuatro parejas a Vínculo 1 llegan al final de «La campana silenciosa». En lo 
 - **Técnicas:** Zarpa sombría (básica: P1 · Toque · Oscuridad · 1d8); Interferencia (maniobra de Místico: sin daño · Distancia · Debilitar o Ralentizar); y su Firma, **Death Claw** (P2/P3 · Distancia · Individual · Oscuridad · Asustar, Drenar · 2d8 / 3d8).
 - **Rasgos:** *Maestro de estados* (sus estados que no son de control duro también se aplican cuando la Defensa del PJ saca 7–9), *Hambre oscura* (recupera 4 PV cuando el defensor saca 6–) y *Agresión*. Vuela. Débil a Luz; resiste Oscuridad.
 - **Presupuesto:** Jefe (4 PA) × 2 por estar un rango por encima × ¾ por su índice bajo = **6 PA**. El Épico de 4 parejas son 8: puedes dejarlo solo, para un clímax algo más amable, o darle una escolta de hasta 2 PA, como un pelotón de 4 [[Goblimon]] (1,5 PA) que huirá en cuanto caiga su señor.
-- **Punto débil (ventana):** tras lanzar Death Claw queda Expuesto. Un Gekomon que lo vio pelear lo cuenta si el grupo le pregunta antes de subir; si no, hará falta Analizar 10+.
+- **Punto débil (ventana):** tras lanzar Death Claw queda Expuesto. Un [[Gekomon]] que lo vio pelear lo cuenta si el grupo le pregunta antes de subir; si no, hará falta Analizar 10+.
 - **Objetivo de escena:** «Romper los Engranajes de la campana» (4 segmentos). Si el reloj se llena, la campana suena, el pueblo despierta de su hechizo y Devimon huye: el combate también se gana así.
 
 Lo más importante de este combate es la **escala**: Devimon es un rango superior a los Novatos. Sus técnicas suman +1 dado contra ellos y el daño de los Novatos contra él se divide a la mitad. Mientras nadie digievolucione, parece imposible. Es justo la sensación que buscas: la primera Crisis cambia el combate.
@@ -331,7 +331,7 @@ Lo más importante de este combate es la **escala**: Devimon es un rango superio
 Así puede jugarse con la Firma telegrafiada:
 
 - **Asalto 1.** 1.ª acción (fase enemiga): **carga** Death Claw. «Sus brazos se estiran como sombras hacia el puente: ¡el próximo golpe caerá allí!». Mientras carga tiene −1 Def. Las parejas de la fase lenta de este asalto y las de la fase rápida del siguiente pueden responder: todo el grupo tiene un turno para romper la carga con 14 de daño o con un Aturdir o Sellar con 10+. 2.ª acción (final del asalto): Interferencia para Ralentizar al compañero más rápido.
-- **Asalto 2.** 1.ª acción: si la carga sigue, lanza Death Claw como P3: 3 dados, +1 por Cargado y +1 por rango superior contra un Novato, y +1 a su tirada, que por la regla de espejo es −1 a la Defensa del PJ. El **golpe aguantado** impide que un compañero pierda más de la mitad de sus PV máximos de un solo impacto. Tras lanzarla, queda Expuesto (su punto débil). 2.ª acción: telegrafía un ataque contra un Tamer («Devimon sonríe y mira a Leo…»). Leo gana 1 Chispa por la Crisis, si no la había ganado ya en este combate.
+- **Asalto 2.** 1.ª acción: si la carga sigue, lanza Death Claw como P3: 3 dados, +1 por Cargado y +1 por rango superior contra un Novato (5d8 en total), y +1 a su tirada, que por la regla de espejo es −1 a la Defensa del PJ. El **golpe aguantado** impide que un compañero pierda más de la mitad de sus PV máximos de un solo impacto. Tras lanzarla, queda Expuesto (su punto débil). 2.ª acción: telegrafía un ataque contra un Tamer («Devimon sonríe y mira a Leo…»). Leo gana 1 Chispa por la Crisis, si no la había ganado ya en este combate.
 - **Asalto 3.** No puede volver a usar su Firma (Agotadora). Cumple la amenaza contra Leo con Zarpa sombría (Peligro 2), salvo que su compañero se interponga.
 - **Al bajar de 36 PV:** Furia. Pierde sus estados, su Firma vuelve a estar lista, sus técnicas ganan +1 dado y cada Tamer gana 1 Chispa. Si un golpe le iba a dejar en 30, se queda en 36: el resto se pierde en el escudo de fase.
 
@@ -387,7 +387,7 @@ Lo habitual son de 3 a 5 XP por sesión, y se sube de nivel con 10. Las pregunta
 
 **Maestros.** Un PNJ mentor ([[Leomon]], Gennai, [[Jijimon]]…) puede enseñar una técnica genérica o perfeccionar una técnica a cambio de una misión. Cuenta como un avance del compañero sin gastar el del nivel, una vez por arco.
 
-**Aliados.** Con el módulo opcional de Digimon salvajes (capítulo 13), un Digimon con actitud **Leal** puede acompañar al grupo durante una aventura como aliado temporal: actúa en la fase lenta, lo manejan los jugadores por turnos, no tiene Chispa ni Dado de Vínculo y suma sus PA a N. A veces, un aliado así acaba siendo el compañero de un jugador nuevo.
+**Aliados.** Con el módulo opcional de Digimon salvajes (capítulo 13), un Digimon con actitud **Leal** puede acompañar al grupo durante una aventura como aliado temporal: actúa en la fase lenta, lo manejan los jugadores por turnos, no tiene Chispa ni Dado de Vínculo, no digievoluciona (salvo que la historia lo pida) y suma sus PA a N. A veces, un aliado así acaba siendo el compañero de un jugador nuevo.
 
 **Chispa.** El Premio del DJ (+1 Chispa por un momento épico del grupo) es la recompensa más inmediata que tienes. Y la mejor recompensa de todas no es un objeto: es una escena en la que un compañero dice en voz alta lo que su Tamer significa para él.
 
@@ -502,7 +502,7 @@ Algunos consejos para tejer la campaña:
 
 - **El Vínculo solo sube con un Momento de Vínculo.** Si una pareja llega al nivel y aún no lo ha vivido, ofrécele esa escena cuanto antes: es una historia pendiente, no un castigo.
 - **Prepara un arco del Emblema por Tamer.** Es el requisito del Vínculo ★. Parte de la respuesta a «¿qué te falta en tu vida?» y repártelos a lo largo de la campaña, uno en el centro de cada arco.
-- **Una novedad por arco:** una región, un villano y, como mucho, un módulo opcional. La Armadura brilla en un arco con Agujas de Control; los pelotones, en uno de guerra.
+- **Una novedad por arco:** una región, un villano y, como mucho, un módulo opcional. La Armadura brilla en un arco con Agujas de Control; la Corrupción, en uno de Engranajes Negros.
 - **Siembra presagios.** El Definitivo que se ve a lo lejos en el primer arco puede ser el Jefe del quinto. Un Legendario que observa y se va dice más que cualquier explicación.
 - **Recicla a tus PNJ.** El esbirro del primer arco puede volver digievolucionado; el Tamer rival puede pedir ayuda en el cuarto. Las listas *Evoluciona a* del bestiario te dan la ruta.
 - **Usa un reloj de campaña** para el plan del villano y avánzalo cuando el grupo ignore sus pistas. Que se vea, aunque no se sepa qué pasa al llenarse.
@@ -518,7 +518,7 @@ La digievolución es el corazón emocional del juego. Las reglas deciden cuánto
 - **La emergencia.** Cuando un impacto va a dejar a un compañero a 0 PV, su Tamer puede digievolucionar como reacción pagando 1 Chispa más. Describe ese golpe despacio: es el instante que todo el mundo recordará.
 - **Los bloqueos** *(opcional)*. Las Agujas de Control y las Torres Oscuras impiden la digievolución normal en su región, aunque la Armadura y los Espíritus siguen funcionando. Un arco así obliga al grupo a buscar otros caminos.
 - **La oscuridad** *(avanzado)*. Puedes declarar que un Tamer actúa movido por la ira, el odio o la desesperación; entonces su digievolución es forzada y puede volverse oscura. Pacta con el jugador antes, respeta las herramientas de seguridad y deja siempre un camino de vuelta, como Animar con 10+.
-- **La estabilización.** Cuando el Vínculo sube, el nivel estable sube con él. Celébralo: la primera vez que la pareja viaja como Campeón es una escena en sí misma.
+- **La estabilización.** Al llegar a Vínculo 3, 5 y ★, el nivel estable sube (a Campeón, Perfecto y Definitivo). Celébralo: la primera vez que la pareja viaja como Campeón es una escena en sí misma.
 
 ## Errores típicos del DJ novato
 
@@ -547,8 +547,8 @@ La digievolución es el corazón emocional del juego. Las reglas deciden cuánto
 - **Jugadas:** 7–9, un coste del menú. 6–, siempre cambia algo; primero suaves, luego duras. Ataques a Tamers solo telegrafiados, Expuestos o por área, y uno por asalto.
 - **Relojes:** 4, 6 u 8 segmentos. 10+ marca 2, 7–9 marca 1. Los de amenaza avanzan con fallos, tiempo y jugadas duras.
 - **Presupuesto:** PA = plantilla (Esbirro ¼, Estándar 1, Élite 2, Jefe N, Legendario 2N) × factor de rango (½, 1, 2, 5…) × índice (¾, 1, 1½). Fácil N ÷ 2, Normal N, Difícil 1,5N, Épico 2N; más es Mortal y exige una salida.
-- **Nivel de referencia:** nivel estable + 1 por cada 2 Chispa. Vínculo 1 Novato, 2 Campeón, 3 Perfecto, 4–5 Definitivo.
-- **Plantillas:** Esbirro (¼ PV, −1/−1, daño fijo, sin P3, huye sin líder), Pelotón (3 a 6, PV sumados, +1 dado por miembro extra hasta +2, área ×2), Élite (PV × 1,5, +1/+1/+1 Ini, una reacción), Jefe y Legendario.
+- **Nivel de referencia:** nivel estable + 1 por cada 2 Chispa. Vínculo 1 Novato, 2 Campeón, 3 Perfecto, 4 Definitivo si está desbloqueado (si no, Perfecto), 5 y ★ Definitivo.
+- **Plantillas:** Esbirro (¼ PV, −1 Atq y −1 Def, daño fijo, sin P3, huye sin líder), Pelotón (3 a 6, PV sumados, +1 dado por miembro extra hasta +2, área ×2), Élite (PV × 1,5, +1 Atq, +1 Def y +1 Ini, una reacción), Jefe y Legendario.
 - **Jefe:** turno = asalto, ⌈N ÷ 2⌉ acciones, 2 fases con escudo y Furia (+1 dado y +1 Chispa por Tamer), Firma telegrafiada con Guardia de carga, punto débil y objetivos de escena. Refuerzo I y II según el Vínculo.
 - **Legendario:** reglas de Jefe sin refuerzo, PV × (N + 3) ÷ 2, +1 dado, 3 fases y el Dominio de su grupo.
 - **Recompensas:** XP por preguntas, Bits, objetos, Tarjetas, maestros, aliados y Chispa.
