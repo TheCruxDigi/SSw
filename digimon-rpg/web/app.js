@@ -16,6 +16,64 @@ const S = { manifest: [], best: [], byId: new Map(), bySlug: new Map(), byName: 
 const main = $("#main"), rail = $("#rail");
 const LEVEL_ORDER = ["Bebé I", "Bebé II", "Novato", "Campeón", "Armadura", "Híbrido", "Perfecto", "Definitivo", "Indeterminado", "Desconocido"];
 const ATTR_CLASS = { vacuna: "vac", datos: "dat", virus: "vir" };
+const LEVEL_VAR = { "Bebé I": "--l0", "Bebé II": "--l0", "Novato": "--l1", "Campeón": "--l2", "Armadura": "--la", "Híbrido": "--lh", "Perfecto": "--l3", "Definitivo": "--l4" };
+const lvStyle = lv => `style="--lv:var(${LEVEL_VAR[lv] || "--l0"})"`;
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- estética: iconos, sprites LCD y Digimoji ---------- */
+const ATTR_ICON = {
+  vacuna: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l6 2.5v4.2c0 3.3-2.6 6-6 7.3-3.4-1.3-6-4-6-7.3V3.5z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 4.5v6M5 7.5h6" stroke="currentColor" stroke-width="1.8"/></svg>',
+  datos: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="8" r="2.2" fill="currentColor"/></svg>',
+  virus: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.6 3 3.3-.6-1.1 3.1 2.4 2.3-3.2.9-.4 3.3L8 11.6l-2.6 1.9-.4-3.3-3.2-.9 2.4-2.3-1.1-3.1 3.3.6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg>',
+};
+const BITS = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#ffc53d" stroke="#b9770e" stroke-width="1.2"/><path d="M8 3.2l4 2.3v5L8 12.8l-4-2.3v-5z" fill="none" stroke="#8a5300" stroke-width="1.2"/><path d="M6.6 5.6h2.2c1 0 1.5.5 1.5 1.2 0 .5-.3.9-.8 1 .6.1 1 .5 1 1.1 0 .8-.6 1.3-1.6 1.3H6.6z" fill="#8a5300"/></svg>';
+const bits = n => `<span class="bits">${BITS}${n == null ? "" : esc(n)}</span>`;
+function hash(s) { let h = 2166136261; for (const ch of String(s)) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+/* Sprite 8-bit simétrico, como los de los V-Pet: cada Digimon tiene el suyo (se genera a partir de su id). */
+function sprite(seed, size) {
+  let x = hash(seed) || 1; const rnd = () => (x ^= x << 13, x ^= x >>> 17, x ^= x << 5, (x >>> 0) / 4294967296);
+  const W = 6, H = 14, big = { "Bebé I": 0.55, "Bebé II": 0.65, "Novato": 0.8 }[size] || 1;
+  const top = Math.round(H * (1 - big)); let r = "";
+  for (let y = top; y < H; y++) for (let c = 0; c < W; c++) {
+    const edge = (y - top) / (H - top), dist = (W - 1 - c) / W;
+    const p = 0.9 - dist * 0.55 - (edge < 0.15 || edge > 0.92 ? 0.3 : 0);
+    if (rnd() < p) r += `<rect x="${c}" y="${y}" width="1" height="1"/><rect x="${11 - c}" y="${y}" width="1" height="1"/>`;
+  }
+  const ey = top + Math.max(2, Math.round((H - top) * 0.3));
+  r += `<rect x="3" y="${ey}" width="2" height="2" fill="var(--lcd)"/><rect x="7" y="${ey}" width="2" height="2" fill="var(--lcd)"/><rect x="4" y="${ey}" width="1" height="1"/><rect x="7" y="${ey}" width="1" height="1"/>`;
+  return `<svg viewBox="-1 -1 14 16" aria-hidden="true" fill="var(--lcd-ink)" shape-rendering="crispEdges">${r}</svg>`;
+}
+const EGG = '<svg viewBox="0 0 12 14" aria-hidden="true" fill="var(--lcd-ink)" shape-rendering="crispEdges"><path d="M4 0h4v1h1v2h1v2h1v5h-1v2h-1v1H8v1H4v-1H3v-1H2v-2H1V5h1V3h1V1h1z"/><path d="M4 4h2v2H4zM7 7h2v2H7zM3 9h2v1H3z" fill="var(--lcd)"/></svg>';
+function pvBar(cur, max) { const on = max > 0 ? Math.round(20 * Math.max(0, Math.min(cur, max)) / max) : 0; return `<div class="pvbar" role="img" aria-label="PV ${cur} de ${max}">${Array.from({ length: 20 }, (_, i) => `<i${i < on ? "" : ' class="off"'}></i>`).join("")}</div>`; }
+const hex2 = n => "0x" + Number(n).toString(16).toUpperCase().padStart(2, "0");
+/* Lluvia de código digital en la portada. Con Digimoji cargada usa sus glifos; si no, binario y hex. */
+let rainStop = null;
+function codeRain(cv) {
+  if (rainStop) rainStop();
+  const ctx = cv.getContext("2d"); let raf = 0, cols = [], w = 0, h = 0, stopped = false;
+  const fam = document.fonts && document.fonts.check('16px "Digimoji"') ? '"Digimoji"' : '"VT323", monospace';
+  const glyphs = fam.includes("Digimoji") ? "ABCDEFGHIJKLMNOPQRSTUVWXYZ" : "01010110ABCDEF";
+  const resize = () => { const r = cv.getBoundingClientRect(); w = cv.width = Math.max(1, r.width); h = cv.height = Math.max(1, r.height); cols = Array.from({ length: Math.ceil(w / 18) }, () => Math.random() * -h); };
+  const tick = () => {
+    const css = getComputedStyle(document.documentElement);
+    ctx.fillStyle = css.getPropertyValue("--surface").trim() || "#0f1c38"; ctx.globalAlpha = 0.18; ctx.fillRect(0, 0, w, h); ctx.globalAlpha = 1;
+    ctx.font = `16px ${fam}`;
+    cols.forEach((y, i) => { ctx.fillStyle = Math.random() < 0.06 ? css.getPropertyValue("--orange") : css.getPropertyValue("--cyan"); ctx.fillText(glyphs[Math.random() * glyphs.length | 0], i * 18, y); cols[i] = y > h + Math.random() * 400 ? 0 : y + 16; });
+    if (!reduceMotion) raf = setTimeout(() => requestAnimationFrame(() => { if (!stopped) tick(); }), 70);
+  };
+  resize(); window.addEventListener("resize", resize);
+  if (reduceMotion) for (let k = 0; k < 40; k++) tick(); else tick();
+  rainStop = () => { stopped = true; clearTimeout(raf); window.removeEventListener("resize", resize); rainStop = null; };
+}
+/* Tema claro/oscuro */
+const themeBtn = $("#themeBtn");
+const applyTheme = t => { if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; };
+applyTheme(store.get("lazos-tema", ""));
+themeBtn.addEventListener("click", () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : !window.matchMedia("(prefers-color-scheme: light)").matches;
+  const t = dark ? "light" : "dark"; applyTheme(t); store.set("lazos-tema", t);
+});
+$$("[data-dm]").forEach(e => { e.textContent = e.dataset.dm; });
 
 /* ---------- carga de datos ---------- */
 async function loadJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(p + " " + r.status); return r.json(); }
@@ -63,7 +121,8 @@ function markNav(r) {
 
 /* ---------- router ---------- */
 function route() {
-  const h = decodeURIComponent(location.hash.slice(1)) || "inicio";
+  if (rainStop) rainStop();
+  const h =decodeURIComponent(location.hash.slice(1)) || "inicio";
   if (S.view && S.view.startsWith("c:") && h.startsWith(S.view.slice(2) + "_")) { const t = document.getElementById(h); if (t) { t.scrollIntoView(); return; } }
   if (h === "inicio") return home();
   if (h === "bestiario") return bestiary(null);
@@ -82,26 +141,48 @@ function home() {
   const first = S.manifest[0];
   const groups = [];
   for (const c of S.manifest) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
+  const title = esc(S.R.meta.titulo).replace(/^(Digimon:)/, "<em>$1</em>");
   main.innerHTML = `<section class="hero">
-    <div class="eyebrow">Juego de rol de mesa · 2d6 · en español</div>
-    <h1>${esc(S.R.meta.titulo)}</h1>
-    <p class="lead">${esc(S.R.meta.subtitulo)}</p>
-    <div class="statline">
-      <div><b>${S.best.length.toLocaleString("es")}</b><span>Digimon con ficha</span></div>
-      <div><b>${S.manifest.length}</b><span>capítulos</span></div>
-      <div><b>${S.R.familias.length}</b><span>familias</span></div>
-      <div><b>${S.R.efectos.length}</b><span>efectos de técnica</span></div>
+    <div class="hero-top cut">
+      <canvas id="rain" aria-hidden="true"></canvas>
+      <div>
+        <div class="eyebrow">Juego de rol de mesa · 2d6 · en español <span class="dm">DIGITAL WORLD</span></div>
+        <h1>${title}</h1>
+        <p class="lead">${esc(S.R.meta.subtitulo)}</p>
+        <p class="dmline">ELIGE A TU COMPAÑERO · DIGIEVOLUCIONA</p>
+      </div>
+      <div class="device" aria-label="Datos del manual">
+        <div class="lcd">
+          ${EGG}
+          <div class="row"><span>DIGIMON</span><b>${S.best.length.toLocaleString("es")}</b></div>
+          <div class="row"><span>CAPÍTULOS</span><b>${S.manifest.length}</b></div>
+          <div class="row"><span>FAMILIAS</span><b>${S.R.familias.length}</b></div>
+          <div class="row"><span>EFECTOS</span><b>${S.R.efectos.length}</b></div>
+        </div>
+        <div class="btns"><i></i><i></i><i></i></div>
+      </div>
     </div>
     <div class="cards">
-      ${first ? `<a class="card" href="#${first.id}"><b>Empieza a leer</b><span>${esc(first.titulo)}: qué es este juego y cómo se usa el manual.</span></a>` : ""}
-      <a class="card" href="#bestiario"><b>Bestiario</b><span>Busca cualquier Digimon por nombre, nivel, atributo, familia o rol, y ajusta su ficha como esbirro, élite o jefe.</span></a>
-      <a class="card" href="#encuentro"><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en PA.</span></a>
-      <a class="card" href="#ficha"><b>Ficha de personaje</b><span>Crea tu Tamer y tu compañero. Las cifras del Digimon se rellenan solas desde el bestiario.</span></a>
+      ${first ? `<a class="card main cut" href="#${first.id}"><span class="k">01 ›</span><b>Empieza a leer</b><span>${esc(first.titulo)}: qué es este juego y cómo se usa el manual.</span></a>` : ""}
+      <a class="card main cut" href="#bestiario"><span class="k">◆ ${S.best.length}</span><b>Bestiario</b><span>Busca cualquier Digimon por nombre, nivel, atributo, familia o rol, y ajusta su ficha como esbirro, élite o jefe.</span></a>
+      <a class="card main cut" href="#encuentro"><span class="k">⚔ PA</span><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en PA.</span></a>
+      <a class="card main cut" href="#ficha"><span class="k">✎ ${bits(100)}</span><b>Ficha de personaje</b><span>Crea tu Tamer y tu compañero. Las cifras del Digimon se rellenan solas desde el bestiario.</span></a>
     </div>
-    ${groups.map(g => `<div><div class="eyebrow" style="margin-top:14px">${esc(g.name)}</div><div class="cards">${g.items.map(c => `<a class="card" href="#${c.id}"><b>${esc(c.n)} · ${esc(c.titulo)}</b><span>${esc(c.resumen || "")}</span></a>`).join("")}</div></div>`).join("")}
+    ${groups.map(g => `<div class="grp"><div class="eyebrow">${esc(g.name)}</div><div class="cards">${g.items.map(c => `<a class="card cut" href="#${c.id}"><span class="k">${/^\d+$/.test(c.n) ? hex2(+c.n) : esc(c.n)}</span><b>${esc(c.titulo)}</b><span>${esc(c.resumen || "")}</span></a>`).join("")}</div></div>`).join("")}
     <p class="notice">${esc(S.R.meta.aviso_legal)}</p>
   </section>`;
+  codeRain($("#rain"));
   window.scrollTo(0, 0);
+}
+/* Convierte «120 Bits» del texto en la moneda del Mundo Digital. */
+function decorateBits(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => /\bBits\b/.test(n.nodeValue) && !n.parentElement.closest("a,code,pre,h1,h2,h3") ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT });
+  const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const n of nodes) {
+    const span = document.createElement("span");
+    span.innerHTML = esc(n.nodeValue).replace(/(\d[\d.,]*(?:\s*[–-]\s*\d[\d.,]*)?)\s+Bits\b/g, (m, num) => `<span class="bits">${BITS}${num} Bits</span>`);
+    n.replaceWith(...span.childNodes);
+  }
 }
 
 /* ---------- capítulos ---------- */
@@ -131,7 +212,9 @@ async function chapter(ch, h) {
     used.add(id); hd.id = id; return hd;
   });
   $$("table", art).forEach(t => { const w = document.createElement("div"); w.className = "tbl"; t.replaceWith(w); w.appendChild(t); });
+  decorateBits(art);
   const h2 = heads.filter(x => x.tagName === "H2");
+  h2.forEach((x, k) => x.dataset.hex = hex2(k + 1));
   if (h2.length > 2) {
     const toc = document.createElement("nav"); toc.className = "toc"; toc.setAttribute("aria-label", "En este capítulo");
     toc.innerHTML = `<b>En este capítulo</b><ol>${h2.map(x => `<li><a href="#${x.id}">${esc(x.textContent)}</a></li>`).join("")}</ol>`;
@@ -149,7 +232,7 @@ async function chapter(ch, h) {
 
 /* ---------- bestiario ---------- */
 const F = Object.assign({ q: "", nivel: "", atributo: "", familia: "", rol: "", elemento: "", grupo: "", amenaza: "", vuela: false, orden: "nivel" }, store.get("lazos-filtros", {}));
-function chipAttr(id) { const a = S.lookup.atr[id]; return `<span class="chip ${ATTR_CLASS[id] || "neu"}">${esc(a ? a.nombre : id)}</span>`; }
+function chipAttr(id) { const a = S.lookup.atr[id]; return `<span class="chip ${ATTR_CLASS[id] || "neu"}">${ATTR_ICON[id] || ""}${esc(a ? a.nombre : id)}</span>`; }
 function matches(d) {
   if (F.q) { const q = norm(F.q); if (!norm(d.nombre).includes(q) && !norm(d.tipo_es).includes(q) && !norm(d.tipo).includes(q) && !d.tecnicas.some(t => norm(t.nombre).includes(q))) return false; }
   if (F.nivel && d.nivel !== F.nivel) return false;
@@ -178,7 +261,7 @@ function bestiary(sl) {
     const elems = R.elementos.map(e => [e.id, e.nombre]);
     main.innerHTML = `<div class="bst">
       <div class="bst-head">
-        <div><p class="eyebrow">Bestiario</p><h1 class="bst-title">Los ${S.best.length.toLocaleString("es")} Digimon</h1></div>
+        <div><p class="eyebrow">Bestiario</p><h1 class="bst-title">Los <span class="lcdn">${S.best.length.toLocaleString("es")}</span> Digimon</h1></div>
         <p class="bst-help">Cada ficha sale de la especificación de reglas. Ábrela y elige una plantilla de amenaza para usarla como esbirro, élite o jefe.</p>
       </div>
       <form class="filters" id="filters" role="search" onsubmit="return false">
@@ -227,7 +310,7 @@ function renderList() {
   const cur = location.hash.startsWith("#d-") ? location.hash.slice(3) : "";
   let html = `<p class="count">${list.length.toLocaleString("es")} resultado${list.length === 1 ? "" : "s"}</p>`;
   if (!list.length) html += `<p class="sb-empty"><b>Ningún Digimon coincide</b><span>Prueba con menos filtros o con otra palabra.</span></p>`;
-  html += list.map(d => `<a class="row" href="#d-${slug(d.id)}" data-id="${esc(d.id)}"${slug(d.id) === cur ? ' aria-current="true"' : ""}>
+  html += list.map(d => `<a class="row" ${lvStyle(d.nivel)} href="#d-${slug(d.id)}" data-id="${esc(d.id)}"${slug(d.id) === cur ? ' aria-current="true"' : ""}>
       <span class="r-name">${esc(d.nombre)}${d.grupo_legendario ? ' <i class="leg" title="Legendario">★</i>' : ""}</span>
       <span class="r-meta">${esc(d.nivel)} · ${esc(d.tipo_es)}</span>
       <span class="r-chips">${chipAttr(d.atributo)}</span>
@@ -287,11 +370,16 @@ function statBlock(d, threat) {
   const usedKw = new Set(); d.tecnicas.forEach(t => (t.claves || []).forEach(c => usedKw.add(c)));
   const sub = [d.nivel, `${d.tipo_es}${d.tipo && d.tipo !== d.tipo_es ? ` (${d.tipo})` : ""}`, fam ? fam.nombre : d.familia, rol ? rol.nombre : null].filter(Boolean).join(" · ");
   const plant = (d.plantillas || []).filter(p => p !== "bebe").map(p => (L.pla[p] || {}).nombre || p);
-  return `<article class="sb" data-id="${esc(d.id)}">
-    <header class="sb-h">
-      <div class="sb-top"><span class="chip lvl">${esc(d.nivel)}</span>${chipAttr(d.atributo)}${d.grupo_legendario ? `<span class="chip">★ ${esc((R.grupos || {})[d.grupo_legendario] || d.grupo_legendario)}</span>` : ""}${plant.map(p => `<span class="chip">${esc(p)}</span>`).join("")}</div>
-      <h2>${esc(d.nombre)}</h2>
-      <p class="sb-sub">${esc(sub)}</p>
+  return `<article class="sb cut" data-id="${esc(d.id)}" ${lvStyle(d.nivel)}>
+    <div class="sb-bar"><span>Análisis del Digivice</span><span>Nº ${esc(String(d.id).replace(/\D/g, "").padStart(4, "0").slice(-4) || "????")}</span></div>
+    <div class="sb-in">
+    <header class="sb-scan">
+      <div class="lcd">${sprite(d.id, d.nivel)}</div>
+      <div>
+        <div class="sb-top"><span class="chip lvl">${esc(d.nivel)}</span>${chipAttr(d.atributo)}${d.grupo_legendario ? `<span class="chip">★ ${esc((R.grupos || {})[d.grupo_legendario] || d.grupo_legendario)}</span>` : ""}${plant.map(p => `<span class="chip">${esc(p)}</span>`).join("")}</div>
+        <h2>${esc(d.nombre)}</h2>
+        <p class="sb-sub">${esc(sub)}</p>
+      </div>
     </header>
     ${d.descripcion ? `<p class="sb-desc">${esc(d.descripcion)}</p>` : ""}
     <div class="sb-threat" role="radiogroup" aria-label="Plantilla de amenaza">
@@ -299,6 +387,7 @@ function statBlock(d, threat) {
       ${threat.startsWith("jefe") || threat === "legendario" ? `<label class="nsel">Parejas <input type="number" id="sb-n" min="1" max="8" value="${N}"></label>` : ""}
     </div>
     <div class="sb-pa"><span>Vale <b>${fmtPA(paOf(d, threat, ENC.N, ENC.ref))} PA</b> para un grupo de ${ENC.N} parejas con nivel de referencia ${esc(REF_NAMES[ENC.ref])}${d.amenaza_nivel ? ` · índice de amenaza ${esc(d.amenaza_nivel)}` : ""}.</span><button type="button" class="pill" id="sb-add">Añadir al encuentro</button><span class="hint" id="sb-added"></span></div>
+    <div class="lcd">
     <div class="sb-stats">
       <div><span>PV</span><b>${v.pv}</b></div>
       <div><span>Ataque</span><b>${sgn(v.atq)}</b></div>
@@ -307,6 +396,8 @@ function statBlock(d, threat) {
       <div><span>Iniciativa</span><b>${sgn(v.ini)}</b></div>
       <div><span>Dado</span><b>${esc(d.dado)}</b></div>
       ${v.acciones > 1 ? `<div><span>Acciones</span><b>${v.acciones}</b></div>` : ""}
+    </div>
+    ${pvBar(v.pv, v.pv)}
     </div>
     <dl class="sb-kv">
       <div><dt>Movimiento</dt><dd>${[d.vuela ? "Vuela" : "", d.nada ? "Nada" : ""].filter(Boolean).join(", ") || "Terrestre"}</dd></div>
@@ -328,6 +419,7 @@ function statBlock(d, threat) {
     ${d.gancho ? `<h3>Gancho de aventura</h3><p>${esc(d.gancho)}</p>` : ""}
     <h3>Línea evolutiva</h3>
     <dl class="sb-kv evo"><div><dt>Viene de</dt><dd>${evoLinks(d.prev)}</dd></div><div><dt>Evoluciona a</dt><dd>${evoLinks(d.next)}</dd></div>${d.modos && d.modos.length ? `<div><dt>Modos</dt><dd>${evoLinks(d.modos)}</dd></div>` : ""}</dl>
+    </div>
   </article>`;
 }
 function wireStatBlock(root, d) {
@@ -367,7 +459,7 @@ function encounter() {
       <datalist id="enc-dl">${S.best.map(d => `<option value="${esc(d.nombre)} · ${esc(d.nivel)}"></option>`).join("")}</datalist>
       <button class="pill" id="enc-clear" type="button">Vaciar</button>
     </form>
-    <div class="enc-sum">
+    <div class="enc-sum lcd">
       <div><span>PA totales</span><b>${fmtPA(total)}</b></div>
       <div><span>Dificultad</span><b class="dif-${norm(dif)}">${esc(dif)}</b></div>
       ${bands.map(([n, v]) => `<div><span>${n}</span><b>≤ ${fmtPA(v)}</b></div>`).join("")}
@@ -457,18 +549,41 @@ function digiOptions(level, cur) {
   const list = S.best.filter(d => d.nivel === level).sort((a, b) => a.nombre.localeCompare(b.nombre));
   return `<option value="">—</option>` + list.map(d => `<option value="${esc(d.id)}"${d.id === cur ? " selected" : ""}>${esc(d.nombre)}${d.atributo ? " · " + esc((S.lookup.atr[d.atributo] || {}).nombre || "") : ""}</option>`).join("");
 }
+const FORM_LV = [["novato", "Novato"], ["campeon", "Campeón"], ["perfecto", "Perfecto"], ["definitivo", "Definitivo"]];
+const lvIdx = n => FORM_LV.findIndex(f => f[1] === n);
+const CREST = '<svg viewBox="0 0 34 34" aria-hidden="true"><path d="M17 2l13 7.5v15L17 32 4 24.5v-15z" fill="var(--orange)"/><path d="M17 6l9.5 5.5v11L17 28l-9.5-5.5v-11z" fill="var(--surface)"/><circle cx="17" cy="17" r="5" fill="none" stroke="var(--orange)" stroke-width="2.4"/><path d="M17 9v4M17 21v4M10 17h4M20 17h4" stroke="var(--orange)" stroke-width="2"/></svg>';
+function pips(k, cur, max, cls = "") { return `<div class="pips" role="group">${Array.from({ length: max }, (_, i) => `<button type="button" class="pip ${cls}${i < cur ? " on" : ""}" data-pip="${k}" data-v="${i + 1}" aria-label="${i + 1} de ${max}" aria-pressed="${i < cur}"></button>`).join("")}</div>`; }
+/* Siguiente digievolución desbloqueada y su coste en Chispa (2 por nivel por encima del estable). */
+function nextEvo(c, D) {
+  const dg = c.d, cur = FORM_LV.find(([k]) => dg[k] && dg[k] === (dg.forma || dg.novato));
+  const ci = cur ? FORM_LV.indexOf(cur) : 0, est = lvIdx(D.estable), max = lvIdx(D.maximo) < 0 ? 3 : lvIdx(D.maximo);
+  const nx = FORM_LV.slice(ci + 1).find(([k]) => dg[k]);
+  if (!nx) return null;
+  const ni = FORM_LV.indexOf(nx);
+  const cost = 2 * Math.max(0, ni - Math.max(ci, est)) + (ni > est && /hambrient/i.test(dg.estados || "") ? 1 : 0);
+  return { key: nx[0], id: dg[nx[0]], name: nx[1], cost, over: ni > max };
+}
 function sheet() {
+  const fresh = S.view !== "ficha";
   S.view = "ficha"; markNav("ficha");
   let c = chars.find(x => x.id === curId) || chars[0]; curId = c.id;
   const t = c.t, dg = c.d, D = derived(c);
-  const forms = [["novato", "Novato"], ["campeon", "Campeón"], ["perfecto", "Perfecto"], ["definitivo", "Definitivo"]].filter(([k]) => dg[k]);
+  const forms = FORM_LV.filter(([k]) => dg[k]);
   const formaId = dg.forma || dg.novato;
   const fs = formaId ? formStats(c, formaId) : null;
+  const ev = fs ? nextEvo(c, D) : null;
+  const chispa = Math.min(+t.chispa || 0, D.chispaMax), ag = t.aguante ?? D.aguante, cg = t.carga ?? D.carga, pv = fs ? Math.min(dg.pv ?? fs.pv, fs.pv) : 0;
   const hab = HABILIDADES.map(([k, n]) => { const v = +(t.hab[k] || 0); return `<label class="hab"><span>${n}</span><select data-k="t.hab.${k}"><option value="0"${v === 0 ? " selected" : ""}>0</option><option value="1"${v === 1 ? " selected" : ""}>+1</option><option value="2"${v === 2 ? " selected" : ""}>+2</option></select></label>`; }).join("");
   const sel = (k, list, cur, blank = "—") => `<select data-k="${k}"><option value="">${blank}</option>${list.map(x => `<option${x === cur ? " selected" : ""}>${esc(x)}</option>`).join("")}</select>`;
   const num = (k, v, min, max) => `<input type="number" data-k="${k}" value="${esc(v)}" min="${min}" max="${max}">`;
   const txt = (k, v, ph = "") => `<input type="text" data-k="${k}" value="${esc(v)}" placeholder="${esc(ph)}">`;
   const area = (k, v, rows = 3, ph = "") => `<textarea data-k="${k}" rows="${rows}" placeholder="${esc(ph)}">${esc(v)}</textarea>`;
+  const head = (h, dm) => `<div class="sh-h"><h2>${h}</h2><span class="dm">${dm}</span></div>`;
+  const evoBtn = !ev ? `<button type="button" class="dv-btn big" disabled>¡Digievoluciona!</button>`
+    : `<button type="button" class="dv-btn big" id="dv-evo"${ev.over || chispa < ev.cost ? " disabled" : ""}>¡Digievoluciona!</button>`;
+  const evoNote = !fs ? "" : !ev ? "No hay otra forma desbloqueada por encima. Elige más formas abajo."
+    : ev.over ? `${ev.name} supera tu máximo con Vínculo ${+t.vinculo === 6 ? "★" : t.vinculo} (solo con digievolución forzada).`
+    : `A ${S.byId.get(ev.id)?.nombre || ev.name}: ${ev.cost ? `${ev.cost} Chispa` : "gratis (nivel estable)"}${chispa < ev.cost ? `. Te faltan ${ev.cost - chispa}.` : "."}`;
   main.innerHTML = `<div class="sheet">
     <div class="sh-bar">
       <label><span class="sr">Ficha</span><select id="sh-pick">${chars.map(x => `<option value="${esc(x.id)}"${x.id === c.id ? " selected" : ""}>${esc(x.t.nombre || "Sin nombre")}${x.d.apodo ? " & " + esc(x.d.apodo) : ""}</option>`).join("")}</select></label>
@@ -482,8 +597,8 @@ function sheet() {
     <div class="sh-io" id="sh-io" hidden></div>
     ${c.ejemplo ? `<p class="notice">Esta es una ficha de ejemplo. Puedes modificarla o pulsar «Nueva ficha» para empezar la tuya.</p>` : ""}
     <div class="sh-grid">
-      <section class="sh-card">
-        <h2>Tamer</h2>
+      <section class="sh-card cut">
+        ${head("Tamer", "DIGIDESTINED")}
         <div class="g2">
           <label>Nombre ${txt("t.nombre", t.nombre)}</label>
           <label>Edad ${txt("t.edad", t.edad)}</label>
@@ -492,10 +607,10 @@ function sheet() {
         <label>¿Qué te falta en tu vida? ${txt("t.falta", t.falta, "La semilla de tu Emblema")}</label>
         <h3>Atributos <span class="hint">reparte +2, +1, +1 y 0</span></h3>
         <div class="g4">
-          <label class="big">Valor ${num("t.val", t.val, -1, 3)}</label>
-          <label class="big">Astucia ${num("t.ast", t.ast, -1, 3)}</label>
-          <label class="big">Corazón ${num("t.cor", t.cor, -1, 3)}</label>
-          <label class="big">Destreza ${num("t.des", t.des, -1, 3)}</label>
+          <label class="attr"><span>VALOR</span>${num("t.val", t.val, -1, 3)}</label>
+          <label class="attr"><span>ASTUCIA</span>${num("t.ast", t.ast, -1, 3)}</label>
+          <label class="attr"><span>CORAZÓN</span>${num("t.cor", t.cor, -1, 3)}</label>
+          <label class="attr"><span>DESTREZA</span>${num("t.des", t.des, -1, 3)}</label>
         </div>
         <div class="g2">
           <label>Trasfondo ${sel("t.trasfondo", Object.keys(TRASFONDOS), t.trasfondo)}</label>
@@ -508,70 +623,108 @@ function sheet() {
         <div class="g2">
           <label>Cualidad ${txt("t.virtud", t.virtud)}</label>
           <label>Defecto ${txt("t.defecto", t.defecto)}</label>
-          <label>Emblema ${sel("t.emblema", EMBLEMAS, t.emblema)}</label>
-          <label>Digivice ${sel("t.digivice", Object.keys(DIGIVICES), t.digivice)}</label>
         </div>
+        <div class="crest">${CREST}<label style="flex:1">Emblema ${sel("t.emblema", EMBLEMAS, t.emblema)}</label></div>
+        <label>Digivice ${sel("t.digivice", Object.keys(DIGIVICES), t.digivice)}</label>
         <label>Talentos ${area("t.talentos", t.talentos, 2)}</label>
       </section>
 
-      <section class="sh-card">
-        <h2>Recursos</h2>
+      <section class="sh-card cut">
+        ${head("Recursos", "CHISPA · VINCULO")}
         <div class="res">
-          <div><span>Nivel</span>${num("t.nivel", t.nivel, 1, 10)}</div>
-          <div><span>XP</span>${num("t.xp", t.xp, 0, 999)}</div>
-          <div><span>Vínculo</span><select data-k="t.vinculo">${[1, 2, 3, 4, 5, 6].map(v => `<option value="${v}"${+t.vinculo === v ? " selected" : ""}>${v === 6 ? "★" : v}</option>`).join("")}</select></div>
-          <div><span>Chispa <small>máx. ${D.chispaMax}</small></span>${num("t.chispa", t.chispa, 0, D.chispaMax)}</div>
-          <div><span>Aguante <small>máx. ${D.aguante}</small></span>${num("t.aguante", t.aguante ?? D.aguante, 0, D.aguante)}</div>
-          <div><span>Carga <small>máx. ${D.carga}</small></span>${num("t.carga", t.carga ?? D.carga, 0, D.carga)}</div>
-          <div><span>Bits</span>${num("t.bits", t.bits, 0, 99999)}</div>
+          <div class="r"><span>Vínculo</span><div class="pips">${pips("t.vinculo", +t.vinculo || 1, 6, "cy")}<select data-k="t.vinculo" aria-label="Vínculo" style="width:auto">${[1, 2, 3, 4, 5, 6].map(v => `<option value="${v}"${+t.vinculo === v ? " selected" : ""}>${v === 6 ? "★" : v}</option>`).join("")}</select></div></div>
+          <div class="r"><span>Chispa <small>${chispa} / ${D.chispaMax}</small></span>${pips("t.chispa", chispa, D.chispaMax)}</div>
+          <div class="r"><span>Aguante <small>${ag} / ${D.aguante}</small></span>${pips("t.aguante", ag, D.aguante, "gr")}</div>
+          <div class="r"><span>Carga <small>${cg} / ${D.carga}</small></span>${pips("t.carga", cg, D.carga, "cy")}</div>
+          <div class="nums">
+            <label>Nivel ${num("t.nivel", t.nivel, 1, 10)}</label>
+            <label>XP ${num("t.xp", t.xp, 0, 999)}</label>
+            <label><span class="bits">${BITS}Bits</span> ${num("t.bits", t.bits, 0, 99999)}</label>
+          </div>
         </div>
-        <p class="hint">Con Vínculo ${+t.vinculo === 6 ? "★" : t.vinculo}: nivel estable <b>${D.estable}</b>, máximo temporal <b>${D.maximo}</b>. Digievolucionar cuesta 2 Chispa por cada nivel por encima del estable.</p>
+        <p class="hint">Con Vínculo ${+t.vinculo === 6 ? "★" : t.vinculo}: nivel estable <b>${D.estable}</b>, máximo temporal <b>${D.maximo}</b>. Digievolucionar cuesta 2 Chispa por cada nivel por encima del estable. Toca un rombo para marcar o desmarcar.</p>
         <label>Programas ${area("t.programas", t.programas, 4, "Uno por línea")}</label>
         <label>Equipo y objetos ${area("t.equipo", t.equipo, 4, "Uno por línea")}</label>
         <label>Notas ${area("t.notas", t.notas, 3)}</label>
       </section>
 
-      <section class="sh-card wide">
-        <h2>Compañero Digimon</h2>
-        <div class="g3">
-          <label>Apodo ${txt("d.apodo", dg.apodo)}</label>
-          <label>Personalidad ${sel("d.personalidad", PERSONALIDAD, dg.personalidad)}</label>
-          <label>Rol fijado ${`<select data-k="d.rolfijo"><option value="">El del bestiario</option>${S.R.roles.map(r => `<option value="${r.id}"${r.id === dg.rolfijo ? " selected" : ""}>${esc(r.nombre)}</option>`).join("")}</select>`}</label>
-        </div>
-        <div class="g4">
-          <label>Novato ${`<select data-k="d.novato">${digiOptions("Novato", dg.novato)}</select>`}</label>
-          <label>Campeón ${`<select data-k="d.campeon">${digiOptions("Campeón", dg.campeon)}</select>`}</label>
-          <label>Perfecto ${`<select data-k="d.perfecto">${digiOptions("Perfecto", dg.perfecto)}</select>`}</label>
-          <label>Definitivo ${`<select data-k="d.definitivo">${digiOptions("Definitivo", dg.definitivo)}</select>`}</label>
-        </div>
-        <div class="g3">
-          <label>Forma Bebé II ${txt("d.bebe", dg.bebe, "De su lista «Viene de»")}</label>
-          <label>Mejoras: Atq / Def ${`<span class="g2 tight">${num("d.m_atq", dg.m_atq, 0, 5)}${num("d.m_def", dg.m_def, 0, 5)}</span>`}</label>
-          <label>Mejoras: PV / Ini ${`<span class="g2 tight">${num("d.m_pv", dg.m_pv, 0, 99)}${num("d.m_ini", dg.m_ini, 0, 5)}</span>`}</label>
-        </div>
-        ${forms.length ? `<div class="forms" role="tablist" aria-label="Forma actual">${forms.map(([k, n]) => { const fd = S.byId.get(dg[k]); return `<button type="button" class="pill${dg[k] === formaId ? " on" : ""}" data-forma="${esc(dg[k])}" aria-selected="${dg[k] === formaId}">${esc(n)}: ${esc(fd ? fd.nombre : "?")}</button>`; }).join("")}</div>` : `<p class="hint">Elige el Novato de tu compañero para ver sus cifras.</p>`}
-        ${fs ? `<div class="sh-form">
-          <div class="sb-stats">
-            <div><span>PV máx.</span><b>${fs.pv}</b></div><div><span>Ataque</span><b>${sgn(fs.atq)}</b></div><div><span>Defensa</span><b>${sgn(fs.def)}</b></div>
-            <div><span>Armadura</span><b>${fs.arm}</b></div><div><span>Iniciativa</span><b>${sgn(fs.ini)}</b></div><div><span>Dado</span><b>${esc(fs.d.dado)}</b></div>
+      <section class="sh-card wide cut">
+        ${head("Compañero Digimon", "PARTNER")}
+        <div class="sh-grid">
+          <div class="dv" aria-label="Digivice">
+            <div class="dv-top"><span>${esc(t.digivice || "Digivice")}</span><span>${fs ? esc(fs.d.nivel) : "SIN DATOS"}</span></div>
+            <div class="lcd dv-screen" id="dv-screen">
+              ${fs ? `<div class="sp">${sprite(fs.d.id, fs.d.nivel)}<div>
+                <div class="nm"><b>${esc(fs.d.nombre)}</b></div>
+                <div>${esc(dg.apodo ? "«" + dg.apodo + "»" : (S.lookup.atr[fs.d.atributo] || {}).nombre || "")}</div>
+                <div class="nm"><span>PV</span><span>${pv}/${fs.pv}</span></div></div></div>
+                ${pvBar(pv, fs.pv)}
+                <div class="sb-stats">
+                  <div><span>Ataque</span><b>${sgn(fs.atq)}</b></div><div><span>Defensa</span><b>${sgn(fs.def)}</b></div><div><span>Armad.</span><b>${fs.arm}</b></div>
+                  <div><span>Inic.</span><b>${sgn(fs.ini)}</b></div><div><span>Dado</span><b>${esc(fs.d.dado)}</b></div>
+                </div>` : `<div class="sp">${EGG}<div class="nm"><span>Elige el Novato de tu compañero</span></div></div>`}
+            </div>
+            <div class="dv-btns">
+              ${fs ? `<button type="button" class="dv-btn" id="dv-pvm" aria-label="Quitar 1 PV">− PV</button>` : ""}
+              ${evoBtn}
+              ${fs ? `<button type="button" class="dv-btn" id="dv-pvp" aria-label="Sumar 1 PV">+ PV</button>` : ""}
+            </div>
+            ${fs && formaId !== dg.novato ? `<div class="dv-btns"><button type="button" class="dv-btn" id="dv-back">Volver a ${esc(S.byId.get(dg.novato)?.nombre || "Novato")}</button></div>` : ""}
+            ${evoNote ? `<p class="dv-note">${esc(evoNote)}</p>` : ""}
           </div>
-          <div class="g2">
-            <label>PV actuales ${num("d.pv", dg.pv ?? fs.pv, 0, fs.pv)}</label>
-            <label>Estados ${txt("d.estados", dg.estados, "Hambriento, Agotado…")}</label>
+          <div class="grp">
+            <div class="g2">
+              <label>Apodo ${txt("d.apodo", dg.apodo)}</label>
+              <label>Personalidad ${sel("d.personalidad", PERSONALIDAD, dg.personalidad)}</label>
+            </div>
+            <div class="g2">
+              <label>Novato ${`<select data-k="d.novato">${digiOptions("Novato", dg.novato)}</select>`}</label>
+              <label>Campeón ${`<select data-k="d.campeon">${digiOptions("Campeón", dg.campeon)}</select>`}</label>
+              <label>Perfecto ${`<select data-k="d.perfecto">${digiOptions("Perfecto", dg.perfecto)}</select>`}</label>
+              <label>Definitivo ${`<select data-k="d.definitivo">${digiOptions("Definitivo", dg.definitivo)}</select>`}</label>
+            </div>
+            <div class="g2">
+              <label>Forma Bebé II ${txt("d.bebe", dg.bebe, "De su lista «Viene de»")}</label>
+              <label>Rol fijado ${`<select data-k="d.rolfijo"><option value="">El del bestiario</option>${S.R.roles.map(r => `<option value="${r.id}"${r.id === dg.rolfijo ? " selected" : ""}>${esc(r.nombre)}</option>`).join("")}</select>`}</label>
+              <label>Mejoras: Atq / Def ${`<span class="g2 tight">${num("d.m_atq", dg.m_atq, 0, 5)}${num("d.m_def", dg.m_def, 0, 5)}</span>`}</label>
+              <label>Mejoras: PV / Ini ${`<span class="g2 tight">${num("d.m_pv", dg.m_pv, 0, 99)}${num("d.m_ini", dg.m_ini, 0, 5)}</span>`}</label>
+            </div>
+            ${fs ? `<div class="g2"><label>PV actuales ${num("d.pv", pv, 0, fs.pv)}</label><label>Estados ${txt("d.estados", dg.estados, "Hambriento, Agotado…")}</label></div>` : ""}
           </div>
-          <p class="hint">${esc(fs.d.nombre)} · ${esc(fs.d.nivel)} · ${esc(fs.rol ? fs.rol.nombre : "sin rol")} · ${esc((S.lookup.fam[fs.d.familia] || {}).nombre || "")} · <a href="#d-${slug(fs.d.id)}">abrir en el bestiario</a></p>
-          <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead><tbody>${fs.d.tecnicas.map(x => techRow(x, fs.d, 0)).join("")}</tbody></table></div>
-        </div>` : ""}
+        </div>
+        ${forms.length ? `<h3>Forma actual <span class="hint">cambia sin pagar Chispa (para corregir la ficha)</span></h3><div class="forms" role="tablist" aria-label="Forma actual">${forms.map(([k, n]) => { const fd = S.byId.get(dg[k]); return `<button type="button" class="pill${dg[k] === formaId ? " on" : ""}" data-forma="${esc(dg[k])}" aria-selected="${dg[k] === formaId}">${esc(n)}: ${esc(fd ? fd.nombre : "?")}</button>`; }).join("")}</div>` : ""}
+        ${fs ? `<p class="hint">${esc(fs.d.nombre)} · ${esc(fs.d.nivel)} · ${esc(fs.rol ? fs.rol.nombre : "sin rol")} · ${esc((S.lookup.fam[fs.d.familia] || {}).nombre || "")} · <a href="#d-${slug(fs.d.id)}">abrir en el bestiario</a></p>
+          <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead><tbody>${fs.d.tecnicas.map(x => techRow(x, fs.d, 0)).join("")}</tbody></table></div>` : ""}
         <label>Técnicas heredadas o aprendidas ${area("d.tecnicas", dg.tecnicas, 2)}</label>
       </section>
     </div>
   </div>`;
-  wireSheet(c);
-  window.scrollTo(0, 0);
+  wireSheet(c, { ev, fs, pv, D });
+  if (S.evoFlash) { S.evoFlash = false; const sc = $("#dv-screen"); if (sc && !reduceMotion) sc.classList.add("flash"); }
+  if (fresh) window.scrollTo(0, 0);
 }
 function setPath(obj, path, val) { const ks = path.split("."); let o = obj; while (ks.length > 1) { const k = ks.shift(); o = o[k] = o[k] || {}; } o[ks[0]] = val; }
-function wireSheet(c) {
+function wireSheet(c, X) {
   const root = $(".sheet");
+  root.addEventListener("click", e => {
+    const p = e.target.closest(".pip"); if (!p) return;
+    const k = p.dataset.pip, v = +p.dataset.v;
+    const now = +(k === "t.aguante" ? (c.t.aguante ?? X.D.aguante) : k === "t.carga" ? (c.t.carga ?? X.D.carga) : c.t[k.slice(2)]) || 0;
+    let nv = now === v ? v - 1 : v; if (k === "t.vinculo") nv = Math.max(1, nv);
+    setPath(c, k, nv); c.ejemplo = false; save(); sheet(); flash();
+  });
+  const pvSet = n => { c.d.pv = Math.max(0, Math.min(X.fs.pv, n)); save(); sheet(); flash(); };
+  if ($("#dv-pvm")) $("#dv-pvm").addEventListener("click", () => pvSet(X.pv - 1));
+  if ($("#dv-pvp")) $("#dv-pvp").addEventListener("click", () => pvSet(X.pv + 1));
+  if ($("#dv-evo")) $("#dv-evo").addEventListener("click", () => {
+    const ev = X.ev; if (!ev || ev.over) return;
+    const ch = Math.min(+c.t.chispa || 0, X.D.chispaMax); if (ch < ev.cost) return;
+    if (c.d.forma === c.d.novato || !c.d.forma) c.d.pvPrev = X.pv;
+    c.t.chispa = ch - ev.cost; c.d.forma = ev.id;
+    if (ev.cost) c.d.pv = null; else { const nf = formStats(c, ev.id); c.d.pv = nf ? Math.min(X.pv, nf.pv) : null; }
+    c.ejemplo = false; S.evoFlash = true; save(); sheet(); flash();
+  });
+  if ($("#dv-back")) $("#dv-back").addEventListener("click", () => { c.d.forma = c.d.novato; c.d.pv = c.d.pvPrev ?? null; c.d.pvPrev = null; save(); sheet(); flash(); });
   const NUM = /^(t\.(val|ast|cor|des|nivel|xp|vinculo|chispa|aguante|carga|bits)|t\.hab\..+|d\.(m_atq|m_def|m_pv|m_ini|pv))$/;
   const RERENDER = /^(t\.(val|ast|trasfondo|senda|digivice|vinculo)|d\.(novato|campeon|perfecto|definitivo|rolfijo|m_atq|m_def|m_pv|m_ini))$/;
   root.addEventListener("change", e => {
