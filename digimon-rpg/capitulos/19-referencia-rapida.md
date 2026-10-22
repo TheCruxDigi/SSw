@@ -294,6 +294,7 @@ Empiezas con **1** al crear el personaje. Máximo **3 + Vínculo**. Al empezar c
 | Segundo aliento (digievolucionar estando Agotado) | coste normal +2 |
 | **Esfuerzo:** +1 a una tirada ya hecha, antes de que el DJ narre | 1 (máx. +2 por tirada; cuenta para el ±3) |
 | **Último aliento:** el compañero iba a quedar Derrotado y se queda a 1 PV | 2 (1 por combate) |
+| **Desatar la Firma:** activa el Desatado de su efecto de Firma | 1 (1 por combate) |
 | Ataque conjunto [A] | 1 cada Tamer |
 | Resonancia del Emblema [A] (nivel 5 y Vínculo 3+) | 2 (1 por sesión) |
 | Recuperar la forma estable tras una derrota o una regresión, en escena tranquila (o al empezar un combate, si está en regresión) | 1 |
@@ -523,6 +524,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 | **Defensa del Tamer** | 2d6 + DES + Atletismo − Atq. | 7 |
 | **Definitivo** | Nivel de rango 4 (d12). | 5, 6 |
 | **Derrotado** | Cae la forma estable: Bebé II e inconsciente. | 7 |
+| **Desatado** | Parte del efecto de Firma: 1 Chispa al declarar la Firma, 1 vez por combate. | 8 |
 | **Descanso corto / largo** | Una comida o una hora / una noche en lugar seguro. | 7 |
 | **Desconocido** | Atributo neutral (no es el nivel Indeterminado). | 8 |
 | **Desventaja** | 3d6, quédate con los 2 peores. | 2 |
@@ -542,6 +544,8 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 
 | Término | Qué es | Cap. |
 |---|---|---|
+| **Eco** | Parte del efecto de Firma que se usa fuera de combate, 1 vez por escena. | 8 |
+| **Efecto de Firma** | Sello, Desatado y Eco propios de la Firma de cada Digimon. | 8 |
 | **Elemento** | Uno de los 14 (Fuego, Agua, Luz…): decide debilidades, resistencias y el estado por defecto. | 8 |
 | **Élite** | Plantilla: PV × 1,5, +1 Atq, Def e Ini y una reacción. 2 PA. | 12 |
 | **Emblema** | La virtud del Tamer: Chispa, primer Perfecto y Resonancia. | 10 |
@@ -660,6 +664,7 @@ Todos los términos del juego, por orden alfabético. **Cap.** es el capítulo d
 
 | Término | Qué es | Cap. |
 |---|---|---|
+| **Sello** | Parte del efecto de Firma que funciona siempre que se usa la Firma como Firma. | 8 |
 | **Segundo aliento** | Digievolucionar estando Agotado (+2 Chispa). | 6 |
 | **Senda** | Estilo de combate del Tamer (5). | 4 |
 | **SIN DATOS** | Atributo neutral (`NO DATA`). | 8 |

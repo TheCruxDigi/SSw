@@ -350,12 +350,21 @@ function techRow(t, d, extra) {
   const media = dados && /^(\d+)d(\d+)$/.test(dados) ? (() => { const [, n, c] = dados.match(/^(\d+)d(\d+)$/); return (n * (+c + 1) / 2).toFixed(1).replace(".0", ""); })() : "";
   const tipo = { basica: "Básica", maniobra: "Maniobra", oficial: "Técnica", generica: "Genérica" }[t.tipo] || "";
   return `<tr>
-    <td><b>${esc(t.nombre)}</b>${t.firma ? ' <span class="tag firma">Firma</span>' : ""}${t.agotadora ? ' <span class="tag" title="No puede usarse dos turnos seguidos">Agotadora</span>' : ""}<div class="sub">${tipo}${t.apoyo ? " · Apoyo" : ""}</div></td>
+    <td><b>${esc(t.nombre)}</b>${t.firma ? ` <span class="tag firma">Firma</span>${t.efecto && t.efecto.nombre ? `<div class="sub fx-n">★ ${esc(t.efecto.nombre)}</div>` : ""}` : ""}${t.agotadora ? ' <span class="tag" title="No puede usarse dos turnos seguidos">Agotadora</span>' : ""}<div class="sub">${tipo}${t.apoyo ? " · Apoyo" : ""}</div></td>
     <td>${esc(t.potencia || "—")}</td>
     <td class="num">${t.apoyo ? "—" : esc(dados || "—")}${media ? `<div class="sub">media ${media}</div>` : ""}</td>
     <td>${esc((L.alc[t.alcance] || {}).nombre || t.alcance || "")}${t.area && t.area !== "individual" ? `<div class="sub">${esc((L.area[t.area] || {}).nombre || t.area)}</div>` : ""}</td>
     <td>${esc((L.ele[t.elemento] || {}).nombre || t.elemento || "")}</td>
     <td>${claves || '<span class="sub">—</span>'}</td></tr>`;
+}
+/* Efecto de Firma: Sello (siempre), Desatado (1 Chispa, 1 vez por combate) y Eco (fuera de combate, 1 vez por escena). */
+function firmaBox(d) {
+  const t = d.tecnicas.find(x => x.firma), e = t && t.efecto; if (!e) return "";
+  const row = (k, lab, sub, txt) => txt ? `<div class="fx-${k}"><dt>${lab}<span>${sub}</span></dt><dd>${esc(txt)}</dd></div>` : "";
+  return `<section class="firma-box" aria-label="Efecto de Firma">
+    <header><span class="dm">SIGNATURE</span><b>${esc(e.nombre || "Efecto de Firma")}</b><small>${esc(t.nombre)}</small></header>
+    <dl>${row("sello", "Sello", "siempre que la usa como Firma", e.sello)}${row("desatado", "Desatado", "1 Chispa · 1 vez por combate", e.desatado)}${row("eco", "Eco", "fuera de combate · 1 vez por escena", e.eco)}</dl>
+  </section>`;
 }
 function evoLinks(names) {
   if (!names || !names.length) return "—";
@@ -411,6 +420,7 @@ function statBlock(d, threat) {
     <h3>Técnicas</h3>
     <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead>
       <tbody>${d.tecnicas.map(t => techRow(t, d, v.extra)).join("")}</tbody></table></div>
+    ${firmaBox(d)}
     ${usedKw.size ? `<details class="sb-gl"><summary>Qué hace cada efecto</summary><dl>${[...usedKw].map(c => { const e = L.efe[c]; return e ? `<div><dt>${esc(e.nombre)}</dt><dd>${esc(e.regla)}</dd></div>` : ""; }).join("")}</dl></details>` : ""}
     <h3>Rasgos</h3>
     <ul class="sb-traits">${(d.rasgos || []).map(r => `<li><b>${esc(r.nombre)}.</b> ${esc(r.regla)} <span class="sub">${esc(r.origen || "")}</span></li>`).join("") || "<li>—</li>"}</ul>
@@ -669,6 +679,7 @@ function sheet() {
               ${evoBtn}
               ${fs ? `<button type="button" class="dv-btn" id="dv-pvp" aria-label="Sumar 1 PV">+ PV</button>` : ""}
             </div>
+            ${fs && (fs.d.tecnicas.find(x => x.firma) || {}).efecto?.desatado ? `<div class="dv-btns"><button type="button" class="dv-btn" id="dv-unleash"${chispa < 1 ? " disabled" : ""} title="${esc(fs.d.tecnicas.find(x => x.firma).efecto.desatado)}">Desatar ${esc(fs.d.tecnicas.find(x => x.firma).nombre)} · 1 Chispa</button></div>` : ""}
             ${fs && formaId !== dg.novato ? `<div class="dv-btns"><button type="button" class="dv-btn" id="dv-back">Volver a ${esc(S.byId.get(dg.novato)?.nombre || "Novato")}</button></div>` : ""}
             ${evoNote ? `<p class="dv-note">${esc(evoNote)}</p>` : ""}
           </div>
@@ -694,7 +705,7 @@ function sheet() {
         </div>
         ${forms.length ? `<h3>Forma actual <span class="hint">cambia sin pagar Chispa (para corregir la ficha)</span></h3><div class="forms" role="tablist" aria-label="Forma actual">${forms.map(([k, n]) => { const fd = S.byId.get(dg[k]); return `<button type="button" class="pill${dg[k] === formaId ? " on" : ""}" data-forma="${esc(dg[k])}" aria-selected="${dg[k] === formaId}">${esc(n)}: ${esc(fd ? fd.nombre : "?")}</button>`; }).join("")}</div>` : ""}
         ${fs ? `<p class="hint">${esc(fs.d.nombre)} · ${esc(fs.d.nivel)} · ${esc(fs.rol ? fs.rol.nombre : "sin rol")} · ${esc((S.lookup.fam[fs.d.familia] || {}).nombre || "")} · <a href="#d-${slug(fs.d.id)}">abrir en el bestiario</a></p>
-          <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead><tbody>${fs.d.tecnicas.map(x => techRow(x, fs.d, 0)).join("")}</tbody></table></div>` : ""}
+          <div class="tbl"><table class="sb-t"><thead><tr><th>Técnica</th><th>Pot.</th><th>Daño</th><th>Alcance</th><th>Elemento</th><th>Efectos</th></tr></thead><tbody>${fs.d.tecnicas.map(x => techRow(x, fs.d, 0)).join("")}</tbody></table></div>${firmaBox(fs.d)}` : ""}
         <label>Técnicas heredadas o aprendidas ${area("d.tecnicas", dg.tecnicas, 2)}</label>
       </section>
     </div>
@@ -723,6 +734,10 @@ function wireSheet(c, X) {
     c.t.chispa = ch - ev.cost; c.d.forma = ev.id;
     if (ev.cost) c.d.pv = null; else { const nf = formStats(c, ev.id); c.d.pv = nf ? Math.min(X.pv, nf.pv) : null; }
     c.ejemplo = false; S.evoFlash = true; save(); sheet(); flash();
+  });
+  if ($("#dv-unleash")) $("#dv-unleash").addEventListener("click", () => {
+    const ch = Math.min(+c.t.chispa || 0, X.D.chispaMax); if (ch < 1) return;
+    c.t.chispa = ch - 1; c.ejemplo = false; S.evoFlash = true; save(); sheet(); flash();
   });
   if ($("#dv-back")) $("#dv-back").addEventListener("click", () => { c.d.forma = c.d.novato; c.d.pv = c.d.pvPrev ?? null; c.d.pvPrev = null; save(); sheet(); flash(); });
   const NUM = /^(t\.(val|ast|cor|des|nivel|xp|vinculo|chispa|aguante|carga|bits)|t\.hab\..+|d\.(m_atq|m_def|m_pv|m_ini|pv))$/;

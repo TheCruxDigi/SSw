@@ -3,10 +3,11 @@
 
 Uso:
   python3 build_web.py --spec spec_fichas.json --all all.json --gen gen.py --out ../web \
-      [--desc DIR_DESCRIPCIONES] [--chapters DIR_CAPITULOS] [--biblia biblia_reglas.md]
+      [--desc DIR_DESCRIPCIONES] [--firmas DIR_FIRMAS] [--chapters DIR_CAPITULOS] [--biblia biblia_reglas.md]
 
 - Ejecuta el generador de referencia (gen.py) sobre la especificación y el dataset.
 - Fusiona las descripciones (ficheros *.json {id: {descripcion, tacticas, gancho}}).
+- Fusiona los efectos de Firma (ficheros *.json {id: {nombre, sello, desatado, eco}}) en la técnica Firma.
 - Escribe web/data/bestiario.json y web/data/reglas.json.
 - Copia los capítulos (con manifest.json) o, si no hay, trocea la biblia en capítulos provisionales.
 """
@@ -18,6 +19,7 @@ ap.add_argument("--all", required=True)
 ap.add_argument("--gen", required=True)
 ap.add_argument("--out", required=True)
 ap.add_argument("--desc")
+ap.add_argument("--firmas")
 ap.add_argument("--chapters")
 ap.add_argument("--biblia")
 a = ap.parse_args()
@@ -52,6 +54,20 @@ for x in fichas:
                 x[k] = dd[k].strip()
     else:
         faltan += 1
+firmas = {}
+if a.firmas:
+    for f in sorted(glob.glob(os.path.join(a.firmas, "*.json"))):
+        firmas.update(json.load(open(f, encoding="utf-8")))
+sin_efecto = 0
+for x in fichas:
+    t = next((t for t in x["tecnicas"] if t.get("firma")), None)
+    e = firmas.get(x["id"])
+    if t and e:
+        t["efecto"] = {k: (e.get(k) or "").strip() or None for k in ("nombre", "sello", "desatado", "eco")}
+    elif t:
+        sin_efecto += 1
+if a.firmas:
+    print(f"efectos de Firma: {len(fichas) - sin_efecto} fichas; sin efecto: {sin_efecto}")
 json.dump(fichas, open(os.path.join(a.out, "data", "bestiario.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"bestiario: {len(fichas)} fichas; sin descripción: {faltan}")
 

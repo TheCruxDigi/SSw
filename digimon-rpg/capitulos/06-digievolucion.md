@@ -52,6 +52,7 @@ Los límites de cada disparador son independientes. En un mismo asalto puedes ga
 | **Segundo aliento** | Coste normal +2 | Digievolucionar estando Agotado |
 | **Esfuerzo** | 1 | +1 a una tirada ya hecha, antes de que el DJ narre el resultado. Máximo +2 por tirada; cuenta para el límite de +3 |
 | **Último aliento** | 2 | Tu compañero iba a quedar Derrotado: en su lugar, se queda a 1 PV. 1 vez por combate |
+| **Desatar la Firma** | 1 | Al declarar la Firma como P3, se activa su Desatado (capítulo 8). 1 vez por combate |
 | **Ataque conjunto** (avanzado) | 1 cada Tamer | Capítulo 7 |
 | **Resonancia del Emblema** | 2 | Desde nivel 5 de Tamer y Vínculo 3; 1 vez por sesión (capítulo 10) |
 | **Recuperar la forma estable** | 1 | Tras una derrota o una regresión, en una escena tranquila (o al empezar un combate, si está en regresión) |

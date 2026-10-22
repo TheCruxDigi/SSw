@@ -210,6 +210,7 @@ lines = [
     ("Dado de Vínculo", "1/asalto: 3d6, quédate los 2 mejores; un 6 = +1 Chispa"),
     ("Digievolucionar", "2 Chispa por nivel sobre el estable (+1 si Hambriento)"),
     ("Técnicas", "P1 y P2 a voluntad · P3 Firma: no dos turnos seguidos"),
+    ("Desatar la Firma", "1 Chispa al declararla como P3, 1 vez por combate"),
     ("Triángulo", "Vacuna > Virus > Datos > Vacuna: ±1 a la tirada"),
     ("Daño", "dados de poder: Bebé d4 · Novato d6 · Campeón d8 · Perfecto d10 · Definitivo d12"),
 ]
@@ -230,7 +231,8 @@ c.setFillColor(MUTED); c.setFont("Helvetica-Bold", 6.5); c.drawString(qx + 8, ly
 c.setFont("Helvetica", 6.8)
 for i, (v, e, mx) in enumerate([("1", "Novato", "Campeón"), ("2", "Novato", "Perfecto"), ("3", "Campeón", "Perfecto"), ("4", "Campeón", "Definitivo"), ("5", "Perfecto", "Definitivo"), ("Estrella", "Definitivo", "Modo Supremo")]):
     c.setFillColor(INK); c.drawString(qx + 8 + (i % 2) * (qw / 2), ly - 14 - (i // 2) * 10, f"{v}: {e} → {mx}")
-field("notas_digimon", M, 36, (W - 2 * M) / 2 - 6, y - 76, "Notas del compañero", size=8, multi=True)
+field("efecto_firma", M, y - 124, (W - 2 * M) / 2 - 6, 80, "Efecto de Firma: Sello · Desatado (1 Chispa) · Eco", size=8, multi=True)
+field("notas_digimon", M, 36, (W - 2 * M) / 2 - 6, y - 174, "Notas del compañero", size=8, multi=True)
 footer(2)
 c.showPage()
 c.save()
