@@ -146,7 +146,7 @@ Evita repetir «Ventaja en X» como única idea: el Eco debe dar un **permiso** 
 ### Ejemplos
 **Agumon · Pepper Breath** (Novato, Bruto, Fuego, Quemar y Brutal):
 ```json
-{"nombre":"Chispa de valor","sello":"Si el objetivo es de un nivel superior al de Agumon, la técnica gana +1 a la tirada: cuanto más grande el rival, más fuerte sopla.","desatado":"La técnica alcanza a todos los enemigos de una zona sin perder dados, y esa zona queda en Llamas hasta el final del siguiente asalto (Peligro: VF de daño al entrar o al empezar el turno en ella).","eco":"Enciende hogueras, funde hielo o cera y ahuyenta a criaturas pequeñas: Ventaja para intimidarlas. Si tiene hambre, la llama sale débil y solo da para cocinar."}
+{"nombre":"Chispa de valor","sello":"Si el objetivo es de un nivel superior al de Agumon, la técnica gana +1 a la tirada: cuanto más grande el rival, más fuerte sopla.","desatado":"La técnica pasa a Ráfaga sin perder dados, y la zona del objetivo queda en Llamas hasta el final del siguiente asalto (Peligro: VF de daño al entrar o al empezar el turno en ella).","eco":"Enciende hogueras, funde hielo o cera y ahuyenta a criaturas pequeñas: Ventaja para intimidarlas. Si tiene hambre, la llama sale débil y solo da para cocinar."}
 ```
 
 **Gabumon · Blue Blaster** (Novato, Fuego azul):

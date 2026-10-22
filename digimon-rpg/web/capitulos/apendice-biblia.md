@@ -916,6 +916,17 @@ Todo Digimon tiene una técnica básica **P1 · Toque · Individual**, sin palab
 
 ---
 
+### 11.6 Efectos de Firma
+Cada Firma del bestiario tiene, además de sus dados y palabras clave, un **efecto de Firma** propio con nombre y tres partes (la ficha lo imprime bajo sus técnicas; la lista completa está en `fuentes/firmas/`):
+
+| Parte | Cuándo | Qué hace |
+|---|---|---|
+| **Sello** | Siempre que el Digimon usa su Firma **como Firma** (P3, o P2/P3 usada como P3). En los Bebés, cada vez que la usan. | Un añadido pequeño y temático: un efecto con 10+, +1 dado bajo una condición estrecha, una ventaja táctica o un terreno breve. Se suma a las palabras clave. |
+| **Desatado** | Al declarar la Firma como P3, el Tamer gasta **1 Chispa**. **1 vez por combate.** Un PNJ Élite, Jefe o Legendario lo usa gratis 1 vez por combate (el Jefe, en la primera Firma tras su Furia; los demás, cuando el DJ quiera). Los Bebés no tienen. | El gran momento: equivale más o menos a +1 dado (área mayor, estado también con 7–9, Escudo o curación para la zona, Perforante y Certero…). |
+| **Eco** | Fuera de combate, **1 vez por escena**. | Un permiso narrativo ligado a la técnica (encender, congelar, abrir, revelar, calmar…) y, si hay tirada, **Ventaja** en una en la que encaje. Abre una vía; nunca resuelve solo el obstáculo central de la aventura. |
+
+**Límites.** Una Firma heredada como P2 (12.4) y la Tarjeta Digimon (13.2) conservan solo el Eco. Los Esbirros no usan Sello ni Desatado. Los estados que añade un efecto de Firma siguen 7.1 (el control duro, nunca con 7–9). El Sello y el Desatado juntos no dan más de **+1 dado** en una tirada, y ese dado **no se suma al de la Furia** de un Jefe (se queda el mayor). Los valores usan el VF del usuario.
+
 ## 12. Roles de combate y técnicas aprendibles
 
 ### 12.1 Los 8 roles

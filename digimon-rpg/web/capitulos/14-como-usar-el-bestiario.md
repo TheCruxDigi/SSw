@@ -73,6 +73,7 @@ Se leen así: **nombre — potencia · alcance · área · elemento · palabras 
 - **Técnica básica** (Disparo): su nombre y su elemento dependen de la familia. Siempre P1 y de Toque, salvo en la familia Arcano (a Distancia) y en los Tiradores, que la usan como **Disparo**, a Distancia: por eso MetalGreymon no tiene el Puño mecánico de las Máquinas.
 - **Maniobra de rol** (Disparo certero): depende del rol. Los Bebés no tienen.
 - **Firma** (Giga Destroyer): la técnica estrella, P3 y **Agotadora** (en su turno siguiente no puede usar ninguna técnica Agotadora, tampoco la misma). Si el Digimon solo tiene una técnica oficial, su Firma es **P2/P3**: P2 a voluntad o P3 Agotadora. Por eso [[Agumon]] imprime «2d6 / 3d6» en Pepper Breath.
+- **Efecto de Firma**: bajo las técnicas, la Firma lleva su efecto propio, con nombre, **Sello** (siempre que se usa como Firma), **Desatado** (1 Chispa, 1 vez por combate; un Élite, Jefe o Legendario lo usa gratis 1 vez) y **Eco** (fuera de combate, 1 vez por escena). Las reglas están en el capítulo 8. Un Esbirro no usa ni el Sello ni el Desatado.
 - **Las demás técnicas oficiales**, con su potencia.
 - **Los dados entre corchetes** son contra un objetivo. En una técnica de área se añaden los dados **contra 2 o más objetivos**, uno menos: Giga Storm tira 2d10 contra uno y 1d10 contra cada uno si alcanza a varios.
 

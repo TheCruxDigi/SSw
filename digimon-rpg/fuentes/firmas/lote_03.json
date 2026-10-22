@@ -1,0 +1,794 @@
+{
+ "fufumon": {
+  "nombre": "Púas de alarma",
+  "sello": "Si Fufumon recibió un ataque desde el final de su último turno, la técnica gana +1 a la tirada contra quien lo atacó: el limo se eriza justo cuando lo amenazan.",
+  "desatado": null,
+  "eco": "Eriza su limo en púas de hierro para fijarse a una pared lisa o pinchar una cuerda o un saco a su alcance. Ventaja para que nadie consiga agarrarlo ni atraparlo."
+ },
+ "fugamon": {
+  "nombre": "Garrote del clan",
+  "sello": "Con 10+, tras resolverla, Fugamon puede moverse 1 zona gratis hacia uno de los enemigos empujados: el ogro nunca deja escapar a quien acaba de golpear.",
+  "desatado": "La técnica gana +1 dado y el suelo de la zona queda sembrado de cascotes: Terreno difícil hasta el final del siguiente asalto.",
+  "eco": "Derriba a garrotazos una puerta, un muro endeble o un árbol caído que bloquee el paso. Ventaja para retar o impresionar a Digimon pendencieros, como los del clan de Ogremon."
+ },
+ "fujamon": {
+  "nombre": "Colmillo del río",
+  "sello": "Si el objetivo está en la misma zona que Fujamon, la técnica gana +1 dado: muerde con saña al intruso que pisa su territorio.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el chorro barre a todos los intrusos que se acercan a su orilla.",
+  "eco": "Gira la cola como una hélice para cruzar un río a nado remolcando a una persona o una balsa. Ventaja para ahuyentar a quien invade una orilla o un remanso."
+ },
+ "fujinmon": {
+  "nombre": "Ojo del vendaval",
+  "sello": "La técnica no alcanza a los aliados de la zona. Con 10+, Fujinmon puede atraer a los enemigos alcanzados 1 zona hacia él en lugar de alejarlos: el ciclón gira a su alrededor.",
+  "desatado": "Todos los aliados de la zona de Fujinmon ganan Escudo 2 × VF: en el ojo del ciclón no entra ningún golpe.",
+  "eco": "Levanta un vendaval que despeja niebla, humo o gas de una zona, o sujeta un puente colgante durante una tormenta. Ventaja para avanzar contra el viento."
+ },
+ "fukamon": {
+  "nombre": "Nube a la deriva",
+  "sello": "Con 10+, la zona de Fukamon se llena de neblina hasta el final del siguiente asalto: quien entre en ella queda Oculto.",
+  "desatado": null,
+  "eco": "Se deshace en humo para colarse por rendijas y ojos de cerradura y se recompone al otro lado. Ventaja para pasar desapercibido si el viento sopla a su favor."
+ },
+ "fumamon": {
+  "nombre": "Golondrina de acero",
+  "sello": "Contra un objetivo que se alejó de Fumamon o de un aliado en su último turno, la técnica gana +1 dado: nadie escapa de la escuela Fuma.",
+  "desatado": "Su objetivo queda Expuesto y Marcado: los shuriken lo clavan a su propia sombra.",
+  "eco": "Lanza un shuriken con cordel para cortar una cuerda lejana, clavar un mensaje o tender una tirolina. Ventaja para seguir el rastro de alguien que huye."
+ },
+ "funbeemon": {
+  "nombre": "Feromona de colmena",
+  "sello": "Con 10+, el objetivo queda además Marcado: el aguijón deja un rastro de feromona que guía a todo el enjambre.",
+  "desatado": "El Veneno de la técnica entra también con 7–9: toda la Royal Base ha afilado ese aguijón.",
+  "eco": "Encuentra flores y miel a varias zonas de distancia y sabe si una planta es comestible. Ventaja para hacer amigos entre Digimon vegetales como Palmon o Lillymon."
+ },
+ "fusamon": {
+  "nombre": "Chillido de aviso",
+  "sello": "Con 10+, un aliado de la zona de Fusamon queda Potenciado: el chillido le avisa justo a tiempo.",
+  "desatado": null,
+  "eco": "Su chillido agudo despierta al instante a todo el grupo. Ventaja en la tirada para detectar una emboscada o un peligro cercano, aunque luego se quede dormido."
+ },
+ "gabumon": {
+  "nombre": "Coraje prestado",
+  "sello": "Contra un objetivo ya Quemado, Gabumon gana Escudo VF al impactar: bajo la piel de Garurumon, el tímido se envalentona.",
+  "desatado": "La técnica gana +1 dado y su objetivo pierde su Escudo: el fuego azul funde cualquier coraza.",
+  "eco": "Su piel de lobo espanta a quien teme a Garurumon: Ventaja para que un Digimon salvaje se aparte. También enciende fuego en un lugar húmedo."
+ },
+ "gabumon_black": {
+  "nombre": "Tos de brasas",
+  "sello": "Contra un objetivo ya Quemado, la técnica gana +1 dado: escupe bolas de fuego sobre la herida abierta.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: tose una andanada de bolas de fuego, una tras otra.",
+  "eco": "Con la piel puesta nadie le ve la cara: en penumbra pasa por un Garurumon Virus. Ventaja para engañar o intimidar a matones."
+ },
+ "gabumon_kizuna": {
+  "nombre": "Moto del lazo",
+  "sello": "Al usarla, Gabumon puede moverse 1 zona antes o después llevando consigo a su Tamer de la misma zona, sin provocar ataques de retirada: la armadura se vuelve moto.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: la ametralladora plateada barre el frente junto a su amigo.",
+  "eco": "Se transforma en la moto de su compañero y lo lleva a toda velocidad por cualquier terreno: el grupo llega antes a un lugar o alcanza a quien huye en vehículo."
+ },
+ "gabumon_x": {
+  "nombre": "Zarpa azul",
+  "sello": "Si Gabumon se movió este turno antes de usarla, con 10+ se mueve 1 zona más gratis: golpea con la llama en la mano y vuelve a saltar.",
+  "desatado": "La técnica gana +1 dado y Gabumon no queda trabado tras usarla: un zarpazo en llamas y un salto atrás.",
+  "eco": "Corre y trepa como una fiera con la piel puesta: alcanza una cornisa o un tejado que el grupo no puede. Ventaja para perseguir por terreno abrupto."
+ },
+ "gaioumon": {
+  "nombre": "Estela fantasma",
+  "sello": "Con 10+, el objetivo queda además Marcado: la estela de luz sigue brillando en el corte donde caerá la segunda espada Kikurin.",
+  "desatado": "La técnica es Perforante y Certero: las espadas Kikurin cortan por las juntas de cualquier armadura.",
+  "eco": "Corta en limpio cuerdas, rejas o troncos con un único tajo, y la estela ilumina la zona un rato. Ventaja para impresionar a guerreros veteranos."
+ },
+ "gaioumon_itto": {
+  "nombre": "Tajo sin sonido",
+  "sello": "Si Gaioumon no se movió este turno, la técnica ignora Cobertura y Oculto: desde la guardia quieta del estilo Tenrin, el viento del tajo llega a cualquier rincón.",
+  "desatado": "La técnica impacta aunque Gaioumon saque 6–, con la mitad del daño y sin efectos: el corte ya se dio antes de verse.",
+  "eco": "Corta sin hacer ruido: abre una puerta, una tienda o una red sin que nadie en las zonas vecinas lo oiga. Ventaja para infiltrarse."
+ },
+ "ragnamon": {
+  "nombre": "Ojo orbital",
+  "sello": "Alcance +1 zona. Si el objetivo dañó a Ragnamon este asalto, la técnica gana +1 a la tirada: ya ha analizado su ataque.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el disparo baja desde el satélite y arrasa a todo lo que hay alrededor del objetivo.",
+  "eco": "Consulta sus datos de satélite: obtiene un mapa preciso de la región y ve movimientos grandes, como un ejército o un incendio, a kilómetros. Ventaja para orientarse."
+ },
+ "galemon": {
+  "nombre": "Cuchillas de corriente",
+  "sello": "Con 10+, los enemigos alcanzados que vuelan quedan Derribados: las corrientes cortantes les arrancan el aire de las alas.",
+  "desatado": "La técnica gana +1 dado y la zona queda azotada por ráfagas hasta el final del siguiente asalto: Terreno difícil.",
+  "eco": "Sus cuernos leen el viento: nota una emboscada o una tormenta antes de que llegue. Ventaja para percibir peligros al aire libre."
+ },
+ "dukemon": {
+  "nombre": "Gram y Aegis",
+  "sello": "Con 10+, un aliado de la zona de Dukemon gana Escudo VF: Aegis cubre al compañero mientras Gram avanza.",
+  "desatado": "La técnica gana +1 dado y, si impacta, Dukemon y su Tamer ganan Escudo VF: el caballero nunca ataca sin proteger a su señor.",
+  "eco": "Como Caballero Real, su palabra pesa: Ventaja para que autoridades o caballeros del Mundo Digital lo escuchen. Su lanza abre una brecha en una barrera de datos menor."
+ },
+ "dukemon_x": {
+  "nombre": "Aleación sagrada",
+  "sello": "Con 10+, el objetivo queda además Roto: el filo de aleación sagrada raja cualquier coraza.",
+  "desatado": "La técnica es Perforante y Certero: el filo de Red, Blue y Gold Digizoid no encuentra obstáculo.",
+  "eco": "Su armadura de aleación sagrada aguanta derrumbes y llamas: sostiene un techo que se viene abajo o atraviesa un pasillo en llamas para sacar a alguien."
+ },
+ "dukemoncrimsonmode": {
+  "nombre": "Armadura al rojo",
+  "sello": "La zona del objetivo queda en Llamas hasta el final del siguiente asalto (Peligro: VF al entrar o empezar el turno en ella): la armadura carmesí arde al rojo vivo.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Roto al impactar: Blutgang corta el código de su defensa.",
+  "eco": "Su calor funde metal, hielo o roca blanda, y sus alas de luz alumbran una zona como el día. Mantener ese calor lo agota: solo dura un momento."
+ },
+ "gammamon": {
+  "nombre": "Embestida estelar",
+  "sello": "Con 10+, el objetivo queda además Derribado: la embestida con los dos cuernos lo tumba de espaldas.",
+  "desatado": "La técnica gana +1 dado y Gammamon se mueve 1 zona gratis antes de atacar, sin provocar ataques de retirada: coge carrerilla.",
+  "eco": "Sus cuernos abren puertas atascadas y apartan rocas. Además capta señales extrañas: Ventaja para notar transmisiones u ondas digitales en la escena."
+ },
+ "ganemon": {
+  "nombre": "Bola de interés",
+  "sello": "Con 10+, el objetivo pierde su Escudo o su Potenciado: la moneda rodante se lleva hasta el último céntimo de protección.",
+  "desatado": "El Cegado de la técnica entra también con 7–9: el brillo del oro deslumbra a cualquiera.",
+  "eco": "Su bigote detecta monedas, metal y tesoros ocultos en la zona. Con su labia, Ventaja para regatear o convencer con una promesa de beneficio."
+ },
+ "gankoomon": {
+  "nombre": "Puño de padre",
+  "sello": "Si el objetivo dañó a un aliado de Gankoomon este asalto, la técnica gana +1 dado: el puño de hierro castiga como un maestro severo.",
+  "desatado": "La técnica gana +1 dado y un aliado de la zona del objetivo queda Potenciado: la lección también es para él. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Tiene amigos por todo el Mundo Digital: en cualquier comunidad encuentra a alguien que le debe un favor y da cobijo o información. Ventaja para pedir ayuda a lugareños."
+ },
+ "gankoomon_x": {
+  "nombre": "Zuecos de hierro",
+  "sello": "Si Gankoomon no se movió este turno, con 10+ el objetivo queda además Derribado: las alas de su aura lo plantan en el suelo con los zuecos de hierro.",
+  "desatado": "El Escudo de la técnica se extiende: todos los aliados de la zona de Gankoomon ganan Escudo 2 × VF.",
+  "eco": "Hinukamuy olfatea por él: sigue un rastro de días o encuentra a alguien perdido. Ventaja para rastrear."
+ },
+ "gaogamon": {
+  "nombre": "Mordida sin soltar",
+  "sello": "Con 10+, un objetivo alcanzado queda además Atrapado: Gaogamon lo muerde y no suelta hasta que cae.",
+  "desatado": "La técnica no pierde dados por área y Gaogamon no queda trabado al terminar: arremete y sigue corriendo.",
+  "eco": "Corre a cuatro patas a una velocidad que nadie sigue: lleva un mensaje o alcanza a un fugitivo antes que nadie. Ventaja en carreras y persecuciones."
+ },
+ "gaomon": {
+  "nombre": "Juego de piernas",
+  "sello": "Tras usarla, Gaomon puede moverse 1 zona gratis sin provocar ataques de retirada: golpea y se retira con juego de piernas.",
+  "desatado": "La técnica gana +1 dado y el objetivo queda Expuesto hasta su próximo turno: el gancho le baja la guardia.",
+  "eco": "Sus guantes golpean sacos, puertas atascadas o cocos sin hacerse daño. Ventaja para ganarse el respeto de un luchador con un combate amistoso."
+ },
+ "gaossmon": {
+  "nombre": "Ladrido desafiante",
+  "sello": "Con 10+, el objetivo queda además Provocado: Gaossmon le ladra un desafío que no soporta que ignoren.",
+  "desatado": "La técnica gana +1 dado y Gaossmon se mueve 1 zona gratis antes de usarla, escurriéndose entre la maleza.",
+  "eco": "Se escabulle por huecos de su tamaño entre maleza y escombros: nadie lo atrapa mientras no ladre. Eso sí, nunca cruza el agua, ni un arroyo."
+ },
+ "gerbemon": {
+  "nombre": "Vaciar la papelera",
+  "sello": "Con 10+, la zona del objetivo queda sembrada de basura hasta el final del siguiente asalto: Terreno difícil.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: un chorro de desperdicios lo salpica todo.",
+  "eco": "Se traga un objeto pequeño o un montón de desechos y lo borra del Mundo Digital. Rebuscando en su interior, saca un trasto común que el grupo necesite: cuerda, lata o cable."
+ },
+ "galgomon": {
+  "nombre": "Fuego desde arriba",
+  "sello": "Alcance +1 zona. Si Galgomon está en Altura, la técnica ignora Cobertura: salta, planea y dispara desde arriba.",
+  "desatado": "La técnica no pierde dados por área: Galgomon vacía los cargadores de ambos brazos sin dejar de saltar.",
+  "eco": "Salta muy alto y planea con las orejas: baja a salvo de un acantilado o cruza un barranco estrecho llevando a una persona pequeña."
+ },
+ "gargomon": {
+  "nombre": "Estatua centinela",
+  "sello": "Con 10+, el objetivo queda además Marcado: la estatua blanca señala al malvado para los ángeles.",
+  "desatado": "El Asustado de la técnica entra también con 7–9: por un instante se aflojan sus ataduras.",
+  "eco": "Se queda inmóvil como una gárgola de piedra: nadie lo distingue de un ornamento. Ventaja para vigilar un lugar sin ser descubierto."
+ },
+ "garudamon": {
+  "nombre": "Sombra del Guardián",
+  "sello": "Si Garudamon vuela, tras usarla puede moverse 1 zona gratis sin provocar ataques de retirada: la sombra del ave de fuego cruza el campo y él con ella.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: la sombra alada se abre en abanico sobre los enemigos.",
+  "eco": "Lleva volando a dos personas o a un Digimon pequeño sobre una montaña o un río. Ventaja para calmar a quien sufre en un lugar sumido en el caos."
+ },
+ "garudamon_x": {
+  "nombre": "Juicio del tótem",
+  "sello": "Contra un objetivo Virus o de la familia Oscuro, la técnica ignora Cobertura y Oculto: Garudamon distingue al malvado desde muy lejos.",
+  "desatado": "La técnica gana +1 dado y, tras impactar, Garudamon cae en picado a la zona del objetivo sin quedar trabado.",
+  "eco": "Percibe desde lo alto si alguien en la escena alberga malas intenciones, aunque no quién. Ventaja para encontrar a un malvado escondido en la naturaleza."
+ },
+ "garurumon": {
+  "nombre": "Flanco del lobo",
+  "sello": "Si Garurumon se movió este turno antes de usarla, la técnica ignora Cobertura: dispara el fuego zorro a la carrera, por el flanco.",
+  "desatado": "La técnica gana +1 dado y Garurumon se mueve 1 zona gratis tras usarla, sin provocar ataques de retirada: muerde con fuego y se aleja.",
+  "eco": "Corre sobre nieve y hielo sin resbalar y aguanta el frío extremo: lleva a dos jinetes por una tundra. Ventaja para seguir un rastro por el olor."
+ },
+ "garurumon_black": {
+  "nombre": "Caza sin piedad",
+  "sello": "Contra un objetivo Ralentizado, Derribado o Atrapado, la técnica gana +1 dado: el cazador remata a la presa que no puede correr.",
+  "desatado": "El Quemado de la técnica entra también con 7–9: la llama azul muerde y no suelta.",
+  "eco": "Entierra cosas donde nadie las encontrará sin él, o desentierra algo oculto en la zona. Ventaja para encontrar escondites."
+ },
+ "garurumon_x": {
+  "nombre": "Pelaje de ventisca",
+  "sello": "Si el objetivo es de un rango superior al de Garurumon, con 10+ Garurumon gana Escudo VF: su pelaje forjado en el frío extremo aguanta la respuesta.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Ralentizado: el fuego azul nace de una tierra helada.",
+  "eco": "Abre camino por la nieve profunda para el grupo y aguanta ventiscas o aguas heladas. Ventaja para resistir el frío o el agotamiento."
+ },
+ "gasamon": {
+  "nombre": "Sombrero trampa",
+  "sello": "Con 10+, Gasamon puede atraer 1 zona hacia él a un enemigo alcanzado en lugar de empujarlo: los tentáculos lo arrastran bajo el sombrero.",
+  "desatado": "La técnica gana +1 dado y la zona queda llena de briznas de mimbre y polvo hasta el final del siguiente asalto: Oculto para quien entre.",
+  "eco": "Se queda quieto como un sombrero de mimbre abandonado y nadie sospecha de él. Ventaja para tender una emboscada o escuchar una conversación."
+ },
+ "tailmon": {
+  "nombre": "Zarpa del anillo",
+  "sello": "Contra un objetivo de la familia Oscuro, la técnica gana +1 dado: el poder del Holy Ring va en cada zarpazo.",
+  "desatado": "La técnica gana +1 dado y Tailmon se mueve 1 zona gratis después, sin provocar ataques de retirada: zarpazo y salto felino. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Trepa, salta y cae de pie desde cualquier altura, y se cuela por huecos de gato. Su Holy Ring brilla cerca de datos sagrados."
+ },
+ "tailmon_x": {
+  "nombre": "Campanilla sagrada",
+  "sello": "Con 10+, el objetivo queda además Marcado: suena el Holy Chime y todos los aliados saben dónde golpear.",
+  "desatado": "La técnica gana +1 dado y Tailmon se libra de un estado propio: la campanilla limpia lo que la ensuciaba.",
+  "eco": "Su Holy Chime suena más fuerte cerca de energía sagrada y espanta a los malos espíritus. Ventaja para encontrar un lugar u objeto sagrado oculto."
+ },
+ "gawappamon": {
+  "nombre": "Ritmo kappa",
+  "sello": "Con 10+, el objetivo queda además Confundido: el ritmo del disco lo descoloca.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el disco rebota a ritmo de scratch de un enemigo a otro.",
+  "eco": "Pone música y baila: anima una fiesta o descoloca a quien vigila una puerta. Ventaja para distraer a un guardia o animar a un grupo abatido."
+ },
+ "gazimon": {
+  "nombre": "Garra resentida",
+  "sello": "Contra un objetivo Aturdido o Envenenado, Gazimon puede moverse 1 zona gratis tras usarla, sin provocar ataques de retirada: muerde y se escabulle.",
+  "desatado": "El Veneno de la técnica entra también con 7–9 (el Aturdido sigue solo con 10+): el gas eléctrico se queda pegado.",
+  "eco": "Con sus garras excava en pocos minutos una madriguera o un túnel corto en tierra blanda. Ventaja para esconderse de humanos que lo buscan."
+ },
+ "gazimon_x": {
+  "nombre": "Foso traicionero",
+  "sello": "Contra un objetivo de un rango superior al de Gazimon, con 10+ queda además Derribado: lo ha llevado justo sobre una de sus fosas.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda como Terreno difícil hasta el final del siguiente asalto, llena de fosas a medio cavar.",
+  "eco": "Cava antes de la pelea una fosa trampa camuflada en una zona. Ventaja para intimidar a criaturas pequeñas irguiéndose para parecer más grande."
+ },
+ "gekkomon": {
+  "nombre": "Caída de la copa",
+  "sello": "Si Gekkomon ataca desde Altura (un árbol, una roca, un muro), la técnica gana +1 dado: se deja caer sobre su objetivo.",
+  "desatado": "La técnica gana +1 dado y, tras impactar, Gekkomon se mueve 1 zona gratis sin provocar ataques de retirada: deja la cola atrás y escapa. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Se pega a cualquier superficie: trepa paredes lisas y techos, y se camufla entre la vegetación. Ventaja para esconderse en la selva."
+ },
+ "gekomon": {
+  "nombre": "Acorde de éxito",
+  "sello": "La técnica no alcanza a los aliados de la zona y, con 10+, uno de ellos queda Potenciado: el acorde que destroza a unos anima a otros.",
+  "desatado": "El Roto de la técnica entra también con 7–9: el acorde hace vibrar las corazas hasta agrietarlas.",
+  "eco": "Canta una melodía que cambia el ánimo de una multitud: la calma, la entristece o la anima. Los músicos lo ven como un amuleto: Ventaja para tratar con ellos."
+ },
+ "geogreymon": {
+  "nombre": "Coraza arrasada",
+  "sello": "Con 10+, si el objetivo ya estaba Quemado, queda además Roto: la llama arrasa la coraza que ya había ablandado.",
+  "desatado": "La técnica gana +1 dado y su objetivo pierde su Escudo: el caparazón convertido en arma no respeta defensas.",
+  "eco": "Su cuerno aplasta barreras: derriba un muro o aparta una roca enorme de un camino. Su llama arrasa la maleza de una zona entera."
+ },
+ "geremon": {
+  "nombre": "Peste incansable",
+  "sello": "Si Geremon tiene menos de la mitad de sus PV, la técnica gana +1 dado: cuanto más le pegan, más apesta.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Debilitado: nadie pelea a gusto con esa peste. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Su hedor vacía una sala cerrada en segundos: Ventaja para ahuyentar a curiosos. Olvida enseguida las palizas y no guarda rencor a nadie."
+ },
+ "gesomon": {
+  "nombre": "Demonio blanco del abismo",
+  "sello": "Tras usarla, Gesomon puede alejarse 1 zona gratis sin provocar ataques de retirada: golpea y se marcha a toda prisa.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda en una nube de tinta hasta el final del siguiente asalto: Oculto para quien entre.",
+  "eco": "Nada en aguas profundas y oscuras sin perderse y arrastra una embarcación con sus tentáculos. Ventaja para orientarse en el Net Ocean."
+ },
+ "gesomon_x": {
+  "nombre": "Toxina propia",
+  "sello": "Con 10+, el objetivo queda además Envenenado: la tinta lleva las mismas toxinas que consumen a Gesomon.",
+  "desatado": "El Paralizado de la técnica entra también con 7–9: los tentáculos muerden e inyectan antes de soltar.",
+  "eco": "Sus tentáculos alcanzan lejos: coge un objeto al otro lado de una grieta o bajo el agua. Ventaja para saber si un agua o un alimento está envenenado."
+ },
+ "ghilliedhumon": {
+  "nombre": "Señal del cazador",
+  "sello": "Con 10+, un aliado que vea a Ghilliedhumon queda Potenciado: le señala el punto débil que acaba de ver.",
+  "desatado": "El Confundido de la técnica entra también con 7–9: la mirada verdadera desorienta a quien la recibe.",
+  "eco": "Se funde con la espesura y avanza sin rastro ni ruido. Ventaja para ver a través de un camuflaje, una ilusión o un disfraz."
+ },
+ "ghostmon": {
+  "nombre": "Susto de cementerio",
+  "sello": "Con 10+, el objetivo queda además Asustado: el fantasma asoma de golpe tras el chispazo.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: pequeñas bolas de plasma flotan hacia varios enemigos.",
+  "eco": "Flota a través de rejas, rendijas y puertas cerradas sin dejarse ver, y ayuda en secreto. Ventaja para asustar a quien entra en un cementerio o un lugar abandonado."
+ },
+ "deathmon": {
+  "nombre": "Ojo de la frente",
+  "sello": "Con 10+, el objetivo queda además Marcado: el gran ojo de su frente ya no lo pierde de vista.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Cegado: los ojos de sus manos se abren a la vez.",
+  "eco": "Su ojo frontal ve en la oscuridad total y a través de ilusiones: revela lo que hay en una zona sin luz. Ventaja para leer las intenciones de alguien."
+ },
+ "deathmon-black": {
+  "nombre": "Presa única",
+  "sello": "Contra un objetivo Asustado, la técnica gana +1 dado: los ojos carmesíes ya han elegido a quién destruir.",
+  "desatado": "La técnica gana +1 dado y su objetivo no puede quedar Oculto ni beneficiarse de Cobertura hasta el final del siguiente asalto. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Señala a una persona de la escena: sabe dónde está hasta que acabe la escena, aunque se esconda o huya. Ventaja para darle caza."
+ },
+ "gigadramon": {
+  "nombre": "Lluvia orgánica",
+  "sello": "Con 10+, la zona del objetivo queda en Llamas hasta el final del siguiente asalto (Peligro: VF al entrar o empezar el turno en ella): los misiles siguen estallando.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: una lluvia interminable de misiles cae sobre varios objetivos.",
+  "eco": "Vuela acorazado a través de tormentas, humo y metralla, y derriba de un misil una estructura lejana. Ventaja para intimidar."
+ },
+ "gigaseadramon": {
+  "nombre": "Desembarco sorpresa",
+  "sello": "Con 10+, la zona del objetivo queda encharcada hasta el final del siguiente asalto: quien empiece su turno en ella queda Empapado.",
+  "desatado": "Todos los aliados de la zona de GigaSeadramon ganan Escudo 2 × VF: los resguarda dentro de su casco.",
+  "eco": "Transporta en su interior a todo el grupo por el mar de datos y desembarca por sorpresa en una costa elegida."
+ },
+ "gigasmon": {
+  "nombre": "Suelo cocido",
+  "sello": "Con 10+, la zona del objetivo queda agrietada: Terreno difícil hasta el final del siguiente asalto.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados; no afecta a quien vuela: el seísmo sacude a todos los que pisan el suelo.",
+  "eco": "Hace temblar el suelo para derrumbar una pared de roca o abrir una grieta. Su piel de cerámica aguanta el calor extremo: cruza un suelo ardiente."
+ },
+ "gigimon": {
+  "nombre": "Diente caliente",
+  "sello": "Si el objetivo es de un nivel superior al de Gigimon, con 10+ queda Quemado: sus dientes calientes dejan marca en los grandes.",
+  "desatado": null,
+  "eco": "Muerde y deja marca caliente: calienta agua, ablanda cera o funde un poco de nieve. Los grandes lo subestiman: Ventaja para pillarlos desprevenidos."
+ },
+ "ginkakumon": {
+  "nombre": "Hermano protector",
+  "sello": "Si un aliado de la zona de Ginkakumon recibió daño este asalto, la técnica gana +1 dado contra quien lo hirió: nadie toca a su hermana.",
+  "desatado": "La técnica gana +1 dado y un aliado de la zona de Ginkakumon gana Escudo VF: lo cubre con su cuerpo de montaña. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Carga a hombros con todo el grupo o un peso enorme por un paso de montaña. Ventaja para que un niño o un Digimon pequeño confíe en él."
+ },
+ "ginkakumon_promote": {
+  "nombre": "Rayo y fuego",
+  "sello": "Si Ginkakumon estaba Oculto al usarla, con 10+ el objetivo queda además Marcado: el rayo de ella guía el fuego de él.",
+  "desatado": "El Paralizado de la técnica entra también con 7–9: los dos hermanos golpean como uno solo.",
+  "eco": "Los hermanos se reparten la escena: uno vigila y otro actúa, y se entienden sin palabras a distancia. Ventaja para coordinar una emboscada o una huida."
+ },
+ "ginryumon": {
+  "nombre": "Coraza lisa",
+  "sello": "Al prepararla, Ginryumon gana Escudo VF hasta su próximo turno: su armadura lisa desvía el golpe antes de devolverlo.",
+  "desatado": "Cuando la técnica se dispara, su daño gana +1 dado y el atacante queda Quemado.",
+  "eco": "Planta su armadura ante un peligro (una avalancha, una flecha, una puerta que cede) y aguanta. Intuye los golpes: Ventaja para detectar una trampa."
+ },
+ "giromon": {
+  "nombre": "Perímetro de la Red",
+  "sello": "Con 10+, la explosión empuja al objetivo 1 zona: la onda lo saca del perímetro que vigila Giromon.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados y Giromon sufre VF de daño tras resolverla: medio se autodestruye y se recompone.",
+  "eco": "Detecta intrusos, puertas traseras y accesos ilegales en una red o un recinto. Ventaja para encontrar una entrada oculta o reforzarla."
+ },
+ "gizamon": {
+  "nombre": "Fiereza mojada",
+  "sello": "En una zona de agua, la técnica gana +1 dado: su carácter feroz despierta en cuanto se moja.",
+  "desatado": "El Provocado de la técnica entra también con 7–9: Gizamon se lanza girando como una sierra y nadie puede ignorarlo.",
+  "eco": "Nada a gran velocidad bajo el agua, remolcando una cuerda o recuperando objetos del fondo. En tierra salta como una rana hasta una orilla cercana."
+ },
+ "gladimon": {
+  "nombre": "Formación de primera línea",
+  "sello": "Si un aliado está trabado con el objetivo, la técnica gana +1 dado: Gladimon brilla cuando lucha en formación.",
+  "desatado": "La técnica gana +1 dado y un aliado de la zona queda Potenciado: la carrera abre un hueco en la línea enemiga. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Se cuela entre filas enemigas o una muchedumbre para explorar sin que lo detengan. Ventaja para coordinar al grupo en una maniobra."
+ },
+ "goatmon": {
+  "nombre": "Barrera de la esperanza",
+  "sello": "Con 10+, un aliado de la zona de Goatmon gana Escudo VF: el tañido de la campana levanta una pequeña barrera.",
+  "desatado": "El Confundido de la técnica entra también con 7–9: la campana resuena dentro de la cabeza.",
+  "eco": "Levanta una barrera mística que sella una puerta o protege un archivo durante la escena. Ventaja para orientarse en ruinas antiguas. Cuidado: se come los papeles."
+ },
+ "goburimon": {
+  "nombre": "Emboscada en banda",
+  "sello": "Si un aliado está en la zona del objetivo, la técnica gana +1 a la tirada: un duende solo es un cobarde, en grupo no.",
+  "desatado": "La técnica gana +1 dado y Goburimon se aleja 1 zona tras usarla, sin provocar ataques de retirada: pega y sale corriendo.",
+  "eco": "Prepara una emboscada a la sombra: todo el grupo puede esperar escondido en una zona con árboles o edificios. Ventaja para huir a toda velocidad."
+ },
+ "gogmamon": {
+  "nombre": "Ralladora de mena",
+  "sello": "Con 10+, el objetivo queda además Roto: la ralladora de mena le arranca la coraza a tiras.",
+  "desatado": "La técnica gana +1 dado y Gogmamon gana Escudo VF: sus cristales liberan la luz del sol que guardaban.",
+  "eco": "Sus cristales almacenan luz solar: ilumina una cueva entera durante horas. Conoce la roca: Ventaja para encontrar mineral o una salida subterránea."
+ },
+ "gokuwmon": {
+  "nombre": "Sombra despierta",
+  "sello": "Con 10+, Gokuwmon queda Oculto hasta que ataque: el enemigo mira a una sombra mientras él ya está en otro sitio.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: las sombras de Gokuwmon atacan desde varios lados a la vez.",
+  "eco": "Llama a la nube Kintoun y vuela con un compañero sobre ella, o alarga el Nyoikinkobou para hacer de puente o de pértiga."
+ },
+ "goldnumemon": {
+  "nombre": "Lustre apestoso",
+  "sello": "Con 10+, el objetivo queda además Cegado: un destello dorado y un hedor que hace llorar.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda apestada hasta el final del siguiente asalto: Peligro (VF al entrar o empezar el turno en ella).",
+  "eco": "Huele el oro: localiza vetas o monedas enterradas en la zona. Su brillo engaña: Ventaja para que lo tomen por alguien importante... hasta que hable."
+ },
+ "goddramon": {
+  "nombre": "Dragones gemelos",
+  "sello": "La técnica no alcanza a los aliados de la zona y, con 10+, uno de ellos se libra de un estado: la llama del dragón derecho purifica en lugar de quemar.",
+  "desatado": "La técnica pasa a Total sin perder dados por área, y todas las zonas alcanzadas quedan en Llamas hasta el final del siguiente asalto.",
+  "eco": "Su llama sagrada distingue: purifica un objeto o un lugar contaminado por datos oscuros sin dañar lo demás. Ventaja para señalar dónde está la corrupción."
+ },
+ "goddramon_x": {
+  "nombre": "Alas escudo",
+  "sello": "Si Goldramon vuela, al usarla gana Escudo VF: cierra sus alas endurecidas como escudos mientras exhala.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Roto al impactar: el Dragón de Brazo Fuerte remata con el puño.",
+  "eco": "Un puñetazo suyo abre paso a través de un muro de roca o un risco. Vuela por encima de cualquier tormenta llevando al grupo."
+ },
+ "goldv-dramon": {
+  "nombre": "Oro del destino",
+  "sello": "Contra un objetivo de la familia Oscuro, la técnica gana +1 dado: el cuerpo de oro ilumina la oscuridad de la Red.",
+  "desatado": "El Ralentizado de la técnica entra también con 7–9: el destino frena a quien se le opone.",
+  "eco": "Su cuerpo dorado alumbra una zona oscura y disipa la niebla de datos corruptos lo justo para ver. Ventaja para inspirar confianza: es un Digimon rarísimo."
+ },
+ "golemon": {
+  "nombre": "Grabado maldito",
+  "sello": "Contra un objetivo ya Debilitado, la técnica gana +1 dado: la maldición se hunde más en sus datos.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda envuelta en gas venenoso hasta el final del siguiente asalto: Peligro. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Reconoce de un vistazo maldiciones, hechizos y glifos antiguos y sabe qué pretenden. Si se lo ordenan, hace guardia sin descanso ni sueño."
+ },
+ "gomamon": {
+  "nombre": "Banco escudero",
+  "sello": "Con 10+, un aliado de la zona de la invocación gana Escudo VF: los peces forman a su alrededor una barrera de escamas.",
+  "desatado": "La técnica no pierde dados por área y la invocación dura 1 asalto más: acude el banco entero.",
+  "eco": "Llama a un banco de peces para cruzar un río sobre sus lomos, encontrar algo en el fondo o llevar a la orilla a alguien que se ahoga."
+ },
+ "gomamon_x": {
+  "nombre": "Marea arrastradora",
+  "sello": "Con 10+, los peces arrastran a un enemigo de la zona 1 zona hacia donde Gomamon quiera.",
+  "desatado": "La técnica gana +1 dado y un enemigo alcanzado queda Derribado: la ola del banco lo tumba.",
+  "eco": "Con su fuerza sorprendente levanta rocas o empuja barcas varadas. Su mechón rojo muestra lo que siente: Ventaja para ganarse la simpatía de un público."
+ },
+ "gorimon": {
+  "nombre": "Cañonazo de simio",
+  "sello": "Con 10+, el objetivo queda además Empujado 1 zona: el cañonazo de energía lo lanza lejos.",
+  "desatado": "La técnica gana +1 dado y su objetivo pierde su Escudo: el disparo del brazo derecho lo revienta.",
+  "eco": "Sus brazos rompen casi cualquier cosa: derriba una puerta reforzada o un árbol. Trepa con una agilidad sorprendente para su tamaño."
+ },
+ "gottsumon": {
+  "nombre": "Cabecilla de roca",
+  "sello": "Con 10+, un aliado de la zona del objetivo queda Potenciado: el jefecillo marca el ritmo de la pelea.",
+  "desatado": "La técnica gana +1 dado y Gottsumon gana Escudo VF: se recubre con la roca del suelo.",
+  "eco": "Se rodea de roca del entorno para hacer de escudo o de tapón. Ventaja para que Digimon de bajo nivel lo sigan como cabecilla."
+ },
+ "gottsumon_x": {
+  "nombre": "Volcán de genio",
+  "sello": "Si Gottsumon recibió daño desde su último turno, la técnica gana +1 dado: pierde los estribos como un volcán en erupción.",
+  "desatado": "La técnica gana +1 dado y Gottsumon se mueve 1 zona gratis antes de golpear, sin provocar ataques de retirada: embestida furiosa. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Una embestida suya abre boquetes en muros de piedra. Su coraza mineral le deja caminar sobre brasas o escombros cortantes."
+ },
+ "gracenovamon": {
+  "nombre": "Sol y luna",
+  "sello": "Mientras carga la técnica, Gracenovamon gana Escudo VF: la energía solar y la lunar giran a su alrededor.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Cegado: el eclipse le apaga la luz.",
+  "eco": "Hace de día o de noche en una zona durante la escena: luz solar o sombra lunar. Ventaja para leer las estrellas y orientarse o predecir el tiempo."
+ },
+ "grademon": {
+  "nombre": "Meteoro dorado",
+  "sello": "Al usarla, Grademon puede moverse 1 zona antes de golpear y no queda trabado al terminar: rompe las líneas como un meteoro.",
+  "desatado": "La técnica gana +1 dado y Grademon sufre VF de daño tras resolverla: las espadas malditas lo arrastran al frenesí.",
+  "eco": "Su capa azul real es una insignia conocida: Ventaja con soldados y nobles. Sus espadas cortan cadenas, cuerdas o una barrera mágica débil."
+ },
+ "grandgalemon": {
+  "nombre": "Abanico Stymphalides",
+  "sello": "Con 10+, Grandgalemon puede empujar a todos los enemigos alcanzados hacia una misma zona: el abanico los amontona.",
+  "desatado": "La técnica no pierde dados por área y alcanza también a los enemigos Ocultos de la zona, que dejan de estarlo: el viento barre cualquier escondite.",
+  "eco": "Con su abanico manda un aviso por el viento a cualquier Galemon de la región. Vuela sin ruido y se mimetiza con el cielo."
+ },
+ "grandiskuwagamon": {
+  "nombre": "Pinza rompecorazas",
+  "sello": "Contra un objetivo Atrapado, con 10+ queda además Roto: las garras abren el caparazón más duro.",
+  "desatado": "El Atrapado de la técnica entra también con 7–9: las tenazas no fallan la presa.",
+  "eco": "Corta metal, roca y caparazones con sus garras: abre una caja fuerte, un barrote o una plancha blindada."
+ },
+ "granddracumon": {
+  "nombre": "Voz del rey vampiro",
+  "sello": "Con 10+, el objetivo queda además Encantado: la voz hechizante del rey vampiro sigue sonando tras el golpe.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: los cristales brotan bajo varios enemigos a la vez.",
+  "eco": "Con su voz hechizante y sus modales de caballero convence a alguien para que lo invite a entrar o le confíe un secreto menor."
+ },
+ "grankuwagamon": {
+  "nombre": "Corte dimensional",
+  "sello": "Al usarla, GranKuwagamon puede moverse 1 zona antes de atacar a través de un corte en el espacio: no provoca ataques de retirada ni le afecta el Terreno difícil.",
+  "desatado": "La técnica pasa a Total sin perder dados por área: la tijera abre grietas en todas las zonas.",
+  "eco": "Abre un corte en el espacio para cruzar un muro, una grieta o un río hasta un lugar que ve. De noche: Ventaja para acechar."
+ },
+ "grappuleomon": {
+  "nombre": "Combo especial",
+  "sello": "Si Grappuleomon atacó al mismo objetivo en su turno anterior, la técnica gana +1 dado: el combo se completa.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Derribado: el remate del golpe especial. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Gira sus turbinas para despejar el humo o el polvo de una zona, o para impulsarse de un salto hasta una cornisa alta."
+ },
+ "gravimon": {
+  "nombre": "Pozo gravitatorio",
+  "sello": "Con 10+, el objetivo queda además Derribado y, si volaba, cae a tierra: la gravedad lo aplasta contra el suelo.",
+  "desatado": "La técnica gana +1 dado y Gravimon atrae al objetivo 1 zona hacia sí o lo aleja 1 zona.",
+  "eco": "Altera el peso de un objeto: aligera una roca enorme o hace tan pesada una puerta que nadie la abre. Ventaja para anticipar la táctica de un rival."
+ },
+ "greatgryzmon": {
+  "nombre": "Ovación del público",
+  "sello": "Con 10+, un aliado que vea a GreatGryzmon queda Potenciado: el público ruge y el equipo se viene arriba.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda en Llamas hasta el final del siguiente asalto: un final pirotécnico.",
+  "eco": "Monta un espectáculo improvisado de artes marciales y fuego que atrae o distrae a una multitud. Ventaja para entretener o ganarse a un público."
+ },
+ "greyknightsmon": {
+  "nombre": "Taladro de carga",
+  "sello": "Con 10+, el objetivo pierde su Escudo: el taladro con la carga de MetalGreymon atraviesa cualquier barrera.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados y la zona del objetivo queda en Llamas hasta el final del siguiente asalto: el tornado de fuego.",
+  "eco": "Taladra un túnel en roca o metal blindado en pocos minutos. Ventaja para intimidar: un Caballero Oscuro con cañones a la espalda."
+ },
+ "greymon-first": {
+  "nombre": "Aliado domado",
+  "sello": "Si el Tamer de Greymon está en su misma zona, la técnica gana +1 dado: domado, es un aliado de fuerza incomparable.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Derribado: la llamarada lo tumba. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Abre paso con garras y cuernos por bosques y escombros y deja que su Tamer lo monte. Ventaja para calmar a un dinosaurio o una bestia grande."
+ },
+ "greymon": {
+  "nombre": "Sin piedad",
+  "sello": "Contra un Digimon de la familia Saurio, la técnica gana +1 dado: ni con los de su especie tiene piedad.",
+  "desatado": "La técnica gana +1 dado; si el objetivo cae, Greymon se mueve 1 zona gratis hacia otro enemigo. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Su sola presencia mantiene a raya a los Digimon comunes: el grupo descansa sin que nadie lo moleste. Ventaja para intimidar."
+ },
+ "greymon_blue": {
+  "nombre": "Caza en manada",
+  "sello": "Si un aliado atacó al mismo objetivo este asalto, la técnica gana +1 dado: el más salvaje de su especie sabe cazar en grupo.",
+  "desatado": "El Quemado de la técnica entra también con 7–9: llamas negras y azules que no se apagan.",
+  "eco": "Su llama azul y negra arde bajo viento y lluvia. Ventaja para planear y coordinar una cacería o un ataque sorpresa."
+ },
+ "greymon_blue_x": {
+  "nombre": "Punto débil",
+  "sello": "Contra un objetivo Roto, Expuesto o Marcado, la técnica gana +1 dado: aprovecha el punto débil de su presa.",
+  "desatado": "La técnica es Perforante y Certero: el estallido busca la grieta exacta.",
+  "eco": "Examina una criatura o una estructura y descubre su punto débil: dónde golpear a una presa o qué viga sostiene un techo."
+ },
+ "greymon_x": {
+  "nombre": "Llama concentrada",
+  "sello": "Si Greymon no se movió este turno antes de usarla, con 10+ la explosión empuja al objetivo 1 zona.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: la bola de fuego explota y salpica a quien está cerca.",
+  "eco": "Su llamarada concentrada explota: vuela una roca, un tronco caído o una puerta. Ventaja para intimidar a carnívoros más grandes que él."
+ },
+ "gryzmon": {
+  "nombre": "Zarpazo del honesto",
+  "sello": "Si el objetivo atacó a Gryzmon o a un aliado este asalto, con 10+ queda además Derribado: nunca empieza una pelea, pero la termina.",
+  "desatado": "La técnica gana +1 dado y Gryzmon gana +1 a la Defensa hasta su próximo turno: esquiva con una velocidad impropia de su tamaño.",
+  "eco": "Se alza sobre las patas traseras y su zarpazo parte un tronco o aparta una roca. Ventaja para que un luchador honrado confíe en él."
+ },
+ "grandlocomon": {
+  "nombre": "Vía propia",
+  "sello": "Al usarla, GrandLocomon puede moverse 1 zona antes de golpear, ignorando el Terreno difícil: tiende sus propias vías.",
+  "desatado": "La técnica gana +1 dado y el objetivo queda Provocado: solo puede mirar a la locomotora que se le viene encima.",
+  "eco": "Tiende raíles por donde pasa y lleva a todo el grupo a toda velocidad por la Red. Ventaja en carreras."
+ },
+ "groundramon": {
+  "nombre": "Emboscada subterránea",
+  "sello": "Al usarla, Groundramon puede moverse 1 zona bajo tierra antes de atacar, sin provocar ataques de retirada: sale del suelo junto a su presa.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Derribado: el suelo se abre bajo sus pies.",
+  "eco": "Excava con las palas de su espalda túneles profundos: lleva al grupo bajo una muralla o un río. Ventaja para encontrar mineral Huanglong."
+ },
+ "growmon": {
+  "nombre": "Rugido carmesí",
+  "sello": "Con 10+, el objetivo queda además Asustado: el rugido del Dragón Carmesí hace temblar el suelo.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Expuesto hasta su próximo turno: el rugido le hace bajar la guardia.",
+  "eco": "Su rugido ahuyenta a las fieras de una zona. Ventaja para que un Tamer que confía en él lo calme y lo dirija sin fallar."
+ },
+ "growmon_orange": {
+  "nombre": "Paciencia agotada",
+  "sello": "Si Growmon recibió daño desde su último turno, con 10+ el objetivo queda además Quemado: pierde la paciencia y las cuchillas escupen fuego.",
+  "desatado": "El Paralizado de la técnica entra también con 7–9: el plasma descarga con calma calculada.",
+  "eco": "Sereno, se sienta junto a otros sin asustarlos: Ventaja para negociar con Digimon desconfiados. Sus cuchillas calientes funden hielo o metal fino."
+ },
+ "growmon_x": {
+  "nombre": "Cuchillas mayores",
+  "sello": "Contra un objetivo Paralizado, la técnica gana +1 dado: las cuchillas mayores rematan al que no puede reaccionar.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el plasma salta en arco a los enemigos cercanos.",
+  "eco": "Sus cuchillas cargadas de plasma dan energía durante la escena a una máquina, una puerta electrónica o un vehículo sin batería."
+ },
+ "grottemon": {
+  "nombre": "Martillo Grotte",
+  "sello": "Con 10+, si el objetivo ya estaba Roto, queda además Derribado: el martillo golpea donde ya agrietó.",
+  "desatado": "La técnica gana +1 dado y un aliado de la zona gana Escudo VF con una placa que Grottemon forja al vuelo.",
+  "eco": "Forja o repara en poco tiempo un arma, una herramienta o una armadura. Ventaja para impresionar con artesanía o tasar una obra."
+ },
+ "griffomon": {
+  "nombre": "Grito del desierto",
+  "sello": "Alcance +1 zona: el grito supersónico cruza desiertos. Con 10+, el objetivo pierde además su Potenciado.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el chillido alcanza a todos los intrusos.",
+  "eco": "Guarda un lugar: detecta cualquier acceso ilegal a una zona que vigila y lo ahuyenta con un chillido. Ventaja para encontrar cuevas en montañas y desiertos."
+ },
+ "guardromon": {
+  "nombre": "Cortafuegos",
+  "sello": "Con 10+, Guardromon gana Escudo VF: solo sabe defender, y cada granada es un ladrillo más del muro.",
+  "desatado": "La técnica gana +1 dado y los aliados de la zona de Guardromon ganan Cobertura hasta el final del siguiente asalto: levanta un cortafuegos.",
+  "eco": "Bloquea una puerta, un acceso o un cortafuegos de red: nadie pasa sin derribarlo. Ventaja para detectar intrusos."
+ },
+ "gardromon_gold": {
+  "nombre": "Muro de Chrondigizoit",
+  "sello": "Si Guardromon no se movió este turno, con 10+ gana Escudo VF: su armadura de Chrondigizoit se planta como un muro.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Ralentizado: la granada dorada pesa tanto como su dueño.",
+  "eco": "Detecta y tasa Chrondigizoit y metales raros en la zona. Su armadura dorada aguanta picos y explosiones: abre paso por un derrumbe."
+ },
+ "guilmon": {
+  "nombre": "Garra en la grieta",
+  "sello": "Si el objetivo ya está Roto, la técnica gana +1 dado: las garras de Guilmon se hunden en la grieta.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Quemado: un Fire Ball sale a la vez que el zarpazo. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Excava rápido con las garras y olfatea enemigos ocultos cerca. Ventaja para encontrar comida, sobre todo pan."
+ },
+ "guilmon_x": {
+  "nombre": "Peligro contenido",
+  "sello": "Con 10+, el objetivo queda además Quemado: sus instintos virales encienden las garras.",
+  "desatado": "El Roto de la técnica entra también con 7–9: el poder del Digital Hazard asoma un instante.",
+  "eco": "Sus garras calientes abren grietas en paredes o encienden fuego. Ventaja para percibir datos peligrosos o corruptos cerca."
+ },
+ "gulfmon": {
+  "nombre": "Boca del abismo",
+  "sello": "Con 10+, los enemigos alcanzados quedan además Marcados: el abismo ya los ha elegido.",
+  "desatado": "La técnica pasa a Total sin perder dados por área y la zona de Gulfmon queda en Peligro hasta el final del siguiente asalto.",
+  "eco": "Su presencia aplasta: los Digimon pequeños de la región huyen y nadie se acerca al grupo mientras él esté. Ventaja para intimidar."
+ },
+ "gulusgammamon": {
+  "nombre": "Furia sin freno",
+  "sello": "Si la técnica falla, no cuenta como Agotadora: GulusGammamon sigue peleando aunque tenga las extremidades destrozadas.",
+  "desatado": "La técnica gana +1 dado y su objetivo no puede salir de la zona de GulusGammamon en su próximo turno.",
+  "eco": "Sigue en pie con heridas que detendrían a otros: carga con alguien herido por terreno duro. Ventaja para resistir el miedo o la manipulación."
+ },
+ "gumdramon": {
+  "nombre": "Cola de muelle",
+  "sello": "Gumdramon puede usarla contra un objetivo a 1 zona de distancia: su cola-martillo se estira como un muelle.",
+  "desatado": "La técnica gana +1 dado y Gumdramon rebota 1 zona gratis tras el golpe, sin provocar ataques de retirada.",
+  "eco": "Rebota como un muelle: salta a un tejado o cruza un barranco. Le encanta lucirse: Ventaja para llamar la atención de todos."
+ },
+ "gummymon": {
+  "nombre": "Burbujas chorreantes",
+  "sello": "Los objetivos alcanzados quedan Empapados hasta el final del asalto: las burbujas revientan y los dejan chorreando.",
+  "desatado": null,
+  "eco": "Sopla burbujas que hacen flotar objetos ligeros, limpian algo sucio o distraen a los pequeños. Ventaja para jugar y hacer reír."
+ },
+ "gundramon": {
+  "nombre": "Mosquetero de guardia",
+  "sello": "Contra un objetivo que atacó a un aliado de Gundramon en su último turno, la técnica gana +1 dado: los Mosqueteros cubren a los suyos.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: todos los cañones de su cuerpo disparan a la vez.",
+  "eco": "Huele la pólvora y conoce cualquier arma: identifica qué disparó, cuándo y desde dónde. Ventaja en concursos de puntería."
+ },
+ "gurimon": {
+  "nombre": "Cabezazo a la carrera",
+  "sello": "Si Gurimon se movió este turno antes de usarla, la técnica gana +1 a la tirada: embiste a la carrera.",
+  "desatado": null,
+  "eco": "Se estrella contra rocas sin hacerse daño: rompe una piedra suelta o aparta un pedrusco. Su gorguera lo hace parecer mayor: Ventaja para asustar a otros pequeños."
+ },
+ "gururumon": {
+  "nombre": "Llama de discordia",
+  "sello": "Con 10+, el objetivo queda además Debilitado: la llama roja le siembra discordia y le quita el empuje.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: el aliento tiñe de rojo el aire alrededor del objetivo.",
+  "eco": "Siembra rumores y discordia: Ventaja para enfrentar a dos personas o grupos. Se mueve entre sombras sin dejarse ver."
+ },
+ "gusokumon": {
+  "nombre": "Energía del fondo",
+  "sello": "Si Gusokumon no se movió este turno, la técnica gana +1 dado: inmóvil en el fondo, golpea con toda la energía ahorrada.",
+  "desatado": "La técnica gana +1 dado y Gusokumon gana Escudo VF: se cierra en su caparazón. (Su +1 dado no se suma al del Sello.)",
+  "eco": "Aguanta presiones abisales y oscuridad total: baja al fondo de aguas profundas y espera allí horas sin gastar fuerzas."
+ },
+ "gyukimon": {
+  "nombre": "Telaraña del ushi-oni",
+  "sello": "Si Gyukimon estaba Oculto al usarla, con 10+ el objetivo queda además Envenenado: la telaraña lleva el veneno de la bestia.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Confundido: suenan las campanas de su cuerno.",
+  "eco": "Teje telarañas que cierran un pasillo o sirven de cuerda. Ventaja para seguir durante días a una persona concreta que lo ha visto."
+ },
+ "habakirimon": {
+  "nombre": "Espada de siete ramas",
+  "sello": "La técnica no alcanza a los aliados de la zona. Con 10+, los enemigos alcanzados quedan además Sellados: la espada corta también su poder.",
+  "desatado": "La técnica pasa a Total sin perder dados por área: siete tajos, uno por cada rama de la espada.",
+  "eco": "Corta lo intangible: abre una brecha en una ilusión, una barrera mágica o un sello menor. Ventaja con espadachines y escuelas de esgrima del Este."
+ },
+ "hagurumon": {
+  "nombre": "Engranaje infectado",
+  "sello": "Con 10+, el objetivo queda además Provocado: el virus de los engranajes lo obliga a girar hacia Hagurumon.",
+  "desatado": "La técnica gana +1 dado y Hagurumon gana Escudo VF tras impactar: sus engranajes giran en defensa.",
+  "eco": "Encaja en cualquier máquina como pieza de repuesto: hace funcionar un mecanismo atascado o sin engranaje. Ventaja para entender aparatos."
+ },
+ "hagurumon_x": {
+  "nombre": "Taladros sincronizados",
+  "sello": "Hasta el final del siguiente asalto, el primer enemigo que ataque a Hagurumon con una técnica de Toque sufre VF de daño: los taladros siguen girando.",
+  "desatado": "La técnica es Perforante y Certero: los taladros sincronizados atraviesan cualquier coraza.",
+  "eco": "Los KoHagurumon se separan un momento para colarse por rendijas y accionar un mecanismo desde dentro. Ventaja para sabotear una máquina."
+ },
+ "hakubamon": {
+  "nombre": "Rescate de platino",
+  "sello": "Tras usarla, Hakubamon puede llevar consigo 1 zona a un aliado de su zona, sin que ninguno provoque ataques de retirada.",
+  "desatado": "La técnica gana +1 dado y un aliado de la zona del objetivo gana Escudo VF: Hakubamon lo cubre con su pelaje ignífugo.",
+  "eco": "Atraviesa incendios sin quemarse y saca de ellos a una persona o un Digimon pequeño. Ventaja para orientarse en cumbres y riscos."
+ },
+ "holsmon": {
+  "nombre": "Vendaval del amor",
+  "sello": "Si Holsmon se movió 2 zonas o más este turno, la técnica gana +1 dado: la onda de choque viaja a la velocidad del vendaval.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: sus alas lanzan ondas de choque a ambos lados.",
+  "eco": "Vuela con dos personas a la velocidad del viento. Su mirada Udjat calma o deja en trance un momento a un animal o un Digimon pequeño."
+ },
+ "hanimon": {
+  "nombre": "Remiendo de arcilla",
+  "sello": "Con 10+, Hanimon recupera VF PV: aprovecha el destello para remendar sus grietas.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda envuelta en polvo de arcilla hasta el final del siguiente asalto: Oculto para quien entre.",
+  "eco": "Conoce las ruinas del Este: Ventaja para orientarse en ellas o descifrar inscripciones antiguas. Bailando con otros Hanimon, hace temblar el suelo."
+ },
+ "harpymon": {
+  "nombre": "La Arrebatadora",
+  "sello": "Con 10+, el objetivo pierde su Potenciado y Harpymon queda Potenciado: se lo arrebata al pasar.",
+  "desatado": "La técnica gana +1 dado y Harpymon se mueve 1 zona gratis después, sin provocar ataques de retirada.",
+  "eco": "Arrebata un objeto pequeño que alguien lleve encima al pasar volando. Ventaja para encontrar datos valiosos en una base de datos o unas ruinas."
+ },
+ "hawkmon": {
+  "nombre": "Picotazo y vuelta",
+  "sello": "Si Hawkmon vuela, tras usarla regresa a la zona donde empezó su turno, sin provocar ataques de retirada.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Marcado: el pico señala el punto exacto.",
+  "eco": "Su cortesía impecable abre puertas: Ventaja con anfitriones y nobles. Vuela de reconocimiento y describe una zona vista desde el aire."
+ },
+ "heavyleomon": {
+  "nombre": "Espíritu ardiente",
+  "sello": "Si un aliado de HeavyLeomon tiene menos de la mitad de sus PV, la técnica gana +1 dado: su espíritu arde más para rescatarlo.",
+  "desatado": "La técnica pasa a Zona sin perder dados: el barrido de metralla cubre todo el frente.",
+  "eco": "Levanta escombros para sacar a alguien atrapado o arrastra un vehículo averiado. Ventaja para calcular la fuerza de un rival tras analizarlo."
+ },
+ "heavymetaldramon": {
+  "nombre": "Solo de guitarra",
+  "sello": "Con 10+, el objetivo queda además Confundido: el estruendo de sus alas-guitarra le revienta los oídos.",
+  "desatado": "La técnica pasa a Zona sin perder dados y deja esa zona en Peligro hasta el final del siguiente asalto: el escenario entero tiembla.",
+  "eco": "Toca un riff atronador que se oye a kilómetros y convoca a quien quiera escuchar. Ventaja para emocionar a un público o retar a un rival poderoso."
+ },
+ "heliosboamon": {
+  "nombre": "Escamas vibrantes",
+  "sello": "Contra un objetivo Atrapado, la técnica gana +1 dado: las escamas vibran y desmenuzan a la presa.",
+  "desatado": "La técnica Drena todo el daño en lugar de la mitad: absorbe hasta el último fragmento de datos.",
+  "eco": "Sus escamas reflejan el sol: deslumbra o hace señales a gran distancia. Se enrosca en un pilar o un árbol para sostener un peso enorme."
+ },
+ "helloogarmon": {
+  "nombre": "Aullido del huargo",
+  "sello": "La técnica ignora Oculto y el objetivo deja de estar Oculto: el aullido hace salir de su escondite a la presa.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda en Llamas hasta el final del siguiente asalto.",
+  "eco": "Su cuerpo de fuego calienta e ilumina al grupo en la noche más fría. Su aullido se oye a kilómetros: Ventaja para que la presa se delate al huir."
+ },
+ "heraklekabuterimon": {
+  "nombre": "Cuerno celeste",
+  "sello": "Si HerakleKabuterimon vuela, alcance +1 zona y la técnica ignora Cobertura: dispara desde lo alto.",
+  "desatado": "La técnica gana +1 dado y la zona del objetivo queda electrificada: Peligro hasta el final del siguiente asalto.",
+  "eco": "Cruza el Mundo Digital volando a gran velocidad con todo el grupo a cuestas. Su electricidad arranca una máquina o enciende una red sin corriente."
+ },
+ "heraklekabuterimon_x": {
+  "nombre": "Puños de coloso",
+  "sello": "Con 10+, el objetivo queda además Derribado: los puños robustos rematan la descarga.",
+  "desatado": "La técnica gana +1 dado y empuja al objetivo 1 zona: lo levanta y lo arroja.",
+  "eco": "Levanta objetos varias veces mayores que él: una roca que tapa una cueva, un puente caído o un vehículo."
+ },
+ "herissmon": {
+  "nombre": "Pelaje eléctrico",
+  "sello": "Contra un enemigo trabado con Herissmon, la técnica gana +1 a la tirada: las púas electrificadas castigan al que se acerca.",
+  "desatado": "La técnica gana +1 dado y Herissmon rueda 1 zona gratis después como una bola, sin provocar ataques de retirada.",
+  "eco": "Curiosa hasta la obsesión, encuentra el objeto raro o escondido de una zona. Sus púas cargadas dan corriente a un aparato pequeño."
+ },
+ "hexeblaumon": {
+  "nombre": "Era glacial",
+  "sello": "Mientras dure la invocación, la zona donde está queda helada: Terreno difícil.",
+  "desatado": "La técnica pasa a Total sin perder dados por área: una era glacial en miniatura.",
+  "eco": "Crea con hielo un puente, una escalera, una barrera o unas ataduras que duran la escena. Ventaja para leer magia o programas avanzados."
+ },
+ "hi-commandramon": {
+  "nombre": "Escudo de infantería",
+  "sello": "Con 10+, un aliado de la zona de Hi-Commandramon gana Escudo VF: cubre a los asaltantes mientras dispara.",
+  "desatado": "La técnica pasa a Ráfaga sin perder dados: la granada estalla entre varios enemigos.",
+  "eco": "Su piel imita en tiempo real los colores del entorno: Ventaja para esconderse quieto. Reconoce las señales y tácticas de la Brigada D."
+ },
+ "hi-visionmonitamon": {
+  "nombre": "Señal Negra",
+  "sello": "Con 10+, el objetivo queda además Marcado: lo graba y comparte su posición con todos.",
+  "desatado": "La técnica gana +1 dado y su objetivo queda Cegado: el flash de la película le quema la vista.",
+  "eco": "Sabe la última noticia de la región y cómo contactar con los Monitamon. Emite en su pantalla imágenes que ha grabado a quien quiera verlas."
+ },
+ "hiandromon": {
+  "nombre": "Rastreo antivirus",
+  "sello": "Contra un objetivo Virus, la técnica ignora Cobertura y Oculto: sus sensores rastrean el código malicioso.",
+  "desatado": "La técnica gana +1 dado y, si el objetivo es Virus, queda además Expuesto.",
+  "eco": "Escanea una máquina o una red y detecta virus o manipulaciones. Ventaja para reparar aparatos complejos."
+ },
+ "hippogriffomon": {
+  "nombre": "Aliento reseco",
+  "sello": "Al usarla, Hippogriffomon puede moverse 1 zona antes o después, y la técnica no alcanza a los aliados de la zona.",
+  "desatado": "La técnica no pierde dados por área: el aliento abrasador cubre toda la zona.",
+  "eco": "Su aliento seca en minutos un pantano pequeño, ropa empapada o un pasadizo inundado. Ventaja para soportar el calor del desierto."
+ },
+ "hisyaryumon": {
+  "nombre": "Esferas del alma",
+  "sello": "Con 10+, Hisyaryumon gana Escudo VF: una de las esferas de cristal brilla y lo protege.",
+  "desatado": "La técnica gana +1 dado y un aliado de su zona queda Potenciado: Kinryu y Kakuryu luchan a su lado.",
+  "eco": "Su calma de dios tranquiliza a cualquiera: Ventaja para mediar en una disputa. Sus esferas de cristal indican dónde está un compañero perdido."
+ },
+ "hiyarimon": {
+  "nombre": "Carámbano helador",
+  "sello": "Con 10+, la zona del objetivo queda helada hasta el final del siguiente asalto: Terreno difícil.",
+  "desatado": null,
+  "eco": "Congela un charco, enfría comida o bebida y forma un carámbano útil. Ventaja para orientarse de noche en montañas nevadas."
+ }
+}

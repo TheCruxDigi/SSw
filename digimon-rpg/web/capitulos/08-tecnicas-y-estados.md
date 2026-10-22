@@ -130,6 +130,42 @@ Además de sus técnicas oficiales, todo Digimon tiene una **técnica básica**:
 
 > **Si es tu primera vez:** para jugar tu primer combate te basta con mirar tres cosas de cada técnica: la potencia (cuántos dados), el alcance (si llegas al enemigo) y las palabras clave (qué pasa si sacas 10+). Todo lo demás lo irás descubriendo cuando aparezca en la mesa.
 
+## Efectos de Firma: lo que hace único a tu compañero
+
+Dos Digimon del mismo nivel pueden tirar los mismos dados, pero nunca se sienten igual. La **Firma** de cada Digimon del bestiario tiene un **efecto propio**, con un nombre y tres partes. Lo encontrarás bajo la tabla de técnicas de cada ficha.
+
+| Parte | Cuándo funciona | Qué hace |
+|---|---|---|
+| **Sello** | Siempre que el Digimon usa su Firma **como Firma** (P3, o P2/P3 usada como P3). En los Bebés, cada vez que la usan. | Un añadido pequeño y temático: un efecto extra con 10+, +1 dado en una situación concreta, una ventaja de movimiento o un terreno que dura poco. |
+| **Desatado** | Cuando tu compañero declara su Firma como P3, tu Tamer puede gastar **1 Chispa** para desatarla. **Una vez por combate.** | El gran momento de la pareja: el área crece, el estado entra con más facilidad, el grupo recibe un Escudo… Vale más o menos lo que un dado extra. |
+| **Eco** | Fuera de combate, **una vez por escena**. | Lo que la técnica sabe hacer en el mundo: encender, congelar, abrir paso, revelar, calmar… Te da permiso para hacerlo y, si hay tirada, **Ventaja**. |
+
+**Lo que hay que recordar:**
+- El Sello se suma a las palabras clave de la técnica; no las sustituye.
+- El Sello y el Desatado juntos no dan más de **+1 dado** en una misma tirada.
+- Los estados que añaden siguen las reglas de siempre: el control duro (Aturdir, Dormir, Regresión) nunca entra con 7–9.
+- Una **Firma heredada** como P2 y la **Tarjeta Digimon** conservan solo el Eco. Los **Esbirros** no usan ni el Sello ni el Desatado.
+- Los **PNJ** también tienen su efecto de Firma. Un Élite, un Jefe o un Legendario desata su Firma gratis una vez por combate: el Jefe lo hace con la primera Firma que lance tras su Furia.
+- El Eco abre una vía, pero nunca resuelve por sí solo el obstáculo central de una aventura.
+
+### Tres Firmas, tres personalidades
+
+**[[Agumon]] · Pepper Breath — «Chispa de valor».**
+- *Sello:* si el objetivo es de un nivel superior al de Agumon, la técnica gana +1 a la tirada. Cuanto más grande el rival, más fuerte sopla.
+- *Desatado:* la técnica pasa a Ráfaga sin perder dados, y la zona del objetivo queda en Llamas hasta el final del siguiente asalto.
+- *Eco:* enciende hogueras, funde hielo o cera y ahuyenta a criaturas pequeñas.
+
+**[[Gabumon]] · Blue Blaster — «Coraje prestado».**
+- *Sello:* contra un objetivo ya Quemado, Gabumon gana Escudo VF al impactar. Bajo la piel de Garurumon, el tímido se envalentona.
+- *Desatado:* +1 dado, y el objetivo pierde su Escudo.
+- *Eco:* su piel de lobo espanta a quien teme a Garurumon. Tiene Ventaja para que un Digimon salvaje se aparte.
+
+**[[Renamon]] · Diamond Storm — «Paso de la zorra».**
+- *Sello:* al usarla, Renamon puede moverse 1 zona antes o después sin provocar ataques de retirada.
+- *Eco:* se mueve sin ruido y se esfuma de la vista, perfecta para vigilar a alguien o entregar un mensaje sin ser vista.
+
+> **Consejo para la mesa:** el Desatado es el «¡ahora!» de la pareja. Cuando lo uses, describe qué grita tu Tamer y cómo brilla el Digivice. La Chispa que cuesta es la misma que usarías para digievolucionar, así que cada vez es una decisión.
+
 ## Las 35 palabras clave de efecto
 
 Las palabras clave son el corazón de cada técnica: convierten un simple ataque en un aliento que quema, un zarpazo que atraviesa la armadura o un canto que duerme al enemigo. Cada técnica lleva **como mucho 2**. En las tablas, la columna «Se activa» te dice cuándo funciona cada una:
