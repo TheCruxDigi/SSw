@@ -114,12 +114,27 @@ function buildRail() {
     groups.map(g => `<h4>${esc(g.name)}</h4>` + g.items.map(c => `<a href="#${c.id}" data-r="${c.id}"><span class="n">${esc(c.n)}</span>${esc(c.titulo)}</a>`).join("")).join("") +
     `<h4>Herramientas</h4><a href="#bestiario" data-r="bestiario"><span class="n">◆</span>Bestiario (${S.best.length})</a><a href="#ficha" data-r="ficha"><span class="n">✎</span>Ficha de personaje${is20() ? " d20" : ""}</a><a href="#encuentro" data-r="encuentro"><span class="n">⚔</span>Constructor de encuentros</a>`;
   if (!rail.dataset.w) { rail.dataset.w = 1; rail.addEventListener("click", e => { if (e.target.closest("a")) rail.classList.remove("open"); }); }
-  const eb = $("#edBtn"); if (eb) { eb.textContent = is20() ? "d20" : "2d6"; eb.classList.toggle("on", is20()); }
+  $$("#edBtn button").forEach(b => { const on = b.dataset.ed === S.ed; b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+  document.documentElement.dataset.ed = S.ed;
+  const bs = $(".brand small"); if (bs) bs.textContent = is20() ? "EDICION D20 · BETA" : "LAZOS DE CODIGO";
 }
-$("#edBtn").addEventListener("click", () => {
-  S.ed = is20() ? "2d6" : "d20"; store.set("lazos-edicion", S.ed);
-  buildRail(); S.view = null; route();
-});
+/* Cambiar de edición: se nota en toda la página (color, cabecera, aviso) y te lleva a una página que exista en la nueva edición. */
+let toastT = 0;
+function toast(msg) {
+  let t = $("#toast"); if (!t) { t = document.createElement("div"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove("on"), 2600);
+}
+function setEd(ed) {
+  if (ed === S.ed) return;
+  S.ed = ed; store.set("lazos-edicion", ed); buildRail(); S.view = null;
+  toast(ed === "d20" ? "Edición d20 activada: manual, bestiario, ficha y encuentros en d20" : "Edición 2d6 activada: manual, bestiario, ficha y encuentros en 2d6");
+  const h = decodeURIComponent(location.hash.slice(1)) || "inicio";
+  const shared = ["c03", "c16", "c17", "c18"];
+  const otherCh = ed === "d20" ? /^c\d/.test(h) && !shared.some(x => h === x || h.startsWith(x + "_")) : /^e\d/.test(h);
+  if (otherCh) location.hash = "#inicio"; else route();
+  window.scrollTo(0, 0);
+}
+$("#edBtn").addEventListener("click", e => { const b = e.target.closest("button[data-ed]"); if (b) setEd(b.dataset.ed); });
 $("#menuBtn").addEventListener("click", () => rail.classList.toggle("open"));
 function markNav(r) {
   $$("a[data-r]", rail).forEach(a => a.dataset.r === r ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
@@ -145,42 +160,44 @@ function route() {
 function home() {
   S.view = "home"; markNav("inicio");
   const counts = {}; for (const d of S.best) counts[d.nivel] = (counts[d.nivel] || 0) + 1;
-  const first = S.manifest[0];
+  const M = is20() ? S.man20 : S.manifest;
+  const first = M[0];
   const groups = [];
-  for (const c of S.manifest) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
+  for (const c of M) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
   const title = esc(S.R.meta.titulo).replace(/^(Digimon:)/, "<em>$1</em>");
   main.innerHTML = `<section class="hero">
     <div class="hero-top cut">
       <canvas id="rain" aria-hidden="true"></canvas>
       <div>
-        <div class="eyebrow">Juego de rol de mesa · 2d6 · en español <span class="dm">DIGITAL WORLD</span></div>
+        <div class="eyebrow">${is20() ? "Edición d20 · beta · estilo D&D · en español" : "Juego de rol de mesa · 2d6 · en español"} <span class="dm">DIGITAL WORLD</span></div>
         <h1>${title}</h1>
         <p class="lead">${esc(S.R.meta.subtitulo)}</p>
-        <p class="dmline">ELIGE A TU COMPAÑERO · DIGIEVOLUCIONA</p>
+        <p class="dmline">${is20() ? "TIRA UN D20 · DIGIEVOLUCIONA" : "ELIGE A TU COMPAÑERO · DIGIEVOLUCIONA"}</p>
       </div>
       <div class="device" aria-label="Datos del manual">
         <div class="lcd">
           ${EGG}
           <div class="row"><span>DIGIMON</span><b>${S.best.length.toLocaleString("es")}</b></div>
-          <div class="row"><span>CAPÍTULOS</span><b>${S.manifest.length}</b></div>
-          <div class="row"><span>FAMILIAS</span><b>${S.R.familias.length}</b></div>
-          <div class="row"><span>EFECTOS</span><b>${S.R.efectos.length}</b></div>
+          <div class="row"><span>CAPÍTULOS</span><b>${M.length}</b></div>
+          ${is20() ? `<div class="row"><span>NIVELES</span><b>20</b></div><div class="row"><span>HABILIDADES</span><b>63</b></div>` : `<div class="row"><span>FAMILIAS</span><b>${S.R.familias.length}</b></div>
+          <div class="row"><span>EFECTOS</span><b>${S.R.efectos.length}</b></div>`}
         </div>
         <div class="btns"><i></i><i></i><i></i></div>
       </div>
     </div>
     <div class="cards">
       ${first ? `<a class="card main cut" href="#${first.id}"><span class="k">01 ›</span><b>Empieza a leer</b><span>${esc(first.titulo)}: qué es este juego y cómo se usa el manual.</span></a>` : ""}
-      <a class="card main cut" href="#e00" data-ed="d20"><span class="k">d20 · beta</span><b>Edición d20</b><span>El mismo Mundo Digital con un motor d20 al estilo D&D: clase Tamer del 1 al 20, fichas con VD y CA, y habilidades especiales para cada Digimon.</span></a>
+      ${is20() ? `<a class="card main cut" href="#inicio" data-ed="2d6"><span class="k">2d6</span><b>Volver a la edición 2d6</b><span>El sistema original: 2d6 con tres franjas, Chispa y Vínculo, más ligero y narrativo.</span></a>`
+        : `<a class="card main cut" href="#inicio" data-ed="d20"><span class="k">d20 · beta</span><b>Edición d20</b><span>El mismo Mundo Digital con un motor d20 al estilo D&D: clase Tamer del 1 al 20, fichas con VD y CA, y habilidades especiales para cada Digimon.</span></a>`}
       <a class="card main cut" href="#bestiario"><span class="k">◆ ${S.best.length}</span><b>Bestiario</b><span>Busca cualquier Digimon por nombre, nivel, atributo, familia o rol, y ajusta su ficha como esbirro, élite o jefe.</span></a>
-      <a class="card main cut" href="#encuentro"><span class="k">⚔ PA</span><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en PA.</span></a>
+      <a class="card main cut" href="#encuentro"><span class="k">⚔ ${is20() ? "PX" : "PA"}</span><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en ${is20() ? "PX" : "PA"}.</span></a>
       <a class="card main cut" href="#ficha"><span class="k">✎ ${bits(100)}</span><b>Ficha de personaje</b><span>Crea tu Tamer y tu compañero. Las cifras del Digimon se rellenan solas desde el bestiario.</span></a>
     </div>
     ${groups.map(g => `<div class="grp"><div class="eyebrow">${esc(g.name)}</div><div class="cards">${g.items.map(c => `<a class="card cut" href="#${c.id}"><span class="k">${/^\d+$/.test(c.n) ? hex2(+c.n) : esc(c.n)}</span><b>${esc(c.titulo)}</b><span>${esc(c.resumen || "")}</span></a>`).join("")}</div></div>`).join("")}
     <p class="notice">${esc(S.R.meta.aviso_legal)}</p>
   </section>`;
   codeRain($("#rain"));
-  $$("[data-ed]", main).forEach(a => a.addEventListener("click", () => { S.ed = a.dataset.ed; store.set("lazos-edicion", S.ed); buildRail(); }));
+  $$("[data-ed]", main).forEach(a => a.addEventListener("click", e => { e.preventDefault(); setEd(a.dataset.ed); }));
   window.scrollTo(0, 0);
 }
 /* Convierte «120 Bits» del texto en la moneda del Mundo Digital. */
@@ -270,7 +287,7 @@ function bestiary(sl) {
     const elems = R.elementos.map(e => [e.id, e.nombre]);
     main.innerHTML = `<div class="bst">
       <div class="bst-head">
-        <div><p class="eyebrow">Bestiario</p><h1 class="bst-title">Los <span class="lcdn">${S.best.length.toLocaleString("es")}</span> Digimon</h1></div>
+        <div><p class="eyebrow">Bestiario · edición ${is20() ? "d20" : "2d6"}</p><h1 class="bst-title">Los <span class="lcdn">${S.best.length.toLocaleString("es")}</span> Digimon</h1></div>
         <p class="bst-help">Cada ficha sale de la especificación de reglas. Ábrela y elige una plantilla de amenaza para usarla como esbirro, élite o jefe.</p>
       </div>
       <form class="filters" id="filters" role="search" onsubmit="return false">
@@ -470,7 +487,7 @@ function encounter() {
   let dif = "Mortal"; for (const [n, v] of bands) if (total <= v + 1e-9) { dif = n; break; }
   if (!rows.length) dif = "—";
   main.innerHTML = `<div class="enc">
-    <div><p class="eyebrow">Herramienta del DJ</p><h1 class="bst-title">Constructor de encuentros</h1>
+    <div><p class="eyebrow">Herramienta del DJ · edición 2d6</p><h1 class="bst-title">Constructor de encuentros</h1>
     <p class="bst-help">Añade Digimon desde el bestiario con el botón «Añadir al encuentro» o con el buscador de abajo. Los PA siguen la sección de presupuesto de la Guía del DJ: PA de la amenaza × diferencia de nivel × índice de amenaza.</p></div>
     <form class="filters" onsubmit="return false">
       <label><span>Parejas en el grupo</span><input id="enc-n" type="number" min="1" max="8" value="${N}"></label>

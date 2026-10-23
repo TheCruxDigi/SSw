@@ -65,8 +65,15 @@ button,input,select,textarea{font:inherit;color:inherit}
 .pill[aria-current="page"],.pill.on{background:var(--orange);color:var(--orange-ink);border-color:var(--orange)}
 .menu-btn{display:none}
 .theme-btn{width:36px;justify-content:center;padding:8px 0}
-.ed-btn{font-family:var(--f-lcd);font-size:18px;padding:5px 10px;letter-spacing:.04em}
-.ed-btn.on{background:var(--cyan);border-color:var(--cyan);color:#06121f}
+.ed-switch{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface2)}
+.ed-switch button{appearance:none;border:0;background:transparent;color:var(--muted);font-family:var(--f-lcd);font-size:19px;line-height:1;padding:7px 10px;cursor:pointer}
+.ed-switch button.on{background:var(--orange);color:var(--orange-ink)}
+:root[data-ed="d20"] .ed-switch button.on{background:var(--cyan);color:#06121f}
+:root[data-ed="d20"] .top{border-bottom-color:var(--cyan)}
+:root[data-ed="d20"] .brand small{color:var(--orange)}
+:root[data-ed="d20"] body{background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px),radial-gradient(ellipse at 70% -10%,rgba(42,212,255,.26),transparent 60%),radial-gradient(ellipse at 0% 110%,rgba(42,212,255,.12),transparent 55%)}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:60;background:var(--surface);color:var(--ink);border:1px solid var(--cyan);box-shadow:0 10px 30px rgba(0,0,0,.35);padding:10px 16px;border-radius:8px;font-size:14px;font-weight:700;max-width:min(90vw,520px);text-align:center;transition:opacity .2s,transform .2s}
+#toast.on{opacity:1;transform:translate(-50%,0)}
 
 .shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);min-height:calc(100% - 54px)}
 .rail{border-right:1px solid var(--line);background:color-mix(in srgb,var(--surface) 92%,transparent);padding:16px 12px 40px;position:sticky;top:54px;align-self:start;max-height:calc(100vh - 54px);overflow:auto}
@@ -354,12 +361,12 @@ span.sub{display:inline}
   .g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}
   .brand small{display:none}
 }
-@media (max-width:480px){ .brand .bt{display:none} .pill{padding:7px 9px;font-size:10.5px} .res .r{grid-template-columns:1fr} }
+@media (max-width:480px){ .top{gap:6px;padding:8px 10px} .top nav{gap:4px} .menu-t{display:none} .ed-switch button{padding:6px 7px;font-size:16px} .theme-btn{width:30px} .brand svg{width:30px;height:30px} .brand .bt{display:none} .pill{padding:7px 9px;font-size:10.5px} .res .r{grid-template-columns:1fr} }
 @media (prefers-reduced-motion:reduce){ .rail{transition:none} .card{transition:none} .dv-screen.flash,.enc-sum .dif-mortal{animation:none} }
 </style>
 
 <header class="top">
-  <button class="pill menu-btn" id="menuBtn" type="button" aria-label="Abrir índice">Índice</button>
+  <button class="pill menu-btn" id="menuBtn" type="button" aria-label="Abrir índice">☰<span class="menu-t"> Índice</span></button>
   <a class="brand" href="#inicio" aria-label="Digimon: Lazos de Código, portada">
     <svg viewBox="0 0 34 34" aria-hidden="true"><rect x="3" y="2" width="28" height="30" rx="9" fill="#ff8a1f"/><rect x="8" y="7" width="18" height="13" rx="2" fill="#b9cc93"/><path d="M15 9h4v1h1v2h1v4h-1v1h-1v1h-4v-1h-1v-1h-1v-4h1v-2h1z" fill="#1f2b15"/><circle cx="11" cy="25.5" r="2.2" fill="#2a1300"/><circle cx="17" cy="26.5" r="2.2" fill="#2a1300"/><circle cx="23" cy="25.5" r="2.2" fill="#2a1300"/></svg>
     <span class="bt"><b>Digimon: Lazos de Código</b><small class="dm" data-dm="LAZOS DE CODIGO"></small></span>
@@ -370,7 +377,7 @@ span.sub{display:inline}
     <a class="pill" href="#bestiario" data-nav="bestiario">Bestiario</a>
     <a class="pill" href="#ficha" data-nav="ficha">Ficha</a>
     <a class="pill opt" href="#encuentro" data-nav="encuentro">Encuentro</a>
-    <button class="pill ed-btn" id="edBtn" type="button" title="Cambiar de edición: 2d6 o d20" aria-label="Cambiar de edición entre 2d6 y d20">2d6</button>
+    <div class="ed-switch" id="edBtn" role="group" aria-label="Edición del juego"><button type="button" data-ed="2d6" title="Edición 2d6">2d6</button><button type="button" data-ed="d20" title="Edición d20 (beta)">d20</button></div>
     <button class="pill theme-btn" id="themeBtn" type="button" aria-label="Cambiar entre tema oscuro y claro">◐</button>
   </nav>
 </header>
