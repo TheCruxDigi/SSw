@@ -1,0 +1,1542 @@
+{
+ "tinkermon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "Sus alas de hada brillan con más fuerza cuanto más contenta está, y delatan su ánimo."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m de Tinkermon tiene ventaja en su próximo ataque: lo rocía con polvo de hada.",
+  "desatado": "La pesadilla alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados: vuela de un enemigo a otro."
+ },
+ "titamon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Los cráneos de sus brazos se forman con la fuerza robada a cada rival que abate."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "Lo llaman la División de un Solo Hombre: su rencor hiela la sangre de cualquier ejército."
+   }
+  ],
+  "sello": "Si el objetivo ya estaba asustado al recibir el impacto, Titamon gana además PG temporales iguales a su BC × 2: un cráneo más se forma en su brazo.",
+  "desatado": "La técnica drena todo el daño infligido en lugar de la mitad: el alma del rival pasa entera a engrosar el ejército de un solo hombre."
+ },
+ "titamon_skullbaluchimon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "SkullBaluchimon lanza su mole a la carga y Titamon remata con la naginata al pasar."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "El titán a lomos de la bestia de huesos es una visión que quiebra la moral."
+   }
+  ],
+  "sello": "Antes o después de usarla, Titamon se mueve hasta 3 m sin provocar ataques de oportunidad: SkullBaluchimon carga y la doble hoja corta al pasar.",
+  "desatado": "La naginata alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados: barre a quien se cruza en la carga."
+ },
+ "tlalocmon": {
+  "habilidades": [
+   {
+    "id": "control_clima",
+    "detalle": "Señor de la lluvia y el trueno: trae aguaceros a la tierra seca y tormentas a los impíos."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Cubre el suelo de charcos de lluvia (terreno de agua); sus técnicas de agua ignoran la resistencia."
+   }
+  ],
+  "sello": "Contra un objetivo mojado o que esté en el agua, +1 dado. Si la tirada de ataque supera su CA por 5 o más, llueve en un radio de 3 m alrededor del objetivo durante 1 asalto.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido, y el trueno resuena: llueve en un radio de 9 m alrededor del objetivo durante 1 minuto."
+ },
+ "tobiumon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Aletas y grandes brazos lo lanzan tras la presa, en el agua o en tierra."
+   }
+  ],
+  "sello": "Si un objetivo falla la salvación por 5 o más, Tobiumon elige a uno de los que la fallaron: queda marcado, porque las rémoras siguen adheridas y delatan cada movimiento.",
+  "desatado": "Las rémoras de acero forman una cortina: Tobiumon y cada aliado a 4,5 m de él ganan PG temporales iguales al BC de Tobiumon × 4."
+ },
+ "tobucatmon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Despega como un caza F-14 y cruza el cielo sobre el Océano de la Red."
+   }
+  ],
+  "sello": "Si el objetivo ya estaba ardiendo, un radio de 3 m a su alrededor arde durante 1 asalto: 1 dado de poder de fuego a quien entre o empiece su turno allí.",
+  "desatado": "El gato marioneta despega como un caza: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados, dejando una estela de fuego."
+ },
+ "togemogumon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_helado",
+    "detalle": "Los cristales de hielo de su espalda congelan al instante a quien los toca."
+   }
+  ],
+  "sello": "Si Togemogumon no se ha movido este turno (ni con Rápido) y algún objetivo falla la salvación por 5 o más, gana PG temporales iguales a su BC × 2: se encoge tras sus púas heladas.",
+  "desatado": "La técnica no pierde dados contra dos objetivos, y un radio de 3 m alrededor de cada objetivo queda cubierto de escarcha (terreno difícil) durante 1 asalto."
+ },
+ "togemon": {
+  "habilidades": [
+   {
+    "id": "espinas",
+    "detalle": "Todo su cuerpo de cactus está erizado de púas: abrazarlo o golpearlo a mano limpia sale caro."
+   }
+  ],
+  "sello": "Contra un objetivo apresado, la técnica gana +1 dado: las espinas se clavan mejor en quien no puede apartarse.",
+  "desatado": "Togemon gira sobre sí mismo: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "togemon_x": {
+  "habilidades": [
+   {
+    "id": "espinas",
+    "detalle": "Sus púas, quizá diseñadas como arma vegetal, hieren a quien se atreve a tocarlo."
+   }
+  ],
+  "sello": "Si Togemon ha recibido daño desde el final de su turno anterior, la técnica gana +1 dado: su mal genio dispara las púas con rabia.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: las espinas se quedan clavadas en las grietas de su guardia."
+ },
+ "tokomon": {
+  "habilidades": [],
+  "sello": "Si el objetivo no ha atacado a Tokomon desde el final del turno anterior de este, la técnica tiene +2 al ataque: nadie espera tantos dientes en algo tan tierno.",
+  "desatado": null
+ },
+ "tokomon_x": {
+  "habilidades": [],
+  "sello": "Antes de usarla, Tokomon se mueve hasta 3 m sin provocar ataques de oportunidad: se lanza rodando a toda velocidad contra el rival.",
+  "desatado": null
+ },
+ "tomorimon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "Su velo gaseoso desprende un resplandor tenue que atrae más de lo que asusta."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda además marcado: el tenue resplandor lo sigue y lo señala en la oscuridad.",
+  "desatado": null
+ },
+ "tonosamamamemon": {
+  "habilidades": [
+   {
+    "id": "reflejar",
+    "detalle": "Con Sensugaeshi, un giro de su abanico devuelve la técnica al que se la lanzó."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "Llama a los Mamemon que guardan su castillo con un golpe de abanico."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un radio de 3 m a su alrededor se llena de pétalos durante 1 asalto: es una zona muy oscurecida.",
+  "desatado": "+1 dado, y un aliado a 9 m de TonosamaMamemon tiene ventaja en su próximo ataque: el señor del castillo aplaude el valor con su abanico."
+ },
+ "torikaraballmon": {
+  "habilidades": [],
+  "sello": "Tras usarla, TorikaraBallmon se mueve hasta 3 m sin provocar ataques de oportunidad: se escabulle entre burbujas resbaladizas.",
+  "desatado": null
+ },
+ "toropiamon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Entre la espesura de la selva honda, su follaje exuberante pasa por una planta más."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Hace brotar lianas y raíces (terreno de planta); sus técnicas de planta ignoran la resistencia."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de SAB o queda confundido hasta el final de su siguiente turno: el perfume de todas las frutas lo marea.",
+  "desatado": "Un torbellino de pétalos alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "tortamon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su caparazón denso y cubierto de cuchillas pesa mucho más de lo que aparenta."
+   },
+   {
+    "id": "espinas",
+    "detalle": "Las cuchillas de su concha cortan a quien lo agarra o lo golpea sin arma."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado: el caparazón de cuchillas pasa rodando y el suelo tiembla bajo su peso.",
+  "desatado": "+1 dado, y Tortomon gana PG temporales iguales a su BC × 2: encoge las patas y gira dentro de su caparazón."
+ },
+ "tocanmon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "A la mínima inquietud se mete en su caparazón, con el enorme pico siempre por delante."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde todos sus PG temporales: el pico multicolor corta la protección como unas tenazas.",
+  "desatado": "La técnica es Perforante y Certera (+2 al ataque, ignora la cobertura media y de tres cuartos): el pico se cierra justo en la juntura de la armadura."
+ },
+ "toyagumon": {
+  "habilidades": [
+   {
+    "id": "constructo",
+    "detalle": "Está hecho de bloques de plástico especial: si se desmonta del susto, vuelve a encajar pieza a pieza."
+   }
+  ],
+  "sello": "Si el objetivo ha atacado a un aliado de ToyAgumon desde el final del turno anterior de este, la técnica gana +1 dado: su sentido de la justicia calienta el plástico.",
+  "desatado": "+1 dado, y un aliado a 3 m de ToyAgumon gana PG temporales iguales al BC de ToyAgumon × 2: algunas piezas salen volando y encajan a su alrededor como un muro."
+ },
+ "toyagumon_black": {
+  "habilidades": [
+   {
+    "id": "corrupcion",
+    "detalle": "Sus bloques oscurecidos contagian el mismo virus que lo convirtió en un juguete abusón."
+   }
+  ],
+  "sello": "Contra un objetivo asustado o derribado, la técnica gana +1 dado: el abusón se ensaña con quien ya está en el suelo.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: las risas de juguete roto lo dejan en evidencia."
+ },
+ "trailmon": {
+  "habilidades": [
+   {
+    "id": "monta",
+    "detalle": "Es el tren vivo del Mundo Digital: lleva pasajeros y mercancías de terminal en terminal."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Toma carrerilla sobre sus raíles y arrolla lo que haya en la vía."
+   }
+  ],
+  "sello": "Antes de embestir, Trailmon se mueve hasta 3 m en línea recta; si la tirada de ataque supera la CA del objetivo por 5 o más, lo empuja 3 m en esa dirección.",
+  "desatado": "El tren arrolla también a un segundo objetivo a 3 m del primero que esté en su vía, con el mismo ataque y sin perder dados."
+ },
+ "triceramon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su piel es de las más duras entre los Digimon orgánicos."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Lento al arrancar, pero una vez lanzado sus tres cuernos son imparables."
+   }
+  ],
+  "sello": "Si algún objetivo falla la salvación por 5 o más, Triceramon elige a uno de ellos: queda derribado, porque el gigante dócil se vuelve imparable al arrancar.",
+  "desatado": "+1 dado, y cada objetivo que falle la salvación es empujado 6 m: los tres cuernos barren como una estampida."
+ },
+ "triceramon_x": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su piel dura y su armadura de pinchos aguantan los golpes de quienes lo creen presa fácil."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Carga con los tres cuernos girando como brocas y perfora lo que encuentra."
+   }
+  ],
+  "sello": "Cada objetivo que falle la salvación por 5 o más pierde todos sus PG temporales: los tres cuernos giran como brocas y desgarran cualquier protección.",
+  "desatado": "+1 dado, y Triceramon gana PG temporales iguales a su BC × 2: su armadura de pinchos se eriza tras la carga dorada."
+ },
+ "troopmon": {
+  "habilidades": [
+   {
+    "id": "manada",
+    "detalle": "Nunca ataca solo: el pelotón de soldados de goma rodea a su blanco antes de disparar."
+   }
+  ],
+  "sello": "Si un aliado de Troopmon está a 3 m o menos del objetivo, la técnica gana +1 dado: Troopmon nunca ataca solo.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: la orden está dada y todo el pelotón apunta al mismo blanco."
+ },
+ "tsubumon": {
+  "habilidades": [],
+  "sello": "Antes de usarla, Tsubumon se mueve hasta 3 m rebotando, incluso sobre el agua, sin provocar ataques de oportunidad.",
+  "desatado": null
+ },
+ "tukaimon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Bate sus orejas de murciélago para volar, como Patamon, pero con muchas peores pulgas."
+   }
+  ],
+  "sello": "Tras usarla, Tsukaimon se mueve hasta 3 m sin provocar ataques de oportunidad: se aleja gruñendo con la última palabra.",
+  "desatado": "+1 dado, y si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de SAB o queda provocado: no soporta el descaro de Tsukaimon."
+ },
+ "tsumemon": {
+  "habilidades": [],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde todos sus PG temporales: las garras corroen los datos de cualquier protección.",
+  "desatado": null
+ },
+ "tunomon": {
+  "habilidades": [],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de SAB o queda confundido hasta el final de su siguiente turno: no sabe si es un ataque o una broma.",
+  "desatado": null
+ },
+ "goromon": {
+  "habilidades": [],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un radio de 3 m a su alrededor queda sembrado de piedras (terreno difícil) durante 1 asalto.",
+  "desatado": null
+ },
+ "turbomon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Rueda tumbado sobre los caparazones de sus patas: retrocede, salta y gira en curvas imposibles."
+   }
+  ],
+  "sello": "Si Turbomon se ha movido al menos 3 m este turno antes de usarla y la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado.",
+  "desatado": "+1 dado, y Turbomon sigue rodando: tras impactar se mueve hasta 3 m sin provocar ataques de oportunidad."
+ },
+ "turuiemon": {
+  "habilidades": [
+   {
+    "id": "detectar_mal",
+    "detalle": "Sigue el rastro de los virus que se esconden en el correo electrónico para hacer daño."
+   }
+  ],
+  "sello": "Contra un objetivo de atributo Virus, la técnica gana +1 dado: recorre el mundo dando caza a los virus.",
+  "desatado": "La técnica es Perforante y Certera (+2 al ataque, ignora la cobertura media y de tres cuartos): el guantelete encuentra el punto vital con un golpe limpio de Togaken."
+ },
+ "tuskmon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Embiste con los enormes cuernos de los hombros: por algo lo llaman el Digimon Panzer."
+   },
+   {
+    "id": "zancada",
+    "detalle": "Superpesado y temerario, arrasa cualquier obstáculo del camino sin perder el equilibrio."
+   }
+  ],
+  "sello": "Si Tuskmon se ha movido hacia el objetivo este turno y la tirada de ataque supera su CA por 5 o más, además lo empuja 3 m: arrolla todo lo que encuentra.",
+  "desatado": "+1 dado, y en un radio de 3 m alrededor del objetivo desaparecen la cobertura y el terreno difícil no mágico: los cuernos lo arrasan todo."
+ },
+ "tuwarmon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Sin el Punpun Armor, convertido en impulsores, se mueve como el viento."
+   },
+   {
+    "id": "camuflaje",
+    "detalle": "Ninja asesino: se funde con las sombras para acercarse sin ser visto."
+   }
+  ],
+  "sello": "Si el objetivo no ha atacado a Tuwarmon en este combate, la técnica tiene +2 al ataque: se hace el tonto y nadie lo toma en serio.",
+  "desatado": "+1 dado, y tras usarla Tuwarmon queda invisible hasta el principio de su siguiente turno o hasta que ataque: el ninja desaparece entre giros."
+ },
+ "tylomon": {
+  "habilidades": [
+   {
+    "id": "olfato_agudo",
+    "detalle": "Capta el olor de una presa a más de un kilómetro de distancia bajo el agua."
+   }
+  ],
+  "sello": "Si Tylomon está en el agua o el objetivo está en el agua, la técnica gana +1 dado: bajo el agua nada lo iguala.",
+  "desatado": "Si la tirada de ataque falla, el objetivo recibe igualmente la mitad del daño, sin efectos: el torpedo nunca pierde el rumbo."
+ },
+ "tylomon_x": {
+  "habilidades": [
+   {
+    "id": "olfato_agudo",
+    "detalle": "Huele a los intrusos de su territorio mucho antes de que lo vean venir."
+   },
+   {
+    "id": "espinas",
+    "detalle": "Su cuerpo, erizado de aletas-cuchilla, corta a quien lo golpea o lo apresa."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Tylomon se mueve hasta 3 m tras el impacto sin provocar ataques de oportunidad: pasa de largo como un caza.",
+  "desatado": "+1 dado, y los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno: las aletas-cuchilla abren surcos en su coraza."
+ },
+ "tyranomon": {
+  "habilidades": [
+   {
+    "id": "monta",
+    "detalle": "Dócil y fácil de domesticar, lleva a su Tamer a lomos como el primer gran compañero."
+   }
+  ],
+  "sello": "Si el Tamer de Tyrannomon está a 3 m o menos de él, la técnica gana +1 dado: obedece mejor cuando lo guían de cerca.",
+  "desatado": "El barrido de fuego prehistórico alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "tyranomon_x": {
+  "habilidades": [
+   {
+    "id": "espinas",
+    "detalle": "Las púas de su lomo, duras como gemas, hieren a quien intenta sujetarlo."
+   }
+  ],
+  "sello": "Si Tyrannomon ha recibido daño desde el final de su turno anterior y la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado.",
+  "desatado": "+1 dado, y un radio de 3 m alrededor del objetivo queda fundido (terreno difícil) durante 1 asalto."
+ },
+ "tyrantkabuterimon": {
+  "habilidades": [
+   {
+    "id": "invocar_aliados",
+    "detalle": "Rey de los Insectos: casi nunca pelea solo y llama a sus súbditos insectoides."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su caparazón de Chrondigizoid denso resiste casi cualquier golpe."
+   },
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Solo actúa de noche, desde su fortaleza bajo el oscuro Under Forest."
+   }
+  ],
+  "sello": "Si un aliado está a 1,5 m del objetivo y la tirada de ataque supera su CA por 5 o más, el objetivo queda marcado: el rey de los insectos nunca caza solo.",
+  "desatado": "La técnica es además Certera (+2 al ataque), y durante 1 asalto un radio de 9 m alrededor del objetivo queda sin sombras: nadie puede estar invisible ni esconderse en él."
+ },
+ "ukkomon": {
+  "habilidades": [
+   {
+    "id": "sueno_sombra",
+    "detalle": "Con Liar Dream se cuela en los sueños ajenos para prometer deseos… o para mentir."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m de Ukkomon tiene ventaja en su próximo ataque: el remolino deja un pequeño deseo concedido.",
+  "desatado": "El agua que gira lava heridas: Ukkomon y cada aliado a 3 m de él recuperan 2d6 PG, como en las aldeas que lo veneraban."
+ },
+ "ulforcevdramon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Incluso entre los Royal Knights, su velocidad es imposible de seguir."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Caballero de la profecía: su presencia mantiene firme la esperanza de quienes luchan a su lado."
+   }
+  ],
+  "sello": "Antes o después de usarla, UlforceVeedramon se mueve hasta 3 m sin provocar ataques de oportunidad: nadie puede seguir su velocidad.",
+  "desatado": "+1 dado, y un aliado a 9 m de UlforceVeedramon tiene ventaja en su próximo ataque: la V de la victoria brilla en el cielo y renueva la esperanza."
+ },
+ "ulforcevdramon_x": {
+  "habilidades": [
+   {
+    "id": "regeneracion",
+    "detalle": "El poder Ulforce, despertado por el X Antibody, le cierra las heridas casi al instante."
+   },
+   {
+    "id": "vuelo",
+    "detalle": "Surca el cielo envuelto en su armadura de Blue Digizoid."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Su velocidad sigue siendo imposible de seguir, incluso para un Royal Knight."
+   }
+  ],
+  "sello": "Si UlforceVeedramon ha recibido daño desde el final de su turno anterior, al impactar recupera PG iguales a su BC × 2: el poder Ulforce regenera sus datos al contraatacar.",
+  "desatado": "Al impactar, todos los aliados a 9 m de UlforceVeedramon recuperan 2d12 PG: la luz del rayo restaura sus datos."
+ },
+ "ultimatebrakimon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Es el Digimon androide terrestre más grande y pesado que existe."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su blindaje es tan grueso que no necesita esquivar."
+   }
+  ],
+  "sello": "Si UltimateBrachiomon no se ha movido este turno y la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado: los propulsores lo anclan y el disparo sale a plena potencia.",
+  "desatado": "+1 dado, y un radio de 9 m alrededor del objetivo queda en ruinas (terreno difícil) durante 1 asalto."
+ },
+ "ultimatechaosmon": {
+  "habilidades": [
+   {
+    "id": "presencia_terrible",
+    "detalle": "Su poder descontrolado, nacido de cuatro guerreros fusionados, aterra a cualquiera que lo vea."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Sus brazos gigantescos concentran casi toda su energía y golpean una vez más."
+   }
+  ],
+  "sello": "Si UltimateChaosmon tiene la mitad de sus PG o menos, la técnica gana +1 dado: la energía que no logra equilibrar se desborda por sus brazos.",
+  "desatado": "Al impactar, el objetivo hace una salvación de FUE o queda roto, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: coraza y guardia saltan en añicos."
+ },
+ "yunimon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Sus grandes alas de pegaso lo llevan a través de la Red en un parpadeo."
+   },
+   {
+    "id": "monta",
+    "detalle": "Cuando acepta un jinete, se mueve con él como si fueran una sola criatura."
+   }
+  ],
+  "sello": "Si el Tamer de Unimon está a 1,5 m de él, tras usarla Unimon puede llevarlo consigo hasta 3 m sin provocar ataques de oportunidad.",
+  "desatado": "La técnica es Perforante y Certera (+2 al ataque, ignora la cobertura media y de tres cuartos): el disparo sagrado sale del cuerno recto como una flecha."
+ },
+ "upamon": {
+  "habilidades": [],
+  "sello": "Contra un objetivo mojado o que esté en el agua, la técnica gana +1 dado: el agua le lleva la descarga.",
+  "desatado": null
+ },
+ "vademon": {
+  "habilidades": [
+   {
+    "id": "telepatia",
+    "detalle": "Su enorme cabeza alienígena le permite hablar mente a mente con cualquier criatura."
+   },
+   {
+    "id": "sensores",
+    "detalle": "Analiza a sus «especímenes» con aparatos extraterrestres antes de abducirlos."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Vademon lo atrae 3 m hacia sí: el rayo de su pistola lo arrastra antes del beso.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra hechizado: nadie resiste un beso interestelar."
+ },
+ "vademon2": {
+  "habilidades": [
+   {
+    "id": "telepatia",
+    "detalle": "Su cabezón alienígena le deja hablar mente a mente, aunque lo que dice suelen ser bravatas."
+   },
+   {
+    "id": "lenguas",
+    "detalle": "Vino a conquistar el planeta y acabó aprendiéndose todas sus jergas y costumbres."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de SAB o queda asustado hasta el final de su siguiente turno: nadie quiere repetir el beso.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: tras el beso, todo el campo de batalla se ríe de él."
+ },
+ "vajramon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Con cuerpo de buey y la fuerza mejor templada de los Devas, arrolla a quien se le planta."
+   },
+   {
+    "id": "zancada",
+    "detalle": "Firme como la tierra que domina, ni el terreno abrupto ni los golpes lo tumban."
+   }
+  ],
+  "sello": "Contra un objetivo que se haya alejado de Vajramon o le haya atacado desde más de 1,5 m desde el final del turno anterior de este, la técnica gana +1 dado: detesta a los cobardes.",
+  "desatado": "La onda de tierra alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados, y lo derriba igual."
+ },
+ "valkyrimon": {
+  "habilidades": [
+   {
+    "id": "aura_sagrada",
+    "detalle": "El aura de su armadura brillante protege a los valientes que luchan a su lado."
+   },
+   {
+    "id": "teletransporte",
+    "detalle": "Aparece de la nada, golpea y se desvanece como un guerrero de la mitología nórdica."
+   }
+  ],
+  "sello": "Tras usarla, Valkyrimon se mueve hasta 3 m sin provocar ataques de oportunidad: aparece de la nada, golpea y se desvanece.",
+  "desatado": "+1 dado, y Valkyrimon y cada aliado a 9 m de él ganan PG temporales iguales al BC de Valkyrimon × 2: el aura de su armadura protege a los valientes."
+ },
+ "valdurmon": {
+  "habilidades": [
+   {
+    "id": "aura_sagrada",
+    "detalle": "La luz sagrada de sus plumas forma una barrera que protege a sus aliados."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Guardiana del cielo, sus seis alas resplandecen como la estratosfera al amanecer."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Oscuro, la técnica gana +1 dado: la luz sagrada de sus plumas purga la oscuridad.",
+  "desatado": "Despliega la barrera de sus seis alas: cada aliado a 9 m de Varodurumon o del objetivo gana PG temporales iguales al BC de Varodurumon × 4."
+ },
+ "v-dramon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Cuando la situación se complica, carga con la fuerza de un dragón antiquísimo."
+   }
+  ],
+  "sello": "Si algún enemigo falla la salvación por 5 o más, Veedramon elige a uno de ellos: queda derribado, porque el rayo en V lo golpea como un ariete.",
+  "desatado": "La técnica no pierde dados por área, y el área alcanzada queda calcinada (terreno difícil) durante 1 asalto."
+ },
+ "v-mon": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Su especie, casi extinta, viste los Digihuevos antiguos y se combina por DNA con su compañero."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Veemon remata con un cabezazo: el objetivo queda derribado.",
+  "desatado": "+1 dado, y Veemon gana PG temporales iguales a su BC × 2: el puñetazo brilla como un Digihuevo antiguo."
+ },
+ "vegimon": {
+  "habilidades": [
+   {
+    "id": "agarrar",
+    "detalle": "Atrae a los pequeños con su aroma dulce y los enreda con sus largas lianas."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Vegiemon lo atrae 3 m hacia sí: el aroma dulce lo arrastra hacia sus lianas.",
+  "desatado": "El bombardeo maloliente alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "velgrmon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "El Devorador de Cadáveres se alimenta de los datos de los caídos."
+   },
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Emerge de una gran niebla negra y caza sin problema en plena oscuridad."
+   }
+  ],
+  "sello": "Al usarla, Velgrmon puede excluir del área a los aliados que elija: el viento negro solo busca presas.",
+  "desatado": "La técnica no pierde dados por área, y el área queda envuelta en niebla negra (muy oscurecida) durante 1 asalto."
+ },
+ "bemmon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Su única orden es comer y hacerse más fuerte: devora los datos de sus presas."
+   }
+  ],
+  "sello": "Al impactar, Vemmon recupera PG iguales a su BC × 2: devora un bocado de datos de su presa con cada zarpazo.",
+  "desatado": "+1 dado, y el objetivo hace una salvación de CON o queda debilitado: Vemmon le arranca un pedazo de su fuerza."
+ },
+ "venomvamdemon": {
+  "habilidades": [
+   {
+    "id": "aura_oscura",
+    "detalle": "Al soltar todo su poder solo ansía muerte y destrucción: nada sana a su alrededor."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "La verdadera forma del rey de la oscuridad es una bestia monstruosa que paraliza de terror."
+   }
+  ],
+  "sello": "Si el objetivo ya estaba envenenado, la técnica gana +1 dado: la toxina lo devora desde dentro.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: la bestia huele su sangre envenenada."
+ },
+ "venusmon": {
+  "habilidades": [
+   {
+    "id": "vision_verdadera",
+    "detalle": "Con la venda puesta ve el mundo tal como es y detecta cualquier engaño."
+   },
+   {
+    "id": "sanador",
+    "detalle": "Con Healing Therapy, su amor cierra heridas y hace florecer hasta el yermo."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m del objetivo recupera PG iguales al BC de Venusmon × 2: el amor también reconforta.",
+  "desatado": "Su encanto alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "vermillimon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su piel, dura como el diamante, lo protege incluso del calor de la lava."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Terco y fuerte, arremete con el cuerno contra cualquier cosa que se mueva."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este es empujado 3 m: Vermilimon lo embiste con el cuerno al rojo.",
+  "desatado": "+1 dado, y un radio de 3 m alrededor del objetivo arde durante 1 asalto: 1 dado de poder de fuego a quien entre o empiece su turno allí."
+ },
+ "vespamon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Patrulla la Base Real suspendida en el cielo con sus alas de avispa."
+   },
+   {
+    "id": "manada",
+    "detalle": "Miembro de la Guardia Real: se coordina con sus compañeros para rodear al intruso."
+   }
+  ],
+  "sello": "Si un aliado ya ha atacado al objetivo este asalto, la técnica tiene +2 al ataque: la Guardia Real se coordina.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra envenenado: el aguijón nunca falla su dosis."
+ },
+ "victorygreymon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "El Guerrero Dragón de los Héroes blande una espada colosal tan grande como él."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su armadura de Chrondigizoid resiste los golpes más brutales."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Dragón, la técnica gana +1 dado: la espada colosal fue hecha para abatir dragones.",
+  "desatado": "Al impactar, el objetivo queda roto sin salvación, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: la gran espada parte coraza y guardia."
+ },
+ "vikaralamon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "Las ruedas de luz que escupe iluminan todo a su alrededor."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Con su cuerpo de jabalí, embiste de frente sin perder la sonrisa."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m del objetivo tiene ventaja en su próximo ataque: las ruedas deslumbran y abren un hueco.",
+  "desatado": "Una ristra de ruedas de luz rebota y alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "vikemon": {
+  "habilidades": [
+   {
+    "id": "dominio_elemental",
+    "detalle": "Cubre el suelo de hielo y permafrost (terreno de hielo); sus técnicas de hielo ignoran la resistencia."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "Llama a los cuerpos de Ikkakumon y Zudomon que dirige en el Ártico."
+   }
+  ],
+  "sello": "Al usarla, el área queda helada (terreno difícil) durante 1 asalto, y Vikemon se mueve por ella sin penalización.",
+  "desatado": "La ventisca polar cubre el campo de batalla: alcanza a todos los enemigos que Vikemon vea a 18 m o menos, sin perder dados por área."
+ },
+ "evilmon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Revolotea con sus alas de diablillo, siempre lejos del combate directo."
+   },
+   {
+    "id": "sueno_sombra",
+    "detalle": "Atormenta a los más débiles colándose en sus sueños para sembrar pesadillas."
+   }
+  ],
+  "sello": "Contra un objetivo asustado, la técnica gana +1 dado: Vilemon se ceba con quien ya le teme.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra asustado: la descarga se cuela en sus pesadillas."
+ },
+ "pokomon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Solo sale en noches de luna y se mueve sin ser visto, casi como una ilusión."
+   }
+  ],
+  "sello": "Antes de usarla, Viximon se mueve hasta 3 m sin provocar ataques de oportunidad: nadie lo ve llegar.",
+  "desatado": null
+ },
+ "volcanicdramon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "El dragón que quizá sostiene el Mundo Digital es una mole de roca y magma."
+   },
+   {
+    "id": "excavar",
+    "detalle": "Nada en el magma a tanta profundidad que ni los mejores excavadores lo alcanzan."
+   },
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Sus escamas arden como la lava de la que procede."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Volcanicdramon gana PG temporales iguales a su BC × 2: el magma se endurece sobre sus escamas.",
+  "desatado": "Alza un muro de roca fundida: Volcanicdramon y cada aliado a 9 m de él ganan PG temporales iguales al BC de Volcanicdramon × 4."
+ },
+ "volcamon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Más cantante de graves profundos que matón, su voz atronadora sacude cielo y tierra."
+   },
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "El volcán de su espalda entra en erupción cuando se enfurece."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este es empujado 3 m: la onda de su voz lo arranca del sitio.",
+  "desatado": "Su grito atronador alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "volcdoramon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Nacido en los estratos de magma, su cuerpo quema a quien lo toca."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Hace brotar lava del suelo (terreno de fuego); sus técnicas de fuego ignoran la resistencia."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, brota lava: un radio de 3 m alrededor del objetivo arde 1 asalto (1 dado de poder de fuego al entrar o empezar el turno allí).",
+  "desatado": "El géiser estalla también bajo un segundo objetivo a 3 m del primero, con el mismo ataque y sin perder dados."
+ },
+ "vortexdramon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Su torso, hecho de vientos turbulentos, surca el cielo como un vendaval colosal."
+   },
+   {
+    "id": "monta",
+    "detalle": "Se le ha visto sobrevolar campos de batalla con el Comandante Vortex a la espalda."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda además derribado: el viento turbulento lo estampa contra el suelo, aunque volara.",
+  "desatado": "+1 dado, y un radio de 9 m alrededor del objetivo queda helado (terreno difícil) durante 1 asalto."
+ },
+ "vorvomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Está forjado en mineral duro y ardiente, que se endurece cuanto más se acalora."
+   }
+  ],
+  "sello": "Si Vorvomon ha recibido daño desde el final de su turno anterior y la tirada de ataque supera la CA del objetivo por 5 o más, gana PG temporales iguales a su BC × 2.",
+  "desatado": "+1 dado, y hasta el principio de su siguiente turno, la primera criatura que golpee a Vorvomon cuerpo a cuerpo recibe 1d6 de fuego por el calor de sus garras."
+ },
+ "vulcanusmon": {
+  "habilidades": [
+   {
+    "id": "sensores",
+    "detalle": "Con ojo de artesano encuentra el punto débil de toda armadura forjada."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Sus ocho brazos manejan a la vez martillos y armas forjadas por él mismo."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m de Vulcanusmon tiene ventaja en su próximo ataque: el dios herrero le afila el arma al vuelo.",
+  "desatado": "La técnica es Perforante, y al impactar el objetivo queda roto sin salvación: Vulcanusmon conoce el punto débil de toda armadura forjada."
+ },
+ "vulturemon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Se oculta bajo su capa de arena en terreno abierto hasta el momento perfecto."
+   },
+   {
+    "id": "absorber_datos",
+    "detalle": "Como buen carroñero, se alimenta de los datos de quienes caen en la tormenta."
+   }
+  ],
+  "sello": "Si el objetivo tiene la mitad de sus PG o menos, la técnica gana +1 dado: el buitre huele la debilidad.",
+  "desatado": "+1 dado, y tras usarla Vulturemon queda invisible bajo su capa de arena hasta el principio de su siguiente turno o hasta que ataque."
+ },
+ "wankomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Con Stone Body endurece su cuerpo como la piedra para proteger a su amo."
+   }
+  ],
+  "sello": "Si el objetivo ha atacado al Tamer de Wankomon en este combate, la técnica gana +1 dado: su lealtad no perdona.",
+  "desatado": "+1 dado (no se suma al del Sello), y si la tirada de ataque supera la CA del objetivo por 5 o más, este queda además derribado: la pelota le da de lleno."
+ },
+ "wanyamon": {
+  "habilidades": [],
+  "sello": "Tras usarla, Wanyamon se mueve hasta 3 m sin provocar ataques de oportunidad: se escapa tan rápido que nadie lo sujeta.",
+  "desatado": null
+ },
+ "wargreymon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su armadura de Chrondigizoid y el escudo Brave Shield aguantan casi cualquier golpe."
+   },
+   {
+    "id": "gigante",
+    "detalle": "El guerrero dragón más fuerte derriba murallas con sus Dramon Killer."
+   }
+  ],
+  "sello": "Al cargarla, WarGreymon gana PG temporales iguales a su BC × 2: el calor de la esfera lo rodea mientras crece entre sus manos.",
+  "desatado": "La esfera alcanza también a un segundo objetivo a 3 m del primero, sin perder dados, y un radio de 3 m alrededor del objetivo arde 1 asalto (1 dado de poder de fuego al entrar o empezar turno allí)."
+ },
+ "wargreymon_x": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Sus Dramon Killer, de dureza suprema, le sirven tanto para atacar como para defender."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Los propulsores de su espalda le dan una aceleración explosiva."
+   }
+  ],
+  "sello": "Antes de usarla, WarGreymon se mueve hasta 3 m sin provocar ataques de oportunidad: sus propulsores lo lanzan con aceleración explosiva.",
+  "desatado": "Si la tirada de ataque falla, el objetivo recibe igualmente la mitad del daño, sin efectos: el guerrero que debe vencer siempre no admite fallar."
+ },
+ "megalogrowmon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Los cañones Atomic Blaster de su pecho completan cada ráfaga de golpes."
+   },
+   {
+    "id": "agarrar",
+    "detalle": "El cable Assault Balancer de su espalda engancha y sujeta a sus presas."
+   }
+  ],
+  "sello": "Si algún objetivo falla la salvación por 5 o más, WarGrowlmon elige a uno de ellos: queda marcado, porque el Assault Balancer lo deja enganchado y a tiro.",
+  "desatado": "La técnica es Perforante y no pierde dados contra dos objetivos: las cuchillas del codo cortan blindajes como papel."
+ },
+ "megalograwmon_orange": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Conserva los cañones gemelos del pecho, capaces de destruirlo todo."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su armadura de Chrondigizoid lo protege como el blindaje de un tanque."
+   }
+  ],
+  "sello": "Antes o después de usarla, WarGrowlmon se mueve hasta 3 m sin provocar ataques de oportunidad: los propulsores de sus hombros lo llevan al cuerpo a cuerpo.",
+  "desatado": "+1 dado, y WarGrowlmon gana PG temporales iguales a su BC × 2: su blindaje de Chrondigizoid encaja el contragolpe."
+ },
+ "megalogrowmon_x": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Sus unidades de ataque, repartidas por todo el armazón, disparan sin pausa."
+   },
+   {
+    "id": "coraza",
+    "detalle": "El Tanque Carmesí lleva un blindaje de Chrondigizoid que encaja los golpes."
+   }
+  ],
+  "sello": "Si WarGrowlmon ha recibido daño desde el final de su turno anterior, la técnica gana +1 dado: las unidades de ataque liberan la energía acumulada.",
+  "desatado": "+1 dado (no se suma al del Sello), y los ataques contra cada objetivo que falle la salvación tienen ventaja hasta el final de su siguiente turno."
+ },
+ "warumonzaemon": {
+  "habilidades": [
+   {
+    "id": "aura_oscura",
+    "detalle": "Es maldad pura: a su alrededor nadie encuentra consuelo ni se recupera."
+   },
+   {
+    "id": "control_mental",
+    "detalle": "Sus corazones negros doblegan la voluntad de quien los recibe."
+   }
+  ],
+  "sello": "Si algún enemigo falla la salvación por 5 o más, WaruMonzaemon elige a uno: hace una salvación de CON o queda debilitado hasta el final de su siguiente turno.",
+  "desatado": "Una lluvia de corazones negros alcanza a todos los enemigos que WaruMonzaemon vea a 18 m o menos, sin perder dados por área."
+ },
+ "waruseadramon": {
+  "habilidades": [
+   {
+    "id": "control_clima",
+    "detalle": "Con Strange Mist cubre el mar de una niebla espesa y malsana."
+   },
+   {
+    "id": "olfato_agudo",
+    "detalle": "Persigue a su presa con más tenacidad que MegaSeadramon y no le pierde el rastro."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, WaruSeadramon lo atrae 3 m hacia sí: el remolino oscuro lo arrastra hasta sus fauces.",
+  "desatado": "El remolino oscuro engulle también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "waspmon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Las hélices de sus hombros y el estabilizador de su espalda lo mantienen en el aire."
+   },
+   {
+    "id": "sensores",
+    "detalle": "Las antenas de su cabeza detectan a cualquiera que se acerque a la Base Real."
+   }
+  ],
+  "sello": "Antes de usarla, Waspmon se mueve hasta 3 m sin provocar ataques de oportunidad: las hélices de sus hombros lo lanzan en picado.",
+  "desatado": "La técnica es además Certera (+2 al ataque, ignora la cobertura media y de tres cuartos): el estabilizador fija el aguijón en el blanco."
+ },
+ "weddinmon": {
+  "habilidades": [
+   {
+    "id": "sanador",
+    "detalle": "Considera la felicidad de todos como propia y alivia cualquier mal con su ramo."
+   },
+   {
+    "id": "musica",
+    "detalle": "Organiza fiestas espontáneas con tarta gigante, música y alegría contagiosa."
+   }
+  ],
+  "sello": "Si un aliado está a 1,5 m del objetivo y la tirada de ataque supera la CA de este por 5 o más, ese aliado recupera PG iguales al BC de Weddinmon × 2.",
+  "desatado": "Una lluvia de pétalos de boda termina todos los estados de Weddinmon y de cada aliado a 6 m de ella."
+ },
+ "zassoumon": {
+  "habilidades": [
+   {
+    "id": "agarrar",
+    "detalle": "Sus tentáculos de liana estrujan todo lo que atrapan."
+   }
+  ],
+  "sello": "Si Weedmon tiene la mitad de sus PG o menos, al impactar recupera PG iguales a su BC × 2: como la mala hierba, siempre rebrota.",
+  "desatado": "+1 dado, y mientras el objetivo siga apresado por Weedmon, recibe 1 dado de poder de planta al principio de cada uno de sus turnos."
+ },
+ "wendimon": {
+  "habilidades": [
+   {
+    "id": "teletransporte",
+    "detalle": "Su rabia distorsiona el espacio a su alrededor y lo lleva de un salto junto a su presa."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este es empujado 3 m: la onda del aullido lo arrastra lejos.",
+  "desatado": "El aullido alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "weregarrumon": {
+  "habilidades": [
+   {
+    "id": "manada",
+    "detalle": "Comando de élite: aprovecha cualquier hueco que le abran sus compañeros."
+   },
+   {
+    "id": "trepar",
+    "detalle": "Sus poderosas piernas le dan saltos casi inigualables entre riscos y paredes."
+   }
+  ],
+  "sello": "Tras usarla, WereGarurumon salta hasta 3 m sin provocar ataques de oportunidad, incluso a un saliente o lugar elevado.",
+  "desatado": "+1 dado, y si la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado por la patada que sigue al zarpazo."
+ },
+ "weregarurumon_black": {
+  "habilidades": [
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Lobo solitario de pelaje negro, caza en la oscuridad con mirada fría."
+   },
+   {
+    "id": "trepar",
+    "detalle": "Sus piernas de lobo lo impulsan por paredes y tejados."
+   }
+  ],
+  "sello": "Si no hay ningún aliado a 3 m de WereGarurumon, la técnica gana +1 dado: caza mejor solo.",
+  "desatado": "El objetivo queda marcado, y los ataques contra él tienen ventaja hasta el final de su siguiente turno: la mirada fría del lobo encuentra su debilidad."
+ },
+ "weregarurumon_x": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su armadura ligera de Chrondigizoid no estorba sus movimientos."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Toma impulso y sus patadas mandan por los aires a un Digimon pesado."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este es empujado 3 m: sus patadas mandan por los aires incluso a un Digimon pesado.",
+  "desatado": "+1 dado, y WereGarurumon gana PG temporales iguales a su BC × 2: su armadura ligera de Chrondigizoid absorbe el contragolpe."
+ },
+ "waregarurumon_sagittarius": {
+  "habilidades": [
+   {
+    "id": "vista_aguda",
+    "detalle": "El dispositivo Sagittarius le permite apuntar con precisión balística."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Sus armas balísticas integradas disparan entre zarpazo y zarpazo."
+   }
+  ],
+  "sello": "La técnica tiene 3 m más de alcance (21 m) e ignora la cobertura media: el dispositivo Sagittarius dispara con precisión balística.",
+  "desatado": "La técnica es Perforante y Certera (+2 al ataque, ignora la cobertura de tres cuartos): el proyectil sigue una trayectoria exacta hasta el blanco."
+ },
+ "wezengammamon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Dispara sus cuernos como artillería y los cuatro cañones de sus patas."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Cuadrúpedo blindado, su cuerpo acorazado aguanta el fuego enemigo."
+   }
+  ],
+  "sello": "Contra un objetivo que vuela, si la tirada de ataque supera su CA por 5 o más, queda derribado y cae: el cañón de su nariz lo baja del cielo.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra provocado: toda su artillería apunta a un solo enemigo y le exige atención."
+ },
+ "whamon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Es tan inmenso que los ordenadores normales no pueden procesar sus datos."
+   },
+   {
+    "id": "monta",
+    "detalle": "Lleva a su Tamer y a sus amigos a lomos, o en la boca, por el océano."
+   }
+  ],
+  "sello": "Si algún objetivo falla la salvación por 5 o más, Whamon gana PG temporales iguales a su BC × 2: el agua de la ola vuelve y lo envuelve como una coraza.",
+  "desatado": "Un maremoto alcanza a todos los enemigos que Whamon vea a 18 m o menos, sin perder dados por área."
+ },
+ "whamon_2": {
+  "habilidades": [
+   {
+    "id": "vision_ciega",
+    "detalle": "Su vista se atrofió en la oscuridad del océano, pero localiza a sus presas por el eco."
+   }
+  ],
+  "sello": "La técnica ignora la cobertura media y de tres cuartos y la invisibilidad del objetivo: Whamon apenas ve, pero oye a su presa por el eco.",
+  "desatado": "+1 dado, y el objetivo es empujado 3 m por la fuerza del chorro."
+ },
+ "wingdramon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Se cree que vuela a más de Mach 20: pocos aguantan un duelo aéreo con él."
+   },
+   {
+    "id": "vista_aguda",
+    "detalle": "Pasa la vida entre las nubes y otea el suelo desde enormes alturas."
+   }
+  ],
+  "sello": "Contra un objetivo que vuela, la técnica gana +1 dado: en el cielo nadie sigue su estela.",
+  "desatado": "El estampido sónico arrastra el fuego también sobre un segundo objetivo a 3 m del primero, con el mismo ataque y sin perder dados."
+ },
+ "wisemon": {
+  "habilidades": [
+   {
+    "id": "portal",
+    "detalle": "Gracias a su Libro aparece en cualquier lugar; quizá su forma real habita en otra dimensión."
+   },
+   {
+    "id": "manipular_tiempo",
+    "detalle": "Con las Piedras del Espaciotiempo de sus manos retuerce el instante a su favor."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde todos sus PG temporales y la ventaja pendiente: las Piedras deshacen la magia que lo protegía.",
+  "desatado": "+1 dado, y el objetivo hace una salvación de CAR o queda sellado hasta el final de su siguiente turno: el Libro encierra parte de su poder."
+ },
+ "witchmon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Surca el cielo de Witchelny y del Mundo Digital a lomos de su escoba."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Desata un vendaval mágico (terreno de viento, difícil); sus técnicas de viento ignoran la resistencia."
+   }
+  ],
+  "sello": "Si el objetivo falla la salvación contra el empujón por 5 o más, es empujado 6 m en lugar de 3 m: el vendaval mágico no se conforma con poco.",
+  "desatado": "El vendaval arrastra también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "wizarmon": {
+  "habilidades": [
+   {
+    "id": "ilusiones",
+    "detalle": "Mago de Witchelny, teje ilusiones con su báculo mientras oculta el rostro."
+   },
+   {
+    "id": "telepatia",
+    "detalle": "Habla mente a mente con sus amigos, incluso cuando su voz no llega."
+   }
+  ],
+  "sello": "Al usarla, Wizardmon puede excluir del área a los aliados que elija: la nube obedece a su báculo.",
+  "desatado": "+1 dado, y la nube invocada por la técnica ocupa un cubo de 6 m en lugar de 3 m."
+ },
+ "wizarmon_x": {
+  "habilidades": [
+   {
+    "id": "ilusiones",
+    "detalle": "Su magia ampliada por el X Antibody crea espejismos que confunden a sus rivales."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de CON o queda entumecido hasta el final de su siguiente turno.",
+  "desatado": "+1 dado, y el objetivo pierde todos sus PG temporales: el rayo deshace la materia de cualquier protección."
+ },
+ "wolvermon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Lleva armas distintas en cada brazo, con piezas móviles de Chrome Digizoid."
+   },
+   {
+    "id": "vista_aguda",
+    "detalle": "Tranquilo y callado, fija blancos a enorme distancia antes de abrir fuego."
+   }
+  ],
+  "sello": "Si algún objetivo falla la salvación por 5 o más, desaparece la cobertura no mágica en 3 m alrededor de ese objetivo: la ráfaga la destroza.",
+  "desatado": "+1 dado, y un objetivo que falle la salvación es empujado 3 m: Wolvermon cambia al brazo de cohetes."
+ },
+ "woodmon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Inmóvil, pasa por un árbol seco más hasta que atrapa al que pasa."
+   },
+   {
+    "id": "absorber_datos",
+    "detalle": "Absorbe con sus raíces la energía de los Digimon que caen para sobrevivir."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un radio de 3 m a su alrededor se llena de raíces (terreno difícil) durante 1 asalto.",
+  "desatado": "Sus raíces brotan bajo un segundo objetivo a 3 m del primero, que recibe el mismo ataque, sin perder dados."
+ },
+ "wormmon": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Del mismo linaje antiguo que Veemon, se combina por DNA y viste Digihuevos de armadura."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de DES o queda ralentizado hasta el final de su siguiente turno: la red pegajosa entorpece cada paso.",
+  "desatado": "La red se abre y alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "xiangpengmon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Su sombra podría cubrir varias montañas cuando bate las alas."
+   },
+   {
+    "id": "control_clima",
+    "detalle": "Mientras duerme mantiene el equilibrio de las aguas; al despertar, desata tormentas sobre el mar."
+   },
+   {
+    "id": "anfibio",
+    "detalle": "Duerme en lo más hondo del océano de la Red, con Digimon marinos anidando entre sus pliegues."
+   }
+  ],
+  "sello": "Al usarla, un radio de 3 m alrededor del objetivo queda inundado (terreno difícil) durante 1 asalto.",
+  "desatado": "El océano entero cae: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "xiaomon": {
+  "habilidades": [],
+  "sello": "Si el Tamer de Xiaomon está a 3 m o menos de él, la técnica tiene +2 al ataque: obedece al instante a quien le hace caso.",
+  "desatado": null
+ },
+ "xingtianmon": {
+  "habilidades": [
+   {
+    "id": "presencia_terrible",
+    "detalle": "Con Thunderous Roar, su rugido de demonio sin cuello hiela a los rivales."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Con Shield Cry alza su escudo y resiste aunque la batalla esté perdida."
+   }
+  ],
+  "sello": "Si Xingtianmon tiene la mitad de sus PG o menos y la tirada de ataque supera la CA del objetivo por 5 o más, este queda derribado: cuanto peor va, más fuerte golpea.",
+  "desatado": "+1 dado, y Xingtianmon gana PG temporales iguales a su BC × 2: alza el escudo mientras el hacha cae."
+ },
+ "xiquemon": {
+  "habilidades": [
+   {
+    "id": "anfibio",
+    "detalle": "Su DigiCore guarda datos de pez: con gafas de buceo se mueve igual por agua que por aire."
+   }
+  ],
+  "sello": "Tras usarla, Xiquemon se mueve hasta 3 m sin provocar ataques de oportunidad: sale del agua o vuelve al aire de un aletazo.",
+  "desatado": "+1 dado, y un radio de 3 m alrededor del objetivo queda encharcado (terreno difícil) durante 1 asalto."
+ },
+ "yarmon": {
+  "habilidades": [],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de CON o queda cegado hasta el final de su siguiente turno: la tinta le tapa los ojos.",
+  "desatado": null
+ },
+ "yakiimon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Batata recién asada: quien le golpea se quema con el calor de su piel."
+   }
+  ],
+  "sello": "Si Yakiimon está ardiendo o dentro de un terreno en llamas, la técnica gana +1 dado: cuanto más se calienta, mejor pega.",
+  "desatado": "+1 dado (no se suma al del Sello), y antes de golpear Yakiimon se mueve hasta 3 m sin provocar ataques de oportunidad: su juego de pies lo pone a tiro."
+ },
+ "yammamon": {
+  "habilidades": [
+   {
+    "id": "vista_aguda",
+    "detalle": "Sus ojos compuestos de libélula siguen cualquier movimiento a gran distancia."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda marcado: sus ojos de libélula no lo pierden de vista.",
+  "desatado": "+1 dado, y tras usarla Yanmamon se mueve hasta 3 m sin provocar ataques de oportunidad."
+ },
+ "yaksamon": {
+  "habilidades": [
+   {
+    "id": "telepatia",
+    "detalle": "Domina las artes secretas y todas las habilidades psíquicas; habla sin mover los labios."
+   }
+  ],
+  "sello": "Si algún objetivo falla la salvación por 5 o más, un aliado a 3 m de Yasyamon gana PG temporales iguales al BC de Yasyamon × 2: una espada ataca y la otra protege al débil.",
+  "desatado": "+1 dado, y un objetivo que falle la salvación hace una salvación de CON o queda debilitado: la furia del dios aplasta su voluntad."
+ },
+ "yihumon": {
+  "habilidades": [
+   {
+    "id": "vuelo",
+    "detalle": "Las alas que brotan de sus brazos lo llevan desde las cumbres de Jakeizan."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Desata vendavales (terreno de viento, difícil); sus técnicas de viento ignoran la resistencia."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de CAR o queda sellado hasta el final de su siguiente turno: un talismán amarillo se le pega a la frente.",
+  "desatado": "El viento rasga el cielo: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "pyocomon": {
+  "habilidades": [],
+  "sello": "Si un aliado está a 3 m o menos del objetivo, la técnica tiene +2 al ataque: los Yokomon nunca van solos.",
+  "desatado": null
+ },
+ "yolkmon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "El cascarón de su Digi-Egg lo camufla en los nidos ajenos hasta que digievoluciona."
+   }
+  ],
+  "sello": "Tras usarla, Yolkmon se esconde en su cascarón: gana PG temporales iguales a su BC × 2 hasta el principio de su siguiente turno.",
+  "desatado": null
+ },
+ "youkomon": {
+  "habilidades": [
+   {
+    "id": "ilusiones",
+    "detalle": "Su enorme energía espiritual y su talento para los conjuros crean fuegos fatuos engañosos."
+   }
+  ],
+  "sello": "Si el objetivo ya estaba ardiendo y la tirada de ataque supera su CA por 5 o más, hace una salvación de SAB o queda asustado hasta el final de su siguiente turno.",
+  "desatado": "Nueve esferas de fuego, una por cola: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "yoxtuyoxtumon": {
+  "habilidades": [
+   {
+    "id": "agarrar",
+    "detalle": "El yoyó liso de su mano izquierda se enrolla y sujeta a su rival."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Yoxtu!Yoxtu!mon lo atrae 3 m hacia sí: el yoyó vuelve a su mano y lo trae consigo.",
+  "desatado": "+1 dado, y el objetivo pierde todos sus PG temporales: el yoyó de pinchos lo rasga a la vuelta."
+ },
+ "yukimibotamon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_helado",
+    "detalle": "Pelusa gélida al tacto: quien la golpea queda entumecido de frío."
+   }
+  ],
+  "sello": "Contra un objetivo mojado o que esté en el agua, la técnica gana +1 dado: el agua se escarcha al instante.",
+  "desatado": null
+ },
+ "yuramon": {
+  "habilidades": [
+   {
+    "id": "levitar",
+    "detalle": "Semilla peluda que flota a merced del viento, como la pelusa de un diente de león."
+   }
+  ],
+  "sello": "Tras usarla, Yuramon se deja llevar por el aire: se mueve hasta 3 m sin provocar ataques de oportunidad.",
+  "desatado": null
+ },
+ "zamielmon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Líder del Ejército de Espíritus del Bosque: se funde con arboledas y praderas."
+   },
+   {
+    "id": "vista_aguda",
+    "detalle": "Francotirador sereno, acierta a la cabeza desde distancias imposibles."
+   }
+  ],
+  "sello": "Si Zamielmon está escondido, invisible o tras cobertura al usarla, la técnica gana +1 dado: dispara desde la arboleda.",
+  "desatado": "La técnica es además Certera (+2 al ataque, ignora la cobertura media y de tres cuartos): la flecha atraviesa follaje, niebla y corazas."
+ },
+ "zanbamon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Fundido con su montura, le encanta cargar el primero contra el enemigo."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "General del cuerpo de Musyamon, llama a sus tropas al combate."
+   }
+  ],
+  "sello": "Antes de usarla, Zanbamon se mueve hasta 3 m sin provocar ataques de oportunidad: siempre carga el primero.",
+  "desatado": "+1 dado, y cada aliado a 9 m de Zanbamon tiene ventaja en su próximo ataque: el general arrastra a sus tropas tras su carga."
+ },
+ "zanmetsumon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Cinco hojas, una en cada mano y otra en la cola, cortan en todas direcciones."
+   },
+   {
+    "id": "agarrar",
+    "detalle": "Con Gokumon-Shibari inmoviliza al rival entre sus espadas."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde sus PG temporales y la ventaja pendiente: cinco cortes no dejan defensa en pie.",
+  "desatado": "Las cinco espadas cortan a la vez: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "zdgarurumon": {
+  "habilidades": [
+   {
+    "id": "sensores",
+    "detalle": "Sus miras láser fijan cientos de blancos a la vez."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Lobo cíborg convertido en tanque viviente, derriba muros a cañonazos."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Va cargado de armas con munición real y mantiene el fuego durante horas."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda marcado: las miras láser lo fijan para el siguiente disparo.",
+  "desatado": "Sus miras fijan a otro blanco: la técnica alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "zeedmillenniumon": {
+  "habilidades": [
+   {
+    "id": "manipular_tiempo",
+    "detalle": "Rey malvado que surca el tiempo: el instante de su presa le pertenece."
+   },
+   {
+    "id": "portal",
+    "detalle": "Viaja entre mundos y épocas con la intención de destruirlos todos."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "El alma oscura de Millenniummon, encadenada por sus bandas, aterra a quien la mira."
+   }
+  ],
+  "sello": "Contra un objetivo ralentizado, la técnica gana +1 dado: el tiempo de su presa ya le pertenece.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra ralentizado, queda marcado y los ataques contra él tienen ventaja hasta el final de su siguiente turno."
+ },
+ "zekegreymon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Un MetalGreymon de armadura dorada, enorme y aun así ligero."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Trident Fang, Plasma Railgun y Zeig Flame: todo su cuerpo es un arsenal."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de CON o queda cegado hasta el final de su siguiente turno: la armadura dorada refleja la luz.",
+  "desatado": "+1 dado, y antes o después de golpear ZeigGreymon se mueve hasta 3 m sin provocar ataques de oportunidad: pese a su peso, es inesperadamente ágil."
+ },
+ "zenimon": {
+  "habilidades": [
+   {
+    "id": "constructo",
+    "detalle": "Criatura mecánica con forma de moneda de cinco yenes; no come ni duerme en la maleta de Ganemon."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, Zenimon lo atrae 3 m hacia sí: su pulso magnético lo arrastra como a una moneda.",
+  "desatado": "+1 dado, y el objetivo pierde la ventaja que tuviera pendiente en su próximo ataque: la moneda le cobra la suerte que llevaba encima."
+ },
+ "zephagamon": {
+  "habilidades": [
+   {
+    "id": "control_clima",
+    "detalle": "Dios del viento: trae brisas cálidas que maduran los frutos del bosque."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Protector de los Digimon y del entorno, sus remolinos resguardan a los suyos."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, un aliado a 3 m de Zephagamon gana PG temporales iguales al BC de Zephagamon × 2: los remolinos lo envuelven.",
+  "desatado": "El vendaval divino alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados, y también lo empuja."
+ },
+ "shutumon": {
+  "habilidades": [
+   {
+    "id": "dominio_elemental",
+    "detalle": "Agita el aire a su antojo (terreno de viento, difícil); sus técnicas de viento ignoran la resistencia."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "De movimientos lánguidos, pero cruza el campo de un aletazo cuando le conviene."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este queda marcado: Zephyrmon le anuncia la desgracia y deja que otros la cumplan.",
+  "desatado": "+1 dado, y tras el tajo Zephyrmon vuela hasta 3 m sin provocar ataques de oportunidad."
+ },
+ "zerimon": {
+  "habilidades": [],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde todos sus PG temporales: las burbujas ácidas disuelven la protección.",
+  "desatado": null
+ },
+ "zhuqiaomon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Señor de las llamas: reduce a cenizas cuanto se le acerca."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Prende el suelo en llamas (terreno de fuego); sus técnicas de fuego ignoran la resistencia."
+   },
+   {
+    "id": "renacer",
+    "detalle": "Como el ave bermellón del sur, renace de sus propias cenizas."
+   }
+  ],
+  "sello": "Contra un objetivo que ya estaba ardiendo, la técnica gana +1 dado: las llamas del soberano no perdonan dos veces.",
+  "desatado": "Alcanza también a un segundo objetivo a 3 m del primero, sin perder dados, y un radio de 3 m alrededor del objetivo arde 1 asalto (1 dado de poder de fuego al entrar o empezar turno)."
+ },
+ "zombieplutomon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Solo conserva el hambre de devorar datos ajenos, un hambre que nunca sacia."
+   },
+   {
+    "id": "aura_oscura",
+    "detalle": "Su carne en descomposición pudre los datos de quienes lo rodean."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este hace una salvación de CON o queda debilitado hasta el final de su siguiente turno: le arranca los datos a mordiscos.",
+  "desatado": "La técnica drena todo el daño infligido en lugar de la mitad: un hambre que nunca se sacia."
+ },
+ "zubaeagermon": {
+  "habilidades": [
+   {
+    "id": "zancada",
+    "detalle": "Avanza siempre, aunque sea a rastras, sea el camino llano o escabroso."
+   }
+  ],
+  "sello": "Si la tirada de ataque falla, la Firma no se gasta: sigue lista sin necesidad de recarga. ZubaEagermon sigue adelante aunque sea a rastras.",
+  "desatado": "+1 dado, y tras el tajo ZubaEagermon avanza hasta 3 m sin provocar ataques de oportunidad."
+ },
+ "zubamon": {
+  "habilidades": [
+   {
+    "id": "detectar_mal",
+    "detalle": "Odia todo lo torcido: como Legend-Arm, intuye la corrupción allí donde se esconde."
+   }
+  ],
+  "sello": "Si la tirada de ataque supera la CA del objetivo por 5 o más, este pierde todos sus PG temporales: el picado de la Legend-Arm parte cualquier defensa torcida.",
+  "desatado": "+1 dado, y un aliado a 3 m de Zubamon tiene ventaja en su próximo ataque: brilla como un arma legendaria."
+ },
+ "zudomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su armadura, hecha con pieles y caparazones de rivales vencidos, protege sus músculos."
+   },
+   {
+    "id": "monta",
+    "detalle": "Lleva a su Tamer a hombros sin esfuerzo, por tierra o por mar."
+   }
+  ],
+  "sello": "Contra un objetivo derribado o congelado, la técnica gana +1 dado: el martillo cae con todo su peso.",
+  "desatado": "El suelo tiembla: el martillazo alcanza también a un segundo objetivo a 3 m del primero con el mismo ataque, sin perder dados."
+ },
+ "zurumon": {
+  "habilidades": [],
+  "sello": "Contra un objetivo que ya estaba envenenado, la técnica gana +1 dado: su toxicidad se acumula.",
+  "desatado": null
+ }
+}

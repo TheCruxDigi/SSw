@@ -8,7 +8,10 @@ Digimon y todos sus nombres, personajes y técnicas pertenecen a sus propietario
 
 | Carpeta o archivo | Contenido |
 |---|---|
-| `web/` | La web del manual: lector de capítulos, bestiario con buscador y plantillas de amenaza, constructor de encuentros y ficha de personaje editable. |
+| `web/` | La web del manual: lector de capítulos, bestiario con buscador y plantillas de amenaza, constructor de encuentros y ficha de personaje editable. Un botón cambia entre la edición 2d6 y la d20. |
+| `d20/` | Edición d20 (beta, basada en el SRD 5.1, CC-BY-4.0): biblia de reglas, catálogo de 63 habilidades especiales, generador de fichas d20 y troceado de capítulos. |
+| `fuentes/d20/` | Habilidades especiales elegidas y Sello/Desatado en d20 de cada Digimon. |
+| `fuentes/firmas/` | Efectos de Firma (nombre, Sello, Desatado y Eco) de los 1.316 Digimon con Firma. |
 | `capitulos/` | Los 19 capítulos del manual en Markdown: fundamentos, personajes, reglas, guía del DJ, personajes pregenerados, 3 aventuras y referencia rápida. |
 | `fuentes/biblia_reglas.md` | La biblia de reglas: la referencia técnica completa y la fuente de verdad del sistema. |
 | `fuentes/cambios.md` | Cambios aplicados tras la verificación del sistema con simulaciones. |
@@ -30,9 +33,13 @@ python3 tools/make_manifest.py capitulos /tmp/caps fuentes/biblia_reglas.md capi
 
 # 2. Fichas del bestiario, reglas y capítulos de la web
 python3 tools/build_web.py --spec tools/spec_fichas.json --all ruta/a/all.json --gen tools/gen.py \
-  --out web --desc fuentes/descripciones --chapters /tmp/caps
+  --out web --desc fuentes/descripciones --firmas fuentes/firmas --chapters /tmp/caps
 
-# 3. Ficha en PDF
+# 3. Edición d20: fichas y capítulos
+python3 d20/gen_d20.py web/data/bestiario.json d20/habilidades.json fuentes/d20 web/data/bestiario_d20.json
+python3 d20/make_d20_chapters.py d20/biblia_d20.md d20/habilidades.json web/capitulos_d20
+
+# 4. Ficha en PDF
 python3 tools/make_sheet_pdf.py descargas/ficha-lazos-de-codigo.pdf
 ```
 

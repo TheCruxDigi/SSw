@@ -1,0 +1,1682 @@
+{
+ "shadramon": {
+  "habilidades": [
+   {
+    "id": "aura_oscura",
+    "detalle": "Sus llamas siniestras, nacidas de un Digihuevo mal recibido, consumen los datos y no dejan cicatrizar las heridas."
+   }
+  ],
+  "sello": "Si el objetivo falla por 5 o más la salvación contra ardiendo, queda además marcado: la llama siniestra le deja una huella que lo delata.",
+  "desatado": "Un círculo de 3 m alrededor del objetivo arde hasta el principio del siguiente turno de Shadramon: quien entre o empiece su turno en él recibe 1d8 de fuego."
+ },
+ "shagaramon": {
+  "habilidades": [
+   {
+    "id": "portal",
+    "detalle": "Abre puertas de corriente que conectan el océano; solo funcionan entre masas de agua del Mundo Digital."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Agua: convierte el terreno en corrientes marinas y charcos profundos que obedecen a sus telas."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Dragón sagrado colosal que guarda la entrada de Ryushogu; su cola arrasa muros de cristal."
+   }
+  ],
+  "sello": "Las criaturas que fallen la salvación por 5 o más quedan además ralentizadas hasta el final de su siguiente turno: el radio inundado se convierte en terreno difícil durante 1 asalto.",
+  "desatado": "Las criaturas que superen la salvación también son empujadas 6 m, y Shagaramon elige un único punto hacia el que la corriente arrastra a todas las alcanzadas."
+ },
+ "shakamon": {
+  "habilidades": [
+   {
+    "id": "vision_verdadera",
+    "detalle": "Sabe todo lo que hay entre el cielo y la tierra: ninguna forma falsa engaña su mirada iluminada."
+   },
+   {
+    "id": "telepatia",
+    "detalle": "Imparte sus enseñanzas mente a mente, sin palabras, a quien quiera escucharle."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Su serenidad de Tathāgata protege a los aliados cercanos del miedo y de la oscuridad."
+   }
+  ],
+  "sello": "Al usarla, elige: Enseñanza (un aliado a 9 m tiene ventaja en su próximo ataque) o Prueba (si el ataque supera la CA por 5 o más, el objetivo queda marcado).",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno: la luz de la iluminación muestra a todos dónde flaquea su alma."
+ },
+ "shakkoumon": {
+  "habilidades": [
+   {
+    "id": "aura_sagrada",
+    "detalle": "Hereda la luz de Angemon: su presencia cálida aleja el miedo de los aliados cercanos."
+   },
+   {
+    "id": "vision_ciega",
+    "detalle": "Gira cabeza y torso 360 grados y percibe cada movimiento a su alrededor, sin ángulo muerto."
+   }
+  ],
+  "sello": "Al usarla, elige: Ataque (la técnica ignora la cobertura media y de tres cuartos) o Guardia (si el ataque supera la CA por 5 o más, gana PG temporales iguales a su BC × 2).",
+  "desatado": "Gira el torso y lanza discos hacia dos frentes: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "shamamon": {
+  "habilidades": [
+   {
+    "id": "telepatia",
+    "detalle": "En pleno trance ritual oye la voz de los dioses y transmite sus mensajes, mente a mente, a su clan."
+   }
+  ],
+  "sello": "Si el objetivo falla por 5 o más la salvación contra aturdido, el martillo hunde el suelo: un círculo de 3 m a su alrededor es terreno difícil durante 1 asalto.",
+  "desatado": "La técnica suma +1 dado y, al impactar, Shamamon y un aliado a 9 m ganan PG temporales iguales a su BC × 2: los dioses le hablan."
+ },
+ "shonitamon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Técnicas ninja de infiltración: se funde con la niebla y el vapor de las aguas termales que tanto frecuenta."
+   }
+  ],
+  "sello": "Si un objetivo falla la salvación por 5 o más, una niebla llena un radio de 3 m a su alrededor durante 1 asalto: zona muy oscurecida para todos menos para Shonitamon, que siempre queda a la vista.",
+  "desatado": "La técnica no pierde dados por área y la niebla cubre también un radio de 3 m alrededor de Shonitamon: sus aliados dentro quedan invisibles hasta que ataquen o termine su siguiente turno."
+ },
+ "sharkmon": {
+  "habilidades": [
+   {
+    "id": "anfibio",
+    "detalle": "Tiburón medio mecánico: patrulla el Net Ocean y respira bajo el agua sin dificultad."
+   },
+   {
+    "id": "absorber_datos",
+    "detalle": "Devora sin piedad a los Digimon que pesca con el ancla y se nutre de sus datos."
+   }
+  ],
+  "sello": "Si una criatura falla la salvación por 5 o más, el ancla la engancha: Sharkmon la atrae 3 m hacia él.",
+  "desatado": "La técnica no pierde dados por área, y el radio alcanzado queda sembrado de restos en llamas durante 1 asalto: 1d10 de fuego a quien entre o empiece su turno en él."
+ },
+ "shawujinmon": {
+  "habilidades": [
+   {
+    "id": "dominio_elemental",
+    "detalle": "Agua: su bastón superpesado levanta remolinos y charcos profundos alrededor de los enemigos."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Sus nueve cuentas sellan la oscuridad y transmiten serenidad celestial a los aliados cercanos."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, queda además ralentizado hasta el final de su siguiente turno: el remolino lo sigue arrastrando.",
+  "desatado": "El remolino alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados, y Shawujinmon empuja a ambos hacia un mismo punto."
+ },
+ "sheepmon": {
+  "habilidades": [
+   {
+    "id": "empatia_animal",
+    "detalle": "Oveja tranquila: los Digimon bestia se calman y le escuchan cuando bala con su ritmo pausado."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, la lana flotante llena un radio de 3 m alrededor del objetivo durante 1 asalto: terreno difícil que da cobertura media a quien esté dentro.",
+  "desatado": "El Wool Ball Booster suelta dos ovillos: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "shellmon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Se refugia en su concha de cangrejo ermitaño, que protege su cuerpo blando de los golpes."
+   }
+  ],
+  "sello": "Si Shellmon está en el agua o en terreno de agua, la técnica suma +1 dado: bombea el mar entero por la boca.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el chorro empuja al objetivo 3 m. Este dado no se suma al del Sello."
+ },
+ "karatukinumemon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Dentro de la concha que buscó aguanta patadas y pisotones; fuera de ella sigue siendo blando."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, KaratukiNumemon se encierra tras disparar y gana PG temporales iguales a su BC × 2.",
+  "desatado": "El objetivo tiene desventaja en las salvaciones contra ralentizado y provocado: la baba pegajosa y el lloriqueo lo hacen imposible de ignorar."
+ },
+ "shimaunimon": {
+  "habilidades": [
+   {
+    "id": "monta",
+    "detalle": "Unicornio cebra de patas formidables: lleva a su Tamer al galope por llanuras y caminos."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Galopa por el suelo con tal velocidad que compensa de sobra no tener alas."
+   }
+  ],
+  "sello": "Tras resolverla, Shimaunimon puede moverse 3 m sin provocar ataques de oportunidad: dispara y sigue galopando.",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): su cuerno, más afilado que el de Unimon, atraviesa cualquier coraza."
+ },
+ "shinegreymon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "Sus alas brillantes concentran el calor del sol y lo irradian a su alrededor."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Dragón resplandeciente enorme; con la GeoGrey Sword parte montañas y fortalezas."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, un círculo de 3 m alrededor del objetivo arde durante 1 asalto: 1d12 de fuego a quien entre o empiece su turno en él.",
+  "desatado": "Despliega las alas y suelta toda la luz acumulada: la técnica se convierte en un área de 9 m de radio centrada en el objetivo (salvación de DES) sin perder dados por área."
+ },
+ "shinegreymonburstmode": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Envuelto en un aura de llamas de energía solar que quema a quien se le acerque."
+   },
+   {
+    "id": "gigante",
+    "detalle": "En modo Burst, su gran espada explosiva funde murallas y estructuras de un tajo."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo pierde sus PG temporales y la ventaja que tuviera preparada: la espada explosiva funde cualquier defensa.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo queda roto (−2 CA hasta el final de la escena) sin salvación: Corona Blaze Sword une espada y escudo en un solo tajo."
+ },
+ "shinegreymon_ruin": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Su hambre sin fin devora la energía de los caídos y la vuelve oscura."
+   },
+   {
+    "id": "aura_oscura",
+    "detalle": "El resentimiento convierte su luz solar en una energía oscura que impide curarse."
+   }
+  ],
+  "sello": "Si ShineGreymon recibió daño desde el final de su turno anterior, la técnica suma +1 dado: el resentimiento vuelve oscura la luz.",
+  "desatado": "La técnica suma +1 dado y, al impactar, ShineGreymon recupera PG iguales a su BC × 2: devora la luz de lo que destruye. Este dado no se suma al del Sello."
+ },
+ "shinmonzaemon": {
+  "habilidades": [
+   {
+    "id": "sueno_sombra",
+    "detalle": "Nacido de pesadillas absorbidas, se cuela en los sueños de los pequeños para mostrarles horrores."
+   },
+   {
+    "id": "cambiaformas",
+    "detalle": "Su cuerpo de limo y nube adopta la forma de cualquier peluche adorable."
+   }
+  ],
+  "sello": "Las criaturas que fallen la salvación por 5 o más quedan además ralentizadas: la lluvia de pesadilla las empapa y les pesa (repiten al final de cada turno).",
+  "desatado": "Las nubes de pesadilla cubren el campo: la técnica alcanza a todos los enemigos que Shinmonzaemon vea a 18 m o menos, con el daño de área."
+ },
+ "shishimamon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Devorador de la Noche: absorbe la oscuridad de los vencidos y la devuelve convertida en luz."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Una vez convirtió la noche en día; su melena irradia luz sagrada a voluntad."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Oscuro, la técnica suma +1 dado: absorbe su oscuridad y la devuelve como luz.",
+  "desatado": "Al impactar, todos los aliados a 6 m de Shishimamon terminan todos sus estados: el destello sagrado barre toda sombra."
+ },
+ "shivamon": {
+  "habilidades": [
+   {
+    "id": "vision_verdadera",
+    "detalle": "La mente serena del yogui ve a través de ilusiones y disfraces de los irrespetuosos."
+   },
+   {
+    "id": "telepatia",
+    "detalle": "Guía a sus discípulos con la mente, sin romper la quietud de su meditación."
+   }
+  ],
+  "sello": "Si Shivamon no se ha movido este turno antes de lanzarla, la técnica ignora la cobertura y la invisibilidad: la mente serena ve a través de todo.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno y queda marcado: el rayo de luz vegetal lo inmoviliza ante sus verdugos."
+ },
+ "shoemon": {
+  "habilidades": [
+   {
+    "id": "sentido_sismico",
+    "detalle": "Cobarde y alerta, detecta las amenazas por las vibraciones del suelo a través de su suela."
+   }
+  ],
+  "sello": "Tras resolverla, Shoemon puede saltar 3 m sin provocar ataques de oportunidad: pisa fuerte y sale corriendo.",
+  "desatado": "La técnica suma +1 dado y el pisotón hace temblar el suelo: un círculo de 3 m alrededor del objetivo es terreno difícil durante 1 asalto."
+ },
+ "shoeshoemon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Patina sobre las copas de los árboles como si llevara ruedas: nunca se queda quieto."
+   },
+   {
+    "id": "trepar",
+    "detalle": "Sus suelas adherentes ruedan por troncos y paredes verticales sin perder el equilibrio."
+   }
+  ],
+  "sello": "Antes de usarla, ShoeShoemon puede patinar 3 m sin provocar ataques de oportunidad, y tras resolverla otros 3 m: pisa y sigue rodando.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el impulso empuja al objetivo 3 m."
+ },
+ "tonosamagekomon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Los cuernos de sus hombros tocan melodías de karaoke y su voz grave anima a todo el estanque."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "Su porte de dignatario samurái y su voz profunda intimidan a cualquiera que le desafíe."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, otro enemigo a 6 m de TonosamaGekomon queda también provocado (salvación de SAB): nadie ignora su voz grave.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra confundido: el puñetazo suena a un acorde tan desafinado que nadie piensa con claridad."
+ },
+ "shootingstarmon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Se lanza desde el cielo convertido en meteoro ardiente y arrolla a quien encuentre."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Guerrero estelar que brilla como una estrella fugaz en plena caída."
+   }
+  ],
+  "sello": "Tras resolverla, ShootingStarmon puede moverse 3 m sin provocar ataques de oportunidad: rebota del impacto como una estrella fugaz.",
+  "desatado": "La técnica suma +1 dado y la voluntad de los Pickmon lo impulsa: un aliado a 9 m tiene ventaja en su próximo ataque."
+ },
+ "shootmon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Su cañón integrado dispara balones de cualquier deporte entre golpe y golpe."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "Su sonrisa perpetua intimida tanto que lo apodan el Entrenador Infernal."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, la pelota rebota hacia el equipo: Shootmon o un aliado a 6 m gana PG temporales iguales a su BC × 2.",
+  "desatado": "El cañón dispara dos pelotas: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "shortmon": {
+  "habilidades": [
+   {
+    "id": "sanador",
+    "detalle": "Reparte porciones de tarta de nata recién hecha que reparan datos y endulzan el ánimo."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, un aliado a 9 m recupera PG iguales a su BC × 2: le lanza una fresa de la tarta.",
+  "desatado": "Shortmon reparte porciones de tarta: todos los aliados a 4,5 m recuperan 1d8 + su BC PG."
+ },
+ "shoutmon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Canta rock con su inseparable micrófono y convierte la pasión del público en energía."
+   }
+  ],
+  "sello": "Si el Tamer de Shoutmon está a 9 m o menos, la técnica suma +1 dado: canta para quien reconoce como amigo.",
+  "desatado": "La técnica drena todo el daño infligido en lugar de la mitad: Shoutmon convierte la pasión del público en energía."
+ },
+ "shoutmon_king": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Su micrófono McField es instrumento y arma: cada actuación levanta el ánimo de sus aliados."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Como rey del escenario, su voz firme impide que sus compañeros cedan al miedo."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, un aliado a 9 m tiene ventaja en su próximo ataque: el rey marca el ritmo y los demás lo siguen.",
+  "desatado": "La técnica drena todo el daño infligido en lugar de la mitad, y Shoutmon reparte esos PG como quiera entre él y los aliados a 9 m."
+ },
+ "dorulucannon": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Es el modo bombardeo que nace al unirse Dorulumon con Shoutmon (Xros)."
+   }
+  ],
+  "sello": "Si un aliado atacó al mismo objetivo antes en este asalto, la técnica suma +1 dado: otro Digimon le ha marcado la puntería.",
+  "desatado": "Si el ataque falla, el objetivo recibe igualmente la mitad del daño, sin efectos: toda la energía disponible acaba llegando."
+ },
+ "jetsparrow": {
+  "habilidades": [
+   {
+    "id": "monta",
+    "detalle": "Propulsor supersónico que lleva pasajeros a su espalda si tienen voluntad de hierro."
+   }
+  ],
+  "sello": "Al usarla, JetSparrow puede moverse 3 m antes o después, sin provocar ataques de oportunidad, y llevar consigo a un aliado adyacente.",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): el disparo sale a velocidad supersónica y nada lo desvía."
+ },
+ "starsword": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Espada formada al unirse Starmon y los Pickmon (Xros), lista para que la empuñe Shoutmon."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo no puede recuperar PG hasta el principio del siguiente turno de Starsword: la hoja dentada deja heridas que tardan en cerrar.",
+  "desatado": "La técnica suma +1 dado y la herida sangra: al principio de su siguiente turno, el objetivo recibe 1d6 de daño cortante."
+ },
+ "shoutmondx": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Une la agilidad de OmniShoutmon y la fuerza bruta de ZeigGreymon en un cuerpo dorado."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su cuerpo dorado protege sin restarle velocidad en el combate."
+   }
+  ],
+  "sello": "Al usarla, elige: Colmillo (si el ataque supera la CA por 5 o más, el objetivo queda marcado) o Guardia (un aliado a 9 m gana los PG temporales de la técnica en lugar de Shoutmon DX).",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno, y Shoutmon DX gana el doble de PG temporales."
+ },
+ "shoutmon_ex6": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Fusión de OmniShoutmon con varios Digimon evolucionados, de alas de oro y plata."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Su cuerpo dorado y plateado supera en defensa incluso a Shoutmon X7."
+   },
+   {
+    "id": "vuelo",
+    "detalle": "Sus alas brillantes de oro y plata lo llevan a toda velocidad por el cielo."
+   }
+  ],
+  "sello": "Al usarla, elige: Sol (si el ataque supera la CA por 5 o más, un círculo de 3 m alrededor del objetivo arde 1 asalto: 1d12 de fuego al entrar o empezar turno) o Plata (gana PG temporales iguales a su BC × 2).",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): el sable solar parte cualquier coraza."
+ },
+ "shoutmonx2": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Armadura viviente: Ballistamon aloja a Shoutmon y ambos multiplican su poder."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Fusionar dos potenciales le da un arsenal de golpes, rayos y munición."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: Ballistamon fija el blanco para el siguiente disparo.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo queda ralentizado hasta el final de su siguiente turno (sin salvación): la flecha lo clava en el sitio."
+ },
+ "shoutmonx3": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Físico: funde el instinto de combate de tres Digimon en un solo guerrero (Xros)."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Ágil y acróbata, desconcierta al rival con movimientos imprevisibles."
+   }
+  ],
+  "sello": "Al usarla, elige: Embestida (un objetivo que falle por 5 o más es empujado 3 m) o Acróbata (tras resolverla, se mueve 3 m sin provocar ataques de oportunidad).",
+  "desatado": "Los tres instintos golpean a la vez: la técnica alcanza a todas las criaturas en un radio de 4,5 m elegido dentro del alcance, sin perder dados por área."
+ },
+ "shoutmonx3gm": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Fusión de Shoutmon X3 con Greymon y MailBirdramon en forma de pterosaurio."
+   },
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Sus alas emiten una energía tan intensa que su calor quema incluso a distancia."
+   }
+  ],
+  "sello": "Al usarla, X3GM fija al objetivo desde el aire: el alcance de la técnica aumenta a 36 m sin desventaja.",
+  "desatado": "La técnica suma +1 dado y un círculo de 3 m alrededor del objetivo arde durante 1 asalto: 1d10 de fuego a quien entre o empiece su turno en él."
+ },
+ "shoutmonx3sd": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Forma de Dios Demonio: Shoutmon X3 unido a SkullKnightmon y DeadlyAxemon."
+   },
+   {
+    "id": "aura_oscura",
+    "detalle": "El viento ácido de la cabeza de monstruo de su brazo pudre las heridas y frena la curación."
+   }
+  ],
+  "sello": "Al usarla, elige: Tifón (el radio queda cubierto de ácido 1 asalto: 1d10 de veneno al entrar o empezar turno) o Victory Spear (una criatura que falle por 5 o más queda marcada).",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra envenenado: el tifón no deja aire limpio."
+ },
+ "shoutmonx4": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Victoria: el deseo de triunfo de cuatro Digimon fundido en un solo cuerpo."
+   },
+   {
+    "id": "zancada",
+    "detalle": "Especialista del combate en tierra: nada lo derriba ni lo frena el terreno."
+   }
+  ],
+  "sello": "Si el objetivo es de un nivel superior al de Shoutmon X4, la técnica suma +1 dado: existe solo para alcanzar el triunfo.",
+  "desatado": "Si el ataque falla, el objetivo recibe igualmente la mitad del daño, sin efectos: el Modo Victoria no acepta fallar."
+ },
+ "shoutmonx4b": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Caballo Divino: el Modo Victoria se une además con Beelzemon."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Tan veloz que, cuando crees haberlo dejado atrás, ya ha cruzado el horizonte."
+   }
+  ],
+  "sello": "Tras resolverla, X4B se mueve 3 m sin provocar ataques de oportunidad: cuando crees que lo tienes delante, ya ha pasado.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra ralentizado: el tajo celeste lo deja atrás, como si el tiempo se le hubiera parado."
+ },
+ "shoutmonx4k": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Caballero: suma a Knightmon y los PawnChessmon al Modo Victoria."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "El emblema de esperanza de su capa sostiene el valor de sus aliados cercanos."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el emblema de su capa brilla: X4K o un aliado a 6 m gana PG temporales iguales a su BC × 2.",
+  "desatado": "Alza la gran espada y los PawnChessmon cierran filas: X4K y todos sus aliados a 6 m ganan PG temporales iguales a su BC × 4."
+ },
+ "shoutmonx4s": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Shoutmon X4 empuña a Spadamon transformado y domina sus técnicas de espada."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Dispara balas desde la cabeza mientras corta con las armas de ambas manos."
+   }
+  ],
+  "sello": "Al usarla, elige: Bala (alcance 36 m sin desventaja) o Filo (la técnica es cuerpo a cuerpo y, si supera la CA por 5 o más, el objetivo pierde sus PG temporales).",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): Spadamon guía cada disparo como una estocada."
+ },
+ "shoutmonx5": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Finalista: la unión de cinco corazones, cima del Modo Victoria."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Cae sobre el rival con la fuerza de un meteorito y deja cráteres a su paso."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el impacto abre un cráter: un círculo de 3 m alrededor del objetivo es terreno difícil durante 1 asalto.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo hace una salvación de FUE o queda derribado."
+ },
+ "shoutmonx5b": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Guerrero Pegaso: Shoutmon X5 unido a la potencia de fuego de Beelzemon."
+   },
+   {
+    "id": "vuelo",
+    "detalle": "Galopa por el cielo convertido en un cometa resplandeciente."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Juega con sus rivales gracias a una velocidad que nadie alcanza."
+   }
+  ],
+  "sello": "Contra un objetivo que esté volando, la técnica suma +1 dado: X5B lo embiste en pleno cielo.",
+  "desatado": "El cometa atraviesa a dos enemigos: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "shoutmonx5s": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Space Fighter: Shoutmon X5 fusionado con un Spadamon convertido en arma."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Envuelve su hoja en un velo ardiente, como si llevara un pequeño sol."
+   }
+  ],
+  "sello": "Al usarla, elige: Chakram (ignora la cobertura y la invisibilidad) o Helioslasher (si supera la CA por 5 o más, un círculo de 3 m alrededor del objetivo arde 1 asalto: 1d12 de fuego).",
+  "desatado": "Dos discos de luz cósmica cruzan el campo: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "shoutmonx7": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Modo Ardor-Estallido: Shoutmon DX fusionado con otros cuatro Digimon."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Su cuerpo de Gold Digizoid desprende un aura divina que sostiene a sus aliados."
+   },
+   {
+    "id": "musica",
+    "detalle": "Cuatro corazones laten al ritmo del rock de Shoutmon; su canto inflama a sus compañeros."
+   }
+  ],
+  "sello": "Al usarla, elige: Ardor (si supera la CA por 5 o más, un círculo de 3 m alrededor del objetivo arde 1 asalto: 1d12 de fuego) o Rocker (un aliado a 9 m tiene ventaja en su próximo ataque).",
+  "desatado": "La técnica alcanza a todas las criaturas en 9 m alrededor del objetivo (salvación de DES) sin perder dados, y sus aliados a 9 m ganan PG temporales iguales a su BC × 2."
+ },
+ "shoutmonx7_superior": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "El despertar de Shoutmon X7, impulsado por un anhelo de paz absoluto."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "De su espalda brotan alas de luz sagrada que hacen retroceder a la oscuridad."
+   },
+   {
+    "id": "vuelo",
+    "detalle": "Sus alas de luz sagrada lo elevan sobre el campo de batalla."
+   }
+  ],
+  "sello": "Si un aliado está a 1,5 m del objetivo, la técnica suma +1 dado: X7 lleva la esperanza de quienes luchan a su lado.",
+  "desatado": "La técnica suma +1 dado y, al impactar, todos los aliados a 9 m terminan todos sus estados. Este dado no se suma al del Sello."
+ },
+ "shroudmon": {
+  "habilidades": [
+   {
+    "id": "presencia_terrible",
+    "detalle": "El Señor Demonio, dios de la matanza: basta su silueta de puños cerrados para helar la sangre."
+   },
+   {
+    "id": "firewall",
+    "detalle": "Su disciplina extrema le hace inmune a cualquier truco que intente desviarle de la pelea."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, queda además debilitado hasta el final de su siguiente turno: el puño prohibido le arranca las ganas de luchar.",
+  "desatado": "Si el objetivo queda asustado, cada enemigo a 6 m de él hace una salvación de SAB o queda también asustado de Shroudmon (repite): nadie quiere ser el siguiente."
+ },
+ "shurimon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "El Digihuevo de la Sinceridad le permite fundirse con la vegetación como una hoja al viento."
+   }
+  ],
+  "sello": "Al usarla, elige: Lejos (la técnica tiene alcance 18 m) o Punto ciego (un objetivo que falle la salvación por 5 o más queda marcado).",
+  "desatado": "Una lluvia de estrellas ninja: la técnica alcanza a todas las criaturas en un radio de 4,5 m dentro del alcance, sin perder dados por área."
+ },
+ "silphymon": {
+  "habilidades": [
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Los radares de sus orejas y la pantalla de su cabeza localizan enemigos de día o de noche."
+   },
+   {
+    "id": "fusion",
+    "detalle": "Fusión DNA de Aquilamon y Gatomon, unidos por la amistad de sus compañeros."
+   }
+  ],
+  "sello": "La técnica ignora la cobertura media y de tres cuartos: salta y dispara desde lo alto. Si supera la CA por 5 o más, se mueve además 3 m al aterrizar.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo pierde todos sus PG temporales."
+ },
+ "sinduramon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Esconde cabeza y alas en su armadura esférica, la más resistente de los Doce Devas."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Rueda como una bola de acero para abrir brecha en las líneas enemigas."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, Sinduramon se encierra en su armadura esférica tras el golpe y gana PG temporales iguales a su BC × 2.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: el rayo del Deva se clava en sus nervios."
+ },
+ "sirenmon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Su voz abarca ocho octavas y calma hasta el campo de batalla más enloquecido."
+   },
+   {
+    "id": "anfibio",
+    "detalle": "Mitad ave y mitad pez, canta igual de alegre en el aire que en el mar."
+   }
+  ],
+  "sello": "Si alguna criatura falla la salvación por 5 o más, un aliado a 9 m que oiga la sinfonía recupera PG iguales a su BC × 2.",
+  "desatado": "Todos los aliados a 6 m de Sirenmon terminan todos sus estados: la melodía devuelve la calma a quien la escucha."
+ },
+ "siriusmon": {
+  "habilidades": [
+   {
+    "id": "vision_verdadera",
+    "detalle": "Presiente el mal desde muy lejos y ve la verdadera forma de quien merece redención."
+   },
+   {
+    "id": "aura_sagrada",
+    "detalle": "Dragón justiciero de los Virus Busters: su presencia protege a los suyos de la oscuridad."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Dragón guerrero colosal que cae del cielo como una estrella fugaz."
+   }
+  ],
+  "sello": "Si un aliado a 9 m del objetivo tiene la mitad o menos de sus PG, la técnica suma +1 dado: Siriusmon cae como estrella fugaz sobre quien pidió ayuda.",
+  "desatado": "Los cañones gemelos Sylvia disparan a la vez: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "sistermonblanc": {
+  "habilidades": [
+   {
+    "id": "empatia_animal",
+    "detalle": "El conejo blanco de su cabeza le ayuda a entenderse con las criaturas pequeñas y tímidas."
+   }
+  ],
+  "sello": "Al impactar, un aliado a 9 m gana los PG temporales de la técnica en lugar de Sistermon Blanc: protege antes de protegerse.",
+  "desatado": "Clava la Cross Barbée en el suelo y levanta una barrera: ella y todos sus aliados a 4,5 m ganan PG temporales iguales a su BC × 4."
+ },
+ "sistermon_blanc_Awake": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "El estigma sagrado de su toca brilla al despertar y deslumbra a las criaturas oscuras."
+   }
+  ],
+  "sello": "Antes de usarla, Sistermon Blanc puede moverse 3 m sin provocar ataques de oportunidad: ya no se esconde, se lanza al frente.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el estigma sagrado deja al objetivo marcado."
+ },
+ "sistermon_ciel": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "De noche se vuelve una asesina silenciosa que se esconde en las sombras de las calles."
+   },
+   {
+    "id": "sensores",
+    "detalle": "Investiga problemas para Gankoomon y detecta enseguida el punto débil de un rival."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: Ciel anota su punto débil y lo señala a sus aliados.",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): Shirotsume Ichimonji corta justo por la grieta estudiada."
+ },
+ "sistermon_ciel_Awake": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Asesina silenciosa: se mueve entre sombras sin delatarse hasta el tajo final."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Su hoja se afila y se llena de luz con cada corte, hechizando a quien la mira."
+   }
+  ],
+  "sello": "Si Ciel ya usó su Firma antes en este combate, la técnica suma +1 dado: la hoja se afila y se llena de luz con cada tajo.",
+  "desatado": "Un corte elegante alcanza a dos enemigos: la técnica afecta también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "sistermonnoir": {
+  "habilidades": [
+   {
+    "id": "vista_aguda",
+    "detalle": "Apunta a Huckmon entre bromas con una puntería que no falla ni a gran distancia."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de SAB o queda hechizado hasta el final de su siguiente turno: le cuesta apuntar a alguien tan alegre.",
+  "desatado": "La técnica suma +1 dado y un aliado a 9 m tiene ventaja en su próximo ataque: Grand Sister Cruz, entrenamiento incluido."
+ },
+ "sistermon_noir_Awake": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "La fuerza salvaje despierta le da una agilidad felina a cuatro patas."
+   },
+   {
+    "id": "trepar",
+    "detalle": "Se mueve a ras de suelo y por paredes como un gato salvaje."
+   }
+  ],
+  "sello": "Al usarla, Noir puede moverse 3 m antes o después sin provocar ataques de oportunidad: salta a cuatro patas y dispara agachada.",
+  "desatado": "La técnica suma +1 dado y Noir queda invisible tras disparar, hasta el principio de su siguiente turno o hasta que ataque."
+ },
+ "skadimon": {
+  "habilidades": [
+   {
+    "id": "control_clima",
+    "detalle": "Gobierna Thrymheim: hace caer nieve tranquila o ventiscas sobre su pequeño país montañoso."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Hielo: cubre el suelo de nieve y escarcha que entorpecen a sus enemigos."
+   },
+   {
+    "id": "cuerpo_helado",
+    "detalle": "Su cuerpo de muñeco de nieve es una armadura de hielo que entumece a quien la golpea."
+   }
+  ],
+  "sello": "Al impactar, el cubo de la invocación queda cubierto de nieve mientras dure: es terreno difícil para los enemigos de Skadimon.",
+  "desatado": "Como un alud, la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados, y 3 m alrededor de ambos son terreno difícil 1 asalto."
+ },
+ "skullbaluchimon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "Esqueleto colosal del mayor mamífero terrestre; arrasa edificios por puro reflejo."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "La bruma negra y fría de su DigiCore infunde terror a todo lo que lo rodea."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de FUE o queda derribado: el gigante lo aplasta sin pensar.",
+  "desatado": "La técnica suma +1 dado y un círculo de 3 m alrededor del objetivo queda sembrado de huesos y escombros: terreno difícil durante 1 asalto."
+ },
+ "skullgreymon": {
+  "habilidades": [
+   {
+    "id": "presencia_terrible",
+    "detalle": "Los Digimon de la zona huyen en cuanto oyen sus pasos de esqueleto."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Esqueleto de dinosaurio enorme que derriba muros sin una pizca de razón."
+   }
+  ],
+  "sello": "Si SkullGreymon tiene la mitad o menos de sus PG, la técnica suma +1 dado: sigue luchando aunque su cuerpo se deshaga.",
+  "desatado": "La técnica suma +1 dado y la explosión contamina el lugar 1 asalto: 3 m alrededor del objetivo, 1d10 de oscuridad al entrar o empezar turno. Este dado no se suma al del Sello."
+ },
+ "skullknightmon": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Hermano jurado de DeadlyAxemon: se combinan en el Modo Caballero o en el Modo Gran Hacha."
+   }
+  ],
+  "sello": "Si un aliado está a 1,5 m del objetivo, la técnica suma +1 dado: SkullKnightmon ataca por donde no lo esperan.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno: el guiño del ojo del pecho le hace bajar la guardia."
+ },
+ "skullknightmoncavaliermode": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Monta a DeadlyAxemon y se lanza como una bala contra el enemigo."
+   },
+   {
+    "id": "zancada",
+    "detalle": "Su montura incansable arrolla cualquier obstáculo del terreno."
+   }
+  ],
+  "sello": "Antes de usarla, SkullKnightmon puede moverse 3 m ignorando el terreno difícil y sin provocar ataques de oportunidad: la montura arrolla cualquier obstáculo.",
+  "desatado": "La técnica suma +1 dado y, al impactar, la carga empuja al objetivo 3 m."
+ },
+ "skullknightmonbigaxemode": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "DeadlyAxemon convertido en hacha gigante y viva en manos de SkullKnightmon."
+   },
+   {
+    "id": "zancada",
+    "detalle": "El peso del hacha viva lo ancla al suelo: avanza aplastando obstáculos sin que nada lo derribe."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el hachazo parte el suelo: 3 m alrededor del objetivo son terreno difícil 1 asalto y no dan cobertura.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo hace una salvación de FUE o queda derribado por el peso del hacha."
+ },
+ "skullmammon": {
+  "habilidades": [
+   {
+    "id": "detectar_mal",
+    "detalle": "Su único instinto es exterminar virus: los huele a distancia aunque se escondan."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Mamut esquelético colosal que arrolla manadas y murallas por igual."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Carga en espiral con sus colmillos de hueso contra cualquier virus."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de FUE o queda derribado: la embestida en espiral lo arrolla.",
+  "desatado": "La técnica suma +1 dado y, si el objetivo es de atributo Virus, los ataques contra él tienen además ventaja hasta el final de su siguiente turno."
+ },
+ "skullmammon_x": {
+  "habilidades": [
+   {
+    "id": "detectar_mal",
+    "detalle": "El X Antibody afina su instinto cazador de virus, a los que rastrea sin descanso."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Carga erguido con sus cuernos enormes y desgarra con sus garras delanteras."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, las garras desgarran: el objetivo pierde todos sus PG temporales.",
+  "desatado": "La técnica gana Perforante y Certero (+2 al ataque, ignora cobertura y resistencias): el anticuerpo guía el cráneo hacia el núcleo del enemigo."
+ },
+ "deathmeramon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Sus llamas azules lo convierten en una fragua ambulante que abrasa a quien lo toca."
+   },
+   {
+    "id": "dominio_elemental",
+    "detalle": "Fuego: deja charcos de metal fundido en llamas azules a su paso."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, 3 m alrededor del objetivo arden en llamas azules 1 asalto: 1d10 de fuego al entrar o empezar turno en ellos.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra ralentizado: el metal fundido se solidifica sobre él."
+ },
+ "skullsatamon": {
+  "habilidades": [
+   {
+    "id": "aura_oscura",
+    "detalle": "Su DarkCore ennegrecido emana una oscuridad que impide cerrar heridas."
+   },
+   {
+    "id": "corrupcion",
+    "detalle": "El báculo de hueso inyecta la oscuridad del Área Oscura en los datos del enemigo."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Sagrado, la técnica suma +1 dado: el ángel caído odia la luz que perdió.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno y queda marcado: el bastón de hueso le arranca la voluntad de defenderse."
+ },
+ "scorpiomon": {
+  "habilidades": [
+   {
+    "id": "excavar",
+    "detalle": "El Asesino del Desierto se entierra en la arena para esperar oculto a su presa."
+   },
+   {
+    "id": "camuflaje",
+    "detalle": "Prefiere pasar inadvertido entre dunas y rocas antes que pelear de frente."
+   }
+  ],
+  "sello": "Si Scorpiomon está sobre arena o tierra suelta, tras resolverla se entierra: queda invisible hasta el principio de su siguiente turno o hasta que ataque.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra envenenado: la víctima apenas nota el pinchazo."
+ },
+ "skullseadramon": {
+  "habilidades": [
+   {
+    "id": "anfibio",
+    "detalle": "Serpiente de vértebras que sigue nadando por el Océano de la Red sin necesidad de aire."
+   },
+   {
+    "id": "agarrar",
+    "detalle": "Rodea a su presa con su largo cuerpo de hueso y no la suelta."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: la serpiente de hueso no suelta a una presa que ha olido.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: la jabalina eléctrica lo recorre de punta a punta."
+ },
+ "slashangemon": {
+  "habilidades": [
+   {
+    "id": "aura_sagrada",
+    "detalle": "Comandante del Ejército Angelical: su valor sin miedo a la muerte sostiene a la primera línea."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "Llama a escuadrones del Ejército Angelical para abrir brecha a su lado."
+   },
+   {
+    "id": "borrado",
+    "detalle": "Su cuerpo de cuchilla desgaja los datos del mal y lo deja sin defensas."
+   }
+  ],
+  "sello": "Al usarla, elige: Vanguardia (antes de usarla, se mueve 3 m sin provocar ataques de oportunidad) o Juicio (contra un objetivo de la familia Oscuro, +1 dado).",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo queda roto (−2 CA hasta el final de la escena) sin salvación. Este dado no se suma al del Sello."
+ },
+ "slayerdramon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Armadura de escamas de Chrondigizoid, ganada al superar la Prueba de los Cuatro Grandes Dragones."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Hombre Dragón enorme cuya Fragarach telescópica parte fortalezas enteras."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Dragón, la técnica suma +1 dado: domina el arte de vencer a sus iguales.",
+  "desatado": "Fragarach se estira: la técnica tiene alcance 6 m y alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "snatchmon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Nació devorando a otros Vemmon y sigue cazando rivales para quedarse con su poder."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo pierde la ventaja que tuviera preparada y Snatchmon tiene ventaja en su próximo ataque: arrebata el poder ajeno.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno: el láser señala a la presa para la cacería."
+ },
+ "snimon": {
+  "habilidades": [
+   {
+    "id": "vision_ciega",
+    "detalle": "No tiene ojos: las antenas rojas de su cabeza perciben cada movimiento de la presa."
+   }
+  ],
+  "sello": "Contra un objetivo apresado o derribado, la técnica suma +1 dado: la mantis siega lo que no puede huir.",
+  "desatado": "Cada guadaña busca un objetivo distinto: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "yukiagumon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Su cuerpo blanco como la nieve se funde con los campos helados y la ventisca."
+   }
+  ],
+  "sello": "Al usarla, el radio de la técnica queda nevado durante 1 asalto: es terreno difícil.",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra congelado: la ventisca las pilla en mitad del juego."
+ },
+ "snowgoburimon": {
+  "habilidades": [
+   {
+    "id": "zancada",
+    "detalle": "La gruesa piel de sus pies le deja caminar sobre la nieve y el hielo sin esfuerzo."
+   }
+  ],
+  "sello": "Si el objetivo está sobre nieve o hielo, la técnica suma +1 dado: SnowGoburimon pelea en su terreno.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo queda ralentizado hasta el final de su siguiente turno (sin salvación). Este dado no se suma al del Sello."
+ },
+ "solarmon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Su DigiCore genera tanto calor que tocarlo quema; casi nadie se le acerca."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, hasta el principio de su siguiente turno quien golpee a Solarmon cuerpo a cuerpo recibe 1d6 de fuego.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra provocado: el anillo brillante obliga a mirarlo."
+ },
+ "soloogarmon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "La magia grabada en su armadura se convierte en llamas que lo envuelven."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Se impulsa con sus propias llamas para moverse a toda velocidad."
+   }
+  ],
+  "sello": "Tras resolverla, SoloogarMon puede moverse 3 m sin provocar ataques de oportunidad, impulsado por sus propias llamas.",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra ardiendo: la magia de su armadura arde sin control."
+ },
+ "sorcerimon": {
+  "habilidades": [
+   {
+    "id": "sanador",
+    "detalle": "Cura heridas con el poder de la oración y la luz de su báculo de cristal."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "El cristal helado de su báculo irradia la magia de luz de Witchelny."
+   }
+  ],
+  "sello": "Si alguna criatura falla la salvación por 5 o más, un aliado a 9 m recupera PG iguales a su BC × 2: el cristal brilla con la luz que cura.",
+  "desatado": "La nube de cristal se deshace en polvo de luz: Sorcerimon y sus aliados a 4,5 m recuperan 1d8 + su BC PG."
+ },
+ "soulmon": {
+  "habilidades": [
+   {
+    "id": "invisibilidad",
+    "detalle": "Fantasma de programas malditos que se desvanece en el aire para reaparecer a tu espalda."
+   },
+   {
+    "id": "ilusiones",
+    "detalle": "Su sombrero de mago de cuento potencia hechizos y espejismos aterradores."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de CAR o queda sellado: la maldición le ata el poder.",
+  "desatado": "Dos maldiciones salen del sombrero negro: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "soundbirdmon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Los altavoces de sus alas emiten desde gritos ensordecedores hasta ultrasonidos."
+   }
+  ],
+  "sello": "La técnica ignora la cobertura media y de tres cuartos y la invisibilidad: el sonido rodea cualquier obstáculo.",
+  "desatado": "El chillido sale por los dos altavoces: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "spadamon": {
+  "habilidades": [
+   {
+    "id": "fusion",
+    "detalle": "Legend-Arm: se transforma en arma para que otro Digimon lo empuñe en una fusión."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo pierde todos sus PG temporales: el disparo encuentra la junta exacta.",
+  "desatado": "La técnica suma +1 dado y gana Perforante (ignora resistencias y reducción de daño): Spadamon dispara como el arma legendaria que es."
+ },
+ "sparrowmon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Surca el cielo en silencio con un radio de giro cerradísimo; nadie lo atrapa."
+   }
+  ],
+  "sello": "Contra un objetivo que esté volando, la técnica suma +1 dado: Sparrowmon gira más cerrado que cualquiera en el aire.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra derribado: el choque lo saca del cielo o lo tira al suelo."
+ },
+ "spinomon": {
+  "habilidades": [
+   {
+    "id": "gigante",
+    "detalle": "El más poderoso de los dinosaurios: sus cuchillas dorsales talan la jungla entera."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "Belicoso y brutal, su rugido hace huir a la fauna de las junglas profundas."
+   }
+  ],
+  "sello": "Al usarla, el radio queda lleno de charcos y barro durante 1 asalto: es terreno difícil, y las criaturas que fallen por 5 o más quedan además derribadas.",
+  "desatado": "La técnica no pierde dados por área, y todas las criaturas alcanzadas tienen desventaja en la salvación contra ralentizado."
+ },
+ "splashmon": {
+  "habilidades": [
+   {
+    "id": "cambiaformas",
+    "detalle": "Se vuelve líquido y adopta la forma de cualquier Digimon o persona que haya visto."
+   },
+   {
+    "id": "fase",
+    "detalle": "Su cuerpo líquido se cuela entre charcos y rendijas como si no fuera sólido."
+   }
+  ],
+  "sello": "Tras resolverla, Splashmon se vuelve líquido y puede moverse 3 m sin provocar ataques de oportunidad.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: el veneno se cuela por cualquier herida."
+ },
+ "starmon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Guerrero espacial curtido: se lanza como un cometa con sus botas estelares."
+   }
+  ],
+  "sello": "Al usarla, elige: Lluvia (el radio es terreno difícil durante 1 asalto) o Estrella (si alguna criatura falla por 5 o más, Starmon gana PG temporales iguales a su BC × 2).",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra ralentizado."
+ },
+ "starmon_x": {
+  "habilidades": [
+   {
+    "id": "vista_aguda",
+    "detalle": "La estrella semitransparente de su pecho le sirve de visor para apuntar los meteoros."
+   }
+  ],
+  "sello": "Una criatura que falle la salvación por 5 o más queda además marcada: el meteoro cae justo donde Starmon quería.",
+  "desatado": "Los meteoros caen a distancia: la técnica se centra en un punto a 18 m o menos en vez de en Starmon, y no pierde dados por área."
+ },
+ "starmons": {
+  "habilidades": [
+   {
+    "id": "manada",
+    "detalle": "Los Pickmon se coordinan a la perfección al compás del tambor de su líder."
+   }
+  ],
+  "sello": "Si Starmons no se ha movido este turno antes de lanzarla, la técnica suma +1 dado: los Pickmon forman y marchan al compás.",
+  "desatado": "La técnica no pierde dados por área y un aliado a 9 m tiene ventaja en su próximo ataque, animado por el redoble del líder."
+ },
+ "stiffilmon": {
+  "habilidades": [
+   {
+    "id": "espinas",
+    "detalle": "Sus púas templadas como metal raro hieren a quien lo agarra o golpea."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Sus púas le sirven a la vez de escudo y de lanza frente a cualquier golpe."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, Stiffilmon gana PG temporales iguales a su BC × 2: sus púas de metal raro hacen de escudo después del golpe.",
+  "desatado": "La técnica suma +1 dado y, al impactar, las púas quedan clavadas: el objetivo queda marcado."
+ },
+ "stegomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Bloquea y repele los ataques con las incontables cuchillas de su lomo."
+   }
+  ],
+  "sello": "Al usarla, Stegomon y sus aliados a 1,5 m tienen cobertura media hasta el principio de su siguiente turno: reorienta las cuchillas del lomo como un muro.",
+  "desatado": "Se planta y bloquea con todo el lomo: Stegomon y todos sus aliados a 4,5 m ganan PG temporales iguales a su BC × 4."
+ },
+ "stingmon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Asesino frío que acecha entre ramas y sombras antes del golpe preciso."
+   }
+  ],
+  "sello": "Si Stingmon era invisible o estaba escondido al lanzarla, la técnica suma +1 dado: golpea el punto vital antes de que lo vean.",
+  "desatado": "La técnica gana Certero (+2 al ataque) y, al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno."
+ },
+ "storabimon": {
+  "habilidades": [
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Conserva los sentidos de lobo de Lobomon, que le guían en la penumbra."
+   }
+  ],
+  "sello": "Al usarla, elige: Bestia (si recibió daño desde su último turno, +1 dado) o Guerrero (si supera la CA por 5 o más, tras resolverla se mueve 3 m sin provocar).",
+  "desatado": "El objetivo tiene desventaja en la salvación contra cegado: las garras de luz estallan en su cara."
+ },
+ "strikedramon": {
+  "habilidades": [
+   {
+    "id": "detectar_mal",
+    "detalle": "Su instinto cazador percibe la presencia de Digimon Virus y datos infectados."
+   }
+  ],
+  "sello": "Contra un objetivo de atributo Virus, la técnica suma +1 dado: el instinto exterminador se impone.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra ardiendo: sus garras arden al rojo vivo."
+ },
+ "styracomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "El campo de energía de sus cuernos hace casi inútiles los ataques físicos."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Luchador de envergadura comparable a UltimateBrachiomon."
+   }
+  ],
+  "sello": "Al usarla, elige: Cresta (si supera la CA por 5 o más, empuja al objetivo 6 m) o Campo (si supera la CA por 5 o más, gana PG temporales iguales a su BC × 2).",
+  "desatado": "La técnica suma +1 dado y 3 m alrededor del objetivo arden 1 asalto: 1d12 de fuego a quien entre o empiece su turno en ellos."
+ },
+ "sabmarimon": {
+  "habilidades": [
+   {
+    "id": "excavar",
+    "detalle": "Su nariz es un taladro giratorio que perfora fondos marinos y arena."
+   }
+  ],
+  "sello": "Contra un objetivo que esté en el agua o ralentizado, la técnica suma +1 dado: el torpedo sigue su rastro de burbujas.",
+  "desatado": "Si el ataque falla, el objetivo recibe igualmente la mitad del daño, sin efectos: el torpedo da la vuelta y lo encuentra."
+ },
+ "suijinmon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Monta piezas de Justimon y Machinedramon: brazo de fuerza y cañones integrados."
+   },
+   {
+    "id": "gigante",
+    "detalle": "Máquina enorme cuyo brazo de fuerza aplasta muros y blindajes."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de SAB o queda provocado: el estruendo del cañón no deja mirar a otro sitio.",
+  "desatado": "Reproduce el cañón de Machinedramon: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "scumon": {
+  "habilidades": [
+   {
+    "id": "vision_oscuridad",
+    "detalle": "Adora los lugares oscuros y malolientes donde los demás no se atreven a entrar."
+   }
+  ],
+  "sello": "Al usarla, elige: Al objetivo (si supera la CA por 5 o más, pierde la ventaja que tuviera preparada) o Al suelo (3 m alrededor del objetivo son terreno difícil 1 asalto).",
+  "desatado": "El objetivo tiene desventaja en la salvación contra cegado: nadie ve nada con eso en la cara."
+ },
+ "sunarizamon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Su cuerpo de arena se confunde con el desierto hasta parecer una duna más."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, la arena le salta a los ojos: hace una salvación de CON o queda cegado hasta el final de su siguiente turno.",
+  "desatado": "La técnica suma +1 dado y 3 m alrededor del objetivo se llenan de arena suelta: terreno difícil durante 1 asalto."
+ },
+ "sunflowmon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "Se llena de energía solar y sus pétalos brillan como un pequeño sol."
+   }
+  ],
+  "sello": "Si combate al aire libre y a la luz del sol, la técnica suma +1 dado.",
+  "desatado": "Los pétalos concentran dos rayos de sol: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "sunmon": {
+  "habilidades": [
+   {
+    "id": "luz_propia",
+    "detalle": "La llama de su cabeza brilla como un pequeño sol en los días despejados."
+   }
+  ],
+  "sello": "Si es de día y al aire libre y el ataque supera la CA por 5 o más, un aliado a 9 m gana PG temporales iguales a su BC × 2.",
+  "desatado": null
+ },
+ "superstarmon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Estrella de la escena: presume de talento y anima a sus aliados con su espectáculo."
+   },
+   {
+    "id": "luz_propia",
+    "detalle": "Su traje deslumbrante brilla tanto que ni las gafas de sol lo disimulan."
+   }
+  ],
+  "sello": "Al usarla, elige: Foco (un aliado a 9 m tiene ventaja en su próximo ataque) o Tormenta (todas las criaturas empujadas acaban en un mismo punto elegido por Superstarmon).",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra el empuje."
+ },
+ "surfimon": {
+  "habilidades": [
+   {
+    "id": "anfibio",
+    "detalle": "Modificado a partir de un Digimon acuático para moverse rápido dentro y fuera del agua."
+   },
+   {
+    "id": "espinas",
+    "detalle": "Mueve las púas de su cuerpo como una sierra mecánica."
+   }
+  ],
+  "sello": "Si no hay ningún aliado a 3 m de Surfimon, la técnica suma +1 dado: pelea mejor sin nadie que le estorbe.",
+  "desatado": "La técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados, y ambos hacen la salvación contra provocado."
+ },
+ "susanoomon": {
+  "habilidades": [
+   {
+    "id": "borrado",
+    "detalle": "Dios de la destrucción: reduce a la nada los datos de lo que corta para regenerarlos después."
+   },
+   {
+    "id": "fusion",
+    "detalle": "Nace de la unión de los cinco Guerreros Legendarios de Luz y sus espíritus."
+   },
+   {
+    "id": "regeneracion",
+    "detalle": "Soberano de la regeneración: rehace su propio cuerpo tras cada destrucción."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, elimina un terreno en 6 m alrededor del objetivo y crea otro en su lugar (cobertura, terreno difícil o llamas, 1 asalto): destruye y regenera.",
+  "desatado": "La técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados, y todos los aliados a 9 m terminan todos sus estados."
+ },
+ "swanmon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_helado",
+    "detalle": "Vive en regiones frías y congela los ordenadores al cruzar una red; su plumaje hiela al tacto."
+   }
+  ],
+  "sello": "Tras resolverla, Swanmon puede alejarse este turno sin provocar ataques de oportunidad: se eleva tras el giro del tornado.",
+  "desatado": "Todas las criaturas alcanzadas tienen desventaja en la salvación contra el empuje, que aumenta a 6 m."
+ },
+ "swimmon": {
+  "habilidades": [
+   {
+    "id": "camuflaje",
+    "detalle": "Sus escamas cambian de color según el entorno y se pierde entre los corales del arrecife."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el banco de peces rodea a un aliado a 9 m: ese aliado gana PG temporales iguales a su BC × 2.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra provocado: sus colores vivos atraen todas las miradas."
+ },
+ "shakomon": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Cierra su robusta concha de almeja y los golpes pequeños rebotan sin dejar marca."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, Shakomon atrae al objetivo 3 m hacia sí: la carita inocente es el cebo.",
+  "desatado": "La técnica suma +1 dado y Shakomon cierra la concha tras disparar: gana PG temporales iguales a su BC × 2."
+ },
+ "shakomon_x": {
+  "habilidades": [
+   {
+    "id": "coraza",
+    "detalle": "Su concha de dibujo rosa cerezo es tan dura como antes, aunque nada dulce."
+   }
+  ],
+  "sello": "Tras resolverla, Shakomon puede retirarse 3 m con sus propulsores sin provocar ataques de oportunidad.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra asustado: si esquiva la perla, dos disparos de la pistolita lo esperan."
+ },
+ "symbareangoramon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Se desenredó el pelo para ganar rapidez y esquiva los golpes como si bailara."
+   }
+  ],
+  "sello": "Tras resolverla, puede alejarse sin provocar ataques de oportunidad; si supera la CA por 5 o más, el objetivo pierde la ventaja que tuviera preparada: queda en ridículo ante su baile.",
+  "desatado": "La técnica suma +1 dado y, tras resolverla, Symbare puede moverse 3 m sin provocar ataques de oportunidad."
+ },
+ "tactimon": {
+  "habilidades": [
+   {
+    "id": "invocar_aliados",
+    "detalle": "Dos golpes de su vaina al suelo invocan a guerreros muertos que combaten a su lado."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "General de Bagra que nunca desenvaina: su calma de estratega hiela a los rivales."
+   },
+   {
+    "id": "sentido_sismico",
+    "detalle": "Siente cada paso sobre el terreno que su Sword of Storms puede derrumbar."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el golpe agrieta el suelo: 6 m alrededor del objetivo son terreno difícil durante 1 asalto.",
+  "desatado": "Si el objetivo queda derribado, cada otro enemigo a 6 m de él hace una salvación de FUE o queda también derribado (sin daño): la tierra entera se sacude."
+ },
+ "takinmon": {
+  "habilidades": [
+   {
+    "id": "embestida",
+    "detalle": "Embiste a la carrera por las laderas con sus cuernos dorados brillando."
+   }
+  ],
+  "sello": "Antes de usarla, Takinmon puede moverse 3 m sin provocar ataques de oportunidad: embiste a la carrera con los cuernos brillando.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra derribado: los cuernos lo levantan del suelo."
+ },
+ "takutoumon": {
+  "habilidades": [
+   {
+    "id": "vision_verdadera",
+    "detalle": "Odia el engaño: ninguna ilusión ni disfraz oculta al mentiroso de su mirada."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "Libera de la pagoda Baota a los espíritus guerreros que guarda sellados."
+   }
+  ],
+  "sello": "La técnica ignora la cobertura media y de tres cuartos y la invisibilidad: nada se esconde de la espada del justo.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno y queda marcado: la espada corrige al que se apartó del camino."
+ },
+ "takutoumon_wrath": {
+  "habilidades": [
+   {
+    "id": "invocar_aliados",
+    "detalle": "Desata los innumerables espíritus guerreros sellados en la pagoda Baota."
+   },
+   {
+    "id": "coraza",
+    "detalle": "La pagoda Baota se convierte en armadura sobre su cuerpo."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, la pagoda Baota se cierra sobre Takutoumon como armadura: gana PG temporales iguales a su BC × 2.",
+  "desatado": "El tridente suelta los espíritus de la pagoda: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "tanemon": {
+  "habilidades": [
+   {
+    "id": "excavar",
+    "detalle": "Cava con sus cuatro patitas y se entierra dejando fuera solo el brote."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: la burbuja pegajosa lo delata.",
+  "desatado": null
+ },
+ "tankdramon": {
+  "habilidades": [
+   {
+    "id": "sensores",
+    "detalle": "Su radar fija hasta treinta objetivos a la vez y comparte los datos con su patrulla."
+   },
+   {
+    "id": "coraza",
+    "detalle": "Blindaje de la Brigada D, pensado para resistir los asaltos más pesados."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: el radar comparte sus datos con todo el equipo.",
+  "desatado": "El radar fija dos blancos: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "tankmon": {
+  "habilidades": [
+   {
+    "id": "armas_vivas",
+    "detalle": "Mercenario cubierto de armamento: cañón, ametralladoras y orugas aplastantes."
+   }
+  ],
+  "sello": "Si Tankmon no se ha movido este turno antes de lanzarla, la técnica suma +1 dado: afianza las orugas y apunta con calma.",
+  "desatado": "La técnica gana Perforante (ignora resistencias y reducción de daño): el proyectil pesado atraviesa cualquier blindaje."
+ },
+ "taomon": {
+  "habilidades": [
+   {
+    "id": "ilusiones",
+    "detalle": "Hechicero taoísta: sus talismanes de papel crean espejismos y shikigami ilusorios."
+   },
+   {
+    "id": "invocar_aliados",
+    "detalle": "Sus talismanes cobran vida como shikigami, espíritus servidores que luchan por él."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el talismán se queda adherido: el objetivo queda marcado.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno y queda marcado: los shikigami lo rodean y lo señalan."
+ },
+ "taotiemon": {
+  "habilidades": [
+   {
+    "id": "absorber_datos",
+    "detalle": "Siempre hambriento: devora a los vencidos con los cuernos y crece al comer."
+   },
+   {
+    "id": "levitar",
+    "detalle": "Flota como una nube de lana sobre la montaña Jakeizan."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo pierde sus PG temporales y Taotiemon gana PG temporales iguales a su BC × 2: se los come.",
+  "desatado": "La técnica drena todo el daño infligido en lugar de la mitad: los cuernos devoran cuanto tocan."
+ },
+ "taowumon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_helado",
+    "detalle": "Envuelto en aire gélido, duerme enterrado como un bloque de hielo."
+   },
+   {
+    "id": "embestida",
+    "detalle": "Embiste una y otra vez con sus colmillos de tronco, cerrado de mollera."
+   },
+   {
+    "id": "presencia_terrible",
+    "detalle": "El mayor de los temidos Shikyoju: su bramido helado aterra a los Digimon."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, queda además ralentizado hasta el final de su siguiente turno: el aire gélido le entumece.",
+  "desatado": "La técnica suma +1 dado y 3 m alrededor del objetivo quedan helados: terreno difícil durante 1 asalto."
+ },
+ "bakumon": {
+  "habilidades": [
+   {
+    "id": "sueno_sombra",
+    "detalle": "Devorador de sueños: entra en los sueños humanos para comerse las pesadillas."
+   }
+  ],
+  "sello": "Contra un objetivo dormido o asustado, la técnica suma +1 dado: se come su sueño o su miedo.",
+  "desatado": "La pesadilla salta de un enemigo a otro: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada, sin perder dados."
+ },
+ "targetmon": {
+  "habilidades": [
+   {
+    "id": "vista_aguda",
+    "detalle": "Sus gafas de sol de altísima resolución fijan a la presa para que no escape."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, un aliado a 9 m tiene ventaja en su próximo ataque: las gafas le pasan la posición exacta de la presa.",
+  "desatado": "Al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno: no hay forma de escapar de esas gafas."
+ },
+ "tekkamon": {
+  "habilidades": [
+   {
+    "id": "hackeo",
+    "detalle": "Creado por un hacker malvado, su espada corta los programas y sistemas que encuentra."
+   },
+   {
+    "id": "diminuto",
+    "detalle": "Cuando quiere, se encoge como un muñeco para colarse por cualquier rendija."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo pierde todos sus PG temporales: la espada corta los datos que lo protegían.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: la descarga corta su código de movimiento."
+ },
+ "tempomon": {
+  "habilidades": [
+   {
+    "id": "musica",
+    "detalle": "Bailarín nato con auriculares y altavoz en el pecho que nunca pierde el ritmo."
+   },
+   {
+    "id": "carga_veloz",
+    "detalle": "Mezcla capoeira y artes marciales con pasos de baile imposibles de seguir."
+   }
+  ],
+  "sello": "Tras resolverla, Tempomon se mueve 3 m bailando, sin provocar ataques de oportunidad.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra confundido: el ritmo lo arrastra a un baile que no controla."
+ },
+ "tengumon": {
+  "habilidades": [
+   {
+    "id": "invocar_aliados",
+    "detalle": "Maestro de una banda de Karatenmon que acude a su llamada desde la sierra."
+   },
+   {
+    "id": "teletransporte",
+    "detalle": "Golpea y desaparece entre las ramas para reaparecer en otra parte del bosque."
+   }
+  ],
+  "sello": "Tras resolverla, Tengumon puede alejarse este turno sin provocar ataques de oportunidad: golpea y desaparece entre las ramas.",
+  "desatado": "La técnica suma +1 dado y, al impactar, los ataques contra el objetivo tienen ventaja hasta el final de su siguiente turno."
+ },
+ "tentomon": {
+  "habilidades": [
+   {
+    "id": "hackeo",
+    "detalle": "Sus patas, hábiles como manos, teclean en ordenadores y manipulan aparatos eléctricos."
+   }
+  ],
+  "sello": "Contra un objetivo de la familia Máquina, la técnica suma +1 dado: la descarga le recorre los circuitos.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: la descarga lo pilla de lleno."
+ },
+ "terriermon": {
+  "habilidades": [
+   {
+    "id": "levitar",
+    "detalle": "Planea suavemente agitando sus orejas descomunales como hélices."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el tornado barre 3 m alrededor del objetivo: no da cobertura hasta el final del siguiente turno de Terriermon.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra el empuje, que aumenta a 6 m: el tornado se lo lleva sin remedio."
+ },
+ "terriermon_x": {
+  "habilidades": [
+   {
+    "id": "telepatia",
+    "detalle": "La Gen Emerald le une a su gemelo Lopmon: siempre sabe dónde está y cómo se encuentra."
+   }
+  ],
+  "sello": "Contra un objetivo que esté volando, la técnica suma +1 dado: sus orejas leen las corrientes de aire.",
+  "desatado": "La técnica suma +1 dado y, al impactar, el objetivo queda marcado. Este dado no se suma al del Sello."
+ },
+ "terriermon_assistant": {
+  "habilidades": [
+   {
+    "id": "lenguas",
+    "detalle": "Pequeño erudito que lee los textos y el Digicode que encuentra en sus estudios."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, el objetivo queda marcado: Terriermon anota su punto débil.",
+  "desatado": "La técnica suma +1 dado y un aliado a 9 m tiene ventaja en su próximo ataque: le comparte sus apuntes."
+ },
+ "teslajellymon": {
+  "habilidades": [
+   {
+    "id": "agarrar",
+    "detalle": "Llaves de lucha libre y kárate aprendidas de los duelos en jaula de acero."
+   }
+  ],
+  "sello": "Contra un objetivo que esté en el agua o recibiera daño de agua este asalto, la técnica suma +1 dado: la descarga corre por el agua.",
+  "desatado": "La técnica suma +1 dado y, al impactar, otro enemigo a 3 m del objetivo recibe 1d8 de daño eléctrico. Este dado no se suma al del Sello."
+ },
+ "thetismon": {
+  "habilidades": [
+   {
+    "id": "aura_sagrada",
+    "detalle": "Protege a los débiles de las fosas del Océano de la Red con paz y firmeza."
+   },
+   {
+    "id": "agarrar",
+    "detalle": "Sujeta a los invasores de su territorio y los castiga sin piedad."
+   }
+  ],
+  "sello": "Si el objetivo dañó este asalto a un aliado de nivel inferior al de Thetismon, la técnica suma +1 dado: protege al débil.",
+  "desatado": "La técnica suma +1 dado y un aliado a 9 m gana PG temporales iguales a su BC × 2. Este dado no se suma al del Sello."
+ },
+ "thunderbirmon": {
+  "habilidades": [
+   {
+    "id": "control_clima",
+    "detalle": "Su grito retumba como un trueno e invoca nubes de tormenta sobre la región."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, una nube de tormenta cubre 3 m alrededor del objetivo durante 1 asalto: 1d8 eléctrico al entrar o empezar turno en ella.",
+  "desatado": "Dos rayos salen de sus alas: la técnica alcanza también a un segundo objetivo a 3 m del primero con la misma tirada de ataque, sin perder dados."
+ },
+ "thunderballmon": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Dínamo digital: descarga electricidad sin descanso y quien lo toca sufre un calambre (daño eléctrico en vez de fuego)."
+   }
+  ],
+  "sello": "Al usarla, elige: Esfera (alcance 36 m sin desventaja) o Imán (si supera la CA por 5 o más, gana PG temporales iguales a su BC × 2: su campo magnético desvía los golpes).",
+  "desatado": "El objetivo tiene desventaja en la salvación contra entumecido: mil millones de voltios no perdonan."
+ },
+ "thunderballmon_x": {
+  "habilidades": [
+   {
+    "id": "cuerpo_ardiente",
+    "detalle": "Su cuerpo cargado descarga electricidad sobre quien lo golpea (daño eléctrico en vez de fuego)."
+   }
+  ],
+  "sello": "Si el ataque supera la CA del objetivo por 5 o más, hace una salvación de CON o queda entumecido (repite): el puñetazo descarga toda la electricidad.",
+  "desatado": "La técnica suma +1 dado y, al impactar, una patada de cátodo empuja al objetivo 3 m."
+ },
+ "tialudomon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Corre a gran velocidad para rescatar a los Digimon que quedan en primera línea."
+   },
+   {
+    "id": "monta",
+    "detalle": "Carga a los heridos y a su Tamer mientras huye del frente."
+   }
+  ],
+  "sello": "Si el ataque supera la CA por 5 o más, un aliado a 9 m gana PG temporales iguales a su BC × 2: se pone delante de quien protege.",
+  "desatado": "Levanta barreras de hielo mágicas: Tialudomon y todos sus aliados a 4,5 m ganan PG temporales iguales a su BC × 4."
+ },
+ "tigervespamon": {
+  "habilidades": [
+   {
+    "id": "carga_veloz",
+    "detalle": "Androide esbelto que nunca deja de moverse en combate."
+   },
+   {
+    "id": "armas_vivas",
+    "detalle": "Maneja a la vez sus dos hojas Royal Meister con destreza de solitario."
+   }
+  ],
+  "sello": "Tras resolverla, TigerVespamon puede alejarse este turno sin provocar ataques de oportunidad: nunca deja de moverse.",
+  "desatado": "El objetivo tiene desventaja en la salvación contra envenenado: las dos Royal Meister muerden a la vez."
+ }
+}

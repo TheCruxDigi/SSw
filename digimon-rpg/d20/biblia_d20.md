@@ -347,6 +347,8 @@ Cada técnica conserva sus palabras clave de 2d6 traducidas así. **Los estados 
 | Empujar (FUE) | Se desplaza 3 m (6 m desde Perfecto). Si choca con algo sólido, recibe 1 dado de poder contundente. |
 | Provocar (SAB) | **Provocado:** desventaja en ataques contra criaturas que no sean el usuario. Hasta fin de su próximo turno. |
 
+**Empapado / mojado** (sin salvación): está en el agua, bajo la lluvia o lo alcanzó una técnica de agua este asalto. Termina *ardiendo* y lo usan algunos Sellos (por ejemplo, +1 dado eléctrico o de hielo contra un objetivo empapado). Dura hasta el final del asalto o mientras siga en el agua.
+
 **Control duro:** Aturdir, Dormir y Regresión. Un Jefe que falla la salvación puede gastar una *resistencia legendaria* para superarla; si no le quedan, el efecto solo le quita una acción legendaria.
 
 **Apoyo** (sin tirada)
