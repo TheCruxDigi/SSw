@@ -832,7 +832,7 @@ function tech20(t, v) {
   if (t.tipo === "maniobra") body = `<i>Maniobra (${esc(t.accion || "acción")}).</i> ${esc(t.texto)}`;
   else if (t.apoyo) body = `<i>Apoyo (${esc(t.accion || "acción")}, ${esc(t.alcance)}).</i> ${esc(t.texto)}`;
   else if (t.salvacion) body = `<i>Área (${esc(t.alcance)}; ${esc(t.objetivo)}).</i> Cada criatura hace una salvación de ${esc(t.salvacion)} CD ${v.cd}. <i>Fallo:</i> ${esc(t.dano)}${el} (contra 2 o más: ${esc(t.dano_area)})${t.efectos && t.efectos.length ? "; " + esc(t.efectos.join("; ")) : ""}. <i>Éxito:</i> la mitad del daño y sin efectos.`;
-  else body = `<i>Ataque ${esc(t.alcance)}</i>: ${sgn(v.atq + (t.ataque != null && S.b20cur ? t.ataque - S.b20cur.atq : 0))} al ataque, ${esc(t.objetivo)}. <i>Impacto:</i> ${esc(t.dano)}${el}${t.efectos && t.efectos.length ? `. ${esc(t.efectos.join("; "))} (CD ${v.cd})` : ""}.${t.version_p2 ? ` <span class="sub">A voluntad como P2: ${esc(t.version_p2)}.</span>` : ""}`;
+  else body = `<i>Ataque ${esc(t.alcance)}</i>: ${sgn(v.atq + (t.ataque != null && S.b20cur ? t.ataque - S.b20cur.atq : 0))} al ataque, ${esc(t.objetivo)}. <i>Impacto:</i> ${esc(t.dano)}${el}${t.efectos && t.efectos.length ? `. ${esc((x => x[0].toUpperCase() + x.slice(1))(t.efectos.join("; ")))} (CD ${v.cd})` : ""}.${t.version_p2 ? ` <span class="sub">A voluntad como P2: ${esc(t.version_p2)}.</span>` : ""}`;
   return `<div class="act"><b>${esc(t.nombre)}.</b>${tags} ${body}</div>`;
 }
 function firmaBox20(f, d) {
@@ -895,7 +895,7 @@ function statBlock20(d, threat) {
     <h3>Rasgos</h3>
     <ul class="sb-traits">${f.rasgos.map(r => `<li><b>${esc(r.nombre)}.</b> ${esc(r.regla)} <span class="sub">${esc(r.origen)}</span></li>`).join("") || "<li>—</li>"}</ul>
     <h3>Acciones</h3>
-    ${f.ataques > 1 ? `<div class="act"><b>Ataque múltiple.</b> Hace ${f.ataques} ataques con sus técnicas que no son la Firma (puede repetir técnica).</div>` : ""}
+    ${f.ataques > 1 ? `<div class="act"><b>Ataque múltiple.</b> Hace ${f.ataques} ataques con sus técnicas que no son la Firma (puede repetir técnica; una Firma P2/P3 cuenta con su versión P2).</div>` : ""}
     ${f.tecnicas.map(t => tech20(t, v)).join("")}
     ${firmaBox20(f, d)}
     ${v.reglas.length ? `<h3>Reglas de ${esc((THREATS20.find(x => x[0] === threat) || [0, ""])[1])}</h3><ul class="sb-traits">${v.reglas.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
