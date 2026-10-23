@@ -12,7 +12,7 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
 };
 
-const S = { manifest: [], best: [], byId: new Map(), bySlug: new Map(), byName: new Map(), R: null, mdCache: new Map(), view: null };
+const S = { ed: store.get("lazos-edicion", "2d6") === "d20" ? "d20" : "2d6", man20: [], manifest: [], best: [], byId: new Map(), bySlug: new Map(), byName: new Map(), R: null, mdCache: new Map(), view: null };
 const main = $("#main"), rail = $("#rail");
 const LEVEL_ORDER = ["Bebé I", "Bebé II", "Novato", "Campeón", "Armadura", "Híbrido", "Perfecto", "Definitivo", "Indeterminado", "Desconocido"];
 const ATTR_CLASS = { vacuna: "vac", datos: "dat", virus: "vir" };
@@ -79,8 +79,8 @@ $$("[data-dm]").forEach(e => { e.textContent = e.dataset.dm; });
 async function loadJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(p + " " + r.status); return r.json(); }
 async function boot() {
   try {
-    const [man, best, R] = await Promise.all([loadJSON("capitulos/manifest.json"), loadJSON("data/bestiario.json"), loadJSON("data/reglas.json")]);
-    S.manifest = man; S.best = best; S.R = R;
+    const [man, best, R, man20] = await Promise.all([loadJSON("capitulos/manifest.json"), loadJSON("data/bestiario.json"), loadJSON("data/reglas.json"), loadJSON("capitulos_d20/manifest.json").catch(() => [])]);
+    S.manifest = man; S.best = best; S.R = R; S.man20 = man20.map(c => Object.assign(c, { dir: "capitulos_d20/" }));
     for (const d of best) {
       S.byId.set(d.id, d); S.bySlug.set(slug(d.id), d);
       const k = norm(d.nombre); if (!S.byName.has(k)) S.byName.set(k, d);
@@ -107,12 +107,19 @@ async function boot() {
 /* ---------- índice lateral ---------- */
 function buildRail() {
   const groups = [];
-  for (const c of S.manifest) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
+  const shared = ["c03", "c16", "c17", "c18"];
+  const list = is20() ? S.man20.concat(S.manifest.filter(c => shared.includes(c.id)).map(c => Object.assign({}, c, { grupo: "Mundo y aventuras (de la edición 2d6)" }))) : S.manifest;
+  for (const c of list) { let g = groups.find(x => x.name === c.grupo); if (!g) groups.push(g = { name: c.grupo, items: [] }); g.items.push(c); }
   rail.innerHTML = `<a href="#inicio" data-r="inicio"><span class="n">⌂</span>Portada</a>` +
     groups.map(g => `<h4>${esc(g.name)}</h4>` + g.items.map(c => `<a href="#${c.id}" data-r="${c.id}"><span class="n">${esc(c.n)}</span>${esc(c.titulo)}</a>`).join("")).join("") +
-    `<h4>Herramientas</h4><a href="#bestiario" data-r="bestiario"><span class="n">◆</span>Bestiario (${S.best.length})</a><a href="#ficha" data-r="ficha"><span class="n">✎</span>Ficha de personaje</a><a href="#encuentro" data-r="encuentro"><span class="n">⚔</span>Constructor de encuentros</a>`;
-  rail.addEventListener("click", e => { if (e.target.closest("a")) rail.classList.remove("open"); });
+    `<h4>Herramientas</h4><a href="#bestiario" data-r="bestiario"><span class="n">◆</span>Bestiario (${S.best.length})</a><a href="#ficha" data-r="ficha"><span class="n">✎</span>Ficha de personaje${is20() ? " d20" : ""}</a><a href="#encuentro" data-r="encuentro"><span class="n">⚔</span>Constructor de encuentros</a>`;
+  if (!rail.dataset.w) { rail.dataset.w = 1; rail.addEventListener("click", e => { if (e.target.closest("a")) rail.classList.remove("open"); }); }
+  const eb = $("#edBtn"); if (eb) { eb.textContent = is20() ? "d20" : "2d6"; eb.classList.toggle("on", is20()); }
 }
+$("#edBtn").addEventListener("click", () => {
+  S.ed = is20() ? "2d6" : "d20"; store.set("lazos-edicion", S.ed);
+  buildRail(); S.view = null; route();
+});
 $("#menuBtn").addEventListener("click", () => rail.classList.toggle("open"));
 function markNav(r) {
   $$("a[data-r]", rail).forEach(a => a.dataset.r === r ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
@@ -127,9 +134,9 @@ function route() {
   if (h === "inicio") return home();
   if (h === "bestiario") return bestiary(null);
   if (h.startsWith("d-")) return bestiary(h.slice(2));
-  if (h === "ficha") return sheet();
-  if (h === "encuentro") return encounter();
-  const ch = S.manifest.find(c => c.id === h || h.startsWith(c.id + "_"));
+  if (h === "ficha") return is20() ? sheet20() : sheet();
+  if (h === "encuentro") return is20() ? encounter20() : encounter();
+  const ch = S.manifest.concat(S.man20).find(c => c.id === h || h.startsWith(c.id + "_"));
   if (ch) return chapter(ch, h);
   home();
 }
@@ -164,6 +171,7 @@ function home() {
     </div>
     <div class="cards">
       ${first ? `<a class="card main cut" href="#${first.id}"><span class="k">01 ›</span><b>Empieza a leer</b><span>${esc(first.titulo)}: qué es este juego y cómo se usa el manual.</span></a>` : ""}
+      <a class="card main cut" href="#e00" data-ed="d20"><span class="k">d20 · beta</span><b>Edición d20</b><span>El mismo Mundo Digital con un motor d20 al estilo D&D: clase Tamer del 1 al 20, fichas con VD y CA, y habilidades especiales para cada Digimon.</span></a>
       <a class="card main cut" href="#bestiario"><span class="k">◆ ${S.best.length}</span><b>Bestiario</b><span>Busca cualquier Digimon por nombre, nivel, atributo, familia o rol, y ajusta su ficha como esbirro, élite o jefe.</span></a>
       <a class="card main cut" href="#encuentro"><span class="k">⚔ PA</span><b>Constructor de encuentros</b><span>Para el DJ: monta un combate con Digimon del bestiario, elige su plantilla y comprueba su dificultad en PA.</span></a>
       <a class="card main cut" href="#ficha"><span class="k">✎ ${bits(100)}</span><b>Ficha de personaje</b><span>Crea tu Tamer y tu compañero. Las cifras del Digimon se rellenan solas desde el bestiario.</span></a>
@@ -172,6 +180,7 @@ function home() {
     <p class="notice">${esc(S.R.meta.aviso_legal)}</p>
   </section>`;
   codeRain($("#rain"));
+  $$("[data-ed]", main).forEach(a => a.addEventListener("click", () => { S.ed = a.dataset.ed; store.set("lazos-edicion", S.ed); buildRail(); }));
   window.scrollTo(0, 0);
 }
 /* Convierte «120 Bits» del texto en la moneda del Mundo Digital. */
@@ -198,13 +207,13 @@ async function chapter(ch, h) {
   main.innerHTML = `<article class="doc"><p class="eyebrow">Capítulo ${esc(ch.n)}</p><p>Cargando…</p></article>`;
   let md = S.mdCache.get(ch.id);
   if (md == null) {
-    try { const r = await fetch("capitulos/" + ch.archivo); md = await r.text(); S.mdCache.set(ch.id, md); }
+    try { const r = await fetch((ch.dir || "capitulos/") + ch.archivo); if (!r.ok) throw new Error(r.status); md = await r.text(); S.mdCache.set(ch.id, md); }
     catch (e) { main.innerHTML = `<article class="doc"><h1>${esc(ch.titulo)}</h1><p>No se pudo cargar este capítulo. Recarga la página.</p></article>`; return; }
   }
   if (S.view !== "c:" + ch.id) return;
   const html = window.marked ? marked.parse(linkDigimon(md), { mangle: false, headerIds: false }) : `<pre>${esc(md)}</pre>`;
   const art = document.createElement("article"); art.className = "doc";
-  art.innerHTML = `<p class="eyebrow">Capítulo ${esc(ch.n)} · ${esc(ch.grupo)}</p>` + html;
+  art.innerHTML = `<p class="eyebrow">${ch.dir ? "Edición d20 · " : ""}Capítulo ${esc(ch.n)} · ${esc(ch.grupo)}</p>` + html;
   const used = new Set();
   const heads = $$("h2,h3", art).map(hd => {
     let id = ch.id + "_" + norm(hd.textContent).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
@@ -220,7 +229,7 @@ async function chapter(ch, h) {
     toc.innerHTML = `<b>En este capítulo</b><ol>${h2.map(x => `<li><a href="#${x.id}">${esc(x.textContent)}</a></li>`).join("")}</ol>`;
     const h1 = $("h1", art); (h1 || art.firstChild).after(toc);
   }
-  const i = S.manifest.indexOf(ch), prev = S.manifest[i - 1], next = S.manifest[i + 1];
+  const M = ch.dir ? S.man20 : S.manifest, i = M.indexOf(ch), prev = M[i - 1], next = M[i + 1];
   const pager = document.createElement("div"); pager.className = "pager";
   pager.innerHTML = (prev ? `<a href="#${prev.id}"><small>Anterior</small>${esc(prev.n)} · ${esc(prev.titulo)}</a>` : "<span></span>") +
     (next ? `<a href="#${next.id}" style="text-align:right"><small>Siguiente</small>${esc(next.n)} · ${esc(next.titulo)}</a>` : `<a href="#bestiario" style="text-align:right"><small>Siguiente</small>Bestiario</a>`);
@@ -294,13 +303,14 @@ function bestiary(sl) {
     renderList();
   }
   markNav(sl ? "d-" : "bestiario");
+  if (is20() && !S.b20) { $("#bdetail").innerHTML = `<div class="sb-empty"><b>Cargando fichas d20…</b></div>`; ensure20().then(() => { if (S.view === "bestiario") { renderList(); bestiary(sl); } }); return; }
   const d = sl && (S.bySlug.get(sl) || S.byName.get(norm(sl)));
   const det = $("#bdetail");
-  det.innerHTML = d ? statBlock(d) : `<div class="sb-empty"><b>Elige un Digimon</b><span>Toca cualquier nombre de la lista para ver su ficha completa.</span></div>`;
+  det.innerHTML = d ? (is20() ? statBlock20(d) : statBlock(d)) : `<div class="sb-empty"><b>Elige un Digimon</b><span>Toca cualquier nombre de la lista para ver su ficha completa.</span></div>`;
   det.classList.toggle("open", !!d);
   $$("#blist a").forEach(a => a.toggleAttribute("aria-current", !!d && a.dataset.id === d.id));
   if (d) {
-    wireStatBlock(det, d);
+    is20() ? wireStatBlock20(det, d) : wireStatBlock(det, d);
     if (window.matchMedia("(max-width: 1100px)").matches) det.scrollIntoView({ block: "start" });
   }
 }
@@ -314,7 +324,7 @@ function renderList() {
       <span class="r-name">${esc(d.nombre)}${d.grupo_legendario ? ' <i class="leg" title="Legendario">★</i>' : ""}</span>
       <span class="r-meta">${esc(d.nivel)} · ${esc(d.tipo_es)}</span>
       <span class="r-chips">${chipAttr(d.atributo)}</span>
-      <span class="r-stats"><b>${d.pv}</b> PV · ${sgn(d.atq)}/${sgn(d.def)}</span></a>`).join("");
+      <span class="r-stats">${is20() && S.b20 && S.b20.get(d.id) ? (f => `VD <b>${f.vd}</b> · CA ${f.ca} · <b>${f.pg}</b> PG`)(S.b20.get(d.id)) : `<b>${d.pv}</b> PV · ${sgn(d.atq)}/${sgn(d.def)}`}</span></a>`).join("");
   el.innerHTML = html;
 }
 
@@ -788,6 +798,355 @@ function wireSheet(c, X) {
 }
 let flashT = 0;
 function flash() { const s = $("#sh-saved"); if (!s) return; s.textContent = "Guardado"; clearTimeout(flashT); flashT = setTimeout(() => { s.textContent = "Se guarda sola en este navegador"; }, 1200); }
+
+/* =====================================================================
+   EDICIÓN d20: bestiario, encuentros con PX y ficha de Tamer d20
+   ===================================================================== */
+const is20 = () => S.ed === "d20";
+async function ensure20() {
+  if (S.b20) return S.b20;
+  if (!S.b20p) S.b20p = loadJSON("data/bestiario_d20.json").then(list => { S.b20 = new Map(list.map(f => [f.id, f])); return S.b20; });
+  return S.b20p;
+}
+const modOf = v => Math.floor((v - 10) / 2);
+const STATS20 = ["FUE", "DES", "CON", "INT", "SAB", "CAR"];
+const THREATS20 = [["estandar", "Estándar"], ["esbirro", "Esbirro"], ["elite", "Élite"], ["jefe", "Jefe"], ["legendario", "Legendario"]];
+function applyThreat20(f, t, N) {
+  const v = { pg: f.pg, ca: f.ca, atq: f.atq, cd: f.cd, px: f.px, recarga: "5–6", reglas: [], legend: 0, resist: 0 };
+  if (t === "esbirro") { v.pg = Math.ceil(f.pg / 4); v.px = Math.round(f.px / 4); v.reglas.push("No usa su Firma. Daño fijo (la media). Si supera una salvación de área, no recibe daño. Se agrupan en pelotones de 3 a 6."); }
+  if (t === "elite") { v.pg = Math.floor(f.pg * 1.5); v.ca += 1; v.atq += 1; v.px = f.px * 2; v.recarga = "4–6"; v.reglas.push("Una reacción extra por asalto. Su Firma se recarga con 4–6."); }
+  if (t === "jefe" || t === "legendario") {
+    v.pg = Math.floor(f.pg * (N + (t === "jefe" ? 2 : 3)) / 2); v.px = f.px * (t === "jefe" ? N : 2 * N); v.legend = 3; v.resist = Math.ceil(N / 2);
+    v.reglas.push(`Acciones legendarias (3 por asalto, al final del turno de otra criatura): técnica P1 o P2 (1), moverse sin provocar ataques de oportunidad (1), Firma si está lista (3).`,
+      `Resistencia legendaria (${v.resist}/día): si falla una salvación, puede superarla.`,
+      `${t === "jefe" ? "2" : "3"} fases. Al cruzar cada umbral entra en Furia: termina sus estados, su Firma se recarga, sus técnicas ganan +1 dado el resto del combate, cada Tamer gana 1 Chispa y su siguiente Firma va Desatada.`,
+      `Firma telegrafiada: la carga con una acción y la lanza al principio de su siguiente turno. Guardia de carga ${Math.floor(v.pg / (t === "jefe" ? 2 : 3) / 4)} de daño: si el grupo se la inflige antes, o lo aturde o sella, la carga se rompe y queda Expuesto.`);
+    if (t === "legendario") v.reglas.push("Legendario: +1 dado en todas sus técnicas y acciones de guarida (el DJ las define según su dominio).");
+  }
+  return v;
+}
+function tech20(t, v) {
+  const el = t.elemento ? ` de ${esc(t.elemento)}` : "";
+  const tags = `${t.firma ? ` <span class="tag firma">Firma${t.recarga ? " · recarga " + esc(t.firma && v ? v.recarga : t.recarga) : ""}</span>` : ""}${t.efecto && t.efecto.nombre ? `<div class="sub fx-n">★ ${esc(t.efecto.nombre)}</div>` : ""}`;
+  let body;
+  if (t.tipo === "maniobra") body = `<i>Maniobra (${esc(t.accion || "acción")}).</i> ${esc(t.texto)}`;
+  else if (t.apoyo) body = `<i>Apoyo (${esc(t.accion || "acción")}, ${esc(t.alcance)}).</i> ${esc(t.texto)}`;
+  else if (t.salvacion) body = `<i>Área (${esc(t.alcance)}; ${esc(t.objetivo)}).</i> Cada criatura hace una salvación de ${esc(t.salvacion)} CD ${v.cd}. <i>Fallo:</i> ${esc(t.dano)}${el} (contra 2 o más: ${esc(t.dano_area)})${t.efectos && t.efectos.length ? "; " + esc(t.efectos.join("; ")) : ""}. <i>Éxito:</i> la mitad del daño y sin efectos.`;
+  else body = `<i>Ataque ${esc(t.alcance)}</i>: ${sgn(v.atq + (t.ataque != null && S.b20cur ? t.ataque - S.b20cur.atq : 0))} al ataque, ${esc(t.objetivo)}. <i>Impacto:</i> ${esc(t.dano)}${el}${t.efectos && t.efectos.length ? `. ${esc(t.efectos.join("; "))} (CD ${v.cd})` : ""}.${t.version_p2 ? ` <span class="sub">A voluntad como P2: ${esc(t.version_p2)}.</span>` : ""}`;
+  return `<div class="act"><b>${esc(t.nombre)}.</b>${tags} ${body}</div>`;
+}
+function firmaBox20(f, d) {
+  const t = f.tecnicas.find(x => x.firma), e = t && t.efecto; if (!e) return "";
+  const row = (k, lab, sub, txt) => txt ? `<div class="fx-${k}"><dt>${lab}<span>${sub}</span></dt><dd>${esc(txt)}</dd></div>` : "";
+  return `<section class="firma-box" aria-label="Efecto de Firma">
+    <header><span class="dm">SIGNATURE · D20</span><b>${esc(e.nombre || "Efecto de Firma")}</b><small>${esc(t.nombre)}</small></header>
+    <dl>${row("sello", "Sello", "siempre que la usa", e.sello)}${row("desatado", "Desatado", "1 Chispa · 1 vez por combate", e.desatado)}${row("eco", "Eco", "fuera de combate · 1 vez por escena", e.eco)}</dl>
+    ${e.d20 ? "" : `<p class="hint" style="padding:0 14px 10px">Sello y Desatado en versión 2d6: su adaptación a d20 está en curso.</p>`}
+  </section>`;
+}
+function habBox20(f) {
+  if (!f.habilidades || !f.habilidades.length) return "";
+  return `<h3>Habilidades especiales</h3><ul class="hab20">${f.habilidades.map(h => `<li><b>${esc(h.nombre)}.</b> ${esc(h.regla)}${h.detalle ? `<span class="sub"> ${esc(h.detalle)}</span>` : ""}</li>`).join("")}</ul>`;
+}
+function statBlock20(d, threat) {
+  const f = S.b20.get(d.id); if (!f) return `<div class="sb-empty"><b>Sin ficha d20</b></div>`;
+  const L = S.lookup, R = S.R;
+  threat = threat || ({ esbirro: "esbirro", elite: "elite", jefe: "jefe", legendario: "legendario" }[d.amenaza_sugerida] || "estandar");
+  const N = S.groupN || 4, v = applyThreat20(f, threat, N);
+  S.b20cur = f;
+  const fam = L.fam[d.familia], rol = L.rol[d.rol];
+  const sub = [d.nivel, `${d.tipo_es}`, fam ? fam.nombre : d.familia, rol ? rol.nombre : null, f.tam].filter(Boolean).join(" · ");
+  const ele = x => esc((L.ele[x] || {}).nombre || x);
+  return `<article class="sb cut" data-id="${esc(d.id)}" ${lvStyle(d.nivel)}>
+    <div class="sb-bar"><span>Análisis del Digivice · d20</span><span>VD ${esc(f.vd)} · ${(v.px).toLocaleString("es")} PX</span></div>
+    <div class="sb-in">
+    <header class="sb-scan">
+      <div class="lcd">${sprite(d.id, d.nivel)}</div>
+      <div>
+        <div class="sb-top"><span class="chip lvl">${esc(d.nivel)}</span>${chipAttr(d.atributo)}<span class="chip">VD ${esc(f.vd)}</span>${d.grupo_legendario ? `<span class="chip">★ ${esc((R.grupos || {})[d.grupo_legendario] || d.grupo_legendario)}</span>` : ""}</div>
+        <h2>${esc(d.nombre)}</h2>
+        <p class="sb-sub">${esc(sub)}</p>
+      </div>
+    </header>
+    ${d.descripcion ? `<p class="sb-desc">${esc(d.descripcion)}</p>` : ""}
+    <div class="sb-threat" role="radiogroup" aria-label="Plantilla de amenaza">
+      ${THREATS20.map(([k, t]) => `<button type="button" role="radio" aria-checked="${k === threat}" data-t="${k}" class="th${k === threat ? " on" : ""}">${t}</button>`).join("")}
+      ${threat === "jefe" || threat === "legendario" ? `<label class="nsel">Parejas <input type="number" id="sb-n" min="1" max="8" value="${N}"></label>` : ""}
+    </div>
+    <div class="sb-pa"><button type="button" class="pill" id="sb-add">Añadir al encuentro</button><span class="hint" id="sb-added"></span></div>
+    <div class="lcd">
+      <div class="sb-stats">
+        <div><span>CA</span><b>${v.ca}</b></div><div><span>PG</span><b>${v.pg}</b></div><div><span>Ataque</span><b>${sgn(v.atq)}</b></div>
+        <div><span>CD</span><b>${v.cd}</b></div><div><span>BC</span><b>${sgn(f.bc)}</b></div><div><span>Inic.</span><b>${sgn(f.ini)}</b></div>
+      </div>
+      ${pvBar(v.pg, v.pg)}
+      <div class="sb-stats car20">${STATS20.map(s => `<div><span>${s}</span><b>${f.car[s]}</b><i>${sgn(modOf(f.car[s]))}</i></div>`).join("")}</div>
+    </div>
+    <dl class="sb-kv">
+      <div class="wide"><dt>Dados de golpe</dt><dd>${esc(f.dg)} · Velocidad ${esc(f.vel)}</dd></div>
+      <div><dt>Salvaciones</dt><dd>${Object.entries(f.salv).map(([k, x]) => `${k} ${sgn(x)}`).join(", ") || "—"}</dd></div>
+      <div><dt>Habilidades</dt><dd>${Object.entries(f.hab_pericia).map(([k, x]) => `${esc(k)} ${sgn(x)}`).join(", ") || "—"}</dd></div>
+      <div class="wide"><dt>Sentidos</dt><dd>${esc(f.sentidos)}</dd></div>
+      <div><dt>Debilidad (×1,5)</dt><dd>${(d.debilidades || []).map(ele).join(", ") || "—"}</dd></div>
+      <div><dt>Resistencia</dt><dd>${(d.resistencias || []).map(ele).join(", ") || "—"}</dd></div>
+      ${f.inm_estados.length ? `<div class="wide"><dt>Inmune a</dt><dd>${esc(f.inm_estados.join(", "))}</dd></div>` : ""}
+    </dl>
+    ${habBox20(f)}
+    <h3>Rasgos</h3>
+    <ul class="sb-traits">${f.rasgos.map(r => `<li><b>${esc(r.nombre)}.</b> ${esc(r.regla)} <span class="sub">${esc(r.origen)}</span></li>`).join("") || "<li>—</li>"}</ul>
+    <h3>Acciones</h3>
+    ${f.ataques > 1 ? `<div class="act"><b>Ataque múltiple.</b> Hace ${f.ataques} ataques con sus técnicas que no son la Firma (puede repetir técnica).</div>` : ""}
+    ${f.tecnicas.map(t => tech20(t, v)).join("")}
+    ${firmaBox20(f, d)}
+    ${v.reglas.length ? `<h3>Reglas de ${esc((THREATS20.find(x => x[0] === threat) || [0, ""])[1])}</h3><ul class="sb-traits">${v.reglas.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
+    ${d.tacticas ? `<h3>En combate</h3><p>${esc(d.tacticas)}</p>` : ""}
+    ${d.gancho ? `<h3>Gancho de aventura</h3><p>${esc(d.gancho)}</p>` : ""}
+    <h3>Línea evolutiva</h3>
+    <dl class="sb-kv evo"><div><dt>Viene de</dt><dd>${evoLinks(d.prev)}</dd></div><div><dt>Evoluciona a</dt><dd>${evoLinks(d.next)}</dd></div>${d.modos && d.modos.length ? `<div><dt>Modos</dt><dd>${evoLinks(d.modos)}</dd></div>` : ""}</dl>
+    </div></article>`;
+}
+function wireStatBlock20(root, d) {
+  const re = t => { root.removeEventListener("click", onClick); root.innerHTML = statBlock20(d, t); wireStatBlock20(root, d); };
+  const onClick = e => { const b = e.target.closest("button.th"); if (b) re(b.dataset.t); };
+  root.addEventListener("click", onClick);
+  const n = $("#sb-n", root);
+  if (n) n.addEventListener("change", () => { S.groupN = Math.max(1, Math.min(8, +n.value || 4)); re($("button.th.on", root).dataset.t); });
+  $("#sb-add", root).addEventListener("click", () => {
+    const t = $("button.th.on", root).dataset.t;
+    ENC20.list.push({ id: d.id, t, pg: null }); saveEnc20();
+    $("#sb-added", root).innerHTML = `Añadido. <a href="#encuentro">Ver encuentro (${ENC20.list.length})</a>`;
+  });
+}
+
+/* ---------- encuentros d20 ---------- */
+const REFXP = { 1: 200, 2: 1100, 3: 3900, 4: 10000 };
+const ENC20 = Object.assign({ N: 4, ref: 1, list: [] }, store.get("lazos-encuentro-d20", {}));
+const saveEnc20 = () => store.set("lazos-encuentro-d20", ENC20);
+async function encounter20() {
+  S.view = "encuentro"; markNav("encuentro");
+  if (!S.b20) { main.innerHTML = `<div class="enc"><p>Cargando fichas d20…</p></div>`; await ensure20(); if (S.view !== "encuentro" || !is20()) return; }
+  const N = ENC20.N, ref = ENC20.ref;
+  const rows = ENC20.list.map((e, i) => ({ e, i, d: S.byId.get(e.id), f: S.b20.get(e.id) })).filter(x => x.d && x.f);
+  let px = 0, count = 0, minions = false;
+  for (const { e, f } of rows) { px += applyThreat20(f, e.t, N).px; if (e.t === "esbirro") minions = true; else count++; }
+  if (minions) count++;
+  const mult = count > 2 * N ? 2 : count > N ? 1.5 : 1, ajust = px * mult, base = REFXP[ref] * N;
+  const bands = [["Fácil", base / 2], ["Normal", base], ["Difícil", base * 1.5], ["Épico", base * 2]];
+  let dif = "Mortal"; for (const [n, v] of bands) if (ajust <= v + 1e-9) { dif = n; break; }
+  if (!rows.length) dif = "—";
+  main.innerHTML = `<div class="enc">
+    <div><p class="eyebrow">Herramienta del DJ · edición d20</p><h1 class="bst-title">Constructor de encuentros</h1>
+    <p class="bst-help">Los PX siguen el capítulo 8 de la biblia d20: PX de referencia del nivel estable × número de parejas, con multiplicador si hay más enemigos que parejas.</p></div>
+    <form class="filters" onsubmit="return false">
+      <label><span>Parejas en el grupo</span><input id="enc-n" type="number" min="1" max="8" value="${N}"></label>
+      <label><span>Nivel estable del grupo</span><select id="enc-ref">${[1, 2, 3, 4].map(r => `<option value="${r}"${r === ref ? " selected" : ""}>${REF_NAMES[r]} (${REFXP[r].toLocaleString("es")} PX)</option>`).join("")}</select></label>
+      <label class="f-q"><span>Añadir Digimon</span><input id="enc-q" list="enc-dl" placeholder="Escribe un nombre y pulsa Intro" autocomplete="off"></label>
+      <datalist id="enc-dl">${S.best.map(d => `<option value="${esc(d.nombre)} · ${esc(d.nivel)}"></option>`).join("")}</datalist>
+      <button class="pill" id="enc-clear" type="button">Vaciar</button>
+    </form>
+    <div class="enc-sum lcd">
+      <div><span>PX</span><b>${px.toLocaleString("es")}</b></div>
+      <div><span>PX ajustados ×${String(mult).replace(".", ",")}</span><b>${Math.round(ajust).toLocaleString("es")}</b></div>
+      <div><span>Dificultad</span><b class="dif-${norm(dif)}">${esc(dif)}</b></div>
+      ${bands.map(([n, v]) => `<div><span>${n}</span><b>≤ ${Math.round(v).toLocaleString("es")}</b></div>`).join("")}
+    </div>
+    ${rows.length ? `<div class="tbl"><table class="sb-t enc-t"><thead><tr><th>Digimon</th><th>Plantilla</th><th>PG</th><th>CA</th><th>Atq</th><th>CD</th><th>VD</th><th>PX</th><th></th></tr></thead><tbody>
+      ${rows.map(({ e, i, d, f }) => { const v = applyThreat20(f, e.t, N); return `<tr data-i="${i}">
+        <td><a href="#d-${slug(d.id)}"><b>${esc(d.nombre)}</b></a><div class="sub">${esc(d.nivel)} · ${esc(f.tam)}</div></td>
+        <td><select class="enc-t-sel">${THREATS20.map(([k, t]) => `<option value="${k}"${k === e.t ? " selected" : ""}>${t}</option>`).join("")}</select></td>
+        <td class="num"><input class="enc-pv" type="number" min="0" max="${v.pg}" value="${Math.min(e.pg ?? v.pg, v.pg)}"> / ${v.pg}</td>
+        <td class="num">${v.ca}</td><td class="num">${sgn(v.atq)}</td><td class="num">${v.cd}</td><td class="num">${esc(f.vd)}</td><td class="num">${v.px.toLocaleString("es")}</td>
+        <td><button type="button" class="pill enc-del" aria-label="Quitar ${esc(d.nombre)}">Quitar</button></td></tr>`; }).join("")}
+    </tbody></table></div>` : `<div class="sb-empty"><b>El encuentro está vacío</b><span>Busca un Digimon arriba o ábrelo en el bestiario y pulsa «Añadir al encuentro».</span></div>`}
+  </div>`;
+  $("#enc-n").addEventListener("change", e => { ENC20.N = Math.max(1, Math.min(8, +e.target.value || 4)); saveEnc20(); encounter20(); });
+  $("#enc-ref").addEventListener("change", e => { ENC20.ref = +e.target.value; saveEnc20(); encounter20(); });
+  $("#enc-clear").addEventListener("click", () => { ENC20.list = []; saveEnc20(); encounter20(); });
+  const q = $("#enc-q");
+  q.addEventListener("change", () => { const [name, lvl] = q.value.split(" · "); const d = S.best.find(x => norm(x.nombre) === norm(name.trim()) && (!lvl || x.nivel === lvl.trim())); if (!d) return; ENC20.list.push({ id: d.id, t: "estandar", pg: null }); saveEnc20(); encounter20(); });
+  $$(".enc-t tr[data-i]").forEach(tr => {
+    const i = +tr.dataset.i;
+    $(".enc-t-sel", tr).addEventListener("change", ev => { ENC20.list[i].t = ev.target.value; ENC20.list[i].pg = null; saveEnc20(); encounter20(); });
+    $(".enc-pv", tr).addEventListener("change", ev => { ENC20.list[i].pg = Math.max(0, +ev.target.value || 0); saveEnc20(); });
+    $(".enc-del", tr).addEventListener("click", () => { ENC20.list.splice(i, 1); saveEnc20(); encounter20(); });
+  });
+  window.scrollTo(0, 0);
+}
+
+/* ---------- ficha de Tamer d20 ---------- */
+const SKILLS20 = [["Acrobacias", "DES"], ["Atletismo", "FUE"], ["Engaño", "CAR"], ["Historia", "INT"], ["Interpretación", "CAR"], ["Intimidación", "CAR"], ["Investigación", "INT"], ["Juego de manos", "DES"],
+  ["Medicina", "SAB"], ["Mitos", "INT"], ["Naturaleza", "INT"], ["Percepción", "SAB"], ["Perspicacia", "SAB"], ["Persuasión", "CAR"], ["Saber digital", "INT"], ["Sigilo", "DES"], ["Supervivencia", "SAB"], ["Tecnología", "INT"], ["Trato con animales", "SAB"]];
+const TRAS20 = { "Deportista": ["Atletismo", "Acrobacias", "Fondo físico: +1 PG por nivel."], "Cerebrito": ["Saber digital", "Investigación", "Lo leí en algún sitio: ventaja en una prueba de INT por descanso largo."],
+  "Manitas": ["Tecnología", "Percepción", "Ingenio: +1 Carga."], "Hermano/a mayor": ["Perspicacia", "Medicina", "Protector: reacción, impón desventaja a un ataque contra un aliado a 1,5 m (1/descanso corto)."],
+  "Explorador/a": ["Supervivencia", "Atletismo", "Siempre preparado: saca un objeto común razonable (1/sesión)."], "Artista": ["Interpretación", "Persuasión", "Inspiración: en un descanso corto, los aliados recuperan 1d6 PG extra."],
+  "Pícaro/a": ["Sigilo", "Engaño", "Huidizo: +1 CA."], "Líder nato": ["Persuasión", "Historia", "Al mando: tus Órdenes pueden darse a cualquier compañero aliado."],
+  "Chico/a de campo": ["Trato con animales", "Naturaleza", "Mano con los animales: los Digimon salvajes empiezan un paso más amistosos."], "Gamer": ["Saber digital", "Tecnología", "Me sé este jefe: ventaja en Analizar."] };
+const SENDAS20 = { "Estratega": "¡Flanqueo! (3): tu compañero y un aliado que atacan a la misma criatura en el mismo asalto tienen +2 al ataque contra ella.", "Técnico": "Memoria ampliada (3): +2 Carga y 1 programa más de cada nivel.",
+  "Protector": "Vínculo protector (3): +1 PG por nivel; tu compañero tiene +1 CA y ventaja en salvaciones contra áreas.", "Batidor": "Ojo para el terreno (3): crea cobertura o altura al empezar el combate; +3 m de velocidad para la pareja.",
+  "Inspirador": "Llama del vínculo (3): al empezar cada combate, si tienes menos Chispa que tu Vínculo, sube hasta tu Vínculo." };
+const TIER20 = [[1, "Novato", "Campeón"], [4, "Campeón", "Perfecto"], [8, "Perfecto", "Definitivo"], [13, "Definitivo", "Definitivo"], [17, "Definitivo", "Modo"]];
+function tamer20(c) {
+  const lv = Math.max(1, Math.min(20, +c.nivel || 1)), m = s => modOf(+c.car[s] || 10);
+  const bc = 2 + Math.floor((lv - 1) / 4);
+  const vin = lv >= 20 ? 6 : lv >= 17 ? 5 : lv >= 13 ? 4 : lv >= 8 ? 3 : lv >= 4 ? 2 : 1;
+  const tier = [...TIER20].reverse().find(x => lv >= x[0]);
+  const dv = lv >= 15 ? "d12" : lv >= 10 ? "d10" : lv >= 5 ? "d8" : "d6";
+  const pg = 8 + m("CON") + (lv - 1) * (5 + m("CON")) + (c.trasfondo === "Deportista" ? lv : 0) + (c.senda === "Protector" && lv >= 3 ? lv : 0);
+  const carga = 3 + m("INT") + (c.trasfondo === "Manitas" ? 1 : 0) + (c.senda === "Técnico" && lv >= 3 ? 2 : 0) + (DIGIVICES[c.digivice] || 0);
+  return { lv, bc, vin, estable: tier[1], maximo: tier[2], dv, pg, carga, chispaMax: 3 + vin, ca: 10 + m("DES") + (c.trasfondo === "Pícaro/a" ? 1 : 0), cdProg: 8 + bc + m("INT"), m };
+}
+function blank20() {
+  return { id: "t20" + Math.random().toString(36).slice(2, 8), nombre: "", edad: "", nivel: 1, car: { FUE: 10, DES: 14, CON: 13, INT: 12, SAB: 10, CAR: 15 }, trasfondo: "", senda: "", emblema: "", digivice: "Digivice clásico",
+    pericias: [], pg: null, chispa: 1, carga: null, bits: 100, programas: "", equipo: "Disco de recuperación S\nCarne digital ×2", notas: "",
+    d: { apodo: "", novato: "", campeon: "", perfecto: "", definitivo: "", modo: "", forma: "", pg: null, pgPrev: null, estados: "" } };
+}
+function example20() {
+  const c = blank20(); c.id = "ejemplo20"; c.ejemplo = true;
+  Object.assign(c, { nombre: "Nora Vidal (ejemplo d20)", edad: "12", trasfondo: "Deportista", emblema: "Valor", car: { FUE: 13, DES: 14, CON: 15, INT: 10, SAB: 12, CAR: 14 }, pericias: ["Atletismo", "Acrobacias", "Perspicacia", "Persuasión"], programas: "Carga de poder\nEscudo\nDetección" });
+  Object.assign(c.d, { apodo: "Agu", novato: "agumon", campeon: "greymon-first", forma: "agumon" });
+  return c;
+}
+let chars20 = store.get("lazos-fichas-d20", null);
+if (!Array.isArray(chars20) || !chars20.length) chars20 = [example20()];
+let cur20 = store.get("lazos-ficha-d20-actual", chars20[0].id);
+const save20 = () => { store.set("lazos-fichas-d20", chars20); store.set("lazos-ficha-d20-actual", cur20); };
+const FORM20 = [["novato", "Novato"], ["campeon", "Campeón"], ["perfecto", "Perfecto"], ["definitivo", "Definitivo"], ["modo", "Modo"]];
+const LV20 = { "Novato": 0, "Campeón": 1, "Perfecto": 2, "Definitivo": 3, "Modo": 4 };
+function partner20(c, T, id) {
+  const d = S.byId.get(id), f = S.b20.get(id); if (!d || !f) return null;
+  const bcx = Math.max(0, T.bc - f.bc);
+  return { d, f, pg: f.pg + 2 * T.lv, atq: f.atq + bcx, cd: f.cd + bcx, ca: f.ca };
+}
+function digiOpts20(level, cur) {
+  const list = level === "Modo" ? S.best.filter(d => (d.plantillas || []).some(p => /supremo|modo/.test(p)) || / Mode|Burst/.test(d.nombre)) : S.best.filter(d => d.nivel === level);
+  return `<option value="">—</option>` + list.sort((a, b) => a.nombre.localeCompare(b.nombre)).map(d => `<option value="${esc(d.id)}"${d.id === cur ? " selected" : ""}>${esc(d.nombre)}</option>`).join("");
+}
+async function sheet20() {
+  const fresh = S.view !== "ficha";
+  S.view = "ficha"; markNav("ficha");
+  if (!S.b20) { main.innerHTML = `<div class="sheet"><p>Cargando fichas d20…</p></div>`; await ensure20(); if (S.view !== "ficha" || !is20()) return; }
+  const c = chars20.find(x => x.id === cur20) || chars20[0]; cur20 = c.id;
+  const T = tamer20(c), dg = c.d;
+  const formaId = dg.forma || dg.novato, P = formaId ? partner20(c, T, formaId) : null;
+  const curLv = P ? (FORM20.find(([k]) => dg[k] === formaId) || [0, "Novato"])[1] : "Novato";
+  const nx = FORM20.slice(FORM20.findIndex(([k]) => dg[k] === formaId) + 1).find(([k]) => dg[k]);
+  const cost = nx ? 2 * Math.max(0, LV20[nx[1]] - Math.max(LV20[curLv], LV20[T.estable])) + (/hambrient/i.test(dg.estados || "") && LV20[nx[1]] > LV20[T.estable] ? 1 : 0) : 0;
+  const over = nx && LV20[nx[1]] > LV20[T.maximo];
+  const chispa = Math.min(+c.chispa || 0, T.chispaMax), pgT = c.pg ?? T.pg, carga = c.carga ?? T.carga, pgD = P ? Math.min(dg.pg ?? P.pg, P.pg) : 0;
+  const num = (k, v, min, max) => `<input type="number" data-k="${k}" value="${esc(v)}" min="${min}" max="${max}">`;
+  const txt = (k, v, ph = "") => `<input type="text" data-k="${k}" value="${esc(v)}" placeholder="${esc(ph)}">`;
+  const area = (k, v, rows = 3) => `<textarea data-k="${k}" rows="${rows}">${esc(v)}</textarea>`;
+  const sel = (k, list, cur) => `<select data-k="${k}"><option value="">—</option>${list.map(x => `<option${x === cur ? " selected" : ""}>${esc(x)}</option>`).join("")}</select>`;
+  const prof = new Set(c.pericias);
+  const head = (h, dm) => `<div class="sh-h"><h2>${h}</h2><span class="dm">${dm}</span></div>`;
+  main.innerHTML = `<div class="sheet">
+    <div class="sh-bar">
+      <label><span class="sr">Ficha</span><select id="sh-pick">${chars20.map(x => `<option value="${esc(x.id)}"${x.id === c.id ? " selected" : ""}>${esc(x.nombre || "Sin nombre")}${x.d.apodo ? " & " + esc(x.d.apodo) : ""}</option>`).join("")}</select></label>
+      <button class="pill" id="sh-new" type="button">Nueva ficha</button>
+      <button class="pill" id="sh-del" type="button">Borrar</button>
+      <span class="chip">Edición d20</span>
+      <span class="sh-saved" id="sh-saved">Se guarda sola en este navegador</span>
+    </div>
+    <div class="sh-io" id="sh-io" hidden></div>
+    <div class="sh-grid">
+      <section class="sh-card cut">
+        ${head("Tamer · nivel " + T.lv, "DIGIDESTINED")}
+        <div class="g3"><label>Nombre ${txt("nombre", c.nombre)}</label><label>Edad ${txt("edad", c.edad)}</label><label>Nivel ${num("nivel", c.nivel, 1, 20)}</label></div>
+        <div class="g3 car20f">${STATS20.map(s => `<label class="attr"><span>${s} ${sgn(T.m(s))}</span>${num("car." + s, c.car[s], 3, 20)}</label>`).join("")}</div>
+        <div class="lcd enc-sum">
+          <div><span>BC</span><b>${sgn(T.bc)}</b></div><div><span>CA</span><b>${T.ca}</b></div><div><span>PG máx.</span><b>${T.pg}</b></div>
+          <div><span>Dado de Vínculo</span><b>${T.dv}</b></div><div><span>Vínculo</span><b>${T.vin === 6 ? "★" : T.vin}</b></div><div><span>CD programa</span><b>${T.cdProg}</b></div>
+        </div>
+        <div class="g2"><label>Trasfondo ${sel("trasfondo", Object.keys(TRAS20), c.trasfondo)}</label><label>Senda (nivel 3) ${sel("senda", Object.keys(SENDAS20), c.senda)}</label>
+          <label>Emblema ${sel("emblema", EMBLEMAS, c.emblema)}</label><label>Digivice ${sel("digivice", Object.keys(DIGIVICES), c.digivice)}</label></div>
+        ${TRAS20[c.trasfondo] ? `<p class="hint">Trasfondo: ${esc(TRAS20[c.trasfondo][0])} y ${esc(TRAS20[c.trasfondo][1])}. ${esc(TRAS20[c.trasfondo][2])}</p>` : ""}
+        ${c.senda ? `<p class="hint">${esc(SENDAS20[c.senda])}</p>` : ""}
+        <h3>Habilidades <span class="hint">marca las que dominas (+BC)</span></h3>
+        <div class="habs">${SKILLS20.map(([n, s]) => `<label class="hab"><span><input type="checkbox" data-skill="${esc(n)}"${prof.has(n) ? " checked" : ""} style="width:auto"> ${esc(n)}</span><b>${sgn(T.m(s) + (prof.has(n) ? T.bc : 0))}</b></label>`).join("")}</div>
+      </section>
+      <section class="sh-card cut">
+        ${head("Recursos", "CHISPA · CARGA")}
+        <div class="res">
+          <div class="r"><span>Chispa <small>${chispa} / ${T.chispaMax}</small></span>${pips("chispa", chispa, T.chispaMax)}</div>
+          <div class="r"><span>Carga <small>${carga} / ${T.carga}</small></span>${pips("carga", carga, Math.max(1, T.carga), "cy")}</div>
+          <div class="nums"><label>PG actuales ${num("pg", pgT, 0, T.pg)}</label><label>Nivel ${num("nivel", c.nivel, 1, 20)}</label><label><span class="bits">${BITS}Bits</span> ${num("bits", c.bits, 0, 99999)}</label></div>
+        </div>
+        <p class="hint">Nivel ${T.lv}: forma estable <b>${T.estable}</b>, máximo temporal <b>${T.maximo}</b>. Digievolucionar (acción adicional) cuesta 2 Chispa por nivel por encima del estable.</p>
+        <label>Programas ${area("programas", c.programas, 4)}</label>
+        <label>Equipo ${area("equipo", c.equipo, 3)}</label>
+        <label>Notas ${area("notas", c.notas, 3)}</label>
+      </section>
+      <section class="sh-card wide cut">
+        ${head("Compañero Digimon", "PARTNER · D20")}
+        <div class="sh-grid">
+          <div class="dv">
+            <div class="dv-top"><span>${esc(c.digivice || "Digivice")}</span><span>${P ? "VD " + esc(P.f.vd) : "SIN DATOS"}</span></div>
+            <div class="lcd dv-screen" id="dv-screen">
+              ${P ? `<div class="sp">${sprite(P.d.id, P.d.nivel)}<div><div class="nm"><b>${esc(P.d.nombre)}</b></div><div>${esc(dg.apodo ? "«" + dg.apodo + "»" : P.d.nivel)}</div><div class="nm"><span>PG</span><span>${pgD}/${P.pg}</span></div></div></div>
+                ${pvBar(pgD, P.pg)}
+                <div class="sb-stats"><div><span>CA</span><b>${P.ca}</b></div><div><span>Ataque</span><b>${sgn(P.atq)}</b></div><div><span>CD</span><b>${P.cd}</b></div><div><span>Ataques</span><b>${P.f.ataques}</b></div><div><span>Dado</span><b>${esc(P.f.dado)}</b></div></div>`
+                : `<div class="sp">${EGG}<div class="nm"><span>Elige el Novato de tu compañero</span></div></div>`}
+            </div>
+            <div class="dv-btns">${P ? `<button type="button" class="dv-btn" id="dv-pvm">− PG</button>` : ""}<button type="button" class="dv-btn big" id="dv-evo"${!nx || over || chispa < cost ? " disabled" : ""}>¡Digievoluciona!</button>${P ? `<button type="button" class="dv-btn" id="dv-pvp">+ PG</button>` : ""}</div>
+            ${P && P.f.tecnicas.some(t => t.firma && t.efecto && t.efecto.desatado) ? `<div class="dv-btns"><button type="button" class="dv-btn" id="dv-unleash"${chispa < 1 ? " disabled" : ""}>Desatar Firma · 1 Chispa</button></div>` : ""}
+            ${P && formaId !== dg.novato ? `<div class="dv-btns"><button type="button" class="dv-btn" id="dv-back">Volver a ${esc(S.byId.get(dg.novato)?.nombre || "Novato")}</button></div>` : ""}
+            <p class="dv-note">${!P ? "" : !nx ? "No hay otra forma elegida por encima." : over ? `${esc(nx[1])} supera tu máximo a este nivel.` : `A ${esc(S.byId.get(dg[nx[0]])?.nombre || nx[1])}: ${cost ? cost + " Chispa" : "gratis"}${chispa < cost ? `. Te faltan ${cost - chispa}.` : "."}`}</p>
+          </div>
+          <div class="grp">
+            <div class="g2"><label>Apodo ${txt("d.apodo", dg.apodo)}</label><label>Estados ${txt("d.estados", dg.estados, "Hambriento, Agotado…")}</label></div>
+            <div class="g2">${FORM20.map(([k, n]) => `<label>${n} <select data-k="d.${k}">${digiOpts20(n === "Modo" ? "Modo" : n, dg[k])}</select></label>`).join("")}</div>
+            ${P ? `<p class="hint">Crecimiento: +${2 * T.lv} PG por tu nivel${T.bc > P.f.bc ? `; usa tu BC (${sgn(T.bc)})` : ""}. <a href="#d-${slug(P.d.id)}">Abrir en el bestiario</a></p>` : ""}
+          </div>
+        </div>
+        ${P ? `${habBox20(P.f)}<h3>Acciones</h3>${P.f.ataques > 1 ? `<div class="act"><b>Ataque múltiple.</b> ${P.f.ataques} ataques con sus técnicas que no son la Firma.</div>` : ""}${(S.b20cur = P.f, "")}${P.f.tecnicas.map(t => tech20(t, { atq: P.atq, cd: P.cd, recarga: "5–6" })).join("")}${firmaBox20(P.f, P.d)}` : ""}
+      </section>
+    </div>
+  </div>`;
+  wireSheet20(c, { T, P, pgD, nx, cost, over, chispa });
+  if (S.evoFlash) { S.evoFlash = false; const sc = $("#dv-screen"); if (sc && !reduceMotion) sc.classList.add("flash"); }
+  if (fresh) window.scrollTo(0, 0);
+}
+function wireSheet20(c, X) {
+  const root = $(".sheet");
+  const NUM = /^(nivel|pg|bits|car\..+)$/;
+  root.addEventListener("change", e => {
+    if (e.target.dataset.skill) { const s = e.target.dataset.skill; c.pericias = e.target.checked ? [...new Set([...c.pericias, s])] : c.pericias.filter(x => x !== s); save20(); flash(); return sheet20(); }
+    const k = e.target.dataset.k; if (!k) return;
+    let v = e.target.value; if (NUM.test(k)) v = v === "" ? 0 : +v;
+    setPath(c, k, v);
+    if (k === "trasfondo" && TRAS20[v]) c.pericias = [...new Set([...c.pericias, TRAS20[v][0], TRAS20[v][1]])];
+    if (k === "d.novato") { c.d.forma = v; c.d.pg = null; }
+    if (/^d\.(campeon|perfecto|definitivo|modo)$/.test(k) && !v && c.d.forma === c.d[k.slice(2)]) c.d.forma = c.d.novato;
+    c.ejemplo = false; save20(); flash();
+    if (!/^(nombre|edad|programas|equipo|notas|d\.apodo|d\.estados)$/.test(k)) sheet20();
+  });
+  root.addEventListener("input", e => { const k = e.target.dataset.k; if (!k || NUM.test(k) || e.target.tagName === "SELECT") return; setPath(c, k, e.target.value); save20(); flash(); });
+  root.addEventListener("click", e => {
+    const p = e.target.closest(".pip"); if (!p) return;
+    const k = p.dataset.pip, v = +p.dataset.v, now = k === "carga" ? (c.carga ?? X.T.carga) : +c[k] || 0;
+    c[k] = now === v ? v - 1 : v; save20(); sheet20(); flash();
+  });
+  const pgSet = n => { c.d.pg = Math.max(0, Math.min(X.P.pg, n)); save20(); sheet20(); flash(); };
+  if ($("#dv-pvm")) $("#dv-pvm").addEventListener("click", () => pgSet(X.pgD - 1));
+  if ($("#dv-pvp")) $("#dv-pvp").addEventListener("click", () => pgSet(X.pgD + 1));
+  if ($("#dv-evo")) $("#dv-evo").addEventListener("click", () => {
+    if (!X.nx || X.over || X.chispa < X.cost) return;
+    if (c.d.forma === c.d.novato || !c.d.forma) c.d.pgPrev = X.pgD;
+    c.chispa = X.chispa - X.cost; c.d.forma = c.d[X.nx[0]];
+    c.d.pg = X.cost ? null : Math.min(X.pgD, (partner20(c, X.T, c.d.forma) || {}).pg || X.pgD);
+    S.evoFlash = true; save20(); sheet20(); flash();
+  });
+  if ($("#dv-unleash")) $("#dv-unleash").addEventListener("click", () => { if (X.chispa < 1) return; c.chispa = X.chispa - 1; S.evoFlash = true; save20(); sheet20(); flash(); });
+  if ($("#dv-back")) $("#dv-back").addEventListener("click", () => { c.d.forma = c.d.novato; c.d.pg = c.d.pgPrev ?? null; c.d.pgPrev = null; save20(); sheet20(); flash(); });
+  $("#sh-pick").addEventListener("change", e => { cur20 = e.target.value; save20(); sheet20(); });
+  $("#sh-new").addEventListener("click", () => { const n = blank20(); chars20.push(n); cur20 = n.id; save20(); sheet20(); });
+  $("#sh-del").addEventListener("click", () => {
+    const io = $("#sh-io"); io.hidden = false;
+    io.innerHTML = `<p>¿Borrar la ficha de <b>${esc(c.nombre || "Sin nombre")}</b>? No se puede deshacer.</p><div class="row-b"><button class="pill danger" id="io-yes" type="button">Sí, borrar</button><button class="pill" id="io-no" type="button">Cancelar</button></div>`;
+    $("#io-no").onclick = () => { io.hidden = true; };
+    $("#io-yes").onclick = () => { chars20 = chars20.filter(x => x.id !== c.id); if (!chars20.length) chars20 = [blank20()]; cur20 = chars20[0].id; save20(); sheet20(); };
+  });
+}
 
 boot();
 })();

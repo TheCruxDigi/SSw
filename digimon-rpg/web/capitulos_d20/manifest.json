@@ -1,0 +1,98 @@
+[
+ {
+  "id": "e00",
+  "n": "00",
+  "titulo": "Qué se conserva y qué cambia",
+  "grupo": "Fundamentos d20",
+  "archivo": "d00.md",
+  "resumen": "Qué comparte la edición d20 con la 2d6 y qué cambia."
+ },
+ {
+  "id": "e01",
+  "n": "01",
+  "titulo": "La tirada",
+  "grupo": "Fundamentos d20",
+  "archivo": "d01.md",
+  "resumen": "La tirada d20, la ventaja, el BC, las características y las 19 habilidades."
+ },
+ {
+  "id": "e02",
+  "n": "02",
+  "titulo": "El Tamer (clase)",
+  "grupo": "Personajes d20",
+  "archivo": "d02.md",
+  "resumen": "La clase Tamer del 1 al 20, sus rasgos, trasfondos, programas y las cinco Sendas."
+ },
+ {
+  "id": "e03",
+  "n": "03",
+  "titulo": "El compañero Digimon",
+  "grupo": "Personajes d20",
+  "archivo": "d03.md",
+  "resumen": "Formas, niveles y avances del compañero Digimon."
+ },
+ {
+  "id": "e04",
+  "n": "04",
+  "titulo": "Chispa, Vínculo y digievolución",
+  "grupo": "Personajes d20",
+  "archivo": "d04.md",
+  "resumen": "Cómo se gana y se gasta la Chispa y cómo funciona la digievolución en d20."
+ },
+ {
+  "id": "e05",
+  "n": "05",
+  "titulo": "Combate",
+  "grupo": "Reglas d20",
+  "archivo": "d05.md",
+  "resumen": "El asalto, las distancias, los ataques, el daño y los modificadores del Mundo Digital."
+ },
+ {
+  "id": "e06",
+  "n": "06",
+  "titulo": "Técnicas, palabras clave y estados",
+  "grupo": "Reglas d20",
+  "archivo": "d06.md",
+  "resumen": "Las 35 palabras clave y los estados con su salvación, y los efectos de Firma en d20."
+ },
+ {
+  "id": "e09",
+  "n": "09",
+  "titulo": "Habilidades especiales",
+  "grupo": "Reglas d20",
+  "archivo": "d09.md",
+  "resumen": "Qué son las habilidades especiales de los Digimon."
+ },
+ {
+  "id": "e11",
+  "n": "11",
+  "titulo": "Catálogo de habilidades especiales",
+  "grupo": "Reglas d20",
+  "archivo": "d11-habilidades.md",
+  "resumen": "Las 64 habilidades especiales de los Digimon, con su regla en d20 y en 2d6."
+ },
+ {
+  "id": "e07",
+  "n": "07",
+  "titulo": "Fichas del bestiario en d20",
+  "grupo": "Director de juego d20",
+  "archivo": "d07.md",
+  "resumen": "VD, tabla de cifras, roles, familias y plantillas de amenaza."
+ },
+ {
+  "id": "e08",
+  "n": "08",
+  "titulo": "Presupuesto de encuentros",
+  "grupo": "Director de juego d20",
+  "archivo": "d08.md",
+  "resumen": "Cómo montar un combate equilibrado con PX."
+ },
+ {
+  "id": "e10",
+  "n": "10",
+  "titulo": "Conversión rápida 2d6 → d20 (para el DJ)",
+  "grupo": "Director de juego d20",
+  "archivo": "d10.md",
+  "resumen": "Equivalencias para pasar material de 2d6 a d20."
+ }
+]

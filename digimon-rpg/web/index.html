@@ -65,6 +65,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .pill[aria-current="page"],.pill.on{background:var(--orange);color:var(--orange-ink);border-color:var(--orange)}
 .menu-btn{display:none}
 .theme-btn{width:36px;justify-content:center;padding:8px 0}
+.ed-btn{font-family:var(--f-lcd);font-size:18px;padding:5px 10px;letter-spacing:.04em}
+.ed-btn.on{background:var(--cyan);border-color:var(--cyan);color:#06121f}
 
 .shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);min-height:calc(100% - 54px)}
 .rail{border-right:1px solid var(--line);background:color-mix(in srgb,var(--surface) 92%,transparent);padding:16px 12px 40px;position:sticky;top:54px;align-self:start;max-height:calc(100vh - 54px);overflow:auto}
@@ -239,6 +241,16 @@ span.sub{display:inline}
 .firma-box dd{margin:0;font-size:14.5px;line-height:1.5}
 .fx-n{color:var(--orange)!important;font-weight:700!important}
 @media (max-width:560px){ .firma-box dl div{grid-template-columns:1fr} .firma-box header small{margin-left:0} }
+.act{margin:8px 0;font-size:14.5px;line-height:1.55}
+.act>b{font-family:var(--f-display);font-size:15.5px}
+.act i{color:var(--muted)}
+.hab20{margin:0;padding-left:1.1em;display:grid;gap:6px;font-size:14.5px}
+.car20 div{grid-template-rows:auto auto auto}
+.car20 b{font-size:28px!important}
+.car20 i{font-family:var(--f-lcd);font-style:normal;font-size:16px;line-height:1}
+.car20f{grid-template-columns:repeat(6,minmax(0,1fr))!important}
+@media (max-width:860px){ .car20f{grid-template-columns:repeat(3,minmax(0,1fr))!important} }
+.hab b{font-family:var(--f-lcd);font-size:18px;font-weight:400}
 .sb-gl{margin-top:10px;font-size:14px}
 .sb-gl summary{cursor:pointer;color:var(--cyan);font-weight:700}
 .sb-gl dl{display:grid;gap:6px;margin:8px 0 0}
@@ -358,6 +370,7 @@ span.sub{display:inline}
     <a class="pill" href="#bestiario" data-nav="bestiario">Bestiario</a>
     <a class="pill" href="#ficha" data-nav="ficha">Ficha</a>
     <a class="pill opt" href="#encuentro" data-nav="encuentro">Encuentro</a>
+    <button class="pill ed-btn" id="edBtn" type="button" title="Cambiar de edición: 2d6 o d20" aria-label="Cambiar de edición entre 2d6 y d20">2d6</button>
     <button class="pill theme-btn" id="themeBtn" type="button" aria-label="Cambiar entre tema oscuro y claro">◐</button>
   </nav>
 </header>
